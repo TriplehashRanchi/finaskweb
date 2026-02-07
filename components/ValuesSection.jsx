@@ -7,72 +7,91 @@ import { ArrowRight } from "lucide-react";
 const values = [
   {
     id: 1,
-    title: "Transparent & Trusted",
-    slug: "transparency",
-    description: "We help you with the best plan and mutual fund recommendations that suit you and your goals. No hidden costs, no confusing language.",
-    image: "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?q=80&w=2664&auto=format&fit=crop", // Meeting/Trust
+    title: "Caring People Before Numbers",
+    description:
+      "Behind every investment is a life story. We show up with empathy, clarity, and honesty — simplifying complexity and never promising what we can’t deliver. Clients and team members both feel seen, respected, and supported here.",
+    icon: (
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-10 h-10">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 01-1.043 3.296 3.745 3.745 0 01-3.296 1.043A3.745 3.745 0 0112 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 01-3.296-1.043 3.745 3.745 0 01-1.043-3.296A3.745 3.745 0 013 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 011.043-3.296 3.746 3.746 0 013.296-1.043A3.746 3.746 0 0112 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 013.296 1.043 3.746 3.746 0 011.043 3.296A3.745 3.745 0 0121 12z" />
+      </svg>
+    )
   },
   {
     id: 2,
-    title: "Personal & Accessible",
-    slug: "caring",
-    description: "Your dedicated financial guide will be available to answer, adapt, modify and customise your investment strategy on an ongoing basis.",
-    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=2576&auto=format&fit=crop", // Personal interaction
+    title: "Transparency No Fine Print",
+    description:
+      "Every plan, product, and strategy revolves around what’s best for you. We don’t just serve clients — we advocate for them with precision, care, and responsibility.",
+    icon: (
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-10 h-10">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
+      </svg>
+    ),
   },
   {
     id: 3,
-    title: "Flexible & Agile",
-    slug: "co-creation-of-wealth",
-    description: "We tailor your investments to fit your life so you have the freedom to invest, withdraw, pause and scale on your terms.",
-    image: "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2670&auto=format&fit=crop", // Team/Agile
+    title: "Spam-Free Your Time Is Sacred",
+    description:
+      "No noisy chasing, no pushy selling, no unnecessary interruptions. We respect your focus and space — delivering value with intention. Peace of mind comes before pressure.",
+   icon: (
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-10 h-10">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" />
+        <path strokeLinecap="round" strokeLinejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+      </svg>
+    )
   },
   {
     id: 4,
-    title: "100% Secure",
-    slug: "customer-obsession",
-    description: "Your data belongs to you. We don’t sell any personal info; and we always prioritise your interests — personal and financial — above all else.",
-    image: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?q=80&w=2670&auto=format&fit=crop", // Security/Tech
+    title: "Growth Mindset We Grow by Growing You",
+    description:
+      "We believe in evolution, not just returns. Clients grow wealth the right way, and our team grows with learning, support, and opportunity. No one is stuck — everyone is supported.",
+   icon: (
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-10 h-10">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M12 18v-5.25m0 0a6.01 6.01 0 001.5-.189m-1.5.189a6.01 6.01 0 01-1.5-.189m3.75 7.478a12.06 12.06 0 01-4.5 0m3.75 2.383a14.406 14.406 0 01-3 0M14.25 18v-.192c0-.983.658-1.823 1.508-2.316a7.5 7.5 0 10-7.517 0c.85.493 1.509 1.333 1.509 2.316V18" />
+      </svg>
+    )
   },
+  
 ];
 
 export default function ValuesSection() {
   return (
-    <section className="w-full bg-white py-16">
+    <section className="w-full   py-24 px-10">
       <div className="text-center mb-12 px-4">
-        <h2 className="text-4xl md:text-6xl font-bold text-slate-900 font-serif tracking-tight">
-          Our Core <span className="text-[#b08d55]">Values</span>
+        <h2 className="text-4xl md:text-5xl font-bold text-[#00394E] font-serif tracking-tight">
+          Our Core <span className="text-[#DAA434]">Values</span>
         </h2>
         <p className="mt-4 text-gray-600 max-w-2xl mx-auto text-lg">
           Expert financial solutions tailored to your unique needs and goals.
         </p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
-        {values.map((item) => (
-          <div key={item.id} className="group relative h-[500px] lg:h-[480px] overflow-hidden cursor-pointer">
-            {/* Background Image */}
-            <div 
-              className="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-110"
-              style={{ backgroundImage: `url(${item.image})` }}
-            ></div>
-            
-            {/* Gradient Overlay */}
-            <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent opacity-80 group-hover:opacity-90 transition-opacity duration-300"></div>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        {values.map((value, index) => (
+          <div
+            key={index}
+            className="group relative h-[360px] bg-white   overflow-hidden cursor-pointer transition-all duration-300"
+          >
+            {/* Hover Overlay (Navy Slide) */}
+            <div className="absolute inset-0 bg-[#00394E] translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out z-10"></div>
 
-            {/* Hover Color Overlay */}
-            <div className="absolute inset-0 bg-[#b08d55]/90 translate-y-full group-hover:translate-y-0 transition-transform duration-800 ease-in-out z-10"></div>
+            {/* Content Container */}
+            <div className="absolute inset-0 p-8 flex flex-col items-start justify-center z-20 transition-all duration-500 group-hover:items-start">
+              {/* Icon */}
+              <div className="mb-6 text-[#DAA434] bg-orange-50 p-2 rounded-xl group-hover:bg-white/10 group-hover:text-white transition-colors duration-500">
+                {value.icon}
+              </div>
 
-            {/* Content */}
-            <div className="absolute inset-0 p-10 pb-32 group-hover:pb-10 flex flex-col justify-center items-start text-start z-20 transition-all duration-500 translate-y-[35%] group-hover:translate-y-0">
-              <h3 className="text-2xl font-bold text-white mb-4 font-serif leading-tight">
-                {item.title}
+              {/* Title */}
+              <h3 className="text-2xl font-bold text-[#00394E] mb-3 font-serif group-hover:text-white transition-colors duration-500 delay-75">
+                {value.title}
               </h3>
-              <p className="text-gray-100 text-md leading-relaxed mb-6 transition-opacity duration-500 delay-100">
-                {item.description}
-              </p>
-               <Link href={`/values/${item.slug}`} className="opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-200 mt-4 flex items-center gap-2 text-white font-medium border-b border-white pb-1 hover:text-slate-900 hover:border-slate-900">
-                Read More <ArrowRight className="w-4 h-4" />
-              </Link>
+
+              {/* Description (Always Visible) */}
+              <div className="transition-all duration-500 overflow-hidden">
+                <p className="text-gray-500 group-hover:text-gray-300 text-sm leading-relaxed mt-2 transition-colors duration-500">
+                  {value.description}
+                </p>
+              </div>
             </div>
           </div>
         ))}

@@ -1,126 +1,213 @@
 "use client";
 
-import React from "react";
+import React, { useEffect, useState, useCallback } from "react";
 import Image from "next/image";
-import { ArrowLeft, ArrowRight } from "lucide-react";
+import { motion, AnimatePresence } from "framer-motion";
+
+// Smoother Transition Variants
+const variants = {
+  enter: (direction) => ({
+    x: direction > 0 ? 50 : -50,
+    opacity: 0,
+  }),
+  center: {
+    zIndex: 1,
+    x: 0,
+    opacity: 1,
+  },
+  exit: (direction) => ({
+    zIndex: 0,
+    x: direction < 0 ? 50 : -50,
+    opacity: 0,
+  }),
+};
+
+// Adjusted threshold for easier swipes
+const swipeConfidenceThreshold = 10000;
+const swipePower = (offset, velocity) => {
+  return Math.abs(offset) * velocity;
+};
 
 export default function TestimonialSection() {
-  const [currentIndex, setCurrentIndex] = React.useState(0);
-  const [direction, setDirection] = React.useState('right');
+  const [[page, direction], setPage] = useState([0, 0]);
+  const [isHovered, setIsHovered] = useState(false);
 
   const testimonials = [
     {
       id: 1,
-      quote: "Thanks, we've gained clarity and confidence in our financial future. Personalized approach and expert guidance have been invaluable. Highly recommend!",
-      tagline: "In every dream lies a path waiting to be discovered.",
-      author: "Andrew Taylor",
-      location: "From USA",
-      image: "/testimonial-andrew.png"
+      quote: "Palash Malik, Founder & CEO of FinAsk Value, has been extremely proactive in addressing queries related to portfolio management, PMS services, insurance products, and broader financial discussions. His personalized approach, combined with a clear focus on long-term value creation, is truly commendable.",
+      author: "Atul Bhola",
+      location: "Client",
+      image: "/testimonial-michael.png",
     },
     {
       id: 2,
-      quote: "FinAsk transformed how I manage my business finances. Their strategic insights helped me unlock new growth opportunities I hadn't even considered.",
-      tagline: "Success is not final, failure is not fatal.",
-      author: "Sarah Jenkins",
-      location: "Business Owner, UK",
-      image: "/testimonial-sarah.png"
+      quote: "I am very thankful for the work you have done for me over the past years. Your knowledge and a genuine interest in achieving the best for clients is what makes a truly professional Financial Adviser. I would highly recommend FinAsk Value to anyone wanting to achieve better financial outcomes.",
+      author: "Amit Yadav",
+      location: "Client",
+      image: "/testimonial-andrew.png",
     },
     {
       id: 3,
-      quote: "The level of transparency and dedication is unmatched. I finally feel like my portfolio is in safe hands, managed by people who truly care.",
-      tagline: "Trust is the currency of the future.",
-      author: "Michael Chen",
-      location: "Investor, Singapore",
-      image: "/testimonial-michael.png"
+      quote: "Super professionalism! Great Knowledge on Financial Products. Amazing Customer services. I have never seen financial advisor like Palash and FinAsk. They explained every detail clearly and helped me make confident financial decisions. ",
+      author: "Yogendra Malik",
+      location: "Client",
+      image: "/testimonial-michael.png",
     },
     {
       id: 4,
-      quote: "Creativity needs financial stability to thrive. FinAsk gave me the peace of mind to focus on my art while they handled the numbers perfectly.",
-      tagline: "Design is intelligence made visible.",
-      author: "Emily Carter",
-      location: "Creative Director, Canada",
-      image: "/testimonial-emily.png"
-    }
+      quote: "Worked with Palash and FinAsk Team in the past. Their professionalism, depth of financial knowledge, and genuine commitment to helping clients succeed really sets them apart in the industry.",
+      author: "Rohit Bhardwaj",
+      location: "Client",
+      image: "/testimonial-andrew.png",
+    },
+    {
+      id: 5,
+      quote: "We truly value the partnership and appreciate the consistent support from your team. The professionalism, timely assistance, and customer-centric approach have made our experience very positive.",
+      author: "Divya Sawhney",
+      location: "Client",
+      image: "/testimonial-sarah.png",
+    },
   ];
 
-  const handleNext = () => {
-    setDirection('right');
-    setCurrentIndex((prev) => (prev + 1) % testimonials.length);
-  };
+  const testimonialIndex = Math.abs(page % testimonials.length);
+  const currentTestimonial = testimonials[testimonialIndex];
 
-  const handlePrev = () => {
-    setDirection('left');
-    setCurrentIndex((prev) => (prev - 1 + testimonials.length) % testimonials.length);
-  };
+  // Manual pagination with direction
+  const paginate = useCallback((newDirection) => {
+    setPage((prev) => [prev[0] + newDirection, newDirection]);
+  }, []);
 
-  const currentTestimonial = testimonials[currentIndex];
+  // Auto-slide effect with cleaner reset logic
+  useEffect(() => {
+    // If user is hovering or dragging, don't auto-slide
+    if (isHovered) return;
+
+    const interval = setInterval(() => {
+        paginate(1);
+    }, 5000); 
+
+    return () => clearInterval(interval);
+  }, [paginate, isHovered, page]); // Dependency on 'page' ensures timer resets on manual change
 
   return (
-    <section className="py-24 pb-30 bg-white overflow-hidden">
-      <div className="max-w-7xl mx-auto px-6 lg:px-8">
-        <div className="flex flex-col lg:flex-row gap-40 items-center justify-center">
+    <section className="pb-24 relative overflow-hidden bg-[#FDF9FB]">
+      <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8 relative min-h-[500px] flex items-center">
+        
+        {/* RIGHT: Dark Background Block */}
+        <div className="absolute top-0 right-0 w-full lg:w-[60%] h-full bg-[#001F2B] z-0 "></div>
+
+        <div className="relative z-10 w-full grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-0 items-center">
           
-          {/* LEFT: Overlapping Circles */}
-          <div className="relative  w-full lg:w-1/2 flex items-center justify-center lg:justify-start">
-            {/* Circle 1: Quote Icon */}
-            <div key={`quote-${currentIndex}`} className={`absolute left-1/2 -translate-x-[80%] lg:translate-x-0 lg:left-10 top-1/2 -translate-y-1/2 w-40 h-40 rounded-full border border-gray-200 bg-white flex items-center justify-center z-10 ${direction === 'right' ? 'animate-slide-in-right' : 'animate-slide-in-left'}`}>
-              <Image
-                src="/quote.png"
-                alt="Quote"
-                width={44}
-                height={44}
-                className="w-10 h-10 object-contain opacity-80"
-              />            </div>
+          {/* LEFT: White Testimonial Card (Overlapping) */}
+          <div 
+            className="w-full lg:w-[85%] bg-white shadow-2xl p-8 md:p-12 lg:p-8 relative lg:ml-24 xl:ml-32 overflow-hidden cursor-grab active:cursor-grabbing select-none"
+            onMouseEnter={() => setIsHovered(true)}
+            onMouseLeave={() => setIsHovered(false)}
+            // Touch events for mobile to prevent conflicting scroll if needed, though drag usually handles it
+          >
+            <AnimatePresence initial={false} custom={direction} mode="wait">
+                <motion.div
+                    key={page}
+                    custom={direction}
+                    variants={variants}
+                    initial="enter"
+                    animate="center"
+                    exit="exit"
+                    transition={{
+                        x: { type: "tween", ease: "easeInOut", duration: 0.4 }, // Smoother glide than spring
+                        opacity: { duration: 0.3 }
+                    }}
+                    drag="x"
+                    dragConstraints={{ left: 0, right: 0 }}
+                    dragElastic={1} 
+                    onDragEnd={(e, { offset, velocity }) => {
+                        const swipe = swipePower(offset.x, velocity.x);
+                        if (swipe < -swipeConfidenceThreshold) {
+                            paginate(1);
+                        } else if (swipe > swipeConfidenceThreshold) {
+                            paginate(-1);
+                        }
+                    }}
+                    className="w-full h-full"
+                >
+                    {/* Top Row: Stars */}
+                    <div className="flex justify-between items-start mb-4">
+                        <div className="flex gap-1 text-[#DAA434]">
+                            {[...Array(5)].map((_, i) => (
+                                <svg key={i} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5">
+                                    <path fillRule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clipRule="evenodd" />
+                                </svg>
+                            ))}
+                        </div>
+                    </div>
 
-            {/* Circle 2: Image */}
-            <div key={currentIndex} className={`absolute left-1/2 -translate-x-[20%] lg:translate-x-0 lg:left-38 top-1/2 -translate-y-1/2 w-40 h-40 rounded-full overflow-hidden shadow-xl z-20 ${direction === 'right' ? 'animate-rotate-in-right' : 'animate-rotate-in-left'}`}>
-              <Image
-                src={currentTestimonial.image}
-                alt={currentTestimonial.author}
-                width={300}
-                height={300}
-                className="object-cover w-full h-full"
-              />
+                    {/* User Info */}
+                    <div className="flex items-center gap-4 mb-4">
+                        <div className="relative w-14 h-14 rounded-full overflow-hidden border-2 border-gray-100 pointer-events-none">
+                            <Image
+                                src={currentTestimonial.image}
+                                alt={currentTestimonial.author}
+                                fill
+                                className="object-cover"
+                            />
+                        </div>
+                        <div>
+                            <h4 className="font-serif text-lg font-bold text-[#001F2B]">
+                                {currentTestimonial.author}
+                            </h4>
+                            <p className="text-[#DAA434] text-sm font-medium">
+                                {currentTestimonial.location}
+                            </p>
+                        </div>
+                    </div>
+
+                    {/* Quote Text */}
+                    <div className="min-h-[120px]">
+                        <p className="text-gray-600 leading-relaxed text-sm select-none">
+                            {currentTestimonial.quote}
+                        </p>
+                    </div>
+
+                </motion.div>
+            </AnimatePresence>
+            
+            {/* Progress/Indicators */}
+             <div className="flex gap-2 mt-4 justify-center md:justify-start">
+                     {testimonials.map((_, idx) => (
+                         <div 
+                            key={idx} 
+                            onClick={() => {
+                                // Calculate direction based on index difference for smooth transition
+                                const newDirection = idx > testimonialIndex ? 1 : -1;
+                                // We can just jump directly by setting absolute page, but to keep 'paginate' logic simple:
+                                // A simplified jump:
+                                if (idx !== testimonialIndex) {
+                                    setPage([idx, newDirection]);
+                                }
+                            }}
+                            className={`h-1 rounded-full transition-all duration-300 cursor-pointer ${idx === testimonialIndex ? 'w-8 bg-[#DAA434]' : 'w-2 bg-gray-200'}`}
+                         />
+                     ))}
             </div>
+
           </div>
 
-          {/* RIGHT: Content */}
-          <div className="flex flex-col justify-center">
-            <div key={currentIndex} className={direction === 'right' ? 'animate-slide-in-right' : 'animate-slide-in-left'}>
-              <p className="text-[#b08d55] font-bold text-sm mb-6 uppercase tracking-wide">
-                What Our Customers Feel About Our Services!
-              </p>
-              
-              <h3 className="text-xl md:text-2xl lg:text-2xl font-bold text-slate-900 leading-relaxed mb-10">
-                {currentTestimonial.quote}
-              </h3>
-              
-              <div className="flex items-center gap-8">
-                {/* Navigation Buttons */}
-                 <div className="flex gap-4">
-                  <button 
-                    onClick={handlePrev}
-                    className="w-12 h-12 cursor-pointer rounded-full border border-gray-300 flex items-center justify-center text-gray-500 hover:bg-[#b08d55] hover:border-[#b08d55] hover:text-white transition-all duration-300"
-                  >
-                    <ArrowLeft size={20} />
-                  </button>
-                  <button 
-                    onClick={handleNext}
-                    className="w-12 h-12 cursor-pointer rounded-full border border-gray-300 flex items-center justify-center text-gray-500 hover:bg-[#b08d55] hover:border-[#b08d55] hover:text-white transition-all duration-300"
-                  >
-                    <ArrowRight size={20} />
-                  </button>
-                </div>
+          {/* RIGHT: Content Title Block (Inside Dark Area) */}
+          <div className="pl-0 lg:pl-[30%] pt-10 lg:pt-0 relative z-10 text-center lg:text-left">
+            <span className="text-[#DAA434] font-bold tracking-[0.2em] text-sm uppercase mb-4 block">
+              TESTIMONIALS
+            </span>
+            <h2 className="text-4xl md:text-4xl font-bold text-white mb-6 font-serif">
+              What Our Clients Says
+            </h2>
+            <div className="w-40 h-1 bg-[#DAA434] mb-6 mx-auto lg:mx-0" />
 
-                {/* Author Details */}
-                <div>
-                  <h4 className="text-lg font-bold text-slate-900">{currentTestimonial.author}</h4>
-                  <p className="text-gray-500 text-sm">{currentTestimonial.location}</p>
-                </div>
-              </div>
-            </div>
+            <p className="text-gray-400 max-w-md mx-auto lg:mx-0 leading-[1.4] mb-0 text-md">
+              Discover how FinAsk has empowered individuals and businesses to
+              achieve their financial dreams.
+            </p>
           </div>
-
         </div>
       </div>
     </section>

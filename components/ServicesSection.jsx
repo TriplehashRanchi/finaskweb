@@ -26,13 +26,13 @@ const services = [
 
 export default function ServicesSection() {
   return (
-    <section className="py-24 bg-white">
+    <section className="pt-24">
       <div className="max-w-7xl mx-auto  ">
         
         {/* Section Heading */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-6xl font-bold text-slate-900 font-serif tracking-tight">
-            Our <span className="text-[#b08d55]">Services</span>
+          <h2 className="text-4xl md:text-5xl font-bold text-[#00394E] font-serif tracking-tight">
+            Our <span className="text-[#DAA434]">Services</span>
           </h2>
           <p className="mt-4 text-gray-600 max-w-2xl mx-auto text-lg">
             Expert financial solutions tailored to your unique needs and goals.
@@ -45,11 +45,11 @@ export default function ServicesSection() {
               key={service.id} 
               className="px-12 py-12 flex flex-col items-start text-left group"
             >
-              <div className="mb-6 p-3 rounded-full border-2  border-[#b08d55] transition-colors duration-300">
-                <service.icon strokeWidth={1.5} size={32} className=" text-[#b08d55] transition-colors duration-300" />
+              <div className="mb-6 p-3 rounded-full border-2  border-[#DAA434] transition-colors duration-300">
+                <service.icon strokeWidth={1.5} size={32} className=" text-[#DAA434] transition-colors duration-300" />
               </div>
               
-              <h3 className="text-2xl font-bold text-slate-900 mb-6 font-serif leading-tight group-hover:text-[#b08d55] transition-colors">
+              <h3 className="text-2xl font-bold text-[#00394E] mb-6 font-serif leading-tight group-hover:text-[#DAA434] transition-colors">
                 {service.title}
               </h3>
               
@@ -57,7 +57,7 @@ export default function ServicesSection() {
                 {service.description}
               </p>
               
-              <a href="#" className="mt-auto inline-flex items-center text-sm font-bold text-slate-900 hover:text-[#b08d55] transition-colors uppercase tracking-wider">
+              <a href="#" className="mt-auto inline-flex items-center text-sm font-bold text-[#00394E] hover:text-[#DAA434] transition-colors uppercase tracking-wider">
                 Learn More
                 <ChevronsRight size={16} className="ml-2" />
               </a>

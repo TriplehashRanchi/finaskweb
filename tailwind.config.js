@@ -19,6 +19,12 @@ const config = {
           500: "#c88d65",
           600: "#a3835e",
         },
+        brand: {
+          navy: "#00394E",   // Deep Teal/Navy: Headers, footer, body text
+          coral: "#D44659",  // Warm Coral Red: CTAs, buttons, highlights
+          white: "#FDF9FB",  // Soft White: Main background
+          gold: "#DAA434",   // Warm Mustard: Icons, accents, hover effects
+        },
       },
     },
   },

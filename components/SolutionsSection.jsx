@@ -26,11 +26,11 @@ const solutions = [
 
 export default function SolutionsSection() {
   return (
-    <section className="pb-10">
+    <section className="py-24">
       {/* Section Heading */}
       <div className="text-center mb-12 px-4">
-        <h2 className="text-4xl md:text-6xl font-bold text-slate-900 font-serif tracking-tight">
-          Elevate Your <span className="text-[#b08d55]">Financial Growth</span>
+        <h2 className="text-4xl md:text-5xl font-bold text-[#00394E] font-serif tracking-tight">
+          Elevate Your <span className="text-[#DAA434] ">Financial Growth</span>
         </h2>
         <p className="mt-4 text-gray-600 max-w-2xl mx-auto text-lg">
           Expert financial solutions tailored to your unique needs and goals.
@@ -38,7 +38,7 @@ export default function SolutionsSection() {
       </div>
 
       {/* Image & Content Box */}
-      <div className="relative h-[600px] mx-4 lg:mx-16  overflow-hidden bg-slate-900">
+      <div className="relative h-[600px] mx-4 lg:mx-16  overflow-hidden bg-[#00394E]">
         {/* Background Image Placeholder */}
         {/* Replace the style below with your actual image: backgroundImage: 'url(/path/to/image.jpg)' */}
         <div 
@@ -49,9 +49,7 @@ export default function SolutionsSection() {
           }}
         ></div>
         
-        {/* Overlay for better text contrast if needed */}
-        <div className="absolute inset-0 bg-black/20"></div>
-
+        
         {/* Content Container */}
         <div className="absolute bottom-0 left-0 w-full z-10">
           <div className="  mx-auto px-6 lg:p-6  ">
@@ -69,7 +67,7 @@ export default function SolutionsSection() {
                     
                     <a 
                       href={item.link} 
-                      className="inline-flex items-center gap-2 text-white font-medium text-md hover:text-[#b08d55] transition-colors group/link"
+                      className="inline-flex items-center gap-2 text-white font-medium text-md hover:text-[#DAA434] transition-colors group/link"
                     >
                       Lets Talk
                       <ArrowUpRight size={16} className="transition-transform group-hover/link:translate-x-0.5 group-hover/link:-translate-y-0.5" />
@@ -77,7 +75,7 @@ export default function SolutionsSection() {
                   </div>
 
                   {/* Hover Gradient Effect */}
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                  <div className="absolute inset-0 bg-gradient-to-t from-[#00394E]/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 </div>
               ))}
             </div>

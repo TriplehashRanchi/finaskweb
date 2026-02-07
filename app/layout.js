@@ -22,6 +22,9 @@ export const metadata = {
   description: "Wealth Management Hero Section",
 };
 
+import Navbar from "@/components/Navbar";
+import Preloader from "@/components/Preloader";
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
@@ -31,6 +34,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${playfair.variable} ${manrope.variable} ${greatVibes.variable} font-sans antialiased`}
       >
+        <Navbar />
         {children}
       </body>
     </html>

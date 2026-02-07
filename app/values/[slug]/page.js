@@ -1,7 +1,7 @@
 import { valuesData } from "@/app/data/values";
 import Image from "next/image";
 import Link from "next/link";
-import Navbar from "@/components/Navbar";
+
 import Footer from "@/components/Footer";
 import CTASection from "@/components/CTASection";
 import { notFound } from "next/navigation";
@@ -33,7 +33,7 @@ export default async function ValueDetailsPage({ params }) {
 
   return (
     <>
-      <Navbar />
+
       <main className="  min-h-screen  ">
       {/* Hero Section */}
       {/* Hero Section */}

@@ -1,233 +1,198 @@
-"use client";
-
-import Image from "next/image";
+'use client';
 import { useState, useEffect } from "react";
+import Image from "next/image";
 import Link from "next/link";
-import { valuesData } from "@/app/data/values";
+import { ChevronRight } from "lucide-react";
 
-export default function Navbar({ isScrolled: externalIsScrolled, alwaysScrolled = false }) {
-  const [internalIsScrolled, setInternalIsScrolled] = useState(false);
+export default function Navbar() {
+  const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
-    if (alwaysScrolled) return;
-    
     const handleScroll = () => {
-      if (window.scrollY > 50) {
-        setInternalIsScrolled(true);
-      } else {
-        setInternalIsScrolled(false);
-      }
+      setIsScrolled(window.scrollY > 20);
     };
-
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
-  }, [alwaysScrolled]);
+  }, []);
+  
+  // Brand Theme:
+  // Text: Navy (#00394E) or White (when transparent)
+  // Hover/Accent: Gold (#DAA434)
+  // Button: Coral (#D44659)
 
-  const isScrolled = alwaysScrolled || externalIsScrolled || internalIsScrolled;
+  const textColorClass = isScrolled ? "text-[#00394E]" : "text-white";
+  const hoverColorClass = "text-[#DAA434]";
+  
+  const navLinkClass = `text-[14px] font-medium transition-colors duration-300 hover:${hoverColorClass} ${textColorClass}`;
+  
+  // Mega Menu Container Style (Wide, White, Shadow)
+  const megaMenuClass = "absolute  top-17 left-0 w-[600px] bg-white shadow-2xl rounded-md   opacity-0 invisible translate-y-4 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-300 ease-out z-50 p-6 border border-gray-100";
+  
+  // List Item Style with Chevron
+  const ListItem = ({ href, children }) => (
+    <li>
+      <Link href={href} className="group/item flex items-center space-x-2 text-[13px] font-medium text-[#00394E] hover:text-[#DAA434] transition-colors py-1.5">
+         <ChevronRight className="w-3.5 h-3.5 text-[#00394E]/40 group-hover/item:text-[#DAA434] transition-colors" />
+         <span>{children}</span>
+      </Link>
+    </li>
+  );
 
+  // Data lists
+  const insuranceItems = [
+    { name: "Health Insurance", slug: "health-insurance" },
+    { name: "Super Health Top-Up", slug: "super-health-top-up" },
+    { name: "Personal Accident Insurance", slug: "personal-accident-insurance" },
+    { name: "Critical Illness Insurance", slug: "critical-illness-insurance" },
+    { name: "Life Insurance", slug: "life-insurance" },
+    { name: "Term Insurance", slug: "term-insurance" },
+    { name: "ULIP", slug: "ulip" },
+    { name: "Traditional / Guaranteed Savings products", slug: "traditional-savings" },
+    { name: "Motor Insurance", slug: "motor-insurance" },
+    { name: "Travel Insurance", slug: "travel-insurance" },
+    { name: "Fire & Burglary Insurance", slug: "fire-burglary-insurance" },
+    { name: "Property Insurance", slug: "property-insurance" },
+    { name: "Marine & Cargo Insurance", slug: "marine-cargo-insurance" },
+    { name: "Corporate Insurance", slug: "corporate-insurance" },
+    { name: "Director’s Life Insurance", slug: "directors-life-insurance" },
+    { name: "Cyber Insurance", slug: "cyber-insurance" }
+  ];
+
+  const investmentItems = [
+    { name: "Mutual Funds", slug: "mutual-funds" },
+    { name: "Bonds — Building Calm Amidst the Clamor", slug: "bonds" },
+    { name: "PMS (Portfolio Management Services)", slug: "pms" },
+    { name: "AIFs (Alternative Investment Funds)", slug: "aifs" },
+    { name: "Unlisted Equity — Where Vision Meets Venture", slug: "unlisted-equity" },
+    { name: "REITs", slug: "reits" },
+    { name: "InvITs", slug: "invits" },
+    { name: "Fractional Commercial Real Estate", slug: "fractional-commercial-real-estate" },
+    { name: "P2P Lending", slug: "p2p-lending" },
+    { name: "Alternative Fixed Income", slug: "alternative-fixed-income" },
+    { name: "Corporate FDRs", slug: "corporate-fdrs" },
+    { name: "GIFT City", slug: "gift-city" },
+    { name: "E-Gold", slug: "e-gold" },
+    { name: "National Pension System (NPS)", slug: "nps" },
+    { name: "Stock & Broking", slug: "stock-broking" }
+  ];
+
+  
   return (
-    <div className="fixed top-0 left-0 right-0 z-50 flex justify-center pt-6">
-      <nav className={`relative flex items-center justify-between transition-all duration-500 ease-in-out ${isScrolled ? "w-[95%] max-w-7xl bg-white/90 border-gray-200/50 border rounded-full px-6 py-3 shadow-2xl backdrop-blur-md" : "w-full max-w-[1440px] bg-transparent border-transparent border-0 rounded-none px-10 py-6 shadow-none backdrop-blur-none"}`}>
+    <div className={`fixed top-0 left-0 right-0 z-[100] flex justify-center transition-all duration-700 ${isScrolled ? "pt-2" : "pt-6"}`}>
+      <nav 
+        className={`
+          relative flex items-center justify-between transition-all duration-500 ease-in-out 
+          ${isScrolled 
+            ? "w-[92%] max-w-[1600px] bg-[#FDF9FB] border-gray-200/50 border shadow-2xl backdrop-blur-md px-6 py-2.5 rounded-full" 
+            : "w-full max-w-[1500px] bg-transparent border-transparent px-10 py-4 shadow-none rounded-none backdrop-blur-none"}
+        `}
+      >
         
-        {/* 1. LOGO (Left) */}
-        <div className="flex items-center gap-3 shrink-0">
-          <Link href="/" className={`rounded-full p-1.5 transition-colors duration-300 ${isScrolled ? "" : "bg-white"}`}>
-             <Image
-              src="/logo.webp"
-              alt="Finask Logo"
-              width={100}
-              height={30}
-              className="object-contain"
-            />
+        {/* Logo */}
+        <div className="shrink-0 mr-4">
+          <Link href="/" className="block">
+             <Image 
+                src="/logo.webp" 
+                alt="Finask Logo" 
+                width={isScrolled ? 140 : 160} 
+                height={isScrolled ? 35 : 40} 
+                className={`object-contain transition-all duration-500 ${!isScrolled ? "brightness-0 invert" : ""}`} 
+                priority 
+             />
           </Link>
         </div>
 
-        {/* 2. CENTER LINKS (Merged Left & Right Menus) */}
-        <div className={`hidden xl:flex items-center gap-6 text-sm font-medium transition-colors duration-300 ${isScrolled ? "text-slate-700" : "text-gray-200"}`}>
-       
-          {/* About FinAsk */}
-          <div className="group relative cursor-pointer h-full flex items-center">
-            <Link href="/about" className="group-hover:text-[#b08d55] text-[15px]  transition-colors py-2 flex items-center gap-1">
-              About
-            
-            </Link>
-             
-          </div>
+        {/* Navigation */}
+        <div className="hidden xl:flex items-center gap-6 2xl:gap-6 grow justify-center">
 
-          {/* Our Services (Mega Menu) */}
-          <div className="group cursor-pointer h-full flex items-center">
-            <span className="group-hover:text-[#b08d55]  text-[15px] transition-colors py-2 flex items-center gap-1">
-              Services
-              <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="transition-transform duration-300 group-hover:-rotate-180 opacity-70">
-                <path d="m6 9 6 6 6-6"/>
-              </svg>
-            </span>
+            {/* About Us */}
+            <Link href="/about" className={navLinkClass}>About Us</Link>
 
-            {/* Mega Menu Container */}
-            <div className={`absolute top-full left-1/2 -translate-x-1/2 w-[90vw] max-w-[1100px] shadow-2xl rounded-b-xl ring-1 opacity-0 invisible translate-y-4 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-300 ease-out z-50 p-8 cursor-default mt-2 border ${isScrolled ? "bg-white ring-black/5 text-slate-600 border-gray-100" : "bg-[#1a202c] ring-white/10 text-gray-300 border-white/10"}`}>
-              <div className={`grid grid-cols-5 gap-8 divide-x ${isScrolled ? "divide-gray-100" : "divide-white/10"}`}>
-                {/* Column A: Insurance */}
-                <div className="space-y-4">
-                  <h3 className="font-bold text-[#b08d55] text-xs uppercase tracking-wider flex items-center gap-2">Insurance</h3>
-                  <ul className={`space-y-2 text-[13px] font-medium ${isScrolled ? "text-slate-500" : "text-gray-400"}`}>
-                    {[
-                      { name: "Health Insurance", slug: "health-insurance" },
-                      { name: "Super Health Top-Up", slug: "super-health-top-up" },
-                      { name: "Personal Accident", slug: "personal-accident" },
-                      { name: "Critical Illness", slug: "critical-illness" },
-                      { name: "Life Insurance", slug: "life-insurance" },
-                      { name: "Term Insurance", slug: "term-insurance" },
-                      { name: "Motor Insurance", slug: "motor-insurance" },
-                      { name: "Travel Insurance", slug: "travel-insurance" },
-                      { name: "Property Insurance", slug: "property-insurance" },
-                      { name: "Marine & Cargo", slug: "marine-cargo" },
-                      { name: "Fire & Burglary", slug: "fire-burglary" },
-                      { name: "Corporate Insurance", slug: "corporate-insurance" },
-                      { name: "Cyber Insurance", slug: "cyber-insurance" },
-                      { name: "Keyman Insurance", slug: "keyman-insurance" }
-                    ].map((item) => (
-                      <li key={item.slug}>
-                        <Link href={`/services/${item.slug}`} className={`hover:translate-x-1 transition-all duration-200 cursor-pointer block ${isScrolled ? "hover:text-[#b08d55]" : "hover:text-white"}`}>
-                          {item.name}
-                        </Link>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-                {/* Column B: Investments */}
-                <div className="space-y-4 pl-4">
-                  <h3 className="font-bold text-[#b08d55] text-xs uppercase tracking-wider">Investments</h3>
-                  <ul className={`space-y-2 text-[13px] font-medium ${isScrolled ? "text-slate-500" : "text-gray-400"}`}>
-                    {[
-                      { name: "Mutual Funds", slug: "mutual-funds" },
-                      { name: "Bonds", slug: "bonds" },
-                      { name: "PMS", slug: "pms" },
-                      { name: "AIFs", slug: "aifs" },
-                      { name: "Unlisted Equity", slug: "unlisted-equity" },
-                      { name: "REITs", slug: "reits-invits" },
-                      { name: "InvITs", slug: "invits" },
-                      { name: "Fractional Real Estate", slug: "fractional-real-estate" },
-                      { name: "P2P Lending", slug: "p2p-lending" },
-                      { name: "Corporate FDRs", slug: "corporate-fdrs" },
-                      { name: "Alternative Fixed Income", slug: "alternative-fixed-income" },
-                      { name: "GIFT City", slug: "gift-city" },
-                      { name: "Stock & Broking", slug: "stock-broking" },
-                      { name: "NPS", slug: "nps" },
-                      { name: "E-Gold", slug: "e-gold" }
-                    ].map((item) => (
-                      <li key={item.slug}>
-                        <Link href={`/services/${item.slug}`} className={`hover:translate-x-1 transition-all duration-200 cursor-pointer block ${isScrolled ? "hover:text-[#b08d55]" : "hover:text-white"}`}>
-                          {item.name}
-                        </Link>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-                {/* Column C: Goal Planning */}
-                <div className="space-y-4 pl-4">
-                  <h3 className="font-bold text-[#b08d55] text-xs uppercase tracking-wider">Goal Planning</h3>
-                  <ul className={`space-y-2 text-[13px] font-medium ${isScrolled ? "text-slate-500" : "text-gray-400"}`}>
-                    {[
-                      { name: "Retirement Planning", slug: "retirement-planning" },
-                      { name: "Home Purchase", slug: "home-purchase" },
-                      { name: "Child Education", slug: "child-education" },
-                      { name: "NRI Corner", slug: "nri-corner" },
-                      { name: "Women Corner", slug: "women-corner" },
-                      { name: "Trust Formation", slug: "trust-formation" },
-                      { name: "Will Writing", slug: "will-writing" },
-                      { name: "Estate Planning", slug: "estate-planning" },
-                      { name: "Executor Services", slug: "executor-services" },
-                      { name: "Succession & Legacy", slug: "succession-legacy" }
-                    ].map((item) => (
-                      <li key={item.slug}>
-                        <Link href={`/services/${item.slug}`} className={`hover:translate-x-1 transition-all duration-200 cursor-pointer block ${isScrolled ? "hover:text-[#b08d55]" : "hover:text-white"}`}>
-                          {item.name}
-                        </Link>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-                {/* Column D: Consultation */}
-                <div className="space-y-4 pl-4">
-                  <h3 className="font-bold text-[#b08d55] text-xs uppercase tracking-wider">Consultation</h3>
-                  <ul className={`space-y-2 text-[13px] font-medium ${isScrolled ? "text-slate-500" : "text-gray-400"}`}>
-                    {[
-                      { name: "1:1 Consult Desk", slug: "consult-desk" },
-                      { name: "Legal Advisory", slug: "legal-advisory" },
-                      { name: "Tax Advisory", slug: "tax-advisory" },
-                      { name: "Family Office", slug: "family-office" }
-                    ].map((item) => (
-                      <li key={item.slug}>
-                        <Link href={`/services/${item.slug}`} className={`hover:translate-x-1 transition-all duration-200 cursor-pointer block ${isScrolled ? "hover:text-[#b08d55]" : "hover:text-white"}`}>
-                          {item.name}
-                        </Link>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-                {/* Column E: Empowerment */}
-                <div className="space-y-4 pl-4   -my-8 py-8 -mr-8 pr-8 rounded-br-xl">
-                  <h3 className="font-bold text-[#b08d55] text-xs uppercase tracking-wider">Empowerment</h3>
-                  <ul className="space-y-3 text-[13px] text-gray-400 font-medium">
-                    {[
-                      { name: "Investor Education", slug: "investor-education" },
-                      { name: "Financial Literacy", slug: "financial-literacy" },
-                      { name: "Next-Gen Coaching", slug: "next-gen-coaching" },
-                      { name: "Purpose Beyond Profit", slug: "purpose-beyond-profit" }
-                    ].map((item) => (
-                      <li key={item.slug}>
-                        <Link href={`/services/${item.slug}`} className={`hover:translate-x-1 transition-all duration-200 cursor-pointer flex items-center gap-2 ${isScrolled ? "hover:text-[#b08d55]" : "hover:text-white"}`}>
-                          <span className="w-1.5 h-1.5 rounded-full bg-[#b08d55]"></span>{item.name}
-                        </Link>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              </div>
+            {/* Insurance Mega Menu */}
+            <div className="group relative h-full flex items-center cursor-pointer">
+                <span className={`${navLinkClass} flex items-center gap-1 py-4`}>
+                   Insurance
+                   <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="transition-transform duration-300 group-hover:-rotate-180 opacity-70"><path d="m6 9 6 6 6-6"/></svg>
+                </span>
+                 <div className={megaMenuClass}>
+                    <div className="grid grid-cols-2 gap-8">
+                        <div>
+                            <ul className="space-y-1">
+                                {insuranceItems.slice(0, 8).map((item) => (
+                                    <ListItem key={item.slug} href={`/services/${item.slug}`}>{item.name}</ListItem>
+                                ))}
+                            </ul>
+                        </div>
+                        <div>
+                            <ul className="space-y-1">
+                                {insuranceItems.slice(8).map((item) => (
+                                    <ListItem key={item.slug} href={`/services/${item.slug}`}>{item.name}</ListItem>
+                                ))}
+                            </ul>
+                        </div>
+                    </div>
+                 </div>
             </div>
-          </div>
 
-          {/* Portfolio */}
-           <div className="group relative cursor-pointer h-full flex items-center">
-            <span className="group-hover:text-[#b08d55]  text-[15px] transition-colors py-2 flex items-center gap-1">
-              Values
-              <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="transition-transform duration-300 group-hover:-rotate-180 opacity-70">
-                <path d="m6 9 6 6 6-6"/>
-              </svg>
-            </span>
-            <div className={`absolute top-full left-0 mt-5.5 w-64 shadow-xl rounded-b-xl ring-1 opacity-0 invisible translate-y-2 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-300 ease-out z-50 overflow-hidden border ${isScrolled ? "bg-white ring-black/5 text-slate-600 border-gray-100" : "bg-[#1a202c] ring-white/10 text-gray-300 border-white/10"}`}>
-              <ul className="py-2 text-sm">
-                {valuesData.map((item) => (
-                  <li key={item.slug}>
-                    <Link href={`/values/${item.slug}`} className={`block px-5 py-2.5 transition-colors ${isScrolled ? "hover:bg-gray-50 hover:text-[#b08d55]" : "hover:bg-white/5 hover:text-[#b08d55]"}`}>
-                      {item.title}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
+            {/* Investment Mega Menu */}
+             <div className="group relative h-full flex items-center cursor-pointer">
+                <span className={`${navLinkClass} flex items-center gap-1 py-4`}>
+                   Investment
+                   <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="transition-transform duration-300 group-hover:-rotate-180 opacity-70"><path d="m6 9 6 6 6-6"/></svg>
+                </span>
+                 <div className={megaMenuClass}>
+                    <div className="grid grid-cols-2 gap-8">
+                        <div>
+                            <ul className="space-y-1">
+                                {investmentItems.slice(0, 8).map((item) => (
+                                    <ListItem key={item.slug} href={`/services/${item.slug}`}>{item.name}</ListItem>
+                                ))}
+                            </ul>
+                        </div>
+                        <div>
+                            <ul className="space-y-1">
+                                {investmentItems.slice(8).map((item) => (
+                                    <ListItem key={item.slug} href={`/services/${item.slug}`}>{item.name}</ListItem>
+                                ))}
+                            </ul>
+                        </div>
+                    </div>
+                 </div>
             </div>
-          </div>
 
-           <Link href="/careers" className="hover:text-[#b08d55]  text-[15px] transition-colors">Careers</Link>
+            {/* Services Mega Menu */}
+            <div className="group relative h-full flex items-center cursor-pointer">
+                <span className={`${navLinkClass} flex items-center gap-1 py-4`}>
+                   Services
+                   <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="transition-transform duration-300 group-hover:-rotate-180 opacity-70"><path d="m6 9 6 6 6-6"/></svg>
+                </span>
+                 <div className="absolute top-17 left-1/2 -translate-x-1/2 w-[300px] bg-white shadow-2xl rounded-md   opacity-0 invisible translate-y-4 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-300 ease-out z-50 p-4 border border-gray-100 cursor-default">
+                    <ul className="space-y-1">
+                         {[
+                            { name: "Trust Formation", slug: "trust-formation" },
+                            { name: "Will Writing", slug: "will-writing" },
+                            { name: "Executor Services", slug: "executor-services" },
+                            { name: "Legal Advisory", slug: "legal-advisory" },
+                            { name: "Tax Advisory and Execution", slug: "tax-advisory" },
+                            { name: "Investment Education Programme", slug: "investment-education" },
+                            { name: "Financial Literacy Workshop", slug: "financial-literacy" },
+                            { name: "Next Gen Financial Coaching", slug: "next-gen-coaching" }
+                         ].map(item => <ListItem key={item.slug} href={`/services/${item.slug}`}>{item.name}</ListItem>)}
+                    </ul>
+                 </div>
+            </div>
+
+            <Link href="/services/family-office" className={navLinkClass}>Family Office</Link>
+            <Link href="/services/nri-corner" className={navLinkClass}>NRI Services</Link>
+            <Link href="/services/women-corner" className={navLinkClass}>Women Corner</Link>
+
         </div>
 
-        {/* 3. RIGHT ACTION (Contact Button + Hamburger) */}
-        <div className="flex items-center gap-6">
-          
-          {/* Phone Icon & Text (Hidden on small screens) */}
-          <div className={`hidden lg:flex items-center gap-3 ${isScrolled ? "text-slate-700" : "text-white"}`}>
-            <div className={`rounded-full flex items-center gap-4 text-sm font-medium justify-center backdrop-blur-sm px-6 py-2.5 ${isScrolled ? "bg-gray-100/50 text-slate-700" : "bg-white/1 text-gray-200"}`}>
-            <Link href="/services/women-corner" className="hover:text-[#b08d55] transition-colors">Women Corner</Link>
-            <Link href="/services/nri-corner" className="hover:text-[#b08d55] transition-colors">NRI Services</Link>
-            <Link href="/services/family-office" className="hover:text-[#b08d55] transition-colors">Family Office</Link>
-             </div>
-          </div>
-
-          {/* CTA Button */}
-          <Link href="/contact" className="hidden sm:block bg-[#E0A458] hover:bg-[#c68e46] text-white px-6 py-2.5 rounded-full text-sm font-bold shadow-lg shadow-[#E0A458]/20 transition-all transform hover:-translate-y-0.5">
-            Get an appointment
-          </Link>
-
+        {/* CTA */}
+        <div className="shrink-0 ml-4">
+           <Link href="/contact" className="bg-[#D44659] hover:bg-[#b03a4b] text-white px-6 py-2.5 rounded-full text-sm font-bold shadow-lg shadow-[#D44659]/20 transition-all transform hover:-translate-y-0.5 whitespace-nowrap">
+             Get an Appointment
+           </Link>
         </div>
 
       </nav>

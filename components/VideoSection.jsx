@@ -6,7 +6,7 @@ import { Play } from "lucide-react";
 
 export default function VideoSection() {
   return (
-    <section className="py-24 bg-white">
+    <section className="">
      
 
       <div className="relative w-full h-[500px] lg:h-[700px]">
@@ -18,7 +18,7 @@ export default function VideoSection() {
           muted
           playsInline
         />
-        <div className="absolute inset-0 bg-black/20"></div>
+        <div className="absolute inset-0 bg-[#00394E]/20"></div>
       </div>
     </section>
   );

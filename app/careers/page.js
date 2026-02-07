@@ -1,6 +1,6 @@
 "use client";
 
-import Navbar from "@/components/Navbar";
+
 import Footer from "@/components/Footer";
 import Image from "next/image";
 import Link from "next/link";
@@ -8,7 +8,7 @@ import Link from "next/link";
 export default function CareersPage() {
   return (
     <main className="min-h-screen bg-white text-slate-800 font-sans selection:bg-[#b08d55] selection:text-white">
-      <Navbar />
+
 
       {/* ----------------------------- */}
       {/*        HERO SECTION           */}

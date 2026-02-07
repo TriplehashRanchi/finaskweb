@@ -2,7 +2,7 @@
 
 import { use, useState } from "react";
 import { getServiceBySlug, getAllServices } from "@/data/services";
-import Navbar from "@/components/Navbar";
+
 import Footer from "@/components/Footer";
 import CTASection from "@/components/CTASection";
 import Image from "next/image";
@@ -25,7 +25,7 @@ export default function ServicePage({ params }) {
 
   return (
     <main className="min-h-screen bg-white text-slate-800 font-sans selection:bg-[#b08d55] selection:text-white">
-      <Navbar />
+
 
       {/* ----------------------------- */}
       {/*        HERO SECTION           */}
