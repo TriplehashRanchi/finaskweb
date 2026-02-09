@@ -193,53 +193,15 @@ export default function Footer() {
         <div className="border-t border-white/10 py-4 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-gray-500">
           <p>Copyright © 2025 Rainbow-Themes. All Rights Reserved</p>
           <div className="flex gap-6">
+            <a href="/level" className="hover:text-white transition-colors">
+              Escalation matrices
+            </a>
             <a href="#" className="hover:text-white transition-colors">
               Terms of service
             </a>
             <a href="#" className="hover:text-white transition-colors">
               Privacy policy
             </a>
-          </div>
-        </div>
-        <div className="border-t border-white/10 py-4">
-          <div className="flex flex-col md:flex-row justify-center items-center gap-4 md:gap-8  transition-opacity duration-500">
-            {/* Level 1 */}
-            <div className="flex items-center gap-2">
-              <span className="text-gray-600 text-[10px] font-bold uppercase tracking-widest">
-                Level 1
-              </span>
-              <span className="text-gray-500 text-[11px] font-sans">
-                wecare@finaskvalue.com
-              </span>
-              <span className="text-gray-600">|</span>
-              <span className="text-gray-500 text-[11px] font-sans">
-                +91 80763 51485
-              </span>
-            </div>
-
-            <span className="hidden md:block text-gray-600">&gt;</span>
-
-            {/* Level 2 */}
-            <div className="flex items-center gap-2">
-              <span className="text-gray-600 text-[10px] font-bold uppercase tracking-widest">
-                Level 2
-              </span>
-              <span className="text-gray-500 text-[11px] font-sans">
-                shradhamittal@finaskvalue.com
-              </span>
-            </div>
-
-            <span className="hidden md:block text-gray-600">&gt;</span>
-
-            {/* Level 3 */}
-            <div className="flex items-center gap-2">
-              <span className="text-gray-600 text-[10px] font-bold uppercase tracking-widest">
-                Level 3
-              </span>
-              <span className="text-gray-500 text-[11px] font-sans">
-                palashmalik@finaskvalue.com
-              </span>
-            </div>
           </div>
         </div>
       </div>

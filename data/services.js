@@ -15,10 +15,7 @@ export const servicesData = [
       { question: "What is the waiting period for pre-existing diseases?", answer: "It typically ranges from 2 to 4 years depending on the policy, though some plans offer shorter waiting periods." },
       { question: "Can I port my existing policy?", answer: "Yes, portability is allowed under IRDAI guidelines without losing benefits like waiting period credits." },
       { question: "Does it cover cashless treatment?", answer: "Yes, cashless treatment is available at network hospitals. Reimbursement is available for non-network hospitals." },
-      { question: "What are day care procedures?", answer: "These are medical treatments (like cataract surgery) requiring less than 24 hours of hospitalization, which are covered by most plans." },
-      { question: "Is maternity covered?", answer: "Maternity cover is usually an add-on or comes with a waiting period of 9 months to 4 years, depending on the plan." },
-      { question: "What is a No Claim Bonus (NCB)?", answer: "It is a reward for every claim-free year, usually given as an increase in the sum insured without an increase in premium." }
-    ]
+     ]
   },
   {
     slug: "life-insurance",

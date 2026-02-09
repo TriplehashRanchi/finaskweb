@@ -36,8 +36,8 @@ export default function ContactPage() {
       {/* ----------------------------- */}
       {/*      FLOATING CARD            */}
       {/* ----------------------------- */}
-      <section className="px-6 relative z-20 -mt-24 md:-mt-18 mb-16">
-        <div className="max-w-7xl mx-auto bg-white rounded-xl shadow-xl shadow-slate-200/50   overflow-hidden">
+      <section className="px-6 relative z-20 -mt-24 md:-mt-18 mb-6">
+        <div className="max-w-7xl mx-auto bg-white   shadow-xl shadow-slate-200/50   overflow-hidden">
           <div className="flex flex-col md:flex-row">
             {/* Title Column - Clean White with Navy Text */}
             <div className="w-full md:w-1/3 bg-[#FDF9FB] p-10 flex flex-col items-center justify-center text-left border-b md:border-b-0 md:border-r border-slate-100 relative overflow-hidden">
