@@ -6,22 +6,24 @@ import { useState } from "react";
 
 const features = [
   {
-    id: "strategy",
-    title: "Strategy",
-    image: "/home1.jpg", 
-    description: "Developing robust financial strategies tailored to your long-term vision."
+
+
+    id: "family-office",
+    title: "Family Office",
+    image: "/family.png", 
+    description: "Helping families protect harmony, purpose, and prosperity across generations."
   },
   {
-    id: "optimization",
-    title: "Optimization",
-    image: "/about-detail.png",
-    description: "Streamlining your assets and operations for peak financial efficiency."
+    id: "nri-corner",
+    title: "NRI Corner",
+    image: "/nri.png",
+    description: "Helping NRIs protect, grow, and repatriate wealth with confidence."
   },
   {
-    id: "advisory",
-    title: "Advisory",
-    image: "/about-team.png",
-    description: "Expert guidance from seasoned professionals to navigate complex markets."
+    id: "women-corner",
+    title: "Women Corner",
+    image: "/women.png",
+    description: "For every woman balancing dreams, duties, and tomorrow this is her corner."
   }
 ];
 
@@ -63,7 +65,7 @@ export default function EmpowerSection() {
             
             {/* Top Heading */}
             <h4 className="text-white font-bold tracking-wide uppercase text-sm mb-8 relative inline-block">
-                Empowering Businesses <br /> With Finance
+                Because Every Journey Deserves a Financial Blueprint
              </h4>
 
             {/* Interactive Feature List */}
@@ -87,13 +89,7 @@ export default function EmpowerSection() {
                 ))}
             </div>
 
-            {/* Bottom Content - Dynamic Description based on active feature? Or static? 
-                User said "image will change according to feature". 
-                I will keep the bottom content static "Innovative Financial Solutions" as per the original layout request, 
-                but maybe subtle update to description could be nice. 
-                Let's stick to the static bottom block for stability unless requested. 
-                Wait, user might appreciate the description updating too. Let's make it dynamic for better UX.
-            */}
+           
             <div className="border-t border-gray-700/50 pt-10 transition-opacity duration-300 ease-in-out">
                 <h4 className="text-xl font-bold text-white mb-4">
                     {activeFeature === 0 ? "Innovative Financial Solutions" : features[activeFeature].title + " Solutions"}

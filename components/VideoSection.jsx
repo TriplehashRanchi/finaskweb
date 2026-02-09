@@ -9,9 +9,9 @@ export default function VideoSection() {
     <section className="">
      
 
-      <div className="relative w-full h-[500px] lg:h-[700px]">
+      <div className="relative w-full h-[500px] lg:h-[660px]">
         <video
-          src="/video.mov"
+          src="/video.mp4"
           className="w-full h-full object-cover"
           autoPlay
           loop

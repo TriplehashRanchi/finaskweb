@@ -5,13 +5,13 @@ import { motion } from "framer-motion";
 
 // Reusing existing image assets for demonstration. 
 const goals = [
-  { id: 1, title: "Will & Estate", image: "/home.jpg", icon: "📜" },
-  { id: 2, title: "Health", image: "/girl.png", icon: "❤️" },
-  { id: 3, title: "Retirement", image: "/about-team.png", icon: "👴" },
-  { id: 4, title: "Dream Holiday", image: "/banner1.webp", icon: "✈️" },
-  { id: 5, title: "Buying a Home", image: "/home1.jpg", icon: "🏠" },
-  { id: 6, title: "Child Education", image: "/about-detail.png", icon: "🎓" },
-  { id: 7, title: "Philanthropy Goals", image: "/family.jpg", icon: "🤝" }
+  { id: 1, title: "Will & Estate", image: "/goal2.png", },
+  { id: 2, title: "Health", image: "/goal3.png",   },
+  { id: 3, title: "Retirement", image: "/goal1.png",  },
+  { id: 4, title: "Dream Holiday", image: "/goal4.png", },
+  { id: 5, title: "Buying a Home", image: "/goal5.png",  },
+  { id: 6, title: "Child Education", image: "/goal6.png",  },
+  { id: 7, title: "Philanthropy Goals", image: "/goal7.png",   }
 ];
 
 // Duplicate the array to create a seamless loop

@@ -15,36 +15,19 @@ export default function ContactPage() {
         <div
           className="absolute inset-0 z-0"
           style={{
-            backgroundImage: 'url("/home1.jpg")',
+            backgroundImage: 'url("/contact.jpg")',
             backgroundSize: "cover",
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat",
+            filter: "brightness(0.35) ",
           }}
         />
-
+        <div className="absolute inset-0 bg-gradient-to-t from-[#00394E]/90 via-[#00394E]/30 to-[#00394E]/40" />
         <div className="relative z-20 text-center px-4 max-w-5xl mx-auto mt-10">
-          <h5 className="text-[#DAA434] uppercase tracking-[0.3em] text-xs md:text-xs font-bold mb-6 animate-fade-in-up border border-[#DAA434]/30 inline-block px-4 py-1 rounded-full backdrop-blur-sm">
-            Contact Us
-          </h5>
-          <h1 className="font-serif text-5xl md:text-7xl font-bold text-white mb-8 leading-tight drop-shadow-2xl">
-            Let's
-            <span className="italic font-light text-[#DAA434] relative">
-              Talk
-              <svg
-                className="absolute -bottom-2 left-0 w-full h-3 text-[#DAA434] opacity-60"
-                viewBox="0 0 100 10"
-                preserveAspectRatio="none"
-              >
-                <path
-                  d="M0 5 Q 50 10 100 5"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  fill="none"
-                />
-              </svg>
-            </span>
+          <h1 className="font-serif text-5xl md:text-6xl font-bold text-white my-6 drop-shadow-lg">
+            Get in Touch
           </h1>
-          <p className="text-gray-200 text-lg md:text-xl max-w-3xl mx-auto font-light leading-relaxed tracking-wide">
+          <p className="text-gray-200 text-lg md:text-xl font-light leading-[1.2] max-w-2xl mx-auto">
             Because a 10-minute conversation can create 10 years of clarity.
           </p>
         </div>
@@ -58,7 +41,6 @@ export default function ContactPage() {
           <div className="flex flex-col md:flex-row">
             {/* Title Column - Clean White with Navy Text */}
             <div className="w-full md:w-1/3 bg-[#FDF9FB] p-10 flex flex-col items-center justify-center text-left border-b md:border-b-0 md:border-r border-slate-100 relative overflow-hidden">
-            
               <h3 className="font-bold text-3xl md:text-4xl text-[#00394E] leading-tight text-center ">
                 How can we help you?
               </h3>
@@ -68,7 +50,7 @@ export default function ContactPage() {
             <div className="w-full md:w-2/3 grid grid-cols-1 md:grid-cols-3 divide-y md:divide-y-0 md:divide-x divide-slate-100">
               {/* Option 1: Call */}
               <a
-                href="tel:+919876543210"
+                href="tel:+918076351485"
                 className="group p-10 flex flex-col items-center justify-center text-center hover:bg-[#FDF9FB] transition-all duration-300 cursor-pointer relative overflow-hidden"
               >
                 <div className="w-14 h-14 rounded-full bg-[#DAA434]/10 text-[#DAA434] flex items-center justify-center mb-6 group-hover:bg-[#DAA434] group-hover:text-white transition-all duration-300">
@@ -96,7 +78,7 @@ export default function ContactPage() {
 
               {/* Option 2: Chat */}
               <a
-                href="https://wa.me/919876543210"
+                href="https://wa.me/918076351485"
                 target="_blank"
                 className="group p-10 flex flex-col items-center justify-center text-center hover:bg-[#FDF9FB] transition-all duration-300 cursor-pointer relative overflow-hidden"
               >
@@ -125,7 +107,7 @@ export default function ContactPage() {
 
               {/* Option 3: Email */}
               <a
-                href="mailto:connect@finask.com"
+                href="mailto:wecare@finaskvalue.com"
                 className="group p-10 flex flex-col items-center justify-center text-center hover:bg-[#FDF9FB] transition-all duration-300 cursor-pointer relative overflow-hidden"
               >
                 <div className="w-14 h-14 rounded-full bg-[#DAA434]/10 text-[#DAA434] flex items-center justify-center mb-6 group-hover:bg-[#DAA434] group-hover:text-white transition-all duration-300">
@@ -159,7 +141,7 @@ export default function ContactPage() {
       {/* ----------------------------- */}
       {/*        OFFICE LOCATIONS       */}
       {/* ----------------------------- */}
-      <section className="  py-24 px-6 md:px-12 bg-[#FDF9FB] relative">
+      <section className="  pt-24 pb-30 px-6 md:px-12 bg-[#FDF9FB] relative">
         <div className="max-w-7xl mx-auto relative flex flex-col lg:flex-row items-center justify-center min-h-[500px]">
           {/* Center Image */}
           <div className="relative w-full lg:w-[45%] h-[350px] lg:h-[570px] rounded-2xl overflow-hidden shadow-2xl z-0 order-2 lg:order-1 lg:absolute lg:left-1/2 lg:-translate-x-1/2 bg-gray-200">
@@ -252,13 +234,13 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h4 className="font-bold text-[#DAA434] text-sm mb-1">
-                    Contact Us
+                    Email Us
                   </h4>
                   <a
-                    href="tel:+918076351485"
+                    href="tel:+911140007000"
                     className="text-gray-300 hover:text-white transition-colors block text-sm"
                   >
-                    +91 80763 51485
+                    wecare@finaskvalue.com
                   </a>
                 </div>
               </div>
@@ -266,12 +248,12 @@ export default function ContactPage() {
           </div>
 
           {/* Right Card: Delhi */}
-          <div className="w-full lg:w-[32%] bg-white p-16 rounded-lg flex flex-col  justify-center shadow-2xl z-20 relative mt-6 lg:mt-0 lg:ml-auto order-1 lg:order-3 animate-fade-in-up border border-slate-100 hover:scale-105 transition-transform duration-500">
-            <h3 className="font-serif text-2xl text-[#00394E] mb-6">Delhi</h3>
+          <div className="w-full lg:w-[32%] bg-[#00394E] p-16 rounded-lg flex flex-col  justify-center shadow-2xl z-20 relative mt-6 lg:mt-0 lg:ml-auto order-1 lg:order-3 animate-fade-in-up  hover:scale-105 transition-transform duration-500">
+            <h3 className="font-serif text-2xl text-[#ffffff] mb-6">Delhi</h3>
 
             <div className="space-y-10">
               <div className="flex items-start gap-4">
-                <div className="w-10 h-10 rounded-full bg-[#00394E]/5 flex items-center justify-center shrink-0 text-[#00394E]">
+                <div className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center shrink-0 text-[#DAA434]">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="20"
@@ -288,10 +270,10 @@ export default function ContactPage() {
                   </svg>
                 </div>
                 <div>
-                  <h4 className="font-bold text-[#00394E] text-sm mb-1">
+                  <h4 className="font-bold text-[#DAA434] text-sm mb-1">
                     Our Location
                   </h4>
-                  <p className="text-slate-600 text-sm leading-relaxed font-light">
+                  <p className="text-slate-300 text-sm leading-relaxed font-light">
                     Pocket 10, YC Co-Working Space, 3rd Floor, Plot No. 94,
                     Sector 13, Dwarka, Delhi – 110078
                   </p>
@@ -299,7 +281,7 @@ export default function ContactPage() {
               </div>
 
               <div className="flex items-start gap-4">
-                <div className="w-10 h-10 rounded-full bg-[#00394E]/5 flex items-center justify-center shrink-0 text-[#00394E]">
+                <div className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center shrink-0 text-[#DAA434]">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="20"
@@ -315,19 +297,19 @@ export default function ContactPage() {
                   </svg>
                 </div>
                 <div>
-                  <h4 className="font-bold text-[#00394E] text-sm mb-1">
+                  <h4 className="font-bold text-[#DAA434] text-sm mb-1">
                     Contact Us
                   </h4>
                   <a
                     href="tel:+911140007000"
-                    className="text-slate-600 hover:text-[#00394E] transition-colors block text-sm"
+                    className="text-gray-300 hover:text-white transition-colors block text-sm"
                   >
-                    +91 11 4000 7000
+                    +91 80763 51485
                   </a>
                 </div>
               </div>
               <div className="flex items-start gap-4">
-                <div className="w-10 h-10 rounded-full bg-[#00394E]/5 flex items-center justify-center shrink-0 text-[#00394E]">
+                <div className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center shrink-0 text-[#DAA434]">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="20"
@@ -343,14 +325,14 @@ export default function ContactPage() {
                   </svg>
                 </div>
                 <div>
-                  <h4 className="font-bold text-[#00394E] text-sm mb-1">
-                    Contact Us
+                  <h4 className="font-bold text-[#DAA434] text-sm mb-1">
+                    Email Us
                   </h4>
                   <a
                     href="tel:+911140007000"
-                    className="text-slate-600 hover:text-[#00394E] transition-colors block text-sm"
+                    className="text-gray-300 hover:text-white transition-colors block text-sm"
                   >
-                    +91 11 4000 7000
+                    wecare@finaskvalue.com
                   </a>
                 </div>
               </div>
@@ -359,186 +341,14 @@ export default function ContactPage() {
         </div>
       </section>
 
-      <section className="pb-10 px-6 md:px-12 bg-[#FDF9FB] relative overflow-hidden">
-        <div className="max-w-4xl mx-auto relative z-10">
-          <div className="space-y-0">
-            {/* Level 1 */}
-            <div className="flex flex-col md:flex-row gap-8 md:gap-16 py-12 border-b border-slate-200 group hover:bg-white/50 transition-colors rounded-xl md:px-8">
-              <div className="shrink-0">
-                <span className="text-6xl md:text-7xl font-serif text-[#DAA434]/20 group-hover:text-[#DAA434] transition-colors font-bold">
-                  01
-                </span>
-              </div>
-              <div className="grow">
-                <div className="flex items-center gap-3 mb-2">
-                  <span className="px-3 py-1 bg-[#FDF9FB] border border-[#00394E]/10 text-[#00394E] text-[10px] font-bold uppercase tracking-wider rounded-full">
-                    Level 1
-                  </span>
-                  <h3 className="font-serif text-2xl text-[#00394E]">
-                    Customer Care
-                  </h3>
-                </div>
-                <p className="text-slate-500 mb-6 font-light">
-                  For general queries and immediate assistance regarding your
-                  policy or payments.
-                </p>
-
-                <div className="flex flex-col sm:flex-row gap-6">
-                  <a
-                    href="mailto:wecare@finaskvalue.com"
-                    className="flex items-center gap-3 text-slate-600 hover:text-[#DAA434] transition-colors group/link"
-                  >
-                    <div className="w-10 h-10 rounded-full bg-white border border-slate-100 flex items-center justify-center text-[#DAA434] group-hover/link:border-[#DAA434] transition-all">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="16"
-                        height="16"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth="2"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      >
-                        <rect width="20" height="16" x="2" y="4" rx="2" />
-                        <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
-                      </svg>
-                    </div>
-                    <span className="font-medium">wecare@finaskvalue.com</span>
-                  </a>
-                  <a
-                    href="tel:+918076351485"
-                    className="flex items-center gap-3 text-slate-600 hover:text-[#DAA434] transition-colors group/link"
-                  >
-                    <div className="w-10 h-10 rounded-full bg-white border border-slate-100 flex items-center justify-center text-[#DAA434] group-hover/link:border-[#DAA434] transition-all">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="16"
-                        height="16"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth="2"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      >
-                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
-                      </svg>
-                    </div>
-                    <span className="font-medium">+91 80763 51485</span>
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            {/* Level 2 */}
-            <div className="flex flex-col md:flex-row gap-8 md:gap-16 py-12 border-b border-slate-200 group hover:bg-white/50 transition-colors rounded-xl md:px-8">
-              <div className="shrink-0">
-                <span className="text-6xl md:text-7xl font-serif text-[#DAA434]/20 group-hover:text-[#DAA434] transition-colors font-bold">
-                  02
-                </span>
-              </div>
-              <div className="grow">
-                <div className="flex items-center gap-3 mb-2">
-                  <span className="px-3 py-1 bg-[#FDF9FB] border border-[#00394E]/10 text-[#00394E] text-[10px] font-bold uppercase tracking-wider rounded-full">
-                    Level 2
-                  </span>
-                  <h3 className="font-serif text-2xl text-[#00394E]">
-                    Head of Service
-                  </h3>
-                </div>
-                <p className="text-slate-500 mb-6 font-light">
-                  If your concern remains unresolved after contacting Level 1.
-                </p>
-
-                <div className="flex flex-col sm:flex-row gap-6">
-                  <a
-                    href="mailto:shradhamittal@finaskvalue.com"
-                    className="flex items-center gap-3 text-slate-600 hover:text-[#DAA434] transition-colors group/link"
-                  >
-                    <div className="w-10 h-10 rounded-full bg-white border border-slate-100 flex items-center justify-center text-[#DAA434] group-hover/link:border-[#DAA434] transition-all">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="16"
-                        height="16"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth="2"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      >
-                        <rect width="20" height="16" x="2" y="4" rx="2" />
-                        <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
-                      </svg>
-                    </div>
-                    <span className="font-medium break-all">
-                      shradhamittal@finaskvalue.com
-                    </span>
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            {/* Level 3 */}
-            <div className="flex flex-col md:flex-row gap-8 md:gap-16 py-12 group hover:bg-white/50 transition-colors rounded-xl md:px-8">
-              <div className="shrink-0">
-                <span className="text-6xl md:text-7xl font-serif text-[#00394E]/20 group-hover:text-[#00394E] transition-colors font-bold">
-                  03
-                </span>
-              </div>
-              <div className="grow">
-                <div className="flex items-center gap-3 mb-2">
-                  <span className="px-3 py-1 bg-[#00394E] text-white text-[10px] font-bold uppercase tracking-wider rounded-full">
-                    Level 3
-                  </span>
-                  <h3 className="font-serif text-2xl text-[#00394E]">
-                    Chief Grievance Officer
-                  </h3>
-                </div>
-                <p className="text-slate-500 mb-6 font-light">
-                  Final authority for critical issues that require high-level
-                  intervention.
-                </p>
-
-                <div className="flex flex-col sm:flex-row gap-6">
-                  <a
-                    href="mailto:palashmalik@finaskvalue.com"
-                    className="flex items-center gap-3 text-slate-600 hover:text-[#DAA434] transition-colors group/link"
-                  >
-                    <div className="w-10 h-10 rounded-full bg-white border border-slate-100 flex items-center justify-center text-[#DAA434] group-hover/link:border-[#DAA434] transition-all">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="16"
-                        height="16"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth="2"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      >
-                        <rect width="20" height="16" x="2" y="4" rx="2" />
-                        <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
-                      </svg>
-                    </div>
-                    <span className="font-medium break-all">
-                      palashmalik@finaskvalue.com
-                    </span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+     
 
       {/* ----------------------------- */}
       {/*        FULL WIDTH MAP         */}
       {/* ----------------------------- */}
       <section className="w-full h-[500px] relative grayscale hover:grayscale-0 transition-all duration-700">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.955433276685!2d72.8318853759628!3d19.02166398217227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7cecf1e263305%3A0x6273c77461623315!2sOne%20World%20Center!5e0!3m2!1sen!2sin!4v1709620000000!5m2!1sen!2sin"
+          src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d13341.205317839618!2d77.0340493!3d28.4216781!3m2!1i1024!2i768!4f13.1!2m1!1s1st%20Floor%20Badshahpur%20Sohna%20Road%20near%20Subhash%20Chowk%20Central%20Park%20II%20Sector%2048%20Gurugram%20Haryana%20122018!5e1!3m2!1sen!2sin!4v1770621482357!5m2!1sen!2sin"
           width="100%"
           height="100%"
           style={{ border: 0 }}

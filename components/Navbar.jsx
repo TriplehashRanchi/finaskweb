@@ -89,14 +89,14 @@ export default function Navbar() {
       >
         
         {/* Logo */}
-        <div className="shrink-0 mr-4">
+        <div className={` ${!isScrolled ? "bg-white  p-2  " : ""} shrink-0 mr-4 rounded-full`}>
           <Link href="/" className="block">
              <Image 
                 src="/logo.webp" 
                 alt="Finask Logo" 
-                width={isScrolled ? 140 : 160} 
+                width={isScrolled ? 140 : 120} 
                 height={isScrolled ? 35 : 40} 
-                className={`object-contain transition-all duration-500 ${!isScrolled ? "brightness-0 invert" : ""}`} 
+                className={`object-contain transition-all duration-500 ${!isScrolled ? " " : ""}`} 
                 priority 
              />
           </Link>
