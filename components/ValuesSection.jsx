@@ -55,7 +55,7 @@ const values = [
 
 export default function ValuesSection() {
   return (
-    <section className="w-full   py-24 px-10">
+    <section className="w-full   py-24 px-8">
       <div className="text-center mb-12 px-4">
         <h2 className="text-4xl md:text-5xl font-bold text-[#00394E] font-serif tracking-tight">
           Our Core <span className="text-[#DAA434]">Values</span>

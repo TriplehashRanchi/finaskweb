@@ -2,58 +2,98 @@
 
 import React from "react";
 import Image from "next/image";
-import { Facebook, Twitter, Instagram, Linkedin, ArrowRight, Mail, Phone, MapPin } from "lucide-react";
+import {
+  Facebook,
+  Twitter,
+  Instagram,
+  Linkedin,
+  ArrowRight,
+  Mail,
+  Phone,
+  MapPin,
+} from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#001F2B] text-white pt-14 pb-10 m-10 rounded-xl">
+    <footer className="bg-[#001F2B] text-white pt-10   mt-20">
       <div className="max-w-7xl mx-auto px-6 lg:px-8 ">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8 mb-10">
-          
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-12 lg:gap-8 mb-10">
           {/* Column 1: Brand & Social */}
-          <div className="space-y-6">
+          <div className="space-y-6 lg:col-span-4">
             <div className="flex items-center gap-2">
               {/* Using text logo for now, or Image if available */}
               <span className="text-3xl font-bold font-serif text-white">
                 Fin<span className="text-[#DAA434]">Ask</span>
               </span>
             </div>
-            <p className="text-gray-400 text-sm leading-relaxed">
-              We're always in search for talented and motivated people. Don't be shy introduce yourself!
+            <p className="text-gray-400 text-sm leading-relaxed max-w-xs">
+              We're always in search for talented and motivated people. Don't be
+              shy introduce yourself!
             </p>
-            
+
             {/* Social Icons */}
             <div className="flex gap-4">
               {[Facebook, Twitter, Instagram, Linkedin].map((Icon, i) => (
-                <a key={i} href="#" className="w-10 h-10 rounded-lg bg-white/5 flex items-center justify-center hover:bg-[#DAA434] transition-colors duration-300 group">
-                  <Icon size={18} className="text-gray-400 group-hover:text-white transition-colors" />
+                <a
+                  key={i}
+                  href="#"
+                  className="w-10 h-10 rounded-lg bg-white/5 flex items-center justify-center hover:bg-[#DAA434] transition-colors duration-300 group"
+                >
+                  <Icon
+                    size={18}
+                    className="text-gray-400 group-hover:text-white transition-colors"
+                  />
                 </a>
               ))}
             </div>
 
             {/* Licenses & Registrations */}
             <div className="pt-2">
-                 <div className="space-y-2 text-sm text-gray-400">
-                    <p><span className="text-white font-medium">ARN Number:</span> ARN-306001</p>
-                    <p><span className="text-white font-medium">CIN Number:</span> U67190DL2020PTC375119</p>
-                    <p><span className="text-white font-medium">BSE Authorised Person:</span> U67190DL2020PTC375119</p>
-                    <p><span className="text-white font-medium">NSE Authorised Person:</span> AP3086049783</p>
-                </div>
+              <div className="space-y-2 text-sm text-gray-400">
+                <p>
+                  <span className="text-white font-medium">ARN Number:</span>{" "}
+                  ARN-306001
+                </p>
+                <p>
+                  <span className="text-white font-medium">CIN Number:</span>{" "}
+                  U67190DL2020PTC375119
+                </p>
+                <p>
+                  <span className="text-white font-medium">
+                    BSE Authorised Person:
+                  </span>{" "}
+                  U67190DL2020PTC375119
+                </p>
+                <p>
+                  <span className="text-white font-medium">
+                    NSE Authorised Person:
+                  </span>{" "}
+                  AP3086049783
+                </p>
+              </div>
             </div>
- 
           </div>
 
           {/* Column 2: Useful Links */}
-          <div>
+          <div className="lg:col-span-3">
             <h3 className="text-lg font-bold mb-2">Useful Links</h3>
-              <div className="flex gap-2 mb-8">
-                <div className="w-12 h-1 bg-white/20 rounded-full"></div>
-                <div className="w-4 h-1 bg-white/20 rounded-full"></div>
+            <div className="flex gap-2 mb-8">
+              <div className="w-12 h-1 bg-white/20 rounded-full"></div>
+              <div className="w-4 h-1 bg-white/20 rounded-full"></div>
             </div>
             <ul className="space-y-4 text-sm text-gray-400">
-              {["Marketplace", "Kindergarten", "University", "GYM Coaching", "FAQ"].map((item) => (
+              {[
+                "Marketplace",
+                "Kindergarten",
+                "University",
+                "GYM Coaching",
+                "FAQ",
+              ].map((item) => (
                 <li key={item}>
-                  <a href="#" className="hover:text-[#DAA434] transition-colors flex items-center gap-2">
+                  <a
+                    href="#"
+                    className="hover:text-[#DAA434] transition-colors flex items-center gap-2"
+                  >
                     {/* <span className="w-1 h-1 rounded-full bg-[#b08d55] opacity-0 hover:opacity-100 transition-opacity"></span> */}
                     {item}
                   </a>
@@ -63,16 +103,25 @@ export default function Footer() {
           </div>
 
           {/* Column 3: Our Company */}
-          <div>
+          <div className="lg:col-span-2 ml-[-50px]">
             <h3 className="text-lg font-bold mb-2">Our Company</h3>
-              <div className="flex gap-2 mb-8">
-                <div className="w-12 h-1 bg-white/20 rounded-full"></div>
-                <div className="w-4 h-1 bg-white/20 rounded-full"></div>
+            <div className="flex gap-2 mb-8">
+              <div className="w-12 h-1 bg-white/20 rounded-full"></div>
+              <div className="w-4 h-1 bg-white/20 rounded-full"></div>
             </div>
             <ul className="space-y-4 text-sm text-gray-400">
-              {["Contact Us", "Become Teacher", "Blog", "Instructor", "Events"].map((item) => (
+              {[
+                "Contact Us",
+                "Become Teacher",
+                "Blog",
+                "Instructor",
+                "Events",
+              ].map((item) => (
                 <li key={item}>
-                  <a href="#" className="hover:text-[#DAA434] transition-colors">
+                  <a
+                    href="#"
+                    className="hover:text-[#DAA434] transition-colors"
+                  >
                     {item}
                   </a>
                 </li>
@@ -80,60 +129,117 @@ export default function Footer() {
             </ul>
           </div>
 
-         
-          <div>
+          <div className="lg:col-span-3">
             <h3 className="text-xl font-bold mb-2">Contact Us</h3>
             <div className="flex gap-2 mb-8">
-                <div className="w-12 h-1 bg-white/20 rounded-full"></div>
-                <div className="w-4 h-1 bg-white/20 rounded-full"></div>
+              <div className="w-12 h-1 bg-white/20 rounded-full"></div>
+              <div className="w-4 h-1 bg-white/20 rounded-full"></div>
             </div>
 
             <div className="space-y-6">
               {/* Phone */}
-              <div className="flex items-center gap-4 group cursor-pointer">
-                 <div className="w-10 h-10 rounded-lg bg-white/5 flex items-center justify-center text-gray-400 group-hover:bg-[#DAA434] group-hover:text-white transition-all duration-300 shrink-0">
-                    <Phone size={18} />
-                 </div>
-                 <div>
-                    <h4 className="text-white font-medium mb-1 group-hover:text-[#DAA434] transition-colors">Call Us 24/7</h4>
-                    <p className="text-gray-400 text-sm font-sans">(+256) 2145.2156</p>
-                 </div>
+              <div className="flex items-center gap-3 group cursor-pointer">
+                <div className="w-10 h-10 rounded-lg bg-white/5 flex items-center justify-center text-gray-400 group-hover:bg-[#DAA434] group-hover:text-white transition-all duration-300 shrink-0">
+                  <Phone size={18} />
+                </div>
+                <div>
+                  <h4 className="text-white font-medium text-sm   group-hover:text-[#DAA434] transition-colors">
+                    Call Us 24/7
+                  </h4>
+                  <p className="text-gray-400 text-sm font-sans">
+                    {" "}
+                    +91 80763 51485
+                  </p>
+                </div>
               </div>
 
               {/* Email */}
-              <div className="flex items-center gap-4 group cursor-pointer">
-                 <div className="w-10 h-10 rounded-lg bg-white/5 flex items-center justify-center text-gray-400 group-hover:bg-[#DAA434] group-hover:text-white transition-all duration-300 shrink-0">
-                    <Mail size={18} />
-                 </div>
-                 <div>
-                    <h4 className="text-white font-medium mb-1 group-hover:text-[#DAA434] transition-colors">Work with us</h4>
-                    <p className="text-gray-400 text-sm font-sans">info@finask.com</p>
-                 </div>
+              <div className="flex items-center gap-3 group cursor-pointer">
+                <div className="w-10 h-10 rounded-lg bg-white/5 flex items-center justify-center text-gray-400 group-hover:bg-[#DAA434] group-hover:text-white transition-all duration-300 shrink-0">
+                  <Mail size={18} />
+                </div>
+                <div>
+                  <h4 className="text-white font-medium text-sm   group-hover:text-[#DAA434] transition-colors">
+                    Work with us
+                  </h4>
+                  <p className="text-gray-400 text-sm font-sans">
+                    wecare@finaskvalue.com
+                  </p>
+                </div>
               </div>
 
               {/* Location */}
-              <div className="flex items-start gap-4 group cursor-pointer">
-                 <div className="w-10 h-10 rounded-lg bg-white/5 flex items-center justify-center text-gray-400 group-hover:bg-[#DAA434] group-hover:text-white transition-all duration-300 shrink-0">
-                    <MapPin size={18} />
-                 </div>
-                 <div>
-                    <h4 className="text-white font-medium mb-1 group-hover:text-[#DAA434] transition-colors">Our Location</h4>
-                    <p className="text-gray-400 text-sm leading-relaxed font-sans">XYZ Hilton Street, 125 Town<br/>United State</p>
-                 </div>
+              <div className="flex items-start gap-3 group cursor-pointer">
+                <div className="w-10 h-10 rounded-lg bg-white/5 flex items-center justify-center text-gray-400 group-hover:bg-[#DAA434] group-hover:text-white transition-all duration-300 shrink-0">
+                  <MapPin size={18} />
+                </div>
+                <div>
+                  <h4 className="text-white font-medium text-sm   group-hover:text-[#DAA434] transition-colors">
+                    Our Location
+                  </h4>
+                  <p className="text-gray-400 text-sm leading-relaxed font-sans">
+                    {" "}
+                    Haryana / Delhi{" "}
+                  </p>
+                </div>
               </div>
-
             </div>
           </div>
-
         </div>
 
+        {/* Escalation Matrix - Minimalist Bar */}
+
         {/* Copyright */}
-        <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-gray-500">
+        <div className="border-t border-white/10 py-4 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-gray-500">
           <p>Copyright © 2025 Rainbow-Themes. All Rights Reserved</p>
           <div className="flex gap-6">
-            <a href="#" className="hover:text-white transition-colors">Terms of service</a>
-            <a href="#" className="hover:text-white transition-colors">Privacy policy</a>
-      
+            <a href="#" className="hover:text-white transition-colors">
+              Terms of service
+            </a>
+            <a href="#" className="hover:text-white transition-colors">
+              Privacy policy
+            </a>
+          </div>
+        </div>
+        <div className="border-t border-white/10 py-4">
+          <div className="flex flex-col md:flex-row justify-center items-center gap-4 md:gap-8  transition-opacity duration-500">
+            {/* Level 1 */}
+            <div className="flex items-center gap-2">
+              <span className="text-gray-600 text-[10px] font-bold uppercase tracking-widest">
+                Level 1
+              </span>
+              <span className="text-gray-500 text-[11px] font-sans">
+                wecare@finaskvalue.com
+              </span>
+              <span className="text-gray-600">|</span>
+              <span className="text-gray-500 text-[11px] font-sans">
+                +91 80763 51485
+              </span>
+            </div>
+
+            <span className="hidden md:block text-gray-600">&gt;</span>
+
+            {/* Level 2 */}
+            <div className="flex items-center gap-2">
+              <span className="text-gray-600 text-[10px] font-bold uppercase tracking-widest">
+                Level 2
+              </span>
+              <span className="text-gray-500 text-[11px] font-sans">
+                shradhamittal@finaskvalue.com
+              </span>
+            </div>
+
+            <span className="hidden md:block text-gray-600">&gt;</span>
+
+            {/* Level 3 */}
+            <div className="flex items-center gap-2">
+              <span className="text-gray-600 text-[10px] font-bold uppercase tracking-widest">
+                Level 3
+              </span>
+              <span className="text-gray-500 text-[11px] font-sans">
+                palashmalik@finaskvalue.com
+              </span>
+            </div>
           </div>
         </div>
       </div>

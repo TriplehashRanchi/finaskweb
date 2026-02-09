@@ -55,7 +55,7 @@ export default function AboutSection() {
           {/* RIGHT: Image Composition */}
           <div className="order-1 lg:order-2 relative">
             {/* Main Image with Chamfered Effect (Matching EmpowerSection vibe) */}
-            <div className="relative w-full h-[500px] overflow-hidden shadow-2xl">
+            <div className="relative w-full h-[520px] overflow-hidden shadow-2xl">
               <Image
                 src="/about.png"
                 alt="Business Meeting"

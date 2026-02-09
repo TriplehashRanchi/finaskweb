@@ -96,7 +96,7 @@ const values = [
 
 export default function ValuesSection() {
   return (
-    <section id="values" className="py-24 px-6 md:px-12 bg-[#FDF9FB] ">
+    <section id="values" className="py-24 px-6 md:px-10 bg-[#FDF9FB] ">
         <div className="max-w-8xl mx-auto">
              <div className="text-center mb-16">
               
@@ -112,7 +112,7 @@ export default function ValuesSection() {
                 {values.map((value, index) => (
                     <div 
                         key={index} 
-                        className="group relative h-[360px] bg-white   overflow-hidden cursor-pointer transition-all duration-300"
+                        className="group relative h-[380px] bg-white   overflow-hidden cursor-pointer transition-all duration-300"
                     >
                      
 

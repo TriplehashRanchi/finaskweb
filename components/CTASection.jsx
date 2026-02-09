@@ -21,8 +21,8 @@ export default function CTASection() {
         
         {/* Text Content */}
         <div className="text-center md:text-left  ">
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-white tracking-tight leading-tight mb-6">
-            Your Legacy.  <span className="text-[#DAA434] italic">Our Strategy.</span> 
+          <h2 className="text-4xl md:text-5xl lg:text-5xl font-serif font-bold text-white tracking-tight leading-tight mb-6">
+            Your Legacy.  <span className="text-[#DAA434]  ">Our Strategy.</span> 
            
           </h2>
           <p className="text-gray-400 text-lg leading-relaxed max-w-lg mx-auto md:mx-0">
@@ -33,10 +33,10 @@ export default function CTASection() {
         {/* Action Button */}
         <div className="shrink-0">
           <div className="inline-block p-1 rounded-full bg-gradient-to-r from-[#DAA434] to-[#F2C94C]">
-             <div className="bg-[#00394E] rounded-full p-2">
+             <div className="bg-[#00394E] rounded-full p-1">
                <Link 
                   href="/contact" 
-                  className="inline-flex items-center gap-3 px-10 py-4 bg-white text-[#00394E] rounded-full font-bold uppercase tracking-wider hover:bg-gray-100 transition-all shadow-lg hover:shadow-white/20 group"
+                  className="inline-flex items-center gap-3 px-10 py-3 bg-white text-[#00394E] rounded-full font-bold uppercase tracking-wider hover:bg-gray-100 transition-all shadow-lg hover:shadow-white/20 group"
                 >
                   Get in touch
                   <ArrowRight className="w-5 h-5 text-[#DAA434] transition-transform duration-300 group-hover:translate-x-1" />
