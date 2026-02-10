@@ -15,7 +15,7 @@ import {
 
 export default function Footer() {
   return (
-    <footer className="bg-[#001F2B] text-white pt-10   mt-10">
+    <footer className="bg-[#001F2B] text-white pt-10   ">
       <div className="max-w-7xl mx-auto px-6 lg:px-8 ">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-12 lg:gap-8 mb-10">
           {/* Column 1: Brand & Social */}
@@ -81,21 +81,21 @@ export default function Footer() {
               <div className="w-12 h-1 bg-white/20 rounded-full"></div>
               <div className="w-4 h-1 bg-white/20 rounded-full"></div>
             </div>
+
             <ul className="space-y-4 text-sm text-gray-400">
               {[
-                "Marketplace",
-                "Kindergarten",
-                "University",
-                "GYM Coaching",
-                "FAQ",
+                { label: "About Us", href: "/about" },
+                { label: "Services", href: "/services" },
+                { label: "Contact", href: "/contact" },
+                { label: "Careers", href: "/careers" },
+                { label: "FAQ", href: "/faq" },
               ].map((item) => (
-                <li key={item}>
+                <li key={item.href}>
                   <a
-                    href="#"
+                    href={item.href}
                     className="hover:text-[#DAA434] transition-colors flex items-center gap-2"
                   >
-                    {/* <span className="w-1 h-1 rounded-full bg-[#b08d55] opacity-0 hover:opacity-100 transition-opacity"></span> */}
-                    {item}
+                    {item.label}
                   </a>
                 </li>
               ))}
@@ -111,18 +111,18 @@ export default function Footer() {
             </div>
             <ul className="space-y-4 text-sm text-gray-400">
               {[
-                "Contact Us",
-                "Become Teacher",
-                "Blog",
-                "Instructor",
-                "Events",
+                { label: "Contact Us", href: "/about" },
+                { label: "Become Teacher", href: "/services" },
+                { label: "Events", href: "/contact" },
+                { label: "Blog", href: "/careers" },
+                { label: "Instructor", href: "/faq" },
               ].map((item) => (
-                <li key={item}>
+                <li key={item.href}>
                   <a
-                    href="#"
+                    href={item.href}
                     className="hover:text-[#DAA434] transition-colors"
                   >
-                    {item}
+                    {item.label}
                   </a>
                 </li>
               ))}
