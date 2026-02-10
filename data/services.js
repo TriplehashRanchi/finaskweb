@@ -39,7 +39,7 @@ export const servicesData = [
           "Yes, cashless treatment is available at network hospitals. Reimbursement is available for non-network hospitals.",
       },
     ],
-    bgImage: "/family.png",
+    bgImage: "/health.png",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -578,7 +578,7 @@ export const servicesData = [
           "Standard policies don't cover engine damage due to water logging (hydrostatic lock) unless you have an Engine Protection add-on.",
       },
     ],
-    bgImage: "/hero1.jpg",
+    bgImage: "/motor.jpg",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -630,7 +630,7 @@ export const servicesData = [
           "It is mandatory for Schengen countries and recommended for others like the USA due to high medical costs.",
       },
     ],
-    bgImage: "/hero3.png",
+    bgImage: "/travel.jpg",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -679,7 +679,7 @@ export const servicesData = [
           "Yes, you can pay the deductible amount from your own pocket and claim the rest from the Super Top-up.",
       },
     ],
-    bgImage: "/hero2.jpg",
+    bgImage: "/super.png",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
