@@ -19,10 +19,10 @@ const duplicatedGoals = [...goals, ...goals, ...goals];
 
 export default function GoalSection() {
   return (
-    <section className="py-24 px-0   relative overflow-hidden"> 
+    <section className="py-14 px-0   relative overflow-hidden"> 
         <div className="max-w-7xl mx-auto px-6 md:px-12">
             {/* Section Header */}
-            <div className="text-center mb-16">
+            <div className="text-center mb-10">
                  <h2 className="text-4xl md:text-5xl font-bold text-[#00394E] font-serif tracking-tight">
                     Designed for <span className=" text-[#DAA434]">Life's Milestones</span>
                 </h2>

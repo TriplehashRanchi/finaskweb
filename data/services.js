@@ -32,10 +32,7 @@ export const servicesData = [
       { question: "What is the right age to buy life insurance?", answer: "The younger you are, the lower the premiums. Buying early locks in a low rate for the entire term." },
       { question: "What is the difference between Term and Endowment plans?", answer: "Term insurance offers high cover at low cost with no maturity benefit. Endowment plans offer a mix of insurance and savings with a maturity payout." },
       { question: "Are the premiums tax-deductible?", answer: "Yes, premiums paid are eligible for tax deduction under Section 80C of the Income Tax Act." },
-      { question: "What is a Rider?", answer: "Riders are add-on benefits (like Critical Illness or Accidental Death cover) that you can attach to your base policy for extra protection." },
-      { question: "What happens if I stop paying premiums?", answer: "For term plans, the policy lapses. For endowment plans, it may acquire a paid-up value if premiums have been paid for a minimum period." },
-      { question: "Is the death benefit tax-free?", answer: "Yes, the death benefit received by the nominee is generally tax-free under Section 10(10D)." }
-    ]
+      ]
   },
   {
     slug: "motor-insurance",
@@ -53,9 +50,7 @@ export const servicesData = [
       { question: "What is IDV?", answer: "Insured Declared Value (IDV) is the maximum sum assured fixed at the start of the policy, representing the current market value of the vehicle." },
       { question: "What is a Zero Depreciation cover?", answer: "It ensures you get the full claim amount without deductions for depreciation on replaced parts (plastic, rubber, glass, etc.)." },
       { question: "Does it cover engine damage?", answer: "Standard policies don't cover engine damage due to water logging (hydrostatic lock) unless you have an Engine Protection add-on." },
-      { question: "What is No Claim Bonus (NCB) in motor insurance?", answer: "It's a discount on the premium (Own Damage component) for every claim-free year, which can go up to 50%." },
-      { question: "Can I transfer my NCB to a new car?", answer: "Yes, NCB belongs to the policyholder, not the car. You can transfer it when you buy a new vehicle." }
-    ]
+      ]
   },
   {
     slug: "travel-insurance",
@@ -72,10 +67,7 @@ export const servicesData = [
       { question: "Does it cover COVID-19?", answer: "Most modern travel insurance plans now include coverage for COVID-19 related hospitalization and trip cancellations." },
       { question: "What if I lose my passport?", answer: "The policy covers the cost of obtaining a duplicate or new passport if lost while abroad." },
       { question: "Is travel insurance mandatory for all countries?", answer: "It is mandatory for Schengen countries and recommended for others like the USA due to high medical costs." },
-      { question: "Does it cover adventure sports?", answer: "Standard policies usually exclude adventure sports. You need to check for specific add-ons or specialized plans." },
-      { question: "What is 'Trip Cancellation' cover?", answer: "It reimburses non-refundable prepaid expenses if you have to cancel the trip due to specified reasons like illness or death in the family." },
-      { question: "Does it cover pre-existing diseases?", answer: "Usually, pre-existing diseases are excluded or covered only in life-threatening emergency situations." }
-    ]
+      ]
   },
   {
     slug: "super-health-top-up",
@@ -91,10 +83,7 @@ export const servicesData = [
       { question: "Does it cover pre-existing diseases?", answer: "Yes, subject to the waiting period terms of the policy, similar to standard health insurance." },
       { question: "What is a deductible?", answer: "A deductible is the initial amount of the claim that you (or your base policy) must pay before the Super Top-up plan kicks in." },
       { question: "Can I use it without a base policy?", answer: "Yes, you can pay the deductible amount from your own pocket and claim the rest from the Super Top-up." },
-      { question: "Is the deductible per claim or per year?", answer: "It depends. 'Top-up' plans usually apply per claim, while 'Super Top-up' plans apply to the aggregate claims in a policy year (which is better)." },
-      { question: "Does it cover maternity?", answer: "Usually, Super Top-up plans do not cover maternity expenses, but some specific plans might." },
-      { question: "Are the premiums cheaper than base plans?", answer: "Yes, because the deductible reduces the insurer's risk, Super Top-up plans are significantly cheaper than base health plans." }
-    ]
+       ]
   },
   {
     slug: "personal-accident",
@@ -110,11 +99,8 @@ export const servicesData = [
     faq: [
       { question: "Is this covered in health insurance?", answer: "Usually no. Standard health insurance covers hospitalization costs, while Personal Accident covers disability compensation and death benefits." },
       { question: "Does it cover natural death?", answer: "No, Personal Accident insurance only covers death or disability resulting directly from an accident." },
-      { question: "What is Permanent Total Disability (PTD)?", answer: "It refers to an injury that permanently prevents you from engaging in any occupation (e.g., loss of both limbs or eyes)." },
-      { question: "What is Temporary Total Disability (TTD)?", answer: "It covers temporary inability to work (e.g., fractures) and provides a weekly cash benefit for a specified period." },
-      { question: "Is there a waiting period?", answer: "No, Personal Accident covers usually start immediately after policy issuance." },
-      { question: "Does it cover accidents abroad?", answer: "Yes, most Personal Accident policies provide worldwide coverage." }
-    ]
+       { question: "What is Temporary Total Disability (TTD)?", answer: "It covers temporary inability to work (e.g., fractures) and provides a weekly cash benefit for a specified period." },
+     ]
   },
   {
     slug: "critical-illness",
@@ -131,10 +117,7 @@ export const servicesData = [
       { question: "Do I need bills to claim?", answer: "No, the payout is a fixed lump sum based on the diagnosis of a listed illness, irrespective of actual medical expenses." },
       { question: "Can I claim for multiple illnesses?", answer: "Usually, the policy terminates after the full sum insured is paid out for a critical illness claim." },
       { question: "What is the survival period?", answer: "Most policies require the insured to survive for a specific period (e.g., 30 days) after diagnosis to be eligible for the claim." },
-      { question: "Does it cover early-stage cancer?", answer: "Standard plans cover major stages. However, some comprehensive plans now offer partial payouts for early-stage cancers." },
-      { question: "How is it different from health insurance?", answer: "Health insurance reimburses hospital bills. Critical Illness insurance gives you cash to replace lost income or pay for lifestyle changes." },
-      { question: "Is there a waiting period?", answer: "Yes, there is typically a 90-day waiting period from policy inception before you can claim." }
-    ]
+      ]
   },
   {
     slug: "marine-cargo",
@@ -148,9 +131,7 @@ export const servicesData = [
       { title: "Warehouse to Warehouse", description: "Coverage from point of origin to final destination." }
     ],
     faq: [
-      { question: "Is it only for sea transport?", answer: "No, it covers all modes of transport including road, rail, air, and couriers." },
-      { question: "What is 'All Risk' cover?", answer: "It covers all risks of loss or damage from external causes, subject to specific exclusions (like willful misconduct or inherent vice)." },
-      { question: "Does it cover delay?", answer: "Standard policies usually exclude loss due to delay, even if the delay is caused by an insured peril." },
+       { question: "Does it cover delay?", answer: "Standard policies usually exclude loss due to delay, even if the delay is caused by an insured peril." },
       { question: "What is General Average?", answer: "It's a maritime principle where all parties in a sea venture proportionally share any losses resulting from a voluntary sacrifice of part of the ship or cargo to save the whole in an emergency." },
       { question: "When does the cover start and end?", answer: "Under 'Warehouse to Warehouse' clauses, cover starts when goods leave the warehouse of origin and ends upon delivery at the final destination." },
       { question: "Can I insure second-hand machinery?", answer: "Yes, but it usually requires a pre-inspection and coverage might be limited (e.g., excluding breakage)." }

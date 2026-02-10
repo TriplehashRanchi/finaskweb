@@ -15,7 +15,7 @@ import {
 
 export default function Footer() {
   return (
-    <footer className="bg-[#001F2B] text-white pt-10   mt-20">
+    <footer className="bg-[#001F2B] text-white pt-10   mt-10">
       <div className="max-w-7xl mx-auto px-6 lg:px-8 ">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-12 lg:gap-8 mb-10">
           {/* Column 1: Brand & Social */}

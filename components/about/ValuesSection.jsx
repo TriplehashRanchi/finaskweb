@@ -96,7 +96,7 @@ const values = [
 
 export default function ValuesSection() {
   return (
-    <section id="values" className="py-24 px-6 md:px-10 bg-[#FDF9FB] ">
+    <section id="values" className="py-14 px-6   bg-[#FDF9FB] ">
         <div className="max-w-8xl mx-auto">
              <div className="text-center mb-16">
               
@@ -117,7 +117,7 @@ export default function ValuesSection() {
                      
 
                         {/* Hover Overlay (Navy Slide) */}
-                        <div className="absolute inset-0 bg-[#00394E] translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out z-10"></div>
+                        <div className="absolute inset-0 bg-[#00394E] translate-y-full group-hover:translate-y-0 transition-transform duration-700 ease-in-out z-10"></div>
 
                         {/* Content Container */}
                         <div className="absolute inset-0 p-8 flex flex-col items-start justify-center z-20 transition-all duration-500 group-hover:items-start">

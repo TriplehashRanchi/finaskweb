@@ -26,7 +26,7 @@ const services = [
 
 export default function ServicesSection() {
   return (
-    <section className="pt-24">
+    <section className="pt-14">
       <div className="max-w-7xl mx-auto  ">
         
         {/* Section Heading */}

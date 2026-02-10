@@ -91,7 +91,7 @@ export default function TestimonialSection() {
   }, [paginate, isHovered, page]); // Dependency on 'page' ensures timer resets on manual change
 
   return (
-    <section className="pb-24 relative overflow-hidden bg-[#FDF9FB]">
+    <section className="pb-14 relative overflow-hidden bg-[#FDF9FB]">
       <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8 relative min-h-[500px] flex items-center">
         
         {/* RIGHT: Dark Background Block */}

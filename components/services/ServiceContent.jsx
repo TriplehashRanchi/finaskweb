@@ -138,65 +138,17 @@ export default function ServiceContent({ service }) {
         )}
       </div>
 
-      <p className="text-slate-600 leading-[1.3] mb-8 text-md">
+      <p className="text-slate-600 leading-[1.3] mb-10 text-md">
         Our commitment to excellence ensures that you receive the highest
         standard of service. We leverage cutting-edge technology and deep market
         insights to deliver results that matter. Partner with us to experience a
-        seamless and rewarding financial journey.
+        seamless and rewarding financial journey. 
       </p>
 
       {/* ----------------------------- */}
       {/*        PROCESS STEPS          */}
       {/* ----------------------------- */}
-      <div className="mb-16">
-        <h2 className="font-serif text-3xl md:text-3xl text-[#00394E] mb-6 font-bold">
-          {" "}
-          Simple Steps to Process
-        </h2>
-        <p className="text-slate-600 leading-[1.3] mb-8 max-w-3xl text-md">
-          We have simplified the process to ensure a hassle-free experience for
-          you. Our streamlined approach focuses on clarity, efficiency, and
-          results, allowing you to focus on what matters most.
-        </p>
-
-        <div className="space-y-8">
-          {steps.map((step, idx) => (
-            <div
-              key={idx}
-              className="flex flex-col lg:flex-row gap-8 items-center border-b border-slate-100 pb-10 last:border-0 last:pb-0"
-            >
-              <h3 className="font-serif text-xl font-bold text-[#00394E] mb-4">
-                {" "}
-                {/* Deep Teal */}
-                {step.title}
-              </h3>
-              {/* Content */}
-              <div className="w-full lg:w-2/3 flex flex-col md:flex-row gap-8 md:items-center">
-                <div className="flex-1">
-                  <p className="text-slate-600 text-sm leading-relaxed mb-0">
-                    {step.description}
-                  </p>
-                </div>
-
-                {/* List */}
-                <div className="flex-1">
-                  <ul className="space-y-1">
-                    {step.points.map((point, i) => (
-                      <li
-                        key={i}
-                        className="text-slate-500 text-sm flex items-center gap-2"
-                      >
-                        {/* <span className="w-1.5 h-1.5 rounded-full bg-[#DAA434]"></span> */}
-                        {point}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
+      
 
       {/* ----------------------------- */}
       {/*        FAQ SECTION            */}

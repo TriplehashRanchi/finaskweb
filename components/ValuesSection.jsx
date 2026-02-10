@@ -55,7 +55,7 @@ const values = [
 
 export default function ValuesSection() {
   return (
-    <section className="w-full   py-24 px-8">
+    <section className="w-full   py-14 px-8">
       <div className="text-center mb-12 px-4">
         <h2 className="text-4xl md:text-5xl font-bold text-[#00394E] font-serif tracking-tight">
           Our Core <span className="text-[#DAA434]">Values</span>
@@ -72,7 +72,7 @@ export default function ValuesSection() {
             className="group relative h-[380px] bg-white   overflow-hidden cursor-pointer transition-all duration-300"
           >
             {/* Hover Overlay (Navy Slide) */}
-            <div className="absolute inset-0 bg-[#00394E] translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out z-10"></div>
+            <div className="absolute inset-0 bg-[#00394E] translate-y-full group-hover:translate-y-0 transition-transform duration-700 ease-in-out z-10"></div>
 
             {/* Content Container */}
             <div className="absolute inset-0 p-8 flex flex-col items-start justify-center z-20 transition-all duration-500 group-hover:items-start">
