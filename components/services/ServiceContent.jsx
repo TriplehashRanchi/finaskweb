@@ -49,12 +49,12 @@ export default function ServiceContent({ service }) {
       {/*        TOP SECTION            */}
       {/* ----------------------------- */}
       <div className="mb-8">
-        <h2 className="font-serif text-3xl md:text-5xl text-[#00394E] mb-8 font-bold">
+        <h2 className="font-serif text-3xl md:text-5xl text-[#00394E] mb-8 font-medium">
           {" "}
           {/* Deep Teal */}
           {service.title}
         </h2>
-        <div className="space-y-2 text-slate-600 leading-[1.4] text-md text-justify">
+        <div className="space-y-2 text-slate-600 leading-[1.4] text-md text-justify ">
           <p>{service.description}</p>
           <p>{service.introText}</p>
         </div>

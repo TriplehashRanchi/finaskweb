@@ -57,7 +57,7 @@ export default function ValuesSection() {
   return (
     <section className="w-full   py-14 px-8">
       <div className="text-center mb-12 px-4">
-        <h2 className="text-4xl md:text-5xl font-bold text-[#00394E] font-serif tracking-tight">
+        <h2 className="text-4xl md:text-5xl font-medium text-[#00394E] font-serif tracking-tight">
           Our Core <span className="text-[#DAA434]">Values</span>
         </h2>
         <p className="mt-4 text-gray-600 max-w-2xl mx-auto text-lg">

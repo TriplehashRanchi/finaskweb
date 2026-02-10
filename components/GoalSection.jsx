@@ -23,7 +23,7 @@ export default function GoalSection() {
         <div className="max-w-7xl mx-auto px-6 md:px-12">
             {/* Section Header */}
             <div className="text-center mb-10">
-                 <h2 className="text-4xl md:text-5xl font-bold text-[#00394E] font-serif tracking-tight">
+                 <h2 className="text-4xl md:text-5xl font-medium text-[#00394E] font-serif tracking-tight">
                     Designed for <span className=" text-[#DAA434]">Life's Milestones</span>
                 </h2>
                 <p className="mt-4 text-gray-600 max-w-2xl mx-auto text-lg">

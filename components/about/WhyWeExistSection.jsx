@@ -20,7 +20,7 @@ export default function WhyWeExistSection() {
 
             {/* Big Number Area with Rotated Text */}
             <div className="flex items-start">
-              <span className="text-[14rem] sm:text-[16rem] leading-none font-bold text-[#00394E] font-sans -ml-2 sm:-ml-4 tracking-tighter">
+              <span className="text-[14rem] sm:text-[16rem] leading-none font-medium text-[#00394E] font-sans -ml-2 sm:-ml-4 tracking-tighter">
                 8+
               </span>
               <div className="writing-vertical-rl rotate-90 text-xs sm:text-sm font-bold tracking-[0.2em] text-[#DAA434] h-[12rem] sm:h-[16rem] mt-6 sm:mt-8   self-start">

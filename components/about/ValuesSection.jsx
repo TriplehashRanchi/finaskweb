@@ -100,7 +100,7 @@ export default function ValuesSection() {
         <div className="max-w-8xl mx-auto">
              <div className="text-center mb-16">
               
-                <h2 className="font-serif text-4xl md:text-5xl font-bold text-[#00394E] mb-4">
+                <h2 className="font-serif text-4xl md:text-5xl font-medium text-[#00394E] mb-4">
                        Our Core Principles
                 </h2>
                 <p className="text-gray-500 max-w-2xl mx-auto text-lg leading-relaxed">

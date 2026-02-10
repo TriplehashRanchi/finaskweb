@@ -21,11 +21,11 @@ export default function CTASection() {
         
         {/* Text Content */}
         <div className="text-center md:text-left  ">
-          <h2 className="text-4xl md:text-5xl lg:text-5xl font-serif font-bold text-white tracking-tight leading-tight mb-6">
+          <h2 className="text-4xl md:text-5xl lg:text-5xl font-serif font-medium text-white tracking-tight leading-tight mb-6">
             Your Legacy.  <span className="text-[#DAA434]  ">Our Strategy.</span> 
            
           </h2>
-          <p className="text-gray-400 text-lg leading-relaxed max-w-lg mx-auto md:mx-0">
+          <p className="text-gray-400 text-lg leading-[1.2] max-w-lg mx-auto md:mx-0">
              Let's build a financial future that aligns with your values. Expert guidance, every step of the way.
           </p>
         </div>

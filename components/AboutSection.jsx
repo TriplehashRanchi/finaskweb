@@ -11,7 +11,7 @@ export default function AboutSection() {
           {/* LEFT: Content */}
           <div className="order-2 lg:order-1 flex flex-col justify-center">
             {/* Main Heading */}
-            <h2 className="text-4xl md:text-5xl lg:text-5xl font-semibold text-[#00394E] mb-6 font-serif leading-[1.1]">
+            <h2 className="text-4xl md:text-5xl lg:text-5xl font-medium text-[#00394E] mb-6 font-serif leading-[1.1]">
               Not Just Growing Wealth Guiding Its Journey
             </h2>
 

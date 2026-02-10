@@ -22,7 +22,7 @@ export default function Footer() {
           <div className="space-y-6 lg:col-span-4">
             <div className="flex items-center gap-2">
               {/* Using text logo for now, or Image if available */}
-              <span className="text-3xl font-bold font-serif text-white">
+              <span className="text-3xl font-medium font-serif text-white">
                 Fin<span className="text-[#DAA434]">Ask</span>
               </span>
             </div>

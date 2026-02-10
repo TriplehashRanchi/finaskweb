@@ -7,7 +7,7 @@ export default function AwardsSection() {
     <section id="awards" className="py-14 px-6 md:px-12 bg-[#FDF9FB] relative">
       <div className="max-w-7xl mx-auto text-center">
         <div className="mb-16">
-          <h2 className="font-serif text-4xl md:text-5xl font-bold text-[#00394E]">
+          <h2 className="font-serif text-4xl md:text-5xl font-medium text-[#00394E]">
             Awards & Recognition
           </h2>
         </div>
