@@ -42,35 +42,9 @@ export default function ServiceContent({ service }) {
     return <Icon className="w-8 h-8 text-[#DAA434]" />; // Warm Mustard
   };
 
-  // Static steps data
-  const steps = [
-    {
-      title: "Define Your Objectives and Plan",
-      description:
-        "We start by understanding your unique financial situation and goals to create a tailored roadmap.",
-      points: [
-        "Comprehensive Financial Analysis",
-        "Goal Setting & Prioritization",
-        "Risk Assessment",
-        "Strategic Allocation",
-      ],
-      image: "/about-detail.png",
-    },
-    {
-      title: "Execute and Monitor Your Strategy",
-      description:
-        "We implement the plan with precision and continuously monitor progress to ensure alignment with your objectives.",
-      points: [
-        "Portfolio Implementation",
-        "Regular Performance Reviews",
-        "Rebalancing & Optimization",
-        "Tax Efficiency Management",
-      ],
-    },
-  ];
-
   return (
     <div className="w-full">
+      {/* ----------------------------- */}
       {/* ----------------------------- */}
       {/*        TOP SECTION            */}
       {/* ----------------------------- */}
@@ -82,14 +56,7 @@ export default function ServiceContent({ service }) {
         </h2>
         <div className="space-y-2 text-slate-600 leading-[1.4] text-md text-justify">
           <p>{service.description}</p>
-          <p>
-            At FinAsk, we believe in a holistic approach to financial
-            well-being. Our expert team is dedicated to providing you with the
-            insights and strategies needed to navigate complex financial
-            landscapes with confidence. Whether you are looking to grow your
-            wealth, protect your assets, or plan for the future, we are here to
-            guide you every step of the way.
-          </p>
+          <p>{service.introText}</p>
         </div>
       </div>
 
@@ -118,37 +85,11 @@ export default function ServiceContent({ service }) {
               </div>
             </div>
           ))}
-
-        {/* Add a filler feature if odd number to balance grid */}
-        {service.features && service.features.length % 2 !== 0 && (
-          <div className="flex gap-4 items-start">
-            <div className="w-16 h-16 rounded-full bg-[#00394E] flex items-center justify-center shrink-0 border border-slate-100 shadow-sm">
-              <Briefcase className="w-8 h-8 text-[#DAA434]" />
-            </div>
-            <div>
-              <h3 className="font-serif text-xl font-bold text-[#00394E] mb-2">
-                Expert Consultation
-              </h3>
-              <p className="text-slate-500 leading-relaxed text-sm">
-                Get personalized advice from our seasoned financial experts
-                tailored to your needs.
-              </p>
-            </div>
-          </div>
-        )}
       </div>
 
       <p className="text-slate-600 leading-[1.3] mb-10 text-md">
-        Our commitment to excellence ensures that you receive the highest
-        standard of service. We leverage cutting-edge technology and deep market
-        insights to deliver results that matter. Partner with us to experience a
-        seamless and rewarding financial journey. 
+        {service.closingText}
       </p>
-
-      {/* ----------------------------- */}
-      {/*        PROCESS STEPS          */}
-      {/* ----------------------------- */}
-      
 
       {/* ----------------------------- */}
       {/*        FAQ SECTION            */}
@@ -162,7 +103,7 @@ export default function ServiceContent({ service }) {
                 {" "}
                 {/* Reduced height slightly for proportion */}
                 <Image
-                  src="/faq.jpg" // Using the team image as per request/context
+                  src={service.faqSection?.image || "/faq.jpg"}
                   alt="Consultation"
                   fill
                   className="object-cover  "
@@ -173,7 +114,8 @@ export default function ServiceContent({ service }) {
                 {" "}
                 {/* Deep Teal Box */}
                 <h3 className="text-white text-xl font-serif font-bold mb-6 leading-tight">
-                  If You Need Help, Get A Consultation
+                  {service.faqSection?.consultationTitle ||
+                    "If You Need Help, Get A Consultation"}
                 </h3>
                 <Link
                   href="/contact"
@@ -181,7 +123,7 @@ export default function ServiceContent({ service }) {
                 >
                   {" "}
                   {/* Warm Mustard Link */}
-                  Get Started
+                  {service.faqSection?.consultationButton || "Get Started"}
                   <div className="bg-[#DAA434] rounded-full p-0.5 group-hover:bg-[#ffbf40] transition-colors">
                     <ArrowRight
                       className="w-4 h-4 text-[#00394E]"
@@ -201,11 +143,11 @@ export default function ServiceContent({ service }) {
               <h2 className="font-serif text-3xl font-bold text-[#00394E] mb-4">
                 {" "}
                 {/* Deep Teal Heading */}
-                General Question
+                {service.faqSection?.title || "General Question"}
               </h2>
               <p className="text-slate-600 mb-8 leading-[1.2]">
-                Answers to common questions about our services and how we can
-                help you achieve your financial goals.
+                {service.faqSection?.description ||
+                  "Answers to common questions about our services."}
               </p>
               <div className="space-y-4">
                 {service.faq.map((item, idx) => (
@@ -250,7 +192,6 @@ export default function ServiceContent({ service }) {
           </div>
         </div>
       )}
- 
     </div>
   );
 }
