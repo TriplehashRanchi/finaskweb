@@ -72,6 +72,8 @@ export default function EthosSection() {
             fill
             className="object-cover object-center"
           />
+                        <div className="absolute inset-0 bg-gradient-to-tr from-[#001F2B]/40 to-transparent pointer-events-none"></div>
+
         </div>
       </div>
     </section>

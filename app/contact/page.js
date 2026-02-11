@@ -144,18 +144,18 @@ export default function ContactPage() {
       <section className="  pt-24 pb-30 px-6 md:px-12 bg-[#FDF9FB] relative">
         <div className="max-w-7xl mx-auto relative flex flex-col lg:flex-row items-center justify-center min-h-[500px]">
           {/* Center Image */}
-          <div className="relative w-full lg:w-[45%] h-[350px] lg:h-[570px] rounded-2xl overflow-hidden shadow-2xl z-0 order-2 lg:order-1 lg:absolute lg:left-1/2 lg:-translate-x-1/2 bg-gray-200">
+          <div className="relative w-full lg:w-[45%] h-[350px] lg:h-[570px] rounded-xl overflow-hidden shadow-2xl z-0 order-2 lg:order-1 lg:absolute lg:left-1/2 lg:-translate-x-1/2 bg-gray-200">
             <Image
               src="/about-team.png"
               alt="Our Office"
               fill
               className="object-cover"
             />
-            <div className="absolute inset-0 bg-[#00394E]/20" />
+            <div className="absolute inset-0 bg-[#00394E]/30" />
           </div>
 
           {/* Left Card: Gurugram */}
-          <div className="w-full lg:w-[32%] bg-[#00394E] p-16 rounded-lg flex flex-col  justify-center shadow-xl z-20 relative mt-[-40px] lg:mt-0 lg:mr-auto order-3 lg:order-2 text-white border border-[#DAA434]/20 hover:scale-105 transition-transform duration-500">
+          <div className="w-full lg:w-[32%] bg-[#00394E] p-16 rounded-lg flex flex-col  justify-center shadow-xl z-20 relative mt-[-40px] lg:mt-0 lg:mr-auto order-3 lg:order-2 text-white  hover:scale-105 transition-transform duration-500">
             <h3 className="font-serif text-2xl mb-6">Gurugram</h3>
 
             <div className="space-y-10">

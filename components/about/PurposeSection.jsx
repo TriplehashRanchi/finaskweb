@@ -12,7 +12,7 @@ export default function PurposeSection() {
                 {/* LEFT: Tall Image */}
                 <div className="relative w-full lg:w-[45%] h-[600px] z-0   overflow-hidden shadow-2xl">
                     <Image 
-                        src="/hero3.png" 
+                        src="/purpose.png" 
                         alt="Purpose Beyond Profit" 
                         fill 
                         className="object-cover object-center" 

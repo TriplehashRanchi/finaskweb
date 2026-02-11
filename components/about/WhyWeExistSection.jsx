@@ -42,6 +42,7 @@ export default function WhyWeExistSection() {
                       fill
                       className="object-cover"
                     />
+                    
                   </div>
                 ))}
               </div>
@@ -83,11 +84,13 @@ export default function WhyWeExistSection() {
 
             <div className="relative w-full h-[350px]   overflow-hidden shadow-xl mt-4 group">
               <Image
-                src="/about-detail.png"
+                src="/why.png"
                 alt="Team Working"
                 fill
                 className="object-cover transition-transform duration-700 group-hover:scale-105"
               />
+                            <div className="absolute inset-0 bg-gradient-to-tr from-[#001F2B]/40 to-transparent pointer-events-none"></div>
+
             </div>
           </div>
         </div>

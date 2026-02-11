@@ -22,7 +22,7 @@ const features = [
   {
     id: "women-corner",
     title: "Women Corner",
-    image: "/women.png",
+    image: "/women-corner.png",
     description: "For every woman balancing dreams, duties, and tomorrow this is her corner."
   }
 ];

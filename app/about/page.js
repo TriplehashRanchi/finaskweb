@@ -7,8 +7,7 @@ import AboutHero from "@/components/about/AboutHero";
 import EthosSection from "@/components/about/EthosSection";
 import WhyWeExistSection from "@/components/about/WhyWeExistSection";
 import HowWeWorkSection from "@/components/about/HowWeWorkSection";
-import TeamSection from "@/components/about/TeamSection";
-import PurposeSection from "@/components/about/PurposeSection";
+ import PurposeSection from "@/components/about/PurposeSection";
 import AwardsSection from "@/components/about/AwardsSection";
 
 export default function AboutPage() {

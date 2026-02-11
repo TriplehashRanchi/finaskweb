@@ -413,7 +413,7 @@ export const servicesData = [
           "Yes, cashless treatment is available at network hospitals. Reimbursement is available for non-network hospitals.",
       },
     ],
-    bgImage: "/family.png",
+    bgImage: "/personal.png",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -710,7 +710,7 @@ export const servicesData = [
         title: "Disability Cover",
         description:
           "Lump sum payout for permanent partial or total disability.",
-      },
+      },  
       {
         title: "Accidental Death",
         description:
@@ -1303,7 +1303,7 @@ export const servicesData = [
           "PMS strategies can be aggressive (e.g., small-cap focus) and may carry higher risk than diversified mutual funds.",
       },
     ],
-    bgImage: "/goal2.png",
+    bgImage: "/family.png",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -1361,7 +1361,7 @@ export const servicesData = [
           "Cat I & II have 'pass-through' status (taxed at investor level). Cat III is taxed at the fund level.",
       },
     ],
-    bgImage: "/goal3.png",
+    bgImage: "/family.jpg",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -1418,7 +1418,7 @@ export const servicesData = [
           "Yes, listed bonds can be sold on the stock exchange, though liquidity depends on the specific bond.",
       },
     ],
-    bgImage: "/goal4.png",
+    bgImage: "/service.jpg",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -1532,7 +1532,7 @@ export const servicesData = [
           "At maturity (age 60), you must use at least 40% of the corpus to purchase an annuity plan for monthly pension.",
       },
     ],
-    bgImage: "/goal6.png",
+    bgImage: "/family-office.png",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -1590,7 +1590,7 @@ export const servicesData = [
           "Our brokerage charges are competitive and transparent, with options for flat-fee or volume-based plans.",
       },
     ],
-    bgImage: "/goal7.png",
+    bgImage: "/executor.png",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -1647,7 +1647,7 @@ export const servicesData = [
           "It depends on the product. Some offer instant liquidity, while others may have a lock-in of 3-12 months.",
       },
     ],
-    bgImage: "/hero2.jpg",
+    bgImage: "/family-office.png",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -1761,7 +1761,7 @@ export const servicesData = [
           "Interest is fully taxable at your slab rate. TDS is deducted if interest exceeds ₹5,000 in a financial year.",
       },
     ],
-    bgImage: "/goal3.png",
+    bgImage: "/family-office.png",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -1819,7 +1819,7 @@ export const servicesData = [
           "It varies. Invoice discounting can start from ₹50,000, while MLDs often have a higher ticket size (₹1 Lakh+).",
       },
     ],
-    bgImage: "/goal4.png",
+    bgImage: "/next-gen.png",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -1934,7 +1934,7 @@ export const servicesData = [
           "REITs are mandated to distribute at least 90% of their net distributable cash flows to investors semi-annually.",
       },
     ],
-    bgImage: "/home.jpg",
+    bgImage: "/trust.png",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -2047,7 +2047,7 @@ export const servicesData = [
           "Yes, 3% GST is applicable on the purchase of digital gold, similar to physical gold.",
       },
     ],
-    bgImage: "/goal5.png",
+    bgImage: "/how3.png",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -2106,7 +2106,7 @@ export const servicesData = [
           "Trusts can be revocable (can be cancelled) or irrevocable (permanent). Irrevocable trusts offer better asset protection.",
       },
     ],
-    bgImage: "/goal6.png",
+    bgImage: "/trust.png",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -2163,7 +2163,7 @@ export const servicesData = [
           "Yes, you can update or revoke your Will as many times as you like during your lifetime. Only the last valid Will is considered.",
       },
     ],
-    bgImage: "/goal6.png",
+    bgImage: "/will.png",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -2394,7 +2394,7 @@ export const servicesData = [
           "TDS is deducted on capital gains for NRIs. However, you can claim DTAA benefits if applicable.",
       },
     ],
-    bgImage: "/nri.png",
+    bgImage: "/nri-services.png",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -2451,7 +2451,7 @@ export const servicesData = [
           "We help you build a personal corpus, manage your own investments, and plan for your future security.",
       },
     ],
-    bgImage: "/women.png",
+    bgImage: "/women-corner.png",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -2509,7 +2509,7 @@ export const servicesData = [
           "The executor's role begins immediately upon the death of the testator (person who made the Will).",
       },
     ],
-    bgImage: "/hero4.jpg",
+    bgImage: "/executor.png",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -2623,7 +2623,7 @@ export const servicesData = [
           "It's a guideline suggesting you can withdraw 4% of your retirement corpus annually without running out of money (subject to market conditions).",
       },
     ],
-    bgImage: "/goal7.png",
+    bgImage: "/next-gen.png",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -2680,7 +2680,7 @@ export const servicesData = [
           "It's a guideline suggesting you can withdraw 4% of your retirement corpus annually without running out of money (subject to market conditions).",
       },
     ],
-    bgImage: "/goal7.png",
+    bgImage: "/service.jpg",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -2796,7 +2796,7 @@ export const servicesData = [
           "It is a document recording the amicable distribution of family assets to prevent future disputes.",
       },
     ],
-    bgImage: "/hero4.jpg",
+    bgImage: "/service.jpg",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -2969,7 +2969,7 @@ export const servicesData = [
           "Yes, we can oversee real estate, art collections, and other passion assets.",
       },
     ],
-    bgImage: "/hero4.jpg",
+    bgImage: "/family-office.png",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -3142,7 +3142,7 @@ export const servicesData = [
           "No, we teach sustainable wealth creation through discipline, patience, and smart decision-making.",
       },
     ],
-    bgImage: "/girl.png",
+    bgImage: "/next-gen.png",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
