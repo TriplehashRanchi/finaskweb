@@ -196,10 +196,13 @@ export default function Footer() {
             <a href="/level" className="hover:text-white transition-colors">
               Escalation matrices
             </a>
-            <a href="#" className="hover:text-white transition-colors">
-              Terms of service
+             <a href="/disclaimer" className="hover:text-white transition-colors">
+              Disclaimer
             </a>
-            <a href="#" className="hover:text-white transition-colors">
+            <a href="/terms" className="hover:text-white transition-colors">
+              Terms and conditions
+            </a>
+            <a href="/privacy-policy" className="hover:text-white transition-colors">
               Privacy policy
             </a>
           </div>

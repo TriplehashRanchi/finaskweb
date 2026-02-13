@@ -4,7 +4,10 @@ import Image from "next/image";
 import Link from "next/link";
 import { ChevronRight } from "lucide-react";
 
+import { usePathname } from "next/navigation";
+
 export default function Navbar() {
+ 
   const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
