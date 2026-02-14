@@ -33,10 +33,26 @@ export default function Footer() {
 
             {/* Social Icons */}
             <div className="flex gap-4">
-              {[Facebook, Twitter, Instagram, Linkedin].map((Icon, i) => (
+              {[
+                {
+                  icon: Facebook,
+                  link: "https://www.facebook.com/finaskvalue/",
+                },
+                { icon: Twitter, link: "https://twitter.com/yourhandle" },
+                {
+                  icon: Instagram,
+                  link: "https://www.instagram.com/finask_value/",
+                },
+                {
+                  icon: Linkedin,
+                  link: "https://www.linkedin.com/company/finask-value/?viewAsMember=true",
+                },
+              ].map(({ icon: Icon, link }, i) => (
                 <a
                   key={i}
-                  href="#"
+                  href={link}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="w-10 h-10 rounded-lg bg-white/5 flex items-center justify-center hover:bg-[#DAA434] transition-colors duration-300 group"
                 >
                   <Icon
@@ -196,13 +212,19 @@ export default function Footer() {
             <a href="/level" className="hover:text-white transition-colors">
               Escalation matrices
             </a>
-             <a href="/disclaimer" className="hover:text-white transition-colors">
+            <a
+              href="/disclaimer"
+              className="hover:text-white transition-colors"
+            >
               Disclaimer
             </a>
             <a href="/terms" className="hover:text-white transition-colors">
               Terms and conditions
             </a>
-            <a href="/privacy-policy" className="hover:text-white transition-colors">
+            <a
+              href="/privacy-policy"
+              className="hover:text-white transition-colors"
+            >
               Privacy policy
             </a>
           </div>

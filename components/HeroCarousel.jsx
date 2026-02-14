@@ -115,7 +115,8 @@ export default function HeroCarousel() {
       <div className="absolute left-16 bottom-0 top-0 w-12 z-30 hidden md:flex flex-col items-center justify-end pb-20 gap-8">
         <div className="flex flex-col gap-6 text-white/80">
           <a
-            href="#"
+            href="https://www.facebook.com/finaskvalue/"
+            target="_blank"
             className="hover:text-[#DAA434] transition-colors hover:-translate-y-1 transform duration-300"
           >
             <svg
@@ -130,7 +131,8 @@ export default function HeroCarousel() {
             </svg>
           </a>
           <a
-            href="#"
+            href="https://www.linkedin.com/company/finask-value/?viewAsMember=true"
+            target="_blank"
             className="hover:text-[#DAA434] transition-colors hover:-translate-y-1 transform duration-300"
           >
             <svg
@@ -147,7 +149,8 @@ export default function HeroCarousel() {
             </svg>
           </a>
           <a
-            href="#"
+            href="https://www.instagram.com/finask_value/"
+            target="_blank"
             className="hover:text-[#DAA434] transition-colors hover:-translate-y-1 transform duration-300"
           >
             <svg
