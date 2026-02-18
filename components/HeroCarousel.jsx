@@ -183,6 +183,12 @@ export default function HeroCarousel() {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, delay: 1.5 }}
+        onClick={() => {
+          const aboutSection = document.getElementById('about');
+          if (aboutSection) {
+            aboutSection.scrollIntoView({ behavior: 'smooth' });
+          }
+        }}
       >
         {/* Mouse Body */}
         <div className="w-[30px] h-[50px] border-2 border-white/30 rounded-full flex justify-center p-2 backdrop-blur-sm group-hover:border-[#DAA434]/80 transition-colors duration-300 shadow-sm relative bg-white/5">
