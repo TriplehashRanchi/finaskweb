@@ -2,7 +2,8 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import { ChevronLeft, ChevronRight, Play } from "lucide-react";
+import { ChevronLeft, ChevronRight, Play, ChevronDown } from "lucide-react";
+import { motion } from "framer-motion";
 
 const slides = [
   {
@@ -173,7 +174,36 @@ export default function HeroCarousel() {
         </div>
         {/* Vertical Line - Brand Gold */}
         <div className="w-[1px] h-32 bg-[#DAA434]/60 mt-4"></div>
+
       </div>
+
+      {/* SCROLL INDICATOR (Bottom Center) */}
+      <motion.div 
+        className="absolute bottom-10 left-1/2 transform -translate-x-1/2 z-30 flex flex-col items-center gap-3 cursor-pointer group"
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1, delay: 1.5 }}
+      >
+        {/* Mouse Body */}
+        <div className="w-[30px] h-[50px] border-2 border-white/30 rounded-full flex justify-center p-2 backdrop-blur-sm group-hover:border-[#DAA434]/80 transition-colors duration-300 shadow-sm relative bg-white/5">
+           {/* Scrolling Wheel */}
+           <motion.div 
+             className="w-1.5 h-1.5 bg-[#DAA434] rounded-full"
+             animate={{ 
+               y: [0, 18, 0],
+               opacity: [1, 0.5, 0] 
+             }}
+             transition={{ 
+               duration: 2, 
+               repeat: Infinity, 
+               ease: "easeInOut",
+             }}
+           />
+        </div>
+        
+        {/* Text */}
+        <span className="text-[10px] uppercase tracking-[0.25em] font-medium text-white/50 group-hover:text-[#DAA434] transition-colors duration-300 drop-shadow-md">Scroll</span>
+      </motion.div>
     </section>
   );
 }

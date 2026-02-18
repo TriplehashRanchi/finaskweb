@@ -95,7 +95,7 @@ export default function Navbar() {
         <div className={` ${!isScrolled ? "bg-white  p-2  " : ""} shrink-0 mr-4 rounded-full`}>
           <Link href="/" className="block">
              <Image 
-                src="/logo.webp" 
+                src="/hd-logo.png" 
                 alt="Finask Logo" 
                 width={isScrolled ? 140 : 120} 
                 height={isScrolled ? 35 : 40} 
