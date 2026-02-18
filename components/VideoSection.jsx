@@ -9,7 +9,7 @@ export default function VideoSection() {
     <section className="">
      
 
-      <div className="relative w-full h-[500px] lg:h-[660px]">
+      <div className="relative w-full h-[500px] lg:h-[100vh]">
         <video
           src="/video.mp4"
           className="w-full h-full object-cover"
