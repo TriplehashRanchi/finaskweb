@@ -2,7 +2,8 @@
 
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
-import { ArrowLeft, ArrowRight } from "lucide-react";
+import { ChevronLeft, ChevronRight } from "lucide-react";
+ 
 
 const values = [
    {
@@ -161,36 +162,33 @@ export default function ValuesSection() {
 
   return (
     <section className="w-full py-14 px-4 md:px-8  ">
-      <div className="flex flex-col md:flex-row justify-between items-end mb-12 px-2">
-        <div className="text-left">
-          <h2 className="text-4xl md:text-5xl font-medium text-[#00394E] font-serif tracking-tight">
-            Our Core <span className="text-[#DAA434]">Values</span>
-          </h2>
-          <p className="mt-4 text-gray-600 max-w-2xl text-lg">
-            Expert financial solutions tailored to your unique needs and goals.
-          </p>
-        </div>
-        
-        {/* Navigation Buttons */}
-        <div className="flex gap-4 mt-6 md:mt-0">
-          <button 
-            onClick={prevSlide}
-            className="w-12 h-12 rounded-full border border-[#00394E]/20 flex items-center justify-center text-[#00394E] hover:bg-[#00394E] hover:text-white transition-all duration-300 active:scale-95"
-            aria-label="Previous slide"
-          >
-            <ArrowLeft size={24} />
-          </button>
-          <button 
-            onClick={nextSlide}
-            className="w-12 h-12 rounded-full border border-[#00394E]/20 flex items-center justify-center text-[#00394E] hover:bg-[#00394E] hover:text-white transition-all duration-300 active:scale-95"
-            aria-label="Next slide"
-          >
-            <ArrowRight size={24} />
-          </button>
-        </div>
+      <div className="text-center mb-12 px-4">
+        <h2 className="text-4xl md:text-5xl font-medium text-[#00394E] font-serif tracking-tight">
+          Our Core <span className="text-[#DAA434]">Values</span>
+        </h2>
+        <p className="mt-4 text-gray-600 max-w-2xl mx-auto text-lg">
+          Expert financial solutions tailored to your unique needs and goals.
+        </p>
       </div>
 
-      <div className="relative overflow-hidden">
+      <div className="relative group/carousel">
+        {/* Navigation Buttons (Absolute) */}
+        <button 
+          onClick={prevSlide}
+          className="absolute left-0 md:-left-4 top-1/2 -translate-y-1/2 z-30 w-12 h-12 rounded-full cursor-pointer bg-white shadow-lg border border-[#00394E]/10 flex items-center justify-center text-[#00394E] hover:bg-[#00394E] hover:text-white transition-all duration-300 active:scale-95 opacity-0 group-hover/carousel:opacity-100 translate-x-4 group-hover/carousel:translate-x-0"
+          aria-label="Previous slide"
+        >
+          <ChevronLeft size={24} />
+        </button>
+        <button 
+          onClick={nextSlide}
+          className="absolute right-0 md:-right-4 top-1/2 -translate-y-1/2 z-30 w-12 h-12 rounded-full cursor-pointer bg-white shadow-lg border border-[#00394E]/10 flex items-center justify-center text-[#00394E] hover:bg-[#00394E] hover:text-white transition-all duration-300 active:scale-95 opacity-0 group-hover/carousel:opacity-100 -translate-x-4 group-hover/carousel:translate-x-0"
+          aria-label="Next slide"
+        >
+          <ChevronRight size={24} />
+        </button>
+
+        <div className="overflow-hidden">
         <div 
           className={`flex ${isTransitioning ? 'transition-transform duration-500 ease-in-out' : ''}`}
           style={{ transform: `translateX(-${currentIndex * (100 / cardsToShow)}%)` }}
@@ -230,6 +228,7 @@ export default function ValuesSection() {
               </div>
             </div>
           ))}
+        </div>
         </div>
       </div>
     </section>

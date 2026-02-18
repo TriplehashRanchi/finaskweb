@@ -29,7 +29,7 @@ export default function AboutSection() {
                   { label: "The Ethos", href: "/about#philosophy" },
                   { label: "How We Work", href: "/about#how-we-work" },
                   { label: "Why We Exist", href: "/about#why-we-exist" },
-                  { label: "Our 8 Values", href: "/about#values" },
+                  { label: "Our 7 Values", href: "/about#values" },
                 ].map((item) => (
                   <Link
                     key={item.label}
