@@ -92,14 +92,14 @@ export default function Navbar() {
       >
         
         {/* Logo */}
-        <div className={` ${!isScrolled ? "bg-white  p-2  " : ""} shrink-0 mr-4 rounded-full`}>
+        <div className={`shrink-0 mr-4 flex items-center ${!isScrolled ? "bg-white px-5 py-1.5 rounded-full shadow-lg" : ""}`}>
           <Link href="/" className="block">
              <Image 
                 src="/logo.webp" 
                 alt="Finask Logo" 
-                width={isScrolled ? 140 : 120} 
-                height={isScrolled ? 35 : 40} 
-                className={`object-contain transition-all duration-500 ${!isScrolled ? " " : ""}`} 
+                width={160} 
+                height={45} 
+                className="object-contain" 
                 priority 
              />
           </Link>
@@ -193,7 +193,7 @@ export default function Navbar() {
 
         {/* CTA */}
         <div className="shrink-0 ml-4">
-           <Link href="/contact" className="bg-[#D44659] hover:bg-[#b03a4b] text-white px-6 py-2.5 rounded-full text-sm font-bold shadow-lg shadow-[#D44659]/20 transition-all transform hover:-translate-y-0.5 whitespace-nowrap">
+           <Link href="/contact" className={`${!isScrolled ? "  px-5 py-4 rounded-full shadow-lg" : ""} bg-[#D44659] hover:bg-[#b03a4b] text-white px-6 py-3 rounded-full text-sm font-bold shadow-lg shadow-[#D44659]/20 transition-all transform hover:-translate-y-0.5 whitespace-nowrap`}>
              Get an Appointment
            </Link>
         </div>
