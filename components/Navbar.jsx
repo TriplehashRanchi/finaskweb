@@ -26,7 +26,7 @@ export default function Navbar() {
   const textColorClass = isScrolled ? "text-[#00394E]" : "text-white";
   const hoverColorClass = "text-[#DAA434]";
   
-  const navLinkClass = `text-[14px] font-medium transition-colors duration-300 hover:${hoverColorClass} ${textColorClass}`;
+  const navLinkClass = `text-[15px] font-medium transition-colors duration-300 hover:${hoverColorClass} ${textColorClass}`;
   
   // Mega Menu Container Style (Wide, White, Shadow)
   const megaMenuClass = "absolute  top-17 left-0 w-[600px] bg-white shadow-2xl rounded-md   opacity-0 invisible translate-y-4 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-300 ease-out z-50 p-6 border border-gray-100";

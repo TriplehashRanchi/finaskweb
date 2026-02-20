@@ -24,6 +24,7 @@ export const metadata = {
 
 import Navbar from "@/components/Navbar";
 import Preloader from "@/components/Preloader";
+import ExitIntentPopup from "@/components/ExitIntentPopup";
 
 export default function RootLayout({ children }) {
   return (
@@ -35,6 +36,7 @@ export default function RootLayout({ children }) {
         className={`${playfair.variable} ${manrope.variable} ${greatVibes.variable} font-sans antialiased`}
       >
         <Navbar />
+        <ExitIntentPopup />
         {children}
       </body>
     </html>
