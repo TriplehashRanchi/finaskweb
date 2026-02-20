@@ -17,7 +17,7 @@ import {
   ChevronDown,
 } from "lucide-react";
 
-export default function ServiceContent({ service }) {
+export default function ServiceContent({ service, hideFaq = false }) {
   const [openFaqIndex, setOpenFaqIndex] = useState(0);
 
   const toggleFaq = (index) => {
@@ -94,7 +94,7 @@ export default function ServiceContent({ service }) {
       {/* ----------------------------- */}
       {/*        FAQ SECTION            */}
       {/* ----------------------------- */}
-      {service.faq && (
+      {service.faq && !hideFaq && (
         <div className="  ">
           <div className="flex flex-col lg:flex-row gap-12 items-start">
             {/* Left Column: Image + Highlight Box */}

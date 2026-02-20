@@ -50,7 +50,7 @@ export default function Navbar() {
     { name: "Life Insurance", slug: "life-insurance" },
     { name: "Term Insurance", slug: "term-insurance" },
     { name: "ULIP", slug: "ulip" },
-    { name: "Traditional / Guaranteed Savings products", slug: "traditional-savings" },
+    { name: "Traditional Guaranteed Savings products", slug: "traditional-savings" },
     { name: "Motor Insurance", slug: "motor-insurance" },
     { name: "Travel Insurance", slug: "travel-insurance" },
     { name: "Fire & Burglary Insurance", slug: "fire-burglary-insurance" },
@@ -63,10 +63,10 @@ export default function Navbar() {
 
   const investmentItems = [
     { name: "Mutual Funds", slug: "mutual-funds" },
-    { name: "Bonds — Building Calm Amidst the Clamor", slug: "bonds" },
-    { name: "PMS (Portfolio Management Services)", slug: "pms" },
-    { name: "AIFs (Alternative Investment Funds)", slug: "aifs" },
-    { name: "Unlisted Equity — Where Vision Meets Venture", slug: "unlisted-equity" },
+    { name: "Bonds ", slug: "bonds" },
+    { name: "Portfolio Management Services", slug: "pms" },
+    { name: "Alternative Investment Funds", slug: "aifs" },
+    { name: "Unlisted Equity", slug: "unlisted-equity" },
     { name: "REITs", slug: "reits" },
     { name: "InvITs", slug: "invits" },
     { name: "Fractional Commercial Real Estate", slug: "fractional-commercial-real-estate" },
@@ -75,7 +75,7 @@ export default function Navbar() {
     { name: "Corporate FDRs", slug: "corporate-fdrs" },
     { name: "GIFT City", slug: "gift-city" },
     { name: "E-Gold", slug: "e-gold" },
-    { name: "National Pension System (NPS)", slug: "nps" },
+    { name: "National Pension System", slug: "nps" },
     { name: "Stock & Broking", slug: "stock-broking" }
   ];
 

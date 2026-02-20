@@ -8,7 +8,7 @@ export default function TermsAndConditions() {
       <PageHero title="Terms & Conditions" />
       <div className="container mx-auto px-4 max-w-4xl py-16">
         
-        <div className="space-y-8 text-lg leading-relaxed opacity-90">
+        <div className="space-y-8 text-lg text-justify leading-relaxed opacity-90">
             <p>
                 By accessing or using this website, you agree to be bound by these Terms & Conditions, along with our Privacy Policy and Disclaimer. If you do not agree, please discontinue use of this website.
             </p>
