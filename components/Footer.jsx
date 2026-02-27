@@ -38,7 +38,7 @@ export default function Footer() {
                   icon: Facebook,
                   link: "https://www.facebook.com/finaskvalue/",
                 },
-                 {
+                {
                   icon: Instagram,
                   link: "https://www.instagram.com/finask_value/",
                 },
@@ -99,11 +99,11 @@ export default function Footer() {
 
             <ul className="space-y-4 text-sm text-gray-400">
               {[
+                { label: "Home", href: "/" },
                 { label: "About Us", href: "/about" },
-                { label: "Services", href: "/services" },
                 { label: "Contact Us", href: "/contact" },
                 { label: "Careers", href: "/careers" },
-                { label: "FAQ", href: "/faq" },
+                { label: "FAQ", href: "/#" },
               ].map((item) => (
                 <li key={item.href}>
                   <a
@@ -126,11 +126,11 @@ export default function Footer() {
             </div>
             <ul className="space-y-4 text-sm text-gray-400">
               {[
-                { label: "Contact Us", href: "/about" },
-                { label: "Become Teacher", href: "/services" },
-                { label: "Events", href: "/contact" },
-                { label: "Blog", href: "/careers" },
-                { label: "Instructor", href: "/faq" },
+                { label: "NRI Services", href: "/services/nri-corner" },
+                { label: "Women Corner", href: "/services/women-corner" },
+                { label: "Family Office", href: "/services/family-office" },
+                { label: "Insurance", href: "/services/health-insurance" },
+                { label: "Investments", href: "/services/mutual-funds" },
               ].map((item) => (
                 <li key={item.href}>
                   <a
