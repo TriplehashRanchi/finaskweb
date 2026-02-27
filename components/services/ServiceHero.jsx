@@ -15,7 +15,7 @@ export default function ServiceHero({ service }) {
           backgroundSize: "cover",
            
           backgroundRepeat: "no-repeat",
-          filter: "brightness(0.35) contrast(1.1)",
+         
         }}
       />
 

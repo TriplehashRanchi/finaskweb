@@ -23,12 +23,28 @@ export const servicesData = [
       },
     ],
     faq: [
-      { question: "How does No Claim Bonus benefit me?", answer: "With every claim-free year, your coverage increases (as per policy terms). This means you get a larger financial cushion for future medical emergencies — without paying proportionately higher premiums. It’s a smart way to build protection year after year." },
-      { question: "Can I increase my coverage later?", answer: "Yes, you can enhance your sum insured at renewal." },
-      { question: "Does health insurance cover maternity expenses?", answer: "Yes, maternity coverage generally has a waiting period of 2–4 years. Planning in advance ensures you are covered when needed. You may also choose an add-on option with a 9-month, 12-month, or even no waiting period, depending on the policy." },
-      { question: "What is cashless settlement in health insurance and how does it work?", answer: "Cashless settlement lets you receive treatment at a network hospital without paying the full bill upfront. The insurer directly settles the approved amount with the hospital. You only pay for non-covered charges, if any." }
+      {
+        question: "How does No Claim Bonus benefit me?",
+        answer:
+          "With every claim-free year, your coverage increases (as per policy terms). This means you get a larger financial cushion for future medical emergencies — without paying proportionately higher premiums. It’s a smart way to build protection year after year.",
+      },
+      {
+        question: "Can I increase my coverage later?",
+        answer: "Yes, you can enhance your sum insured at renewal.",
+      },
+      {
+        question: "Does health insurance cover maternity expenses?",
+        answer:
+          "Yes, maternity coverage generally has a waiting period of 2–4 years. Planning in advance ensures you are covered when needed. You may also choose an add-on option with a 9-month, 12-month, or even no waiting period, depending on the policy.",
+      },
+      {
+        question:
+          "What is cashless settlement in health insurance and how does it work?",
+        answer:
+          "Cashless settlement lets you receive treatment at a network hospital without paying the full bill upfront. The insurer directly settles the approved amount with the hospital. You only pay for non-covered charges, if any.",
+      },
     ],
-    bgImage: "/health1.jpg",
+    bgImage: "/finask/health1.jpg",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -43,247 +59,48 @@ export const servicesData = [
     },
   },
   {
-    slug: "term-insurance",
+    slug: "super-health-top-up",
     category: "Insurance",
-    title: "Term Insurance",
-    tagline: "So your wellbeing remains untouched by financial anxiety.",
+    title: "Super Top-Up",
+    tagline: "Because the unforeseen often exceeds conventional bounds.",
     description:
-      "Good health underpins every other joy — from milestones celebrated to simple everyday contentment. Yet the rising intricacies and costs of medical care can quickly erode even the most robust fortunes if left unguarded. At FinAsk, we help you find discreet, sophisticated health coverage that stands silently by your side. Whether for your aging parents, a globe-trotting lifestyle, or simply to insulate your wealth from life’s medical surprises — we curate solutions that protect both your family’s wellbeing and your long-term aspirations.",
+      "Even substantial base health covers may falter before the staggering costs of advanced treatments or repeat hospitalizations. A super top-up creates a prudent second layer — activating precisely when your primary plan’s limits are surpassed.\n\nIt’s an astute strategy to command expansive protection without exorbitant premiums, allowing your portfolio to remain dedicated to growth rather than unplanned liquidation.\n\nWith rising medical inflation, it’s no longer optional — it’s essential foresight. So when life tests your resilience, your finances stand unshaken.",
     features: [
       {
-        title: "Comprehensive Coverage",
+        title: "High Leverage",
+        description: "Get large coverage for a relatively small premium.",
+      },
+      {
+        title: "Aggregate Deductible",
         description:
-          "Protection against hospitalization, critical illnesses, and modern treatments.",
-      },
-      {
-        title: "Global Protection",
-        description: "Plans that cover you wherever your lifestyle takes you.",
-      },
-      {
-        title: "Family Floater",
-        description: "One plan to secure the health of your entire family.",
+          "Deductible applies to the total claims in a year, not per claim.",
       },
     ],
     faq: [
-      { question: "How much Term Insurance cover should I take?", answer: "A general rule is 5-25 times your annual income basis of your age, adjusted for liabilities, lifestyle expenses, and future financial goals." },
-      { question: "Can I add riders to my Term Insurance policy?", answer: "Yes. You can enhance coverage with riders like Critical Illness, Accidental Death Benefit, or Waiver of Premium." },
-      { question: "When is the best time to buy Term Insurance?", answer: "The earlier you buy, the lower the premium. Starting young helps lock in affordable rates for long-term protection" },
-      { question: "What is the difference between Term Insurance & Life Insurance?", answer: "Term insurance gives high cover at low cost and pays only on death.\nTraditional insurance combines cover with savings, costs more, and offers lower cover." }
-    ],
-    bgImage: "/family.png",
-    introText:
-      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
-    closingText:
-      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
-    faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.jpg",
-      consultationTitle: "If You Need Help, Get A Consultation",
-      consultationButton: "Get Started",
-    },
-  },
-  {
-    slug: "ulip",
-    category: "Insurance",
-    title: "ULIP Insurance",
-    tagline: "So your wellbeing remains untouched by financial anxiety.",
-    description:
-      "Good health underpins every other joy — from milestones celebrated to simple everyday contentment. Yet the rising intricacies and costs of medical care can quickly erode even the most robust fortunes if left unguarded. At FinAsk, we help you find discreet, sophisticated health coverage that stands silently by your side. Whether for your aging parents, a globe-trotting lifestyle, or simply to insulate your wealth from life’s medical surprises — we curate solutions that protect both your family’s wellbeing and your long-term aspirations.",
-    features: [
       {
-        title: "Comprehensive Coverage",
-        description:
-          "Protection against hospitalization, critical illnesses, and modern treatments.",
+        question: "Do I need a base policy before buying a Super Top-Up?",
+        answer:
+          "Yes, it is recommended to have a base policy equal to or higher than the deductible amount for proper coverage.",
       },
       {
-        title: "Global Protection",
-        description: "Plans that cover you wherever your lifestyle takes you.",
+        question:
+          "Is Super Top-Up more affordable than increasing my base cover?",
+        answer:
+          "Yes. It offers higher coverage at a significantly lower premium, making it a cost-effective way to enhance protection.",
       },
       {
-        title: "Family Floater",
-        description: "One plan to secure the health of your entire family.",
+        question:
+          "Does the Super Top-Up cover multiple hospitalizations in a year?",
+        answer:
+          "Yes. Once the deductible is crossed (through single or multiple claims combined), the Super Top-Up covers eligible expenses for the rest of the policy",
+      },
+      {
+        question: "Is there a waiting period in Super Top-Up plans?",
+        answer:
+          "Yes, similar to base policies, Super Top-Up plans may have waiting periods for pre-existing diseases and specific treatments.",
       },
     ],
-    faq: [
-      { question: "How does a ULIP work?", answer: "Your premium is divided into two parts — one for life insurance and the other for investment. You can choose funds based on your risk appetite, and the returns depend on market performance." },
-      { question: "Can I switch between funds in a ULIP?", answer: "Yes. Most ULIPs allow you to switch between equity, debt, and balanced funds based on market conditions or changing financial goals." },
-      { question: "What is the lock-in period in ULIP?", answer: "ULIPs have a mandatory lock-in period of 5 years. Withdrawals are generally not allowed during this period." },
-      { question: "Can I partially withdraw from ULIP?", answer: "Yes, partial withdrawals are allowed after the 5-year lock-in period, subject to policy terms." }
-    ],
-    bgImage: "/family.png",
-    introText:
-      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
-    closingText:
-      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
-    faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.jpg",
-      consultationTitle: "If You Need Help, Get A Consultation",
-      consultationButton: "Get Started",
-    },
-  },
-
-  {
-    slug: "traditional-savings",
-    category: "Insurance",
-    title: "Traditional / Guaranteed Savings products",
-    tagline: "So your wellbeing remains untouched by financial anxiety.",
-    description:
-      "Good health underpins every other joy — from milestones celebrated to simple everyday contentment. Yet the rising intricacies and costs of medical care can quickly erode even the most robust fortunes if left unguarded. At FinAsk, we help you find discreet, sophisticated health coverage that stands silently by your side. Whether for your aging parents, a globe-trotting lifestyle, or simply to insulate your wealth from life’s medical surprises — we curate solutions that protect both your family’s wellbeing and your long-term aspirations.",
-    features: [
-      {
-        title: "Comprehensive Coverage",
-        description:
-          "Protection against hospitalization, critical illnesses, and modern treatments.",
-      },
-      {
-        title: "Global Protection",
-        description: "Plans that cover you wherever your lifestyle takes you.",
-      },
-      {
-        title: "Family Floater",
-        description: "One plan to secure the health of your entire family.",
-      },
-    ],
-    faq: [
-      { question: "Are the returns really guaranteed?", answer: "Yes, the guaranteed benefits mentioned in the policy are fixed at the time of purchase and are not affected by market fluctuations." },
-      { question: "How are these plans different from ULIPs or mutual funds?", answer: "Traditional plans offer stable, guaranteed returns with low risk, while ULIPs and mutual funds are market-linked and subject to volatility." },
-      { question: "Who should consider Guaranteed Savings Plans?", answer: "They are ideal for conservative investors, parents planning for children’s education/marriage, or individuals seeking predictable returns without market risk." },
-      { question: "What happens if I stop paying premiums?", answer: "The policy may become paid-up or lapse, depending on the terms and number of premiums paid." }
-    ],
-    bgImage: "/family.png",
-    introText:
-      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
-    closingText:
-      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
-    faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.jpg",
-      consultationTitle: "If You Need Help, Get A Consultation",
-      consultationButton: "Get Started",
-    },
-  },
-  {
-    slug: "fire-burglary-insurance",
-    category: "Insurance",
-    title: "Fire & Burglary Insurance",
-    tagline: "Because what you’ve meticulously built deserves unwavering guardianship.",
-    description:
-      "Your homes, offices, factories — they embody years of aspirations and efforts. Unforeseen incidents like fires or intrusions shouldn’t possess the power to erase that legacy. We devise protections that enable swift restitution, preserving both your tangible assets and your family’s composure.\n\nIt’s about more than rebuilding walls or replacing inventory — it’s about restoring normalcy without enduring financial distress.",
-    features: [
-      {
-        title: "Comprehensive Coverage",
-        description:
-          "Protection against hospitalization, critical illnesses, and modern treatments.",
-      },
-      {
-        title: "Global Protection",
-        description: "Plans that cover you wherever your lifestyle takes you.",
-      },
-      {
-        title: "Family Floater",
-        description: "One plan to secure the health of your entire family.",
-      },
-    ],
-    faq: [
-      { question: "What does Fire Insurance and Burglary typically cover?", answer: "Fire insurance generally covers damage caused by fire, lightning, explosion, storm, flood, earthquake (if opted), and other specified perils. Burglary insurance covers loss or damage to property due to forced entry, theft, or housebreaking, subject to policy conditions." },
-      { question: "Who should consider Fire & Burglary Insurance?", answer: "Homeowners, shop owners, warehouse operators, and business establishments should consider this policy to protect their assets and inventory." },
-      { question: "Does this policy cover both building and contents?", answer: "Yes, coverage can be taken for the building structure, stock, machinery, furniture, fixtures, and other contents depending on your requirement." },
-      { question: "What is not covered under Fire & Burglary Insurance?", answer: "Common exclusions may include intentional damage, war-related events, gradual wear and tear, or theft without forced entry (unless specifically covered)." }
-    ],
-    bgImage: "/family.png",
-    introText:
-      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
-    closingText:
-      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
-    faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.jpg",
-      consultationTitle: "If You Need Help, Get A Consultation",
-      consultationButton: "Get Started",
-    },
-  },
-
-  {
-    slug: "marine-cargo-insurance",
-    category: "Insurance",
-    title: "Marine & Cargo Insurance",
-    tagline: "In business, logistics is more than movement — it’s a promise.",
-    description:
-      "A single damaged, lost, or delayed consignment can lead to revenue loss, supply chain disruptions, or breached contracts. That’s where comprehensive coverage becomes critical.\nOur Marine & Cargo Insurance is tailored for businesses engaged in domestic and international trade. It provides protection against physical loss or damage to goods in transit, across all modes of transportation — air, sea, road, or rail. Whether you're shipping raw materials, finished products, or high-value equipment, our policies are structured to absorb the risk — not your balance sheet.\nWith FinAsk, you protect not just your shipments, but your profitability, reliability, and business continuity.",
-    features: [
-      {
-        title: "Comprehensive Coverage",
-        description:
-          "Protection against hospitalization, critical illnesses, and modern treatments.",
-      },
-      {
-        title: "Global Protection",
-        description: "Plans that cover you wherever your lifestyle takes you.",
-      },
-      {
-        title: "Family Floater",
-        description: "One plan to secure the health of your entire family.",
-      },
-    ],
-    faq: [
-      { question: "What does Marine & Cargo Insurance cover?", answer: "It typically covers risks such as theft, accident, fire, collision, overturning, natural calamities, and damage during loading and unloading, as per policy terms." },
-      { question: "What is the difference between Marine Insurance and Cargo Insurance?", answer: "Marine insurance broadly covers ships, vessels, and goods in transit, while cargo insurance specifically covers the goods being transported." },
-      { question: "Does the policy cover international shipments?", answer: "Yes, policies can be structured to cover domestic transit as well as international imports and exports." },
-      { question: "What is an Open Policy in Marine Insurance?", answer: "An Open Policy provides continuous coverage for multiple shipments over a specified period, suitable for businesses with frequent consignments" }
-    ],
-    bgImage: "/family.png",
-    introText:
-      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
-    closingText:
-      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
-    faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.jpg",
-      consultationTitle: "If You Need Help, Get A Consultation",
-      consultationButton: "Get Started",
-    },
-  },
-
-  {
-    slug: "directors-life-insurance",
-    category: "Insurance",
-    title: "Director’s Life Insurance",
-    tagline: "Because leadership carries responsibility that outlives the leader.",
-    description:
-      "Director’s life insurance is more than a personal safety net — it’s a strategic safeguard for businesses. It ensures that if the unthinkable happens, key obligations are met, debts are covered, and shareholder or partner transitions remain smooth, protecting enterprise value.\nBecause your vision shouldn’t falter, even if life takes an unforeseen turn.\nAt FinAsk, we help founders, directors, and key management personnel structure life cover not just for personal protection—but for business continuity.It’s not just about preparing for loss—it’s about preserving leadership, legacy, and long-term confidence.\nThis coverage can support succession planning, stabilize cash flow, reinforce loan and credit obligations, and signal preparedness to investors and stakeholders.\nIt’s more than a policy—it’s a contingency plan for confidence. Because leadership may be personal, but its impact is profoundly institutional.",
-    features: [
-      {
-        title: "Comprehensive Coverage",
-        description:
-          "Protection against hospitalization, critical illnesses, and modern treatments.",
-      },
-      {
-        title: "Global Protection",
-        description: "Plans that cover you wherever your lifestyle takes you.",
-      },
-      {
-        title: "Family Floater",
-        description: "One plan to secure the health of your entire family.",
-      },
-    ],
-    faq: [
-      { question: "What is Director and officer’s Life Insurance?", answer: "Director Life Insurance is a policy taken to financially protect a company against the loss of a key director due to death. It helps safeguard business continuity and financial stability." },
-      { question: "Why should a company insure its directors?", answer: "Directors play a critical role in business growth and decision-making. Their sudden absence can impact operations, revenue, and investor confidence. This cover helps manage financial disruption." },
-      { question: "Who pays the premium for Director Life Insurance?", answer: "Typically, the company pays the premium, as the policy is taken to protect business interests." },
-      { question: "Who receives the claim amount?", answer: "In most cases, the company is the beneficiary and receives the payout to manage liabilities, stabilize operations, or compensate financial loss." }
-    ],
-    bgImage: "/family.png",
+    bgImage: "/finask/super.jpg",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -301,7 +118,8 @@ export const servicesData = [
     slug: "personal-accident-insurance",
     category: "Insurance",
     title: "Personal Accident Insurance",
-    tagline: "Because life’s minor stumbles shouldn’t disrupt its grander designs.",
+    tagline:
+      "Because life’s minor stumbles shouldn’t disrupt its grander designs.",
     description:
       "Accidents rarely seek permission. A brief mishap can momentarily pause income or, in more severe cases, permanently alter earning trajectories. Personal accident coverage ensures your household’s rhythm continues unbroken — supporting recoveries and sustaining ambitions with quiet financial reinforcement.\nIt’s more than a payout; it’s a promise that dreams remain intact, children’s plans stay on course, and daily comforts don’t give way to compromises.\nFrom covering medical costs to providing income replacement and long-term disability benefits, this shield steps in precisely when life feels most uncertain — so your future’s design stays undisturbed.",
     features: [
@@ -320,12 +138,29 @@ export const servicesData = [
       },
     ],
     faq: [
-      { question: "Who should buy a Personal Accident policy?", answer: "Anyone who earns for their family, travels frequently, drives regularly, or works in physically demanding environments should consider this cover." },
-      { question: "How is the claim amount paid in Personal Accident insurance?", answer: "In case of accidental death or specified disability, the insurer pays a fixed lump-sum amount or as per the policy terms." },
-      { question: "What is Permanent Total Disability (PTD)?", answer: "Permanent Total Disability refers to a condition where a person becomes completely and permanently unable to work due to an accident (for example, loss of both limbs or eyesight)." },
-      { question: "What is Permanent Partial Disability (PPD)?", answer: "Permanent Partial Disability means partial loss of body function (such as loss of one limb or one eye). The claim amount is paid as per a predefined percentage mentioned in the policy." }
+      {
+        question: "Who should buy a Personal Accident policy?",
+        answer:
+          "Anyone who earns for their family, travels frequently, drives regularly, or works in physically demanding environments should consider this cover.",
+      },
+      {
+        question:
+          "How is the claim amount paid in Personal Accident insurance?",
+        answer:
+          "In case of accidental death or specified disability, the insurer pays a fixed lump-sum amount or as per the policy terms.",
+      },
+      {
+        question: "What is Permanent Total Disability (PTD)?",
+        answer:
+          "Permanent Total Disability refers to a condition where a person becomes completely and permanently unable to work due to an accident (for example, loss of both limbs or eyesight).",
+      },
+      {
+        question: "What is Permanent Partial Disability (PPD)?",
+        answer:
+          "Permanent Partial Disability means partial loss of body function (such as loss of one limb or one eye). The claim amount is paid as per a predefined percentage mentioned in the policy.",
+      },
     ],
-    bgImage: "/personal.png",
+    bgImage: "/finask/accident.png",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -362,10 +197,27 @@ export const servicesData = [
       },
     ],
     faq: [
-      { question: "How is Critical Illness insurance different from health insurance?", answer: "Health insurance reimburses hospital bills. Critical Illness insurance pays a fixed lump-sum amount upon diagnosis, which you can use for treatment, recovery, income replacement, or household expenses." },
-      { question: "What illnesses are covered under Critical Illness plans?", answer: "Coverage depends on the insurer, but most plans include major conditions like cancer, heart attack, stroke, organ transplant, paralysis, kidney failure, and major surgeries." },
-      { question: "What is a survival period?", answer: "A survival period is the minimum number of days (for example, 30 days) you must survive after diagnosis to receive the claim payout." },
-      { question: "Who should consider Critical Illness insurance?", answer: "Anyone with financial responsibilities, family history of serious illnesses, high-stress lifestyle, or limited savings should strongly consider this cover." }
+      {
+        question:
+          "How is Critical Illness insurance different from health insurance?",
+        answer:
+          "Health insurance reimburses hospital bills. Critical Illness insurance pays a fixed lump-sum amount upon diagnosis, which you can use for treatment, recovery, income replacement, or household expenses.",
+      },
+      {
+        question: "What illnesses are covered under Critical Illness plans?",
+        answer:
+          "Coverage depends on the insurer, but most plans include major conditions like cancer, heart attack, stroke, organ transplant, paralysis, kidney failure, and major surgeries.",
+      },
+      {
+        question: "What is a survival period?",
+        answer:
+          "A survival period is the minimum number of days (for example, 30 days) you must survive after diagnosis to receive the claim payout.",
+      },
+      {
+        question: "Who should consider Critical Illness insurance?",
+        answer:
+          "Anyone with financial responsibilities, family history of serious illnesses, high-stress lifestyle, or limited savings should strongly consider this cover.",
+      },
     ],
     bgImage: "/family.png",
     introText:
@@ -381,7 +233,6 @@ export const servicesData = [
       consultationButton: "Get Started",
     },
   },
-
   {
     slug: "life-insurance",
     category: "Insurance",
@@ -435,6 +286,181 @@ export const servicesData = [
     },
   },
   {
+    slug: "term-insurance",
+    category: "Insurance",
+    title: "Term Insurance",
+    tagline: "So your wellbeing remains untouched by financial anxiety.",
+    description:
+      "Good health underpins every other joy — from milestones celebrated to simple everyday contentment. Yet the rising intricacies and costs of medical care can quickly erode even the most robust fortunes if left unguarded. At FinAsk, we help you find discreet, sophisticated health coverage that stands silently by your side. Whether for your aging parents, a globe-trotting lifestyle, or simply to insulate your wealth from life’s medical surprises — we curate solutions that protect both your family’s wellbeing and your long-term aspirations.",
+    features: [
+      {
+        title: "Comprehensive Coverage",
+        description:
+          "Protection against hospitalization, critical illnesses, and modern treatments.",
+      },
+      {
+        title: "Global Protection",
+        description: "Plans that cover you wherever your lifestyle takes you.",
+      },
+      {
+        title: "Family Floater",
+        description: "One plan to secure the health of your entire family.",
+      },
+    ],
+    faq: [
+      {
+        question: "How much Term Insurance cover should I take?",
+        answer:
+          "A general rule is 5-25 times your annual income basis of your age, adjusted for liabilities, lifestyle expenses, and future financial goals.",
+      },
+      {
+        question: "Can I add riders to my Term Insurance policy?",
+        answer:
+          "Yes. You can enhance coverage with riders like Critical Illness, Accidental Death Benefit, or Waiver of Premium.",
+      },
+      {
+        question: "When is the best time to buy Term Insurance?",
+        answer:
+          "The earlier you buy, the lower the premium. Starting young helps lock in affordable rates for long-term protection",
+      },
+      {
+        question:
+          "What is the difference between Term Insurance & Life Insurance?",
+        answer:
+          "Term insurance gives high cover at low cost and pays only on death.\nTraditional insurance combines cover with savings, costs more, and offers lower cover.",
+      },
+    ],
+    bgImage: "/family.png",
+    introText:
+      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
+    closingText:
+      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
+    faqSection: {
+      title: "General Question",
+      description:
+        "Answers to common questions about our services and how we can help you achieve your financial goals.",
+      image: "/faq.jpg",
+      consultationTitle: "If You Need Help, Get A Consultation",
+      consultationButton: "Get Started",
+    },
+  },
+  {
+    slug: "ulip",
+    category: "Insurance",
+    title: "ULIP Insurance",
+    tagline: "So your wellbeing remains untouched by financial anxiety.",
+    description:
+      "Good health underpins every other joy — from milestones celebrated to simple everyday contentment. Yet the rising intricacies and costs of medical care can quickly erode even the most robust fortunes if left unguarded. At FinAsk, we help you find discreet, sophisticated health coverage that stands silently by your side. Whether for your aging parents, a globe-trotting lifestyle, or simply to insulate your wealth from life’s medical surprises — we curate solutions that protect both your family’s wellbeing and your long-term aspirations.",
+    features: [
+      {
+        title: "Comprehensive Coverage",
+        description:
+          "Protection against hospitalization, critical illnesses, and modern treatments.",
+      },
+      {
+        title: "Global Protection",
+        description: "Plans that cover you wherever your lifestyle takes you.",
+      },
+      {
+        title: "Family Floater",
+        description: "One plan to secure the health of your entire family.",
+      },
+    ],
+    faq: [
+      {
+        question: "How does a ULIP work?",
+        answer:
+          "Your premium is divided into two parts — one for life insurance and the other for investment. You can choose funds based on your risk appetite, and the returns depend on market performance.",
+      },
+      {
+        question: "Can I switch between funds in a ULIP?",
+        answer:
+          "Yes. Most ULIPs allow you to switch between equity, debt, and balanced funds based on market conditions or changing financial goals.",
+      },
+      {
+        question: "What is the lock-in period in ULIP?",
+        answer:
+          "ULIPs have a mandatory lock-in period of 5 years. Withdrawals are generally not allowed during this period.",
+      },
+      {
+        question: "Can I partially withdraw from ULIP?",
+        answer:
+          "Yes, partial withdrawals are allowed after the 5-year lock-in period, subject to policy terms.",
+      },
+    ],
+    bgImage: "/finask/ulip.png",
+    introText:
+      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
+    closingText:
+      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
+    faqSection: {
+      title: "General Question",
+      description:
+        "Answers to common questions about our services and how we can help you achieve your financial goals.",
+      image: "/faq.jpg",
+      consultationTitle: "If You Need Help, Get A Consultation",
+      consultationButton: "Get Started",
+    },
+  },
+  {
+    slug: "traditional-savings",
+    category: "Insurance",
+    title: "Traditional / Guaranteed Savings products",
+    tagline: "So your wellbeing remains untouched by financial anxiety.",
+    description:
+      "Good health underpins every other joy — from milestones celebrated to simple everyday contentment. Yet the rising intricacies and costs of medical care can quickly erode even the most robust fortunes if left unguarded. At FinAsk, we help you find discreet, sophisticated health coverage that stands silently by your side. Whether for your aging parents, a globe-trotting lifestyle, or simply to insulate your wealth from life’s medical surprises — we curate solutions that protect both your family’s wellbeing and your long-term aspirations.",
+    features: [
+      {
+        title: "Comprehensive Coverage",
+        description:
+          "Protection against hospitalization, critical illnesses, and modern treatments.",
+      },
+      {
+        title: "Global Protection",
+        description: "Plans that cover you wherever your lifestyle takes you.",
+      },
+      {
+        title: "Family Floater",
+        description: "One plan to secure the health of your entire family.",
+      },
+    ],
+    faq: [
+      {
+        question: "Are the returns really guaranteed?",
+        answer:
+          "Yes, the guaranteed benefits mentioned in the policy are fixed at the time of purchase and are not affected by market fluctuations.",
+      },
+      {
+        question: "How are these plans different from ULIPs or mutual funds?",
+        answer:
+          "Traditional plans offer stable, guaranteed returns with low risk, while ULIPs and mutual funds are market-linked and subject to volatility.",
+      },
+      {
+        question: "Who should consider Guaranteed Savings Plans?",
+        answer:
+          "They are ideal for conservative investors, parents planning for children’s education/marriage, or individuals seeking predictable returns without market risk.",
+      },
+      {
+        question: "What happens if I stop paying premiums?",
+        answer:
+          "The policy may become paid-up or lapse, depending on the terms and number of premiums paid.",
+      },
+    ],
+    bgImage: "/finask/traditional-guaranteed-saving.png",
+    introText:
+      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
+    closingText:
+      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
+    faqSection: {
+      title: "General Question",
+      description:
+        "Answers to common questions about our services and how we can help you achieve your financial goals.",
+      image: "/faq.jpg",
+      consultationTitle: "If You Need Help, Get A Consultation",
+      consultationButton: "Get Started",
+    },
+  },
+  {
     slug: "motor-insurance",
     category: "Insurance",
     title: "Motor Insurance",
@@ -458,12 +484,29 @@ export const servicesData = [
       },
     ],
     faq: [
-      { question: "Is motor insurance mandatory?", answer: "Yes. As per law, at least third-party motor insurance is mandatory for all vehicles on Indian roads." },
-      { question: "What is the difference between Third-Party and Comprehensive insurance?", answer: "Third-Party insurance covers damage or injury caused to others. Comprehensive insurance covers third-party liabilities plus damage to your own vehicle due to accident, theft, fire, natural calamities, etc." },
-      { question: "What is No Claim Bonus (NCB) in motor insurance?", answer: "NCB is a discount on your premium for every claim-free year. The longer you don’t claim, the higher your discount at renewal." },
-      { question: "What are common add-ons in comprehensive motor insurance?", answer: "Popular add-ons include Zero Depreciation cover, Engine Protection, Roadside Assistance, Return to Invoice, and Consumables cover." }
+      {
+        question: "Is motor insurance mandatory?",
+        answer:
+          "Yes. As per law, at least third-party motor insurance is mandatory for all vehicles on Indian roads.",
+      },
+      {
+        question:
+          "What is the difference between Third-Party and Comprehensive insurance?",
+        answer:
+          "Third-Party insurance covers damage or injury caused to others. Comprehensive insurance covers third-party liabilities plus damage to your own vehicle due to accident, theft, fire, natural calamities, etc.",
+      },
+      {
+        question: "What is No Claim Bonus (NCB) in motor insurance?",
+        answer:
+          "NCB is a discount on your premium for every claim-free year. The longer you don’t claim, the higher your discount at renewal.",
+      },
+      {
+        question: "What are common add-ons in comprehensive motor insurance?",
+        answer:
+          "Popular add-ons include Zero Depreciation cover, Engine Protection, Roadside Assistance, Return to Invoice, and Consumables cover.",
+      },
     ],
-    bgImage: "/motor.jpg",
+    bgImage: "/finask/motor.jpg",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -499,253 +542,28 @@ export const servicesData = [
       },
     ],
     faq: [
-      { question: "What does Travel Insurance typically cover?", answer: "It generally covers emergency medical expenses, hospitalization abroad, trip cancellation/interruption, baggage loss, flight delays, and personal liability etc." },
-      { question: "How is the claim settled in Travel Insurance?", answer: "Claims can be settled cashless at network hospitals abroad or through reimbursement after submitting required documents." },
-      { question: "Can senior citizens buy Travel Insurance?", answer: "Yes, many insurers offer travel insurance plans for senior citizens, though medical screening may apply." },
-      { question: "Does Travel Insurance cover pre-existing diseases?", answer: "Coverage for pre-existing conditions varies by policy. Some plans offer limited coverage for life-threatening emergencies and other pre-defined sum insured coverages arising from pre-existing illnesses." }
-    ],
-    bgImage: "/travel.jpg",
-    introText:
-      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
-    closingText:
-      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
-    faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.jpg",
-      consultationTitle: "If You Need Help, Get A Consultation",
-      consultationButton: "Get Started",
-    },
-  },
-  {
-    slug: "super-health-top-up",
-    category: "Insurance",
-    title: "Super Top-Up",
-    tagline: "Because the unforeseen often exceeds conventional bounds.",
-    description:
-      "Even substantial base health covers may falter before the staggering costs of advanced treatments or repeat hospitalizations. A super top-up creates a prudent second layer — activating precisely when your primary plan’s limits are surpassed.\n\nIt’s an astute strategy to command expansive protection without exorbitant premiums, allowing your portfolio to remain dedicated to growth rather than unplanned liquidation.\n\nWith rising medical inflation, it’s no longer optional — it’s essential foresight. So when life tests your resilience, your finances stand unshaken.",
-    features: [
       {
-        title: "High Leverage",
-        description: "Get large coverage for a relatively small premium.",
-      },
-      {
-        title: "Aggregate Deductible",
-        description:
-          "Deductible applies to the total claims in a year, not per claim.",
-      },
-    ],
-    faq: [
-      { question: "Do I need a base policy before buying a Super Top-Up?", answer: "Yes, it is recommended to have a base policy equal to or higher than the deductible amount for proper coverage." },
-      { question: "Is Super Top-Up more affordable than increasing my base cover?", answer: "Yes. It offers higher coverage at a significantly lower premium, making it a cost-effective way to enhance protection." },
-      { question: "Does the Super Top-Up cover multiple hospitalizations in a year?", answer: "Yes. Once the deductible is crossed (through single or multiple claims combined), the Super Top-Up covers eligible expenses for the rest of the policy" },
-      { question: "Is there a waiting period in Super Top-Up plans?", answer: "Yes, similar to base policies, Super Top-Up plans may have waiting periods for pre-existing diseases and specific treatments." }
-    ],
-    bgImage: "/super.png",
-    introText:
-      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
-    closingText:
-      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
-    faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.jpg",
-      consultationTitle: "If You Need Help, Get A Consultation",
-      consultationButton: "Get Started",
-    },
-  },
-  {
-    slug: "personal-accident",
-    category: "Insurance",
-    title: "Personal Accident Insurance",
-    tagline:
-      "Because life’s minor stumbles shouldn’t disrupt its grander designs.",
-    description:
-      "Accidents rarely seek permission. A brief mishap can momentarily pause income or, in more severe cases, permanently alter earning trajectories. Personal accident coverage ensures your household’s rhythm continues unbroken — supporting recoveries and sustaining ambitions with quiet financial reinforcement. It’s more than a payout; it’s a promise that dreams remain intact, children’s plans stay on course, and daily comforts don’t give way to compromises.",
-    features: [
-      {
-        title: "Income Replacement",
-        description: "Weekly compensation for temporary total disability.",
-      },
-      {
-        title: "Disability Cover",
-        description:
-          "Lump sum payout for permanent partial or total disability.",
-      },  
-      {
-        title: "Accidental Death",
-        description:
-          "Financial security for nominees in case of fatal accidents.",
-      },
-    ],
-    faq: [
-      { question: "Who should buy a Personal Accident policy?", answer: "Anyone who earns for their family, travels frequently, drives regularly, or works in physically demanding environments should consider this cover." },
-      { question: "How is the claim amount paid in Personal Accident insurance?", answer: "In case of accidental death or specified disability, the insurer pays a fixed lump-sum amount or as per the policy terms." },
-      { question: "What is Permanent Total Disability (PTD)?", answer: "Permanent Total Disability refers to a condition where a person becomes completely and permanently unable to work due to an accident (for example, loss of both limbs or eyesight)." },
-      { question: "What is Permanent Partial Disability (PPD)?", answer: "Permanent Partial Disability means partial loss of body function (such as loss of one limb or one eye). The claim amount is paid as per a predefined percentage mentioned in the policy." }
-    ],
-    bgImage: "/hero4.jpg",
-    introText:
-      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
-    closingText:
-      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
-    faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.jpg",
-      consultationTitle: "If You Need Help, Get A Consultation",
-      consultationButton: "Get Started",
-    },
-  },
-  {
-    slug: "critical-illness",
-    category: "Insurance",
-    title: "Critical Illness Insurance",
-    tagline: "So that healing never demands dismantling your legacy.",
-    description:
-      "Confronting a serious diagnosis is challenging enough without the added strain of sourcing funds or restructuring investments. Critical illness insurance offers a dignified, immediate payout upon diagnosis, empowering you to secure superior care and protect your family’s accustomed lifestyle — all without distressing your long-horizon financial plans. It ensures that while you focus on recovery, your ambitions, your children’s education, and your family’s day-to-day comfort continue undeterred.",
-    features: [
-      {
-        title: "Lump Sum Payout",
-        description:
-          "Full sum insured paid on first diagnosis of covered illness.",
-      },
-      {
-        title: "Income Substitution",
-        description: "Use funds to replace lost income during recovery.",
-      },
-      {
-        title: "Global Treatment",
-        description: "Freedom to seek treatment anywhere with the payout.",
-      },
-    ],
-    faq: [
-      { question: "How is Critical Illness insurance different from health insurance?", answer: "Health insurance reimburses hospital bills. Critical Illness insurance pays a fixed lump-sum amount upon diagnosis, which you can use for treatment, recovery, income replacement, or household expenses." },
-      { question: "What illnesses are covered under Critical Illness plans?", answer: "Coverage depends on the insurer, but most plans include major conditions like cancer, heart attack, stroke, organ transplant, paralysis, kidney failure, and major surgeries." },
-      { question: "What is a survival period?", answer: "A survival period is the minimum number of days (for example, 30 days) you must survive after diagnosis to receive the claim payout." },
-      { question: "Who should consider Critical Illness insurance?", answer: "Anyone with financial responsibilities, family history of serious illnesses, high-stress lifestyle, or limited savings should strongly consider this cover." }
-    ],
-    bgImage: "/hero1.jpg",
-    introText:
-      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
-    closingText:
-      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
-    faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.jpg",
-      consultationTitle: "If You Need Help, Get A Consultation",
-      consultationButton: "Get Started",
-    },
-  },
-  {
-    slug: "marine-cargo",
-    category: "Insurance",
-    title: "Marine & Cargo Insurance",
-    tagline: "In business, logistics is more than movement — it’s a promise.",
-    description:
-      "A single damaged, lost, or delayed consignment can lead to revenue loss, supply chain disruptions, or breached contracts. That’s where comprehensive coverage becomes critical. Our Marine & Cargo Insurance is tailored for businesses engaged in domestic and international trade. It provides protection against physical loss or damage to goods in transit, across all modes of transportation — air, sea, road, or rail. Whether you're shipping raw materials, finished products, or high-value equipment, our policies are structured to absorb the risk — not your balance sheet.",
-    features: [
-      {
-        title: "All-Risk Cover",
-        description:
-          "Comprehensive protection against external causes of loss.",
-      },
-      {
-        title: "Transit Modes",
-        description: "Covers road, rail, air, and sea transport.",
-      },
-      {
-        title: "Warehouse to Warehouse",
-        description: "Coverage from point of origin to final destination.",
-      },
-    ],
-    faq: [
-      {
-        question: "Does it cover delay?",
+        question: "What does Travel Insurance typically cover?",
         answer:
-          "Standard policies usually exclude loss due to delay, even if the delay is caused by an insured peril.",
+          "It generally covers emergency medical expenses, hospitalization abroad, trip cancellation/interruption, baggage loss, flight delays, and personal liability etc.",
       },
       {
-        question: "What is General Average?",
+        question: "How is the claim settled in Travel Insurance?",
         answer:
-          "It's a maritime principle where all parties in a sea venture proportionally share any losses resulting from a voluntary sacrifice of part of the ship or cargo to save the whole in an emergency.",
+          "Claims can be settled cashless at network hospitals abroad or through reimbursement after submitting required documents.",
       },
       {
-        question: "When does the cover start and end?",
+        question: "Can senior citizens buy Travel Insurance?",
         answer:
-          "Under 'Warehouse to Warehouse' clauses, cover starts when goods leave the warehouse of origin and ends upon delivery at the final destination.",
+          "Yes, many insurers offer travel insurance plans for senior citizens, though medical screening may apply.",
       },
       {
-        question: "Can I insure second-hand machinery?",
+        question: "Does Travel Insurance cover pre-existing diseases?",
         answer:
-          "Yes, but it usually requires a pre-inspection and coverage might be limited (e.g., excluding breakage).",
+          "Coverage for pre-existing conditions varies by policy. Some plans offer limited coverage for life-threatening emergencies and other pre-defined sum insured coverages arising from pre-existing illnesses.",
       },
     ],
-    bgImage: "/hero2.jpg",
-    introText:
-      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
-    closingText:
-      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
-    faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.jpg",
-      consultationTitle: "If You Need Help, Get A Consultation",
-      consultationButton: "Get Started",
-    },
-  },
-  {
-    slug: "fire-burglary",
-    category: "Insurance",
-    title: "Fire & Burglary Insurance",
-    tagline:
-      "Because what you’ve meticulously built deserves unwavering guardianship.",
-    description:
-      "Your homes, offices, factories — they embody years of aspirations and efforts. Unforeseen incidents like fires or intrusions shouldn’t possess the power to erase that legacy. We devise protections that enable swift restitution, preserving both your tangible assets and your family’s composure. It’s about more than rebuilding walls or replacing inventory — it’s about restoring normalcy without enduring financial distress.",
-    features: [
-      {
-        title: "Asset Protection",
-        description: "Covers building, machinery, stocks, and furniture.",
-      },
-      {
-        title: "Burglary Cover",
-        description: "Protection against theft following forcible entry.",
-      },
-      {
-        title: "Business Interruption",
-        description: "Optional cover for loss of profit due to fire.",
-      },
-    ],
-    faq: [
-      {
-        question: "Does it cover natural calamities?",
-        answer:
-          "Yes, standard fire policies cover STFI (Storm, Tempest, Flood, Inundation), Earthquakes, and other acts of God.",
-      },
-      {
-        question:
-          "What is the difference between Book Value and Reinstatement Value?",
-        answer:
-          "Book Value is the depreciated value. Reinstatement Value is the cost to replace the asset with a new one of the same kind and capacity.",
-      },
-      {
-        question: "Does it cover theft?",
-        answer:
-          "A standard Fire policy does not cover theft. You need a separate Burglary policy or a package policy.",
-      },
-      {
-        question: "What is 'Stocks Declaration' policy?",
-        answer:
-          "For businesses with fluctuating stock levels, this allows you to adjust the sum insured monthly and save on premiums.",
-      },
-    ],
-    bgImage: "/home.png",
+    bgImage: "/finask/travel-insurance.png",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -777,12 +595,146 @@ export const servicesData = [
       },
     ],
     faq: [
-      { question: "What does Property Insurance typically cover?", answer: "It can cover the building structure, interiors, furniture, fixtures, equipment, and sometimes valuable contents, depending on the policy selected." },
-      { question: "Does Property Insurance cover natural calamities?", answer: "Yes, most comprehensive property policies cover risks like flood, storm, earthquake (if opted), and other natural disasters as mentioned in the policy." },
-      { question: "How is the sum insured determined?", answer: "The sum insured is usually based on the reconstruction value of the property (for building), pre agreed value and the replacement value of contents." },
-      { question: "What is not covered under Property Insurance?", answer: "Common exclusions may include wear and tear, gradual deterioration, intentional damage, and losses not specifically listed in the policy." }
+      {
+        question: "What does Property Insurance typically cover?",
+        answer:
+          "It can cover the building structure, interiors, furniture, fixtures, equipment, and sometimes valuable contents, depending on the policy selected.",
+      },
+      {
+        question: "Does Property Insurance cover natural calamities?",
+        answer:
+          "Yes, most comprehensive property policies cover risks like flood, storm, earthquake (if opted), and other natural disasters as mentioned in the policy.",
+      },
+      {
+        question: "How is the sum insured determined?",
+        answer:
+          "The sum insured is usually based on the reconstruction value of the property (for building), pre agreed value and the replacement value of contents.",
+      },
+      {
+        question: "What is not covered under Property Insurance?",
+        answer:
+          "Common exclusions may include wear and tear, gradual deterioration, intentional damage, and losses not specifically listed in the policy.",
+      },
     ],
-    bgImage: "/home.jpg",
+    bgImage: "/finask/property-insurance.png",
+    introText:
+      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
+    closingText:
+      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
+    faqSection: {
+      title: "General Question",
+      description:
+        "Answers to common questions about our services and how we can help you achieve your financial goals.",
+      image: "/faq.jpg",
+      consultationTitle: "If You Need Help, Get A Consultation",
+      consultationButton: "Get Started",
+    },
+  },
+  {
+    slug: "fire-burglary-insurance",
+    category: "Insurance",
+    title: "Fire & Burglary Insurance",
+    tagline:
+      "Because what you’ve meticulously built deserves unwavering guardianship.",
+    description:
+      "Your homes, offices, factories — they embody years of aspirations and efforts. Unforeseen incidents like fires or intrusions shouldn’t possess the power to erase that legacy. We devise protections that enable swift restitution, preserving both your tangible assets and your family’s composure.\n\nIt’s about more than rebuilding walls or replacing inventory — it’s about restoring normalcy without enduring financial distress.",
+    features: [
+      {
+        title: "Comprehensive Coverage",
+        description:
+          "Protection against hospitalization, critical illnesses, and modern treatments.",
+      },
+      {
+        title: "Global Protection",
+        description: "Plans that cover you wherever your lifestyle takes you.",
+      },
+      {
+        title: "Family Floater",
+        description: "One plan to secure the health of your entire family.",
+      },
+    ],
+    faq: [
+      {
+        question: "What does Fire Insurance and Burglary typically cover?",
+        answer:
+          "Fire insurance generally covers damage caused by fire, lightning, explosion, storm, flood, earthquake (if opted), and other specified perils. Burglary insurance covers loss or damage to property due to forced entry, theft, or housebreaking, subject to policy conditions.",
+      },
+      {
+        question: "Who should consider Fire & Burglary Insurance?",
+        answer:
+          "Homeowners, shop owners, warehouse operators, and business establishments should consider this policy to protect their assets and inventory.",
+      },
+      {
+        question: "Does this policy cover both building and contents?",
+        answer:
+          "Yes, coverage can be taken for the building structure, stock, machinery, furniture, fixtures, and other contents depending on your requirement.",
+      },
+      {
+        question: "What is not covered under Fire & Burglary Insurance?",
+        answer:
+          "Common exclusions may include intentional damage, war-related events, gradual wear and tear, or theft without forced entry (unless specifically covered).",
+      },
+    ],
+    bgImage: "/finask/fire-and-urglary.png",
+    introText:
+      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
+    closingText:
+      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
+    faqSection: {
+      title: "General Question",
+      description:
+        "Answers to common questions about our services and how we can help you achieve your financial goals.",
+      image: "/faq.jpg",
+      consultationTitle: "If You Need Help, Get A Consultation",
+      consultationButton: "Get Started",
+    },
+  },
+  {
+    slug: "marine-cargo-insurance",
+    category: "Insurance",
+    title: "Marine & Cargo Insurance",
+    tagline: "In business, logistics is more than movement — it’s a promise.",
+    description:
+      "A single damaged, lost, or delayed consignment can lead to revenue loss, supply chain disruptions, or breached contracts. That’s where comprehensive coverage becomes critical.\nOur Marine & Cargo Insurance is tailored for businesses engaged in domestic and international trade. It provides protection against physical loss or damage to goods in transit, across all modes of transportation — air, sea, road, or rail. Whether you're shipping raw materials, finished products, or high-value equipment, our policies are structured to absorb the risk — not your balance sheet.\nWith FinAsk, you protect not just your shipments, but your profitability, reliability, and business continuity.",
+    features: [
+      {
+        title: "Comprehensive Coverage",
+        description:
+          "Protection against hospitalization, critical illnesses, and modern treatments.",
+      },
+      {
+        title: "Global Protection",
+        description: "Plans that cover you wherever your lifestyle takes you.",
+      },
+      {
+        title: "Family Floater",
+        description: "One plan to secure the health of your entire family.",
+      },
+    ],
+    faq: [
+      {
+        question: "What does Marine & Cargo Insurance cover?",
+        answer:
+          "It typically covers risks such as theft, accident, fire, collision, overturning, natural calamities, and damage during loading and unloading, as per policy terms.",
+      },
+      {
+        question:
+          "What is the difference between Marine Insurance and Cargo Insurance?",
+        answer:
+          "Marine insurance broadly covers ships, vessels, and goods in transit, while cargo insurance specifically covers the goods being transported.",
+      },
+      {
+        question: "Does the policy cover international shipments?",
+        answer:
+          "Yes, policies can be structured to cover domestic transit as well as international imports and exports.",
+      },
+      {
+        question: "What is an Open Policy in Marine Insurance?",
+        answer:
+          "An Open Policy provides continuous coverage for multiple shipments over a specified period, suitable for businesses with frequent consignments",
+      },
+    ],
+    bgImage: "/finask/marine-and-cargo-insurance.png",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -839,7 +791,7 @@ export const servicesData = [
           "Yes, policies can be structured to cover contract workers and temporary staff.",
       },
     ],
-    bgImage: "/about-team.png",
+    bgImage: "/finask/corporate.png",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -875,13 +827,33 @@ export const servicesData = [
       },
     ],
     faq: [
-      { question: "Who should consider Cyber Insurance?", answer: "Any business that stores customer data, processes online payments, uses cloud systems, or relies on digital operations should consider cyber protection — regardless of size." },
-      { question: "What does Cyber Insurance typically cover?", answer: "It may cover data breach costs, ransomware payments, business interruption, legal expenses, regulatory penalties (where insurable), forensic investigation, and customer notification expenses." },
-      { question: "Does Cyber Insurance cover ransomware attacks?", answer: "Yes, most comprehensive cyber policies cover ransomware-related losses, including recovery costs and business interruption, subject to policy terms." },
-      { question: "Does Cyber Insurance cover third-party liabilities?", answer: "Yes, it can cover legal claims made by customers, vendors, or partners if their data is compromised due to a cyber incident." },
-      { question: "What is not covered under Cyber Insurance?", answer: "Common exclusions may include intentional acts, prior known incidents, inadequate security practices, or unreported breaches." }
+      {
+        question: "Who should consider Cyber Insurance?",
+        answer:
+          "Any business that stores customer data, processes online payments, uses cloud systems, or relies on digital operations should consider cyber protection — regardless of size.",
+      },
+      {
+        question: "What does Cyber Insurance typically cover?",
+        answer:
+          "It may cover data breach costs, ransomware payments, business interruption, legal expenses, regulatory penalties (where insurable), forensic investigation, and customer notification expenses.",
+      },
+      {
+        question: "Does Cyber Insurance cover ransomware attacks?",
+        answer:
+          "Yes, most comprehensive cyber policies cover ransomware-related losses, including recovery costs and business interruption, subject to policy terms.",
+      },
+      {
+        question: "Does Cyber Insurance cover third-party liabilities?",
+        answer:
+          "Yes, it can cover legal claims made by customers, vendors, or partners if their data is compromised due to a cyber incident.",
+      },
+      {
+        question: "What is not covered under Cyber Insurance?",
+        answer:
+          "Common exclusions may include intentional acts, prior known incidents, inadequate security practices, or unreported breaches.",
+      },
     ],
-    bgImage: "/hero3.png",
+    bgImage: "/finask/cyber-insurance.jpg",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -896,34 +868,51 @@ export const servicesData = [
     },
   },
   {
-    slug: "keyman-insurance",
+    slug: "directors-life-insurance",
     category: "Insurance",
-    title: "Keyman Insurance",
+    title: "Director’s Life Insurance",
     tagline:
       "Because leadership carries responsibility that outlives the leader.",
     description:
       "Director’s life insurance is more than a personal safety net — it’s a strategic safeguard for businesses. It ensures that if the unthinkable happens, key obligations are met, debts are covered, and shareholder or partner transitions remain smooth, protecting enterprise value.\nBecause your vision shouldn’t falter, even if life takes an unforeseen turn.\nAt FinAsk, we help founders, directors, and key management personnel structure life cover not just for personal protection—but for business continuity.It’s not just about preparing for loss—it’s about preserving leadership, legacy, and long-term confidence.\nThis coverage can support succession planning, stabilize cash flow, reinforce loan and credit obligations, and signal preparedness to investors and stakeholders.\nIt’s more than a policy—it’s a contingency plan for confidence. Because leadership may be personal, but its impact is profoundly institutional.",
     features: [
       {
-        title: "Business Continuity",
-        description: "Protects profits and stabilizes cash flow.",
+        title: "Comprehensive Coverage",
+        description:
+          "Protection against hospitalization, critical illnesses, and modern treatments.",
       },
       {
-        title: "Stakeholder Confidence",
-        description: "Signals risk management maturity to investors.",
+        title: "Global Protection",
+        description: "Plans that cover you wherever your lifestyle takes you.",
       },
       {
-        title: "Tax Benefits",
-        description: "Premiums may be treated as business expenses.",
+        title: "Family Floater",
+        description: "One plan to secure the health of your entire family.",
       },
     ],
     faq: [
-      { question: "Who can be insured under Keyman Insurance?", answer: "Any key contributor to the business — such as a promoter, director, CEO, CFO, or senior executive — whose skills or leadership are critical to the company’s profitability." },
-      { question: "Why is Keyman Insurance important?", answer: "It helps:\nProtect business continuity\nOffset revenue loss\nRepay outstanding loans\nMaintain stakeholder confidence\nFund leadership transition" },
-      { question: "Can Keyman Insurance be converted into personal insurance?", answer: "Yes, under certain conditions, a Keyman policy can be assigned to the insured individual. Tax implications must be carefully evaluated." },
-      { question: "How is the sum assured decided?", answer: "It is usually based on:\nContribution to profits\nSalary multiples\nOutstanding liabilities\nBusiness valuation" }
+      {
+        question: "What is Director and officer’s Life Insurance?",
+        answer:
+          "Director Life Insurance is a policy taken to financially protect a company against the loss of a key director due to death. It helps safeguard business continuity and financial stability.",
+      },
+      {
+        question: "Why should a company insure its directors?",
+        answer:
+          "Directors play a critical role in business growth and decision-making. Their sudden absence can impact operations, revenue, and investor confidence. This cover helps manage financial disruption.",
+      },
+      {
+        question: "Who pays the premium for Director Life Insurance?",
+        answer:
+          "Typically, the company pays the premium, as the policy is taken to protect business interests.",
+      },
+      {
+        question: "Who receives the claim amount?",
+        answer:
+          "In most cases, the company is the beneficiary and receives the payout to manage liabilities, stabilize operations, or compensate financial loss.",
+      },
     ],
-    bgImage: "/hero4.jpg",
+    bgImage: "/family.png",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -939,64 +928,7 @@ export const servicesData = [
   },
 
   // --- INVESTMENTS ---
-  {
-    slug: "succession-legacy",
-    category: "Investments",
-    title: "Succession & Legacy Planning",
-    tagline: "Because your story should continue exactly as you envision.",
-    description:
-      "Accumulating wealth is only part of the journey. Ensuring it transfers smoothly, preserving harmony among heirs and sustaining your philanthropic or business dreams, requires deliberate architecture. At FinAsk, we go beyond documents and distributions — we focus on intent. Whether it’s defining clear roles for future family business stewards, ensuring equal yet equitable asset allocation, or safeguarding vulnerable beneficiaries, our approach is holistic, discreet, and deeply personal.",
-    features: [
-      {
-        title: "Family Constitution",
-        description: "Defining values and governance for family wealth.",
-      },
-      {
-        title: "Trust Structures",
-        description:
-          "Vehicles for controlled and tax-efficient wealth transfer.",
-      },
-      {
-        title: "Will Drafting",
-        description: "Legally sound distribution of assets.",
-      },
-    ],
-    faq: [
-      {
-        question: "Is it only for the ultra-rich?",
-        answer:
-          "No, anyone with assets (home, savings, insurance) and dependents should plan their succession to avoid family disputes.",
-      },
-      {
-        question: "What is the difference between a Will and a Trust?",
-        answer:
-          "A Will takes effect only after death and requires probate. A Trust can be operational during your lifetime and offers more control and privacy.",
-      },
-      {
-        question: "Can a Will be challenged?",
-        answer:
-          "Yes, Wills can be challenged in court. A registered Will with a medical certificate reduces this risk.",
-      },
-      {
-        question: "What is a 'Living Will'?",
-        answer:
-          "It is a legal document that specifies your preferences for medical treatment if you become unable to communicate your decisions.",
-      },
-    ],
-    bgImage: "/goal6.png",
-    introText:
-      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
-    closingText:
-      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
-    faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.jpg",
-      consultationTitle: "If You Need Help, Get A Consultation",
-      consultationButton: "Get Started",
-    },
-  },
+
   {
     slug: "mutual-funds",
     category: "Investments",
@@ -1019,12 +951,85 @@ export const servicesData = [
       },
     ],
     faq: [
-      { question: "How do Mutual Funds work?", answer: "Investors purchase units of a scheme. The fund manager invests the pooled money according to the scheme’s objective, and returns depend on market performance." },
-      { question: "What is SIP in Mutual Funds?", answer: "SIP (Systematic Investment Plan) allows you to invest a fixed amount regularly (daily/monthly/quarterly), promoting disciplined investing and rupee cost averaging." },
-      { question: "Are Mutual Fund investments taxable?", answer: "Yes, capital gains tax applies depending on the type of fund and holding period, as per prevailing tax laws." },
-      { question: "How do I choose the right Mutual Fund?", answer: "The right fund depends on your financial goals, risk appetite, investment horizon, and asset allocation strategy." }
+      {
+        question: "How do Mutual Funds work?",
+        answer:
+          "Investors purchase units of a scheme. The fund manager invests the pooled money according to the scheme’s objective, and returns depend on market performance.",
+      },
+      {
+        question: "What is SIP in Mutual Funds?",
+        answer:
+          "SIP (Systematic Investment Plan) allows you to invest a fixed amount regularly (daily/monthly/quarterly), promoting disciplined investing and rupee cost averaging.",
+      },
+      {
+        question: "Are Mutual Fund investments taxable?",
+        answer:
+          "Yes, capital gains tax applies depending on the type of fund and holding period, as per prevailing tax laws.",
+      },
+      {
+        question: "How do I choose the right Mutual Fund?",
+        answer:
+          "The right fund depends on your financial goals, risk appetite, investment horizon, and asset allocation strategy.",
+      },
     ],
-    bgImage: "/goal1.png",
+    bgImage: "/finask/mutual-funds.jpg",
+    introText:
+      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
+    closingText:
+      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
+    faqSection: {
+      title: "General Question",
+      description:
+        "Answers to common questions about our services and how we can help you achieve your financial goals.",
+      image: "/faq.jpg",
+      consultationTitle: "If You Need Help, Get A Consultation",
+      consultationButton: "Get Started",
+    },
+  },
+  {
+    slug: "bonds",
+    category: "Investments",
+    title: "Bonds",
+    tagline: "Building Calm Amidst the Clamor",
+    description:
+      "In a world that often rewards speed and speculation, some investors prefer the quiet dignity of certainty. Bonds offer precisely this—capital preservation paired with predictable income, creating a foundation upon which aspirations can securely rest.\nNavigating thousands of bond issuances—each with distinct ratings, coupon structures, and market dynamics—requires more than a glance at yield tables. We evaluate credit histories, macro-economic overlays, and your personal liquidity map to curate options that serve both immediate and intergenerational needs.\nOur advisory also manages demat allocations, monitors coupon flows, and assists with maturity reinvestment—turning fixed income into a quietly compounding ally.",
+    features: [
+      {
+        title: "Capital Preservation",
+        description: "Focus on safety of principal.",
+      },
+      {
+        title: "Predictable Income",
+        description: "Regular interest payouts.",
+      },
+      {
+        title: "Diverse Options",
+        description: "Govt bonds, corporate bonds, and tax-free bonds.",
+      },
+    ],
+    faq: [
+      {
+        question: "What types of bonds are available?",
+        answer:
+          "Government Bonds, Corporate Bonds, Tax-Free Bonds, RBI Bonds, Sovereign Gold Bonds, Municipal Bonds.",
+      },
+      {
+        question: "Are corporate bonds risky?",
+        answer:
+          "Corporate bonds carry credit risk depending on the financial strength of the issuing company. Higher returns often come with higher risk.",
+      },
+      {
+        question: "How are bonds different from Fixed Deposits (FDs)?",
+        answer:
+          "Bonds may offer higher returns.\nBonds can be traded before maturity.\nFDs are generally simpler and may be insured up to a limit.",
+      },
+      {
+        question: "How do I choose the right bond?",
+        answer:
+          "Consider:\nCredit rating\nInterest rate outlook\nInvestment horizon\nLiquidity needs\nTax implications",
+      },
+    ],
+    bgImage: "/finask/bonds.jpg",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -1060,12 +1065,28 @@ export const servicesData = [
       },
     ],
     faq: [
-      { question: "How is PMS different from Mutual Funds?", answer: "In PMS, investments are held in your own demat account and are customized to your profile, whereas mutual funds pool money from multiple investors into a common portfolio." },
-      { question: "What is the minimum investment required for PMS?", answer: "As per regulatory guidelines, the minimum investment amount for PMS is ₹50 lakhs." },
-      { question: "Is PMS suitable for all investors?", answer: "PMS is generally suitable for high-net-worth individuals (HNIs) who seek personalized portfolio management and are comfortable with market-linked investments." },
-      { question: "How are returns generated in PMS?", answer: "Returns depend on market performance and the portfolio manager’s strategy. Since investments are market-linked, returns are not guaranteed." }
+      {
+        question: "How is PMS different from Mutual Funds?",
+        answer:
+          "In PMS, investments are held in your own demat account and are customized to your profile, whereas mutual funds pool money from multiple investors into a common portfolio.",
+      },
+      {
+        question: "What is the minimum investment required for PMS?",
+        answer:
+          "As per regulatory guidelines, the minimum investment amount for PMS is ₹50 lakhs.",
+      },
+      {
+        question: "Is PMS suitable for all investors?",
+        answer:
+          "PMS is generally suitable for high-net-worth individuals (HNIs) who seek personalized portfolio management and are comfortable with market-linked investments.",
+      },
+      {
+        question: "How are returns generated in PMS?",
+        answer:
+          "Returns depend on market performance and the portfolio manager’s strategy. Since investments are market-linked, returns are not guaranteed.",
+      },
     ],
-    bgImage: "/family.png",
+    bgImage: "/finask/pms.jpg",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -1102,53 +1123,28 @@ export const servicesData = [
       },
     ],
     faq: [
-      { question: "Who can invest in AIFs?", answer: "AIFs are typically designed for High Net-Worth Individuals (HNIs), Ultra-HNIs, family offices, and institutional investors who understand market risks and long-term investment horizons." },
-      { question: "What is the minimum investment required in AIF?", answer: "As per regulatory guidelines, the minimum investment amount in an AIF is generally ₹1 crore per investor (subject to specific category exceptions)." },
-      { question: "What are the different categories of AIF?", answer: "AIFs are broadly classified into:\nCategory I – Venture Capital, Startups, Infrastructure, Social Ventures\nCategory II – Private Equity, Debt Funds\nCategory III – Hedge Funds and complex trading strategies" },
-      { question: "Why consider AIFs in a portfolio?", answer: "AIFs offer diversification beyond traditional investments, access to exclusive opportunities, and potential for higher returns, though with higher risk." }
+      {
+        question: "Who can invest in AIFs?",
+        answer:
+          "AIFs are typically designed for High Net-Worth Individuals (HNIs), Ultra-HNIs, family offices, and institutional investors who understand market risks and long-term investment horizons.",
+      },
+      {
+        question: "What is the minimum investment required in AIF?",
+        answer:
+          "As per regulatory guidelines, the minimum investment amount in an AIF is generally ₹1 crore per investor (subject to specific category exceptions).",
+      },
+      {
+        question: "What are the different categories of AIF?",
+        answer:
+          "AIFs are broadly classified into:\nCategory I – Venture Capital, Startups, Infrastructure, Social Ventures\nCategory II – Private Equity, Debt Funds\nCategory III – Hedge Funds and complex trading strategies",
+      },
+      {
+        question: "Why consider AIFs in a portfolio?",
+        answer:
+          "AIFs offer diversification beyond traditional investments, access to exclusive opportunities, and potential for higher returns, though with higher risk.",
+      },
     ],
     bgImage: "/family.jpg",
-    introText:
-      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
-    closingText:
-      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
-    faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.jpg",
-      consultationTitle: "If You Need Help, Get A Consultation",
-      consultationButton: "Get Started",
-    },
-  },
-  {
-    slug: "bonds",
-    category: "Investments",
-    title: "Bonds",
-    tagline: "Building Calm Amidst the Clamor",
-    description:
-      "In a world that often rewards speed and speculation, some investors prefer the quiet dignity of certainty. Bonds offer precisely this—capital preservation paired with predictable income, creating a foundation upon which aspirations can securely rest.\nNavigating thousands of bond issuances—each with distinct ratings, coupon structures, and market dynamics—requires more than a glance at yield tables. We evaluate credit histories, macro-economic overlays, and your personal liquidity map to curate options that serve both immediate and intergenerational needs.\nOur advisory also manages demat allocations, monitors coupon flows, and assists with maturity reinvestment—turning fixed income into a quietly compounding ally.",
-    features: [
-      {
-        title: "Capital Preservation",
-        description: "Focus on safety of principal.",
-      },
-      {
-        title: "Predictable Income",
-        description: "Regular interest payouts.",
-      },
-      {
-        title: "Diverse Options",
-        description: "Govt bonds, corporate bonds, and tax-free bonds.",
-      },
-    ],
-    faq: [
-      { question: "What types of bonds are available?", answer: "Government Bonds, Corporate Bonds, Tax-Free Bonds, RBI Bonds, Sovereign Gold Bonds, Municipal Bonds." },
-      { question: "Are corporate bonds risky?", answer: "Corporate bonds carry credit risk depending on the financial strength of the issuing company. Higher returns often come with higher risk." },
-      { question: "How are bonds different from Fixed Deposits (FDs)?", answer: "Bonds may offer higher returns.\nBonds can be traded before maturity.\nFDs are generally simpler and may be insured up to a limit." },
-      { question: "How do I choose the right bond?", answer: "Consider:\nCredit rating\nInterest rate outlook\nInvestment horizon\nLiquidity needs\nTax implications" }
-    ],
-    bgImage: "/service.jpg",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -1184,12 +1180,28 @@ export const servicesData = [
       },
     ],
     faq: [
-      { question: "Who should invest in Unlisted Equity?", answer: "Unlisted equity is generally suitable for informed investors or HNIs who have a higher risk appetite and a long-term investment horizon." },
-      { question: "Is Unlisted Equity risky?", answer: "Yes, unlisted investments carry higher risk due to limited liquidity, valuation uncertainty, and lack of public market transparency." },
-      { question: "How is the price of Unlisted Shares determined?", answer: "Prices are based on private transactions, company performance, demand-supply factors, and expected future growth prospects." },
-      { question: "What happens if the company gets listed (IPO)?", answer: "If the company goes public, investors may benefit from listing gains, subject to market conditions and lock-in rules." }
+      {
+        question: "Who should invest in Unlisted Equity?",
+        answer:
+          "Unlisted equity is generally suitable for informed investors or HNIs who have a higher risk appetite and a long-term investment horizon.",
+      },
+      {
+        question: "Is Unlisted Equity risky?",
+        answer:
+          "Yes, unlisted investments carry higher risk due to limited liquidity, valuation uncertainty, and lack of public market transparency.",
+      },
+      {
+        question: "How is the price of Unlisted Shares determined?",
+        answer:
+          "Prices are based on private transactions, company performance, demand-supply factors, and expected future growth prospects.",
+      },
+      {
+        question: "What happens if the company gets listed (IPO)?",
+        answer:
+          "If the company goes public, investors may benefit from listing gains, subject to market conditions and lock-in rules.",
+      },
     ],
-    bgImage: "/goal5.png",
+    bgImage: "/finask/unlisted-equity.png",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -1204,33 +1216,50 @@ export const servicesData = [
     },
   },
   {
-    slug: "nps",
-    category: "Investments",
-    title: "National Pension System (NPS)",
-    tagline: "Building a Retirement That Honours Your Efforts",
+    slug: "reits",
+    category: "Goal Planning",
+    title: "REITs",
+    tagline:
+      "Because real estate returns shouldn’t require real estate headaches.",
     description:
-      "Retirement is not the conclusion of earning—it’s the moment your lifetime of discipline begins to work for you. It’s when the fruits of your labor, invested wisely over decades, transform into dignified security and freedom.\nThe National Pension System (NPS) is one of India’s most robust instruments to shape this chapter—Whether you’re a salaried executive optimizing deductions, an entrepreneur without employer pensions, or an NRI anchoring part of your retirement in India, NPS provides a versatile platform. \nAt FinAsk, we simplify this entire landscape: from selecting among top-tier pension fund managers to guiding optimal equity exposure based on your horizon, recalibrating annually, and planning your eventual annuity so post-retirement income feels seamless.",
+      "REITs offer a seamless way to invest in large-scale, income-generating real estate—such as malls, office parks, residential properties and logistics centers—without buying property outright. Traded like stocks, these trusts blend the tangibility of real estate with the convenience and liquidity of modern investing.\n FinAsk helps you integrate REITs into your portfolio as a stable, yield-generating asset class with long-term upside and regular payouts.\n Build your portfolio with concrete value—without laying a single brick.",
     features: [
       {
-        title: "Tax Efficiency",
-        description: "Additional deduction of ₹50,000 under 80CCD(1B).",
+        title: "Corpus Calculation",
+        description: "Estimating the amount needed for your desired lifestyle.",
       },
       {
-        title: "Low Cost",
-        description: "One of the lowest cost investment products globally.",
+        title: "Income Strategy",
+        description: "Creating a reliable stream of post-retirement income.",
       },
       {
-        title: "Market Linked",
-        description: "Option to invest in equity for higher long-term returns.",
+        title: "Healthcare Planning",
+        description: "Ensuring adequate cover for medical needs.",
       },
     ],
     faq: [
-      { question: "Who can invest in NPS?", answer: "Any Indian citizen (resident or NRI) between 18 and 70 years of age can open an NPS account, subject to KYC compliance." },
-      { question: "What are the types of NPS accounts?", answer: "There are two types:\nTier I – A primary retirement account with tax benefits and withdrawal restrictions.\nTier II – A voluntary savings account with flexible withdrawals but limited tax benefits." },
-      { question: "How does NPS invest my money?", answer: "Your contributions are invested in a mix of Equity (E), Corporate Bonds (C), Government Securities (G), and Alternative Assets (A). You can choose either Active Choice (custom allocation) or Auto Choice (age-based allocation)." },
-      { question: "What is the lock-in period for NPS?", answer: "Tier I accounts are locked until retirement (age 60), with partial withdrawal allowed under specific conditions. Tier II accounts have no lock-in." }
+      {
+        question: "Who should consider investing in REITs?",
+        answer:
+          "Investors looking for regular income, portfolio diversification, and exposure to real estate without large capital investment may consider REITs.",
+      },
+      {
+        question: "What is the minimum investment required in REITs?",
+        answer:
+          "REITs are listed on stock exchanges, and you can invest by purchasing units through your demat account, making them accessible with relatively lower investment amounts compared to direct property purchase.",
+      },
+      {
+        question: "Are REITs liquid investments?",
+        answer:
+          "Yes. Since REITs are traded on stock exchanges, investors can buy or sell units during market hours, subject to liquidity conditions.",
+      },
+      {
+        question: "How are REITs different from buying physical property?",
+        answer:
+          "REITs offer professional management, diversification across multiple properties, liquidity, and lower entry cost compared to purchasing property directly.",
+      },
     ],
-    bgImage: "/family-office.png",
+    bgImage: "/next-gen.png",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -1245,34 +1274,108 @@ export const servicesData = [
     },
   },
   {
-    slug: "stock-broking",
+    slug: "invits",
     category: "Investments",
-    title: "Stock & Broking",
-    tagline: "Bringing Clarity and Conviction to Your Equity Journey",
+    title: "Infrastructure Investment Trusts",
+    tagline: "Because progress shouldn’t just be admired — it should be owned.",
     description:
-      "Equities offer promise. But navigating them requires more than intuition; it demands structure, foresight, and an ally who understands that investing is about compounding both capital and confidence.\nAt FinAsk, our stock and broking services are designed to cut through the noise. We combine research-backed insights with personalized guidance to help you build a portfolio that aligns with your goals, risk appetite, and timeline. Whether you're a seasoned trader or a first-time investor, we offer the tools, transparency, and expertise to help you make informed decisions — not impulsive ones.\nBecause in equities, it’s not about frequent thrills; it’s about enduring triumphs—structured, reviewed, and recalibrated.",
+      "InvITs let you participate in India’s infrastructure growth by investing in operational assets like highways, power grids, and renewable energy projects. They turn vast, capital-heavy ventures into accessible, regulated opportunities — offering you predictable cash flows and a stake in nation-building.\n\nSo every toll collected, every megawatt delivered, quietly builds your wealth too — blending personal prosperity with collective progress.",
     features: [
       {
-        title: "Research Backed",
-        description:
-          "Recommendations based on fundamental and technical analysis.",
+        title: "Stable Cash Flows",
+        description: "Revenue from operational infrastructure assets.",
       },
       {
-        title: "Personalized Guidance",
-        description: "Strategies tailored to your risk profile.",
+        title: "Nation Building",
+        description: "Invest in India's growth story.",
       },
       {
-        title: "Seamless Execution",
-        description: "Advanced platforms for easy trading.",
+        title: "Yield Oriented",
+        description: "Focus on regular income distribution.",
       },
     ],
     faq: [
-      { question: "How can I start investing in stocks?", answer: "You need to open a Demat and Trading account, complete KYC formalities, link your bank account, and then you can begin investing or trading through an online platform." },
-      { question: "What is the difference between trading and investing?", answer: "Investing focuses on long-term wealth creation by holding stocks over time, while trading involves frequent buying and selling to benefit from short-term price movements." },
-      { question: "Is stock market investment risky?", answer: "Yes, stock markets are subject to market volatility and price fluctuations. However, disciplined investing, diversification, and proper research can help manage risk." },
-      { question: "Can NRIs invest in Indian stock markets?", answer: "Yes, NRIs can invest in Indian equities through a PIS (Portfolio Investment Scheme) account, subject to RBI and SEBI regulations." }
+      {
+        question: "How do InvITs generate returns?",
+        answer:
+          "InvITs earn revenue from operational infrastructure projects and distribute a significant portion of the cash flows to investors as periodic payouts.",
+      },
+      {
+        question: "Who should consider investing in InvITs?",
+        answer:
+          "Investors seeking relatively stable income, portfolio diversification, and exposure to infrastructure assets may consider InvITs.",
+      },
+      {
+        question: "What is the minimum investment required in InvITs?",
+        answer:
+          "InvIT units are listed on stock exchanges and can be purchased through a demat account, making them accessible with moderate investment amounts.",
+      },
+      {
+        question: "How are InvITs different from REITs?",
+        answer:
+          "InvITs invest in infrastructure projects, while REITs invest in real estate properties. Both provide regular income but from different asset classes.",
+      },
     ],
-    bgImage: "/executor.png",
+    bgImage: "/finask/invi.jpeg",
+    introText:
+      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
+    closingText:
+      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
+    faqSection: {
+      title: "General Question",
+      description:
+        "Answers to common questions about our services and how we can help you achieve your financial goals.",
+      image: "/faq.jpg",
+      consultationTitle: "If You Need Help, Get A Consultation",
+      consultationButton: "Get Started",
+    },
+  },
+  {
+    slug: "fractional-commercial-real-estate",
+    category: "Goal Planning",
+    title: "Fractional Commercial Real Estate",
+    tagline: "Because progress shouldn’t require owning the whole skyline.",
+    description:
+      "Fractional ownership and Infrastructure Investment Trusts (InvITs) allow you to participate in India’s booming commercial and infrastructural growth — one strategic slice at a time. Whether it’s office towers, co-working spaces, or national highways, these vehicles unlock stable income and potential capital gains without the hassles of full ownership or maintenance.\n\nWith handpicked opportunities and expert due diligence, FinAsk helps you diversify into high-ticket real assets—without the entry barriers, paperwork, or property stress.\n It’s not just smart investing. It’s smart access to a growing India.",
+    features: [
+      {
+        title: "Corpus Calculation",
+        description: "Estimating the amount needed for your desired lifestyle.",
+      },
+      {
+        title: "Income Strategy",
+        description: "Creating a reliable stream of post-retirement income.",
+      },
+      {
+        title: "Healthcare Planning",
+        description: "Ensuring adequate cover for medical needs.",
+      },
+    ],
+    faq: [
+      {
+        question: "How does fractional ownership work?",
+        answer:
+          "Investors pool funds to purchase a commercial asset (like office spaces or warehouses) through a structured platform or SPV (Special Purpose Vehicle). Rental income and potential appreciation are shared proportionately.",
+      },
+      {
+        question:
+          "What type of properties are available under fractional investment?",
+        answer:
+          "Typically, Grade A commercial properties such as IT parks, corporate offices, pre-leased buildings, warehouses, and retail spaces are offered.",
+      },
+      {
+        question: "What returns can I expect?",
+        answer:
+          "Returns generally come from two sources — regular rental income and capital appreciation over time. However, returns depend on property performance and market conditions.",
+      },
+      {
+        question:
+          "Is fractional real estate better than buying physical property?",
+        answer:
+          "It offers lower ticket size, diversification, professional management, and access to premium assets — without the burden of direct property management.",
+      },
+    ],
+    bgImage: "/finask/fractional.png",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -1308,12 +1411,144 @@ export const servicesData = [
       },
     ],
     faq: [
-      { question: "How does P2P Lending work?", answer: "Investors lend money to verified borrowers through a regulated platform. Borrowers repay the loan with interest over a fixed tenure, and investors earn returns on the amount lent." },
-      { question: "Who regulates P2P Lending in India?", answer: "P2P platforms in India are regulated by the Reserve Bank of India (RBI) and operate as NBFC-P2P entities." },
-      { question: "What returns can I expect from P2P Lending?", answer: "Returns vary depending on borrower risk profiles and platform structure. Since it is a market-linked credit product, returns are not guaranteed." },
-      { question: "Is P2P Lending risky?", answer: "Yes, P2P Lending carries credit risk — borrowers may default on repayments. Diversifying across multiple borrowers helps reduce risk." }
+      {
+        question: "How does P2P Lending work?",
+        answer:
+          "Investors lend money to verified borrowers through a regulated platform. Borrowers repay the loan with interest over a fixed tenure, and investors earn returns on the amount lent.",
+      },
+      {
+        question: "Who regulates P2P Lending in India?",
+        answer:
+          "P2P platforms in India are regulated by the Reserve Bank of India (RBI) and operate as NBFC-P2P entities.",
+      },
+      {
+        question: "What returns can I expect from P2P Lending?",
+        answer:
+          "Returns vary depending on borrower risk profiles and platform structure. Since it is a market-linked credit product, returns are not guaranteed.",
+      },
+      {
+        question: "Is P2P Lending risky?",
+        answer:
+          "Yes, P2P Lending carries credit risk — borrowers may default on repayments. Diversifying across multiple borrowers helps reduce risk.",
+      },
     ],
-    bgImage: "/family-office.png",
+    bgImage: "/finask/p2p.jpg",
+    introText:
+      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
+    closingText:
+      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
+    faqSection: {
+      title: "General Question",
+      description:
+        "Answers to common questions about our services and how we can help you achieve your financial goals.",
+      image: "/faq.jpg",
+      consultationTitle: "If You Need Help, Get A Consultation",
+      consultationButton: "Get Started",
+    },
+  },
+  {
+    slug: "alternative-fixed-income",
+    category: "Investments",
+    title: "Alternative Fixed Income",
+    tagline: "When Smart Innovation Meets Predictable Returns",
+    description:
+      "Fixed income doesn’t have to be monotonous. Beyond bonds and deposits lie avenues like Market-Linked Debentures, Invoice Discounting, and tech-driven supply chain finance—each crafted to generate 9%–14% returns while balancing varying degrees of liquidity and risk.\nAt FinAsk, we make this universe approachable. We vet platforms, examine issuer balance sheets, and design diversified allocations so you can benefit from structured income without undue exposure. Because true wealth stewardship means knowing how to weave traditional and alternative fabrics into a single, resilient financial tapestry.",
+    features: [
+      {
+        title: "Market Linked Debentures",
+        description:
+          "Returns linked to market performance with capital protection.",
+      },
+      {
+        title: "Invoice Discounting",
+        description: "Short-term working capital finance.",
+      },
+      {
+        title: "Supply Chain Finance",
+        description: "Funding vendor payments for corporates.",
+      },
+    ],
+    faq: [
+      {
+        question:
+          "How are Alternative Fixed Income products different from traditional Fixed Deposits?",
+        answer:
+          "Unlike bank FDs, these investments are market-linked or credit-linked and may offer higher potential returns, but they also carry higher risk.",
+      },
+      {
+        question: "Are Alternative Fixed Income investments safe?",
+        answer:
+          "They carry credit and liquidity risk. Proper due diligence, diversification, and understanding of the underlying structure are essential before investing.",
+      },
+      {
+        question: "Who should consider Alternative Fixed Income?",
+        answer:
+          "Investors seeking higher income than traditional debt instruments and who are comfortable with moderate risk may consider these options.",
+      },
+      {
+        question: "What is the typical investment tenure?",
+        answer:
+          "Tenure can range from short-term (a few months) to medium or long-term, depending on the product structure.",
+      },
+    ],
+    bgImage: "/next-gen.png",
+    introText:
+      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
+    closingText:
+      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
+    faqSection: {
+      title: "General Question",
+      description:
+        "Answers to common questions about our services and how we can help you achieve your financial goals.",
+      image: "/faq.jpg",
+      consultationTitle: "If You Need Help, Get A Consultation",
+      consultationButton: "Get Started",
+    },
+  },
+  {
+    slug: "corporate-fdrs",
+    category: "Investments",
+    title: "Corporate Fixed Deposits",
+    tagline: "Combining Familiar Stability with Enhanced Yield",
+    description:
+      "For many investors, fixed deposits have long signified financial prudence. Yet traditional bank FDs often underperform inflation. Corporate FDRs offer a refined alternative—delivering higher yields through reputable NBFCs and corporates, backed by rigorous credit ratings.\nAt FinAsk, we navigate this terrain carefully. Because with fixed income, it’s not just about rates—it’s about safeguarding stability with informed discretion.",
+    features: [
+      {
+        title: "Higher Rates",
+        description: "Better returns than traditional bank deposits.",
+      },
+      {
+        title: "Rated Safety",
+        description: "Focus on AAA/AA rated issuers.",
+      },
+      {
+        title: "Flexible Tenure",
+        description: "Options ranging from 1 to 5 years.",
+      },
+    ],
+    faq: [
+      {
+        question: "How are Corporate FDRs different from Bank Fixed Deposits?",
+        answer:
+          "Corporate FDRs are issued by companies, not banks, and may offer higher interest rates. However, they carry higher credit risk compared to bank deposits.",
+      },
+      {
+        question: "Are Corporate FDRs safe?",
+        answer:
+          "Safety depends on the financial strength and credit rating of the issuing company. Higher-rated companies generally offer lower risk compared to lower-rated issuers.",
+      },
+      {
+        question: "Are Corporate FDRs secured?",
+        answer:
+          "Some corporate deposits are secured against company assets, while others may be unsecured. It is important to review the terms before investing.",
+      },
+      {
+        question: "Who should consider investing in Corporate FDRs?",
+        answer:
+          "Investors seeking higher fixed returns than bank FDs and willing to take moderate credit risk may consider Corporate FDRs as part of a diversified portfolio.",
+      },
+    ],
+    bgImage: "/finask/corporate.png",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -1370,246 +1605,7 @@ export const servicesData = [
           "Yes, GIFT City provides a platform to invest in global stocks (like US markets) through NSE IFSC.",
       },
     ],
-    bgImage: "/hero3.png",
-    introText:
-      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
-    closingText:
-      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
-    faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.jpg",
-      consultationTitle: "If You Need Help, Get A Consultation",
-      consultationButton: "Get Started",
-    },
-  },
-  {
-    slug: "corporate-fdrs",
-    category: "Investments",
-    title: "Corporate Fixed Deposits",
-    tagline: "Combining Familiar Stability with Enhanced Yield",
-    description:
-      "For many investors, fixed deposits have long signified financial prudence. Yet traditional bank FDs often underperform inflation. Corporate FDRs offer a refined alternative—delivering higher yields through reputable NBFCs and corporates, backed by rigorous credit ratings.\nAt FinAsk, we navigate this terrain carefully. Because with fixed income, it’s not just about rates—it’s about safeguarding stability with informed discretion.",
-    features: [
-      {
-        title: "Higher Rates",
-        description: "Better returns than traditional bank deposits.",
-      },
-      {
-        title: "Rated Safety",
-        description: "Focus on AAA/AA rated issuers.",
-      },
-      {
-        title: "Flexible Tenure",
-        description: "Options ranging from 1 to 5 years.",
-      },
-    ],
-    faq: [
-      { question: "How are Corporate FDRs different from Bank Fixed Deposits?", answer: "Corporate FDRs are issued by companies, not banks, and may offer higher interest rates. However, they carry higher credit risk compared to bank deposits." },
-      { question: "Are Corporate FDRs safe?", answer: "Safety depends on the financial strength and credit rating of the issuing company. Higher-rated companies generally offer lower risk compared to lower-rated issuers." },
-      { question: "Are Corporate FDRs secured?", answer: "Some corporate deposits are secured against company assets, while others may be unsecured. It is important to review the terms before investing." },
-      { question: "Who should consider investing in Corporate FDRs?", answer: "Investors seeking higher fixed returns than bank FDs and willing to take moderate credit risk may consider Corporate FDRs as part of a diversified portfolio." }
-    ],
-    bgImage: "/family-office.png",
-    introText:
-      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
-    closingText:
-      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
-    faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.jpg",
-      consultationTitle: "If You Need Help, Get A Consultation",
-      consultationButton: "Get Started",
-    },
-  },
-  {
-    slug: "alternative-fixed-income",
-    category: "Investments",
-    title: "Alternative Fixed Income",
-    tagline: "When Smart Innovation Meets Predictable Returns",
-    description:
-      "Fixed income doesn’t have to be monotonous. Beyond bonds and deposits lie avenues like Market-Linked Debentures, Invoice Discounting, and tech-driven supply chain finance—each crafted to generate 9%–14% returns while balancing varying degrees of liquidity and risk.\nAt FinAsk, we make this universe approachable. We vet platforms, examine issuer balance sheets, and design diversified allocations so you can benefit from structured income without undue exposure. Because true wealth stewardship means knowing how to weave traditional and alternative fabrics into a single, resilient financial tapestry.",
-    features: [
-      {
-        title: "Market Linked Debentures",
-        description:
-          "Returns linked to market performance with capital protection.",
-      },
-      {
-        title: "Invoice Discounting",
-        description: "Short-term working capital finance.",
-      },
-      {
-        title: "Supply Chain Finance",
-        description: "Funding vendor payments for corporates.",
-      },
-    ],
-    faq: [
-      { question: "How are Alternative Fixed Income products different from traditional Fixed Deposits?", answer: "Unlike bank FDs, these investments are market-linked or credit-linked and may offer higher potential returns, but they also carry higher risk." },
-      { question: "Are Alternative Fixed Income investments safe?", answer: "They carry credit and liquidity risk. Proper due diligence, diversification, and understanding of the underlying structure are essential before investing." },
-      { question: "Who should consider Alternative Fixed Income?", answer: "Investors seeking higher income than traditional debt instruments and who are comfortable with moderate risk may consider these options." },
-      { question: "What is the typical investment tenure?", answer: "Tenure can range from short-term (a few months) to medium or long-term, depending on the product structure." }
-    ],
-    bgImage: "/next-gen.png",
-    introText:
-      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
-    closingText:
-      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
-    faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.jpg",
-      consultationTitle: "If You Need Help, Get A Consultation",
-      consultationButton: "Get Started",
-    },
-  },
-  {
-    slug: "fractional-real-estate",
-    category: "Investments",
-    title: "Fractional Real Estate",
-    tagline: "Because progress shouldn’t require owning the whole skyline.",
-    description:
-      "Fractional ownership allows you to participate in India’s booming commercial growth — one strategic slice at a time. Whether it’s office towers or co-working spaces, these vehicles unlock stable income and potential capital gains without the hassles of full ownership or maintenance. With handpicked opportunities and expert due diligence, FinAsk helps you diversify into high-ticket real assets—without the entry barriers, paperwork, or property stress.",
-    features: [
-      {
-        title: "Lower Entry Barrier",
-        description: "Invest in premium properties with smaller amounts.",
-      },
-      {
-        title: "Rental Yield",
-        description: "Earn regular rental income.",
-      },
-      {
-        title: "Capital Appreciation",
-        description: "Benefit from property value increase.",
-      },
-    ],
-    faq: [
-      {
-        question: "What is the minimum investment?",
-        answer:
-          "Typically starts from ₹25 Lakhs, which is significantly lower than buying a full commercial property.",
-      },
-      {
-        question: "Is it liquid?",
-        answer:
-          "Liquidity is lower than stocks. You can sell your fraction on the platform's secondary market or when the asset is sold.",
-      },
-      {
-        question: "Who manages the property?",
-        answer:
-          "A professional property management company handles maintenance, tenant management, and rent collection.",
-      },
-      {
-        question: "What kind of returns can I expect?",
-        answer:
-          "Returns typically include a rental yield of 8-10% plus capital appreciation over time.",
-      },
-    ],
-    bgImage: "/home.png",
-    introText:
-      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
-    closingText:
-      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
-    faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.jpg",
-      consultationTitle: "If You Need Help, Get A Consultation",
-      consultationButton: "Get Started",
-    },
-  },
-  {
-    slug: "reits-invits",
-    category: "Investments",
-    title: "REITs (Real Estate Investment Trusts)",
-    tagline:
-      "Because real estate returns shouldn’t require real estate headaches.",
-    description:
-      "REITs offer a seamless way to invest in large-scale, income-generating real estate—such as malls, office parks, and logistics centers—without buying property outright. Traded like stocks, these trusts blend the tangibility of real estate with the convenience and liquidity of modern investing. FinAsk helps you integrate REITs into your portfolio as a stable, yield-generating asset class with long-term upside and regular payouts.",
-    features: [
-      {
-        title: "Liquidity",
-        description: "Traded on stock exchanges.",
-      },
-      {
-        title: "Regular Income",
-        description: "Mandatory distribution of 90% of cash flows.",
-      },
-      {
-        title: "Professional Management",
-        description: "Assets managed by experts.",
-      },
-    ],
-    faq: [
-      {
-        question: "Are dividends taxable?",
-        answer:
-          "Tax treatment depends on the specific REIT structure and the nature of the payout (dividend vs interest vs repayment of debt).",
-      },
-      {
-        question: "What is the minimum investment?",
-        answer:
-          "For listed REITs, you can buy even a single unit on the stock exchange (approx ₹300-400).",
-      },
-      {
-        question: "Is it safe?",
-        answer:
-          "REITs are regulated by SEBI and invest in rent-generating assets, making them relatively safer than direct property investment.",
-      },
-      {
-        question: "How often do I get returns?",
-        answer:
-          "REITs are mandated to distribute at least 90% of their net distributable cash flows to investors semi-annually.",
-      },
-    ],
-    bgImage: "/trust.png",
-    introText:
-      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
-    closingText:
-      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
-    faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.jpg",
-      consultationTitle: "If You Need Help, Get A Consultation",
-      consultationButton: "Get Started",
-    },
-  },
-  {
-    slug: "invits",
-    category: "Investments",
-    title: "InvITs (Infrastructure Investment Trusts)",
-    tagline: "Because progress shouldn’t just be admired — it should be owned.",
-    description:
-      "InvITs let you participate in India’s infrastructure growth by investing in operational assets like highways, power grids, and renewable energy projects. They turn vast, capital-heavy ventures into accessible, regulated opportunities — offering you predictable cash flows and a stake in nation-building.\n\nSo every toll collected, every megawatt delivered, quietly builds your wealth too — blending personal prosperity with collective progress.",
-    features: [
-      {
-        title: "Stable Cash Flows",
-        description: "Revenue from operational infrastructure assets.",
-      },
-      {
-        title: "Nation Building",
-        description: "Invest in India's growth story.",
-      },
-      {
-        title: "Yield Oriented",
-        description: "Focus on regular income distribution.",
-      },
-    ],
-    faq: [
-      { question: "How do InvITs generate returns?", answer: "InvITs earn revenue from operational infrastructure projects and distribute a significant portion of the cash flows to investors as periodic payouts." },
-      { question: "Who should consider investing in InvITs?", answer: "Investors seeking relatively stable income, portfolio diversification, and exposure to infrastructure assets may consider InvITs." },
-      { question: "What is the minimum investment required in InvITs?", answer: "InvIT units are listed on stock exchanges and can be purchased through a demat account, making them accessible with moderate investment amounts." },
-      { question: "How are InvITs different from REITs?", answer: "InvITs invest in infrastructure projects, while REITs invest in real estate properties. Both provide regular income but from different asset classes." }
-    ],
-    bgImage: "/hero3.png",
+    bgImage: "/finask/gift-city.png",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -1645,12 +1641,143 @@ export const servicesData = [
       },
     ],
     faq: [
-      { question: "How is E-Gold different from physical gold?", answer: "E-Gold eliminates storage risk, making charges, and purity concerns. It can be bought and sold online easily, while physical gold involves storage, security, and resale challenges." },
-      { question: "Is E-Gold safe?", answer: "Yes, when purchased through reputed platforms or exchanges, E-Gold is backed by physical gold stored securely in insured vaults." },
-      { question: "Can I convert E-Gold into physical gold?", answer: "Yes, many providers allow conversion of E-Gold into physical gold (coins/bars), subject to minimum quantity and delivery charges." },
-      { question: "Is E-Gold suitable for long-term investment?", answer: "E-Gold is suitable for portfolio diversification and long-term wealth preservation, especially for investors looking to hedge against inflation and market volatility." }
+      {
+        question: "How is E-Gold different from physical gold?",
+        answer:
+          "E-Gold eliminates storage risk, making charges, and purity concerns. It can be bought and sold online easily, while physical gold involves storage, security, and resale challenges.",
+      },
+      {
+        question: "Is E-Gold safe?",
+        answer:
+          "Yes, when purchased through reputed platforms or exchanges, E-Gold is backed by physical gold stored securely in insured vaults.",
+      },
+      {
+        question: "Can I convert E-Gold into physical gold?",
+        answer:
+          "Yes, many providers allow conversion of E-Gold into physical gold (coins/bars), subject to minimum quantity and delivery charges.",
+      },
+      {
+        question: "Is E-Gold suitable for long-term investment?",
+        answer:
+          "E-Gold is suitable for portfolio diversification and long-term wealth preservation, especially for investors looking to hedge against inflation and market volatility.",
+      },
     ],
-    bgImage: "/how3.png",
+    bgImage: "/finask/e-gold.jpeg",
+    introText:
+      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
+    closingText:
+      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
+    faqSection: {
+      title: "General Question",
+      description:
+        "Answers to common questions about our services and how we can help you achieve your financial goals.",
+      image: "/faq.jpg",
+      consultationTitle: "If You Need Help, Get A Consultation",
+      consultationButton: "Get Started",
+    },
+  },
+  {
+    slug: "nps",
+    category: "Investments",
+    title: "National Pension System (NPS)",
+    tagline: "Building a Retirement That Honours Your Efforts",
+    description:
+      "Retirement is not the conclusion of earning—it’s the moment your lifetime of discipline begins to work for you. It’s when the fruits of your labor, invested wisely over decades, transform into dignified security and freedom.\nThe National Pension System (NPS) is one of India’s most robust instruments to shape this chapter—Whether you’re a salaried executive optimizing deductions, an entrepreneur without employer pensions, or an NRI anchoring part of your retirement in India, NPS provides a versatile platform. \nAt FinAsk, we simplify this entire landscape: from selecting among top-tier pension fund managers to guiding optimal equity exposure based on your horizon, recalibrating annually, and planning your eventual annuity so post-retirement income feels seamless.",
+    features: [
+      {
+        title: "Tax Efficiency",
+        description: "Additional deduction of ₹50,000 under 80CCD(1B).",
+      },
+      {
+        title: "Low Cost",
+        description: "One of the lowest cost investment products globally.",
+      },
+      {
+        title: "Market Linked",
+        description: "Option to invest in equity for higher long-term returns.",
+      },
+    ],
+    faq: [
+      {
+        question: "Who can invest in NPS?",
+        answer:
+          "Any Indian citizen (resident or NRI) between 18 and 70 years of age can open an NPS account, subject to KYC compliance.",
+      },
+      {
+        question: "What are the types of NPS accounts?",
+        answer:
+          "There are two types:\nTier I – A primary retirement account with tax benefits and withdrawal restrictions.\nTier II – A voluntary savings account with flexible withdrawals but limited tax benefits.",
+      },
+      {
+        question: "How does NPS invest my money?",
+        answer:
+          "Your contributions are invested in a mix of Equity (E), Corporate Bonds (C), Government Securities (G), and Alternative Assets (A). You can choose either Active Choice (custom allocation) or Auto Choice (age-based allocation).",
+      },
+      {
+        question: "What is the lock-in period for NPS?",
+        answer:
+          "Tier I accounts are locked until retirement (age 60), with partial withdrawal allowed under specific conditions. Tier II accounts have no lock-in.",
+      },
+    ],
+    bgImage: "/finask/national-pension-sceme.png",
+    introText:
+      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
+    closingText:
+      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
+    faqSection: {
+      title: "General Question",
+      description:
+        "Answers to common questions about our services and how we can help you achieve your financial goals.",
+      image: "/faq.jpg",
+      consultationTitle: "If You Need Help, Get A Consultation",
+      consultationButton: "Get Started",
+    },
+  },
+  {
+    slug: "stock-broking",
+    category: "Investments",
+    title: "Stock & Broking",
+    tagline: "Bringing Clarity and Conviction to Your Equity Journey",
+    description:
+      "Equities offer promise. But navigating them requires more than intuition; it demands structure, foresight, and an ally who understands that investing is about compounding both capital and confidence.\nAt FinAsk, our stock and broking services are designed to cut through the noise. We combine research-backed insights with personalized guidance to help you build a portfolio that aligns with your goals, risk appetite, and timeline. Whether you're a seasoned trader or a first-time investor, we offer the tools, transparency, and expertise to help you make informed decisions — not impulsive ones.\nBecause in equities, it’s not about frequent thrills; it’s about enduring triumphs—structured, reviewed, and recalibrated.",
+    features: [
+      {
+        title: "Research Backed",
+        description:
+          "Recommendations based on fundamental and technical analysis.",
+      },
+      {
+        title: "Personalized Guidance",
+        description: "Strategies tailored to your risk profile.",
+      },
+      {
+        title: "Seamless Execution",
+        description: "Advanced platforms for easy trading.",
+      },
+    ],
+    faq: [
+      {
+        question: "How can I start investing in stocks?",
+        answer:
+          "You need to open a Demat and Trading account, complete KYC formalities, link your bank account, and then you can begin investing or trading through an online platform.",
+      },
+      {
+        question: "What is the difference between trading and investing?",
+        answer:
+          "Investing focuses on long-term wealth creation by holding stocks over time, while trading involves frequent buying and selling to benefit from short-term price movements.",
+      },
+      {
+        question: "Is stock market investment risky?",
+        answer:
+          "Yes, stock markets are subject to market volatility and price fluctuations. However, disciplined investing, diversification, and proper research can help manage risk.",
+      },
+      {
+        question: "Can NRIs invest in Indian stock markets?",
+        answer:
+          "Yes, NRIs can invest in Indian equities through a PIS (Portfolio Investment Scheme) account, subject to RBI and SEBI regulations.",
+      },
+    ],
+    bgImage: "/finask/stock-roking.jpeg",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -1665,7 +1792,8 @@ export const servicesData = [
     },
   },
 
-  // --- GOAL PLANNING ---
+  // --- Services ---
+
   {
     slug: "trust-formation",
     category: "Goal Planning",
@@ -1709,7 +1837,7 @@ export const servicesData = [
           "Trusts can be revocable (can be cancelled) or irrevocable (permanent). Irrevocable trusts offer better asset protection.",
       },
     ],
-    bgImage: "/trust.png",
+    bgImage: "/finask/trust.jpeg",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -1766,7 +1894,7 @@ export const servicesData = [
           "Yes, you can update or revoke your Will as many times as you like during your lifetime. Only the last valid Will is considered.",
       },
     ],
-    bgImage: "/will.png",
+    bgImage: "/finask/will-writing.jpeg",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -1781,107 +1909,50 @@ export const servicesData = [
     },
   },
   {
-    slug: "estate-planning",
+    slug: "executor-services",
     category: "Goal Planning",
-    title: "Estate Planning",
-    tagline: "Thoughtfully Structured for the Generations Ahead",
-    description:
-      "Your wealth is far more than numbers on a balance sheet. It embodies years of perseverance, decisions made for loved ones, and dreams carefully nurtured. Estate planning is the art of preserving this story — structuring it so that your assets pass on gracefully, your dependents remain cared for, and your family continues in harmony.\nAt FinAsk, estate planning goes well beyond a simple will. We build an integrated approach that could include trusts to safeguard and distribute assets discreetly, nominee audits to avoid hidden disputes, tax-optimized succession plans, and even continuity strategies for businesses or inherited properties.\nOur team at FinAsk partners closely with top legal, fiduciary, and tax advisors to navigate complexities while anchoring every decision in your family’s ethos. The result is an estate plan that grows with you.",
-    features: [
-      {
-        title: "Integrated Approach",
-        description: "Combines wills, trusts, and other legal tools.",
-      },
-      {
-        title: "Tax Optimization",
-        description: "Minimizing tax impact on inheritance.",
-      },
-      {
-        title: "Business Succession",
-        description: "Planning for the future of your business.",
-      },
-    ],
-    faq: [
-      {
-        question: "When should I start?",
-        answer:
-          "It's best to start as soon as you have significant assets, get married, or have children. It's never too early to protect your loved ones.",
-      },
-      {
-        question: "Is estate planning just about death?",
-        answer:
-          "No, it also covers incapacity planning (Power of Attorney, Living Will) to manage your affairs if you become unable to do so.",
-      },
-      {
-        question: "What is Probate?",
-        answer:
-          "Probate is the legal process of validating a Will. It can be time-consuming and costly, which estate planning aims to minimize.",
-      },
-      {
-        question: "How does it help with taxes?",
-        answer:
-          "Proper planning can help minimize taxes on income generated by assets and ensure efficient transfer to the next generation.",
-      },
-    ],
-    bgImage: "/goal6.png",
-    introText:
-      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
-    closingText:
-      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
-    faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.jpg",
-      consultationTitle: "If You Need Help, Get A Consultation",
-      consultationButton: "Get Started",
-    },
-  },
-  {
-    slug: "home-purchase",
-    category: "Goal Planning",
-    title: "Home Purchase Planning",
+    title: "Executor Services",
     tagline:
-      "Because your dream home shouldn’t jeopardize your financial wellbeing.",
+      "Because legacies deserve more than emotion — they deserve precise execution.",
     description:
-      "A home is not just a roof over your head. It’s a promise of belonging, a symbol of stability, and often, the most personal investment you’ll ever make. But turning that dream into reality without jeopardizing your financial well-being demands foresight, discipline, and a plan that’s as solid as the foundation of the house you wish to build.\nAt FinAsk, we craft tailored investment strategies that help you afford your dream home—comfortably and confidently. Whether it’s planning a down payment without liquidating your long-term assets, understanding how much EMI your life stage truly allows, or accounting for the less-spoken costs like interiors, registration, and maintenance, we map out every layer so your move is one of excitement, not anxiety.",
+      "Wills and trusts hold your intentions, but it’s the executor who ensures they come alive, without delay, dispute, or dilution. Our executor services stand as an unwavering hand to manage distributions, settle obligations, and uphold your wishes with absolute integrity.\n\nSo your lifetime of effort becomes a source of harmony, not heartache, for those you leave behind.\nAt FinAsk, our executor services go beyond paperwork. We step in with compassion, clarity, and complete confidentiality—coordinating with legal, financial, and family stakeholders to ensure every step reflects your intent. Whether it’s handling complex assets, addressing cross-border beneficiaries, or mediating sensitive transitions, we provide the calm, competent presence your legacy deserves. Because honouring your life’s work shouldn’t be left to chance.",
     features: [
       {
-        title: "Down Payment Strategy",
-        description: "Accumulating funds for the initial payment.",
+        title: "Impartial Execution",
+        description: "Neutral third-party management of the estate.",
       },
       {
-        title: "EMI Planning",
-        description: "Balancing loan repayments with other goals.",
+        title: "Legal Compliance",
+        description: "Handling probate and legal formalities.",
       },
       {
-        title: "Tax Benefits",
-        description: "Maximizing tax deductions on home loans.",
+        title: "Conflict Resolution",
+        description: "Minimizing disputes among beneficiaries.",
       },
     ],
     faq: [
       {
-        question: "How much loan should I take?",
+        question: "Why hire a professional?",
         answer:
-          "Ideally, your home loan EMIs should not exceed 30-40% of your monthly take-home pay.",
+          "To reduce burden on family, ensure unbiased execution, and handle complex legal/tax formalities efficiently.",
       },
       {
-        question: "How much down payment do I need?",
+        question: "What does an executor do?",
         answer:
-          "While banks finance up to 80-90%, we recommend a higher down payment (20-30%) to reduce interest burden.",
+          "An executor locates assets, pays debts/taxes, and distributes the remaining estate to beneficiaries as per the Will.",
       },
       {
-        question: "Should I buy or rent?",
+        question: "Can a family member be an executor?",
         answer:
-          "We help you analyze this based on your financial situation, market trends, and long-term goals.",
+          "Yes, but they may lack the expertise or time, and it could lead to conflicts. A professional executor is neutral.",
       },
       {
-        question: "What are the hidden costs?",
+        question: "When does the executor's role start?",
         answer:
-          "Apart from the property price, consider registration charges, stamp duty, maintenance, and furnishing costs.",
+          "The executor's role begins immediately upon the death of the testator (person who made the Will).",
       },
     ],
-    bgImage: "/home.jpg",
+    bgImage: "/executor.png",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -1896,49 +1967,49 @@ export const servicesData = [
     },
   },
   {
-    slug: "child-education",
-    category: "Goal Planning",
-    title: "Child Education Planning",
-    tagline: "Because Your Child’s Dreams Deserve More Than Last-Minute Loans",
+    slug: "legal-advisory",
+    category: "Consultation",
+    title: "Legal Advisory",
+    tagline: "Turning law into a shield, not a stressor",
     description:
-      "Ask any parent, and they’ll tell you: a good education isn’t just an expense—it’s their life’s biggest gift. But with tuition fees rising at nearly twice the general inflation rate, international courses often exceeding ₹1 CR, and competition growing sharper each year, securing that gift needs more than good intentions. It needs a thoughtful, time-bound plan.\nAt FinAsk, we help you turn your aspirations for your child into a structured financial roadmap. From early SIPs aligned with undergrad timelines to specialized planning for overseas studies, we build a portfolio that grows as your child grows—ensuring choices are driven by ambition, not affordability constraints.\nBecause when your child stands at the threshold of opportunity, money should be the last thing holding them back.",
+      "In a world of increasing regulatory oversight and legal complexity, protecting your wealth isn’t just about what you earn—it’s about how well you’re prepared. From property disputes to contract clarity, founder agreements to legacy documentation, every legal oversight can have a lasting financial impact.\nAt FinAsk, legal advisory is not a last-minute rescue. It’s built into your journey from the start—offering proactive legal structuring, due diligence, and risk mitigation that safeguards your assets, relationships, and long-term intentions.\nWhether you're acquiring real estate, drafting succession documents, reviewing investor agreements, or setting up holding structures, our legal team partners with your goals—not just the paperwork. We guide you with clarity, confidentiality, and a strategic lens that turns law from a limitation into a legacy protector.",
     features: [
       {
-        title: "Education Inflation",
-        description: "Factoring in the rising cost of education.",
+        title: "Property Due Diligence",
+        description: "Verification of titles and documents.",
       },
       {
-        title: "Goal-Based Investing",
-        description: "Dedicated investments for education milestones.",
+        title: "Contract Review",
+        description: "Reviewing financial and business agreements.",
       },
       {
-        title: "Risk Management",
-        description: "Protecting the goal against market volatility.",
+        title: "Family Settlements",
+        description: "Drafting family settlement deeds.",
       },
     ],
     faq: [
       {
-        question: "When should I start?",
+        question: "Do you handle litigation?",
         answer:
-          "As early as possible. Even small amounts invested early can grow significantly due to compounding.",
+          "We primarily focus on non-litigation advisory, documentation, and preventive law. We can refer you to litigators if court representation is needed.",
       },
       {
-        question: "How much will education cost in future?",
+        question: "Why is due diligence important?",
         answer:
-          "Education inflation is high (10-12%). We help you estimate the future cost based on current trends.",
+          "It uncovers potential legal risks (like unclear property titles or hidden liabilities) before you commit to a transaction.",
       },
       {
-        question: "What is the best investment for this?",
+        question: "Can you help with startup incorporation?",
         answer:
-          "It depends on the time horizon. Equity mutual funds are good for long-term (10+ years), while debt is safer for short-term.",
+          "Yes, we assist with entity selection (LLP, Pvt Ltd), registration, and founder agreements.",
       },
       {
-        question: "Should I take an education loan?",
+        question: "What is a Family Settlement Deed?",
         answer:
-          "An education loan can be a good option to bridge the gap and also helps the child build a credit history.",
+          "It is a document recording the amicable distribution of family assets to prevent future disputes.",
       },
     ],
-    bgImage: "/goal2.png",
+    bgImage: "/finask/legal-advisory.jpeg",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -1952,6 +2023,235 @@ export const servicesData = [
       consultationButton: "Get Started",
     },
   },
+  {
+    slug: "tax-advisory",
+    category: "Consultation",
+    title: "Tax Advisory",
+    tagline: "Because wealth should grow, not leak",
+    description:
+      "Every rupee saved in taxes is a rupee reinvested in your future. At FinAsk, tax advisory isn’t just about compliance—it’s about optimisation, foresight, and aligning your personal or business growth with evolving tax frameworks.\nWe help individuals, families, professionals, and entrepreneurs uncover intelligent strategies—be it through HUF structuring, capital gains planning, investment-linked deductions, or multi-entity income management.\nFor businesses, we integrate GST planning, director remuneration strategies, ESOP tax treatment, and cross-border tax implications into a cohesive framework. And for NRIs, we simplify global reporting, repatriation rules, and DTAA considerations.\nYou don’t just stay compliant—you stay confident. Because with FinAsk, your tax story isn’t about burden. It’s about benefit, built into every step of your financial journey.",
+    features: [
+      {
+        title: "Strategic Planning",
+        description: "Optimizing tax liabilities legally.",
+      },
+      {
+        title: "Compliance",
+        description: "Filing returns and handling notices.",
+      },
+      {
+        title: "Cross-Border Tax",
+        description: "Advisory for NRIs and global investments.",
+      },
+    ],
+    faq: [
+      {
+        question: "Do you help with ITR?",
+        answer:
+          "Yes, we assist with comprehensive Income Tax Return (ITR) filing for individuals, HUFs, and businesses.",
+      },
+      {
+        question: "How can I save tax legally?",
+        answer:
+          "We analyze your income and suggest deductions (80C, 80D, etc.), exemptions, and efficient investment structures.",
+      },
+      {
+        question: "What is Capital Gains Tax?",
+        answer:
+          "It is the tax on profit from the sale of assets like property or stocks. We help calculate and optimize this liability.",
+      },
+      {
+        question: "Do you handle NRI taxation?",
+        answer:
+          "Yes, we specialize in NRI tax compliance, DTAA benefits, and repatriation procedures.",
+      },
+    ],
+    bgImage: "/finask/tax-advisory.jpeg",
+    introText:
+      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
+    closingText:
+      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
+    faqSection: {
+      title: "General Question",
+      description:
+        "Answers to common questions about our services and how we can help you achieve your financial goals.",
+      image: "/faq.jpg",
+      consultationTitle: "If You Need Help, Get A Consultation",
+      consultationButton: "Get Started",
+    },
+  },
+  {
+    slug: "investment-education",
+    category: "Consultation",
+    title: "Investment Education Programme",
+    tagline: "Empowering you with financial knowledge.",
+    description:
+      "In a world of increasing regulatory oversight and legal complexity, protecting your wealth isn’t just about what you earn—it’s about how well you’re prepared. From property disputes to contract clarity, founder agreements to legacy documentation, every legal oversight can have a lasting financial impact. At FinAsk, legal advisory is not a last-minute rescue. It’s built into your journey from the start—offering proactive legal structuring, due diligence, and risk mitigation.",
+    features: [
+      {
+        title: "Property Due Diligence",
+        description: "Verification of titles and documents.",
+      },
+      {
+        title: "Contract Review",
+        description: "Reviewing financial and business agreements.",
+      },
+      {
+        title: "Family Settlements",
+        description: "Drafting family settlement deeds.",
+      },
+    ],
+    faq: [
+      {
+        question: "Do you handle litigation?",
+        answer:
+          "We primarily focus on non-litigation advisory, documentation, and preventive law. We can refer you to litigators if court representation is needed.",
+      },
+      {
+        question: "Why is due diligence important?",
+        answer:
+          "It uncovers potential legal risks (like unclear property titles or hidden liabilities) before you commit to a transaction.",
+      },
+      {
+        question: "Can you help with startup incorporation?",
+        answer:
+          "Yes, we assist with entity selection (LLP, Pvt Ltd), registration, and founder agreements.",
+      },
+      {
+        question: "What is a Family Settlement Deed?",
+        answer:
+          "It is a document recording the amicable distribution of family assets to prevent future disputes.",
+      },
+    ],
+    bgImage: "/finask/investment-education-program.jpg",
+    introText:
+      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
+    closingText:
+      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
+    faqSection: {
+      title: "General Question",
+      description:
+        "Answers to common questions about our services and how we can help you achieve your financial goals.",
+      image: "/faq.jpg",
+      consultationTitle: "If You Need Help, Get A Consultation",
+      consultationButton: "Get Started",
+    },
+  },
+  {
+    slug: "financial-literacy",
+    category: "Empowerment",
+    title: "Financial Literacy Workshops",
+    tagline: "Empowering Clarity, Inspiring Confidence",
+    description:
+      "At FinAsk, we believe that the most valuable asset any individual can own is clarity. In a world full of noise and financial quick fixes, informed decision-making isn’t just smart—it’s empowering.\nOur Financial Literacy Workshops and SEBI-compliant Investor Awareness Programs (IAPs) are designed to democratize that empowerment. Whether you're a salaried professional, homemaker, entrepreneur, student, or retiree—we meet you where you are, and help you move forward with confidence.\nEach program is thoughtfully curated to simplify complex concepts: from budgeting and SIPs to tax planning, insurance design, and wealth transfer. We address real-life questions, bust financial myths, and help participants build a framework they can actually apply—today, tomorrow, and 20 years from now.\nDelivered virtually or on-site, our sessions use relatable stories, practical illustrations, and interactive Q&A formats led by certified experts. And most importantly, every IAP is 100% educational—zero product pitching, full commitment to SEBI’s mission of protecting and uplifting Indian investors.\nBecause when financial literacy improves, everything else follows: financial dignity, family wellbeing, and the confidence to build a better life. At FinAsk, that’s the kind of wealth we aim to co-create.",
+    features: [
+      {
+        title: "Interactive Sessions",
+        description: "Engaging workshops with real-life examples.",
+      },
+      {
+        title: "Unbiased Education",
+        description: "Pure knowledge sharing, no product selling.",
+      },
+      {
+        title: "Diverse Topics",
+        description: "Covering basics to advanced financial concepts.",
+      },
+    ],
+    faq: [
+      {
+        question: "Are these paid?",
+        answer:
+          "We conduct both free awareness programs (often sponsored) and paid advanced workshops for in-depth learning.",
+      },
+      {
+        question: "Can you conduct this for my employees?",
+        answer:
+          "Yes, we offer corporate financial wellness programs tailored to employee needs.",
+      },
+      {
+        question: "Do I need prior finance knowledge?",
+        answer:
+          "No, our workshops are designed to be beginner-friendly and jargon-free.",
+      },
+      {
+        question: "What topics are covered?",
+        answer:
+          "We cover budgeting, debt management, insurance basics, mutual funds, and retirement planning.",
+      },
+    ],
+    bgImage: "/about.png",
+    introText:
+      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
+    closingText:
+      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
+    faqSection: {
+      title: "General Question",
+      description:
+        "Answers to common questions about our services and how we can help you achieve your financial goals.",
+      image: "/faq.jpg",
+      consultationTitle: "If You Need Help, Get A Consultation",
+      consultationButton: "Get Started",
+    },
+  },
+  {
+    slug: "next-gen-coaching",
+    category: "Empowerment",
+    title: "Next-Gen Financial Coaching",
+    tagline: "Building Wealth with Wisdom, Not Just Wallets",
+    description:
+      "They’ve grown up with apps, algorithms, and ambition. But what today’s generation often lacks is what no school or screen teaches — the financial wisdom to make wealth decisions with confidence, responsibility, and foresight.\nAt FinAsk, our Next-Gen Financial Coaching goes beyond numbers and jargon. We help young adults, heirs, first-jobbers, and aspiring entrepreneurs decode the language of money — from managing credit and investments to understanding equity, taxes, insurance, and legacy.\nBecause wealth is no longer inherited — it’s learned. And we’re here to make sure the next generation doesn’t just receive assets, but the ability to grow and respect them.",
+    features: [
+      {
+        title: "Money Management",
+        description: "Budgeting, saving, and credit basics.",
+      },
+      {
+        title: "Investment Basics",
+        description: "Introduction to asset classes and compounding.",
+      },
+      {
+        title: "Wealth Responsibility",
+        description: "Understanding the stewardship of family wealth.",
+      },
+    ],
+    faq: [
+      {
+        question: "What age group?",
+        answer:
+          "Typically 18-30 years old, including students, first-time earners, and young professionals.",
+      },
+      {
+        question: "Why do I need coaching so young?",
+        answer:
+          "Starting early allows you to harness the power of compounding and build good financial habits for life.",
+      },
+      {
+        question: "Do you help with student loans?",
+        answer:
+          "Yes, we help you create a strategy to pay off student loans efficiently while saving for other goals.",
+      },
+      {
+        question: "Is it about getting rich quick?",
+        answer:
+          "No, we teach sustainable wealth creation through discipline, patience, and smart decision-making.",
+      },
+    ],
+    bgImage: "/finask/next-gen.jpeg",
+    introText:
+      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
+    closingText:
+      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
+    faqSection: {
+      title: "General Question",
+      description:
+        "Answers to common questions about our services and how we can help you achieve your financial goals.",
+      image: "/faq.jpg",
+      consultationTitle: "If You Need Help, Get A Consultation",
+      consultationButton: "Get Started",
+    },
+  },
+
   {
     slug: "nri-corner",
     category: "Goal Planning",
@@ -2069,433 +2369,6 @@ export const servicesData = [
     },
   },
   {
-    slug: "executor-services",
-    category: "Goal Planning",
-    title: "Executor Services",
-    tagline:
-      "Because legacies deserve more than emotion — they deserve precise execution.",
-    description:
-      "Wills and trusts hold your intentions, but it’s the executor who ensures they come alive, without delay, dispute, or dilution. Our executor services stand as an unwavering hand to manage distributions, settle obligations, and uphold your wishes with absolute integrity.\n\nSo your lifetime of effort becomes a source of harmony, not heartache, for those you leave behind.\nAt FinAsk, our executor services go beyond paperwork. We step in with compassion, clarity, and complete confidentiality—coordinating with legal, financial, and family stakeholders to ensure every step reflects your intent. Whether it’s handling complex assets, addressing cross-border beneficiaries, or mediating sensitive transitions, we provide the calm, competent presence your legacy deserves. Because honouring your life’s work shouldn’t be left to chance.",
-    features: [
-      {
-        title: "Impartial Execution",
-        description: "Neutral third-party management of the estate.",
-      },
-      {
-        title: "Legal Compliance",
-        description: "Handling probate and legal formalities.",
-      },
-      {
-        title: "Conflict Resolution",
-        description: "Minimizing disputes among beneficiaries.",
-      },
-    ],
-    faq: [
-      {
-        question: "Why hire a professional?",
-        answer:
-          "To reduce burden on family, ensure unbiased execution, and handle complex legal/tax formalities efficiently.",
-      },
-      {
-        question: "What does an executor do?",
-        answer:
-          "An executor locates assets, pays debts/taxes, and distributes the remaining estate to beneficiaries as per the Will.",
-      },
-      {
-        question: "Can a family member be an executor?",
-        answer:
-          "Yes, but they may lack the expertise or time, and it could lead to conflicts. A professional executor is neutral.",
-      },
-      {
-        question: "When does the executor's role start?",
-        answer:
-          "The executor's role begins immediately upon the death of the testator (person who made the Will).",
-      },
-    ],
-    bgImage: "/executor.png",
-    introText:
-      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
-    closingText:
-      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
-    faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.jpg",
-      consultationTitle: "If You Need Help, Get A Consultation",
-      consultationButton: "Get Started",
-    },
-  },
-  {
-    slug: "retirement-planning",
-    category: "Goal Planning",
-    title: "Retirement Planning",
-    tagline: "Because Peace of Mind Shouldn’t Retire With You.",
-    description:
-      "Retirement isn’t the end of earning — it’s the beginning of truly living. But for that life to be free, fulfilling, and financially secure, planning must start today. At FinAsk, retirement planning goes beyond just numbers. We help you craft a lifestyle strategy — aligning your post-work aspirations with inflation-adjusted income flows, healthcare preparedness, tax-efficient withdrawals, and wealth transfer clarity. Because a dignified life after work isn’t a luxury — it’s your right.",
-    features: [
-      {
-        title: "Corpus Calculation",
-        description: "Estimating the amount needed for your desired lifestyle.",
-      },
-      {
-        title: "Income Strategy",
-        description: "Creating a reliable stream of post-retirement income.",
-      },
-      {
-        title: "Healthcare Planning",
-        description: "Ensuring adequate cover for medical needs.",
-      },
-    ],
-    faq: [
-      {
-        question: "When should I start?",
-        answer:
-          "The earlier the better. Starting in your 20s or 30s allows you to build a substantial corpus with smaller contributions.",
-      },
-      {
-        question: "How much do I need?",
-        answer:
-          "It depends on your current lifestyle, inflation, and life expectancy. We help you calculate your 'Magic Number'.",
-      },
-      {
-        question: "Is PF enough?",
-        answer:
-          "Usually not. PF covers basics, but for a comfortable lifestyle and medical costs, you need additional investments.",
-      },
-      {
-        question: "What is the 4% rule?",
-        answer:
-          "It's a guideline suggesting you can withdraw 4% of your retirement corpus annually without running out of money (subject to market conditions).",
-      },
-    ],
-    bgImage: "/goal7.png",
-    introText:
-      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
-    closingText:
-      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
-    faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.jpg",
-      consultationTitle: "If You Need Help, Get A Consultation",
-      consultationButton: "Get Started",
-    },
-  },
-  {
-    slug: "reits",
-    category: "Goal Planning",
-    title: "REITs",
-    tagline: "Because real estate returns shouldn’t require real estate headaches.",
-    description:
-      "REITs offer a seamless way to invest in large-scale, income-generating real estate—such as malls, office parks, residential properties and logistics centers—without buying property outright. Traded like stocks, these trusts blend the tangibility of real estate with the convenience and liquidity of modern investing.\n FinAsk helps you integrate REITs into your portfolio as a stable, yield-generating asset class with long-term upside and regular payouts.\n Build your portfolio with concrete value—without laying a single brick.",
-    features: [
-      {
-        title: "Corpus Calculation",
-        description: "Estimating the amount needed for your desired lifestyle.",
-      },
-      {
-        title: "Income Strategy",
-        description: "Creating a reliable stream of post-retirement income.",
-      },
-      {
-        title: "Healthcare Planning",
-        description: "Ensuring adequate cover for medical needs.",
-      },
-    ],
-    faq: [
-      { question: "Who should consider investing in REITs?", answer: "Investors looking for regular income, portfolio diversification, and exposure to real estate without large capital investment may consider REITs." },
-      { question: "What is the minimum investment required in REITs?", answer: "REITs are listed on stock exchanges, and you can invest by purchasing units through your demat account, making them accessible with relatively lower investment amounts compared to direct property purchase." },
-      { question: "Are REITs liquid investments?", answer: "Yes. Since REITs are traded on stock exchanges, investors can buy or sell units during market hours, subject to liquidity conditions." },
-      { question: "How are REITs different from buying physical property?", answer: "REITs offer professional management, diversification across multiple properties, liquidity, and lower entry cost compared to purchasing property directly." }
-    ],
-    bgImage: "/next-gen.png",
-    introText:
-      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
-    closingText:
-      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
-    faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.jpg",
-      consultationTitle: "If You Need Help, Get A Consultation",
-      consultationButton: "Get Started",
-    },
-  },
-  {
-    slug: "fractional-commercial-real-estate",
-    category: "Goal Planning",
-    title: "Fractional Commercial Real Estate",
-    tagline: "Because progress shouldn’t require owning the whole skyline.",
-    description:
-      "Fractional ownership and Infrastructure Investment Trusts (InvITs) allow you to participate in India’s booming commercial and infrastructural growth — one strategic slice at a time. Whether it’s office towers, co-working spaces, or national highways, these vehicles unlock stable income and potential capital gains without the hassles of full ownership or maintenance.\n\nWith handpicked opportunities and expert due diligence, FinAsk helps you diversify into high-ticket real assets—without the entry barriers, paperwork, or property stress.\n It’s not just smart investing. It’s smart access to a growing India.",
-    features: [
-      {
-        title: "Corpus Calculation",
-        description: "Estimating the amount needed for your desired lifestyle.",
-      },
-      {
-        title: "Income Strategy",
-        description: "Creating a reliable stream of post-retirement income.",
-      },
-      {
-        title: "Healthcare Planning",
-        description: "Ensuring adequate cover for medical needs.",
-      },
-    ],
-    faq: [
-      { question: "How does fractional ownership work?", answer: "Investors pool funds to purchase a commercial asset (like office spaces or warehouses) through a structured platform or SPV (Special Purpose Vehicle). Rental income and potential appreciation are shared proportionately." },
-      { question: "What type of properties are available under fractional investment?", answer: "Typically, Grade A commercial properties such as IT parks, corporate offices, pre-leased buildings, warehouses, and retail spaces are offered." },
-      { question: "What returns can I expect?", answer: "Returns generally come from two sources — regular rental income and capital appreciation over time. However, returns depend on property performance and market conditions." },
-      { question: "Is fractional real estate better than buying physical property?", answer: "It offers lower ticket size, diversification, professional management, and access to premium assets — without the burden of direct property management." }
-    ],
-    bgImage: "/service.jpg",
-    introText:
-      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
-    closingText:
-      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
-    faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.jpg",
-      consultationTitle: "If You Need Help, Get A Consultation",
-      consultationButton: "Get Started",
-    },
-  },
-
-  // --- CONSULTATION ---
-  {
-    slug: "legal-advisory",
-    category: "Consultation",
-    title: "Legal Advisory",
-    tagline: "Turning law into a shield, not a stressor",
-    description:
-      "In a world of increasing regulatory oversight and legal complexity, protecting your wealth isn’t just about what you earn—it’s about how well you’re prepared. From property disputes to contract clarity, founder agreements to legacy documentation, every legal oversight can have a lasting financial impact.\nAt FinAsk, legal advisory is not a last-minute rescue. It’s built into your journey from the start—offering proactive legal structuring, due diligence, and risk mitigation that safeguards your assets, relationships, and long-term intentions.\nWhether you're acquiring real estate, drafting succession documents, reviewing investor agreements, or setting up holding structures, our legal team partners with your goals—not just the paperwork. We guide you with clarity, confidentiality, and a strategic lens that turns law from a limitation into a legacy protector.",
-    features: [
-      {
-        title: "Property Due Diligence",
-        description: "Verification of titles and documents.",
-      },
-      {
-        title: "Contract Review",
-        description: "Reviewing financial and business agreements.",
-      },
-      {
-        title: "Family Settlements",
-        description: "Drafting family settlement deeds.",
-      },
-    ],
-    faq: [
-      {
-        question: "Do you handle litigation?",
-        answer:
-          "We primarily focus on non-litigation advisory, documentation, and preventive law. We can refer you to litigators if court representation is needed.",
-      },
-      {
-        question: "Why is due diligence important?",
-        answer:
-          "It uncovers potential legal risks (like unclear property titles or hidden liabilities) before you commit to a transaction.",
-      },
-      {
-        question: "Can you help with startup incorporation?",
-        answer:
-          "Yes, we assist with entity selection (LLP, Pvt Ltd), registration, and founder agreements.",
-      },
-      {
-        question: "What is a Family Settlement Deed?",
-        answer:
-          "It is a document recording the amicable distribution of family assets to prevent future disputes.",
-      },
-    ],
-    bgImage: "/hero4.jpg",
-    introText:
-      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
-    closingText:
-      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
-    faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.jpg",
-      consultationTitle: "If You Need Help, Get A Consultation",
-      consultationButton: "Get Started",
-    },
-  },
-  {
-    slug: "investment-education",
-    category: "Consultation",
-    title: "Investment Education Programme",
-    tagline: "Empowering you with financial knowledge.",
-    description:
-      "In a world of increasing regulatory oversight and legal complexity, protecting your wealth isn’t just about what you earn—it’s about how well you’re prepared. From property disputes to contract clarity, founder agreements to legacy documentation, every legal oversight can have a lasting financial impact. At FinAsk, legal advisory is not a last-minute rescue. It’s built into your journey from the start—offering proactive legal structuring, due diligence, and risk mitigation.",
-    features: [
-      {
-        title: "Property Due Diligence",
-        description: "Verification of titles and documents.",
-      },
-      {
-        title: "Contract Review",
-        description: "Reviewing financial and business agreements.",
-      },
-      {
-        title: "Family Settlements",
-        description: "Drafting family settlement deeds.",
-      },
-    ],
-    faq: [
-      {
-        question: "Do you handle litigation?",
-        answer:
-          "We primarily focus on non-litigation advisory, documentation, and preventive law. We can refer you to litigators if court representation is needed.",
-      },
-      {
-        question: "Why is due diligence important?",
-        answer:
-          "It uncovers potential legal risks (like unclear property titles or hidden liabilities) before you commit to a transaction.",
-      },
-      {
-        question: "Can you help with startup incorporation?",
-        answer:
-          "Yes, we assist with entity selection (LLP, Pvt Ltd), registration, and founder agreements.",
-      },
-      {
-        question: "What is a Family Settlement Deed?",
-        answer:
-          "It is a document recording the amicable distribution of family assets to prevent future disputes.",
-      },
-    ],
-    bgImage: "/service.jpg",
-    introText:
-      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
-    closingText:
-      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
-    faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.jpg",
-      consultationTitle: "If You Need Help, Get A Consultation",
-      consultationButton: "Get Started",
-    },
-  },
-  {
-    slug: "tax-advisory",
-    category: "Consultation",
-    title: "Tax Advisory",
-    tagline: "Because wealth should grow, not leak",
-    description:
-      "Every rupee saved in taxes is a rupee reinvested in your future. At FinAsk, tax advisory isn’t just about compliance—it’s about optimisation, foresight, and aligning your personal or business growth with evolving tax frameworks.\nWe help individuals, families, professionals, and entrepreneurs uncover intelligent strategies—be it through HUF structuring, capital gains planning, investment-linked deductions, or multi-entity income management.\nFor businesses, we integrate GST planning, director remuneration strategies, ESOP tax treatment, and cross-border tax implications into a cohesive framework. And for NRIs, we simplify global reporting, repatriation rules, and DTAA considerations.\nYou don’t just stay compliant—you stay confident. Because with FinAsk, your tax story isn’t about burden. It’s about benefit, built into every step of your financial journey.",
-    features: [
-      {
-        title: "Strategic Planning",
-        description: "Optimizing tax liabilities legally.",
-      },
-      {
-        title: "Compliance",
-        description: "Filing returns and handling notices.",
-      },
-      {
-        title: "Cross-Border Tax",
-        description: "Advisory for NRIs and global investments.",
-      },
-    ],
-    faq: [
-      {
-        question: "Do you help with ITR?",
-        answer:
-          "Yes, we assist with comprehensive Income Tax Return (ITR) filing for individuals, HUFs, and businesses.",
-      },
-      {
-        question: "How can I save tax legally?",
-        answer:
-          "We analyze your income and suggest deductions (80C, 80D, etc.), exemptions, and efficient investment structures.",
-      },
-      {
-        question: "What is Capital Gains Tax?",
-        answer:
-          "It is the tax on profit from the sale of assets like property or stocks. We help calculate and optimize this liability.",
-      },
-      {
-        question: "Do you handle NRI taxation?",
-        answer:
-          "Yes, we specialize in NRI tax compliance, DTAA benefits, and repatriation procedures.",
-      },
-    ],
-    bgImage: "/hero4.jpg",
-    introText:
-      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
-    closingText:
-      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
-    faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.jpg",
-      consultationTitle: "If You Need Help, Get A Consultation",
-      consultationButton: "Get Started",
-    },
-  },
-  {
-    slug: "consult-desk",
-    category: "Consultation",
-    title: "1:1 Consult Desk",
-    tagline: "Because real advice begins with real understanding.",
-    description:
-      "Before strategies, products, or portfolios—there’s you. Your hopes, habits, responsibilities, and ambitions. At FinAsk, our 1:1 Consult is a confidential, judgment-free space where we don’t just talk numbers—we listen to your story. Through a comprehensive review of your financial life—savings, investments, insurance, income flow, risks, and future goals—we help you understand where you stand today and how to get to where you want to be.",
-    features: [
-      {
-        title: "Holistic Review",
-        description: "Analysis of your entire financial picture.",
-      },
-      {
-        title: "Unbiased Advice",
-        description: "Focus on your goals, not products.",
-      },
-      {
-        title: "Actionable Plan",
-        description: "Clear steps to improve your financial health.",
-      },
-    ],
-    faq: [
-      {
-        question: "Is the first session free?",
-        answer:
-          "We offer a complimentary discovery call to understand your needs and see if we are a good fit.",
-      },
-      {
-        question: "Do I need to bring documents?",
-        answer:
-          "For the discovery call, no. For the detailed consultation, we will share a checklist of required information.",
-      },
-      {
-        question: "Is it confidential?",
-        answer:
-          "Yes, strict confidentiality is maintained regarding all your personal and financial data.",
-      },
-      {
-        question: "Do you sell products?",
-        answer:
-          "Our Consult Desk focuses on advice. If you choose to execute through us, we can assist, but the advice is product-agnostic.",
-      },
-    ],
-    bgImage: "/contact.jpg",
-    introText:
-      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
-    closingText:
-      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
-    faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.jpg",
-      consultationTitle: "If You Need Help, Get A Consultation",
-      consultationButton: "Get Started",
-    },
-  },
-  {
     slug: "family-office",
     category: "Consultation",
     title: "Family Office",
@@ -2541,237 +2414,6 @@ export const servicesData = [
       },
     ],
     bgImage: "/family-office.png",
-    introText:
-      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
-    closingText:
-      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
-    faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.jpg",
-      consultationTitle: "If You Need Help, Get A Consultation",
-      consultationButton: "Get Started",
-    },
-  },
-
-  // --- EMPOWERMENT ---
-  {
-    slug: "financial-literacy",
-    category: "Empowerment",
-    title: "Financial Literacy Workshops",
-    tagline: "Empowering Clarity, Inspiring Confidence",
-    description:
-      "At FinAsk, we believe that the most valuable asset any individual can own is clarity. In a world full of noise and financial quick fixes, informed decision-making isn’t just smart—it’s empowering.\nOur Financial Literacy Workshops and SEBI-compliant Investor Awareness Programs (IAPs) are designed to democratize that empowerment. Whether you're a salaried professional, homemaker, entrepreneur, student, or retiree—we meet you where you are, and help you move forward with confidence.\nEach program is thoughtfully curated to simplify complex concepts: from budgeting and SIPs to tax planning, insurance design, and wealth transfer. We address real-life questions, bust financial myths, and help participants build a framework they can actually apply—today, tomorrow, and 20 years from now.\nDelivered virtually or on-site, our sessions use relatable stories, practical illustrations, and interactive Q&A formats led by certified experts. And most importantly, every IAP is 100% educational—zero product pitching, full commitment to SEBI’s mission of protecting and uplifting Indian investors.\nBecause when financial literacy improves, everything else follows: financial dignity, family wellbeing, and the confidence to build a better life. At FinAsk, that’s the kind of wealth we aim to co-create.",
-    features: [
-      {
-        title: "Interactive Sessions",
-        description: "Engaging workshops with real-life examples.",
-      },
-      {
-        title: "Unbiased Education",
-        description: "Pure knowledge sharing, no product selling.",
-      },
-      {
-        title: "Diverse Topics",
-        description: "Covering basics to advanced financial concepts.",
-      },
-    ],
-    faq: [
-      {
-        question: "Are these paid?",
-        answer:
-          "We conduct both free awareness programs (often sponsored) and paid advanced workshops for in-depth learning.",
-      },
-      {
-        question: "Can you conduct this for my employees?",
-        answer:
-          "Yes, we offer corporate financial wellness programs tailored to employee needs.",
-      },
-      {
-        question: "Do I need prior finance knowledge?",
-        answer:
-          "No, our workshops are designed to be beginner-friendly and jargon-free.",
-      },
-      {
-        question: "What topics are covered?",
-        answer:
-          "We cover budgeting, debt management, insurance basics, mutual funds, and retirement planning.",
-      },
-    ],
-    bgImage: "/about.png",
-    introText:
-      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
-    closingText:
-      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
-    faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.jpg",
-      consultationTitle: "If You Need Help, Get A Consultation",
-      consultationButton: "Get Started",
-    },
-  },
-  {
-    slug: "investor-education",
-    category: "Empowerment",
-    title: "Investor Education Program",
-    tagline: "Because Informed Investors Build Stronger Futures",
-    description:
-      "At FinAsk, we believe wealth isn’t just created through capital — it’s created through clarity. Our Investor Education Programs are designed to empower individuals across backgrounds to make confident, informed financial decisions — not based on hearsay or headlines, but on knowledge that lasts.\nThrough interactive sessions, simple frameworks, and real-life scenarios, we demystify financial concepts like asset allocation, market behavior, risk protection, and wealth transfer. Whether someone is taking their first step toward investing or seeking to deepen their financial maturity, our programs meet them where they are.\nBecause when people understand money, they don’t just invest better — they live better. And that’s a future worth building.",
-    features: [
-      {
-        title: "Concept Demystification",
-        description: "Simplifying complex financial jargon.",
-      },
-      {
-        title: "Behavioral Finance",
-        description: "Understanding the psychology of investing.",
-      },
-      {
-        title: "Practical Frameworks",
-        description: "Tools you can apply immediately.",
-      },
-    ],
-    faq: [
-      {
-        question: "Is it for beginners?",
-        answer:
-          "Yes, we have modules specifically designed for beginners, as well as intermediate and advanced investors.",
-      },
-      {
-        question: "How is it different from workshops?",
-        answer:
-          "The Investor Education Program is a more structured, long-term curriculum compared to one-off workshops.",
-      },
-      {
-        question: "Do you provide certification?",
-        answer:
-          "We provide a certificate of participation upon completion of the program.",
-      },
-      {
-        question: "Can I ask personal finance questions?",
-        answer:
-          "Yes, the sessions are interactive, and we dedicate time for Q&A.",
-      },
-    ],
-    bgImage: "/about.png",
-    introText:
-      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
-    closingText:
-      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
-    faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.jpg",
-      consultationTitle: "If You Need Help, Get A Consultation",
-      consultationButton: "Get Started",
-    },
-  },
-  {
-    slug: "next-gen-coaching",
-    category: "Empowerment",
-    title: "Next-Gen Financial Coaching",
-    tagline: "Building Wealth with Wisdom, Not Just Wallets",
-    description:
-      "They’ve grown up with apps, algorithms, and ambition. But what today’s generation often lacks is what no school or screen teaches — the financial wisdom to make wealth decisions with confidence, responsibility, and foresight.\nAt FinAsk, our Next-Gen Financial Coaching goes beyond numbers and jargon. We help young adults, heirs, first-jobbers, and aspiring entrepreneurs decode the language of money — from managing credit and investments to understanding equity, taxes, insurance, and legacy.\nBecause wealth is no longer inherited — it’s learned. And we’re here to make sure the next generation doesn’t just receive assets, but the ability to grow and respect them.",
-    features: [
-      {
-        title: "Money Management",
-        description: "Budgeting, saving, and credit basics.",
-      },
-      {
-        title: "Investment Basics",
-        description: "Introduction to asset classes and compounding.",
-      },
-      {
-        title: "Wealth Responsibility",
-        description: "Understanding the stewardship of family wealth.",
-      },
-    ],
-    faq: [
-      {
-        question: "What age group?",
-        answer:
-          "Typically 18-30 years old, including students, first-time earners, and young professionals.",
-      },
-      {
-        question: "Why do I need coaching so young?",
-        answer:
-          "Starting early allows you to harness the power of compounding and build good financial habits for life.",
-      },
-      {
-        question: "Do you help with student loans?",
-        answer:
-          "Yes, we help you create a strategy to pay off student loans efficiently while saving for other goals.",
-      },
-      {
-        question: "Is it about getting rich quick?",
-        answer:
-          "No, we teach sustainable wealth creation through discipline, patience, and smart decision-making.",
-      },
-    ],
-    bgImage: "/next-gen.png",
-    introText:
-      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
-    closingText:
-      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
-    faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.jpg",
-      consultationTitle: "If You Need Help, Get A Consultation",
-      consultationButton: "Get Started",
-    },
-  },
-  {
-    slug: "purpose-beyond-profit",
-    category: "Empowerment",
-    title: "Purpose Beyond Profit",
-    tagline:
-      "Wealth, when shared with empathy and purpose, becomes legacy in its purest form.",
-    description:
-      "At FinAsk, the true meaning of success extends beyond financial milestones. It lies in the lives we uplift, the knowledge we share, and the communities we strengthen. That’s why we actively dedicate time, resources, and intention to causes that matter—conducting financial education camps, mentoring young minds, and supporting women-led initiatives. We also believe in empowering the next generation from within, sponsoring interns' certification costs. Because when opportunity meets intention, it creates an impact that lasts.",
-    features: [
-      {
-        title: "Philanthropy Advisory",
-        description: "Guiding your charitable contributions.",
-      },
-      {
-        title: "Community Impact",
-        description: "Supporting education and wellness initiatives.",
-      },
-      {
-        title: "Next-Gen Support",
-        description: "Mentoring and sponsoring future financial leaders.",
-      },
-    ],
-    faq: [
-      {
-        question: "How can I contribute?",
-        answer:
-          "We can help you structure your giving effectively, whether through one-time donations, setting up a foundation, or volunteering.",
-      },
-      {
-        question: "Is it tax-deductible?",
-        answer:
-          "Yes, donations to registered NGOs (under 80G) are eligible for tax deductions.",
-      },
-      {
-        question: "Do you charge for this?",
-        answer:
-          "Our philanthropic advisory is often part of our holistic wealth management service.",
-      },
-      {
-        question: "Can I involve my children?",
-        answer:
-          "Yes, involving the next generation in philanthropy is a great way to instill values and responsibility.",
-      },
-    ],
-    bgImage: "/ethos.png",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:

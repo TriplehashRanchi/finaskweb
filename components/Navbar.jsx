@@ -57,7 +57,7 @@ export default function Navbar() {
     { name: "Property Insurance", slug: "property-insurance" },
     { name: "Marine & Cargo Insurance", slug: "marine-cargo-insurance" },
     { name: "Corporate Insurance", slug: "corporate-insurance" },
-    { name: "Director’s Life Insurance", slug: "directors-life-insurance" },
+    { name: "Director Liability ", slug: "directors-life-insurance" },
     { name: "Cyber Insurance", slug: "cyber-insurance" }
   ];
 
