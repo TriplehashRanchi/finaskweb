@@ -206,7 +206,10 @@ export default function Footer() {
 
         {/* Copyright */}
         <div className="border-t border-white/10 py-4 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-gray-500">
-          <p>Copyright © 2025 Rainbow-Themes. All Rights Reserved</p>
+          <p>
+            Copyright © {new Date().getFullYear()} Rainbow-Themes. All Rights
+            Reserved
+          </p>{" "}
           <div className="flex gap-6">
             <a href="/level" className="hover:text-white transition-colors">
               Escalation matrices
