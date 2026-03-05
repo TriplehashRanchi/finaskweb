@@ -18,7 +18,7 @@ export default function Home() {
       <GoalSection />
       <EmpowerSection />
      
-      <ServicesSection />
+      {/* <ServicesSection /> */}
       <ValuesSection />
       <TestimonialSection />
       <CTASection />

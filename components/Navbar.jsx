@@ -177,8 +177,7 @@ export default function Navbar() {
                             { name: "Executor Services", slug: "executor-services" },
                             { name: "Legal Advisory", slug: "legal-advisory" },
                             { name: "Tax Advisory and Execution", slug: "tax-advisory" },
-                            { name: "Investment Education Programme", slug: "investment-education" },
-                            { name: "Financial Literacy Workshop", slug: "financial-literacy" },
+                             { name: "Financial Literacy Workshop", slug: "financial-literacy" },
                             { name: "Next Gen Financial Coaching", slug: "next-gen-coaching" }
                          ].map(item => <ListItem key={item.slug} href={`/services/${item.slug}`}>{item.name}</ListItem>)}
                     </ul>

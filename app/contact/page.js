@@ -343,33 +343,7 @@ export default function ContactPage() {
 
      
 
-      {/* ----------------------------- */}
-      {/*        FULL WIDTH MAP         */}
-      {/* ----------------------------- */}
-      <section className="w-full h-[500px] relative grayscale hover:grayscale-0 transition-all duration-700">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d13341.205317839618!2d77.0340493!3d28.4216781!3m2!1i1024!2i768!4f13.1!2m1!1s1st%20Floor%20Badshahpur%20Sohna%20Road%20near%20Subhash%20Chowk%20Central%20Park%20II%20Sector%2048%20Gurugram%20Haryana%20122018!5e1!3m2!1sen!2sin!4v1770621482357!5m2!1sen!2sin"
-          width="100%"
-          height="100%"
-          style={{ border: 0 }}
-          allowFullScreen=""
-          loading="lazy"
-          referrerPolicy="no-referrer-when-downgrade"
-        ></iframe>
-
-        {/* Overlay Card on Map (Optional, for style) */}
-        <div className="absolute top-8 left-8 bg-white p-6 rounded-xl shadow-xl max-w-xs hidden md:block">
-          <h4 className="font-bold text-#00394E mb-2">FinAsk HQ</h4>
-          <p className="text-sm text-slate-600">One World Center, Mumbai</p>
-          <a
-            href="https://maps.google.com"
-            target="_blank"
-            className="text-xs text-[#DAA434] font-bold mt-2 inline-block uppercase tracking-wider"
-          >
-            Get Directions
-          </a>
-        </div>
-      </section>
+    
 
       <Footer />
     </main>
