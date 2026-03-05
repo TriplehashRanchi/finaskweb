@@ -92,7 +92,7 @@ export default function Navbar() {
       >
         
         {/* Logo */}
-        <div className={`shrink-0 mr-4 flex items-center ${!isScrolled ? "bg-white px-2 py-1.5 rounded-full shadow-lg" : ""}`}>
+        <div className={`shrink-0 mr-4 flex items-center ${!isScrolled ? "bg-white px-2 py-1 rounded-full shadow-lg" : ""}`}>
           <Link href="/" className="block">
              <Image 
                 src="/logo.webp" 
