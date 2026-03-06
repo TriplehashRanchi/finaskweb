@@ -28,29 +28,56 @@ export default function Navbar() {
   
   const navLinkClass = `text-[15px] font-medium transition-colors duration-300 hover:${hoverColorClass} ${textColorClass}`;
   
-  // Mega Menu Container Style (Wide, White, Shadow)
-  const megaMenuClass = "absolute  top-17 left-0 w-[600px] bg-white shadow-2xl rounded-md   opacity-0 invisible translate-y-4 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-300 ease-out z-50 p-6 border border-gray-100";
+  // Mega Menu Container Style (Wider, Elegant, Shadow)
+  const megaMenuClass = "absolute top-17 left-0 w-[560px] bg-white shadow-2xl rounded-md opacity-0 invisible translate-y-4 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-300 ease-out z-50 p-8 border border-gray-100";
   
-  // List Item Style with Chevron
-  const ListItem = ({ href, children }) => (
-    <li>
-      <Link href={href} className="group/item flex items-center space-x-2 text-[13px] font-medium text-[#00394E] hover:text-[#DAA434] transition-colors py-1.5">
-         <ChevronRight className="w-3.5 h-3.5 text-[#00394E]/40 group-hover/item:text-[#DAA434] transition-colors" />
-         <span>{children}</span>
-      </Link>
-    </li>
-  );
+  // List Item Style with elegant typography, subtle bullets, and refined spacing
+  const ListItem = ({ href, children, isSubItem, isParent }) => {
+    // Parent Categories (e.g. Health Insurance, Life Insurance)
+    if (isParent) {
+      return (
+        <li className="mt-3 first:mt-0">
+          <Link href={href} className="group/item flex items-center space-x-2 text-[15px] font-semibold text-[#00394E] hover:text-[#DAA434] transition-colors py-1.5">
+            <ChevronRight className="w-4 h-4 text-[#DAA434]" />
+            <span>{children}</span>
+          </Link>
+        </li>
+      );
+    }
+    
+    // Sub-items (e.g. Term Insurance, ULIP)
+    if (isSubItem) {
+        return (
+          <li className="ml-6">
+            <Link href={href} className="flex items-center space-x-2 text-[13px] text-gray-500 hover:text-[#DAA434] hover:translate-x-1 transition-all duration-300 py-1.5">
+               <span className="w-1.5 h-1.5 rounded-full bg-gray-300/80 shrink-0" />
+               <span>{children}</span>
+            </Link>
+          </li>
+        );
+    }
+
+    // Standard Independent Items (e.g. Motor Insurance)
+    return (
+      <li>
+        <Link href={href} className="group/item flex items-center space-x-2 text-[14px] font-medium text-[#00394E] hover:text-[#DAA434] transition-colors py-1.5">
+           <ChevronRight className="w-3.5 h-3.5 text-[#00394E]/40 group-hover/item:text-[#DAA434] transition-colors" />
+           <span>{children}</span>
+        </Link>
+      </li>
+    );
+  };
 
   // Data lists
   const insuranceItems = [
-    { name: "Health Insurance", slug: "health-insurance" },
-    { name: "Super Health Top-Up", slug: "super-health-top-up" },
-    { name: "Personal Accident Insurance", slug: "personal-accident-insurance" },
-    { name: "Critical Illness Insurance", slug: "critical-illness-insurance" },
-    { name: "Life Insurance", slug: "life-insurance" },
-    { name: "Term Insurance", slug: "term-insurance" },
-    { name: "ULIP", slug: "ulip" },
-    { name: "Traditional Guaranteed Savings products", slug: "traditional-savings" },
+    { name: "Health Insurance", slug: "health-insurance", isParent: true },
+    { name: "Super Health Top-Up", slug: "super-health-top-up", isSubItem: true },
+    { name: "Personal Accident", slug: "personal-accident-insurance", isSubItem: true },
+    { name: "Critical Illness", slug: "critical-illness-insurance", isSubItem: true },
+    { name: "Life Insurance", slug: "life-insurance", isParent: true },
+    { name: "Term Insurance", slug: "term-insurance", isSubItem: true },
+    { name: "ULIP", slug: "ulip", isSubItem: true },
+    { name: "Traditional Guaranteed Plans", slug: "traditional-savings", isSubItem: true },
     { name: "Motor Insurance", slug: "motor-insurance" },
     { name: "Travel Insurance", slug: "travel-insurance" },
     { name: "Fire & Burglary Insurance", slug: "fire-burglary-insurance" },
@@ -122,14 +149,14 @@ export default function Navbar() {
                         <div>
                             <ul className="space-y-1">
                                 {insuranceItems.slice(0, 8).map((item) => (
-                                    <ListItem key={item.slug} href={`/services/${item.slug}`}>{item.name}</ListItem>
+                                    <ListItem key={item.slug} href={`/services/${item.slug}`} isSubItem={item.isSubItem} isParent={item.isParent}>{item.name}</ListItem>
                                 ))}
                             </ul>
                         </div>
                         <div>
                             <ul className="space-y-1">
                                 {insuranceItems.slice(8).map((item) => (
-                                    <ListItem key={item.slug} href={`/services/${item.slug}`}>{item.name}</ListItem>
+                                    <ListItem key={item.slug} href={`/services/${item.slug}`} isSubItem={item.isSubItem} isParent={item.isParent}>{item.name}</ListItem>
                                 ))}
                             </ul>
                         </div>
@@ -148,14 +175,14 @@ export default function Navbar() {
                         <div>
                             <ul className="space-y-1">
                                 {investmentItems.slice(0, 8).map((item) => (
-                                    <ListItem key={item.slug} href={`/services/${item.slug}`}>{item.name}</ListItem>
+                                    <ListItem key={item.slug} href={`/services/${item.slug}`} isSubItem={item.isSubItem} isParent={item.isParent}>{item.name}</ListItem>
                                 ))}
                             </ul>
                         </div>
                         <div>
                             <ul className="space-y-1">
                                 {investmentItems.slice(8).map((item) => (
-                                    <ListItem key={item.slug} href={`/services/${item.slug}`}>{item.name}</ListItem>
+                                    <ListItem key={item.slug} href={`/services/${item.slug}`} isSubItem={item.isSubItem} isParent={item.isParent}>{item.name}</ListItem>
                                 ))}
                             </ul>
                         </div>
@@ -169,7 +196,7 @@ export default function Navbar() {
                    Services
                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="transition-transform duration-300 group-hover:-rotate-180 opacity-70"><path d="m6 9 6 6 6-6"/></svg>
                 </span>
-                 <div className="absolute top-17 left-1/2 -translate-x-1/2 w-[300px] bg-white shadow-2xl rounded-md   opacity-0 invisible translate-y-4 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-300 ease-out z-50 p-4 border border-gray-100 cursor-default">
+                 <div className="absolute top-17 left-1/2 -translate-x-1/2 w-[300px] bg-white shadow-2xl rounded-md   opacity-0 invisible translate-y-4 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-300 ease-out z-50 p-8  border border-gray-100 cursor-default">
                     <ul className="space-y-1">
                          {[
                             { name: "Trust Formation", slug: "trust-formation" },
