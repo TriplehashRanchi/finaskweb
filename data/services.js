@@ -44,7 +44,7 @@ export const servicesData = [
           "Cashless settlement lets you receive treatment at a network hospital without paying the full bill upfront. The insurer directly settles the approved amount with the hospital. You only pay for non-covered charges, if any.",
       },
     ],
-    bgImage: "/finask/health1.jpg",
+    bgImage: "/finask/health.png",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:

@@ -13,7 +13,7 @@ export default function ServiceHero({ service }) {
         style={{
           backgroundImage: `url("${service.bgImage || '/service.jpg'}")`,
           backgroundSize: "cover",
-           
+           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
          
         }}
