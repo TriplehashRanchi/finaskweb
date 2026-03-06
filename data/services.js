@@ -100,7 +100,7 @@ export const servicesData = [
           "Yes, similar to base policies, Super Top-Up plans may have waiting periods for pre-existing diseases and specific treatments.",
       },
     ],
-    bgImage: "/finask/super.jpg",
+    bgImage: "/finask/super.png",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -219,7 +219,7 @@ export const servicesData = [
           "Anyone with financial responsibilities, family history of serious illnesses, high-stress lifestyle, or limited savings should strongly consider this cover.",
       },
     ],
-    bgImage: "/family.png",
+    bgImage: "/finask/critical-illness-insurance.png",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -271,7 +271,7 @@ export const servicesData = [
           "Yes, premiums paid are eligible for tax deduction under Section 80C of the Income Tax Act.",
       },
     ],
-    bgImage: "/family.jpg",
+    bgImage: "/finask/life.png",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -330,7 +330,7 @@ export const servicesData = [
           "Term insurance gives high cover at low cost and pays only on death.\nTraditional insurance combines cover with savings, costs more, and offers lower cover.",
       },
     ],
-    bgImage: "/family.png",
+    bgImage: "/finask/term.png",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -853,7 +853,7 @@ export const servicesData = [
           "Common exclusions may include intentional acts, prior known incidents, inadequate security practices, or unreported breaches.",
       },
     ],
-    bgImage: "/finask/cyber-insurance.jpg",
+    bgImage: "/finask/cyber-insurance.png",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -912,7 +912,7 @@ export const servicesData = [
           "In most cases, the company is the beneficiary and receives the payout to manage liabilities, stabilize operations, or compensate financial loss.",
       },
     ],
-    bgImage: "/family.png",
+    bgImage: "/finask/directors-life-insurance.png",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -1086,7 +1086,7 @@ export const servicesData = [
           "Returns depend on market performance and the portfolio manager’s strategy. Since investments are market-linked, returns are not guaranteed.",
       },
     ],
-    bgImage: "/finask/pms.jpg",
+    bgImage: "/finask/pms.png",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -1144,7 +1144,7 @@ export const servicesData = [
           "AIFs offer diversification beyond traditional investments, access to exclusive opportunities, and potential for higher returns, though with higher risk.",
       },
     ],
-    bgImage: "/family.jpg",
+    bgImage: "/finask/alternative-investment-funds.png",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -1259,7 +1259,7 @@ export const servicesData = [
           "REITs offer professional management, diversification across multiple properties, liquidity, and lower entry cost compared to purchasing property directly.",
       },
     ],
-    bgImage: "/next-gen.png",
+    bgImage: "/finask/reit.png",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -1316,7 +1316,7 @@ export const servicesData = [
           "InvITs invest in infrastructure projects, while REITs invest in real estate properties. Both provide regular income but from different asset classes.",
       },
     ],
-    bgImage: "/finask/invi.jpeg",
+    bgImage: "/finask/invi.png",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -1432,7 +1432,7 @@ export const servicesData = [
           "Yes, P2P Lending carries credit risk — borrowers may default on repayments. Diversifying across multiple borrowers helps reduce risk.",
       },
     ],
-    bgImage: "/finask/p2p.jpg",
+    bgImage: "/finask/p2p.png",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -1491,7 +1491,7 @@ export const servicesData = [
           "Tenure can range from short-term (a few months) to medium or long-term, depending on the product structure.",
       },
     ],
-    bgImage: "/next-gen.png",
+    bgImage: "/finask/alternative-investment-funds.png",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -1777,7 +1777,7 @@ export const servicesData = [
           "Yes, NRIs can invest in Indian equities through a PIS (Portfolio Investment Scheme) account, subject to RBI and SEBI regulations.",
       },
     ],
-    bgImage: "/finask/stock-roking.jpeg",
+    bgImage: "/finask/stock-roking.png",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -1837,7 +1837,7 @@ export const servicesData = [
           "Trusts can be revocable (can be cancelled) or irrevocable (permanent). Irrevocable trusts offer better asset protection.",
       },
     ],
-    bgImage: "/finask/trust.jpeg",
+    bgImage: "/finask/trust.png",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -1894,7 +1894,7 @@ export const servicesData = [
           "Yes, you can update or revoke your Will as many times as you like during your lifetime. Only the last valid Will is considered.",
       },
     ],
-    bgImage: "/finask/will-writing.jpeg",
+    bgImage: "/finask/will-writing.png",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -1952,7 +1952,7 @@ export const servicesData = [
           "The executor's role begins immediately upon the death of the testator (person who made the Will).",
       },
     ],
-    bgImage: "/executor.png",
+    bgImage: "/finask/executor-services.png",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -2009,7 +2009,7 @@ export const servicesData = [
           "It is a document recording the amicable distribution of family assets to prevent future disputes.",
       },
     ],
-    bgImage: "/finask/legal-advisory.jpeg",
+    bgImage: "/finask/legal-advisory.png",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -2066,7 +2066,7 @@ export const servicesData = [
           "Yes, we specialize in NRI tax compliance, DTAA benefits, and repatriation procedures.",
       },
     ],
-    bgImage: "/finask/tax-advisory.jpeg",
+    bgImage: "/finask/tax-advisory.png",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -2080,63 +2080,7 @@ export const servicesData = [
       consultationButton: "Get Started",
     },
   },
-  {
-    slug: "investment-education",
-    category: "Consultation",
-    title: "Investment Education Programme",
-    tagline: "Empowering you with financial knowledge.",
-    description:
-      "In a world of increasing regulatory oversight and legal complexity, protecting your wealth isn’t just about what you earn—it’s about how well you’re prepared. From property disputes to contract clarity, founder agreements to legacy documentation, every legal oversight can have a lasting financial impact. At FinAsk, legal advisory is not a last-minute rescue. It’s built into your journey from the start—offering proactive legal structuring, due diligence, and risk mitigation.",
-    features: [
-      {
-        title: "Property Due Diligence",
-        description: "Verification of titles and documents.",
-      },
-      {
-        title: "Contract Review",
-        description: "Reviewing financial and business agreements.",
-      },
-      {
-        title: "Family Settlements",
-        description: "Drafting family settlement deeds.",
-      },
-    ],
-    faq: [
-      {
-        question: "Do you handle litigation?",
-        answer:
-          "We primarily focus on non-litigation advisory, documentation, and preventive law. We can refer you to litigators if court representation is needed.",
-      },
-      {
-        question: "Why is due diligence important?",
-        answer:
-          "It uncovers potential legal risks (like unclear property titles or hidden liabilities) before you commit to a transaction.",
-      },
-      {
-        question: "Can you help with startup incorporation?",
-        answer:
-          "Yes, we assist with entity selection (LLP, Pvt Ltd), registration, and founder agreements.",
-      },
-      {
-        question: "What is a Family Settlement Deed?",
-        answer:
-          "It is a document recording the amicable distribution of family assets to prevent future disputes.",
-      },
-    ],
-    bgImage: "/finask/investment-education-program.jpg",
-    introText:
-      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
-    closingText:
-      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
-    faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.jpg",
-      consultationTitle: "If You Need Help, Get A Consultation",
-      consultationButton: "Get Started",
-    },
-  },
+ 
   {
     slug: "financial-literacy",
     category: "Empowerment",
@@ -2180,7 +2124,7 @@ export const servicesData = [
           "We cover budgeting, debt management, insurance basics, mutual funds, and retirement planning.",
       },
     ],
-    bgImage: "/about.png",
+    bgImage: "/finask/financial-literacy.png",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -2237,7 +2181,7 @@ export const servicesData = [
           "No, we teach sustainable wealth creation through discipline, patience, and smart decision-making.",
       },
     ],
-    bgImage: "/finask/next-gen.jpeg",
+    bgImage: "/finask/next-gen.png",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
