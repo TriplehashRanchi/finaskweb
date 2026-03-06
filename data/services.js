@@ -506,7 +506,7 @@ export const servicesData = [
           "Popular add-ons include Zero Depreciation cover, Engine Protection, Roadside Assistance, Return to Invoice, and Consumables cover.",
       },
     ],
-    bgImage: "/finask/motor.jpg",
+    bgImage: "/finask/motor.png",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -972,7 +972,7 @@ export const servicesData = [
           "The right fund depends on your financial goals, risk appetite, investment horizon, and asset allocation strategy.",
       },
     ],
-    bgImage: "/finask/mutual-funds.jpg",
+    bgImage: "/finask/mutual-funds.png",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -1029,7 +1029,7 @@ export const servicesData = [
           "Consider:\nCredit rating\nInterest rate outlook\nInvestment horizon\nLiquidity needs\nTax implications",
       },
     ],
-    bgImage: "/finask/bonds.jpg",
+    bgImage: "/finask/bond.png",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -1662,7 +1662,7 @@ export const servicesData = [
           "E-Gold is suitable for portfolio diversification and long-term wealth preservation, especially for investors looking to hedge against inflation and market volatility.",
       },
     ],
-    bgImage: "/finask/e-gold.jpeg",
+    bgImage: "/finask/e-gold.png",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
