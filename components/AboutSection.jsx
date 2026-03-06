@@ -16,7 +16,7 @@ export default function AboutSection() {
             </h2>
 
             {/* Description */}
-            <p className="text-gray-600 text-lg leading-[1.4] mb-4 max-w-lg">
+            <p className="text-gray-600 text-lg leading-[1.4] mb-4 max-w-lg text-justify">
               We believe wealth is more than numbers it is security for
               families, dignity in retirement, and continuity across
               generations. At FinAsk, we listen before we advise, and design

@@ -101,6 +101,7 @@ export default function ValuesSection() {
   const [currentIndex, setCurrentIndex] = useState(4); // Start at first real item (after 4 clones)
   const [cardsToShow, setCardsToShow] = useState(4);
   const [isTransitioning, setIsTransitioning] = useState(false);
+  const [isHovered, setIsHovered] = useState(false);
 
   // Clone slides for infinite loop
   const extendedValues = [
@@ -127,6 +128,21 @@ export default function ValuesSection() {
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, []);
+
+  // Auto-sliding interval
+  useEffect(() => {
+    if (isHovered) return; // Pause auto-slide when hovered
+
+    const slideInterval = setInterval(() => {
+      // Create a local nextSlide equivalent to avoid dependency issues with the full function
+      if (!isTransitioning) {
+         setCurrentIndex((prev) => prev + 1);
+         setIsTransitioning(true);
+      }
+    }, 1000); // Change slide every 1.5 seconds
+
+    return () => clearInterval(slideInterval);
+  }, [isHovered, isTransitioning]);
 
   const nextSlide = () => {
     if (isTransitioning) return;
@@ -171,7 +187,11 @@ export default function ValuesSection() {
         </p>
       </div>
 
-      <div className="relative group/carousel">
+      <div 
+        className="relative group/carousel"
+        onMouseEnter={() => setIsHovered(true)}
+        onMouseLeave={() => setIsHovered(false)}
+      >
         {/* Navigation Buttons (Absolute) */}
         <button 
           onClick={prevSlide}

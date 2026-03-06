@@ -11,19 +11,22 @@ const features = [
     id: "family-office",
     title: "Family Office",
     image: "/family.png", 
-    description: "Helping families protect harmony, purpose, and prosperity across generations."
+    description: "Helping families protect harmony, purpose, and prosperity across generations.",
+     link: "/services/family-office"
   },
   {
     id: "nri-corner",
     title: "NRI Corner",
     image: "/nri.png",
-    description: "Helping NRIs protect, grow, and repatriate wealth with confidence."
+    description: "Helping NRIs protect, grow, and repatriate wealth with confidence.",
+    link: "/services/nri-corner"
   },
   {
     id: "women-corner",
     title: "Women Corner",
     image: "/women-corner.png",
-    description: "For every woman balancing dreams, duties, and tomorrow this is her corner."
+    description: "For every woman balancing dreams, duties, and tomorrow this is her corner.",
+    link: "/services/women-corner"
   }
 ];
 
@@ -99,7 +102,7 @@ export default function EmpowerSection() {
                 </p>
 
                 {/* Circle Arrow Button */}
-                <Link href="#" className="inline-flex items-center justify-center w-14 h-14 bg-white rounded-full hover:bg-[#DAA434] transition-all duration-300 group">
+                <Link   href={features[activeFeature].link} className="inline-flex items-center justify-center w-14 h-14 bg-white rounded-full hover:bg-[#DAA434] transition-all duration-300 group">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-6 h-6 text-[#001F2B] group-hover:text-white transition-colors transform -rotate-45 group-hover:rotate-0 duration-300">
                         <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
                     </svg>
