@@ -1548,7 +1548,7 @@ export const servicesData = [
           "Investors seeking higher fixed returns than bank FDs and willing to take moderate credit risk may consider Corporate FDRs as part of a diversified portfolio.",
       },
     ],
-    bgImage: "/finask/corporate.png",
+    bgImage: "/finask/c-fdr.png",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
