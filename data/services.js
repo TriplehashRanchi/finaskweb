@@ -506,7 +506,7 @@ export const servicesData = [
           "Popular add-ons include Zero Depreciation cover, Engine Protection, Roadside Assistance, Return to Invoice, and Consumables cover.",
       },
     ],
-    bgImage: "/finask/motor.png",
+    bgImage: "/finask/motor-insurance.png",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -2241,7 +2241,7 @@ export const servicesData = [
           "TDS is deducted on capital gains for NRIs. However, you can claim DTAA benefits if applicable.",
       },
     ],
-    bgImage: "/nri-services.png",
+    bgImage: "/nri-services1.png",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -2298,7 +2298,7 @@ export const servicesData = [
           "We help you build a personal corpus, manage your own investments, and plan for your future security.",
       },
     ],
-    bgImage: "/women-corner.png",
+    bgImage: "/women-corner1.png",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -2357,7 +2357,7 @@ export const servicesData = [
           "Yes, we can oversee real estate, art collections, and other passion assets.",
       },
     ],
-    bgImage: "/family-office.png",
+    bgImage: "/family-office1.png",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:

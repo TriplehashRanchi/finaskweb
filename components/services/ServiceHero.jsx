@@ -6,14 +6,14 @@ export default function ServiceHero({ service }) {
   if (!service) return null;
 
   return (
-    <section className="relative h-[60vh] flex flex-col justify-center overflow-hidden bg-[#0b1218]">
+    <section className="relative h-[70vh] flex flex-col justify-center overflow-hidden bg-[#0b1218]">
       {/* Background Image */}
       <div
         className="absolute inset-0 z-0"
         style={{
           backgroundImage: `url("${service.bgImage || '/service.jpg'}")`,
           backgroundSize: "cover",
-           backgroundPosition: "center",
+           backgroundPosition: "top center",
           backgroundRepeat: "no-repeat",
          
         }}
