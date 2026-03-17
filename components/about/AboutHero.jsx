@@ -12,7 +12,7 @@ export default function AboutHero() {
           backgroundImage:
             'url("https://bizfic.themeht.com/wp-content/uploads/2025/06/04.jpg")',
           backgroundSize: "cover",
-          backgroundPosition: "center",
+          backgroundPosition: "top center",
           backgroundRepeat: "no-repeat",
           filter: "brightness(0.35) ",
         }}

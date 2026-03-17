@@ -1491,7 +1491,7 @@ export const servicesData = [
           "Tenure can range from short-term (a few months) to medium or long-term, depending on the product structure.",
       },
     ],
-    bgImage: "/finask/alternative-investment-funds.png",
+    bgImage: "/finask/afi.png",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
