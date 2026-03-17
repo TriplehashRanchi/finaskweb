@@ -103,8 +103,7 @@ export default function Footer() {
                 { label: "About Us", href: "/about" },
                 { label: "Contact Us", href: "/contact" },
                 { label: "Careers", href: "/careers" },
-                { label: "FAQ", href: "/#" },
-              ].map((item) => (
+               ].map((item) => (
                 <li key={item.href}>
                   <a
                     href={item.href}
@@ -159,7 +158,7 @@ export default function Footer() {
                 </div>
                 <div>
                   <h4 className="text-white font-medium text-sm   group-hover:text-[#DAA434] transition-colors">
-                    Call Us 24/7
+                    Call Us 
                   </h4>
                   <p className="text-gray-400 text-sm font-sans">
                     {" "}
