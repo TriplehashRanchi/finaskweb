@@ -19,8 +19,7 @@ export default function ContactPage() {
             backgroundSize: "cover",
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat",
-            filter: "brightness(0.35) ",
-          }}
+           }}
         />
         <div className="absolute inset-0 bg-gradient-to-t from-[#00394E]/90 via-[#00394E]/30 to-[#00394E]/40" />
         <div className="relative z-20 text-center px-4 max-w-5xl mx-auto mt-10">

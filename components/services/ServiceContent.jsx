@@ -55,7 +55,11 @@ export default function ServiceContent({ service, hideFaq = false }) {
           {service.title}
         </h2>
         <div className="space-y-2 text-slate-600 leading-[1.4] text-md text-justify ">
-          <p>{service.description}</p>
+          {service.description.split("\n").map((line, i) => (
+            <p key={i} className="mb-2">
+              {line}
+            </p>
+          ))}
           <p>{service.introText}</p>
         </div>
       </div>

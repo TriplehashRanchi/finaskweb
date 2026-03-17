@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function AboutHero() {
   return (
-    <section className="relative h-[60vh] flex flex-col items-center justify-center">
+    <section className="relative h-[70vh] flex flex-col items-center justify-center">
       {/* Background Image */}
       <div
         className="absolute inset-0 z-0"
@@ -14,7 +14,7 @@ export default function AboutHero() {
           backgroundSize: "cover",
           backgroundPosition: "top center",
           backgroundRepeat: "no-repeat",
-          filter: "brightness(0.35) ",
+       
         }}
       />
       <div className="absolute inset-0 bg-gradient-to-t from-[#00394E]/90 via-[#00394E]/30 to-[#00394E]/40" />
