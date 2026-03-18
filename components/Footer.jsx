@@ -38,7 +38,7 @@ export default function Footer() {
                   icon: Facebook,
                   link: "https://www.facebook.com/finaskvalue/",
                 },
-                {
+                {  
                   icon: Instagram,
                   link: "https://www.instagram.com/finask_value/",
                 },
