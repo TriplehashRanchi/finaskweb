@@ -54,7 +54,7 @@ const investment = [
     icon: TrendingUp,
     link: "/services/reits",
   },
-  {
+  {      
     id: 7,
     title: "InvITs",
     description:

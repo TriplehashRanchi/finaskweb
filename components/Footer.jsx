@@ -126,8 +126,8 @@ export default function Footer() {
             <ul className="space-y-4 text-sm text-gray-400">
               {[
                 { label: "Family Office", href: "/services/family-office" },
-                { label: "Insurance", href: "/insurance" },
-                { label: "Investments", href: "/investment" },
+                { label: "Insurance", href: "/insurances" },
+                { label: "Investments", href: "/investments" },
                 { label: "NRI Services", href: "/services/nri-corner" },
                 { label: "Women Corner", href: "/services/women-corner" },
               ].map((item) => (
