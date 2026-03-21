@@ -37,7 +37,7 @@ export default function WhyWeExistSection() {
                     className="w-12 h-12 rounded-full border-2 border-white bg-gray-200 relative overflow-hidden"
                   >
                     <Image
-                      src={`/testimonial-michael.png`} // Using placeholder/existing image
+                      src={`/testimonial-michael.webp`} // Using placeholder/existing image
                       alt="Client"
                       fill
                       className="object-cover"
@@ -84,7 +84,7 @@ export default function WhyWeExistSection() {
 
             <div className="relative w-full h-[350px]   overflow-hidden shadow-xl mt-4 group">
               <Image
-                src="/why.png"
+                src="/why.webp"
                 alt="Team Working"
                 fill
                 className="object-cover transition-transform duration-700 group-hover:scale-105"

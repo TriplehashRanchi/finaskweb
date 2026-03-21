@@ -40,7 +40,7 @@ export default function SolutionsSection() {
       {/* Image & Content Box */}
       <div className="relative h-[600px] mx-4 lg:mx-16  overflow-hidden bg-[#00394E]">
         {/* Background Image Placeholder */}
-        {/* Replace the style below with your actual image: backgroundImage: 'url(/path/to/image.jpg)' */}
+        {/* Replace the style below with your actual image: backgroundImage: 'url(/path/to/image.webp)' */}
         <div 
           className="absolute inset-0 bg-cover bg-center opacity-60"
           style={{ 

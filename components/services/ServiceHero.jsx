@@ -11,7 +11,7 @@ export default function ServiceHero({ service }) {
       <div
         className="absolute inset-0 z-0"
         style={{
-          backgroundImage: `url("${service.bgImage || '/service.jpg'}")`,
+          backgroundImage: `url("${service.bgImage || '/service.webp'}")`,
           backgroundSize: "cover",
            backgroundPosition: "top center",
           backgroundRepeat: "no-repeat",

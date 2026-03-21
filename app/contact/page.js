@@ -15,7 +15,7 @@ export default function ContactPage() {
         <div
           className="absolute inset-0 z-0"
           style={{
-            backgroundImage: 'url("/contact.jpg")',
+            backgroundImage: 'url("/contact.webp")',
             backgroundSize: "cover",
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat",
@@ -145,7 +145,7 @@ export default function ContactPage() {
           {/* Center Image */}
           <div className="relative w-full lg:w-[45%] h-[350px] lg:h-[570px] rounded-xl overflow-hidden shadow-2xl z-0 order-2 lg:order-1 lg:absolute lg:left-1/2 lg:-translate-x-1/2 bg-gray-200">
             <Image
-              src="/about-team.png"
+              src="/about-team.webp"
               alt="Our Office"
               fill
               className="object-cover"

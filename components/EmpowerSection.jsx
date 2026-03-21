@@ -10,21 +10,21 @@ const features = [
 
     id: "family-office",
     title: "Family Office",
-    image: "/family.png", 
+    image: "/family.webp", 
     description: "Helping families protect harmony, purpose, and prosperity across generations.",
      link: "/services/family-office"
   },
   {
     id: "nri-corner",
     title: "NRI Corner",
-    image: "/nri.png",
+    image: "/nri.webp",
     description: "Helping NRIs protect, grow, and repatriate wealth with confidence.",
     link: "/services/nri-corner"
   },
   {
     id: "women-corner",
     title: "Women Corner",
-    image: "/women-corner.png",
+    image: "/women-corner.webp",
     description: "For every woman balancing dreams, duties, and tomorrow this is her corner.",
     link: "/services/women-corner"
   }

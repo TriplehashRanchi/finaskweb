@@ -85,7 +85,7 @@ export default function CareersPage() {
             <div className="w-full md:w-1/2 relative h-[400px] md:h-[500px] w-full flex items-end justify-center">
                  <div className="relative w-full h-full">
                     <Image
-                        src="/career.png" 
+                        src="/career.webp" 
                         alt="Professional Team"
                         fill
                         className="object-contain object-bottom"

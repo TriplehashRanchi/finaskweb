@@ -67,7 +67,7 @@ export default function EthosSection() {
         {/* RIGHT COLUMN: Image */}
         <div className="w-full lg:w-[34%] relative min-h-[500px] lg:min-h-auto">
           <Image
-            src="/ethos.png"
+            src="/ethos.webp"
             alt="FinAsk Team"
             fill
             className="object-cover object-center"

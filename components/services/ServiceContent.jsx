@@ -107,7 +107,7 @@ export default function ServiceContent({ service, hideFaq = false }) {
                 {" "}
                 {/* Reduced height slightly for proportion */}
                 <Image
-                  src={service.faqSection?.image || "/faq.jpg"}
+                  src={service.faqSection?.image || "/faq.webp"}
                   alt="Consultation"
                   fill
                   className="object-cover  "

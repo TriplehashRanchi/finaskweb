@@ -44,7 +44,7 @@ export const servicesData = [
           "Cashless settlement lets you receive treatment at a network hospital without paying the full bill upfront. The insurer directly settles the approved amount with the hospital. You only pay for non-covered charges, if any.",
       },
     ],
-    bgImage: "/finask/health.png",
+    bgImage: "/finask/health.webp",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -53,7 +53,7 @@ export const servicesData = [
       title: "General Question",
       description:
         "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.jpg",
+      image: "/faq.webp",
       consultationTitle: "If You Need Help, Get A Consultation",
       consultationButton: "Get Started",
     },
@@ -100,7 +100,7 @@ export const servicesData = [
           "Yes, similar to base policies, Super Top-Up plans may have waiting periods for pre-existing diseases and specific treatments.",
       },
     ],
-    bgImage: "/finask/super.png",
+    bgImage: "/finask/super.webp",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -109,7 +109,7 @@ export const servicesData = [
       title: "General Question",
       description:
         "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.jpg",
+      image: "/faq.webp",
       consultationTitle: "If You Need Help, Get A Consultation",
       consultationButton: "Get Started",
     },
@@ -160,7 +160,7 @@ export const servicesData = [
           "Permanent Partial Disability means partial loss of body function (such as loss of one limb or one eye). The claim amount is paid as per a predefined percentage mentioned in the policy.",
       },
     ],
-    bgImage: "/finask/accident.png",
+    bgImage: "/finask/accident.webp",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -169,7 +169,7 @@ export const servicesData = [
       title: "General Question",
       description:
         "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.jpg",
+      image: "/faq.webp",
       consultationTitle: "If You Need Help, Get A Consultation",
       consultationButton: "Get Started",
     },
@@ -219,7 +219,7 @@ export const servicesData = [
           "Anyone with financial responsibilities, family history of serious illnesses, high-stress lifestyle, or limited savings should strongly consider this cover.",
       },
     ],
-    bgImage: "/finask/critical-illness-insurance.png",
+    bgImage: "/finask/critical-illness-insurance.webp",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -228,7 +228,7 @@ export const servicesData = [
       title: "General Question",
       description:
         "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.jpg",
+      image: "/faq.webp",
       consultationTitle: "If You Need Help, Get A Consultation",
       consultationButton: "Get Started",
     },
@@ -271,7 +271,7 @@ export const servicesData = [
           "Yes, premiums paid are eligible for tax deduction under Section 80C of the Income Tax Act.",
       },
     ],
-    bgImage: "/finask/life.png",
+    bgImage: "/finask/life.webp",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -280,7 +280,7 @@ export const servicesData = [
       title: "General Question",
       description:
         "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.jpg",
+      image: "/faq.webp",
       consultationTitle: "If You Need Help, Get A Consultation",
       consultationButton: "Get Started",
     },
@@ -330,7 +330,7 @@ export const servicesData = [
           "Term insurance gives high cover at low cost and pays only on death.\nTraditional insurance combines cover with savings, costs more, and offers lower cover.",
       },
     ],
-    bgImage: "/finask/term.png",
+    bgImage: "/finask/term.webp",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -339,7 +339,7 @@ export const servicesData = [
       title: "General Question",
       description:
         "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.jpg",
+      image: "/faq.webp",
       consultationTitle: "If You Need Help, Get A Consultation",
       consultationButton: "Get Started",
     },
@@ -388,7 +388,7 @@ export const servicesData = [
           "Yes, partial withdrawals are allowed after the 5-year lock-in period, subject to policy terms.",
       },
     ],
-    bgImage: "/finask/ulip.png",
+    bgImage: "/finask/ulip.webp",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -397,7 +397,7 @@ export const servicesData = [
       title: "General Question",
       description:
         "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.jpg",
+      image: "/faq.webp",
       consultationTitle: "If You Need Help, Get A Consultation",
       consultationButton: "Get Started",
     },
@@ -446,7 +446,7 @@ export const servicesData = [
           "The policy may become paid-up or lapse, depending on the terms and number of premiums paid.",
       },
     ],
-    bgImage: "/finask/traditional-guaranteed-saving.png",
+    bgImage: "/finask/traditional-guaranteed-saving.webp",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -455,7 +455,7 @@ export const servicesData = [
       title: "General Question",
       description:
         "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.jpg",
+      image: "/faq.webp",
       consultationTitle: "If You Need Help, Get A Consultation",
       consultationButton: "Get Started",
     },
@@ -506,7 +506,7 @@ export const servicesData = [
           "Popular add-ons include Zero Depreciation cover, Engine Protection, Roadside Assistance, Return to Invoice, and Consumables cover.",
       },
     ],
-    bgImage: "/finask/motor-insurance.png",
+    bgImage: "/finask/motor-insurance.webp",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -515,7 +515,7 @@ export const servicesData = [
       title: "General Question",
       description:
         "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.jpg",
+      image: "/faq.webp",
       consultationTitle: "If You Need Help, Get A Consultation",
       consultationButton: "Get Started",
     },
@@ -563,7 +563,7 @@ export const servicesData = [
           "Coverage for pre-existing conditions varies by policy. Some plans offer limited coverage for life-threatening emergencies and other pre-defined sum insured coverages arising from pre-existing illnesses.",
       },
     ],
-    bgImage: "/finask/travel-insurance.png",
+    bgImage: "/finask/travel-insurance.webp",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -572,7 +572,7 @@ export const servicesData = [
       title: "General Question",
       description:
         "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.jpg",
+      image: "/faq.webp",
       consultationTitle: "If You Need Help, Get A Consultation",
       consultationButton: "Get Started",
     },
@@ -616,7 +616,7 @@ export const servicesData = [
           "Common exclusions may include wear and tear, gradual deterioration, intentional damage, and losses not specifically listed in the policy.",
       },
     ],
-    bgImage: "/finask/property-insurance.png",
+    bgImage: "/finask/property-insurance.webp",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -625,7 +625,7 @@ export const servicesData = [
       title: "General Question",
       description:
         "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.jpg",
+      image: "/faq.webp",
       consultationTitle: "If You Need Help, Get A Consultation",
       consultationButton: "Get Started",
     },
@@ -675,7 +675,7 @@ export const servicesData = [
           "Common exclusions may include intentional damage, war-related events, gradual wear and tear, or theft without forced entry (unless specifically covered).",
       },
     ],
-    bgImage: "/finask/fire-and-urglary.png",
+    bgImage: "/finask/fire-and-urglary.webp",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -684,7 +684,7 @@ export const servicesData = [
       title: "General Question",
       description:
         "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.jpg",
+      image: "/faq.webp",
       consultationTitle: "If You Need Help, Get A Consultation",
       consultationButton: "Get Started",
     },
@@ -734,7 +734,7 @@ export const servicesData = [
           "An Open Policy provides continuous coverage for multiple shipments over a specified period, suitable for businesses with frequent consignments",
       },
     ],
-    bgImage: "/finask/marine-and-cargo-insurance.png",
+    bgImage: "/finask/marine-and-cargo-insurance.webp",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -743,7 +743,7 @@ export const servicesData = [
       title: "General Question",
       description:
         "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.jpg",
+      image: "/faq.webp",
       consultationTitle: "If You Need Help, Get A Consultation",
       consultationButton: "Get Started",
     },
@@ -791,7 +791,7 @@ export const servicesData = [
           "Yes, policies can be structured to cover contract workers and temporary staff.",
       },
     ],
-    bgImage: "/finask/corporate.png",
+    bgImage: "/finask/corporate.webp",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -800,7 +800,7 @@ export const servicesData = [
       title: "General Question",
       description:
         "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.jpg",
+      image: "/faq.webp",
       consultationTitle: "If You Need Help, Get A Consultation",
       consultationButton: "Get Started",
     },
@@ -853,7 +853,7 @@ export const servicesData = [
           "Common exclusions may include intentional acts, prior known incidents, inadequate security practices, or unreported breaches.",
       },
     ],
-    bgImage: "/finask/cyber-insurance.png",
+    bgImage: "/finask/cyber-insurance.webp",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -862,7 +862,7 @@ export const servicesData = [
       title: "General Question",
       description:
         "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.jpg",
+      image: "/faq.webp",
       consultationTitle: "If You Need Help, Get A Consultation",
       consultationButton: "Get Started",
     },
@@ -912,7 +912,7 @@ export const servicesData = [
           "In most cases, the company is the beneficiary and receives the payout to manage liabilities, stabilize operations, or compensate financial loss.",
       },
     ],
-    bgImage: "/finask/directors-life-insurance.png",
+    bgImage: "/finask/directors-life-insurance.webp",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -921,7 +921,7 @@ export const servicesData = [
       title: "General Question",
       description:
         "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.jpg",
+      image: "/faq.webp",
       consultationTitle: "If You Need Help, Get A Consultation",
       consultationButton: "Get Started",
     },
@@ -972,7 +972,7 @@ export const servicesData = [
           "The right fund depends on your financial goals, risk appetite, investment horizon, and asset allocation strategy.",
       },
     ],
-    bgImage: "/finask/mutual-funds.png",
+    bgImage: "/finask/mutual-funds.webp",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -981,7 +981,7 @@ export const servicesData = [
       title: "General Question",
       description:
         "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.jpg",
+      image: "/faq.webp",
       consultationTitle: "If You Need Help, Get A Consultation",
       consultationButton: "Get Started",
     },
@@ -1029,7 +1029,7 @@ export const servicesData = [
           "Consider:\nCredit rating\nInterest rate outlook\nInvestment horizon\nLiquidity needs\nTax implications",
       },
     ],
-    bgImage: "/finask/bond.png",
+    bgImage: "/finask/bond.webp",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -1038,7 +1038,7 @@ export const servicesData = [
       title: "General Question",
       description:
         "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.jpg",
+      image: "/faq.webp",
       consultationTitle: "If You Need Help, Get A Consultation",
       consultationButton: "Get Started",
     },
@@ -1086,7 +1086,7 @@ export const servicesData = [
           "Returns depend on market performance and the portfolio manager’s strategy. Since investments are market-linked, returns are not guaranteed.",
       },
     ],
-    bgImage: "/finask/pms.png",
+    bgImage: "/finask/pms.webp",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -1095,7 +1095,7 @@ export const servicesData = [
       title: "General Question",
       description:
         "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.jpg",
+      image: "/faq.webp",
       consultationTitle: "If You Need Help, Get A Consultation",
       consultationButton: "Get Started",
     },
@@ -1144,7 +1144,7 @@ export const servicesData = [
           "AIFs offer diversification beyond traditional investments, access to exclusive opportunities, and potential for higher returns, though with higher risk.",
       },
     ],
-    bgImage: "/finask/alternative-investment-funds.png",
+    bgImage: "/finask/alternative-investment-funds.webp",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -1153,7 +1153,7 @@ export const servicesData = [
       title: "General Question",
       description:
         "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.jpg",
+      image: "/faq.webp",
       consultationTitle: "If You Need Help, Get A Consultation",
       consultationButton: "Get Started",
     },
@@ -1201,7 +1201,7 @@ export const servicesData = [
           "If the company goes public, investors may benefit from listing gains, subject to market conditions and lock-in rules.",
       },
     ],
-    bgImage: "/finask/unlisted-equity.png",
+    bgImage: "/finask/unlisted-equity.webp",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -1210,7 +1210,7 @@ export const servicesData = [
       title: "General Question",
       description:
         "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.jpg",
+      image: "/faq.webp",
       consultationTitle: "If You Need Help, Get A Consultation",
       consultationButton: "Get Started",
     },
@@ -1259,7 +1259,7 @@ export const servicesData = [
           "REITs offer professional management, diversification across multiple properties, liquidity, and lower entry cost compared to purchasing property directly.",
       },
     ],
-    bgImage: "/finask/reit.png",
+    bgImage: "/finask/reit.webp",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -1268,7 +1268,7 @@ export const servicesData = [
       title: "General Question",
       description:
         "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.jpg",
+      image: "/faq.webp",
       consultationTitle: "If You Need Help, Get A Consultation",
       consultationButton: "Get Started",
     },
@@ -1316,7 +1316,7 @@ export const servicesData = [
           "InvITs invest in infrastructure projects, while REITs invest in real estate properties. Both provide regular income but from different asset classes.",
       },
     ],
-    bgImage: "/finask/invi.png",
+    bgImage: "/finask/invi.webp",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -1325,7 +1325,7 @@ export const servicesData = [
       title: "General Question",
       description:
         "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.jpg",
+      image: "/faq.webp",
       consultationTitle: "If You Need Help, Get A Consultation",
       consultationButton: "Get Started",
     },
@@ -1375,7 +1375,7 @@ export const servicesData = [
           "It offers lower ticket size, diversification, professional management, and access to premium assets — without the burden of direct property management.",
       },
     ],
-    bgImage: "/finask/fractional.png",
+    bgImage: "/finask/fractional.webp",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -1384,7 +1384,7 @@ export const servicesData = [
       title: "General Question",
       description:
         "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.jpg",
+      image: "/faq.webp",
       consultationTitle: "If You Need Help, Get A Consultation",
       consultationButton: "Get Started",
     },
@@ -1432,7 +1432,7 @@ export const servicesData = [
           "Yes, P2P Lending carries credit risk — borrowers may default on repayments. Diversifying across multiple borrowers helps reduce risk.",
       },
     ],
-    bgImage: "/finask/p2p.png",
+    bgImage: "/finask/p2p.webp",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -1441,7 +1441,7 @@ export const servicesData = [
       title: "General Question",
       description:
         "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.jpg",
+      image: "/faq.webp",
       consultationTitle: "If You Need Help, Get A Consultation",
       consultationButton: "Get Started",
     },
@@ -1491,7 +1491,7 @@ export const servicesData = [
           "Tenure can range from short-term (a few months) to medium or long-term, depending on the product structure.",
       },
     ],
-    bgImage: "/finask/afi.png",
+    bgImage: "/finask/afi.webp",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -1500,7 +1500,7 @@ export const servicesData = [
       title: "General Question",
       description:
         "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.jpg",
+      image: "/faq.webp",
       consultationTitle: "If You Need Help, Get A Consultation",
       consultationButton: "Get Started",
     },
@@ -1548,7 +1548,7 @@ export const servicesData = [
           "Investors seeking higher fixed returns than bank FDs and willing to take moderate credit risk may consider Corporate FDRs as part of a diversified portfolio.",
       },
     ],
-    bgImage: "/finask/c-fdr.png",
+    bgImage: "/finask/c-fdr.webp",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -1557,7 +1557,7 @@ export const servicesData = [
       title: "General Question",
       description:
         "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.jpg",
+      image: "/faq.webp",
       consultationTitle: "If You Need Help, Get A Consultation",
       consultationButton: "Get Started",
     },
@@ -1605,7 +1605,7 @@ export const servicesData = [
           "Yes, GIFT City provides a platform to invest in global stocks (like US markets) through NSE IFSC.",
       },
     ],
-    bgImage: "/finask/gift-city.png",
+    bgImage: "/finask/gift-city.webp",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -1614,7 +1614,7 @@ export const servicesData = [
       title: "General Question",
       description:
         "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.jpg",
+      image: "/faq.webp",
       consultationTitle: "If You Need Help, Get A Consultation",
       consultationButton: "Get Started",
     },
@@ -1662,7 +1662,7 @@ export const servicesData = [
           "E-Gold is suitable for portfolio diversification and long-term wealth preservation, especially for investors looking to hedge against inflation and market volatility.",
       },
     ],
-    bgImage: "/finask/e-gold.png",
+    bgImage: "/finask/e-gold.webp",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -1671,7 +1671,7 @@ export const servicesData = [
       title: "General Question",
       description:
         "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.jpg",
+      image: "/faq.webp",
       consultationTitle: "If You Need Help, Get A Consultation",
       consultationButton: "Get Started",
     },
@@ -1719,7 +1719,7 @@ export const servicesData = [
           "Tier I accounts are locked until retirement (age 60), with partial withdrawal allowed under specific conditions. Tier II accounts have no lock-in.",
       },
     ],
-    bgImage: "/finask/national-pension-sceme.png",
+    bgImage: "/finask/national-pension-sceme.webp",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -1728,7 +1728,7 @@ export const servicesData = [
       title: "General Question",
       description:
         "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.jpg",
+      image: "/faq.webp",
       consultationTitle: "If You Need Help, Get A Consultation",
       consultationButton: "Get Started",
     },
@@ -1777,7 +1777,7 @@ export const servicesData = [
           "Yes, NRIs can invest in Indian equities through a PIS (Portfolio Investment Scheme) account, subject to RBI and SEBI regulations.",
       },
     ],
-    bgImage: "/finask/stock-roking.png",
+    bgImage: "/finask/stock-roking.webp",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -1786,7 +1786,7 @@ export const servicesData = [
       title: "General Question",
       description:
         "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.jpg",
+      image: "/faq.webp",
       consultationTitle: "If You Need Help, Get A Consultation",
       consultationButton: "Get Started",
     },
@@ -1837,7 +1837,7 @@ export const servicesData = [
           "Trusts can be revocable (can be cancelled) or irrevocable (permanent). Irrevocable trusts offer better asset protection.",
       },
     ],
-    bgImage: "/finask/trust.png",
+    bgImage: "/finask/trust.webp",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -1846,7 +1846,7 @@ export const servicesData = [
       title: "General Question",
       description:
         "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.jpg",
+      image: "/faq.webp",
       consultationTitle: "If You Need Help, Get A Consultation",
       consultationButton: "Get Started",
     },
@@ -1894,7 +1894,7 @@ export const servicesData = [
           "Yes, you can update or revoke your Will as many times as you like during your lifetime. Only the last valid Will is considered.",
       },
     ],
-    bgImage: "/finask/will-writing.png",
+    bgImage: "/finask/will-writing.webp",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -1903,7 +1903,7 @@ export const servicesData = [
       title: "General Question",
       description:
         "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.jpg",
+      image: "/faq.webp",
       consultationTitle: "If You Need Help, Get A Consultation",
       consultationButton: "Get Started",
     },
@@ -1952,7 +1952,7 @@ export const servicesData = [
           "The executor's role begins immediately upon the death of the testator (person who made the Will).",
       },
     ],
-    bgImage: "/finask/executor-services.png",
+    bgImage: "/finask/executor-services.webp",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -1961,7 +1961,7 @@ export const servicesData = [
       title: "General Question",
       description:
         "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.jpg",
+      image: "/faq.webp",
       consultationTitle: "If You Need Help, Get A Consultation",
       consultationButton: "Get Started",
     },
@@ -2009,7 +2009,7 @@ export const servicesData = [
           "It is a document recording the amicable distribution of family assets to prevent future disputes.",
       },
     ],
-    bgImage: "/finask/legal-advisory.png",
+    bgImage: "/finask/legal-advisory.webp",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -2018,7 +2018,7 @@ export const servicesData = [
       title: "General Question",
       description:
         "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.jpg",
+      image: "/faq.webp",
       consultationTitle: "If You Need Help, Get A Consultation",
       consultationButton: "Get Started",
     },
@@ -2066,7 +2066,7 @@ export const servicesData = [
           "Yes, we specialize in NRI tax compliance, DTAA benefits, and repatriation procedures.",
       },
     ],
-    bgImage: "/finask/tax-advisory.png",
+    bgImage: "/finask/tax-advisory.webp",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -2075,7 +2075,7 @@ export const servicesData = [
       title: "General Question",
       description:
         "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.jpg",
+      image: "/faq.webp",
       consultationTitle: "If You Need Help, Get A Consultation",
       consultationButton: "Get Started",
     },
@@ -2124,7 +2124,7 @@ export const servicesData = [
           "We cover budgeting, debt management, insurance basics, mutual funds, and retirement planning.",
       },
     ],
-    bgImage: "/finask/financial-literacy.png",
+    bgImage: "/finask/financial-literacy.webp",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -2133,7 +2133,7 @@ export const servicesData = [
       title: "General Question",
       description:
         "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.jpg",
+      image: "/faq.webp",
       consultationTitle: "If You Need Help, Get A Consultation",
       consultationButton: "Get Started",
     },
@@ -2181,7 +2181,7 @@ export const servicesData = [
           "No, we teach sustainable wealth creation through discipline, patience, and smart decision-making.",
       },
     ],
-    bgImage: "/finask/next-gen.png",
+    bgImage: "/finask/next-gen.webp",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -2190,7 +2190,7 @@ export const servicesData = [
       title: "General Question",
       description:
         "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.jpg",
+      image: "/faq.webp",
       consultationTitle: "If You Need Help, Get A Consultation",
       consultationButton: "Get Started",
     },
@@ -2241,7 +2241,7 @@ export const servicesData = [
           "TDS is deducted on capital gains for NRIs. However, you can claim DTAA benefits if applicable.",
       },
     ],
-    bgImage: "/nri-services1.png",
+    bgImage: "/nri-services1.webp",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -2250,7 +2250,7 @@ export const servicesData = [
       title: "General Question",
       description:
         "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.jpg",
+      image: "/faq.webp",
       consultationTitle: "If You Need Help, Get A Consultation",
       consultationButton: "Get Started",
     },
@@ -2298,7 +2298,7 @@ export const servicesData = [
           "We help you build a personal corpus, manage your own investments, and plan for your future security.",
       },
     ],
-    bgImage: "/women-corner1.png",
+    bgImage: "/women-corner1.webp",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -2307,7 +2307,7 @@ export const servicesData = [
       title: "General Question",
       description:
         "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.jpg",
+      image: "/faq.webp",
       consultationTitle: "If You Need Help, Get A Consultation",
       consultationButton: "Get Started",
     },
@@ -2357,7 +2357,7 @@ export const servicesData = [
           "Yes, we can oversee real estate, art collections, and other passion assets.",
       },
     ],
-    bgImage: "/family-office1.png",
+    bgImage: "/family-office1.webp",
     introText:
       "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
     closingText:
@@ -2366,7 +2366,7 @@ export const servicesData = [
       title: "General Question",
       description:
         "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.jpg",
+      image: "/faq.webp",
       consultationTitle: "If You Need Help, Get A Consultation",
       consultationButton: "Get Started",
     },

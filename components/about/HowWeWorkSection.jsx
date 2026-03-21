@@ -30,7 +30,7 @@ export default function HowWeWorkSection() {
             <div className="w-full md:w-[45%] pl-0 md:pl-12 order-1 md:order-2">
               <div className="relative h-64 w-full  overflow-hidden  ">
                 <Image
-                  src="/how1.png"
+                  src="/how1.webp"
                   alt="Listening"
                   fill
                   className="object-cover opacity-80 group-hover:opacity-100 transition-opacity duration-500"
@@ -44,7 +44,7 @@ export default function HowWeWorkSection() {
             <div className="w-full md:w-[45%] text-right pr-0 md:pr-12 mb-8 md:mb-0 order-1">
               <div className="relative h-64 w-full overflow-hidden  ">
                 <Image
-                  src="/how2.png"
+                  src="/how2.webp"
                   alt="Curating"
                   fill
                   className="object-cover opacity-80 group-hover:opacity-100 transition-opacity duration-500"
@@ -94,7 +94,7 @@ export default function HowWeWorkSection() {
             <div className="w-full md:w-[45%] pl-0 md:pl-12 order-1 md:order-2">
               <div className="relative h-64 w-full   overflow-hidden  ">
                 <Image
-                  src="/how3.png"
+                  src="/how3.webp"
                   alt="Living Richly"
                   fill
                   className="object-cover opacity-80 group-hover:opacity-100 transition-opacity duration-500"

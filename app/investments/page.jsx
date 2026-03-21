@@ -137,7 +137,7 @@ export default function ServicesSection() {
         <div
           className="absolute inset-0 z-0"
           style={{
-            backgroundImage: 'url("/image.png")',
+            backgroundImage: 'url("/image.webp")',
             backgroundSize: "cover",
             backgroundPosition: "top center",
             backgroundRepeat: "no-repeat",

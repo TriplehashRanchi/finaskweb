@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 const slides = [
   {
     id: 1,
-    image: "/1.jpeg", // Happy Family / Legacy
+    image: "/1.webp", // Happy Family / Legacy
     title: "Where Wealth Meets Purpose, and Legacies Find Direction",
     subtitle:
       "Beyond returns, we craft clarity—for families, entrepreneurs, and visionaries who see wealth not just as numbers, but as a narrative.",
@@ -17,7 +17,7 @@ const slides = [
   },
   {
     id: 2,
-    image: "/2.jpeg", // Clarity/Confidence/Advisor
+    image: "/2.webp", // Clarity/Confidence/Advisor
     title: "Clarity Today. Confidence Tomorrow. Continuity Forever.",
     subtitle:
       "From investments and insurance to succession and stewardship, we don’t just manage your wealth—we help it grow with integrity, empathy, and foresight.",
@@ -26,7 +26,7 @@ const slides = [
   },
   {
     id: 3,
-    image: "/3.jpeg", // Generations/Business Succession
+    image: "/3.webp", // Generations/Business Succession
     title: "Protecting Dreams. Preserving Legacies. Powering Generations.",
     subtitle:
       "For every milestone—child’s education, retirement, business succession, or global investing—FinAsk is where aspirations meet trusted financial architecture.",

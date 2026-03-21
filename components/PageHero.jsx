@@ -8,7 +8,7 @@ const PageHero = ({ title, subtitle }) => {
       <div
         className="absolute inset-0 z-0"
         style={{
-          backgroundImage: 'url("/contact.jpg")',
+          backgroundImage: 'url("/contact.webp")',
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
