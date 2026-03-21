@@ -9,7 +9,7 @@ const page = () => {
         <div
           className="absolute inset-0 z-0"
           style={{
-            backgroundImage: 'url("/service.webp")',
+            backgroundImage: 'url("/contact.webp")',
             backgroundSize: "cover",
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat",

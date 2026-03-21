@@ -24,7 +24,7 @@ const features = [
   {
     id: "women-corner",
     title: "Women Corner",
-    image: "/women-corner.webp",
+    image: "/women-corner1.webp",
     description: "For every woman balancing dreams, duties, and tomorrow this is her corner.",
     link: "/services/women-corner"
   }
