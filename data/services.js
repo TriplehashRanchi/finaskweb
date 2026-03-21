@@ -46,9 +46,9 @@ export const servicesData = [
     ],
     bgImage: "/finask/health.webp",
     introText:
-      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
+      "At FinAsk, we offer our specialized approach to Health Insurance absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
-      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
+      "Our commitment to excellence in Health Insurance truly reliable and deeply proven ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
       title: "General Question",
       description:
@@ -102,9 +102,9 @@ export const servicesData = [
     ],
     bgImage: "/finask/super.webp",
     introText:
-      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
+      "At FinAsk, we offer our specialized approach to Super Top-Up absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
-      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
+      "Our commitment to excellence in Super Top-Up truly reliable and deeply proven ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
       title: "General Question",
       description:
@@ -162,9 +162,9 @@ export const servicesData = [
     ],
     bgImage: "/finask/accident.webp",
     introText:
-      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
+      "At FinAsk, we offer our specialized approach to Personal Accident Insurance absolutely essential and highly reliable trusted ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
-      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
+      "Our commitment to excellence in Personal Accident Insurance truly reliable and deeply ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
       title: "General Question",
       description:
@@ -221,9 +221,9 @@ export const servicesData = [
     ],
     bgImage: "/finask/critical-illness-insurance.webp",
     introText:
-      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
+      "At FinAsk, we offer our specialized approach to Critical Illness Insurance absolutely essential and highly reliable trusted ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
-      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
+      "Our commitment to excellence in Critical Illness Insurance truly reliable and deeply ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
       title: "General Question",
       description:
@@ -273,9 +273,9 @@ export const servicesData = [
     ],
     bgImage: "/finask/life.webp",
     introText:
-      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
+      "At FinAsk, we offer our specialized approach to Life Insurance absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
-      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
+      "Our commitment to excellence in Life Insurance truly reliable and deeply proven ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
       title: "General Question",
       description:
@@ -334,9 +334,9 @@ export const servicesData = [
     ],
     bgImage: "/finask/term.webp",
     introText:
-      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
+      "At FinAsk, we offer our specialized approach to Term Insurance absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
-      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
+      "Our commitment to excellence in Term Insurance truly reliable and deeply proven ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
       title: "General Question",
       description:
@@ -394,9 +394,9 @@ export const servicesData = [
     ],
     bgImage: "/finask/ulip.webp",
     introText:
-      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
+      "At FinAsk, we offer our specialized approach to ULIP Insurance absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
-      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
+      "Our commitment to excellence in ULIP Insurance truly reliable and deeply proven ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
       title: "General Question",
       description:
@@ -454,9 +454,9 @@ export const servicesData = [
     ],
     bgImage: "/finask/traditional-guaranteed-saving.webp",
     introText:
-      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
+      "At FinAsk, we offer our specialized approach to Traditional Guaranteed Savings products absolutely essential and highly reliable ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
-      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
+      "Our commitment to excellence in Traditional Guaranteed Savings products truly reliable and ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
       title: "General Question",
       description:
@@ -514,9 +514,9 @@ export const servicesData = [
     ],
     bgImage: "/finask/motor-insurance.webp",
     introText:
-      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
+      "At FinAsk, we offer our specialized approach to Motor Insurance absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
-      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
+      "Our commitment to excellence in Motor Insurance truly reliable and deeply proven ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
       title: "General Question",
       description:
@@ -571,9 +571,9 @@ export const servicesData = [
     ],
     bgImage: "/finask/travel-insurance.webp",
     introText:
-      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
+      "At FinAsk, we offer our specialized approach to Travel Insurance absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
-      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
+      "Our commitment to excellence in Travel Insurance truly reliable and deeply proven ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
       title: "General Question",
       description:
@@ -624,9 +624,9 @@ export const servicesData = [
     ],
     bgImage: "/finask/property-insurance.webp",
     introText:
-      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
+      "At FinAsk, we offer our specialized approach to Property Insurance absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
-      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
+      "Our commitment to excellence in Property Insurance truly reliable and deeply proven ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
       title: "General Question",
       description:
@@ -683,9 +683,9 @@ export const servicesData = [
     ],
     bgImage: "/finask/fire-and-urglary.webp",
     introText:
-      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
+      "At FinAsk, we offer our specialized approach to Fire Burglary Insurance absolutely essential and highly reliable trusted ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
-      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
+      "Our commitment to excellence in Fire Burglary Insurance truly reliable and deeply ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
       title: "General Question",
       description:
@@ -742,9 +742,9 @@ export const servicesData = [
     ],
     bgImage: "/finask/marine-and-cargo-insurance.webp",
     introText:
-      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
+      "At FinAsk, we offer our specialized approach to Marine Cargo Insurance absolutely essential and highly reliable trusted ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
-      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
+      "Our commitment to excellence in Marine Cargo Insurance truly reliable and deeply ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
       title: "General Question",
       description:
@@ -799,9 +799,9 @@ export const servicesData = [
     ],
     bgImage: "/finask/corporate.webp",
     introText:
-      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
+      "At FinAsk, we offer our specialized approach to Corporate Insurance absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
-      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
+      "Our commitment to excellence in Corporate Insurance truly reliable and deeply proven ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
       title: "General Question",
       description:
@@ -861,9 +861,9 @@ export const servicesData = [
     ],
     bgImage: "/finask/cyber-insurance.webp",
     introText:
-      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
+      "At FinAsk, we offer our specialized approach to Cyber Insurance absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
-      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
+      "Our commitment to excellence in Cyber Insurance truly reliable and deeply proven ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
       title: "General Question",
       description:
@@ -920,9 +920,9 @@ export const servicesData = [
     ],
     bgImage: "/finask/directors-life-insurance.webp",
     introText:
-      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
+      "At FinAsk, we offer our specialized approach to Directors Life Insurance absolutely essential and highly reliable trusted ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
-      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
+      "Our commitment to excellence in Directors Life Insurance truly reliable and deeply ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
       title: "General Question",
       description:
@@ -980,9 +980,9 @@ export const servicesData = [
     ],
     bgImage: "/finask/mutual-funds.webp",
     introText:
-      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
+      "At FinAsk, we offer our specialized approach to Mutual Funds absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
-      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
+      "Our commitment to excellence in Mutual Funds truly reliable and deeply proven ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
       title: "General Question",
       description:
@@ -1037,9 +1037,9 @@ export const servicesData = [
     ],
     bgImage: "/finask/bond.webp",
     introText:
-      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
+      "At FinAsk, we offer our specialized approach to Bonds absolutely essential and highly reliable trusted dynamic modern ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
-      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
+      "Our commitment to excellence in Bonds truly reliable and deeply proven advanced ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
       title: "General Question",
       description:
@@ -1094,9 +1094,9 @@ export const servicesData = [
     ],
     bgImage: "/finask/pms.webp",
     introText:
-      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
+      "At FinAsk, we offer our specialized approach to Portfolio Management Services PMS absolutely essential and highly reliable ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
-      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
+      "Our commitment to excellence in Portfolio Management Services PMS truly reliable and ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
       title: "General Question",
       description:
@@ -1152,9 +1152,9 @@ export const servicesData = [
     ],
     bgImage: "/finask/alternative-investment-funds.webp",
     introText:
-      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
+      "At FinAsk, we offer our specialized approach to Alternative Investment Funds AIFs absolutely essential and highly reliable ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
-      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
+      "Our commitment to excellence in Alternative Investment Funds AIFs truly reliable and ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
       title: "General Question",
       description:
@@ -1209,9 +1209,9 @@ export const servicesData = [
     ],
     bgImage: "/finask/unlisted-equity.webp",
     introText:
-      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
+      "At FinAsk, we offer our specialized approach to Unlisted Equity absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
-      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
+      "Our commitment to excellence in Unlisted Equity truly reliable and deeply proven ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
       title: "General Question",
       description:
@@ -1267,9 +1267,9 @@ export const servicesData = [
     ],
     bgImage: "/finask/reit.webp",
     introText:
-      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
+      "At FinAsk, we offer our specialized approach to REITs absolutely essential and highly reliable trusted dynamic modern ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
-      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
+      "Our commitment to excellence in REITs truly reliable and deeply proven advanced ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
       title: "General Question",
       description:
@@ -1324,9 +1324,9 @@ export const servicesData = [
     ],
     bgImage: "/finask/invi.webp",
     introText:
-      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
+      "At FinAsk, we offer our specialized approach to Infrastructure Investment Trusts absolutely essential and highly reliable trusted ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
-      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
+      "Our commitment to excellence in Infrastructure Investment Trusts truly reliable and deeply ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
       title: "General Question",
       description:
@@ -1383,9 +1383,9 @@ export const servicesData = [
     ],
     bgImage: "/finask/fractional.webp",
     introText:
-      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
+      "At FinAsk, we offer our specialized approach to Fractional Commercial Real Estate absolutely essential and highly reliable ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
-      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
+      "Our commitment to excellence in Fractional Commercial Real Estate truly reliable and ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
       title: "General Question",
       description:
@@ -1440,9 +1440,9 @@ export const servicesData = [
     ],
     bgImage: "/finask/p2p.webp",
     introText:
-      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
+      "At FinAsk, we offer our specialized approach to P2P Lending absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
-      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
+      "Our commitment to excellence in P2P Lending truly reliable and deeply proven ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
       title: "General Question",
       description:
@@ -1499,9 +1499,9 @@ export const servicesData = [
     ],
     bgImage: "/finask/afi.webp",
     introText:
-      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
+      "At FinAsk, we offer our specialized approach to Alternative Fixed Income absolutely essential and highly reliable trusted ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
-      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
+      "Our commitment to excellence in Alternative Fixed Income truly reliable and deeply ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
       title: "General Question",
       description:
@@ -1556,9 +1556,9 @@ export const servicesData = [
     ],
     bgImage: "/finask/c-fdr.webp",
     introText:
-      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
+      "At FinAsk, we offer our specialized approach to Corporate Fixed Deposits absolutely essential and highly reliable trusted ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
-      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
+      "Our commitment to excellence in Corporate Fixed Deposits truly reliable and deeply ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
       title: "General Question",
       description:
@@ -1613,9 +1613,9 @@ export const servicesData = [
     ],
     bgImage: "/finask/gift-city.webp",
     introText:
-      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
+      "At FinAsk, we offer our specialized approach to GIFT City Investments absolutely essential and highly reliable trusted ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
-      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
+      "Our commitment to excellence in GIFT City Investments truly reliable and deeply ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
       title: "General Question",
       description:
@@ -1670,9 +1670,9 @@ export const servicesData = [
     ],
     bgImage: "/finask/e-gold.webp",
     introText:
-      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
+      "At FinAsk, we offer our specialized approach to E-Gold absolutely essential and highly reliable trusted dynamic modern ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
-      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
+      "Our commitment to excellence in E-Gold truly reliable and deeply proven advanced ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
       title: "General Question",
       description:
@@ -1727,9 +1727,9 @@ export const servicesData = [
     ],
     bgImage: "/finask/national-pension-sceme.webp",
     introText:
-      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
+      "At FinAsk, we offer our specialized approach to National Pension System NPS absolutely essential and highly reliable ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
-      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
+      "Our commitment to excellence in National Pension System NPS truly reliable and ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
       title: "General Question",
       description:
@@ -1785,9 +1785,9 @@ export const servicesData = [
     ],
     bgImage: "/finask/stock-roking.webp",
     introText:
-      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
+      "At FinAsk, we offer our specialized approach to Stock Broking absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
-      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
+      "Our commitment to excellence in Stock Broking truly reliable and deeply proven ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
       title: "General Question",
       description:
@@ -1845,9 +1845,9 @@ export const servicesData = [
     ],
     bgImage: "/finask/trust.webp",
     introText:
-      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
+      "At FinAsk, we offer our specialized approach to Trust Formation absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
-      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
+      "Our commitment to excellence in Trust Formation truly reliable and deeply proven ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
       title: "General Question",
       description:
@@ -1902,9 +1902,9 @@ export const servicesData = [
     ],
     bgImage: "/finask/will-writing.webp",
     introText:
-      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
+      "At FinAsk, we offer our specialized approach to Will Writing absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
-      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
+      "Our commitment to excellence in Will Writing truly reliable and deeply proven ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
       title: "General Question",
       description:
@@ -1960,9 +1960,9 @@ export const servicesData = [
     ],
     bgImage: "/finask/executor-services.webp",
     introText:
-      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
+      "At FinAsk, we offer our specialized approach to Executor Services absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
-      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
+      "Our commitment to excellence in Executor Services truly reliable and deeply proven ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
       title: "General Question",
       description:
@@ -2017,9 +2017,9 @@ export const servicesData = [
     ],
     bgImage: "/finask/legal-advisory.webp",
     introText:
-      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
+      "At FinAsk, we offer our specialized approach to Legal Advisory absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
-      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
+      "Our commitment to excellence in Legal Advisory truly reliable and deeply proven ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
       title: "General Question",
       description:
@@ -2074,9 +2074,9 @@ export const servicesData = [
     ],
     bgImage: "/finask/tax-advisory.webp",
     introText:
-      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
+      "At FinAsk, we offer our specialized approach to Tax Advisory absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
-      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
+      "Our commitment to excellence in Tax Advisory truly reliable and deeply proven ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
       title: "General Question",
       description:
@@ -2132,9 +2132,9 @@ export const servicesData = [
     ],
     bgImage: "/finask/financial-literacy.webp",
     introText:
-      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
+      "At FinAsk, we offer our specialized approach to Financial Literacy Workshops absolutely essential and highly reliable trusted ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
-      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
+      "Our commitment to excellence in Financial Literacy Workshops truly reliable and deeply ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
       title: "General Question",
       description:
@@ -2189,9 +2189,9 @@ export const servicesData = [
     ],
     bgImage: "/finask/next-gen.webp",
     introText:
-      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
+      "At FinAsk, we offer our specialized approach to Next-Gen Financial Coaching absolutely essential and highly reliable trusted ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
-      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
+      "Our commitment to excellence in Next-Gen Financial Coaching truly reliable and deeply ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
       title: "General Question",
       description:
@@ -2249,9 +2249,9 @@ export const servicesData = [
     ],
     bgImage: "/nri-services1.webp",
     introText:
-      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
+      "At FinAsk, we offer our specialized approach to NRI Corner absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
-      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
+      "Our commitment to excellence in NRI Corner truly reliable and deeply proven ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
       title: "General Question",
       description:
@@ -2306,9 +2306,9 @@ export const servicesData = [
     ],
     bgImage: "/women-corner1.webp",
     introText:
-      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
+      "At FinAsk, we offer our specialized approach to Women Corner absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
-      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
+      "Our commitment to excellence in Women Corner truly reliable and deeply proven ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
       title: "General Question",
       description:
@@ -2365,9 +2365,9 @@ export const servicesData = [
     ],
     bgImage: "/family-office1.webp",
     introText:
-      "At FinAsk, we believe in a holistic approach to financial well-being. Our expert team is dedicated to providing you with the insights and strategies needed to navigate complex financial landscapes with confidence. Whether you are looking to grow your wealth, protect your assets, or plan for the future, we are here to guide you every step of the way.",
+      "At FinAsk, we offer our specialized approach to Family Office absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
-      "Our commitment to excellence ensures that you receive the highest standard of service. We leverage cutting-edge technology and deep market insights to deliver results that matter. Partner with us to experience a seamless and rewarding financial journey.",
+      "Our commitment to excellence in Family Office truly reliable and deeply proven ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
       title: "General Question",
       description:
