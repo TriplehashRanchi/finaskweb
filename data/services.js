@@ -289,22 +289,24 @@ export const servicesData = [
     slug: "term-insurance",
     category: "Insurance",
     title: "Term Insurance",
-    tagline: "So your wellbeing remains untouched by financial anxiety.",
+    tagline: "So your family remains protected through life's uncertainties.",
     description:
-      "Good health underpins every other joy — from milestones celebrated to simple everyday contentment. Yet the rising intricacies and costs of medical care can quickly erode even the most robust fortunes if left unguarded. At FinAsk, we help you find discreet, sophisticated health coverage that stands silently by your side. Whether for your aging parents, a globe-trotting lifestyle, or simply to insulate your wealth from life’s medical surprises — we curate solutions that protect both your family’s wellbeing and your long-term aspirations.",
+      "Life’s certainties are few, but your family’s stability should never be one of them. Term insurance creates a strong financial foundation, ensuring loved ones can continue their lives with dignity, education, and independence even in your absence. At FinAsk, we help you choose thoughtfully structured cover that matches your responsibilities, future liabilities, and income goals. Whether protecting young children, supporting a spouse, or securing aging parents — we curate plans that preserve security when it matters most for generations ahead confidently.",
     features: [
       {
-        title: "Comprehensive Coverage",
+        title: "High Life Cover",
         description:
-          "Protection against hospitalization, critical illnesses, and modern treatments.",
+          "Large protection amounts at comparatively affordable premium costs.",
       },
       {
-        title: "Global Protection",
-        description: "Plans that cover you wherever your lifestyle takes you.",
+        title: "Income Replacement",
+        description:
+          "Ensures your family can maintain goals and lifestyle continuity.",
       },
       {
-        title: "Family Floater",
-        description: "One plan to secure the health of your entire family.",
+        title: "Liability Shield",
+        description:
+          "Helps secure loans, education plans, and future household responsibilities comfortably.",
       },
     ],
     faq: [
@@ -348,22 +350,24 @@ export const servicesData = [
     slug: "ulip",
     category: "Insurance",
     title: "ULIP Insurance",
-    tagline: "So your wellbeing remains untouched by financial anxiety.",
+    tagline: "So protection and wealth creation can grow together.",
     description:
-      "Good health underpins every other joy — from milestones celebrated to simple everyday contentment. Yet the rising intricacies and costs of medical care can quickly erode even the most robust fortunes if left unguarded. At FinAsk, we help you find discreet, sophisticated health coverage that stands silently by your side. Whether for your aging parents, a globe-trotting lifestyle, or simply to insulate your wealth from life’s medical surprises — we curate solutions that protect both your family’s wellbeing and your long-term aspirations.",
+      "For those who value protection alongside disciplined wealth creation, ULIP insurance offers a refined dual advantage. It combines life cover with market-linked investing, allowing your money to participate in long-term growth while serving broader family goals. At FinAsk, we help you evaluate funds, risk appetite, policy horizons, and charges with clarity, so every allocation supports both protection and performance. Whether planning children’s futures, retirement goals, or legacy creation — we curate solutions designed to build wealth with purpose over time elegantly.",
     features: [
       {
-        title: "Comprehensive Coverage",
+        title: "Life Cover + Investment",
         description:
-          "Protection against hospitalization, critical illnesses, and modern treatments.",
+          "Combines insurance protection with long-term market participation benefits.",
       },
       {
-        title: "Global Protection",
-        description: "Plans that cover you wherever your lifestyle takes you.",
+        title: "Fund Choice",
+        description:
+          "Lets you align equity or debt exposure strategically today.",
       },
       {
-        title: "Family Floater",
-        description: "One plan to secure the health of your entire family.",
+        title: "Wealth Switching Flexibility",
+        description:
+          "Supports evolving goals through fund switches and disciplined investing decisions.",
       },
     ],
     faq: [
@@ -406,22 +410,24 @@ export const servicesData = [
     slug: "traditional-savings",
     category: "Insurance",
     title: "Traditional / Guaranteed Savings products",
-    tagline: "So your wellbeing remains untouched by financial anxiety.",
+    tagline: "So certainty quietly supports your future financial milestones.",
     description:
-      "Good health underpins every other joy — from milestones celebrated to simple everyday contentment. Yet the rising intricacies and costs of medical care can quickly erode even the most robust fortunes if left unguarded. At FinAsk, we help you find discreet, sophisticated health coverage that stands silently by your side. Whether for your aging parents, a globe-trotting lifestyle, or simply to insulate your wealth from life’s medical surprises — we curate solutions that protect both your family’s wellbeing and your long-term aspirations.",
+      "When predictability matters more than volatility, traditional savings and guaranteed products offer reassuring financial certainty. They are designed for those who value steady accumulation, defined benefits, and disciplined planning over market fluctuations. At FinAsk, we help you identify structures that align with education goals, retirement income, legacy intentions, or planned milestones with confidence. Whether you seek assured payouts, capital preservation, or dependable long-term savings — we curate solutions that bring stability, visibility, and peace to your financial journey for years ahead.",
     features: [
       {
-        title: "Comprehensive Coverage",
+        title: "Guaranteed Returns",
         description:
-          "Protection against hospitalization, critical illnesses, and modern treatments.",
+          "Offers defined benefits with low uncertainty and stability.",
       },
       {
-        title: "Global Protection",
-        description: "Plans that cover you wherever your lifestyle takes you.",
+        title: "Assured Payouts",
+        description:
+          "Useful for milestone planning, education needs, or retirement income.",
       },
       {
-        title: "Family Floater",
-        description: "One plan to secure the health of your entire family.",
+        title: "Capital Preservation",
+        description:
+          "Prioritizes steadiness while supporting disciplined long-term savings objectives for families.",
       },
     ],
     faq: [
@@ -2080,7 +2086,7 @@ export const servicesData = [
       consultationButton: "Get Started",
     },
   },
- 
+
   {
     slug: "financial-literacy",
     category: "Empowerment",
