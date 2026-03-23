@@ -10,7 +10,7 @@ export default function AboutHero() {
         className="absolute inset-0 z-0"
         style={{
           backgroundImage:
-            'url("https://bizfic.themeht.com/wp-content/uploads/2025/06/04.jpg")',
+            'url("/about-hero.png")',
           backgroundSize: "cover",
           backgroundPosition: "top center",
           backgroundRepeat: "no-repeat",

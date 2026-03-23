@@ -44,7 +44,7 @@ export const servicesData = [
           "Cashless settlement lets you receive treatment at a network hospital without paying the full bill upfront. The insurer directly settles the approved amount with the hospital. You only pay for non-covered charges, if any.",
       },
     ],
-    bgImage: "/finask/health.webp",
+    bgImage: "/finask/health.jpg",
     introText:
       "At FinAsk, we offer our specialized approach to Health Insurance absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
@@ -219,7 +219,7 @@ export const servicesData = [
           "Anyone with financial responsibilities, family history of serious illnesses, high-stress lifestyle, or limited savings should strongly consider this cover.",
       },
     ],
-    bgImage: "/finask/critical-illness-insurance.webp",
+    bgImage: "/finask/critical-illness-insurance.png",
     introText:
       "At FinAsk, we offer our specialized approach to Critical Illness Insurance absolutely essential and highly reliable trusted ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
@@ -271,7 +271,7 @@ export const servicesData = [
           "Yes, premiums paid are eligible for tax deduction under Section 80C of the Income Tax Act.",
       },
     ],
-    bgImage: "/finask/life.webp",
+    bgImage: "/finask/life.jpg",
     introText:
       "At FinAsk, we offer our specialized approach to Life Insurance absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
@@ -332,7 +332,7 @@ export const servicesData = [
           "Term insurance gives high cover at low cost and pays only on death.\nTraditional insurance combines cover with savings, costs more, and offers lower cover.",
       },
     ],
-    bgImage: "/finask/term.webp",
+    bgImage: "/finask/term.png",
     introText:
       "At FinAsk, we offer our specialized approach to Term Insurance absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
@@ -512,7 +512,7 @@ export const servicesData = [
           "Popular add-ons include Zero Depreciation cover, Engine Protection, Roadside Assistance, Return to Invoice, and Consumables cover.",
       },
     ],
-    bgImage: "/finask/motor-insurance.webp",
+    bgImage: "/finask/motor-insurance.png",
     introText:
       "At FinAsk, we offer our specialized approach to Motor Insurance absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
@@ -859,7 +859,7 @@ export const servicesData = [
           "Common exclusions may include intentional acts, prior known incidents, inadequate security practices, or unreported breaches.",
       },
     ],
-    bgImage: "/finask/cyber-insurance.webp",
+    bgImage: "/finask/cyber-insurance.png",
     introText:
       "At FinAsk, we offer our specialized approach to Cyber Insurance absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
@@ -918,7 +918,7 @@ export const servicesData = [
           "In most cases, the company is the beneficiary and receives the payout to manage liabilities, stabilize operations, or compensate financial loss.",
       },
     ],
-    bgImage: "/finask/directors-life-insurance.webp",
+    bgImage: "/finask/directors-life-insurance.png",
     introText:
       "At FinAsk, we offer our specialized approach to Directors Life Insurance absolutely essential and highly reliable trusted ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
@@ -1092,7 +1092,7 @@ export const servicesData = [
           "Returns depend on market performance and the portfolio manager’s strategy. Since investments are market-linked, returns are not guaranteed.",
       },
     ],
-    bgImage: "/finask/pms.webp",
+    bgImage: "/finask/pms.jpg",
     introText:
       "At FinAsk, we offer our specialized approach to Portfolio Management Services PMS absolutely essential and highly reliable ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
@@ -1554,7 +1554,7 @@ export const servicesData = [
           "Investors seeking higher fixed returns than bank FDs and willing to take moderate credit risk may consider Corporate FDRs as part of a diversified portfolio.",
       },
     ],
-    bgImage: "/finask/c-fdr.webp",
+    bgImage: "/finask/c-fdr.jpg",
     introText:
       "At FinAsk, we offer our specialized approach to Corporate Fixed Deposits absolutely essential and highly reliable trusted ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
@@ -2304,7 +2304,7 @@ export const servicesData = [
           "We help you build a personal corpus, manage your own investments, and plan for your future security.",
       },
     ],
-    bgImage: "/women-corner1.webp",
+    bgImage: "/women-corner1.png",
     introText:
       "At FinAsk, we offer our specialized approach to Women Corner absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
