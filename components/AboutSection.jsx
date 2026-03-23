@@ -57,7 +57,7 @@ export default function AboutSection() {
             {/* Main Image with Chamfered Effect (Matching EmpowerSection vibe) */}
             <div className="relative w-full h-[520px] overflow-hidden shadow-2xl">
               <Image
-                src="/about.webp"
+                src="/about.jpg"
                 alt="Business Meeting"
                 fill
                 className="object-cover  "

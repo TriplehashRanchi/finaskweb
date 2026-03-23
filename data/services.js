@@ -219,7 +219,7 @@ export const servicesData = [
           "Anyone with financial responsibilities, family history of serious illnesses, high-stress lifestyle, or limited savings should strongly consider this cover.",
       },
     ],
-    bgImage: "/finask/critical-illness-insurance.png",
+    bgImage: "/finask/critical-illness-insurance.jpeg",
     introText:
       "At FinAsk, we offer our specialized approach to Critical Illness Insurance absolutely essential and highly reliable trusted ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
