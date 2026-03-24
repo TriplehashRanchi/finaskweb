@@ -27,9 +27,9 @@ export default function Navbar() {
 
   const navLinkClass = `text-[15px] font-medium transition-colors duration-300 hover:${hoverColorClass} ${textColorClass}`;
 
-  // Mega Menu Container Style (Wider, Elegant, Shadow)
+  // Mega Menu Container Style (Elegant, Shadow)
   const megaMenuClass =
-    "absolute top-17  w-[860px] bg-white shadow-2xl rounded-md opacity-0 invisible translate-y-4 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-300 ease-out z-50 p-8 border border-gray-100";
+    "absolute top-20 bg-white shadow-2xl rounded-md opacity-0 invisible translate-y-4 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-300 ease-out z-50 p-8 border border-gray-100";
 
   // List Item Style with elegant typography, subtle bullets, and refined spacing
   const ListItem = ({ href, children, isSubItem, isParent }) => {
@@ -186,7 +186,7 @@ export default function Navbar() {
           </Link>
 
           {/* Insurance Mega Menu */}
-          <div className="group relative h-full flex items-center cursor-pointer">
+          <div className="group h-full flex items-center cursor-pointer">
             <span className={`${navLinkClass} flex items-center gap-1 py-4`}>
               Insurance
               <svg
@@ -204,7 +204,7 @@ export default function Navbar() {
                 <path d="m6 9 6 6 6-6" />
               </svg>
             </span>
-            <div className={megaMenuClass}>
+            <div className={`${megaMenuClass} w-[860px] left-1/2 -translate-x-1/2`}>
               <div className="grid grid-cols-3 gap-8">
                 <div>
                   <ul className="space-y-1">
@@ -253,7 +253,7 @@ export default function Navbar() {
           </div>
 
           {/* Investment Mega Menu */}
-          <div className="group relative h-full flex items-center cursor-pointer">
+          <div className="group h-full flex items-center cursor-pointer">
             <span className={`${navLinkClass} flex items-center gap-1 py-4`}>
               Investment
               <svg
@@ -271,7 +271,7 @@ export default function Navbar() {
                 <path d="m6 9 6 6 6-6" />
               </svg>
             </span>
-            <div className={megaMenuClass}>
+            <div className={`${megaMenuClass} w-[600px] left-1/2 -translate-x-1/2`}>
               <div className="grid grid-cols-2 gap-8">
                 <div>
                   <ul className="space-y-1">
@@ -324,7 +324,7 @@ export default function Navbar() {
                 <path d="m6 9 6 6 6-6" />
               </svg>
             </span>
-            <div className="absolute top-17 left-1/2 -translate-x-1/2 w-[300px] bg-white shadow-2xl rounded-md   opacity-0 invisible translate-y-4 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-300 ease-out z-50 p-8  border border-gray-100 cursor-default">
+            <div className="absolute top-18 left-1/2 -translate-x-1/2 w-[300px] bg-white shadow-2xl rounded-md opacity-0 invisible translate-y-4 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-300 ease-out z-50 p-8 border border-gray-100 cursor-default">
               <ul className="space-y-1">
                 {[
                   { name: "Trust Formation", slug: "trust-formation" },
