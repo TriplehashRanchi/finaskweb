@@ -932,6 +932,349 @@ export const servicesData = [
       consultationButton: "Get Started",
     },
   },
+  {
+    "slug": "group-personal-accident-insurance",
+    "category": "Corporate Insurance",
+    "title": "Group Personal Accident Insurance",
+    "tagline": "Financial Protection Against Accidental Risks",
+    "description": "Group Personal Accident Insurance (GPAI) is an insurance policy purchased by an employer to protect employees against financial losses caused by accidents. Under a single master policy, all employees are covered for accidental death, disability, and injury-related financial risks. Unlike health insurance, which covers medical treatment, Group Personal Accident Insurance provides direct financial compensation to employees or their families if an accident leads to death or disability. This makes GPAI an essential employee benefit for organizations across industries, especially where employees travel frequently or work in higher-risk environments.",
+    "features": [
+      {
+        "title": "Accidental Death Cover",
+        "description": "If an employee dies due to an accident, the nominee receives the full sum insured as a lump-sum payout."
+      },
+      {
+        "title": "Disability Protection",
+        "description": "Covers Permanent Total Disability (PTD), Permanent Partial Disability (PPD), and Temporary Total Disability (TTD) based on policy terms."
+      },
+      {
+        "title": "Optional Add-Ons",
+        "description": "Employers can enhance protection with accident medical expense reimbursement, ambulance charges, child education grant, and fracture cover."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What does Group Personal Accident Insurance cover?",
+        "answer": "Most policies cover accidental death, permanent total disability, permanent partial disability, temporary total disability, and optional add-ons depending on the selected plan."
+      },
+      {
+        "question": "How does Group Personal Accident Insurance work?",
+        "answer": "The employer purchases a master policy for the workforce. Employees are automatically covered from their joining date, and compensation is paid to the employee or nominee if an accident leads to death or disability."
+      },
+      {
+        "question": "Does coverage apply only at the workplace?",
+        "answer": "No. Coverage usually applies 24x7 worldwide, including accidents at work, during travel, commuting, or at home."
+      },
+      {
+        "question": "Why do companies offer Group Personal Accident Insurance?",
+        "answer": "Companies use it to protect employees against accident-related financial risks, support families in case of tragic incidents, improve employee trust and retention, and complement group health and life insurance coverage."
+      }
+    ],
+    "bgImage": "/finask/group-personal-accident-insurance.webp",
+    "introText": "At FinAsk Value, we help organizations design the right Group Personal Accident Insurance plans with comprehensive coverage, competitive premiums, and support from leading insurers.",
+    "closingText": "Secure your employees. Protect their families. Connect with our experts to explore the best Group Personal Accident Insurance solutions for your organization.",
+    "faqSection": {
+      "title": "General Questions",
+      "description": "Answers to common questions about Group Personal Accident Insurance and how it protects employees and their families.",
+      "image": "/faq.webp",
+      "consultationTitle": "Need Help Choosing the Right Accident Cover?",
+      "consultationButton": "Get Started"
+    }
+  },
+  {
+    "slug": "group-term-life-insurance",
+    "category": "Corporate Insurance",
+    "title": "Group Term Life Insurance",
+    "tagline": "Financial Protection for Your Employees’ Families",
+    "description": "Group Term Life Insurance (GTLI) is a life insurance policy purchased by an employer to provide financial protection to employees under a single master policy. In the unfortunate event of an employee’s death due to illness, accident, or natural causes, the nominee receives a lump-sum payout, ensuring financial security for the family. Unlike individual life insurance, group term life policies provide immediate coverage, usually without medical tests or lengthy documentation. This makes it one of the most valuable and affordable employee benefits for organizations.",
+    "features": [
+      {
+        "title": "Death Cover",
+        "description": "Provides financial protection in case of death due to illness, natural causes, or accidents."
+      },
+      {
+        "title": "Immediate Coverage",
+        "description": "Employees are usually covered from day one of employment without medical underwriting."
+      },
+      {
+        "title": "Flexible Coverage Models",
+        "description": "Employers can choose fixed sum assured or salary-linked cover, along with optional riders like accidental death and critical illness."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How does Group Term Life Insurance work?",
+        "answer": "It operates through a master policy issued to the employer. Employees are automatically enrolled and remain covered while employed with the organization."
+      },
+      {
+        "question": "What does Group Term Life Insurance cover?",
+        "answer": "Most plans cover death due to illness, natural causes, or accidents, often with worldwide coverage and optional riders such as accidental death benefit, critical illness cover, and permanent disability cover."
+      },
+      {
+        "question": "What are the common coverage models?",
+        "answer": "The two common models are Fixed Sum Assured, where all employees receive the same cover amount, and Salary-Linked Cover, where the cover is linked to annual CTC."
+      },
+      {
+        "question": "Why do companies offer Group Term Life Insurance?",
+        "answer": "It helps organizations protect employees’ families financially, improve employee loyalty and retention, enhance employee benefits, and demonstrate commitment to workforce well-being."
+      }
+    ],
+    "bgImage": "/finask/group-term-life-insurance.webp",
+    "introText": "At FinAsk Value, we help organizations design the right Group Term Life Insurance plans with competitive premiums, flexible coverage options, and support from leading insurers.",
+    "closingText": "Protect your employees. Secure their families’ future. Connect with our experts to explore the best Group Term Life Insurance solutions for your organization.",
+    "faqSection": {
+      "title": "General Questions",
+      "description": "Answers to common questions about Group Term Life Insurance and the benefits it offers to organizations and employees.",
+      "image": "/faq.webp",
+      "consultationTitle": "Need Help Structuring Group Life Cover?",
+      "consultationButton": "Get Started"
+    }
+  },
+  {
+    "slug": "group-health-insurance",
+    "category": "Corporate Insurance",
+    "title": "Group Health Insurance",
+    "tagline": "Protect Your Employees with Comprehensive Group Health Insurance",
+    "description": "Group Health Insurance is a health insurance policy purchased by an employer to provide medical coverage to employees and, in many cases, their family members. Instead of individual policies, a single master policy covers the entire workforce, offering affordable and comprehensive healthcare protection. For businesses, group health insurance is one of the most cost-effective employee benefits, helping attract talent, improve retention, and ensure financial protection against rising healthcare costs.",
+    "features": [
+      {
+        "title": "Hospitalisation Coverage",
+        "description": "Covers room charges, doctor fees, medicines, and treatment costs."
+      },
+      {
+        "title": "Family Protection",
+        "description": "Coverage can often be extended to spouse, children, and sometimes parents."
+      },
+      {
+        "title": "Cashless & Day-One Benefits",
+        "description": "Most plans offer cashless hospitalisation and immediate coverage, often including pre-existing conditions from day one."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How does Group Health Insurance work?",
+        "answer": "The employer purchases a master policy and employees are automatically enrolled. Coverage typically begins from the employee’s joining date."
+      },
+      {
+        "question": "What does Group Health Insurance cover?",
+        "answer": "Most policies include hospitalisation expenses, day care procedures, pre and post hospitalisation, family coverage, maternity benefits in selected plans, and modern treatments."
+      },
+      {
+        "question": "Why is Group Health Insurance beneficial for businesses?",
+        "answer": "It helps attract and retain talent, improve employee productivity and engagement, protect employees from rising medical costs, and build a stronger employer brand."
+      },
+      {
+        "question": "Are medical tests usually required?",
+        "answer": "Unlike many individual policies, medical tests are usually not required, and many plans offer day-one coverage for pre-existing conditions."
+      }
+    ],
+    "bgImage": "/finask/group-health-insurance.webp",
+    "introText": "Choosing the right corporate health insurance policy requires understanding your workforce needs, coverage requirements, and budget.",
+    "closingText": "At FinAsk Value, we help businesses compare and choose the most suitable Group Health Insurance plans from leading insurers with transparent guidance and customized solutions. Secure your employees’ health. Strengthen your organisation.",
+    "faqSection": {
+      "title": "General Questions",
+      "description": "Answers to common questions about Group Health Insurance and how it supports employee well-being and business continuity.",
+      "image": "/faq.webp",
+      "consultationTitle": "Looking for the Right Group Health Plan?",
+      "consultationButton": "Get Started"
+    }
+  },
+  {
+    "slug": "health-assistance",
+    "category": "Healthcare Assistance",
+    "title": "Health Assistance",
+    "tagline": "Access World-Class Healthcare Services at the Tap of a Button",
+    "description": "Your family’s health should never take a back seat due to a busy schedule or lack of access to medical services. Health Assistance enables you and your loved ones to access quality healthcare services from the comfort of your home. With a comprehensive range of digital healthcare solutions, you can consult doctors, schedule diagnostic tests, order medicines, and manage your health easily through a single platform. Stay proactive about your well-being and ensure your family always has access to reliable, convenient, and affordable healthcare services.",
+    "features": [
+      {
+        "title": "Doctor Teleconsultation",
+        "description": "Consult experienced doctors remotely through secure video or phone consultations."
+      },
+      {
+        "title": "Diagnostics & Pharmacy",
+        "description": "Book laboratory tests, MRI/X-ray scans, and order medicines for home delivery."
+      },
+      {
+        "title": "Wellness & Home Care",
+        "description": "Access self-care plans, nursing care, live health interactions, and gym or yoga sessions."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What is included in Health Assistance?",
+        "answer": "It can include doctor teleconsultation, laboratory tests, MRI/X-ray scans, OPD visit assistance, pharmacy delivery, self-care plans, nursing care, live health interactions, and wellness sessions."
+      },
+      {
+        "question": "Why choose Health Assistance?",
+        "answer": "It offers convenient access to healthcare professionals and services, helping families manage health proactively from one platform."
+      },
+      {
+        "question": "Is it useful only during illness?",
+        "answer": "No. It also supports preventive care and wellness through self-care plans, expert sessions, and fitness programs."
+      },
+      {
+        "question": "Who can benefit from Health Assistance plans?",
+        "answer": "Individuals and families looking for convenient, affordable, and accessible healthcare support can benefit from these plans."
+      }
+    ],
+    "bgImage": "/finask/health-assistance.webp",
+    "introText": "Modern lifestyles often make it difficult to prioritize health. Health Assistance helps bridge that gap with quick and convenient access to healthcare professionals and services.",
+    "closingText": "With Health Assistance, quality healthcare is always within reach. Stay healthy. Stay protected. Stay empowered.",
+    "faqSection": {
+      "title": "General Questions",
+      "description": "Answers to common questions about Health Assistance services and how they support your family’s healthcare needs.",
+      "image": "/faq.webp",
+      "consultationTitle": "Need Convenient Healthcare Support?",
+      "consultationButton": "Get Started"
+    }
+  },
+  {
+    "slug": "roadside-assistance",
+    "category": "Motor Assistance",
+    "title": "Roadside Assistance (RSA)",
+    "tagline": "24x7 Support When the Unexpected Happens on the Road",
+    "description": "Unexpected situations can occur anytime while you’re on the road. Even well-maintained vehicles can experience breakdowns, accidents, tyre punctures, or battery failures despite taking all precautions. Roadside Assistance (RSA) ensures that help is always available when you need it the most. Whether you are stuck due to a mechanical issue, a flat tyre, or misplaced car keys, roadside assistance provides quick support and emergency services wherever you are, anytime. With 24x7 Roadside Assistance, you can drive with confidence knowing that professional help is just a call away.",
+    "features": [
+      {
+        "title": "24x7 Emergency Support",
+        "description": "Round-the-clock assistance anytime, anywhere during breakdowns or emergencies."
+      },
+      {
+        "title": "On-Road Services",
+        "description": "Includes flat tyre repair or replacement, battery jumpstart, lost key assistance, and towing support."
+      },
+      {
+        "title": "Travel Convenience",
+        "description": "Provides additional support such as accommodation assistance if breakdown-related repairs take extended time."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Why do I need Roadside Assistance?",
+        "answer": "Driving emergencies can occur without warning. A Roadside Assistance plan ensures immediate support and practical solutions during such situations."
+      },
+      {
+        "question": "What services are usually included?",
+        "answer": "Common services include 24x7 roadside support, lost key replacement assistance, flat tyre repair or replacement, battery jumpstart, towing and recovery, and accommodation assistance."
+      },
+      {
+        "question": "Does it help only during major accidents?",
+        "answer": "No. It also helps in common situations like battery failures, punctures, misplaced keys, and mechanical breakdowns."
+      },
+      {
+        "question": "What is the main benefit of RSA?",
+        "answer": "The biggest benefit is peace of mind, knowing professional help is available quickly when you are stranded on the road."
+      }
+    ],
+    "bgImage": "/finask/roadside-assistance.webp",
+    "introText": "Roadside Assistance is designed to help you handle unexpected vehicle emergencies quickly and efficiently.",
+    "closingText": "Whether it's a flat tyre, battery issue, lost keys, or vehicle breakdown, help is always available to get you back on the road safely. Stay prepared. Stay protected. Drive with confidence.",
+    "faqSection": {
+      "title": "General Questions",
+      "description": "Answers to common questions about Roadside Assistance services and how they protect you during on-road emergencies.",
+      "image": "/faq.webp",
+      "consultationTitle": "Need 24x7 Roadside Support?",
+      "consultationButton": "Get Started"
+    }
+  },
+  {
+    "slug": "cycle-protection-bicycle-insurance",
+    "category": "Lifestyle Protection",
+    "title": "Cycle Protection / Bicycle Insurance",
+    "tagline": "Protect Your Ride and Ride with Peace of Mind",
+    "description": "Your bicycle is not just a ride — it’s an investment in your health, lifestyle, and daily commute. With the rising cases of cycle theft, accidental damage, and unexpected losses, having Cycle Protection (Bicycle Insurance) is becoming increasingly important. Cycle Protection provides comprehensive coverage for your bicycle against unforeseen incidents such as theft, damage, or loss. Whether you use your bicycle for fitness, commuting, adventure rides, or professional cycling, this protection ensures that you can ride worry-free.",
+    "features": [
+      {
+        "title": "Theft Protection",
+        "description": "Coverage in case your bicycle is stolen."
+      },
+      {
+        "title": "Accidental Damage Cover",
+        "description": "Protection against damage caused by accidents or unforeseen incidents."
+      },
+      {
+        "title": "Emergency Assistance",
+        "description": "Includes support services such as health assistance, doctor referral, emergency message relay, police station locator, and ambulance referral."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Why do I need Cycle Protection?",
+        "answer": "It protects your bicycle against common risks like theft, accidental damage, and unexpected loss while helping you avoid repair or replacement costs."
+      },
+      {
+        "question": "Who should consider Bicycle Insurance?",
+        "answer": "Daily commuters, fitness enthusiasts, adventure riders, and professional cyclists can all benefit from cycle protection."
+      },
+      {
+        "question": "Does it include support beyond bicycle damage?",
+        "answer": "Yes. Some plans also provide emergency assistance such as health support, doctor referral, emergency message relay, police station locator, and ambulance referral."
+      },
+      {
+        "question": "What is the biggest advantage of Cycle Protection?",
+        "answer": "It gives you financial security and peace of mind so you can continue riding confidently without worrying about unexpected losses."
+      }
+    ],
+    "bgImage": "/finask/cycle-protection.webp",
+    "introText": "With the right bicycle protection plan, you can avoid unexpected repair or replacement costs and continue enjoying your cycling journey with confidence.",
+    "closingText": "Whether you are a daily commuter, fitness enthusiast, or cycling lover, Cycle Protection ensures your bicycle stays secure wherever you go. Secure your bicycle. Ride freely. Stay protected.",
+    "faqSection": {
+      "title": "General Questions",
+      "description": "Answers to common questions about Cycle Protection and how it safeguards your bicycle and your peace of mind.",
+      "image": "/faq.webp",
+      "consultationTitle": "Need Protection for Your Bicycle?",
+      "consultationButton": "Get Started"
+    }
+  },
+  {
+    "slug": "pet-insurance",
+    "category": "Pet Insurance",
+    "title": "Pet Insurance",
+    "tagline": "Because They Are Family",
+    "description": "Our pets are more than companions — they are family. They bring joy, comfort, and unconditional love into our lives every single day. Just like any other family member, they deserve the best care and protection. Unexpected illnesses, accidents, or medical emergencies can happen at any time, and veterinary treatments can sometimes be expensive. Pet Insurance helps pet parents manage these unforeseen medical expenses, ensuring that beloved dogs and cats receive the best possible treatment without financial stress.",
+    "features": [
+      {
+        "title": "Illness & Accident Cover",
+        "description": "Helps cover unexpected illnesses, accidents, and medical emergencies affecting your pets."
+      },
+      {
+        "title": "Veterinary Expense Support",
+        "description": "Provides financial support for veterinary treatments and hospitalization."
+      },
+      {
+        "title": "Peace of Mind",
+        "description": "Ensures timely medical care for your pets without the burden of sudden high expenses."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Why should I consider Pet Insurance?",
+        "answer": "It helps manage unforeseen medical expenses for dogs and cats, making it easier to provide quality treatment during illness or emergencies."
+      },
+      {
+        "question": "What does Pet Insurance help with?",
+        "answer": "It supports coverage for unexpected illnesses and accidents, veterinary treatments, hospitalization, and high medical expenses."
+      },
+      {
+        "question": "Who is Pet Insurance for?",
+        "answer": "It is ideal for responsible pet parents who want financial protection and peace of mind while caring for their pets."
+      },
+      {
+        "question": "What is the biggest benefit of Pet Insurance?",
+        "answer": "It allows you to focus on your pet’s health, happiness, and recovery instead of worrying about the financial stress of treatment."
+      }
+    ],
+    "bgImage": "/finask/pet-insurance.webp",
+    "introText": "At FinAsk Value, we understand that pets are an important part of the family. We help you explore suitable pet insurance solutions for dogs and cats through our insurance distribution platform.",
+    "closingText": "Because protecting your family also means protecting those who love you unconditionally. Secure your pet’s health. Protect your peace of mind.",
+    "faqSection": {
+      "title": "General Questions",
+      "description": "Answers to common questions about Pet Insurance and how it supports the health and well-being of your pets.",
+      "image": "/faq.webp",
+      "consultationTitle": "Need the Right Pet Insurance Plan?",
+      "consultationButton": "Get Started"
+    }
+  },
 
   // --- INVESTMENTS ---
 
@@ -1797,6 +2140,55 @@ export const servicesData = [
       consultationButton: "Get Started",
     },
   },
+  {
+    "slug": "loan-against-securities",
+    "category": "Loans",
+    "title": "Loan Against Securities (Mutual Funds & Shares)",
+    "tagline": "Unlock Liquidity Without Selling Your Investments",
+    "description": "Your investments in mutual funds and shares are valuable financial assets. Instead of selling them when you need funds, you can pledge them and access instant liquidity through a Loan Against Securities (LAS). With Loan Against Mutual Funds (LAMF) and Loan Against Shares, you can meet your short-term financial needs while your investments remain invested and continue to grow. Whether you need funds for business expansion, personal needs, emergencies, or financial planning, Loan Against Securities offers a smart and cost-effective borrowing solution.",
+    "features": [
+      {
+        "title": "Instant Liquidity",
+        "description": "Access funds quickly by leveraging your investments without lengthy loan processes."
+      },
+      {
+        "title": "Keep Investments Intact",
+        "description": "Your mutual funds and shares remain invested, allowing you to benefit from potential market growth."
+      },
+      {
+        "title": "Lower Borrowing Cost",
+        "description": "Loans against securities often come with lower interest rates than personal loans or credit cards."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What is Loan Against Securities (LAS)?",
+        "answer": "It is a facility that allows investors to pledge financial investments such as mutual funds or shares as collateral to obtain a loan from a financial institution."
+      },
+      {
+        "question": "Why choose LAS instead of selling investments?",
+        "answer": "LAS helps you avoid redeeming investments, capital gains tax, and the loss of future growth while still giving you access to funds."
+      },
+      {
+        "question": "Can I use the loan flexibly?",
+        "answer": "Yes. Many LAS facilities work like an overdraft, allowing you to withdraw funds as needed and pay interest only on the amount utilized."
+      },
+      {
+        "question": "Who is this suitable for?",
+        "answer": "It is ideal for investors who need short-term liquidity for business expansion, personal needs, emergencies, or financial planning without disrupting long-term wealth creation."
+      }
+    ],
+    "bgImage": "/finask/loan-against-securities.webp",
+    "introText": "Loan Against Securities is a smart way to unlock funds while keeping your long-term investment strategy intact.",
+    "closingText": "Access liquidity without selling your portfolio. Explore a cost-effective borrowing solution backed by your mutual funds and shares.",
+    "faqSection": {
+      "title": "General Questions",
+      "description": "Answers to common questions about Loan Against Securities, its benefits, and how it works.",
+      "image": "/faq.webp",
+      "consultationTitle": "Need Funds Without Selling Investments?",
+      "consultationButton": "Get Started"
+    }
+  },
 
   // --- Services ---
 
@@ -2086,7 +2478,6 @@ export const servicesData = [
       consultationButton: "Get Started",
     },
   },
-
   {
     slug: "financial-literacy",
     category: "Empowerment",
