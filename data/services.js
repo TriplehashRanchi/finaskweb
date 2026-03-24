@@ -1068,7 +1068,7 @@ export const servicesData = [
         "answer": "Unlike many individual policies, medical tests are usually not required, and many plans offer day-one coverage for pre-existing conditions."
       }
     ],
-    "bgImage": "/finask/group-health-insurance.jpg",
+    "bgImage": "/finask/group-health-insurance.webp",
     "introText": "Choosing the right corporate health insurance policy requires understanding your workforce needs, coverage requirements, and budget.",
     "closingText": "At FinAsk Value, we help businesses compare and choose the most suitable Group Health Insurance plans from leading insurers with transparent guidance and customized solutions. Secure your employees’ health. Strengthen your organisation.",
     "faqSection": {
@@ -1180,7 +1180,7 @@ export const servicesData = [
   {
     "slug": "cycle-protection-bicycle-insurance",
     "category": "Lifestyle Protection",
-    "title": "Cycle Protection / Bicycle Insurance",
+    "title": "Cycle Protection",
     "tagline": "Protect Your Ride and Ride with Peace of Mind",
     "description": "Your bicycle is not just a ride — it’s an investment in your health, lifestyle, and daily commute. With the rising cases of cycle theft, accidental damage, and unexpected losses, having Cycle Protection (Bicycle Insurance) is becoming increasingly important. Cycle Protection provides comprehensive coverage for your bicycle against unforeseen incidents such as theft, damage, or loss. Whether you use your bicycle for fitness, commuting, adventure rides, or professional cycling, this protection ensures that you can ride worry-free.",
     "features": [
@@ -2143,7 +2143,7 @@ export const servicesData = [
   {
     "slug": "loan-against-securities",
     "category": "Loans",
-    "title": "Loan Against Securities (Mutual Funds & Shares)",
+    "title": "Loan Against Securities",
     "tagline": "Unlock Liquidity Without Selling Your Investments",
     "description": "Your investments in mutual funds and shares are valuable financial assets. Instead of selling them when you need funds, you can pledge them and access instant liquidity through a Loan Against Securities (LAS). With Loan Against Mutual Funds (LAMF) and Loan Against Shares, you can meet your short-term financial needs while your investments remain invested and continue to grow. Whether you need funds for business expansion, personal needs, emergencies, or financial planning, Loan Against Securities offers a smart and cost-effective borrowing solution.",
     "features": [
