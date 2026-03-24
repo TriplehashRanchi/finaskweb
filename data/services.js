@@ -1068,7 +1068,7 @@ export const servicesData = [
         "answer": "Unlike many individual policies, medical tests are usually not required, and many plans offer day-one coverage for pre-existing conditions."
       }
     ],
-    "bgImage": "/finask/group-health-insurance.webp",
+    "bgImage": "/finask/group-health-insurance.jpg",
     "introText": "Choosing the right corporate health insurance policy requires understanding your workforce needs, coverage requirements, and budget.",
     "closingText": "At FinAsk Value, we help businesses compare and choose the most suitable Group Health Insurance plans from leading insurers with transparent guidance and customized solutions. Secure your employees’ health. Strengthen your organisation.",
     "faqSection": {
@@ -1166,7 +1166,7 @@ export const servicesData = [
         "answer": "The biggest benefit is peace of mind, knowing professional help is available quickly when you are stranded on the road."
       }
     ],
-    "bgImage": "/finask/roadside-assistance.webp",
+    "bgImage": "/finask/roadside-assistance.jpg",
     "introText": "Roadside Assistance is designed to help you handle unexpected vehicle emergencies quickly and efficiently.",
     "closingText": "Whether it's a flat tyre, battery issue, lost keys, or vehicle breakdown, help is always available to get you back on the road safely. Stay prepared. Stay protected. Drive with confidence.",
     "faqSection": {
