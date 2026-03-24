@@ -120,7 +120,7 @@ export default function Navbar() {
     { name: "Health Assistance", slug: "health-assistance" },
     { name: "Roadside Assistance", slug: "roadside-assistance" },
     {
-      name: "Lifestyle Protection",
+      name: "Cycle Protection",
       slug: "cycle-protection-bicycle-insurance",
     },
     { name: "Pet Insurance", slug: "pet-insurance" },
