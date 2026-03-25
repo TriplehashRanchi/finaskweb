@@ -27,7 +27,7 @@ export default function PurposeSection() {
                         <div className="mb-8">
                            
                             <h2 className="font-serif text-4xl md:text-3xl font-bold text-[#F5F5F5] mb-6 leading-tight">
-                                Purpose Beyond <span className="italic text-[#DAA434]">Profit</span>
+                                Purpose Beyond <span className=" text-[#DAA434]">Profit</span>
                             </h2>
                             
                      
@@ -37,13 +37,13 @@ export default function PurposeSection() {
                         </div>
 
                         {/* User Content: Concise Paragraphs */}
-                        <div className=" text-md text-gray-400 leading-relaxed">
+                        <div className=" text-lg text-gray-400 leading-relaxed text-justify">
                             <p className="mb-4">
                                 <strong className="text-[#F5F5F5] font-medium ">Financial Literacy & Legacy:</strong> Through workshops and our "1% Pledge", we empower the next generation with the knowledge to build lasting legacies. We prepare heirs not just to inherit wealth, but to steward values, philanthropy, and family unity.
                             </p>
                             <div className="w-full h-px bg-gray-100/80" />
                             <p className="mt-4">
-                                <strong className="text-[#F5F5F5] font-medium">Sustainable Growth & Community:</strong> We invest in businesses and initiatives that prioritize ethical practices and build a better future for all. Success is shared—we actively participate in and contribute to the local ecosystems where we operate.
+                                <strong className="text-[#F5F5F5] font-medium">Sustainable Growth & Community:</strong> We invest in businesses and initiatives that prioritize ethical practices and build a better future for all. Success is shared we actively participate in and contribute to the local ecosystems where we operate.
                             </p>
                         </div>
 

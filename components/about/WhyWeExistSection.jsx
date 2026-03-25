@@ -4,6 +4,20 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default function WhyWeExistSection() {
+  const image = [
+    {
+      src: "/why1.png",
+      alt: "Team Working",
+    },
+    {
+      src: "/why2.png",
+      alt: "Team Working",
+    },
+    {
+      src: "/why3.png",
+      alt: "Team Working",
+    },
+  ];
   return (
     <section
       id="why-we-exist"
@@ -14,7 +28,7 @@ export default function WhyWeExistSection() {
           {/* LEFT COLUMN: Large Stats */}
           <div className="w-full lg:w-[50%] flex flex-col relative  py-10">
             {/* Top Label */}
-            <h5 className="text-[#00394E] font-bold text-sm tracking-widest uppercase mb-2">
+            <h5 className="text-[#00394E] font-bold text-2xl tracking-widest uppercase">
               Why we exist ?
             </h5>
 
@@ -31,18 +45,17 @@ export default function WhyWeExistSection() {
             {/* Clients / Reviews */}
             <div className="flex items-center gap-6 mt-8 pl-2">
               <div className="flex -space-x-4">
-                {[1, 2, 3].map((i) => (
+                {image.map((i) => (
                   <div
                     key={i}
                     className="w-12 h-12 rounded-full border-2 border-white bg-gray-200 relative overflow-hidden"
                   >
                     <Image
-                      src={`/testimonial-michael.webp`} // Using placeholder/existing image
-                      alt="Client"
+                      src={i.src} // Using placeholder/existing image
+                      alt={i.alt}
                       fill
                       className="object-cover"
                     />
-                    
                   </div>
                 ))}
               </div>
@@ -62,9 +75,9 @@ export default function WhyWeExistSection() {
 
           {/* RIGHT COLUMN: Content & Image */}
           <div className="w-full lg:w-[60%] flex flex-col gap-4  py-10">
-            <p className="  text-gray-600 leading-relaxed ">
+            <p className="  text-gray-600 leading-relaxed text-justify">
               We founded FinAsk on a simple philosophy:
-              <strong className="text-[#00394E] block my-4 leading-[1.3]">
+              <strong className="text-[#00394E] block my-4 text-lg leading-[1.3]">
                 That every family deserves to approach life’s most meaningful
                 moments unburdened by financial anxiety.
               </strong>
@@ -89,8 +102,7 @@ export default function WhyWeExistSection() {
                 fill
                 className="object-cover transition-transform duration-700 group-hover:scale-105"
               />
-                            <div className="absolute inset-0 bg-gradient-to-tr from-[#001F2B]/40 to-transparent pointer-events-none"></div>
-
+              <div className="absolute inset-0 bg-gradient-to-tr from-[#001F2B]/40 to-transparent pointer-events-none"></div>
             </div>
           </div>
         </div>

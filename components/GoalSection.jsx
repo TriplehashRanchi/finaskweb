@@ -11,7 +11,7 @@ const goals = [
   { id: 4, title: "Dream Holiday", image: "/goal4.webp", },
   { id: 5, title: "Buying a Home", image: "/goal5.webp",  },
   { id: 6, title: "Child Education", image: "/goal6.webp",  },
-  { id: 7, title: "Philanthropy Goals", image: "/goal7.webp",   }
+  { id: 7, title: "Philanthropic Goals", image: "/goal7.png",   }
 ];
 
 // Duplicate the array to create a seamless loop

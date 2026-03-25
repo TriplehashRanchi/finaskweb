@@ -13,7 +13,7 @@ export default function EthosSection() {
         <div className="w-full lg:w-[60%] px-6 md:px-16 lg:px-24 py-12 flex flex-col justify-center">
           {/* Intro Text */}
           <div className="mb-8">
-            <p className="text-lg  text-[#00394E] font-semibold leading-[1.4] ">
+            <p className="text-lg  text-[#00394E] font-semibold leading-[1.4] text-justify ">
               <strong className="text-[#00394E] font-bold">
                 Wealth is not a balance sheet.
               </strong>{" "}
@@ -22,7 +22,7 @@ export default function EthosSection() {
               of knowing, the quiet power of being prepared. At{" "}
               <span className="text-[#00394E] font-bold">FinAsk</span>, we
               believe that wealth is not just grown. It is stewarded with care,
-              with clarity, and with character.
+              with clarity and with character.
             </p>
           </div>
 
@@ -34,7 +34,7 @@ export default function EthosSection() {
               <h3 className="font-serif text-3xl text-[#00394E]">The Belief</h3>
             </div>
             <div className="w-full md:w-2/3">
-              <p className="text-gray-600 text-base leading-relaxed">
+              <p className="text-gray-600 text-base leading-relaxed text-justify">
                 FinAsk was founded on a deeply personal belief: that no family
                 should suffer because they didn’t know how to plan. Built in
                 India. Designed for lives that dream bigger. Our clients are not
@@ -53,7 +53,7 @@ export default function EthosSection() {
               </h3>
             </div>
             <div className="w-full md:w-2/3">
-              <p className="text-gray-600 text-base leading-relaxed">
+              <p className="text-gray-600 text-base leading-relaxed text-justify">
                 What sets us apart is our role as listeners first. From
                 goal-based investments to tax-efficient structures, we partner
                 with people not just for portfolios, but for purpose. Because

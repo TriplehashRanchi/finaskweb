@@ -73,7 +73,7 @@ export default function Footer() {
                   <span className="text-white font-medium">CIN Number:</span>{" "}
                   U67190DL2020PTC375119
                 </p>
-                <p>
+                {/* <p>
                   <span className="text-white font-medium">
                     BSE Authorised Person:
                   </span>{" "}
@@ -84,14 +84,14 @@ export default function Footer() {
                     NSE Authorised Person:
                   </span>{" "}
                   AP3086049783
-                </p>
+                </p> */}
               </div>
             </div>
           </div>
 
           {/* Column 2: Useful Links */}
           <div className="lg:col-span-3">
-            <h3 className="text-lg font-bold mb-2">Useful Links</h3>
+            <h3 className="text-lg font-bold mb-2">Links</h3>
             <div className="flex gap-2 mb-8">
               <div className="w-12 h-1 bg-white/20 rounded-full"></div>
               <div className="w-4 h-1 bg-white/20 rounded-full"></div>
@@ -144,7 +144,7 @@ export default function Footer() {
           </div>
 
           <div className="lg:col-span-3">
-            <h3 className="text-xl font-bold mb-2">Contact Us</h3>
+            <h3 className="text-lg font-bold mb-2">Contact Us</h3>
             <div className="flex gap-2 mb-8">
               <div className="w-12 h-1 bg-white/20 rounded-full"></div>
               <div className="w-4 h-1 bg-white/20 rounded-full"></div>

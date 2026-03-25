@@ -77,8 +77,8 @@ export default function ServiceContent({ service, hideFaq = false }) {
                 {/* Soft White BG */}
                 {getIcon(idx)}
               </div>
-              <div>
-                <h3 className="font-serif text-xl font-bold text-[#00394E] mb-2">
+              <div className=" ">
+                <h3 className="font-serif text-xl font-bold text-[#00394E] mb-1">
                   {" "}
                   {/* Deep Teal */}
                   {feature.title}
@@ -140,19 +140,14 @@ export default function ServiceContent({ service, hideFaq = false }) {
 
             {/* Right Column: FAQ Accordion */}
             <div className="w-full lg:w-1/2 pt-4">
-              <span className="text-[#DAA434] font-bold tracking-widest text-sm uppercase mb-3 block">
-                FAQ
-              </span>{" "}
+             
               {/* Warm Mustard Label */}
               <h2 className="font-serif text-3xl font-bold text-[#00394E] mb-4">
                 {" "}
                 {/* Deep Teal Heading */}
-                {service.faqSection?.title || "General Question"}
+                Frequently Asked Questions
               </h2>
-              <p className="text-slate-600 mb-8 leading-[1.2]">
-                {service.faqSection?.description ||
-                  "Answers to common questions about our services."}
-              </p>
+            
               <div className="space-y-4">
                 {service.faq.map((item, idx) => (
                   <div
@@ -185,7 +180,7 @@ export default function ServiceContent({ service, hideFaq = false }) {
                           : "max-h-0 opacity-0"
                       }`}
                     >
-                      <div className="p-5 pt-0 text-slate-600 text-sm leading-relaxed border-t border-slate-200/50 mt-2">
+                      <div className="p-5 pt-0  text-slate-600 text-md leading-normal border-t border-slate-200/50 mt-2">
                         {item.answer}
                       </div>
                     </div>

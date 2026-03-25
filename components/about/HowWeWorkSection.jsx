@@ -80,10 +80,10 @@ export default function HowWeWorkSection() {
           <div className="flex flex-col md:flex-row items-center justify-between   relative group">
             <div className="w-full md:w-[45%] text-right pr-0 md:pr-12 mb-8 md:mb-0 order-2 md:order-1">
            
-              <h4 className="text-lg font-serif font-bold text-[#DAA434] mt-6 mb-2">
+              <h4 className="text-2xl font-serif font-bold text-[#DAA434] mt-6 mb-2">
                 A Partnership Across Generations
               </h4>
-              <p className="text-gray-300 leading-relaxed font-light text-sm">
+              <p className="text-gray-300 leading-relaxed font-light text-md">
                 Over the years, we’ve quietly stood beside families as they
                 navigated joyous occasions and life’s inevitable tests. Because
                 at FinAsk, success is not about accounts — it's about lives
