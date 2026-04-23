@@ -128,6 +128,7 @@ export default function Navbar() {
 
   const investmentItems = [
     { name: "Mutual Funds", slug: "mutual-funds" },
+
     { name: "Bonds ", slug: "bonds" },
     { name: "Portfolio Management Services", slug: "pms" },
     { name: "Alternative Investment Funds", slug: "aifs" },
@@ -138,6 +139,7 @@ export default function Navbar() {
       name: "Fractional Commercial Real Estate",
       slug: "fractional-commercial-real-estate",
     },
+        { name: "Step-Up SIP", slug: "set-up-sip" },
     { name: "P2P Lending", slug: "p2p-lending" },
     { name: "Alternative Fixed Income", slug: "alternative-fixed-income" },
     { name: "Corporate FDRs", slug: "corporate-fdrs" },
@@ -146,6 +148,7 @@ export default function Navbar() {
     { name: "National Pension System", slug: "nps" },
     { name: "Stock & Broking", slug: "stock-broking" },
     { name: "Loan Against Securities", slug: "loan-against-securities" },
+    
   ];
 
   return (
@@ -275,7 +278,7 @@ export default function Navbar() {
               <div className="grid grid-cols-2 gap-8">
                 <div>
                   <ul className="space-y-1">
-                    {investmentItems.slice(0, 8).map((item) => (
+                    {investmentItems.slice(0, 9).map((item) => (
                       <ListItem
                         key={item.slug}
                         href={`/services/${item.slug}`}
@@ -289,7 +292,7 @@ export default function Navbar() {
                 </div>
                 <div>
                   <ul className="space-y-1">
-                    {investmentItems.slice(8).map((item) => (
+                    {investmentItems.slice(9).map((item) => (
                       <ListItem
                         key={item.slug}
                         href={`/services/${item.slug}`}
