@@ -86,7 +86,7 @@ export default function HowWeWorkSection() {
               <p className="text-gray-300 leading-relaxed font-light text-md">
                 Over the years, we’ve quietly stood beside families as they
                 navigated joyous occasions and life’s inevitable tests. Because
-                at FinAsk, success is not about accounts — it's about lives
+                Finask Value Value, success is not about accounts — it's about lives
                 continuing seamlessly.
               </p>
             </div>

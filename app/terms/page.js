@@ -13,13 +13,13 @@ export default function TermsAndConditions() {
                 By accessing or using this website, you agree to be bound by these Terms & Conditions, along with our Privacy Policy and Disclaimer. If you do not agree, please discontinue use of this website.
             </p>
             <p>
-                In this document, “FinAsk Value”, “we”, “us”, or “our” refers to FinAsk Value, a financial advisory and financial product distribution firm. “You” refers to any visitor, user, client, or prospective client.
+                In this document, “Finask Value”, “we”, “us”, or “our” refers to Finask Value, a financial advisory and financial product distribution firm. “You” refers to any visitor, user, client, or prospective client.
             </p>
 
             <section>
                 <h2 className="text-2xl font-bold font-serif mb-4 text-brand-gold">1. Our Role & Regulatory Position</h2>
                 <ul className="list-disc pl-5 space-y-2">
-                    <li>FinAsk Value operates primarily as a Financial Advisor and Financial Product Distributor.</li>
+                    <li>Finask Value operates primarily as a Financial Advisor and Financial Product Distributor.</li>
                     <li>We assist clients in understanding financial products and making informed financial decisions.</li>
                     <li>We distribute mutual funds under a valid AMFI Registration Number (ARN).</li>
                     <li>We distribute insurance products and other financial instruments through empanelment with regulated financial institutions.</li>
@@ -89,7 +89,7 @@ export default function TermsAndConditions() {
             <section>
                 <h2 className="text-2xl font-bold font-serif mb-4 text-brand-gold">7. Intellectual Property</h2>
                 <ul className="list-disc pl-5 space-y-2">
-                    <li>All website content, branding, graphics, materials, and intellectual assets are the property of FinAsk Value.</li>
+                    <li>All website content, branding, graphics, materials, and intellectual assets are the property of Finask Value.</li>
                     <li>You may use the content for personal, non-commercial purposes only.</li>
                 </ul>
             </section>
@@ -108,7 +108,7 @@ export default function TermsAndConditions() {
             
             <section>
                 <h2 className="text-2xl font-bold font-serif mb-4 text-brand-gold">9. Limitation of Liability</h2>
-                <p className="mb-2">FinAsk Value shall not be liable for:</p>
+                <p className="mb-2">Finask Value shall not be liable for:</p>
                 <ul className="list-disc pl-5 space-y-2">
                     <li>Market losses</li>
                     <li>NAV fluctuations</li>

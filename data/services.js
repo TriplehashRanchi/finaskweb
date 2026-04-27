@@ -6,7 +6,7 @@ export const servicesData = [
     title: "Health Insurance",
     tagline: "So your wellbeing remains untouched by financial anxiety.",
     description:
-      "Good health underpins every other joy — from milestones celebrated to simple everyday contentment. Yet the rising intricacies and costs of medical care can quickly erode even the most robust fortunes if left unguarded.\n\nAt FinAsk, we help you find discreet, sophisticated health coverage that stands silently by your side. Whether for your aging parents, a globe-trotting lifestyle, or simply to insulate your wealth from life’s medical surprises — we curate solutions that protect both your family’s wellbeing and your long-term aspirations.",
+      "Good health underpins every other joy — from milestones celebrated to simple everyday contentment. Yet the rising intricacies and costs of medical care can quickly erode even the most robust fortunes if left unguarded.\n\nFinask Value, we help you find discreet, sophisticated health coverage that stands silently by your side. Whether for your aging parents, a globe-trotting lifestyle, or simply to insulate your wealth from life’s medical surprises — we curate solutions that protect both your family’s wellbeing and your long-term aspirations.",
     features: [
       {
         title: "Comprehensive Coverage",
@@ -46,7 +46,7 @@ export const servicesData = [
     ],
     bgImage: "/finask/health.jpg",
     introText:
-      "At FinAsk, we offer our specialized approach to Health Insurance absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
+      "Finask Value, we offer our specialized approach to Health Insurance absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
       "Our commitment to excellence in Health Insurance truly reliable and deeply proven ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
@@ -102,7 +102,7 @@ export const servicesData = [
     ],
     bgImage: "/finask/super.webp",
     introText:
-      "At FinAsk, we offer our specialized approach to Super Top-Up absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
+      "Finask Value, we offer our specialized approach to Super Top-Up absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
       "Our commitment to excellence in Super Top-Up truly reliable and deeply proven ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
@@ -162,7 +162,7 @@ export const servicesData = [
     ],
     bgImage: "/finask/accident.webp",
     introText:
-      "At FinAsk, we offer our specialized approach to Personal Accident Insurance absolutely essential and highly reliable trusted ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
+      "Finask Value, we offer our specialized approach to Personal Accident Insurance absolutely essential and highly reliable trusted ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
       "Our commitment to excellence in Personal Accident Insurance truly reliable and deeply ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
@@ -221,7 +221,7 @@ export const servicesData = [
     ],
     bgImage: "/finask/critical-illness-insurance.jpeg",
     introText:
-      "At FinAsk, we offer our specialized approach to Critical Illness Insurance absolutely essential and highly reliable trusted ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
+      "Finask Value, we offer our specialized approach to Critical Illness Insurance absolutely essential and highly reliable trusted ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
       "Our commitment to excellence in Critical Illness Insurance truly reliable and deeply ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
@@ -273,7 +273,7 @@ export const servicesData = [
     ],
     bgImage: "/finask/life.jpg",
     introText:
-      "At FinAsk, we offer our specialized approach to Life Insurance absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
+      "Finask Value, we offer our specialized approach to Life Insurance absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
       "Our commitment to excellence in Life Insurance truly reliable and deeply proven ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
@@ -291,7 +291,7 @@ export const servicesData = [
     title: "Term Insurance",
     tagline: "So your family remains protected through life's uncertainties.",
     description:
-      "Life’s certainties are few, but your family’s stability should never be one of them. Term insurance creates a strong financial foundation, ensuring loved ones can continue their lives with dignity, education, and independence even in your absence. At FinAsk, we help you choose thoughtfully structured cover that matches your responsibilities, future liabilities, and income goals. Whether protecting young children, supporting a spouse, or securing aging parents — we curate plans that preserve security when it matters most for generations ahead confidently.",
+      "Life’s certainties are few, but your family’s stability should never be one of them. Term insurance creates a strong financial foundation, ensuring loved ones can continue their lives with dignity, education, and independence even in your absence. Finask Value, we help you choose thoughtfully structured cover that matches your responsibilities, future liabilities, and income goals. Whether protecting young children, supporting a spouse, or securing aging parents — we curate plans that preserve security when it matters most for generations ahead confidently.",
     features: [
       {
         title: "High Life Cover",
@@ -334,7 +334,7 @@ export const servicesData = [
     ],
     bgImage: "/finask/term.png",
     introText:
-      "At FinAsk, we offer our specialized approach to Term Insurance absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
+      "Finask Value, we offer our specialized approach to Term Insurance absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
       "Our commitment to excellence in Term Insurance truly reliable and deeply proven ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
@@ -352,7 +352,7 @@ export const servicesData = [
     title: "ULIP Insurance",
     tagline: "So protection and wealth creation can grow together.",
     description:
-      "For those who value protection alongside disciplined wealth creation, ULIP insurance offers a refined dual advantage. It combines life cover with market-linked investing, allowing your money to participate in long-term growth while serving broader family goals. At FinAsk, we help you evaluate funds, risk appetite, policy horizons, and charges with clarity, so every allocation supports both protection and performance. Whether planning children’s futures, retirement goals, or legacy creation — we curate solutions designed to build wealth with purpose over time elegantly.",
+      "For those who value protection alongside disciplined wealth creation, ULIP insurance offers a refined dual advantage. It combines life cover with market-linked investing, allowing your money to participate in long-term growth while serving broader family goals. Finask Value, we help you evaluate funds, risk appetite, policy horizons, and charges with clarity, so every allocation supports both protection and performance. Whether planning children’s futures, retirement goals, or legacy creation — we curate solutions designed to build wealth with purpose over time elegantly.",
     features: [
       {
         title: "Life Cover + Investment",
@@ -394,7 +394,7 @@ export const servicesData = [
     ],
     bgImage: "/finask/ulip.png",
     introText:
-      "At FinAsk, we offer our specialized approach to ULIP Insurance absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
+      "Finask Value, we offer our specialized approach to ULIP Insurance absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
       "Our commitment to excellence in ULIP Insurance truly reliable and deeply proven ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
@@ -412,7 +412,7 @@ export const servicesData = [
     title: "Traditional / Guaranteed Savings products",
     tagline: "So certainty quietly supports your future financial milestones.",
     description:
-      "When predictability matters more than volatility, traditional savings and guaranteed products offer reassuring financial certainty. They are designed for those who value steady accumulation, defined benefits, and disciplined planning over market fluctuations. At FinAsk, we help you identify structures that align with education goals, retirement income, legacy intentions, or planned milestones with confidence. Whether you seek assured payouts, capital preservation, or dependable long-term savings — we curate solutions that bring stability, visibility, and peace to your financial journey for years ahead.",
+      "When predictability matters more than volatility, traditional savings and guaranteed products offer reassuring financial certainty. They are designed for those who value steady accumulation, defined benefits, and disciplined planning over market fluctuations. Finask Value, we help you identify structures that align with education goals, retirement income, legacy intentions, or planned milestones with confidence. Whether you seek assured payouts, capital preservation, or dependable long-term savings — we curate solutions that bring stability, visibility, and peace to your financial journey for years ahead.",
     features: [
       {
         title: "Guaranteed Returns",
@@ -454,7 +454,7 @@ export const servicesData = [
     ],
     bgImage: "/finask/traditional-guaranteed-saving.webp",
     introText:
-      "At FinAsk, we offer our specialized approach to Traditional Guaranteed Savings products absolutely essential and highly reliable ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
+      "Finask Value, we offer our specialized approach to Traditional Guaranteed Savings products absolutely essential and highly reliable ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
       "Our commitment to excellence in Traditional Guaranteed Savings products truly reliable and ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
@@ -514,7 +514,7 @@ export const servicesData = [
     ],
     bgImage: "/finask/motor-insurance.png",
     introText:
-      "At FinAsk, we offer our specialized approach to Motor Insurance absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
+      "Finask Value, we offer our specialized approach to Motor Insurance absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
       "Our commitment to excellence in Motor Insurance truly reliable and deeply proven ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
@@ -571,7 +571,7 @@ export const servicesData = [
     ],
     bgImage: "/finask/travel-insurance.webp",
     introText:
-      "At FinAsk, we offer our specialized approach to Travel Insurance absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
+      "Finask Value, we offer our specialized approach to Travel Insurance absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
       "Our commitment to excellence in Travel Insurance truly reliable and deeply proven ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
@@ -589,7 +589,7 @@ export const servicesData = [
     title: "Property Insurance",
     tagline: "Because a structure’s worth often transcends bricks and mortar.",
     description:
-      "Whether it’s the villa hosting annual family gatherings or commercial spaces anchoring your business empire, we ensure each property is thoughtfully safeguarded. Should calamities arise, recovery unfolds without undue financial strain or disruption to broader ambitions.\n\nBeyond mere compensation, it’s about honoring the memories, livelihoods, and futures those walls shelter.\nWith FinAsk, your property stands protected — so your life’s stories and successes continue uninterrupted, come what may.",
+      "Whether it’s the villa hosting annual family gatherings or commercial spaces anchoring your business empire, we ensure each property is thoughtfully safeguarded. Should calamities arise, recovery unfolds without undue financial strain or disruption to broader ambitions.\n\nBeyond mere compensation, it’s about honoring the memories, livelihoods, and futures those walls shelter.\nWith Finask Value, your property stands protected — so your life’s stories and successes continue uninterrupted, come what may.",
     features: [
       {
         title: "Comprehensive Cover",
@@ -624,7 +624,7 @@ export const servicesData = [
     ],
     bgImage: "/finask/property-insurance.webp",
     introText:
-      "At FinAsk, we offer our specialized approach to Property Insurance absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
+      "Finask Value, we offer our specialized approach to Property Insurance absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
       "Our commitment to excellence in Property Insurance truly reliable and deeply proven ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
@@ -683,7 +683,7 @@ export const servicesData = [
     ],
     bgImage: "/finask/fire-and-urglary.webp",
     introText:
-      "At FinAsk, we offer our specialized approach to Fire Burglary Insurance absolutely essential and highly reliable trusted ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
+      "Finask Value, we offer our specialized approach to Fire Burglary Insurance absolutely essential and highly reliable trusted ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
       "Our commitment to excellence in Fire Burglary Insurance truly reliable and deeply ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
@@ -701,7 +701,7 @@ export const servicesData = [
     title: "Marine & Cargo Insurance",
     tagline: "In business, logistics is more than movement — it’s a promise.",
     description:
-      "A single damaged, lost, or delayed consignment can lead to revenue loss, supply chain disruptions, or breached contracts. That’s where comprehensive coverage becomes critical.\nOur Marine & Cargo Insurance is tailored for businesses engaged in domestic and international trade. It provides protection against physical loss or damage to goods in transit, across all modes of transportation — air, sea, road, or rail. Whether you're shipping raw materials, finished products, or high-value equipment, our policies are structured to absorb the risk — not your balance sheet.\nWith FinAsk, you protect not just your shipments, but your profitability, reliability, and business continuity.",
+      "A single damaged, lost, or delayed consignment can lead to revenue loss, supply chain disruptions, or breached contracts. That’s where comprehensive coverage becomes critical.\nOur Marine & Cargo Insurance is tailored for businesses engaged in domestic and international trade. It provides protection against physical loss or damage to goods in transit, across all modes of transportation — air, sea, road, or rail. Whether you're shipping raw materials, finished products, or high-value equipment, our policies are structured to absorb the risk — not your balance sheet.\nWith Finask Value, you protect not just your shipments, but your profitability, reliability, and business continuity.",
     features: [
       {
         title: "Comprehensive Coverage",
@@ -742,7 +742,7 @@ export const servicesData = [
     ],
     bgImage: "/finask/marine-and-cargo-insurance.webp",
     introText:
-      "At FinAsk, we offer our specialized approach to Marine Cargo Insurance absolutely essential and highly reliable trusted ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
+      "Finask Value, we offer our specialized approach to Marine Cargo Insurance absolutely essential and highly reliable trusted ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
       "Our commitment to excellence in Marine Cargo Insurance truly reliable and deeply ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
@@ -760,7 +760,7 @@ export const servicesData = [
     title: "Corporate Insurance",
     tagline: "Because enterprises flourish on foresight and resilience.",
     description:
-      "Businesses, especially those stewarded across generations, thrive when well insulated against unpredictability. From group health schemes nurturing employee well-being to directors’ liability and cyber safeguards, we construct layered protections. Each is calibrated to uphold operational continuity and safeguard stakeholder confidence, even amid unforeseen tests.\n\nIt’s more than risk transfer — it’s strategic assurance that empowers growth without hesitation.\nWith FinAsk, your enterprise gains a partner dedicated to shielding its ambitions, reputation, and hard-won legacy from vulnerabilities that could otherwise disrupt your vision.",
+      "Businesses, especially those stewarded across generations, thrive when well insulated against unpredictability. From group health schemes nurturing employee well-being to directors’ liability and cyber safeguards, we construct layered protections. Each is calibrated to uphold operational continuity and safeguard stakeholder confidence, even amid unforeseen tests.\n\nIt’s more than risk transfer — it’s strategic assurance that empowers growth without hesitation.\nWith Finask Value, your enterprise gains a partner dedicated to shielding its ambitions, reputation, and hard-won legacy from vulnerabilities that could otherwise disrupt your vision.",
     features: [
       {
         title: "Group Health",
@@ -799,7 +799,7 @@ export const servicesData = [
     ],
     bgImage: "/finask/corporate.webp",
     introText:
-      "At FinAsk, we offer our specialized approach to Corporate Insurance absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
+      "Finask Value, we offer our specialized approach to Corporate Insurance absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
       "Our commitment to excellence in Corporate Insurance truly reliable and deeply proven ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
@@ -861,7 +861,7 @@ export const servicesData = [
     ],
     bgImage: "/finask/cyber-insurance.png",
     introText:
-      "At FinAsk, we offer our specialized approach to Cyber Insurance absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
+      "Finask Value, we offer our specialized approach to Cyber Insurance absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
       "Our commitment to excellence in Cyber Insurance truly reliable and deeply proven ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
@@ -880,7 +880,7 @@ export const servicesData = [
     tagline:
       "Because leadership carries responsibility that outlives the leader.",
     description:
-      "Director’s life insurance is more than a personal safety net — it’s a strategic safeguard for businesses. It ensures that if the unthinkable happens, key obligations are met, debts are covered, and shareholder or partner transitions remain smooth, protecting enterprise value.\nBecause your vision shouldn’t falter, even if life takes an unforeseen turn.\nAt FinAsk, we help founders, directors, and key management personnel structure life cover not just for personal protection—but for business continuity.It’s not just about preparing for loss—it’s about preserving leadership, legacy, and long-term confidence.\nThis coverage can support succession planning, stabilize cash flow, reinforce loan and credit obligations, and signal preparedness to investors and stakeholders.\nIt’s more than a policy—it’s a contingency plan for confidence. Because leadership may be personal, but its impact is profoundly institutional.",
+      "Director’s life insurance is more than a personal safety net — it’s a strategic safeguard for businesses. It ensures that if the unthinkable happens, key obligations are met, debts are covered, and shareholder or partner transitions remain smooth, protecting enterprise value.\nBecause your vision shouldn’t falter, even if life takes an unforeseen turn.\nFinask Value, we help founders, directors, and key management personnel structure life cover not just for personal protection—but for business continuity.It’s not just about preparing for loss—it’s about preserving leadership, legacy, and long-term confidence.\nThis coverage can support succession planning, stabilize cash flow, reinforce loan and credit obligations, and signal preparedness to investors and stakeholders.\nIt’s more than a policy—it’s a contingency plan for confidence. Because leadership may be personal, but its impact is profoundly institutional.",
     features: [
       {
         title: "Comprehensive Coverage",
@@ -920,7 +920,7 @@ export const servicesData = [
     ],
     bgImage: "/finask/directors-life-insurance.png",
     introText:
-      "At FinAsk, we offer our specialized approach to Directors Life Insurance absolutely essential and highly reliable trusted ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
+      "Finask Value, we offer our specialized approach to Directors Life Insurance absolutely essential and highly reliable trusted ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
       "Our commitment to excellence in Directors Life Insurance truly reliable and deeply ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
@@ -980,7 +980,7 @@ export const servicesData = [
     ],
     bgImage: "/finask/group-personal-accident-insurance.png",
     introText:
-      "At FinAsk Value, we help organizations design the right Group Personal Accident Insurance plans with comprehensive coverage, competitive premiums, and support from leading insurers.",
+      "Finask Value Value, we help organizations design the right Group Personal Accident Insurance plans with comprehensive coverage, competitive premiums, and support from leading insurers.",
     closingText:
       "Secure your employees. Protect their families. Connect with our experts to explore the best Group Personal Accident Insurance solutions for your organization.",
     faqSection: {
@@ -1040,7 +1040,7 @@ export const servicesData = [
     ],
     bgImage: "/finask/group-term-life-insurance.webp",
     introText:
-      "At FinAsk Value, we help organizations design the right Group Term Life Insurance plans with competitive premiums, flexible coverage options, and support from leading insurers.",
+      "Finask Value Value, we help organizations design the right Group Term Life Insurance plans with competitive premiums, flexible coverage options, and support from leading insurers.",
     closingText:
       "Protect your employees. Secure their families’ future. Connect with our experts to explore the best Group Term Life Insurance solutions for your organization.",
     faqSection: {
@@ -1102,7 +1102,7 @@ export const servicesData = [
     introText:
       "Choosing the right corporate health insurance policy requires understanding your workforce needs, coverage requirements, and budget.",
     closingText:
-      "At FinAsk Value, we help businesses compare and choose the most suitable Group Health Insurance plans from leading insurers with transparent guidance and customized solutions. Secure your employees’ health. Strengthen your organisation.",
+      "Finask Value Value, we help businesses compare and choose the most suitable Group Health Insurance plans from leading insurers with transparent guidance and customized solutions. Secure your employees’ health. Strengthen your organisation.",
     faqSection: {
       title: "General Questions",
       description:
@@ -1339,7 +1339,7 @@ export const servicesData = [
     ],
     bgImage: "/finask/pet-insurance.webp",
     introText:
-      "At FinAsk Value, we understand that pets are an important part of the family. We help you explore suitable pet insurance solutions for dogs and cats through our insurance distribution platform.",
+      "Finask Value Value, we understand that pets are an important part of the family. We help you explore suitable pet insurance solutions for dogs and cats through our insurance distribution platform.",
     closingText:
       "Because protecting your family also means protecting those who love you unconditionally. Secure your pet’s health. Protect your peace of mind.",
     faqSection: {
@@ -1399,7 +1399,7 @@ export const servicesData = [
     ],
     bgImage: "/finask/mutual-funds.webp",
     introText:
-      "At FinAsk, we offer our specialized approach to Mutual Funds absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
+      "Finask Value, we offer our specialized approach to Mutual Funds absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
       "Our commitment to excellence in Mutual Funds truly reliable and deeply proven ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
@@ -1456,7 +1456,7 @@ export const servicesData = [
     ],
     bgImage: "/finask/bond.png",
     introText:
-      "At FinAsk, we offer our specialized approach to Bonds absolutely essential and highly reliable trusted dynamic modern ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
+      "Finask Value, we offer our specialized approach to Bonds absolutely essential and highly reliable trusted dynamic modern ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
       "Our commitment to excellence in Bonds truly reliable and deeply proven advanced ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
@@ -1513,7 +1513,7 @@ export const servicesData = [
     ],
     bgImage: "/finask/pms.jpg",
     introText:
-      "At FinAsk, we offer our specialized approach to Portfolio Management Services PMS absolutely essential and highly reliable ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
+      "Finask Value, we offer our specialized approach to Portfolio Management Services PMS absolutely essential and highly reliable ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
       "Our commitment to excellence in Portfolio Management Services PMS truly reliable and ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
@@ -1571,7 +1571,7 @@ export const servicesData = [
     ],
     bgImage: "/finask/alternative-investment-funds.webp",
     introText:
-      "At FinAsk, we offer our specialized approach to Alternative Investment Funds AIFs absolutely essential and highly reliable ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
+      "Finask Value, we offer our specialized approach to Alternative Investment Funds AIFs absolutely essential and highly reliable ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
       "Our commitment to excellence in Alternative Investment Funds AIFs truly reliable and ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
@@ -1589,7 +1589,7 @@ export const servicesData = [
     title: "Unlisted Equity",
     tagline: "Investing Where Vision Meets Venture",
     description:
-      "Some opportunities never appear on stock tickers. They live in boardrooms of high-growth companies still charting their scale-up journeys—fintech leaders yet to list, consumer brands preparing for IPO, or late-stage startups opening pre-IPO rounds.\nAt FinAsk, we bridge you to these curated unlisted plays—Because accessing these deals requires more than capital—it demands relationships, diligence, and precise timing. We assess financials, business models, and sector outlooks, structure your entry for optimal eventual liquidity, and align this exposure with your overall portfolio—so private equity remains a complement, not a risk amplifier.",
+      "Some opportunities never appear on stock tickers. They live in boardrooms of high-growth companies still charting their scale-up journeys—fintech leaders yet to list, consumer brands preparing for IPO, or late-stage startups opening pre-IPO rounds.\nFinask Value, we bridge you to these curated unlisted plays—Because accessing these deals requires more than capital—it demands relationships, diligence, and precise timing. We assess financials, business models, and sector outlooks, structure your entry for optimal eventual liquidity, and align this exposure with your overall portfolio—so private equity remains a complement, not a risk amplifier.",
     features: [
       {
         title: "Pre-IPO Access",
@@ -1628,7 +1628,7 @@ export const servicesData = [
     ],
     bgImage: "/finask/unlisted-equity.webp",
     introText:
-      "At FinAsk, we offer our specialized approach to Unlisted Equity absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
+      "Finask Value, we offer our specialized approach to Unlisted Equity absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
       "Our commitment to excellence in Unlisted Equity truly reliable and deeply proven ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
@@ -1647,7 +1647,7 @@ export const servicesData = [
     tagline:
       "Because real estate returns shouldn’t require real estate headaches.",
     description:
-      "REITs offer a seamless way to invest in large-scale, income-generating real estate—such as malls, office parks, residential properties and logistics centers—without buying property outright. Traded like stocks, these trusts blend the tangibility of real estate with the convenience and liquidity of modern investing.\n FinAsk helps you integrate REITs into your portfolio as a stable, yield-generating asset class with long-term upside and regular payouts.\n Build your portfolio with concrete value—without laying a single brick.",
+      "REITs offer a seamless way to invest in large-scale, income-generating real estate—such as malls, office parks, residential properties and logistics centers—without buying property outright. Traded like stocks, these trusts blend the tangibility of real estate with the convenience and liquidity of modern investing.\n Finask Value helps you integrate REITs into your portfolio as a stable, yield-generating asset class with long-term upside and regular payouts.\n Build your portfolio with concrete value—without laying a single brick.",
     features: [
       {
         title: "Corpus Calculation",
@@ -1686,7 +1686,7 @@ export const servicesData = [
     ],
     bgImage: "/finask/reit.webp",
     introText:
-      "At FinAsk, we offer our specialized approach to REITs absolutely essential and highly reliable trusted dynamic modern ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
+      "Finask Value, we offer our specialized approach to REITs absolutely essential and highly reliable trusted dynamic modern ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
       "Our commitment to excellence in REITs truly reliable and deeply proven advanced ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
@@ -1743,7 +1743,7 @@ export const servicesData = [
     ],
     bgImage: "/finask/invi.webp",
     introText:
-      "At FinAsk, we offer our specialized approach to Infrastructure Investment Trusts absolutely essential and highly reliable trusted ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
+      "Finask Value, we offer our specialized approach to Infrastructure Investment Trusts absolutely essential and highly reliable trusted ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
       "Our commitment to excellence in Infrastructure Investment Trusts truly reliable and deeply ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
@@ -1761,7 +1761,7 @@ export const servicesData = [
     title: "Fractional Commercial Real Estate",
     tagline: "Because progress shouldn’t require owning the whole skyline.",
     description:
-      "Fractional ownership and Infrastructure Investment Trusts (InvITs) allow you to participate in India’s booming commercial and infrastructural growth — one strategic slice at a time. Whether it’s office towers, co-working spaces, or national highways, these vehicles unlock stable income and potential capital gains without the hassles of full ownership or maintenance.\n\nWith handpicked opportunities and expert due diligence, FinAsk helps you diversify into high-ticket real assets—without the entry barriers, paperwork, or property stress.\n It’s not just smart investing. It’s smart access to a growing India.",
+      "Fractional ownership and Infrastructure Investment Trusts (InvITs) allow you to participate in India’s booming commercial and infrastructural growth — one strategic slice at a time. Whether it’s office towers, co-working spaces, or national highways, these vehicles unlock stable income and potential capital gains without the hassles of full ownership or maintenance.\n\nWith handpicked opportunities and expert due diligence, Finask Value helps you diversify into high-ticket real assets—without the entry barriers, paperwork, or property stress.\n It’s not just smart investing. It’s smart access to a growing India.",
     features: [
       {
         title: "Corpus Calculation",
@@ -1802,7 +1802,7 @@ export const servicesData = [
     ],
     bgImage: "/finask/fractional.webp",
     introText:
-      "At FinAsk, we offer our specialized approach to Fractional Commercial Real Estate absolutely essential and highly reliable ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
+      "Finask Value, we offer our specialized approach to Fractional Commercial Real Estate absolutely essential and highly reliable ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
       "Our commitment to excellence in Fractional Commercial Real Estate truly reliable and ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
@@ -1820,7 +1820,7 @@ export const servicesData = [
     title: "P2P Lending",
     tagline: "Elevating Fixed Income with Thoughtful Innovation",
     description:
-      "Not every investor is drawn to the pulse of markets. Many seek stable, predictable returns—but wish to surpass traditional fixed deposit yields. Peer-to-Peer lending, when curated and monitored diligently, offers such an elegant middle path.\nAt FinAsk, we approach P2P as a structured fixed income strategy—not a speculative tech fad. Whether you are a retiree desiring monthly income, a professional diversifying surplus, or an HNI layering alternative fixed income alongside bonds and FDRs, P2P can complement your strategy.\nAt FinAsk, we handle everything from platform selection and borrower diversification to ongoing risk monitoring, so your fixed income evolves with clarity and calm.",
+      "Not every investor is drawn to the pulse of markets. Many seek stable, predictable returns—but wish to surpass traditional fixed deposit yields. Peer-to-Peer lending, when curated and monitored diligently, offers such an elegant middle path.\nFinask Value, we approach P2P as a structured fixed income strategy—not a speculative tech fad. Whether you are a retiree desiring monthly income, a professional diversifying surplus, or an HNI layering alternative fixed income alongside bonds and FDRs, P2P can complement your strategy.\nFinask Value, we handle everything from platform selection and borrower diversification to ongoing risk monitoring, so your fixed income evolves with clarity and calm.",
     features: [
       {
         title: "Enhanced Yields",
@@ -1859,7 +1859,7 @@ export const servicesData = [
     ],
     bgImage: "/finask/p2p.webp",
     introText:
-      "At FinAsk, we offer our specialized approach to P2P Lending absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
+      "Finask Value, we offer our specialized approach to P2P Lending absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
       "Our commitment to excellence in P2P Lending truly reliable and deeply proven ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
@@ -1877,7 +1877,7 @@ export const servicesData = [
     title: "Alternative Fixed Income",
     tagline: "When Smart Innovation Meets Predictable Returns",
     description:
-      "Fixed income doesn’t have to be monotonous. Beyond bonds and deposits lie avenues like Market-Linked Debentures, Invoice Discounting, and tech-driven supply chain finance—each crafted to generate 9%–14% returns while balancing varying degrees of liquidity and risk.\nAt FinAsk, we make this universe approachable. We vet platforms, examine issuer balance sheets, and design diversified allocations so you can benefit from structured income without undue exposure. Because true wealth stewardship means knowing how to weave traditional and alternative fabrics into a single, resilient financial tapestry.",
+      "Fixed income doesn’t have to be monotonous. Beyond bonds and deposits lie avenues like Market-Linked Debentures, Invoice Discounting, and tech-driven supply chain finance—each crafted to generate 9%–14% returns while balancing varying degrees of liquidity and risk.\nFinask Value, we make this universe approachable. We vet platforms, examine issuer balance sheets, and design diversified allocations so you can benefit from structured income without undue exposure. Because true wealth stewardship means knowing how to weave traditional and alternative fabrics into a single, resilient financial tapestry.",
     features: [
       {
         title: "Market Linked Debentures",
@@ -1918,7 +1918,7 @@ export const servicesData = [
     ],
     bgImage: "/finask/afi.webp",
     introText:
-      "At FinAsk, we offer our specialized approach to Alternative Fixed Income absolutely essential and highly reliable trusted ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
+      "Finask Value, we offer our specialized approach to Alternative Fixed Income absolutely essential and highly reliable trusted ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
       "Our commitment to excellence in Alternative Fixed Income truly reliable and deeply ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
@@ -1936,7 +1936,7 @@ export const servicesData = [
     title: "Corporate Fixed Deposits",
     tagline: "Combining Familiar Stability with Enhanced Yield",
     description:
-      "For many investors, fixed deposits have long signified financial prudence. Yet traditional bank FDs often underperform inflation. Corporate FDRs offer a refined alternative—delivering higher yields through reputable NBFCs and corporates, backed by rigorous credit ratings.\nAt FinAsk, we navigate this terrain carefully. Because with fixed income, it’s not just about rates—it’s about safeguarding stability with informed discretion.",
+      "For many investors, fixed deposits have long signified financial prudence. Yet traditional bank FDs often underperform inflation. Corporate FDRs offer a refined alternative—delivering higher yields through reputable NBFCs and corporates, backed by rigorous credit ratings.\nFinask Value, we navigate this terrain carefully. Because with fixed income, it’s not just about rates—it’s about safeguarding stability with informed discretion.",
     features: [
       {
         title: "Higher Rates",
@@ -1975,7 +1975,7 @@ export const servicesData = [
     ],
     bgImage: "/finask/c-fdr.jpg",
     introText:
-      "At FinAsk, we offer our specialized approach to Corporate Fixed Deposits absolutely essential and highly reliable trusted ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
+      "Finask Value, we offer our specialized approach to Corporate Fixed Deposits absolutely essential and highly reliable trusted ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
       "Our commitment to excellence in Corporate Fixed Deposits truly reliable and deeply ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
@@ -1993,7 +1993,7 @@ export const servicesData = [
     title: "GIFT City Investments",
     tagline: "Opening Global Doors, Seamlessly Within India",
     description:
-      "As Indian wealth matures, aspirations naturally extend beyond borders. But global investing, tax treatment, and compliance often pose hurdles. Enter GIFT City—India’s international financial hub that marries global opportunity with regulatory simplicity.\n\nGIFT City provides a streamlined, tax-efficient channel to diversify into global markets or sophisticated products without the complexity of traditional offshore vehicles. Whether you’re seeking to bypass PIS hassles, repatriate seamlessly, or consolidate your international allocation under a transparent, Indian-compliant structure, GIFT City serves as your trusted bridge, combining India’s regulatory confidence with global market reach.\nIt’s not just a location on the map; it’s a forward-looking gateway that redefines how Indian investors, at home and abroad, build cross-border legacies with clarity, compliance, and unmatched convenience.\n\nInvest in INR, Earn in your home currency: GIFT City allows you to grow global wealth while remaining anchored in your home currency. Say goodbye to the unpredictability of cross-currency depreciation or foreign exchange fluctuations.\n\nTax-Efficient Returns: Enjoy favorable tax treatment—including exemptions on certain capital gains, interest income, and dividends—making your cross-border investments not just smarter, but lighter on the wallet.\n\nCompliance Without Complexity: No more PIS hassles, repatriation bottlenecks, or navigating foreign jurisdictions. GIFT City gives you global access with Indian simplicity.\n\nInstitutional-Grade Access: From global REITs to ETFs to dollar bonds—FinAsk helps you tap into sophisticated global instruments without stepping outside India’s legal and regulatory comfort zone.",
+      "As Indian wealth matures, aspirations naturally extend beyond borders. But global investing, tax treatment, and compliance often pose hurdles. Enter GIFT City—India’s international financial hub that marries global opportunity with regulatory simplicity.\n\nGIFT City provides a streamlined, tax-efficient channel to diversify into global markets or sophisticated products without the complexity of traditional offshore vehicles. Whether you’re seeking to bypass PIS hassles, repatriate seamlessly, or consolidate your international allocation under a transparent, Indian-compliant structure, GIFT City serves as your trusted bridge, combining India’s regulatory confidence with global market reach.\nIt’s not just a location on the map; it’s a forward-looking gateway that redefines how Indian investors, at home and abroad, build cross-border legacies with clarity, compliance, and unmatched convenience.\n\nInvest in INR, Earn in your home currency: GIFT City allows you to grow global wealth while remaining anchored in your home currency. Say goodbye to the unpredictability of cross-currency depreciation or foreign exchange fluctuations.\n\nTax-Efficient Returns: Enjoy favorable tax treatment—including exemptions on certain capital gains, interest income, and dividends—making your cross-border investments not just smarter, but lighter on the wallet.\n\nCompliance Without Complexity: No more PIS hassles, repatriation bottlenecks, or navigating foreign jurisdictions. GIFT City gives you global access with Indian simplicity.\n\nInstitutional-Grade Access: From global REITs to ETFs to dollar bonds Finask Value helps you tap into sophisticated global instruments without stepping outside India’s legal and regulatory comfort zone.",
     features: [
       {
         title: "Tax Efficiency",
@@ -2032,7 +2032,7 @@ export const servicesData = [
     ],
     bgImage: "/finask/gift-city.webp",
     introText:
-      "At FinAsk, we offer our specialized approach to GIFT City Investments absolutely essential and highly reliable trusted ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
+      "Finask Value, we offer our specialized approach to GIFT City Investments absolutely essential and highly reliable trusted ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
       "Our commitment to excellence in GIFT City Investments truly reliable and deeply ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
@@ -2050,7 +2050,7 @@ export const servicesData = [
     title: "E-Gold",
     tagline: "Because modern aspirations still treasure timeless wealth.",
     description:
-      "E-Gold lets you build your gold holdings digitally — no safes, no insurance worries, no purity concerns. Buy as little as a gram or as much as your milestones demand, all secured in vaulted assurance and ready for cash redemption or jewellery conversion when your heart desires.\n\nIt’s tradition, transformed for today, making sure your portfolio shines with both heritage and hassle-free liquidity.\n\nAt FinAsk, we help you integrate E-Gold seamlessly into your broader financial goals—whether it’s gifting with grace, saving for a future wedding, or simply balancing your asset mix with a timeless hedge. With 24K purity, full transparency, and the power of automation through SIPs, E-Gold becomes more than just a commodity—it becomes a modern heirloom in the making, one digital gram at a time.",
+      "E-Gold lets you build your gold holdings digitally — no safes, no insurance worries, no purity concerns. Buy as little as a gram or as much as your milestones demand, all secured in vaulted assurance and ready for cash redemption or jewellery conversion when your heart desires.\n\nIt’s tradition, transformed for today, making sure your portfolio shines with both heritage and hassle-free liquidity.\n\nFinask Value, we help you integrate E-Gold seamlessly into your broader financial goals—whether it’s gifting with grace, saving for a future wedding, or simply balancing your asset mix with a timeless hedge. With 24K purity, full transparency, and the power of automation through SIPs, E-Gold becomes more than just a commodity—it becomes a modern heirloom in the making, one digital gram at a time.",
     features: [
       {
         title: "Safety & Purity",
@@ -2089,7 +2089,7 @@ export const servicesData = [
     ],
     bgImage: "/finask/e-gold.webp",
     introText:
-      "At FinAsk, we offer our specialized approach to E-Gold absolutely essential and highly reliable trusted dynamic modern ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
+      "Finask Value, we offer our specialized approach to E-Gold absolutely essential and highly reliable trusted dynamic modern ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
       "Our commitment to excellence in E-Gold truly reliable and deeply proven advanced ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
@@ -2107,7 +2107,7 @@ export const servicesData = [
     title: "National Pension System (NPS)",
     tagline: "Building a Retirement That Honours Your Efforts",
     description:
-      "Retirement is not the conclusion of earning—it’s the moment your lifetime of discipline begins to work for you. It’s when the fruits of your labor, invested wisely over decades, transform into dignified security and freedom.\nThe National Pension System (NPS) is one of India’s most robust instruments to shape this chapter—Whether you’re a salaried executive optimizing deductions, an entrepreneur without employer pensions, or an NRI anchoring part of your retirement in India, NPS provides a versatile platform. \nAt FinAsk, we simplify this entire landscape: from selecting among top-tier pension fund managers to guiding optimal equity exposure based on your horizon, recalibrating annually, and planning your eventual annuity so post-retirement income feels seamless.",
+      "Retirement is not the conclusion of earning—it’s the moment your lifetime of discipline begins to work for you. It’s when the fruits of your labor, invested wisely over decades, transform into dignified security and freedom.\nThe National Pension System (NPS) is one of India’s most robust instruments to shape this chapter—Whether you’re a salaried executive optimizing deductions, an entrepreneur without employer pensions, or an NRI anchoring part of your retirement in India, NPS provides a versatile platform. \nFinask Value, we simplify this entire landscape: from selecting among top-tier pension fund managers to guiding optimal equity exposure based on your horizon, recalibrating annually, and planning your eventual annuity so post-retirement income feels seamless.",
     features: [
       {
         title: "Tax Efficiency",
@@ -2146,7 +2146,7 @@ export const servicesData = [
     ],
     bgImage: "/finask/national-pension-sceme.webp",
     introText:
-      "At FinAsk, we offer our specialized approach to National Pension System NPS absolutely essential and highly reliable ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
+      "Finask Value, we offer our specialized approach to National Pension System NPS absolutely essential and highly reliable ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
       "Our commitment to excellence in National Pension System NPS truly reliable and ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
@@ -2164,7 +2164,7 @@ export const servicesData = [
     title: "Stock & Broking",
     tagline: "Bringing Clarity and Conviction to Your Equity Journey",
     description:
-      "Equities offer promise. But navigating them requires more than intuition; it demands structure, foresight, and an ally who understands that investing is about compounding both capital and confidence.\nAt FinAsk, our stock and broking services are designed to cut through the noise. We combine research-backed insights with personalized guidance to help you build a portfolio that aligns with your goals, risk appetite, and timeline. Whether you're a seasoned trader or a first-time investor, we offer the tools, transparency, and expertise to help you make informed decisions — not impulsive ones.\nBecause in equities, it’s not about frequent thrills; it’s about enduring triumphs—structured, reviewed, and recalibrated.",
+      "Equities offer promise. But navigating them requires more than intuition; it demands structure, foresight, and an ally who understands that investing is about compounding both capital and confidence.\nFinask Value, our stock and broking services are designed to cut through the noise. We combine research-backed insights with personalized guidance to help you build a portfolio that aligns with your goals, risk appetite, and timeline. Whether you're a seasoned trader or a first-time investor, we offer the tools, transparency, and expertise to help you make informed decisions — not impulsive ones.\nBecause in equities, it’s not about frequent thrills; it’s about enduring triumphs—structured, reviewed, and recalibrated.",
     features: [
       {
         title: "Research Backed",
@@ -2204,7 +2204,7 @@ export const servicesData = [
     ],
     bgImage: "/finask/stock-roking.webp",
     introText:
-      "At FinAsk, we offer our specialized approach to Stock Broking absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
+      "Finask Value, we offer our specialized approach to Stock Broking absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
       "Our commitment to excellence in Stock Broking truly reliable and deeply proven ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
@@ -2329,9 +2329,9 @@ export const servicesData = [
     ],
     bgImage: "/finask/sip.png",
     introText:
-      "At FinAsk, we help you use Step-Up SIP as a practical and powerful tool for long-term wealth creation. By aligning your investments with your income growth, we make it easier for you to build financial discipline, stay ahead of inflation, and move closer to your goals with confidence.",
+      "Finask Value, we help you use Step-Up SIP as a practical and powerful tool for long-term wealth creation. By aligning your investments with your income growth, we make it easier for you to build financial discipline, stay ahead of inflation, and move closer to your goals with confidence.",
     closingText:
-      "Our approach to Step-Up SIP is designed to make investing simple, flexible, and effective. Whether you are just starting your investment journey or planning for bigger life goals, FinAsk helps you create a strategy that grows with you and supports your future with clarity and confidence.",
+      "Our approach to Step-Up SIP is designed to make investing simple, flexible, and effective. Whether you are just starting your investment journey or planning for bigger life goals, Finask Value helps you create a strategy that grows with you and supports your future with clarity and confidence.",
     faqSection: {
       title: "General Questions",
       description:
@@ -2350,7 +2350,7 @@ export const servicesData = [
     title: "Trust Formation",
     tagline: "Safeguard Today. Shape Tomorrow.",
     description:
-      "True wealth extends beyond mere accumulation; it is measured by how thoughtfully it is preserved and how purposefully it is passed on. For families, business owners, and philanthropists alike, establishing a trust remains one of the most nuanced tools to secure a legacy — ensuring your assets are protected, your intentions honored, and your loved ones provided for without complication or conflict.\nA trust legally transfers assets from you, the settlor, to chosen trustees, who hold and manage these for beneficiaries under carefully designed terms. From private family trusts that prioritize multi-generational wealth transfer, to irrevocable structures that shield assets from potential liabilities, to discretionary models that offer flexibility in distributions — each trust serves as a bespoke safeguard for what matters most.\nAt FinAsk, we coordinate the entire journey — advising on trust structures, engaging premier legal partners, ensuring regulatory compliance, and guiding you through post-formation nuances such as audits and trustee management. Because for legacies to last, they must be built on clarity, control, and confidence.",
+      "True wealth extends beyond mere accumulation; it is measured by how thoughtfully it is preserved and how purposefully it is passed on. For families, business owners, and philanthropists alike, establishing a trust remains one of the most nuanced tools to secure a legacy — ensuring your assets are protected, your intentions honored, and your loved ones provided for without complication or conflict.\nA trust legally transfers assets from you, the settlor, to chosen trustees, who hold and manage these for beneficiaries under carefully designed terms. From private family trusts that prioritize multi-generational wealth transfer, to irrevocable structures that shield assets from potential liabilities, to discretionary models that offer flexibility in distributions — each trust serves as a bespoke safeguard for what matters most.\nFinask Value, we coordinate the entire journey — advising on trust structures, engaging premier legal partners, ensuring regulatory compliance, and guiding you through post-formation nuances such as audits and trustee management. Because for legacies to last, they must be built on clarity, control, and confidence.",
     features: [
       {
         title: "Asset Protection",
@@ -2389,7 +2389,7 @@ export const servicesData = [
     ],
     bgImage: "/finask/trust.webp",
     introText:
-      "At FinAsk, we offer our specialized approach to Trust Formation absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
+      "Finask Value, we offer our specialized approach to Trust Formation absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
       "Our commitment to excellence in Trust Formation truly reliable and deeply proven ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
@@ -2407,7 +2407,7 @@ export const servicesData = [
     title: "Will Writing",
     tagline: "A Gentle Blueprint for Lasting Peace",
     description:
-      "A lifetime of diligence deserves more than just fond memories; it deserves clear direction. Yet, many individuals delay writing a will, inadvertently leaving behind a maze of legal uncertainties and emotional strain for those they cherish most.\nAt FinAsk, we bring empathy and expertise together to simplify the process of creating a will that’s both legally robust and deeply personal. By clearly outlining how your assets — from properties and investments to heirlooms and guardianships — should be distributed, a well-crafted will ensures your family navigates the future with certainty, not confusion.\nWe view will writing not as a somber task, but as an empowering opportunity to guide your family with love and forethought — ensuring they receive your wealth with gratitude, not grievances.",
+      "A lifetime of diligence deserves more than just fond memories; it deserves clear direction. Yet, many individuals delay writing a will, inadvertently leaving behind a maze of legal uncertainties and emotional strain for those they cherish most.\nFinask Value, we bring empathy and expertise together to simplify the process of creating a will that’s both legally robust and deeply personal. By clearly outlining how your assets — from properties and investments to heirlooms and guardianships — should be distributed, a well-crafted will ensures your family navigates the future with certainty, not confusion.\nWe view will writing not as a somber task, but as an empowering opportunity to guide your family with love and forethought — ensuring they receive your wealth with gratitude, not grievances.",
     features: [
       {
         title: "Legal Clarity",
@@ -2446,7 +2446,7 @@ export const servicesData = [
     ],
     bgImage: "/finask/will-writing.webp",
     introText:
-      "At FinAsk, we offer our specialized approach to Will Writing absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
+      "Finask Value, we offer our specialized approach to Will Writing absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
       "Our commitment to excellence in Will Writing truly reliable and deeply proven ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
@@ -2465,7 +2465,7 @@ export const servicesData = [
     tagline:
       "Because legacies deserve more than emotion — they deserve precise execution.",
     description:
-      "Wills and trusts hold your intentions, but it’s the executor who ensures they come alive, without delay, dispute, or dilution. Our executor services stand as an unwavering hand to manage distributions, settle obligations, and uphold your wishes with absolute integrity.\n\nSo your lifetime of effort becomes a source of harmony, not heartache, for those you leave behind.\nAt FinAsk, our executor services go beyond paperwork. We step in with compassion, clarity, and complete confidentiality—coordinating with legal, financial, and family stakeholders to ensure every step reflects your intent. Whether it’s handling complex assets, addressing cross-border beneficiaries, or mediating sensitive transitions, we provide the calm, competent presence your legacy deserves. Because honouring your life’s work shouldn’t be left to chance.",
+      "Wills and trusts hold your intentions, but it’s the executor who ensures they come alive, without delay, dispute, or dilution. Our executor services stand as an unwavering hand to manage distributions, settle obligations, and uphold your wishes with absolute integrity.\n\nSo your lifetime of effort becomes a source of harmony, not heartache, for those you leave behind.\nFinask Value, our executor services go beyond paperwork. We step in with compassion, clarity, and complete confidentiality—coordinating with legal, financial, and family stakeholders to ensure every step reflects your intent. Whether it’s handling complex assets, addressing cross-border beneficiaries, or mediating sensitive transitions, we provide the calm, competent presence your legacy deserves. Because honouring your life’s work shouldn’t be left to chance.",
     features: [
       {
         title: "Impartial Execution",
@@ -2504,7 +2504,7 @@ export const servicesData = [
     ],
     bgImage: "/finask/executor-services.png",
     introText:
-      "At FinAsk, we offer our specialized approach to Executor Services absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
+      "Finask Value, we offer our specialized approach to Executor Services absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
       "Our commitment to excellence in Executor Services truly reliable and deeply proven ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
@@ -2522,7 +2522,7 @@ export const servicesData = [
     title: "Legal Advisory",
     tagline: "Turning law into a shield, not a stressor",
     description:
-      "In a world of increasing regulatory oversight and legal complexity, protecting your wealth isn’t just about what you earn—it’s about how well you’re prepared. From property disputes to contract clarity, founder agreements to legacy documentation, every legal oversight can have a lasting financial impact.\nAt FinAsk, legal advisory is not a last-minute rescue. It’s built into your journey from the start—offering proactive legal structuring, due diligence, and risk mitigation that safeguards your assets, relationships, and long-term intentions.\nWhether you're acquiring real estate, drafting succession documents, reviewing investor agreements, or setting up holding structures, our legal team partners with your goals—not just the paperwork. We guide you with clarity, confidentiality, and a strategic lens that turns law from a limitation into a legacy protector.",
+      "In a world of increasing regulatory oversight and legal complexity, protecting your wealth isn’t just about what you earn—it’s about how well you’re prepared. From property disputes to contract clarity, founder agreements to legacy documentation, every legal oversight can have a lasting financial impact.\nFinask Value, legal advisory is not a last-minute rescue. It’s built into your journey from the start—offering proactive legal structuring, due diligence, and risk mitigation that safeguards your assets, relationships, and long-term intentions.\nWhether you're acquiring real estate, drafting succession documents, reviewing investor agreements, or setting up holding structures, our legal team partners with your goals—not just the paperwork. We guide you with clarity, confidentiality, and a strategic lens that turns law from a limitation into a legacy protector.",
     features: [
       {
         title: "Property Due Diligence",
@@ -2561,7 +2561,7 @@ export const servicesData = [
     ],
     bgImage: "/finask/legal-advisory.webp",
     introText:
-      "At FinAsk, we offer our specialized approach to Legal Advisory absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
+      "Finask Value, we offer our specialized approach to Legal Advisory absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
       "Our commitment to excellence in Legal Advisory truly reliable and deeply proven ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
@@ -2579,7 +2579,7 @@ export const servicesData = [
     title: "Tax Advisory",
     tagline: "Because wealth should grow, not leak",
     description:
-      "Every rupee saved in taxes is a rupee reinvested in your future. At FinAsk, tax advisory isn’t just about compliance—it’s about optimisation, foresight, and aligning your personal or business growth with evolving tax frameworks.\nWe help individuals, families, professionals, and entrepreneurs uncover intelligent strategies—be it through HUF structuring, capital gains planning, investment-linked deductions, or multi-entity income management.\nFor businesses, we integrate GST planning, director remuneration strategies, ESOP tax treatment, and cross-border tax implications into a cohesive framework. And for NRIs, we simplify global reporting, repatriation rules, and DTAA considerations.\nYou don’t just stay compliant—you stay confident. Because with FinAsk, your tax story isn’t about burden. It’s about benefit, built into every step of your financial journey.",
+      "Every rupee saved in taxes is a rupee reinvested in your future. Finask Value, tax advisory isn’t just about compliance—it’s about optimisation, foresight, and aligning your personal or business growth with evolving tax frameworks.\nWe help individuals, families, professionals, and entrepreneurs uncover intelligent strategies—be it through HUF structuring, capital gains planning, investment-linked deductions, or multi-entity income management.\nFor businesses, we integrate GST planning, director remuneration strategies, ESOP tax treatment, and cross-border tax implications into a cohesive framework. And for NRIs, we simplify global reporting, repatriation rules, and DTAA considerations.\nYou don’t just stay compliant—you stay confident. Because with Finask Value, your tax story isn’t about burden. It’s about benefit, built into every step of your financial journey.",
     features: [
       {
         title: "Strategic Planning",
@@ -2618,7 +2618,7 @@ export const servicesData = [
     ],
     bgImage: "/finask/tax-advisory.webp",
     introText:
-      "At FinAsk, we offer our specialized approach to Tax Advisory absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
+      "Finask Value, we offer our specialized approach to Tax Advisory absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
       "Our commitment to excellence in Tax Advisory truly reliable and deeply proven ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
@@ -2636,7 +2636,7 @@ export const servicesData = [
     title: "Financial Literacy Workshops",
     tagline: "Empowering Clarity, Inspiring Confidence",
     description:
-      "At FinAsk, we believe that the most valuable asset any individual can own is clarity. In a world full of noise and financial quick fixes, informed decision-making isn’t just smart—it’s empowering.\nOur Financial Literacy Workshops and SEBI-compliant Investor Awareness Programs (IAPs) are designed to democratize that empowerment. Whether you're a salaried professional, homemaker, entrepreneur, student, or retiree—we meet you where you are, and help you move forward with confidence.\nEach program is thoughtfully curated to simplify complex concepts: from budgeting and SIPs to tax planning, insurance design, and wealth transfer. We address real-life questions, bust financial myths, and help participants build a framework they can actually apply—today, tomorrow, and 20 years from now.\nDelivered virtually or on-site, our sessions use relatable stories, practical illustrations, and interactive Q&A formats led by certified experts. And most importantly, every IAP is 100% educational—zero product pitching, full commitment to SEBI’s mission of protecting and uplifting Indian investors.\nBecause when financial literacy improves, everything else follows: financial dignity, family wellbeing, and the confidence to build a better life. At FinAsk, that’s the kind of wealth we aim to co-create.",
+      "Finask Value, we believe that the most valuable asset any individual can own is clarity. In a world full of noise and financial quick fixes, informed decision-making isn’t just smart—it’s empowering.\nOur Financial Literacy Workshops and SEBI-compliant Investor Awareness Programs (IAPs) are designed to democratize that empowerment. Whether you're a salaried professional, homemaker, entrepreneur, student, or retiree—we meet you where you are, and help you move forward with confidence.\nEach program is thoughtfully curated to simplify complex concepts: from budgeting and SIPs to tax planning, insurance design, and wealth transfer. We address real-life questions, bust financial myths, and help participants build a framework they can actually apply—today, tomorrow, and 20 years from now.\nDelivered virtually or on-site, our sessions use relatable stories, practical illustrations, and interactive Q&A formats led by certified experts. And most importantly, every IAP is 100% educational—zero product pitching, full commitment to SEBI’s mission of protecting and uplifting Indian investors.\nBecause when financial literacy improves, everything else follows: financial dignity, family wellbeing, and the confidence to build a better life. Finask Value, that’s the kind of wealth we aim to co-create.",
     features: [
       {
         title: "Interactive Sessions",
@@ -2675,7 +2675,7 @@ export const servicesData = [
     ],
     bgImage: "/finask/financial-literacy.webp",
     introText:
-      "At FinAsk, we offer our specialized approach to Financial Literacy Workshops absolutely essential and highly reliable trusted ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
+      "Finask Value, we offer our specialized approach to Financial Literacy Workshops absolutely essential and highly reliable trusted ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
       "Our commitment to excellence in Financial Literacy Workshops truly reliable and deeply ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
@@ -2693,7 +2693,7 @@ export const servicesData = [
     title: "Next-Gen Financial Coaching",
     tagline: "Building Wealth with Wisdom, Not Just Wallets",
     description:
-      "They’ve grown up with apps, algorithms, and ambition. But what today’s generation often lacks is what no school or screen teaches — the financial wisdom to make wealth decisions with confidence, responsibility, and foresight.\nAt FinAsk, our Next-Gen Financial Coaching goes beyond numbers and jargon. We help young adults, heirs, first-jobbers, and aspiring entrepreneurs decode the language of money — from managing credit and investments to understanding equity, taxes, insurance, and legacy.\nBecause wealth is no longer inherited — it’s learned. And we’re here to make sure the next generation doesn’t just receive assets, but the ability to grow and respect them.",
+      "They’ve grown up with apps, algorithms, and ambition. But what today’s generation often lacks is what no school or screen teaches — the financial wisdom to make wealth decisions with confidence, responsibility, and foresight.\nFinask Value, our Next-Gen Financial Coaching goes beyond numbers and jargon. We help young adults, heirs, first-jobbers, and aspiring entrepreneurs decode the language of money — from managing credit and investments to understanding equity, taxes, insurance, and legacy.\nBecause wealth is no longer inherited — it’s learned. And we’re here to make sure the next generation doesn’t just receive assets, but the ability to grow and respect them.",
     features: [
       {
         title: "Money Management",
@@ -2732,7 +2732,7 @@ export const servicesData = [
     ],
     bgImage: "/finask/next-gen.webp",
     introText:
-      "At FinAsk, we offer our specialized approach to Next-Gen Financial Coaching absolutely essential and highly reliable trusted ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
+      "Finask Value, we offer our specialized approach to Next-Gen Financial Coaching absolutely essential and highly reliable trusted ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
       "Our commitment to excellence in Next-Gen Financial Coaching truly reliable and deeply ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
@@ -2752,7 +2752,7 @@ export const servicesData = [
     tagline:
       "Because Home Isn’t Just Where You Live. It’s Also Where You Grow.",
     description:
-      "From the avenues of London to the towers of Dubai, India is never far. For NRIs, India represents unmatched economic momentum and the unique joy of watching your roots flourish. At FinAsk, we help global Indians turn emotional ties into financial advantage. Whether it’s building cross-currency wealth with tax-optimized strategies, protecting family assets in India while you’re overseas, or planning legacies that gracefully span continents, we bring structure, compliance, and vision to your India-linked investments.",
+      "From the avenues of London to the towers of Dubai, India is never far. For NRIs, India represents unmatched economic momentum and the unique joy of watching your roots flourish. At , we help global Indians turn emotional ties into financial advantage. Whether it’s building cross-currency wealth with tax-optimized strategies, protecting family assets in India while you’re overseas, or planning legacies that gracefully span continents, we bring structure, compliance, and vision to your India-linked investments.",
     features: [
       {
         title: "FEMA Compliance",
@@ -2792,7 +2792,7 @@ export const servicesData = [
     ],
     bgImage: "/nri-services1.webp",
     introText:
-      "At FinAsk, we offer our specialized approach to NRI Corner absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
+      "Finask Value, we offer our specialized approach to NRI Corner absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
       "Our commitment to excellence in NRI Corner truly reliable and deeply proven ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
@@ -2810,7 +2810,7 @@ export const servicesData = [
     title: "Women Corner",
     tagline: "Because She Needs More Than Advice. She Needs Advocacy.",
     description:
-      "From her relationships to her marriage, from her career to her household, a woman navigates complexities at every turn. Often, she puts others ahead of herself—her spouse, children, aging parents. She may pause her career to care for family, adjust her ambitions to support a partner, or stay silent on financial matters that intimately shape her life.\nEven today, despite earning more than ever, many women hesitate to take the lead in conversations about investing, insurance, or inheritance. They’re told money is complicated. Or that it's simply not their domain. As a result, too many brilliant, resilient women continue to carry emotional, social, and even financial weight—without the security, knowledge, or confidence they deserve.\nAt FinAsk, we created Women Corner not as a marketing vertical, but as a stand — to show that her goals matter, her security matters, and her choices deserve to be as expansive and informed as anyone else's.\nWe work with:\n● Young professionals who juggle EMIs, family expectations, and ambitions no one fully understands.\n● Mothers who quietly prioritize school fees over retirement funds, fearing tomorrow’s uncertainty.\n ● Homemakers who wish to grasp how family wealth is truly structured—so they aren’t left in the dark if life shifts.\n● Women rebuilding after separation or loss, who need clarity, compassion, and a map to financial independence.\nFrom setting up a first SIP, securing health and critical care protection, or building long-term inheritance structures—right to candid conversations about burnout, self-worth, and reimagining a life on her own terms—this is a space where every version of her is seen, heard, and powerfully equipped.\nBecause when a woman is financially informed and emotionally supported:\n● Families grow safer.\n● Marriages become partnerships of equals.\n● Workplaces become more just.\n● And communities transform from the inside out.\n\nAt FinAsk, we don’t just create portfolios for women. We co-create possibilities—proving, every step of the way, that her dreams, her dignity, and her financial future are not an afterthought. They’re the very heart of what matters.",
+      "From her relationships to her marriage, from her career to her household, a woman navigates complexities at every turn. Often, she puts others ahead of herself—her spouse, children, aging parents. She may pause her career to care for family, adjust her ambitions to support a partner, or stay silent on financial matters that intimately shape her life.\nEven today, despite earning more than ever, many women hesitate to take the lead in conversations about investing, insurance, or inheritance. They’re told money is complicated. Or that it's simply not their domain. As a result, too many brilliant, resilient women continue to carry emotional, social, and even financial weight—without the security, knowledge, or confidence they deserve.\nFinask Value, we created Women Corner not as a marketing vertical, but as a stand — to show that her goals matter, her security matters, and her choices deserve to be as expansive and informed as anyone else's.\nWe work with:\n● Young professionals who juggle EMIs, family expectations, and ambitions no one fully understands.\n● Mothers who quietly prioritize school fees over retirement funds, fearing tomorrow’s uncertainty.\n ● Homemakers who wish to grasp how family wealth is truly structured—so they aren’t left in the dark if life shifts.\n● Women rebuilding after separation or loss, who need clarity, compassion, and a map to financial independence.\nFrom setting up a first SIP, securing health and critical care protection, or building long-term inheritance structures—right to candid conversations about burnout, self-worth, and reimagining a life on her own terms—this is a space where every version of her is seen, heard, and powerfully equipped.\nBecause when a woman is financially informed and emotionally supported:\n● Families grow safer.\n● Marriages become partnerships of equals.\n● Workplaces become more just.\n● And communities transform from the inside out.\n\nFinask Value, we don’t just create portfolios for women. We co-create possibilities—proving, every step of the way, that her dreams, her dignity, and her financial future are not an afterthought. They’re the very heart of what matters.",
     features: [
       {
         title: "Financial Independence",
@@ -2849,7 +2849,7 @@ export const servicesData = [
     ],
     bgImage: "/women-corner1.png",
     introText:
-      "At FinAsk, we offer our specialized approach to Women Corner absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
+      "Finask Value, we offer our specialized approach to Women Corner absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
       "Our commitment to excellence in Women Corner truly reliable and deeply proven ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
@@ -2908,7 +2908,7 @@ export const servicesData = [
     ],
     bgImage: "/family-office1.webp",
     introText:
-      "At FinAsk, we offer our specialized approach to Family Office absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
+      "Finask Value, we offer our specialized approach to Family Office absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
     closingText:
       "Our commitment to excellence in Family Office truly reliable and deeply proven ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {

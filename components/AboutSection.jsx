@@ -19,7 +19,7 @@ export default function AboutSection() {
             <p className="text-gray-600 text-lg leading-[1.4] mb-4 max-w-lg text-justify">
               We believe wealth is more than numbers it is security for
               families, dignity in retirement, and continuity across
-              generations. At FinAsk, we listen before we advise, and design
+              generations. Finask Value Value, we listen before we advise, and design
               financial frameworks that protect, grow, and transfer wealth with
               clarity, care and character.{" "}
             </p>

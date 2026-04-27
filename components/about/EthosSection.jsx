@@ -20,7 +20,7 @@ export default function EthosSection() {
               It is a child’s future funded without stress. A retirement that
               gives back more than it takes. It is the joy of giving, the calm
               of knowing, the quiet power of being prepared. At{" "}
-              <span className="text-[#00394E] font-bold">FinAsk</span>, we
+              <span className="text-[#00394E] font-bold">Finask Value</span>, we
               believe that wealth is not just grown. It is stewarded with care,
               with clarity and with character.
             </p>
@@ -35,7 +35,7 @@ export default function EthosSection() {
             </div>
             <div className="w-full md:w-2/3">
               <p className="text-gray-600 text-base leading-relaxed text-justify">
-                FinAsk was founded on a deeply personal belief: that no family
+                Finask Value was founded on a deeply personal belief: that no family
                 should suffer because they didn’t know how to plan. Built in
                 India. Designed for lives that dream bigger. Our clients are not
                 accounts. They are stories in motion.

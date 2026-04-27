@@ -26,22 +26,22 @@ export default function PurposeSection() {
                         {/* Header Section */}
                         <div className="mb-8">
                            
-                            <h2 className="font-serif text-4xl md:text-3xl font-bold text-[#F5F5F5] mb-6 leading-tight">
+                            <h2 className="font-serif   md:text-3xl font-bold text-[#F5F5F5] mb-6 leading-tight">
                                 Purpose Beyond <span className=" text-[#DAA434]">Profit</span>
                             </h2>
                             
                      
-                            <p className="text-lg md:text-xl text-gray-400 leading-relaxed font-light ">
+                            <p className="text-lg  text-gray-400 leading-relaxed font-light ">
                                 <strong className="text-[#F5F5F5] font-bold">True wealth is measured by the good it does.</strong> Our success is intrinsically linked to the well-being of the communities we serve.
                             </p>
                         </div>
 
                         {/* User Content: Concise Paragraphs */}
-                        <div className=" text-lg text-gray-400 leading-relaxed text-justify">
+                        <div className="  text-gray-400 leading-relaxed text-justify">
                             <p className="mb-4">
                                 <strong className="text-[#F5F5F5] font-medium ">Financial Literacy & Legacy:</strong> Through workshops and our "1% Pledge", we empower the next generation with the knowledge to build lasting legacies. We prepare heirs not just to inherit wealth, but to steward values, philanthropy, and family unity.
                             </p>
-                            <div className="w-full h-px bg-gray-100/80" />
+                            <div className="w-full h-px bg-gray-100/50" />
                             <p className="mt-4">
                                 <strong className="text-[#F5F5F5] font-medium">Sustainable Growth & Community:</strong> We invest in businesses and initiatives that prioritize ethical practices and build a better future for all. Success is shared we actively participate in and contribute to the local ecosystems where we operate.
                             </p>
