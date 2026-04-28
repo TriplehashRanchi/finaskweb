@@ -5,9 +5,9 @@ import Image from "next/image";
 const values = [
   {
     id: 1,
-    title: "Caring People Before Numbers",
+    title: "Caring For People Before Numbers",
     description:
-      "Behind every investment is a life story. We show up with empathy, clarity, and honesty — simplifying complexity and never promising what we can’t deliver. Clients and team members both feel seen, respected, and supported here.",
+      "Behind every number is a life story. We lead with empathy, respect, clarity and honesty because financial decisions are deeply personal, not just numerical. ",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -29,7 +29,7 @@ const values = [
     id: 2,
     title: "Transparency No Fine Print",
     description:
-      "Every plan, product, and strategy revolves around what’s best for you. We don’t just serve clients — we advocate for them with precision, care, and responsibility.",
+      "No hidden clauses. No surprises. We believe in absolute clarity so you understand every recommendation, every cost and every commitment before you move forward. ",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -51,7 +51,7 @@ const values = [
     id: 3,
     title: "Spam-Free Your Time Is Sacred",
     description:
-      "No noisy chasing, no pushy selling, no unnecessary interruptions. We respect your focus and space — delivering value with intention. Peace of mind comes before pressure.",
+      "No noise chasing, no pushy selling, no unnecessary interruptions. We respect your focus and space delivering value with intention. Peace of mind comes before pressure. ",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -78,7 +78,7 @@ const values = [
     id: 4,
     title: "Growth Mindset We Grow by Growing You",
     description:
-      "We believe in evolution, not just returns. Clients grow wealth the right way, and our team grows with learning, support, and opportunity. No one is stuck — everyone is supported.",
+      "We believe in evolution, not just returns. Clients grow wealth the right way and our team grows with learning, support and opportunity. No one is stuck everyone is supported.",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -100,7 +100,7 @@ const values = [
     id: 5,
     title: "Co-Creation of Wealth Win-Win Only",
     description:
-      "We build wealth with clients, not just for them. Every milestone client success, advisor growth, company progress is shared effort and shared reward. We believe in shared credit and shared growth.",
+      "We build wealth with clients, not just for them. Every milestone  client success, advisor growth, company progress is both a shared effort and a shared reward. We believe in sharing credit and growing together.",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -120,9 +120,9 @@ const values = [
   },
   {
     id: 6,
-    title: "Collaboration Built Together",
+    title: "Built on Collaboration ",
     description:
-      "Great outcomes need teamwork. We partner with top insurers, fund managers, and experts while internally breaking silos and sharing credit. Results improve when egos leave and collaboration leads.",
+      "Great outcomes are built through teamwork. We partner with top insurers, fund managers, and experts while internally breaking silos and sharing credit. Results improve when egos leave and collaboration leads.",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -144,7 +144,7 @@ const values = [
     id: 7,
     title: "Customer Obsession We Champion You",
     description:
-      "Every plan, product, and strategy revolves around what’s best for you. We don’t just serve clients — we advocate for them with precision, care, and responsibility.",
+      "Every decision starts with you. We do not just serve clients we advocate for them, ensuring every plan, product and strategy is aligned with what is truly in your best interest.",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -173,7 +173,7 @@ export default function ValuesSection() {
             Our Core Principles
           </h2>
           <p className="text-gray-500 max-w-2xl mx-auto text-lg leading-relaxed">
-            Values that guide our advice and define our character.
+            Values that shape our decisions and define our character. 
           </p>
         </div>
 

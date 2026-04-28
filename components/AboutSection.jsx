@@ -16,40 +16,36 @@ export default function AboutSection() {
             </h2>
 
             {/* Description */}
-            <p className="text-gray-600 text-lg leading-[1.4] mb-4 max-w-lg text-justify">
+            <p className="text-gray-600 text-lg leading-[1.4] mb-4 max-w-xl">
               We believe wealth is more than numbers it is security for
-              families, dignity in retirement, and continuity across
-              generations. Finask Value Value, we listen before we advise, and design
-              financial frameworks that protect, grow, and transfer wealth with
-              clarity, care and character.{" "}
+              families, dignity in retirement and continuity across generations.
+              At Finask Value, we listen before we advise and design financial
+              frameworks that protect, grow and transfer wealth with clarity,
+              care and character.{" "}
             </p>
 
-             <div>
-                {[
-                  { label: "The Ethos", href: "/about#philosophy" },
-                  { label: "How We Work", href: "/about#how-we-work" },
-                  { label: "Why We Exist", href: "/about#why-we-exist" },
-                  { label: "Our 7 Values", href: "/about#values" },
-                ].map((item) => (
-                  <Link
-                    key={item.label}
-                    href={item.href}
-                    className="group flex items-center justify-between py-5 border-b border-gray-100"
-                  >
-                    <span className="text-xl font-serif text-[#001F2B] group-hover:text-[#DAA434] transition-colors duration-300">
-                      {item.label}
-                    </span>
-                    <ArrowUpRight 
-                      className="text-gray-300 group-hover:text-[#DAA434] group-hover:translate-x-1 group-hover:-translate-y-1 transition-all duration-300" 
-                      size={24} 
-                    />
-                  </Link>
-                ))}
-              </div>
-           
-      
-
-          
+            <div>
+              {[
+                { label: "The Ethos", href: "/about#philosophy" },
+                { label: "How We Work", href: "/about#how-we-work" },
+                { label: "Why We Exist", href: "/about#why-we-exist" },
+                { label: "Our 7 Values", href: "/about#values" },
+              ].map((item) => (
+                <Link
+                  key={item.label}
+                  href={item.href}
+                  className="group flex items-center justify-between py-5 border-b border-gray-100"
+                >
+                  <span className="text-xl font-serif text-[#001F2B] group-hover:text-[#DAA434] transition-colors duration-300">
+                    {item.label}
+                  </span>
+                  <ArrowUpRight
+                    className="text-gray-300 group-hover:text-[#DAA434] group-hover:translate-x-1 group-hover:-translate-y-1 transition-all duration-300"
+                    size={24}
+                  />
+                </Link>
+              ))}
+            </div>
           </div>
 
           {/* RIGHT: Image Composition */}

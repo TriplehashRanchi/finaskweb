@@ -35,10 +35,10 @@ export default function EthosSection() {
             </div>
             <div className="w-full md:w-2/3">
               <p className="text-gray-600 text-base leading-relaxed text-justify">
-                Finask Value was founded on a deeply personal belief: that no family
-                should suffer because they didn’t know how to plan. Built in
-                India. Designed for lives that dream bigger. Our clients are not
-                accounts. They are stories in motion.
+                FinAsk Value was founded on a deeply personal belief that no
+                family should suffer because they did not know how to plan.
+                Built in India, designed for lives that dream bigger. Our
+                clients are not accounts. They are stories in motion.
               </p>
             </div>
           </div>
@@ -56,9 +56,9 @@ export default function EthosSection() {
               <p className="text-gray-600 text-base leading-relaxed text-justify">
                 What sets us apart is our role as listeners first. From
                 goal-based investments to tax-efficient structures, we partner
-                with people not just for portfolios, but for purpose. Because
-                numbers don’t drive us. We remain present quiet custodians of
-                your peace of mind.
+                with people not just for portfolios, but for purpose — because
+                numbers alone do not drive us. We remain your quiet custodians,
+                focused on your peace of mind.
               </p>
             </div>
           </div>
@@ -72,8 +72,7 @@ export default function EthosSection() {
             fill
             className="object-cover object-center"
           />
-                        <div className="absolute inset-0 bg-gradient-to-tr from-[#001F2B]/40 to-transparent pointer-events-none"></div>
-
+          <div className="absolute inset-0 bg-gradient-to-tr from-[#001F2B]/40 to-transparent pointer-events-none"></div>
         </div>
       </div>
     </section>

@@ -38,7 +38,7 @@ export default function WhyWeExistSection() {
                 8+
               </span>
               <div className="writing-vertical-rl rotate-90 text-xs sm:text-sm font-bold tracking-[0.2em] text-[#DAA434] h-[12rem] sm:h-[16rem] mt-6 sm:mt-8   self-start">
-                YEARS OF WORK <br /> EXPERIENCE
+                YEARS OF SERVING <br /> FAMILIES
               </div>
             </div>
 
@@ -76,16 +76,16 @@ export default function WhyWeExistSection() {
           {/* RIGHT COLUMN: Content & Image */}
           <div className="w-full lg:w-[60%] flex flex-col gap-4  py-10">
             <p className="  text-gray-600 leading-relaxed text-justify">
-              We founded Finask Value on a simple philosophy:
+              We founded FinAsk Value on a simple philosophy: -
               <strong className="text-[#00394E] block my-4 text-lg leading-[1.3]">
                 That every family deserves to approach life’s most meaningful
                 moments unburdened by financial anxiety.
               </strong>
               Whether it’s safeguarding your enterprise, structuring a
-              succession plan that prevents future disputes, or crafting health
+              succession plan that prevents future disputes or crafting health
               and life covers that ensure no hospital bill or sudden tragedy
-              ever forces distress sales — we serve as quiet custodians of your
-              peace of mind.
+              ever forces distress sales — we remain your quiet custodians,
+              focused on your peace of mind.
             </p>
 
             <Link
