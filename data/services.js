@@ -1311,7 +1311,7 @@ faq: [
           "Injuries caused due to intoxication, wilful disobedience, or accidents outside the scope of employment are typically not covered.",
       },
     ],
-    bgImage: "/finask/workmen-compensation-insurance.webp",
+    bgImage: "/finask/workmen-compensation-insurance.png",
     faqSection: {
       title: "General Question",
       description:
@@ -1372,7 +1372,7 @@ faq: [
           "Yes, many policies now include teleconsultation services, subject to regulatory and policy terms.",
       },
     ],
-    bgImage: "/finask/professional-indemnity-insurance-for-doctors.webp",
+    bgImage: "/finask/professional-indemnity-insurance-for-doctors.png",
     faqSection: {
       title: "General Question",
       description:
@@ -1489,7 +1489,7 @@ faq: [
           "Some policies may have a short waiting period before coverage becomes active.",
       },
     ],
-    bgImage: "/finask/personal-cyber-insurance.webp",
+    bgImage: "/finask/personal-cyber-insurance.png",
     faqSection: {
       title: "General Question",
       description:
@@ -1551,7 +1551,7 @@ faq: [
           "Common exclusions include intentional acts, poor security practices, or failure to follow compliance requirements.",
       },
     ],
-    bgImage: "/finask/corporate-cyber-insurance.webp",
+    bgImage: "/finask/corporate-cyber-insurance.png",
     faqSection: {
       title: "General Question",
       description:
@@ -1609,7 +1609,7 @@ faq: [
           "Yes, fleet owners can opt for fleet insurance policies covering multiple vehicles under a single plan.",
       },
     ],
-    bgImage: "/finask/taxi-insurance.webp",
+    bgImage: "/finask/taxi-insurance.png",
     faqSection: {
       title: "General Question",
       description:
@@ -1670,7 +1670,7 @@ faq: [
           "It excludes wear and tear of the vehicle, mechanical breakdown, driving without a valid license, driving under the influence of alcohol, and use outside the permitted purpose.",
       },
     ],
-    bgImage: "/finask/commercial-vehicle-insurance.webp",
+    bgImage: "/finask/commercial-vehicle-insurance.png",
     faqSection: {
       title: "General Question",
       description:
@@ -1787,7 +1787,7 @@ faq: [
           "Coverage depends on business size and risk exposure, typically starting from ₹50 lakhs.",
       },
     ],
-    bgImage: "/finask/general-liability-insurance.webp",
+    bgImage: "/finask/general-liability-insurance.png",
     faqSection: {
       title: "General Question",
       description:
@@ -1903,7 +1903,7 @@ faq: [
           "Wear and tear, mechanical breakdown, and intentional damage are usually excluded.",
       },
     ],
-    bgImage: "/finask/erection-all-risk-insurance.webp",
+    bgImage: "/finask/erection-all-risk-insurance.png",
     faqSection: {
       title: "General Question",
       description:
@@ -1961,7 +1961,7 @@ faq: [
           "Some insurers may set a minimum turnover requirement depending on policy type.",
       },
     ],
-    bgImage: "/finask/trade-credit-insurance.webp",
+    bgImage: "/finask/trade-credit-insurance.png",
     faqSection: {
       title: "General Question",
       description:
@@ -2079,7 +2079,7 @@ faq: [
           "No, it generally does not impact credit utilization like bank guarantees, but financial assessment is still required.",
       },
     ],
-    bgImage: "/finask/surety-bond-insurance.webp",
+    bgImage: "/finask/surety-bond-insurance.png",
     faqSection: {
       title: "General Question",
       description:
@@ -2258,7 +2258,7 @@ faq: [
           "Yes, claims history of all individual vehicles and the overall fleet affects premium and renewal terms.",
       },
     ],
-    bgImage: "/finask/fleet-insurance.webp",
+    bgImage: "/finask/fleet-insurance.png",
     faqSection: {
       title: "General Question",
       description:
@@ -2316,7 +2316,7 @@ faq: [
           "Yes, many insurers allow coverage for multiple locations under a single policy, depending on their guidelines.",
       },
     ],
-    bgImage: "/finask/shop-owner-insurance.webp",
+    bgImage: "/finask/shop-owner-insurance.png",
     faqSection: {
       title: "General Question",
       description:
@@ -2491,7 +2491,7 @@ faq: [
           "The best SIP for you depends on your goals, risk level, and investment horizon. Our expert advice helps you choose the right funds and stay on track.",
       },
     ],
-    bgImage: "/finask/systematic-investment-plan.webp",
+    bgImage: "/finask/sip.png",
     faqSection: {
       title: "General Question",
       description:
@@ -2552,7 +2552,7 @@ faq: [
           "SIP is used to invest regularly and build wealth, while SWP is used to withdraw regularly and generate income from existing investments.",
       },
     ],
-    bgImage: "/finask/systematic-withdrawal-plan.webp",
+    bgImage: "/finask/swp.png",
     faqSection: {
       title: "General Question",
       description:
@@ -2613,7 +2613,7 @@ faq: [
           "No, STP does not guarantee returns; it only improves investment discipline and entry timing efficiency.",
       },
     ],
-    bgImage: "/finask/systematic-transfer-plan.webp",
+    bgImage: "/finask/stp.png",
     faqSection: {
       title: "General Question",
       description:
@@ -2670,7 +2670,7 @@ faq: [
           "They usually require a medium to long-term investment horizon for optimal results.",
       },
     ],
-    bgImage: "/finask/specialized-investment-funds.webp",
+    bgImage: "/finask/sif.png",
     faqSection: {
       title: "General Question",
       description:
@@ -3592,7 +3592,7 @@ faq: [
           "Trusts can be revocable (can be cancelled) or irrevocable (permanent). Irrevocable trusts offer better asset protection.",
       },
     ],
-    bgImage: "/finask/trust.webp",
+    bgImage: "/finask/trust.jpg",
     faqSection: {
       title: "General Question",
       description:
@@ -3973,7 +3973,7 @@ faq: [
           "Yes, most credit cards allow conversion of eligible transactions into easy monthly installments (EMIs).",
       },
     ],
-    bgImage: "/finask/credit-cards.webp",
+    bgImage: "/finask/credit-cards.png",
     faqSection: {
       title: "General Question",
       description:
@@ -4028,7 +4028,7 @@ faq: [
           "TDS is deducted on capital gains for NRIs. However, you can claim DTAA benefits if applicable.",
       },
     ],
-    bgImage: "/nri-services1.webp",
+    bgImage: "/finask/nri-corner.png",
     faqSection: {
       title: "General Question",
       description:
@@ -4081,7 +4081,7 @@ faq: [
           "We help you build a personal corpus, manage your own investments, and plan for your future security.",
       },
     ],
-    bgImage: "/women-corner1.png",
+    bgImage: "/finask/women-corner.png",
     faqSection: {
       title: "General Question",
       description:

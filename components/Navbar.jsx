@@ -97,7 +97,7 @@ function InsuranceMegaMenu() {
         "Prof. Indemnity for Doctors",
         "Professional Indemnity",
         "Workmen Compensation",
-        "General Liability",
+        "General Liability Insurance",
         "Corporate Cyber Insurance",
         "Director & Officer's Liability",
       ],
