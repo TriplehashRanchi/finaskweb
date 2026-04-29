@@ -60,7 +60,7 @@ export default function ServiceContent({ service, hideFaq = false }) {
               {line}
             </p>
           ))}
-          <p>{service.introText}</p>
+        
         </div>
       </div>
 
@@ -90,10 +90,7 @@ export default function ServiceContent({ service, hideFaq = false }) {
             </div>
           ))}
       </div>
-
-      <p className="text-slate-600 leading-[1.3] mb-10 text-md">
-        {service.closingText}
-      </p>
+ 
 
       {/* ----------------------------- */}
       {/*        FAQ SECTION            */}

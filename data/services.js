@@ -45,26 +45,22 @@ export const servicesData = [
       },
     ],
     bgImage: "/finask/health.jpg",
-    introText:
-      "Finask Value, we offer our specialized approach to Health Insurance absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
-    closingText:
-      "Our commitment to excellence in Health Insurance truly reliable and deeply proven ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
       title: "General Question",
       description:
         "Answers to common questions about our services and how we can help you achieve your financial goals.",
       image: "/faq.webp",
-      consultationTitle: "If You Need Help, Get A Consultation",
+      consultationTitle: "Connect with an Expert",
       consultationButton: "Get Started",
     },
   },
   {
-    slug: "super-health-top-up",
+    slug: "health-super-top-up",
     category: "Insurance",
-    title: "Super Top-Up",
-    tagline: "Because the unforeseen often exceeds conventional bounds.",
+    title: "Health Super Top-Up",
+    tagline: "Because the Unforeseen Often Exceeds Conventional Bounds.",
     description:
-      "Even substantial base health covers may falter before the staggering costs of advanced treatments or repeat hospitalizations. A super top-up creates a prudent second layer — activating precisely when your primary plan’s limits are surpassed.\n\nIt’s an astute strategy to command expansive protection without exorbitant premiums, allowing your portfolio to remain dedicated to growth rather than unplanned liquidation.\n\nWith rising medical inflation, it’s no longer optional — it’s essential foresight. So when life tests your resilience, your finances stand unshaken.",
+      "Even substantial base health covers may falter before the staggering costs of advanced treatments or repeat hospitalizations. A Health Health Super Top-Up creates a prudent second layer — activating precisely when your primary plan’s limits are surpassed. \n It’s an astute strategy to command expansive protection without exorbitant premiums, allowing your portfolio to remain dedicated to growth rather than unplanned liquidation. \n With rising medical inflation, it’s no longer optional — it’s essential foresight. So, when life tests your resilience, your finances stand unshaken.",
     features: [
       {
         title: "High Leverage",
@@ -78,39 +74,35 @@ export const servicesData = [
     ],
     faq: [
       {
-        question: "Do I need a base policy before buying a Super Top-Up?",
+        question:
+          "Do I need a Base Policy before buying a Health Super Top-Up?",
         answer:
           "Yes, it is recommended to have a base policy equal to or higher than the deductible amount for proper coverage.",
       },
       {
-        question:
-          "Is Super Top-Up more affordable than increasing my base cover?",
+        question: "Can I cover my family members under the same plan?",
         answer:
-          "Yes. It offers higher coverage at a significantly lower premium, making it a cost-effective way to enhance protection.",
+          "Yes, most Health Super Top-Up plans allow you to cover your family members under the same policy through a Family Floater option.",
       },
       {
         question:
-          "Does the Super Top-Up cover multiple hospitalizations in a year?",
+          "Does the Health Super Top-Up cover multiple hospitalizations in a year?",
         answer:
-          "Yes. Once the deductible is crossed (through single or multiple claims combined), the Super Top-Up covers eligible expenses for the rest of the policy",
+          "Yes, once the deductible is crossed (through single or multiple claims combined), the Health Super Top-Up covers eligible expenses for the rest of the policy.",
       },
       {
-        question: "Is there a waiting period in Super Top-Up plans?",
+        question: "Is there a waiting period in Health Super Top-Up plans?",
         answer:
-          "Yes, similar to base policies, Super Top-Up plans may have waiting periods for pre-existing diseases and specific treatments.",
+          "Yes, similar to base policies, Health Super Top-Up plans may have waiting periods for pre-existing diseases and specific treatments.",
       },
     ],
     bgImage: "/finask/super.webp",
-    introText:
-      "Finask Value, we offer our specialized approach to Super Top-Up absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
-    closingText:
-      "Our commitment to excellence in Super Top-Up truly reliable and deeply proven ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
       title: "General Question",
       description:
         "Answers to common questions about our services and how we can help you achieve your financial goals.",
       image: "/faq.webp",
-      consultationTitle: "If You Need Help, Get A Consultation",
+      consultationTitle: "Connect with an Expert",
       consultationButton: "Get Started",
     },
   },
@@ -119,7 +111,7 @@ export const servicesData = [
     category: "Insurance",
     title: "Personal Accident Insurance",
     tagline:
-      "Because life’s minor stumbles shouldn’t disrupt its grander designs.",
+      "Because Life’s Minor Stumbles Should Not Disrupt Its Grander Designs.",
     description:
       "Accidents rarely seek permission. A brief mishap can momentarily pause income or, in more severe cases, permanently alter earning trajectories. Personal accident coverage ensures your household’s rhythm continues unbroken — supporting recoveries and sustaining ambitions with quiet financial reinforcement.\nIt’s more than a payout; it’s a promise that dreams remain intact, children’s plans stay on course, and daily comforts don’t give way to compromises.\nFrom covering medical costs to providing income replacement and long-term disability benefits, this shield steps in precisely when life feels most uncertain — so your future’s design stays undisturbed.",
     features: [
@@ -139,15 +131,14 @@ export const servicesData = [
     ],
     faq: [
       {
-        question: "Who should buy a Personal Accident policy?",
+        question: "Who should buy a Personal Accident Insurance?",
         answer:
           "Anyone who earns for their family, travels frequently, drives regularly, or works in physically demanding environments should consider this cover.",
       },
       {
-        question:
-          "How is the claim amount paid in Personal Accident insurance?",
+        question: "Do I need a medical check-up to buy this policy?",
         answer:
-          "In case of accidental death or specified disability, the insurer pays a fixed lump-sum amount or as per the policy terms.",
+          "In most cases, no medical check-up is required, making it easy to purchase.",
       },
       {
         question: "What is Permanent Total Disability (PTD)?",
@@ -161,16 +152,12 @@ export const servicesData = [
       },
     ],
     bgImage: "/finask/accident.webp",
-    introText:
-      "Finask Value, we offer our specialized approach to Personal Accident Insurance absolutely essential and highly reliable trusted ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
-    closingText:
-      "Our commitment to excellence in Personal Accident Insurance truly reliable and deeply ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
       title: "General Question",
       description:
         "Answers to common questions about our services and how we can help you achieve your financial goals.",
       image: "/faq.webp",
-      consultationTitle: "If You Need Help, Get A Consultation",
+      consultationTitle: "Connect with an Expert",
       consultationButton: "Get Started",
     },
   },
@@ -178,7 +165,7 @@ export const servicesData = [
     slug: "critical-illness-insurance",
     category: "Insurance",
     title: "  Critical Illness Insurance",
-    tagline: "So that healing never demands dismantling your legacy.",
+    tagline: "So That Healing Never Demands Dismantling Your Legacy.",
     description:
       "Confronting a serious diagnosis is challenging enough without the added strain of sourcing funds or restructuring investments. Critical illness insurance offers a dignified, immediate payout upon diagnosis, empowering you to secure superior care and protect your family’s accustomed lifestyle — all without distressing your long-horizon financial plans.\n\nIt ensures that while you focus on recovery, your ambitions, your children’s education, and your family’s day-to-day comfort continue undeterred.\nBecause true financial planning doesn’t just anticipate the best — it thoughtfully prepares for the unexpected.",
     features: [
@@ -199,12 +186,13 @@ export const servicesData = [
     faq: [
       {
         question:
-          "How is Critical Illness insurance different from health insurance?",
+          "How is Critical Illness Insurance different from Health Insurance?",
         answer:
-          "Health insurance reimburses hospital bills. Critical Illness insurance pays a fixed lump-sum amount upon diagnosis, which you can use for treatment, recovery, income replacement, or household expenses.",
+          "Health Insurance reimburses hospital bills, while Critical Illness Insurance pays a fixed lump-sum amount upon diagnosis, which you can use for treatment, recovery, income replacement or household expenses.",
       },
       {
-        question: "What illnesses are covered under Critical Illness plans?",
+        question:
+          "What illnesses are covered under Critical Illness Insurance?",
         answer:
           "Coverage depends on the insurer, but most plans include major conditions like cancer, heart attack, stroke, organ transplant, paralysis, kidney failure, and major surgeries.",
       },
@@ -214,84 +202,76 @@ export const servicesData = [
           "A survival period is the minimum number of days (for example, 30 days) you must survive after diagnosis to receive the claim payout.",
       },
       {
-        question: "Who should consider Critical Illness insurance?",
+        question: "Who should consider Critical Illness Insurance?",
         answer:
           "Anyone with financial responsibilities, family history of serious illnesses, high-stress lifestyle, or limited savings should strongly consider this cover.",
       },
     ],
     bgImage: "/finask/critical-illness-insurance.jpeg",
-    introText:
-      "Finask Value, we offer our specialized approach to Critical Illness Insurance absolutely essential and highly reliable trusted ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
-    closingText:
-      "Our commitment to excellence in Critical Illness Insurance truly reliable and deeply ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
       title: "General Question",
       description:
         "Answers to common questions about our services and how we can help you achieve your financial goals.",
       image: "/faq.webp",
-      consultationTitle: "If You Need Help, Get A Consultation",
+      consultationTitle: "Connect with an Expert",
       consultationButton: "Get Started",
     },
   },
-  {
-    slug: "life-insurance",
-    category: "Insurance",
-    title: "Life Insurance",
-    tagline: "Because true love ensures a future unmarred by uncertainty.",
-    description:
-      "Life’s journey, however beautifully put together, carries inherent unpredictability. A thoughtfully selected life insurance plan preserves your family’s standard of living, funds your children’s education and weddings, and safeguards your spouse’s peace of mind — all without ever forcing distress sales or uncomfortable compromises.\n\nWe select policies that seamlessly integrate with your estate plans, ensuring that even in your absence, your legacy is fulfilled with grace and dignity.",
-    features: [
-      {
-        title: "Legacy Protection",
-        description: "Ensures your wealth transfer plans remain intact.",
-      },
-      {
-        title: "Lifestyle Continuity",
-        description: "Funds to maintain your family's standard of living.",
-      },
-      {
-        title: "Debt Protection",
-        description: "Covers liabilities so your assets aren't liquidated.",
-      },
-    ],
-    faq: [
-      {
-        question: "What is the right age to buy life insurance?",
-        answer:
-          "The younger you are, the lower the premiums. Buying early locks in a low rate for the entire term.",
-      },
-      {
-        question: "What is the difference between Term and Endowment plans?",
-        answer:
-          "Term insurance offers high cover at low cost with no maturity benefit. Endowment plans offer a mix of insurance and savings with a maturity payout.",
-      },
-      {
-        question: "Are the premiums tax-deductible?",
-        answer:
-          "Yes, premiums paid are eligible for tax deduction under Section 80C of the Income Tax Act.",
-      },
-    ],
-    bgImage: "/finask/life.jpg",
-    introText:
-      "Finask Value, we offer our specialized approach to Life Insurance absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
-    closingText:
-      "Our commitment to excellence in Life Insurance truly reliable and deeply proven ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
-    faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.webp",
-      consultationTitle: "If You Need Help, Get A Consultation",
-      consultationButton: "Get Started",
-    },
-  },
+  // {
+  //   slug: "life-insurance",
+  //   category: "Insurance",
+  //   title: "Life Insurance",
+  //   tagline: "Because true love ensures a future unmarred by uncertainty.",
+  //   description:
+  //     "Life’s journey, however beautifully put together, carries inherent unpredictability. A thoughtfully selected life insurance plan preserves your family’s standard of living, funds your children’s education and weddings, and safeguards your spouse’s peace of mind — all without ever forcing distress sales or uncomfortable compromises.\n\nWe select policies that seamlessly integrate with your estate plans, ensuring that even in your absence, your legacy is fulfilled with grace and dignity.",
+  //   features: [
+  //     {
+  //       title: "Legacy Protection",
+  //       description: "Ensures your wealth transfer plans remain intact.",
+  //     },
+  //     {
+  //       title: "Lifestyle Continuity",
+  //       description: "Funds to maintain your family's standard of living.",
+  //     },
+  //     {
+  //       title: "Debt Protection",
+  //       description: "Covers liabilities so your assets aren't liquidated.",
+  //     },
+  //   ],
+  //   faq: [
+  //     {
+  //       question: "What is the right age to buy life insurance?",
+  //       answer:
+  //         "The younger you are, the lower the premiums. Buying early locks in a low rate for the entire term.",
+  //     },
+  //     {
+  //       question: "What is the difference between Term and Endowment plans?",
+  //       answer:
+  //         "Term insurance offers high cover at low cost with no maturity benefit. Endowment plans offer a mix of insurance and savings with a maturity payout.",
+  //     },
+  //     {
+  //       question: "Are the premiums tax-deductible?",
+  //       answer:
+  //         "Yes, premiums paid are eligible for tax deduction under Section 80C of the Income Tax Act.",
+  //     },
+  //   ],
+  //   bgImage: "/finask/life.jpg",
+  //   faqSection: {
+  //     title: "General Question",
+  //     description:
+  //       "Answers to common questions about our services and how we can help you achieve your financial goals.",
+  //     image: "/faq.webp",
+  //     consultationTitle: "Connect with an Expert",
+  //     consultationButton: "Get Started",
+  //   },
+  // },
   {
     slug: "term-insurance",
     category: "Insurance",
     title: "Term Insurance",
-    tagline: "So your family remains protected through life's uncertainties.",
+    tagline: "Care That Never Fades",
     description:
-      "Life’s certainties are few, but your family’s stability should never be one of them. Term insurance creates a strong financial foundation, ensuring loved ones can continue their lives with dignity, education, and independence even in your absence. Finask Value, we help you choose thoughtfully structured cover that matches your responsibilities, future liabilities, and income goals. Whether protecting young children, supporting a spouse, or securing aging parents — we curate plans that preserve security when it matters most for generations ahead confidently.",
+      "Life’s certainties are few, but your family’s stability should never be one of them. Term Insurance creates a strong financial foundation, ensuring loved ones can continue their lives with dignity, education and independence even in your absence. At FinAsk Value, we help you choose thoughtfully structured cover that matches your responsibilities, future liabilities and income goals. Whether protecting young children, supporting a spouse or securing aging parents — we curate plans that preserve security when it matters most for generations ahead confidently.",
     features: [
       {
         title: "High Life Cover",
@@ -311,48 +291,44 @@ export const servicesData = [
     ],
     faq: [
       {
-        question: "How much Term Insurance cover should I take?",
+        question: "What is the ideal Term Insurance cover I should have?",
         answer:
-          "A general rule is 5-25 times your annual income basis of your age, adjusted for liabilities, lifestyle expenses, and future financial goals.",
+          "A general rule is 5-25 times your annual income based on your age, adjusted for liabilities, lifestyle expenses and future financial goals.",
       },
       {
-        question: "Can I add riders to my Term Insurance policy?",
+        question: " Can I add riders to my Term Insurance policy?",
         answer:
-          "Yes. You can enhance coverage with riders like Critical Illness, Accidental Death Benefit, or Waiver of Premium.",
+          "Yes, you can enhance coverage with riders like Critical Illness Cover, Accidental Death Benefit or Waiver of Premium.",
       },
       {
         question: "When is the best time to buy Term Insurance?",
         answer:
-          "The earlier you buy, the lower the premium. Starting young helps lock in affordable rates for long-term protection",
+          "The earlier you buy, the lower the premium. Starting young helps lock in affordable rates for long-term protection.",
       },
       {
         question:
           "What is the difference between Term Insurance & Life Insurance?",
         answer:
-          "Term insurance gives high cover at low cost and pays only on death.\nTraditional insurance combines cover with savings, costs more, and offers lower cover.",
+          "Term Insurance gives high cover at low cost and pays only on death, whereas Traditional Life Insurance combines cover with savings, costs more and offers lower cover.",
       },
     ],
     bgImage: "/finask/term.png",
-    introText:
-      "Finask Value, we offer our specialized approach to Term Insurance absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
-    closingText:
-      "Our commitment to excellence in Term Insurance truly reliable and deeply proven ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
       title: "General Question",
       description:
         "Answers to common questions about our services and how we can help you achieve your financial goals.",
       image: "/faq.webp",
-      consultationTitle: "If You Need Help, Get A Consultation",
+      consultationTitle: "Connect with an Expert",
       consultationButton: "Get Started",
     },
   },
   {
-    slug: "ulip",
+    slug: "unit-link-insurance-plan",
     category: "Insurance",
-    title: "ULIP Insurance",
-    tagline: "So protection and wealth creation can grow together.",
+    title: "Unit Link Insurance Plan ",
+    tagline: "So Protection and Wealth Creation Can Grow Together",
     description:
-      "For those who value protection alongside disciplined wealth creation, ULIP insurance offers a refined dual advantage. It combines life cover with market-linked investing, allowing your money to participate in long-term growth while serving broader family goals. Finask Value, we help you evaluate funds, risk appetite, policy horizons, and charges with clarity, so every allocation supports both protection and performance. Whether planning children’s futures, retirement goals, or legacy creation — we curate solutions designed to build wealth with purpose over time elegantly.",
+      "For those who value protection alongside disciplined wealth creation, ULIP offers a refined dual advantage. It combines life cover with market-linked investing, allowing your money to participate in long-term growth while serving broader family goals. At FinAsk Value, we help you evaluate funds, risk appetite, policy horizons and charges with clarity, so every allocation supports both protection and performance. Whether planning children’s futures, retirement goals or legacy creation — we curate solutions designed to build wealth with purpose over time elegantly.",
     features: [
       {
         title: "Life Cover + Investment",
@@ -372,14 +348,14 @@ export const servicesData = [
     ],
     faq: [
       {
-        question: "How does a ULIP work?",
+        question: "How transparent are ULIPs?",
         answer:
-          "Your premium is divided into two parts — one for life insurance and the other for investment. You can choose funds based on your risk appetite, and the returns depend on market performance.",
+          "ULIPs offer high transparency with regular NAV (Net Asset Value) disclosures, fund performance tracking and charge breakdowns.",
       },
       {
-        question: "Can I switch between funds in a ULIP?",
+        question: "What charges are applicable in ULIP?",
         answer:
-          "Yes. Most ULIPs allow you to switch between equity, debt, and balanced funds based on market conditions or changing financial goals.",
+          "ULIPs may include premium allocation charges, fund management charges, mortality charges and policy administration fees, depending on the plan.",
       },
       {
         question: "What is the lock-in period in ULIP?",
@@ -393,26 +369,22 @@ export const servicesData = [
       },
     ],
     bgImage: "/finask/ulip.png",
-    introText:
-      "Finask Value, we offer our specialized approach to ULIP Insurance absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
-    closingText:
-      "Our commitment to excellence in ULIP Insurance truly reliable and deeply proven ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
       title: "General Question",
       description:
         "Answers to common questions about our services and how we can help you achieve your financial goals.",
       image: "/faq.webp",
-      consultationTitle: "If You Need Help, Get A Consultation",
+      consultationTitle: "Connect with an Expert",
       consultationButton: "Get Started",
     },
   },
   {
-    slug: "traditional-savings",
+    slug: "traditional-life-insurance-plans",
     category: "Insurance",
-    title: "Traditional / Guaranteed Savings products",
-    tagline: "So certainty quietly supports your future financial milestones.",
+    title: "Traditional Life Insurance Plans",
+    tagline: "Certainty That Quietly Supports Your Future Financial Milestones",
     description:
-      "When predictability matters more than volatility, traditional savings and guaranteed products offer reassuring financial certainty. They are designed for those who value steady accumulation, defined benefits, and disciplined planning over market fluctuations. Finask Value, we help you identify structures that align with education goals, retirement income, legacy intentions, or planned milestones with confidence. Whether you seek assured payouts, capital preservation, or dependable long-term savings — we curate solutions that bring stability, visibility, and peace to your financial journey for years ahead.",
+      "When predictability matters more than volatility, Traditional Life Insurance Plans offer reassuring financial certainty. They are designed for those who value steady accumulation, defined benefits and disciplined planning over market fluctuations. At FinAsk Value, we help you identify structures that align with education goals, retirement income, legacy intentions or planned milestones with confidence. Whether you seek assured payouts, capital preservation or dependable long-term savings — we curate solutions that bring stability, visibility and peace to your financial journey for years ahead.",
     features: [
       {
         title: "Guaranteed Returns",
@@ -432,19 +404,20 @@ export const servicesData = [
     ],
     faq: [
       {
-        question: "Are the returns really guaranteed?",
+        question:
+          "What is the difference between Participating and Non-Participating Traditional Life Insurance Plans?",
         answer:
-          "Yes, the guaranteed benefits mentioned in the policy are fixed at the time of purchase and are not affected by market fluctuations.",
+          "Participating Traditional Life Insurance Plans offer bonuses based on company profits, while Non-Participating Traditional Life Insurance Plans provide fixed, guaranteed benefits without bonuses.",
       },
       {
-        question: "How are these plans different from ULIPs or mutual funds?",
+        question: "How are these plans different from ULIPs or Mutual Funds?",
         answer:
-          "Traditional plans offer stable, guaranteed returns with low risk, while ULIPs and mutual funds are market-linked and subject to volatility.",
+          "Traditional Life Insurance Plans offer stable, guaranteed returns with low risk, while ULIPs and Mutual Funds are market-linked and subject to volatility.",
       },
       {
-        question: "Who should consider Guaranteed Savings Plans?",
+        question: "What are the types of Traditional Life Insurance Plans?",
         answer:
-          "They are ideal for conservative investors, parents planning for children’s education/marriage, or individuals seeking predictable returns without market risk.",
+          "Common types include Endowment Plans, Whole Life Insurance, Money-Back Plans and Term Insurance with Return of Premium options.",
       },
       {
         question: "What happens if I stop paying premiums?",
@@ -453,16 +426,12 @@ export const servicesData = [
       },
     ],
     bgImage: "/finask/traditional-guaranteed-saving.webp",
-    introText:
-      "Finask Value, we offer our specialized approach to Traditional Guaranteed Savings products absolutely essential and highly reliable ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
-    closingText:
-      "Our commitment to excellence in Traditional Guaranteed Savings products truly reliable and ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
       title: "General Question",
       description:
         "Answers to common questions about our services and how we can help you achieve your financial goals.",
       image: "/faq.webp",
-      consultationTitle: "If You Need Help, Get A Consultation",
+      consultationTitle: "Connect with an Expert",
       consultationButton: "Get Started",
     },
   },
@@ -470,10 +439,9 @@ export const servicesData = [
     slug: "motor-insurance",
     category: "Insurance",
     title: "Motor Insurance",
-    tagline:
-      "Because the freedom of the road deserves unencumbered confidence.",
+    tagline: "Drive with Confidence, Insured Every Mile",
     description:
-      "Your vehicles — whether cherished classics or trusted everyday drives — are more than mere conveyances. They reflect taste, independence, and a lifestyle carefully cultivated.\n\nOur motor insurance solutions go far beyond basic compliance. We find tailored covers that account for true market value, zero depreciation concerns, and seamless repair or replacement — so every drive remains a pleasure, never a preoccupation.\n\nFrom accidental damages to theft and liability, we ensure you’re shielded from life’s unforeseen detours. Because with the right protection, your journeys can stay focused on joy — not just risk.",
+      "Your vehicles — whether cherished classics or trusted everyday drives — are more than mere conveyances. They reflect taste, independence and a lifestyle carefully cultivated. \n Our Motor Insurance solutions go far beyond basic compliance. We find tailored covers that account for true market value, zero depreciation concerns and seamless repair or replacement — so every drive remains a pleasure, never a preoccupation. \n From accidental damages to theft and liability, we ensure you are shielded from life’s unforeseen detours. Because with the right protection, your journeys can stay focused on joy — not just risk.",
     features: [
       {
         title: "Zero Depreciation",
@@ -491,38 +459,34 @@ export const servicesData = [
     ],
     faq: [
       {
-        question: "Is motor insurance mandatory?",
+        question: "Is Motor Insurance mandatory?",
         answer:
-          "Yes. As per law, at least third-party motor insurance is mandatory for all vehicles on Indian roads.",
+          "Yes, as per law, at least Third-Party Motor Insurance is mandatory for all vehicles on Indian roads.",
       },
       {
         question:
-          "What is the difference between Third-Party and Comprehensive insurance?",
+          "What is the difference between Third-Party Motor and Comprehensive Motor Insurance?",
         answer:
-          "Third-Party insurance covers damage or injury caused to others. Comprehensive insurance covers third-party liabilities plus damage to your own vehicle due to accident, theft, fire, natural calamities, etc.",
+          "Third-Party Motor Insurance covers damage or injury caused to others, while Comprehensive Motor Insurance covers third-party liabilities plus damage to your own vehicle due to accident, theft, fire, natural calamities, etc.",
       },
       {
-        question: "What is No Claim Bonus (NCB) in motor insurance?",
+        question: "What is No Claim Bonus (NCB) in Motor Insurance?",
         answer:
-          "NCB is a discount on your premium for every claim-free year. The longer you don’t claim, the higher your discount at renewal.",
+          "No Claim Bonus (NCB) is a discount on your premium for every claim-free year. The longer you go without making a claim, the higher your discount at renewal.",
       },
       {
-        question: "What are common add-ons in comprehensive motor insurance?",
+        question: "Can I transfer my Motor Insurance Policy?",
         answer:
-          "Popular add-ons include Zero Depreciation cover, Engine Protection, Roadside Assistance, Return to Invoice, and Consumables cover.",
+          "Yes, Motor Insurance can be transferred to a new owner when the vehicle is sold, subject to insurer approval.",
       },
     ],
     bgImage: "/finask/motor-insurance.png",
-    introText:
-      "Finask Value, we offer our specialized approach to Motor Insurance absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
-    closingText:
-      "Our commitment to excellence in Motor Insurance truly reliable and deeply proven ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
       title: "General Question",
       description:
         "Answers to common questions about our services and how we can help you achieve your financial goals.",
       image: "/faq.webp",
-      consultationTitle: "If You Need Help, Get A Consultation",
+      consultationTitle: "Connect with an Expert",
       consultationButton: "Get Started",
     },
   },
@@ -530,9 +494,9 @@ export const servicesData = [
     slug: "travel-insurance",
     category: "Insurance",
     title: "Travel Insurance",
-    tagline: "Because journeys should yield memories, not misgivings.",
+    tagline: " Because Journeys Should Yield Memories, Not Misgivings",
     description:
-      "Exploring the world — be it for business negotiations in London or leisurely summers in the Bahamas — brings unparalleled joy. Yet travel also carries the occasional turbulence: misplaced luggage, unexpected illness, or sudden disruptions.\n\nWith finely attuned global coverage, we ensure these inconveniences never escalate into financial or emotional burdens. Your plans proceed unhindered, your mind stays uncluttered.\n\nFrom emergency evacuations to hotel cancellations, we safeguard every leg of your itinerary. So you can immerse fully in new cultures and experiences, knowing we’re quietly managing the ‘what ifs.’",
+      "Exploring the world — be it for business negotiations in London or leisurely summers in the Bahamas — brings unparalleled joy. Yet travel also carries the occasional turbulence: misplaced luggage, unexpected illness or sudden disruptions. \n With finely attuned global coverage, we ensure these inconveniences never escalate into financial or emotional burdens — so your plans proceed unhindered and your mind stays at ease. \n From emergency evacuations to hotel cancellations, we safeguard every leg of your itinerary. So, you can immerse fully in new cultures and experiences, knowing we are quietly managing the ‘what ifs.’ ",
     features: [
       {
         title: "Medical Emergencies",
@@ -549,9 +513,9 @@ export const servicesData = [
     ],
     faq: [
       {
-        question: "What does Travel Insurance typically cover?",
+        question: "Is Travel Insurance mandatory?",
         answer:
-          "It generally covers emergency medical expenses, hospitalization abroad, trip cancellation/interruption, baggage loss, flight delays, and personal liability etc.",
+          "Travel Insurance is mandatory for some countries like Schengen countries, while for others it is strongly recommended for financial protection.",
       },
       {
         question: "How is the claim settled in Travel Insurance?",
@@ -570,80 +534,72 @@ export const servicesData = [
       },
     ],
     bgImage: "/finask/travel-insurance.webp",
-    introText:
-      "Finask Value, we offer our specialized approach to Travel Insurance absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
-    closingText:
-      "Our commitment to excellence in Travel Insurance truly reliable and deeply proven ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
       title: "General Question",
       description:
         "Answers to common questions about our services and how we can help you achieve your financial goals.",
       image: "/faq.webp",
-      consultationTitle: "If You Need Help, Get A Consultation",
+      consultationTitle: "Connect with an Expert",
       consultationButton: "Get Started",
     },
   },
-  {
-    slug: "property-insurance",
-    category: "Insurance",
-    title: "Property Insurance",
-    tagline: "Because a structure’s worth often transcends bricks and mortar.",
-    description:
-      "Whether it’s the villa hosting annual family gatherings or commercial spaces anchoring your business empire, we ensure each property is thoughtfully safeguarded. Should calamities arise, recovery unfolds without undue financial strain or disruption to broader ambitions.\n\nBeyond mere compensation, it’s about honoring the memories, livelihoods, and futures those walls shelter.\nWith Finask Value, your property stands protected — so your life’s stories and successes continue uninterrupted, come what may.",
-    features: [
-      {
-        title: "Comprehensive Cover",
-        description: "Protection for residential and commercial properties.",
-      },
-      {
-        title: "Reinstatement Value",
-        description: "Claims settled based on cost of reconstruction.",
-      },
-    ],
-    faq: [
-      {
-        question: "What does Property Insurance typically cover?",
-        answer:
-          "It can cover the building structure, interiors, furniture, fixtures, equipment, and sometimes valuable contents, depending on the policy selected.",
-      },
-      {
-        question: "Does Property Insurance cover natural calamities?",
-        answer:
-          "Yes, most comprehensive property policies cover risks like flood, storm, earthquake (if opted), and other natural disasters as mentioned in the policy.",
-      },
-      {
-        question: "How is the sum insured determined?",
-        answer:
-          "The sum insured is usually based on the reconstruction value of the property (for building), pre agreed value and the replacement value of contents.",
-      },
-      {
-        question: "What is not covered under Property Insurance?",
-        answer:
-          "Common exclusions may include wear and tear, gradual deterioration, intentional damage, and losses not specifically listed in the policy.",
-      },
-    ],
-    bgImage: "/finask/property-insurance.webp",
-    introText:
-      "Finask Value, we offer our specialized approach to Property Insurance absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
-    closingText:
-      "Our commitment to excellence in Property Insurance truly reliable and deeply proven ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
-    faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.webp",
-      consultationTitle: "If You Need Help, Get A Consultation",
-      consultationButton: "Get Started",
-    },
-  },
+  // {
+  //   slug: "property-insurance",
+  //   category: "Insurance",
+  //   title: "Property Insurance",
+  //   tagline: "Because a structure’s worth often transcends bricks and mortar.",
+  //   description:
+  //     "Whether it’s the villa hosting annual family gatherings or commercial spaces anchoring your business empire, we ensure each property is thoughtfully safeguarded. Should calamities arise, recovery unfolds without undue financial strain or disruption to broader ambitions.\n\nBeyond mere compensation, it’s about honoring the memories, livelihoods, and futures those walls shelter.\nWith Finask Value, your property stands protected — so your life’s stories and successes continue uninterrupted, come what may.",
+  //   features: [
+  //     {
+  //       title: "Comprehensive Cover",
+  //       description: "Protection for residential and commercial properties.",
+  //     },
+  //     {
+  //       title: "Reinstatement Value",
+  //       description: "Claims settled based on cost of reconstruction.",
+  //     },
+  //   ],
+  //   faq: [
+  //     {
+  //       question: "What does Property Insurance typically cover?",
+  //       answer:
+  //         "It can cover the building structure, interiors, furniture, fixtures, equipment, and sometimes valuable contents, depending on the policy selected.",
+  //     },
+  //     {
+  //       question: "Does Property Insurance cover natural calamities?",
+  //       answer:
+  //         "Yes, most comprehensive property policies cover risks like flood, storm, earthquake (if opted), and other natural disasters as mentioned in the policy.",
+  //     },
+  //     {
+  //       question: "How is the sum insured determined?",
+  //       answer:
+  //         "The sum insured is usually based on the reconstruction value of the property (for building), pre agreed value and the replacement value of contents.",
+  //     },
+  //     {
+  //       question: "What is not covered under Property Insurance?",
+  //       answer:
+  //         "Common exclusions may include wear and tear, gradual deterioration, intentional damage, and losses not specifically listed in the policy.",
+  //     },
+  //   ],
+  //   bgImage: "/finask/property-insurance.webp",
+  //   faqSection: {
+  //     title: "General Question",
+  //     description:
+  //       "Answers to common questions about our services and how we can help you achieve your financial goals.",
+  //     image: "/faq.webp",
+  //     consultationTitle: "Connect with an Expert",
+  //     consultationButton: "Get Started",
+  //   },
+  // },
   {
     slug: "fire-burglary-insurance",
     category: "Insurance",
     title: "Fire & Burglary Insurance",
     tagline:
-      "Because what you’ve meticulously built deserves unwavering guardianship.",
+      "Because What You Have Meticulously Built Deserves Unwavering Guardianship",
     description:
-      "Your homes, offices, factories — they embody years of aspirations and efforts. Unforeseen incidents like fires or intrusions shouldn’t possess the power to erase that legacy. We devise protections that enable swift restitution, preserving both your tangible assets and your family’s composure.\n\nIt’s about more than rebuilding walls or replacing inventory — it’s about restoring normalcy without enduring financial distress.",
+      "Your homes, offices, factories — they embody years of aspirations and efforts. Unforeseen incidents like fires or intrusions should not possess the power to erase that legacy. We devise protections that enable swift restitution, preserving both your tangible assets and your family’s composure. \n It’s about more than rebuilding walls or replacing inventory — it’s about restoring normalcy without enduring financial distress. ",
     features: [
       {
         title: "Comprehensive Coverage",
@@ -661,9 +617,9 @@ export const servicesData = [
     ],
     faq: [
       {
-        question: "What does Fire Insurance and Burglary typically cover?",
+        question: "What does Fire and Burglary Insurance typically covers?",
         answer:
-          "Fire insurance generally covers damage caused by fire, lightning, explosion, storm, flood, earthquake (if opted), and other specified perils. Burglary insurance covers loss or damage to property due to forced entry, theft, or housebreaking, subject to policy conditions.",
+          "Fire Insurance generally covers damage caused by fire, lightning, explosion, storm, flood, earthquake (if opted) and other specified perils, while Burglary Insurance covers loss or damage to property due to forced entry, theft or housebreaking, subject to policy conditions.",
       },
       {
         question: "Who should consider Fire & Burglary Insurance?",
@@ -682,16 +638,12 @@ export const servicesData = [
       },
     ],
     bgImage: "/finask/fire-and-urglary.webp",
-    introText:
-      "Finask Value, we offer our specialized approach to Fire Burglary Insurance absolutely essential and highly reliable trusted ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
-    closingText:
-      "Our commitment to excellence in Fire Burglary Insurance truly reliable and deeply ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
       title: "General Question",
       description:
         "Answers to common questions about our services and how we can help you achieve your financial goals.",
       image: "/faq.webp",
-      consultationTitle: "If You Need Help, Get A Consultation",
+      consultationTitle: "Connect with an Expert",
       consultationButton: "Get Started",
     },
   },
@@ -699,10 +651,10 @@ export const servicesData = [
     slug: "marine-cargo-insurance",
     category: "Insurance",
     title: "Marine & Cargo Insurance",
-    tagline: "In business, logistics is more than movement — it’s a promise.",
+    tagline: "In Business, Logistics Is More Than Movement It’s A Promise",
     description:
-      "A single damaged, lost, or delayed consignment can lead to revenue loss, supply chain disruptions, or breached contracts. That’s where comprehensive coverage becomes critical.\nOur Marine & Cargo Insurance is tailored for businesses engaged in domestic and international trade. It provides protection against physical loss or damage to goods in transit, across all modes of transportation — air, sea, road, or rail. Whether you're shipping raw materials, finished products, or high-value equipment, our policies are structured to absorb the risk — not your balance sheet.\nWith Finask Value, you protect not just your shipments, but your profitability, reliability, and business continuity.",
-    features: [
+    "A single damaged, lost or delayed consignment can lead to revenue loss, supply chain disruptions or breached contracts—that’s where comprehensive coverage becomes critical. \n Our Marine & Cargo Insurance is tailored for businesses engaged in domestic and international trade. It provides protection against physical loss or damage to goods in transit, across all modes of transportation — air, sea, road or rail. Whether you are shipping raw materials, finished products or high-value equipment, our policies are structured to absorb the risk — not your balance sheet. \n With FinAsk Value, you protect not just your shipments, but your profitability, reliability and business continuity.",
+     features: [
       {
         title: "Comprehensive Coverage",
         description:
@@ -719,168 +671,156 @@ export const servicesData = [
     ],
     faq: [
       {
-        question: "What does Marine & Cargo Insurance cover?",
+        question: "Can fragile goods be insured?",
         answer:
-          "It typically covers risks such as theft, accident, fire, collision, overturning, natural calamities, and damage during loading and unloading, as per policy terms.",
+          "Yes, fragile items can be insured, but they may require special packaging and conditions.",
       },
       {
         question:
           "What is the difference between Marine Insurance and Cargo Insurance?",
         answer:
-          "Marine insurance broadly covers ships, vessels, and goods in transit, while cargo insurance specifically covers the goods being transported.",
+          "Marine Insurance broadly covers ships, vessels and goods in transit, while Cargo Insurance specifically covers the goods being transported.",
       },
       {
-        question: "Does the policy cover international shipments?",
+        question: "Does Marine Insurance cover pilferage (theft in parts)?",
         answer:
-          "Yes, policies can be structured to cover domestic transit as well as international imports and exports.",
+          "Yes, many policies cover partial theft or pilferage during transit, depending on policy conditions.",
       },
       {
         question: "What is an Open Policy in Marine Insurance?",
         answer:
-          "An Open Policy provides continuous coverage for multiple shipments over a specified period, suitable for businesses with frequent consignments",
+          "An Open Policy provides continuous coverage for multiple shipments over a specified period, suitable for businesses with frequent consignments.",
       },
     ],
     bgImage: "/finask/marine-and-cargo-insurance.webp",
-    introText:
-      "Finask Value, we offer our specialized approach to Marine Cargo Insurance absolutely essential and highly reliable trusted ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
-    closingText:
-      "Our commitment to excellence in Marine Cargo Insurance truly reliable and deeply ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
       title: "General Question",
       description:
         "Answers to common questions about our services and how we can help you achieve your financial goals.",
       image: "/faq.webp",
-      consultationTitle: "If You Need Help, Get A Consultation",
+      consultationTitle: "Connect with an Expert",
       consultationButton: "Get Started",
     },
   },
+  // {
+  //   slug: "corporate-insurance",
+  //   category: "Insurance",
+  //   title: "Corporate Insurance",
+  //   tagline: "Because enterprises flourish on foresight and resilience.",
+  //   description:
+  //     "Businesses, especially those stewarded across generations, thrive when well insulated against unpredictability. From group health schemes nurturing employee well-being to directors’ liability and cyber safeguards, we construct layered protections. Each is calibrated to uphold operational continuity and safeguard stakeholder confidence, even amid unforeseen tests.\n\nIt’s more than risk transfer — it’s strategic assurance that empowers growth without hesitation.\nWith Finask Value, your enterprise gains a partner dedicated to shielding its ambitions, reputation, and hard-won legacy from vulnerabilities that could otherwise disrupt your vision.",
+  //   features: [
+  //     {
+  //       title: "Group Health",
+  //       description: "Comprehensive health benefits for employees.",
+  //     },
+  //     {
+  //       title: "Liability Covers",
+  //       description: "Directors & Officers, Public Liability, and more.",
+  //     },
+  //     {
+  //       title: "Asset Protection",
+  //       description: "All-risk policies for business assets.",
+  //     },
+  //   ],
+  //   faq: [
+  //     {
+  //       question: "Can it be customized?",
+  //       answer:
+  //         "Yes, corporate plans are highly customizable based on company size, industry, and specific risk exposure.",
+  //     },
+  //     {
+  //       question: "What is Directors & Officers (D&O) Liability?",
+  //       answer:
+  //         "It protects company directors and officers from personal losses if they are sued for alleged wrongful acts in managing the company.",
+  //     },
+  //     {
+  //       question: "Is Group Health Insurance mandatory?",
+  //       answer:
+  //         "While not strictly mandatory for all, it is a standard employee benefit and often required for compliance in certain sectors post-COVID.",
+  //     },
+  //     {
+  //       question: "Does it cover contract workers?",
+  //       answer:
+  //         "Yes, policies can be structured to cover contract workers and temporary staff.",
+  //     },
+  //   ],
+  //   bgImage: "/finask/corporate.webp",
+  //   faqSection: {
+  //     title: "General Question",
+  //     description:
+  //       "Answers to common questions about our services and how we can help you achieve your financial goals.",
+  //     image: "/faq.webp",
+  //     consultationTitle: "Connect with an Expert",
+  //     consultationButton: "Get Started",
+  //   },
+  // },
+  // {
+  //   slug: "cyber-insurance",
+  //   category: "Insurance",
+  //   title: "Cyber Insurance",
+  //   tagline: "Because your data is an asset — and a vulnerability.",
+  //   description:
+  //     "In a world where a single click can compromise years of reputation and revenue, cyber insurance stands guard. It shields you from financial losses arising from hacks, data theft, ransomware, or even inadvertent breaches.\n So you can innovate, operate, and connect fearlessly — knowing that if the unexpected strikes, your business resilience is already insured.",
+  //   features: [
+  //     {
+  //       title: "Data Breach Cover",
+  //       description: "Costs for legal, forensic, and notification services.",
+  //     },
+  //     {
+  //       title: "Cyber Extortion",
+  //       description: "Coverage for ransomware payments and negotiation.",
+  //     },
+  //     {
+  //       title: "Business Interruption",
+  //       description: "Loss of income due to network downtime.",
+  //     },
+  //   ],
+  //   faq: [
+  //     {
+  //       question: "Who should consider Cyber Insurance?",
+  //       answer:
+  //         "Any business that stores customer data, processes online payments, uses cloud systems, or relies on digital operations should consider cyber protection — regardless of size.",
+  //     },
+  //     {
+  //       question: "What does Cyber Insurance typically cover?",
+  //       answer:
+  //         "It may cover data breach costs, ransomware payments, business interruption, legal expenses, regulatory penalties (where insurable), forensic investigation, and customer notification expenses.",
+  //     },
+  //     {
+  //       question: "Does Cyber Insurance cover ransomware attacks?",
+  //       answer:
+  //         "Yes, most comprehensive cyber policies cover ransomware-related losses, including recovery costs and business interruption, subject to policy terms.",
+  //     },
+  //     {
+  //       question: "Does Cyber Insurance cover third-party liabilities?",
+  //       answer:
+  //         "Yes, it can cover legal claims made by customers, vendors, or partners if their data is compromised due to a cyber incident.",
+  //     },
+  //     {
+  //       question: "What is not covered under Cyber Insurance?",
+  //       answer:
+  //         "Common exclusions may include intentional acts, prior known incidents, inadequate security practices, or unreported breaches.",
+  //     },
+  //   ],
+  //   bgImage: "/finask/cyber-insurance.png",
+  //   faqSection: {
+  //     title: "General Question",
+  //     description:
+  //       "Answers to common questions about our services and how we can help you achieve your financial goals.",
+  //     image: "/faq.webp",
+  //     consultationTitle: "Connect with an Expert",
+  //     consultationButton: "Get Started",
+  //   },
+  // },
   {
-    slug: "corporate-insurance",
+    slug: "director-officers-liability",
     category: "Insurance",
-    title: "Corporate Insurance",
-    tagline: "Because enterprises flourish on foresight and resilience.",
-    description:
-      "Businesses, especially those stewarded across generations, thrive when well insulated against unpredictability. From group health schemes nurturing employee well-being to directors’ liability and cyber safeguards, we construct layered protections. Each is calibrated to uphold operational continuity and safeguard stakeholder confidence, even amid unforeseen tests.\n\nIt’s more than risk transfer — it’s strategic assurance that empowers growth without hesitation.\nWith Finask Value, your enterprise gains a partner dedicated to shielding its ambitions, reputation, and hard-won legacy from vulnerabilities that could otherwise disrupt your vision.",
-    features: [
-      {
-        title: "Group Health",
-        description: "Comprehensive health benefits for employees.",
-      },
-      {
-        title: "Liability Covers",
-        description: "Directors & Officers, Public Liability, and more.",
-      },
-      {
-        title: "Asset Protection",
-        description: "All-risk policies for business assets.",
-      },
-    ],
-    faq: [
-      {
-        question: "Can it be customized?",
-        answer:
-          "Yes, corporate plans are highly customizable based on company size, industry, and specific risk exposure.",
-      },
-      {
-        question: "What is Directors & Officers (D&O) Liability?",
-        answer:
-          "It protects company directors and officers from personal losses if they are sued for alleged wrongful acts in managing the company.",
-      },
-      {
-        question: "Is Group Health Insurance mandatory?",
-        answer:
-          "While not strictly mandatory for all, it is a standard employee benefit and often required for compliance in certain sectors post-COVID.",
-      },
-      {
-        question: "Does it cover contract workers?",
-        answer:
-          "Yes, policies can be structured to cover contract workers and temporary staff.",
-      },
-    ],
-    bgImage: "/finask/corporate.webp",
-    introText:
-      "Finask Value, we offer our specialized approach to Corporate Insurance absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
-    closingText:
-      "Our commitment to excellence in Corporate Insurance truly reliable and deeply proven ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
-    faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.webp",
-      consultationTitle: "If You Need Help, Get A Consultation",
-      consultationButton: "Get Started",
-    },
-  },
-  {
-    slug: "cyber-insurance",
-    category: "Insurance",
-    title: "Cyber Insurance",
-    tagline: "Because your data is an asset — and a vulnerability.",
-    description:
-      "In a world where a single click can compromise years of reputation and revenue, cyber insurance stands guard. It shields you from financial losses arising from hacks, data theft, ransomware, or even inadvertent breaches.\n So you can innovate, operate, and connect fearlessly — knowing that if the unexpected strikes, your business resilience is already insured.",
-    features: [
-      {
-        title: "Data Breach Cover",
-        description: "Costs for legal, forensic, and notification services.",
-      },
-      {
-        title: "Cyber Extortion",
-        description: "Coverage for ransomware payments and negotiation.",
-      },
-      {
-        title: "Business Interruption",
-        description: "Loss of income due to network downtime.",
-      },
-    ],
-    faq: [
-      {
-        question: "Who should consider Cyber Insurance?",
-        answer:
-          "Any business that stores customer data, processes online payments, uses cloud systems, or relies on digital operations should consider cyber protection — regardless of size.",
-      },
-      {
-        question: "What does Cyber Insurance typically cover?",
-        answer:
-          "It may cover data breach costs, ransomware payments, business interruption, legal expenses, regulatory penalties (where insurable), forensic investigation, and customer notification expenses.",
-      },
-      {
-        question: "Does Cyber Insurance cover ransomware attacks?",
-        answer:
-          "Yes, most comprehensive cyber policies cover ransomware-related losses, including recovery costs and business interruption, subject to policy terms.",
-      },
-      {
-        question: "Does Cyber Insurance cover third-party liabilities?",
-        answer:
-          "Yes, it can cover legal claims made by customers, vendors, or partners if their data is compromised due to a cyber incident.",
-      },
-      {
-        question: "What is not covered under Cyber Insurance?",
-        answer:
-          "Common exclusions may include intentional acts, prior known incidents, inadequate security practices, or unreported breaches.",
-      },
-    ],
-    bgImage: "/finask/cyber-insurance.png",
-    introText:
-      "Finask Value, we offer our specialized approach to Cyber Insurance absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
-    closingText:
-      "Our commitment to excellence in Cyber Insurance truly reliable and deeply proven ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
-    faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.webp",
-      consultationTitle: "If You Need Help, Get A Consultation",
-      consultationButton: "Get Started",
-    },
-  },
-  {
-    slug: "directors-life-insurance",
-    category: "Insurance",
-    title: "Director’s Life Insurance",
+    title: " Directors’ and Officers’ Liability Insurance ",
     tagline:
-      "Because leadership carries responsibility that outlives the leader.",
+      "Because Leadership Carries Responsibilities That Outlive The Leader",
     description:
-      "Director’s life insurance is more than a personal safety net — it’s a strategic safeguard for businesses. It ensures that if the unthinkable happens, key obligations are met, debts are covered, and shareholder or partner transitions remain smooth, protecting enterprise value.\nBecause your vision shouldn’t falter, even if life takes an unforeseen turn.\nFinask Value, we help founders, directors, and key management personnel structure life cover not just for personal protection—but for business continuity.It’s not just about preparing for loss—it’s about preserving leadership, legacy, and long-term confidence.\nThis coverage can support succession planning, stabilize cash flow, reinforce loan and credit obligations, and signal preparedness to investors and stakeholders.\nIt’s more than a policy—it’s a contingency plan for confidence. Because leadership may be personal, but its impact is profoundly institutional.",
+"Directors’ and Officers’ Liability Insurance (D&O) is more than a personal safety net — it’s a strategic safeguard for businesses. It ensures that if the unthinkable happens, key obligations are met, debts are covered and shareholder or partner transitions remain smooth, protecting enterprise value. \n Because your vision should not falter, even if life takes an unforeseen turn. \n At FinAsk Value, we help founders, directors and key management personnel structure life cover not just for personal protection—but for business continuity. It is not just about preparing for loss—it’s about preserving leadership, legacy and long-term confidence. \n This coverage can support succession planning, stabilize cash flow, reinforce loan and credit obligations and signal preparedness to investors and stakeholders. \n It’s more than a policy—it’s a contingency plan for confidence. Leadership may be personal, but its impact is profoundly institutional. ",
     features: [
       {
         title: "Comprehensive Coverage",
@@ -897,43 +837,40 @@ export const servicesData = [
       },
     ],
     faq: [
+     {
+    question: "Can Directors’ and Officers’ Liability Insurance cover Startups?",
+    answer:
+      "Yes, Startups are strongly encouraged to take Directors’ and Officers’ Liability Insurance to protect founders and early-stage leadership from governance-related risks.",
+  },
+  {
+    question:
+      "What are common claims under Directors’ and Officers’ Liability Insurance?",
+    answer:
+      "Common claims include mismanagement, breach of fiduciary duty, regulatory violations, and shareholder disputes.",
+  },
       {
-        question: "What is Director and officer’s Life Insurance?",
-        answer:
-          "Director Life Insurance is a policy taken to financially protect a company against the loss of a key director due to death. It helps safeguard business continuity and financial stability.",
-      },
-      {
-        question: "Why should a company insure its directors?",
-        answer:
-          "Directors play a critical role in business growth and decision-making. Their sudden absence can impact operations, revenue, and investor confidence. This cover helps manage financial disruption.",
-      },
-      {
-        question: "Who pays the premium for Director Life Insurance?",
+        question: "Who pays the premium for Directors’ and Officers’ Liability Insurance?",
         answer:
           "Typically, the company pays the premium, as the policy is taken to protect business interests.",
       },
       {
-        question: "Who receives the claim amount?",
+        question: " Who receives the claim amount in Directors’ and Officers’ Liability Insurance?",
         answer:
           "In most cases, the company is the beneficiary and receives the payout to manage liabilities, stabilize operations, or compensate financial loss.",
       },
     ],
     bgImage: "/finask/directors-life-insurance.png",
-    introText:
-      "Finask Value, we offer our specialized approach to Directors Life Insurance absolutely essential and highly reliable trusted ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
-    closingText:
-      "Our commitment to excellence in Directors Life Insurance truly reliable and deeply ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
       title: "General Question",
       description:
         "Answers to common questions about our services and how we can help you achieve your financial goals.",
       image: "/faq.webp",
-      consultationTitle: "If You Need Help, Get A Consultation",
+      consultationTitle: "Connect with an Expert",
       consultationButton: "Get Started",
     },
   },
   {
-    slug: "group-personal-accident-insurance",
+    slug: "group-personal-accident",
     category: "Corporate Insurance",
     title: "Group Personal Accident Insurance",
     tagline: "Financial Protection Against Accidental Risks",
@@ -956,33 +893,27 @@ export const servicesData = [
           "Employers can enhance protection with accident medical expense reimbursement, ambulance charges, child education grant, and fracture cover.",
       },
     ],
-    faq: [
-      {
-        question: "What does Group Personal Accident Insurance cover?",
-        answer:
-          "Most policies cover accidental death, permanent total disability, permanent partial disability, temporary total disability, and optional add-ons depending on the selected plan.",
-      },
-      {
-        question: "How does Group Personal Accident Insurance work?",
-        answer:
-          "The employer purchases a master policy for the workforce. Employees are automatically covered from their joining date, and compensation is paid to the employee or nominee if an accident leads to death or disability.",
-      },
-      {
-        question: "Does coverage apply only at the workplace?",
-        answer:
-          "No. Coverage usually applies 24x7 worldwide, including accidents at work, during travel, commuting, or at home.",
-      },
-      {
-        question: "Why do companies offer Group Personal Accident Insurance?",
-        answer:
-          "Companies use it to protect employees against accident-related financial risks, support families in case of tragic incidents, improve employee trust and retention, and complement group health and life insurance coverage.",
-      },
-    ],
+ faq: [
+  {
+    question:
+      "Is there any waiting period under Group Personal Accident Insurance?",
+    answer:
+      "No, Group Personal Accident Insurance policies typically have no waiting period and coverage starts immediately after policy activation.",
+  },
+  {
+    question:
+      "How is Group Personal Accident Insurance different from Workmen Compensation Insurance?",
+    answer:
+      "Group Personal Accident Insurance provides fixed benefits regardless of salary, while Workmen Compensation is legally mandated and salary-based compensation.",
+  },
+  {
+    question:
+      "Is Group Personal Accident Insurance coverage limited to the workplace only?",
+    answer:
+      "No, Group Personal Accident Insurance coverage usually applies 24x7 worldwide, including accidents at work, during travel, commuting, or at home.",
+  },
+],
     bgImage: "/finask/group-personal-accident-insurance.png",
-    introText:
-      "Finask Value Value, we help organizations design the right Group Personal Accident Insurance plans with comprehensive coverage, competitive premiums, and support from leading insurers.",
-    closingText:
-      "Secure your employees. Protect their families. Connect with our experts to explore the best Group Personal Accident Insurance solutions for your organization.",
     faqSection: {
       title: "General Questions",
       description:
@@ -993,7 +924,7 @@ export const servicesData = [
     },
   },
   {
-    slug: "group-term-life-insurance",
+    slug: "group-term-life",
     category: "Corporate Insurance",
     title: "Group Term Life Insurance",
     tagline: "Financial Protection for Your Employees’ Families",
@@ -1018,17 +949,17 @@ export const servicesData = [
     ],
     faq: [
       {
-        question: "How does Group Term Life Insurance work?",
+        question: "Can Group Term Life Insurance be customized for different employee levels?",
         answer:
-          "It operates through a master policy issued to the employer. Employees are automatically enrolled and remain covered while employed with the organization.",
+          "Yes, employers can structure coverage based on designation, salary slabs or job roles.",
       },
       {
-        question: "What does Group Term Life Insurance cover?",
+        question: "Is suicide covered under Group Term Life Insurance?",
         answer:
-          "Most plans cover death due to illness, natural causes, or accidents, often with worldwide coverage and optional riders such as accidental death benefit, critical illness cover, and permanent disability cover.",
+          "Coverage for suicide depends on policy terms, but many Group Term Life Insurance plans cover suicide after a specified waiting period, as per insurer rules.",
       },
       {
-        question: "What are the common coverage models?",
+        question: "What are the most common coverage models in Group Term Life Insurance?",
         answer:
           "The two common models are Fixed Sum Assured, where all employees receive the same cover amount, and Salary-Linked Cover, where the cover is linked to annual CTC.",
       },
@@ -1039,10 +970,6 @@ export const servicesData = [
       },
     ],
     bgImage: "/finask/group-term-life-insurance.webp",
-    introText:
-      "Finask Value Value, we help organizations design the right Group Term Life Insurance plans with competitive premiums, flexible coverage options, and support from leading insurers.",
-    closingText:
-      "Protect your employees. Secure their families’ future. Connect with our experts to explore the best Group Term Life Insurance solutions for your organization.",
     faqSection: {
       title: "General Questions",
       description:
@@ -1058,7 +985,7 @@ export const servicesData = [
     title: "Group Health Insurance",
     tagline: "Protect Your Employees with Comprehensive Group Health Insurance",
     description:
-      "Group Health Insurance is a health insurance policy purchased by an employer to provide medical coverage to employees and, in many cases, their family members. Instead of individual policies, a single master policy covers the entire workforce, offering affordable and comprehensive healthcare protection. For businesses, group health insurance is one of the most cost-effective employee benefits, helping attract talent, improve retention, and ensure financial protection against rising healthcare costs.",
+      "Group Health Insurance is a health insurance policy purchased by an employer to provide medical coverage to employees and, in many cases, their family members. Instead of individual policies, a single master policy covers the entire workforce, offering affordable and comprehensive healthcare protection. For businesses, group health insurance is one of the most cost-effective employee benefits, helping attract talent, improve retention, and ensure financial protection against rising healthcare costs. \n Choosing the right Group Health Insurance requires understanding your workforce needs, coverage requirements and budget. \n At FinAsk Value, we help businesses compare and choose the most suitable Group Health Insurance plans from leading insurers with transparent guidance and customized solutions.",
     features: [
       {
         title: "Hospitalisation Coverage",
@@ -1077,32 +1004,29 @@ export const servicesData = [
       },
     ],
     faq: [
-      {
-        question: "How does Group Health Insurance work?",
-        answer:
-          "The employer purchases a master policy and employees are automatically enrolled. Coverage typically begins from the employee’s joining date.",
-      },
-      {
-        question: "What does Group Health Insurance cover?",
-        answer:
-          "Most policies include hospitalisation expenses, day care procedures, pre and post hospitalisation, family coverage, maternity benefits in selected plans, and modern treatments.",
-      },
-      {
-        question: "Why is Group Health Insurance beneficial for businesses?",
-        answer:
-          "It helps attract and retain talent, improve employee productivity and engagement, protect employees from rising medical costs, and build a stronger employer brand.",
-      },
-      {
-        question: "Are medical tests usually required?",
-        answer:
-          "Unlike many individual policies, medical tests are usually not required, and many plans offer day-one coverage for pre-existing conditions.",
-      },
-    ],
+  {
+    question: "Is there a maximum age limit in Group Health Insurance?",
+    answer:
+      "Yes, eligibility and age limits depend on the insurer and employer’s group policy structure.",
+  },
+  {
+    question: "What is a co-payment in Group Health Insurance?",
+    answer:
+      "Co-payment means the employee shares a fixed percentage of the medical bill with the insurer.",
+  },
+  {
+    question: "Can employees choose any hospital for treatment?",
+    answer:
+      "Yes, employees can choose any hospital, but cashless benefits are available only at network hospitals.",
+  },
+  {
+    question:
+      "Are medical tests typically required before enrolling in Group Health Insurance?",
+    answer:
+      "Usually, medical tests are not required for employees enrolling under a Group Health Insurance policy, but this may vary based on the insurer and policy terms.",
+  },
+],
     bgImage: "/finask/group-health-insurance.webp",
-    introText:
-      "Choosing the right corporate health insurance policy requires understanding your workforce needs, coverage requirements, and budget.",
-    closingText:
-      "Finask Value Value, we help businesses compare and choose the most suitable Group Health Insurance plans from leading insurers with transparent guidance and customized solutions. Secure your employees’ health. Strengthen your organisation.",
     faqSection: {
       title: "General Questions",
       description:
@@ -1118,7 +1042,7 @@ export const servicesData = [
     title: "Health Assistance",
     tagline: "Access World-Class Healthcare Services at the Tap of a Button",
     description:
-      "Your family’s health should never take a back seat due to a busy schedule or lack of access to medical services. Health Assistance enables you and your loved ones to access quality healthcare services from the comfort of your home. With a comprehensive range of digital healthcare solutions, you can consult doctors, schedule diagnostic tests, order medicines, and manage your health easily through a single platform. Stay proactive about your well-being and ensure your family always has access to reliable, convenient, and affordable healthcare services.",
+      "Your family’s health should never take a back seat due to a busy schedule or lack of access to medical services. Health Assistance enables you and your loved ones to access quality healthcare services from the comfort of your home. With a comprehensive range of digital healthcare solutions, you can consult doctors, schedule diagnostic tests, order medicines, and manage your health easily through a single platform. Stay proactive about your well-being and ensure your family always has access to reliable, convenient, and affordable healthcare services. \n Modern lifestyles often make it difficult to prioritize health. Health Assistance helps bridge that gap with quick and convenient access to healthcare professionals and services.",
     features: [
       {
         title: "Doctor Teleconsultation",
@@ -1136,33 +1060,29 @@ export const servicesData = [
           "Access self-care plans, nursing care, live health interactions, and gym or yoga sessions.",
       },
     ],
-    faq: [
-      {
-        question: "What is included in Health Assistance?",
-        answer:
-          "It can include doctor teleconsultation, laboratory tests, MRI/X-ray scans, OPD visit assistance, pharmacy delivery, self-care plans, nursing care, live health interactions, and wellness sessions.",
-      },
-      {
-        question: "Why choose Health Assistance?",
-        answer:
-          "It offers convenient access to healthcare professionals and services, helping families manage health proactively from one platform.",
-      },
-      {
-        question: "Is it useful only during illness?",
-        answer:
-          "No. It also supports preventive care and wellness through self-care plans, expert sessions, and fitness programs.",
-      },
-      {
-        question: "Who can benefit from Health Assistance plans?",
-        answer:
-          "Individuals and families looking for convenient, affordable, and accessible healthcare support can benefit from these plans.",
-      },
-    ],
+faq: [
+  {
+    question: "Is Health Assistance affordable?",
+    answer:
+      "It is generally cost-effective, with options for subscription-based or pay-per-use services depending on the plan.",
+  },
+  {
+    question: "What happens if I miss a scheduled consultation?",
+    answer:
+      "You can usually reschedule the appointment or book another available slot.",
+  },
+  {
+    question: "How is patient data managed and protected?",
+    answer:
+      "Health Assistance platforms use secure encryption, access controls, and compliance-driven systems to protect sensitive health data.",
+  },
+  {
+    question: "Does Health Assistance offer corporate wellness analytics support?",
+    answer:
+      "In enterprise setups, it can provide aggregated health insights to help organizations design better employee wellness programs.",
+  },
+],
     bgImage: "/finask/health-assistance.webp",
-    introText:
-      "Modern lifestyles often make it difficult to prioritize health. Health Assistance helps bridge that gap with quick and convenient access to healthcare professionals and services.",
-    closingText:
-      "With Health Assistance, quality healthcare is always within reach. Stay healthy. Stay protected. Stay empowered.",
     faqSection: {
       title: "General Questions",
       description:
@@ -1175,11 +1095,11 @@ export const servicesData = [
   {
     slug: "roadside-assistance",
     category: "Motor Assistance",
-    title: "Roadside Assistance (RSA)",
+    title: "Roadside Assistance",
     tagline: "24x7 Support When the Unexpected Happens on the Road",
     description:
-      "Unexpected situations can occur anytime while you’re on the road. Even well-maintained vehicles can experience breakdowns, accidents, tyre punctures, or battery failures despite taking all precautions. Roadside Assistance (RSA) ensures that help is always available when you need it the most. Whether you are stuck due to a mechanical issue, a flat tyre, or misplaced car keys, roadside assistance provides quick support and emergency services wherever you are, anytime. With 24x7 Roadside Assistance, you can drive with confidence knowing that professional help is just a call away.",
-    features: [
+    "Unexpected situations can occur anytime while you are on the road. Even with regular servicing and careful driving, disruptions can still interrupt your journey. \n Roadside Assistance (RSA) ensures that help is always available when you need it most. From minor fixes to emergency towing, it covers a wide range of situations. Whether you are stranded due to a mechanical issue, a flat tyre or misplaced car keys, it provides quick support and emergency services wherever you are, at any time. \n With 24x7 availability, you can drive with confidence knowing that professional help is just a call away. This service is designed to handle vehicle emergencies efficiently, minimizing inconvenience and getting you back on the road quickly. ",
+     features: [
       {
         title: "24x7 Emergency Support",
         description:
@@ -1196,33 +1116,30 @@ export const servicesData = [
           "Provides additional support such as accommodation assistance if breakdown-related repairs take extended time.",
       },
     ],
-    faq: [
-      {
-        question: "Why do I need Roadside Assistance?",
-        answer:
-          "Driving emergencies can occur without warning. A Roadside Assistance plan ensures immediate support and practical solutions during such situations.",
-      },
-      {
-        question: "What services are usually included?",
-        answer:
-          "Common services include 24x7 roadside support, lost key replacement assistance, flat tyre repair or replacement, battery jumpstart, towing and recovery, and accommodation assistance.",
-      },
-      {
-        question: "Does it help only during major accidents?",
-        answer:
-          "No. It also helps in common situations like battery failures, punctures, misplaced keys, and mechanical breakdowns.",
-      },
-      {
-        question: "What is the main benefit of RSA?",
-        answer:
-          "The biggest benefit is peace of mind, knowing professional help is available quickly when you are stranded on the road.",
-      },
-    ],
+  faq: [
+  {
+    question: "Is there any limit on Roadside Assistance usage?",
+    answer:
+      "Yes, some plans may have limits on the number of services or towing distance per policy period.",
+  },
+  {
+    question: "Is Roadside Assistance included in motor insurance policies?",
+    answer:
+      "Roadside Assistance is sometimes included as an add-on or bundled benefit with Comprehensive Motor Insurance, but it can also be purchased separately.",
+  },
+  {
+    question:
+      "What is the typical response time for Roadside Assistance services?",
+    answer:
+      "Response time varies by location, but assistance is usually dispatched within 30–60 minutes in urban areas, depending on traffic and availability.",
+  },
+  {
+    question: "Is RSA available for electric vehicles (EVs)?",
+    answer:
+      "Yes, some RSA plans now include EV-specific services such as battery support, towing to charging stations, and specialized assistance.",
+  },
+],
     bgImage: "/finask/roadside-assistance.jpg",
-    introText:
-      "Roadside Assistance is designed to help you handle unexpected vehicle emergencies quickly and efficiently.",
-    closingText:
-      "Whether it's a flat tyre, battery issue, lost keys, or vehicle breakdown, help is always available to get you back on the road safely. Stay prepared. Stay protected. Drive with confidence.",
     faqSection: {
       title: "General Questions",
       description:
@@ -1233,13 +1150,13 @@ export const servicesData = [
     },
   },
   {
-    slug: "cycle-protection-bicycle-insurance",
+    slug: "cycle-insurance",
     category: "Lifestyle Protection",
     title: "Cycle Protection",
     tagline: "Protect Your Ride and Ride with Peace of Mind",
     description:
-      "Your bicycle is not just a ride — it’s an investment in your health, lifestyle, and daily commute. With the rising cases of cycle theft, accidental damage, and unexpected losses, having Cycle Protection (Bicycle Insurance) is becoming increasingly important. Cycle Protection provides comprehensive coverage for your bicycle against unforeseen incidents such as theft, damage, or loss. Whether you use your bicycle for fitness, commuting, adventure rides, or professional cycling, this protection ensures that you can ride worry-free.",
-    features: [
+    "Your bicycle is not just a ride it is an investment in your health, lifestyle and daily commute. Whether your bicycle is new or frequently used, insurance ensures long-term peace of mind. \n Cycle Protection (Bicycle Insurance) provides comprehensive coverage for your bicycle against unforeseen incidents such as theft, damage or loss. Whether you use your bicycle for fitness, commuting, adventure rides or professional cycling, this protection ensures that you can ride worry-free. It also encourages safer and more confident riding habits. \n With the right coverage, you can avoid sudden repair or replacement expenses and continue your cycling journey with confidence.",
+     features: [
       {
         title: "Theft Protection",
         description: "Coverage in case your bicycle is stolen.",
@@ -1255,33 +1172,29 @@ export const servicesData = [
           "Includes support services such as health assistance, doctor referral, emergency message relay, police station locator, and ambulance referral.",
       },
     ],
-    faq: [
-      {
-        question: "Why do I need Cycle Protection?",
-        answer:
-          "It protects your bicycle against common risks like theft, accidental damage, and unexpected loss while helping you avoid repair or replacement costs.",
-      },
-      {
-        question: "Who should consider Bicycle Insurance?",
-        answer:
-          "Daily commuters, fitness enthusiasts, adventure riders, and professional cyclists can all benefit from cycle protection.",
-      },
-      {
-        question: "Does it include support beyond bicycle damage?",
-        answer:
-          "Yes. Some plans also provide emergency assistance such as health support, doctor referral, emergency message relay, police station locator, and ambulance referral.",
-      },
-      {
-        question: "What is the biggest advantage of Cycle Protection?",
-        answer:
-          "It gives you financial security and peace of mind so you can continue riding confidently without worrying about unexpected losses.",
-      },
-    ],
+  faq: [
+  {
+    question: "Does Cycle Insurance cover natural disasters?",
+    answer:
+      "Yes, many policies include coverage for damage due to floods, storms, earthquakes, and other natural calamities.",
+  },
+  {
+    question: "What types of cycles can be insured?",
+    answer:
+      "It typically covers standard bicycles, high-end cycles, electric cycles (e-bikes), and sports cycles.",
+  },
+  {
+    question: "What is zero depreciation cover in Cycle Insurance?",
+    answer:
+      "This add-on ensures full claim settlement without deducting depreciation on parts, leading to higher claim payouts.",
+  },
+  {
+    question: "Does Cycle Insurance cover third-party liability?",
+    answer:
+      "Some plans offer optional third-party liability cover for accidental injury or property damage caused while riding the cycle.",
+  },
+],
     bgImage: "/finask/cycle-protection.webp",
-    introText:
-      "With the right bicycle protection plan, you can avoid unexpected repair or replacement costs and continue enjoying your cycling journey with confidence.",
-    closingText:
-      "Whether you are a daily commuter, fitness enthusiast, or cycling lover, Cycle Protection ensures your bicycle stays secure wherever you go. Secure your bicycle. Ride freely. Stay protected.",
     faqSection: {
       title: "General Questions",
       description:
@@ -1297,8 +1210,8 @@ export const servicesData = [
     title: "Pet Insurance",
     tagline: "Because They Are Family",
     description:
-      "Our pets are more than companions — they are family. They bring joy, comfort, and unconditional love into our lives every single day. Just like any other family member, they deserve the best care and protection. Unexpected illnesses, accidents, or medical emergencies can happen at any time, and veterinary treatments can sometimes be expensive. Pet Insurance helps pet parents manage these unforeseen medical expenses, ensuring that beloved dogs and cats receive the best possible treatment without financial stress.",
-    features: [
+    "Our pets are more than our companions — they are our family. They bring joy, comfort and unconditional love into our lives every single day. Just like any other family member, they deserve the best care and protection. \n Unexpected illnesses, accidents or medical emergencies can happen at any time and veterinary treatments can sometimes be expensive. Pet Insurance helps pet parents manage these unforeseen medical expenses, ensuring that their beloved dogs and cats receive the best possible treatment without financial stress. ",
+     features: [
       {
         title: "Illness & Accident Cover",
         description:
@@ -1315,39 +1228,1159 @@ export const servicesData = [
           "Ensures timely medical care for your pets without the burden of sudden high expenses.",
       },
     ],
-    faq: [
-      {
-        question: "Why should I consider Pet Insurance?",
-        answer:
-          "It helps manage unforeseen medical expenses for dogs and cats, making it easier to provide quality treatment during illness or emergencies.",
-      },
-      {
-        question: "What does Pet Insurance help with?",
-        answer:
-          "It supports coverage for unexpected illnesses and accidents, veterinary treatments, hospitalization, and high medical expenses.",
-      },
-      {
-        question: "Who is Pet Insurance for?",
-        answer:
-          "It is ideal for responsible pet parents who want financial protection and peace of mind while caring for their pets.",
-      },
-      {
-        question: "What is the biggest benefit of Pet Insurance?",
-        answer:
-          "It allows you to focus on your pet’s health, happiness, and recovery instead of worrying about the financial stress of treatment.",
-      },
-    ],
+  faq: [
+  {
+    question: "Does Pet Insurance cover routine checkups?",
+    answer:
+      "Routine checkups are usually not covered unless included as an add-on benefit.",
+  },
+  {
+    question: "Is there a waiting period in Pet Insurance?",
+    answer:
+      "Yes, most policies include a waiting period for illnesses and specific conditions before coverage becomes active.",
+  },
+  {
+    question: "Are pre-existing conditions covered in Pet Insurance?",
+    answer:
+      "No, pre-existing diseases are generally excluded, unless specifically mentioned under certain limited plans.",
+  },
+  {
+    question: "Is there an age limit for insuring pets?",
+    answer:
+      "Yes, insurers usually define minimum and maximum age limits for enrolment, depending on pet type and breed.",
+  },
+],
     bgImage: "/finask/pet-insurance.webp",
-    introText:
-      "Finask Value Value, we understand that pets are an important part of the family. We help you explore suitable pet insurance solutions for dogs and cats through our insurance distribution platform.",
-    closingText:
-      "Because protecting your family also means protecting those who love you unconditionally. Secure your pet’s health. Protect your peace of mind.",
     faqSection: {
       title: "General Questions",
       description:
         "Answers to common questions about Pet Insurance and how it supports the health and well-being of your pets.",
       image: "/faq.webp",
       consultationTitle: "Need the Right Pet Insurance Plan?",
+      consultationButton: "Get Started",
+    },
+  },
+  {
+    slug: "workmen-compensation",
+    category: "Insurance",
+    title: "Workmen Compensation Insurance",
+    tagline: "Protecting Your Workforce, Securing Your Business",
+    description:
+      "Workmen Compensation Insurance is a statutory policy that protects employers against financial liabilities arising from work-related injuries, disabilities, or death of employees, ensuring rightful compensation to workers or their dependents. It covers medical expenses, loss of income, disability benefits, and compensation in case of unfortunate incidents during employment, while ensuring compliance with the Employees’ Compensation Act. \n This policy not only safeguards businesses from legal and financial risks but also reflects a strong commitment towards employee well-being and workplace safety.",
+    features: [
+      {
+        title: "Employee Protection",
+        description:
+          "Ensure financial support for employees in case of workplace injuries or accidents.",
+      },
+      {
+        title: "Medical & Disability Benefits",
+        description:
+          "Cover medical expenses, disability compensation, and loss of income support.",
+      },
+      {
+        title: "Industry-Wide Coverage",
+        description:
+          "Applicable across sectors, especially where operational risks are higher.",
+      },
+      {
+        title: "Financial Safeguard",
+        description:
+          "Protect your business from unexpected compensation payouts and liabilities.",
+      },
+    ],
+    faq: [
+      {
+        question: "Is Workmen Compensation Insurance mandatory?",
+        answer:
+          "Yes, it is mandatory under the Employees’ Compensation Act for employers to compensate employees for work-related injuries.",
+      },
+      {
+        question: "Does it cover all employees?",
+        answer:
+          "It generally covers workers as defined by the contractor and included in the list submitted to the insurance company.",
+      },
+      {
+        question: "Is there a waiting period for coverage?",
+        answer:
+          "No, coverage typically starts from the policy inception date unless otherwise specified.",
+      },
+      {
+        question: "What is not covered under this policy?",
+        answer:
+          "Injuries caused due to intoxication, wilful disobedience, or accidents outside the scope of employment are typically not covered.",
+      },
+    ],
+    bgImage: "/finask/workmen-compensation-insurance.webp",
+    faqSection: {
+      title: "General Question",
+      description:
+        "Answers to common questions about our services and how we can help you achieve your financial goals.",
+      image: "/faq.webp",
+      consultationTitle: "Connect with an Expert",
+      consultationButton: "Get Started",
+    },
+  },
+  {
+    slug: "prof-indemnity-for-doctors",
+    category: "Insurance",
+    title: "Professional Indemnity Insurance for Doctors",
+    tagline: "Protecting Your Practice, Reputation and Peace of Mind",
+    description:
+      "Professional Indemnity Insurance for doctors provides protection against legal and financial liabilities arising from errors, omissions, or alleged negligence in medical practice. It ensures that a single claim does not impact your finances or professional standing. The policy covers risks such as misdiagnosis, incorrect treatment, and surgical errors, along with legal defence costs and compensation. This enables you to manage medico-legal challenges without disrupting your practice or cash flow. \n In today’s increasingly litigious environment, even minor allegations can lead to significant consequences. This coverage safeguards both your financial stability and professional reputation, allowing you to practice with confidence. It also offers continuity of protection through features like retroactive coverage, ensuring claims from past treatments are covered, subject to policy terms. The policy can be tailored to your specialization, experience, and risk exposure—whether you are an individual practitioner, part of a clinic, or associated with a hospital.",
+    features: [
+      {
+        title: "Professional Credibility Protection",
+        description:
+          "Safeguard your professional credibility, patient relationships, and reputation.",
+      },
+      {
+        title: "Comprehensive Coverage",
+        description:
+          "Get tailored protection based on your specialization and risk exposure.",
+      },
+      {
+        title: "Medico-Legal Support",
+        description:
+          "Access expert legal assistance to handle complex medical claims efficiently.",
+      },
+      {
+        title: "Long-Term Security",
+        description:
+          "Get coverage for claims arising even after treatment, as per policy terms.",
+      },
+    ],
+    faq: [
+      {
+        question: "Can multiple claims be made in one policy period?",
+        answer:
+          "Yes, multiple claims are allowed subject to the overall sum insured limit.",
+      },
+      {
+        question: "How is the sum insured decided?",
+        answer:
+          "It depends on factors such as doctor’s specialization, years of experience, and patient volume. Higher-risk specializations may require higher coverage.",
+      },
+      {
+        question: "Does it cover both civil and criminal cases?",
+        answer:
+          "The policy primarily covers civil liabilities. Some policies may provide support for criminal defense costs, depending on terms and conditions.",
+      },
+      {
+        question: "Is Telemedicine covered under this policy?",
+        answer:
+          "Yes, many policies now include teleconsultation services, subject to regulatory and policy terms.",
+      },
+    ],
+    bgImage: "/finask/professional-indemnity-insurance-for-doctors.webp",
+    faqSection: {
+      title: "General Question",
+      description:
+        "Answers to common questions about our services and how we can help you achieve your financial goals.",
+      image: "/faq.webp",
+      consultationTitle: "Connect with an Expert",
+      consultationButton: "Get Started",
+    },
+  },
+  {
+    slug: "term---rop",
+    category: "Insurance",
+    title: "Term-ROP",
+    tagline: "Life Cover with the Added Benefit of Premium Return",
+    description:
+      "Return of Premium (ROP) in Life Insurance is a feature where all the premiums you pay during the policy term are returned to you if you survive the tenure, while still providing full life cover throughout. Unlike Pure Term Insurance, which offers only risk protection, ROP plans combine protection with a maturity benefit, ensuring your money is not “lost” if no claim arises. While the premiums are higher compared to standard term plans, they offer a sense of savings discipline and capital protection. ROP plans are ideal for individuals who prefer guaranteed outcomes, want both insurance and return of funds, and are looking for a balanced approach between protection and financial reassurance without taking market-linked risks.",
+    features: [
+      {
+        title: "Dual Benefit Plan",
+        description: "Insurance and savings combined in one smart solution.",
+      },
+      {
+        title: "Money Back Assurance",
+        description:
+          "Get back all premiums paid at maturity with life cover protection.",
+      },
+      {
+        title: "Family Security Assured",
+        description:
+          "Financial protection for your loved ones with added returns.",
+      },
+      {
+        title: "Financial Discipline",
+        description: "Build a habit of saving while staying protected.",
+      },
+    ],
+    faq: [
+      {
+        question: "Is ROP better than ULIP?",
+        answer:
+          "ROP offers guaranteed premium return with insurance, while ULIPs are market-linked with potential for higher but non-guaranteed returns.",
+      },
+      {
+        question: "When will I receive the premium back?",
+        answer:
+          "The premium is returned at the end of the policy term, or maturity, if no claim has been made.",
+      },
+      {
+        question: "Is medical check-up required for ROP plans?",
+        answer:
+          "Yes, depending on age, sum assured, and insurer underwriting guidelines.",
+      },
+      {
+        question: "Are ROP returns inflation-adjusted?",
+        answer:
+          "No, ROP returns are up to the premium paid and do not account for inflation impact over time.",
+      },
+    ],
+    bgImage: "/finask/term-rop.webp",
+    faqSection: {
+      title: "General Question",
+      description:
+        "Answers to common questions about our services and how we can help you achieve your financial goals.",
+      image: "/faq.webp",
+      consultationTitle: "Connect with an Expert",
+      consultationButton: "Get Started",
+    },
+  },
+  {
+    slug: "personal-cyber-insurance",
+    category: "Insurance",
+    title: "Personal Cyber Insurance",
+    tagline:
+      "Because Your Digital Safety Is as Important as Your Financial Security",
+    description:
+      "In today’s digital world, risks like online fraud, hacking, phishing, and identity theft are increasing rapidly. Personal Cyber Insurance protects you against financial losses arising from unauthorized transactions, cyber scams, and data breaches. \n It also offers support for data restoration, cyber extortion, legal expenses, and reputation management—ensuring complete protection for you and your family in the digital space.",
+    features: [
+      {
+        title: "Complete Digital Protection",
+        description: "Covers all major cyber risks under one solution.",
+      },
+      {
+        title: "Claim Support",
+        description: "Assistance when you need it the most.",
+      },
+      {
+        title: "Expert Guidance",
+        description: "Dedicated support to handle cyber incidents smoothly.",
+      },
+      {
+        title: "Tailored Coverage",
+        description: "Plans designed as per your digital usage and lifestyle.",
+      },
+    ],
+    faq: [
+      {
+        question: "Who should buy Personal Cyber Insurance?",
+        answer:
+          "Anyone using online banking, UPI, credit cards, social media, or e-commerce platforms should consider it.",
+      },
+      {
+        question: "Can the policy cover multiple devices?",
+        answer:
+          "Yes, coverage may extend to multiple devices like smartphones, laptops, and tablets under one policy.",
+      },
+      {
+        question: "What is not covered under this policy?",
+        answer:
+          "Common exclusions include negligence, sharing OTP/password, or delayed reporting of the incident.",
+      },
+      {
+        question: "Is there a waiting period for coverage?",
+        answer:
+          "Some policies may have a short waiting period before coverage becomes active.",
+      },
+    ],
+    bgImage: "/finask/personal-cyber-insurance.webp",
+    faqSection: {
+      title: "General Question",
+      description:
+        "Answers to common questions about our services and how we can help you achieve your financial goals.",
+      image: "/faq.webp",
+      consultationTitle: "Connect with an Expert",
+      consultationButton: "Get Started",
+    },
+  },
+  {
+    slug: "corporate-cyber-insurance",
+    category: "Insurance",
+    title: "Corporate Cyber Insurance",
+    tagline:
+      "Safeguarding Your Enterprise from Financial and Operational Cyber Risks",
+    description:
+      "With rising cyber threats like data breaches, ransomware, and hacking, businesses face serious financial and reputational risks. Corporate Cyber Insurance protects your organization against losses from cyber incidents, including data theft, business interruption, legal liabilities, and recovery costs. \n It also provides expert support for incident response, ensuring minimal disruption and faster recovery.",
+    features: [
+      {
+        title: "Advanced Firewall Protection",
+        description:
+          "Strong defense against evolving cyberattacks and hacking attempts.",
+      },
+      {
+        title: "Global Network Protection",
+        description: "Protection across every connected system.",
+      },
+      {
+        title: "Business Continuity Support",
+        description:
+          "Keeping your business running without interruption during cyber incidents.",
+      },
+      {
+        title: "Data Breach Protection",
+        description:
+          "Safeguards sensitive business and customer data from breaches.",
+      },
+    ],
+    faq: [
+      {
+        question: "Who should buy this policy?",
+        answer:
+          "Businesses of all sizes, especially those handling customer data, digital payments, online platforms, or sensitive information, should opt for Corporate Cyber Insurance to protect against cyber risks and financial losses.",
+      },
+      {
+        question:
+          "What is First-Party and Third-Party Corporate Cyber Insurance coverage?",
+        answer:
+          "First-party Corporate Cyber Insurance covers your own losses such as data recovery and business interruption, while third-party Corporate Cyber Insurance covers liabilities to customers due to data breaches.",
+      },
+      {
+        question: "Does this policy cover regulatory penalties?",
+        answer:
+          "Some policies cover regulatory fines and penalties, subject to legal permissibility.",
+      },
+      {
+        question: "What is not covered under this policy?",
+        answer:
+          "Common exclusions include intentional acts, poor security practices, or failure to follow compliance requirements.",
+      },
+    ],
+    bgImage: "/finask/corporate-cyber-insurance.webp",
+    faqSection: {
+      title: "General Question",
+      description:
+        "Answers to common questions about our services and how we can help you achieve your financial goals.",
+      image: "/faq.webp",
+      consultationTitle: "Connect with an Expert",
+      consultationButton: "Get Started",
+    },
+  },
+  {
+    slug: "taxi-insurance",
+    category: "Insurance",
+    title: "Taxi Insurance",
+    tagline: "Reliable Protection for Your Taxi and Your Livelihood",
+    description:
+      "Taxi Insurance is a specialized commercial vehicle policy designed for cabs and passenger transport vehicles, offering protection against accidents, theft, natural disasters, and third-party liabilities. As mandated by the Insurance Regulatory and Development Authority of India, third-party cover is compulsory, while comprehensive plans also safeguard your vehicle. With options like passenger cover, zero depreciation, and many more, Taxi Insurance ensures business continuity, financial security, and peace of mind for drivers and fleet owners.",
+    features: [
+      {
+        title: "Mandatory Compliance",
+        description: "Ensures legal coverage as per IRDAI norms.",
+      },
+      {
+        title: "Driver Shield",
+        description: "Provides safety and security for drivers on every trip.",
+      },
+      {
+        title: "Quick Repairs",
+        description: "Minimizes downtime with efficient claim support.",
+      },
+      {
+        title: "Asset Protection",
+        description:
+          "Safeguards against financial loss due to unexpected damages.",
+      },
+    ],
+    faq: [
+      {
+        question: "Is private car insurance valid for taxi use?",
+        answer:
+          "No, private car insurance is not valid for taxi or commercial use. Vehicles used for passenger transportation must have a Commercial Taxi Insurance policy.",
+      },
+      {
+        question: "Does this policy cover passengers?",
+        answer:
+          "Yes, Personal Accident cover for passengers can be included as an add-on.",
+      },
+      {
+        question: "How is the premium calculated?",
+        answer:
+          "Premium depends on vehicle type, usage, location, IDV, and claim history.",
+      },
+      {
+        question: "Can I insure multiple taxis under one policy?",
+        answer:
+          "Yes, fleet owners can opt for fleet insurance policies covering multiple vehicles under a single plan.",
+      },
+    ],
+    bgImage: "/finask/taxi-insurance.webp",
+    faqSection: {
+      title: "General Question",
+      description:
+        "Answers to common questions about our services and how we can help you achieve your financial goals.",
+      image: "/faq.webp",
+      consultationTitle: "Connect with an Expert",
+      consultationButton: "Get Started",
+    },
+  },
+  {
+    slug: "commercial-vehicle-insurance",
+    category: "Insurance",
+    title: "Commercial Vehicle Insurance",
+    tagline:
+      "Stay On The Road With Confidence and Complete Financial Protection",
+    description:
+      "Commercial Vehicle Insurance is designed to protect vehicles used for business purposes such as taxis, trucks, buses, and delivery vans against financial losses arising from accidents, theft, natural disasters, and third-party liabilities. As mandated by the Insurance Regulatory and Development Authority of India, third-party insurance is compulsory, while comprehensive policies provide broader coverage including damage to your own vehicle. With add-ons like zero depreciation, engine protection, and more, Commercial Vehicle Insurance ensures legal compliance, business continuity, and financial security for owners and operators.",
+    features: [
+      {
+        title: "Legal Liability Cover",
+        description:
+          "Protection against legal expenses arising from accidents.",
+      },
+      {
+        title: "Trusted Regulation",
+        description: "Governed by guidelines of the IRDAI.",
+      },
+      {
+        title: "Multi-Risk Protection",
+        description:
+          "Coverage against accidents, fire, theft, and third-party liability.",
+      },
+      {
+        title: "Add-On Benefits",
+        description:
+          "Options like zero depreciation, engine protection, return to invoice, and more.",
+      },
+    ],
+    faq: [
+      {
+        question: "What is IDV in Commercial Vehicle Insurance?",
+        answer:
+          "Insured Declared Value (IDV) is the current market value of the vehicle, used to determine claim payout in case of total loss.",
+      },
+      {
+        question:
+          "Can I transfer my insurance policy when selling the vehicle?",
+        answer:
+          "Yes, the policy can be transferred to the new owner, usually within 14 days of sale.",
+      },
+      {
+        question: "Are drivers covered under the policy?",
+        answer: "Yes, Personal Accident cover for drivers can be included.",
+      },
+      {
+        question: "What is not covered under the policy?",
+        answer:
+          "It excludes wear and tear of the vehicle, mechanical breakdown, driving without a valid license, driving under the influence of alcohol, and use outside the permitted purpose.",
+      },
+    ],
+    bgImage: "/finask/commercial-vehicle-insurance.webp",
+    faqSection: {
+      title: "General Question",
+      description:
+        "Answers to common questions about our services and how we can help you achieve your financial goals.",
+      image: "/faq.webp",
+      consultationTitle: "Connect with an Expert",
+      consultationButton: "Get Started",
+    },
+  },
+  {
+    slug: "home-insurance",
+    category: "Insurance",
+    title: "Home Insurance",
+    tagline: "Security and Peace of Mind For Your Most Valuable Space",
+    description:
+      "Home Insurance provides financial protection for your home and personal assets against risks like fire, theft, natural disasters, and accidental damage. It covers both the structure of your house and its contents, ensuring that you are safeguarded from unexpected financial losses. With flexible coverage options and add-ons, Home Insurance helps you secure your most valuable asset while offering peace of mind and long-term financial stability.",
+    features: [
+      {
+        title: "Building Protection",
+        description:
+          "Covers structural damage to your home from fire, disasters, and accidents.",
+      },
+      {
+        title: "Valuable Items Cover",
+        description:
+          "Optional protection for jewellery and high-value possessions.",
+      },
+      {
+        title: "Affordable Premiums",
+        description: "Relatively low cost compared to potential losses.",
+      },
+      {
+        title: "Reconstruction Support",
+        description:
+          "Covers the cost of rebuilding or repairing your home, or a pre-agreed insured value.",
+      },
+    ],
+    faq: [
+      {
+        question: "How is the sum insured decided?",
+        answer:
+          "It is determined based on the reconstruction cost of the property and the value of its contents. Some policies also offer the option of pre-agreed values for added clarity and convenience.",
+      },
+      {
+        question: "Can I insure only the contents of my home?",
+        answer:
+          "Yes, you can choose content-only cover if you do not want to insure the building.",
+      },
+      {
+        question: "Can tenants buy Home Insurance?",
+        answer:
+          "Yes, tenants can also insure both contents of the rented house and the building, subject to liability conditions given in the policy.",
+      },
+      {
+        question: "Does Home Insurance cover civil disturbances?",
+        answer:
+          "Yes, most policies cover riots, strikes, and vandalism subject to policy terms and conditions.",
+      },
+    ],
+    bgImage: "/finask/property-insurance.webp",
+    faqSection: {
+      title: "General Question",
+      description:
+        "Answers to common questions about our services and how we can help you achieve your financial goals.",
+      image: "/faq.webp",
+      consultationTitle: "Connect with an Expert",
+      consultationButton: "Get Started",
+    },
+  },
+  {
+    slug: "general-liability",
+    category: "Insurance",
+    title: "General Liability Insurance",
+    tagline: "Coverage For Unforeseen Claims That Can Impact Your Business",
+    description:
+      "General Liability Insurance protects your business against financial losses arising from third-party claims of bodily injury, property damage, or legal liabilities. It covers expenses such as medical costs, legal fees, and compensation, ensuring that unexpected incidents do not impact your business operations or finances. This policy is essential for businesses of all sizes to safeguard their reputation and maintain long-term stability.",
+    features: [
+      {
+        title: "Financial Protection",
+        description: "Prevents heavy losses from claims and lawsuits.",
+      },
+      {
+        title: "Builds Credibility",
+        description: "Enhances trust with clients and partners.",
+      },
+      {
+        title: "Customizable Plans",
+        description: "Coverage tailored to your business needs.",
+      },
+      {
+        title: "Business Safety Net",
+        description: "Protects your operations from unexpected risks.",
+      },
+    ],
+    faq: [
+      {
+        question: "Is it mandatory for businesses?",
+        answer:
+          "Not legally mandatory, but often required in contracts, tenders, and vendor agreements.",
+      },
+      {
+        question: "Does it cover employee injuries?",
+        answer:
+          "No, employee-related injuries are covered under Employee Compensation Insurance.",
+      },
+      {
+        question: "What is not covered under this policy?",
+        answer:
+          "Intentional acts, professional errors, and contractual liabilities not specified in the policy are excluded.",
+      },
+      {
+        question: "How much coverage should I choose?",
+        answer:
+          "Coverage depends on business size and risk exposure, typically starting from ₹50 lakhs.",
+      },
+    ],
+    bgImage: "/finask/general-liability-insurance.webp",
+    faqSection: {
+      title: "General Question",
+      description:
+        "Answers to common questions about our services and how we can help you achieve your financial goals.",
+      image: "/faq.webp",
+      consultationTitle: "Connect with an Expert",
+      consultationButton: "Get Started",
+    },
+  },
+  {
+    slug: "contractor-all-risk",
+    category: "Insurance",
+    title: "Contractor’s All Risk Insurance",
+    tagline: "End-To-End Coverage For Materials, Works and On-Site Risks",
+    description:
+      "Contractor’s All Risk Insurance (CAR) provides comprehensive protection for construction projects against unforeseen risks during execution. It covers damage to the project site, materials, machinery, and third-party liabilities arising from accidents, natural disasters, fire, theft, or human errors. Whether it is a small construction job or a large infrastructure project, this policy ensures financial security by covering repair or replacement costs, helping contractors complete projects smoothly without major financial disruptions.",
+    features: [
+      {
+        title: "Project Shield",
+        description: "Smart risk management for contractors and developers.",
+      },
+      {
+        title: "Construction Cover",
+        description:
+          "Covering unforeseen risks at every stage of construction.",
+      },
+      {
+        title: "Financial Security",
+        description: "Prevents unexpected project losses.",
+      },
+      {
+        title: "End-to-End Coverage",
+        description: "Covers development, testing, and commissioning phases.",
+      },
+    ],
+    faq: [
+      {
+        question: "Is CAR Insurance mandatory in India?",
+        answer:
+          "It is not legally mandatory, but is often required by project contracts, banks and financial institutions, government bodies, and large infrastructure projects.",
+      },
+      {
+        question: "How is the sum insured calculated?",
+        answer:
+          "It is based on the total contract value, including cost of materials, labour and construction costs, temporary structures, and site installations.",
+      },
+      {
+        question: "Can the policy be extended?",
+        answer:
+          "Yes, it can be extended for project delays or to include maintenance period cover.",
+      },
+      {
+        question: "What is not covered under CAR Insurance?",
+        answer:
+          "Wear and tear, mechanical breakdown, and intentional damage are usually excluded.",
+      },
+    ],
+    bgImage: "/finask/contractors-all-risk-insurance.webp",
+    faqSection: {
+      title: "General Question",
+      description:
+        "Answers to common questions about our services and how we can help you achieve your financial goals.",
+      image: "/faq.webp",
+      consultationTitle: "Connect with an Expert",
+      consultationButton: "Get Started",
+    },
+  },
+  {
+    slug: "erection-all-risk",
+    category: "Insurance",
+    title: "Erection All Risk Insurance",
+    tagline:
+      "Financial Security For Machinery And Plant During Installation Phases",
+    description:
+      "Erection All Risk Insurance (EAR) provides comprehensive coverage for projects involving the installation and erection of plant, machinery, and equipment. It protects against unforeseen risks such as accidental damage, fire, natural disasters, and human errors during the erection, testing, and commissioning phases. Additionally, it includes third-party liability coverage for injury or property damage. This policy ensures financial security for contractors and project owners, helping them complete installation projects smoothly without unexpected financial setbacks.",
+    features: [
+      {
+        title: "Installation Security",
+        description: "Covers risks during assembly and setup.",
+      },
+      {
+        title: "Workforce Safety Support",
+        description: "Covers third-party risks involving workers.",
+      },
+      {
+        title: "Industrial Project Essential",
+        description: "Ideal for factories, plants, and heavy installations.",
+      },
+      {
+        title: "Business Continuity",
+        description: "Ensures projects stay on track financially.",
+      },
+    ],
+    faq: [
+      {
+        question: "What is the duration of the policy?",
+        answer:
+          "Coverage starts from the unloading of equipment at the site and continues through erection, installation, and testing until project completion.",
+      },
+      {
+        question: "What is Maintenance Period Cover?",
+        answer:
+          "It provides protection against losses arising after project completion during the maintenance phase, as per contract terms.",
+      },
+      {
+        question: "Can EAR Insurance be taken for small projects?",
+        answer:
+          "Yes, it can be customized for both small-scale and large industrial projects.",
+      },
+      {
+        question: "What is not covered under EAR Insurance?",
+        answer:
+          "Wear and tear, mechanical breakdown, and intentional damage are usually excluded.",
+      },
+    ],
+    bgImage: "/finask/erection-all-risk-insurance.webp",
+    faqSection: {
+      title: "General Question",
+      description:
+        "Answers to common questions about our services and how we can help you achieve your financial goals.",
+      image: "/faq.webp",
+      consultationTitle: "Connect with an Expert",
+      consultationButton: "Get Started",
+    },
+  },
+  {
+    slug: "trade-credit-insurance",
+    category: "Insurance",
+    title: "Trade Credit Insurance",
+    tagline: "Enabling Confident Business Growth With Credit Risk Protection",
+    description:
+      "Trade Credit Insurance protects businesses against the risk of non-payment by buyers due to insolvency, default, or delayed payments. It ensures that your cash flow remains stable by covering outstanding receivables, allowing you to confidently extend credit to customers and expand your business. This policy not only safeguards your balance sheet but also enhances your ability to access financing, making it a vital tool for companies dealing in domestic or international trade.",
+    features: [
+      {
+        title: "Credit Risk Protection",
+        description: "Covers losses arising from buyer default or non-payment.",
+      },
+      {
+        title: "Network Shield",
+        description: "Protecting your business across markets and borders.",
+      },
+      {
+        title: "Trade Security",
+        description: "Builds confidence in offering credit to customers.",
+      },
+      {
+        title: "Cash Flow Stability",
+        description:
+          "Ensures smoother business cash flow despite payment delays.",
+      },
+    ],
+    faq: [
+      {
+        question: "Does it cover partial payment defaults?",
+        answer:
+          "Yes, it can cover losses if a buyer pays only a part of the invoice amount.",
+      },
+      {
+        question: "Is Export Business covered under this policy?",
+        answer:
+          "Yes, export trade can be covered, including risks like political instability or currency restrictions, subject to policy terms and conditions.",
+      },
+      {
+        question: "What is not covered under this policy?",
+        answer:
+          "Disputed invoices, poor-quality goods, and pre-existing bad debts are usually excluded.",
+      },
+      {
+        question: "Is there a minimum turnover required?",
+        answer:
+          "Some insurers may set a minimum turnover requirement depending on policy type.",
+      },
+    ],
+    bgImage: "/finask/trade-credit-insurance.webp",
+    faqSection: {
+      title: "General Question",
+      description:
+        "Answers to common questions about our services and how we can help you achieve your financial goals.",
+      image: "/faq.webp",
+      consultationTitle: "Connect with an Expert",
+      consultationButton: "Get Started",
+    },
+  },
+  {
+    slug: "contractor-plant-machinery",
+    category: "Insurance",
+    title: "Contractor’s Plant & Machinery",
+    tagline: "Keep Your Operations Running With Reliable Equipment Protection",
+    description:
+      "Contractor’s Plant & Machinery (CPM) provides coverage for construction equipment and machinery against sudden and unforeseen damages while at work or at rest. It protects assets such as excavators, cranes, loaders, and other heavy equipment from risks like accidents, fire, theft, natural disasters, and operational mishaps. This policy ensures that contractors and project owners are financially safeguarded against repair or replacement costs, minimizing downtime and helping projects continue without disruption.",
+    features: [
+      {
+        title: "All-Risk Coverage",
+        description:
+          "Protects against a wide range of unforeseen events like fire, theft, and natural calamities.",
+      },
+      {
+        title: "Multiple Equipment Cover",
+        description:
+          "Covers a range of construction machinery under one policy.",
+      },
+      {
+        title: "Repair & Replacement",
+        description:
+          "Covers the cost of fixing or replacing damaged equipment.",
+      },
+      {
+        title: "Cost-Effective Protection",
+        description:
+          "Affordable way to secure high-value construction equipment.",
+      },
+    ],
+    faq: [
+      {
+        question: "Can old machinery be insured?",
+        answer:
+          "Yes, used or old machinery can be insured after inspection and valuation.",
+      },
+      {
+        question: "Is routine maintenance covered?",
+        answer: "No, routine maintenance and servicing costs are not covered.",
+      },
+      {
+        question: "What happens if machinery is shifted to another site?",
+        answer:
+          "Coverage may lapse unless the insurer is informed and the policy is updated for the new location.",
+      },
+      {
+        question: "What is not covered under this policy?",
+        answer:
+          "Normal wear and tear, mechanical or gradual deterioration of machinery, and intentional damage are usually excluded.",
+      },
+    ],
+    bgImage: "/finask/contractors-plant-machinery.webp",
+    faqSection: {
+      title: "General Question",
+      description:
+        "Answers to common questions about our services and how we can help you achieve your financial goals.",
+      image: "/faq.webp",
+      consultationTitle: "Connect with an Expert",
+      consultationButton: "Get Started",
+    },
+  },
+  {
+    slug: "surety-bond-insurance",
+    category: "Insurance",
+    title: "Surety Bond Insurance",
+    tagline: "Providing Confidence to Stakeholders Through Financial Backing",
+    description:
+      "Surety Bond Insurance is a financial guarantee that ensures a contractor or business fulfils its contractual obligations as agreed. It involves three parties—the principal, or contractor, the obligee, or project owner, and the surety, or insurer. In case the contractor fails to perform or breaches the contract, the surety compensates the obligee for the loss. This solution enhances credibility, reduces financial risk, and is widely used in infrastructure projects, government contracts, and large commercial agreements to ensure timely and reliable project completion.",
+    features: [
+      {
+        title: "Performance Assurance",
+        description: "Guarantees completion of contractual obligations.",
+      },
+      {
+        title: "Project Completion Security",
+        description: "Ensures timely and proper execution of projects.",
+      },
+      {
+        title: "Multi-Project Support",
+        description: "Allows coverage across multiple ongoing contracts.",
+      },
+      {
+        title: "Credibility Booster",
+        description: "Improves trust and eligibility for large contracts.",
+      },
+    ],
+    faq: [
+      {
+        question: "How is a Surety Bond different from Traditional Insurance?",
+        answer:
+          "Unlike Traditional Insurance, a Surety Bond guarantees performance or payment, and the principal remains responsible for reimbursing the surety in case of a claim.",
+      },
+      {
+        question:
+          "What is the difference between Surety Bond and Bank Guarantee?",
+        answer:
+          "A Surety Bond is a guarantee with risk assessment by an insurer, while a bank guarantee involves blocking funds or credit limits in a bank.",
+      },
+      {
+        question: "What types of Surety Bonds are available?",
+        answer:
+          "Common types include bid bonds, performance bonds, advance payment bonds, and maintenance bonds.",
+      },
+      {
+        question: "Does a Surety Bond impact credit rating?",
+        answer:
+          "No, it generally does not impact credit utilization like bank guarantees, but financial assessment is still required.",
+      },
+    ],
+    bgImage: "/finask/surety-bond-insurance.webp",
+    faqSection: {
+      title: "General Question",
+      description:
+        "Answers to common questions about our services and how we can help you achieve your financial goals.",
+      image: "/faq.webp",
+      consultationTitle: "Connect with an Expert",
+      consultationButton: "Get Started",
+    },
+  },
+  {
+    slug: "errors-and-omissions",
+    category: "Insurance",
+    title: "Errors & Omissions Insurance",
+    tagline: "Financial Security Against Unforeseen Professional Risks",
+    description:
+      "Errors & Omissions Insurance (E&O) protects businesses and professionals against claims arising from negligence, mistakes, or failure to deliver promised services. It covers legal costs, settlements, and damages if a client suffers financial loss due to errors, omissions, or inadequate advice. This policy is essential for consultants, financial advisors, and service providers, ensuring financial protection while maintaining professional credibility and client trust.",
+    features: [
+      {
+        title: "Professional Protection Cover",
+        description:
+          "Covers risks arising from errors in services or professional advice.",
+      },
+      {
+        title: "Legal Expense Cover",
+        description:
+          "Pays for lawyer fees and court expenses in legal disputes.",
+      },
+      {
+        title: "Industry-Specific Protection",
+        description:
+          "Suitable for consultants, IT, legal, finance, and architects.",
+      },
+      {
+        title: "Client Dispute Protection",
+        description: "Covers financial claims from dissatisfied clients.",
+      },
+    ],
+    faq: [
+      {
+        question:
+          "What is the difference between E&O and General Liability Insurance?",
+        answer:
+          "E&O Insurance covers professional mistakes or service errors, while General Liability Insurance covers physical injury or property damage.",
+      },
+      {
+        question: "What is not covered under this policy?",
+        answer:
+          "Intentional wrongdoing, fraud, and criminal acts are typically excluded.",
+      },
+      {
+        question: "Is E&O Insurance mandatory?",
+        answer:
+          "Not always mandatory, but it is often required in contracts or by regulatory bodies in certain professions.",
+      },
+      {
+        question: "Does it cover past work?",
+        answer:
+          "Yes, if the policy includes retroactive coverage, it can cover past services.",
+      },
+    ],
+    bgImage: "/finask/errors-and-omissions-insurance.webp",
+    faqSection: {
+      title: "General Question",
+      description:
+        "Answers to common questions about our services and how we can help you achieve your financial goals.",
+      image: "/faq.webp",
+      consultationTitle: "Connect with an Expert",
+      consultationButton: "Get Started",
+    },
+  },
+  {
+    slug: "professional-indemnity",
+    category: "Insurance",
+    title: "Professional Indemnity Insurance",
+    tagline: "Ensuring Confidence in Your Profession with Financial Protection",
+    description:
+      "Professional Indemnity Insurance protects professionals and service providers against claims arising from errors, negligence, or omissions in the services they deliver. It covers legal defense costs, settlements, and compensation if a client suffers financial loss due to incorrect advice or inadequate service. This policy is essential for professionals such as consultants, financial advisors, doctors, and architects, helping safeguard their reputation, maintain client trust, and ensure financial stability in case of unforeseen claims.",
+    features: [
+      {
+        title: "Breach of Duty Cover",
+        description:
+          "Protects against failure to meet expected standards of care by professionals and service providers.",
+      },
+      {
+        title: "Growth Enablement",
+        description: "Helps you take bigger projects confidently.",
+      },
+      {
+        title: "Risk Mitigation Tool",
+        description:
+          "Acts as a financial safety net for professional practice.",
+      },
+      {
+        title: "Customizable Coverage",
+        description: "Tailored limits based on profession.",
+      },
+    ],
+    faq: [
+      {
+        question: "What is retroactive date in this policy?",
+        answer:
+          "It is the date from which your past work is covered, provided the policy is continuously renewed.",
+      },
+      {
+        question: "What is the limit of indemnity?",
+        answer:
+          "It is the maximum amount the insurer will pay for claims during the policy period.",
+      },
+      {
+        question: "Can one claim exhaust the entire policy limit?",
+        answer:
+          "Yes, a single large claim can utilize the full limit of indemnity.",
+      },
+      {
+        question: "Does it cover reputational damage?",
+        answer:
+          "Some policies may cover costs related to reputation management, depending on extensions opted.",
+      },
+    ],
+    bgImage: "/finask/professional-indemnity-insurance.webp",
+    faqSection: {
+      title: "General Question",
+      description:
+        "Answers to common questions about our services and how we can help you achieve your financial goals.",
+      image: "/faq.webp",
+      consultationTitle: "Connect with an Expert",
+      consultationButton: "Get Started",
+    },
+  },
+  {
+    slug: "fleet-insurance",
+    category: "Insurance",
+    title: "Fleet Insurance",
+    tagline: "Comprehensive Coverage For All Your Vehicles Under A Single Plan",
+    description:
+      "Fleet Insurance is a comprehensive insurance solution designed for businesses that own and operate multiple vehicles under a single policy. Instead of managing separate insurance policies for each vehicle, Fleet Insurance allows companies to cover all their vehicles—such as cars, trucks, vans, or commercial vehicles—under one streamlined plan. This not only simplifies administration and renewal processes but also helps in reducing overall premium costs through bulk coverage benefits. Fleet Insurance typically covers risks like accidents, third-party liabilities, theft, natural disasters, and damages, ensuring uninterrupted business operations. It is especially beneficial for logistics companies, transport operators, and businesses relying heavily on mobility, offering flexibility, cost efficiency, and centralized risk management.",
+    features: [
+      {
+        title: "Single Policy Cover",
+        description:
+          "One plan to insure all your business vehicles effortlessly.",
+      },
+      {
+        title: "Cost Efficiency",
+        description: "Save more with bulk insurance and reduced premiums.",
+      },
+      {
+        title: "Digital Fleet Management",
+        description: "Centralized monitoring and policy control.",
+      },
+      {
+        title: "Reduced Risk Exposure",
+        description: "Minimizes financial losses across your entire fleet.",
+      },
+    ],
+    faq: [
+      {
+        question: "How is the premium calculated?",
+        answer:
+          "Premium depends on various factors like the number and type of vehicles, usage, claims history of the fleet, geographical location, coverage opted, and add-ons.",
+      },
+      {
+        question: "What is the minimum number of vehicles required?",
+        answer:
+          "Typically, insurers require at least 5 to 10 vehicles, but this may vary depending on the insurer.",
+      },
+      {
+        question: "Can I add or remove vehicles from the policy?",
+        answer:
+          "Yes, Fleet Insurance policies offer flexibility to add or remove vehicles during the policy tenure.",
+      },
+      {
+        question:
+          "Is individual vehicle claim history considered in Fleet Insurance?",
+        answer:
+          "Yes, claims history of all individual vehicles and the overall fleet affects premium and renewal terms.",
+      },
+    ],
+    bgImage: "/finask/fleet-insurance.webp",
+    faqSection: {
+      title: "General Question",
+      description:
+        "Answers to common questions about our services and how we can help you achieve your financial goals.",
+      image: "/faq.webp",
+      consultationTitle: "Connect with an Expert",
+      consultationButton: "Get Started",
+    },
+  },
+  {
+    slug: "shop-owner-insurance",
+    category: "Insurance",
+    title: "Shop Owner Insurance",
+    tagline: "Your Shop’s Safety Net For Every Uncertainty",
+    description:
+      "Shop Owner Insurance is a comprehensive protection solution designed to safeguard small and medium-sized businesses against unforeseen risks. It provides coverage for your shop’s physical assets such as building, stock, furniture, and equipment against events like fire, theft, natural disasters, and accidental damage. In addition, it can include protection against business interruption, ensuring your income is not severely impacted due to temporary closures. Liability coverage is also a key component, protecting you against third-party claims arising from injuries or property damage at your premises. With customizable options tailored to your business needs, Shop Owner Insurance ensures peace of mind so you can focus on growing your business without worrying about unexpected financial setbacks.",
+    features: [
+      {
+        title: "Cash & Asset Security",
+        description: "Protection for cash, furniture, fixtures, and equipment.",
+      },
+      {
+        title: "Customizable Plans",
+        description: "Tailor coverage based on your shop’s unique needs.",
+      },
+      {
+        title: "Contents Protection",
+        description:
+          "Covers furniture, fixtures, and equipment inside the shop.",
+      },
+      {
+        title: "Secure Business Continuity",
+        description: "Ensures stability even during disruptions.",
+      },
+    ],
+    faq: [
+      {
+        question: "Is Shop Owner Insurance mandatory?",
+        answer:
+          "No, it is not mandatory, but it is highly recommended to safeguard your business from unexpected financial losses.",
+      },
+      {
+        question: "Is shop building automatically covered?",
+        answer:
+          "Only if building cover is included in the policy; otherwise, it must be added separately.",
+      },
+      {
+        question: "How is the premium calculated?",
+        answer:
+          "Premium depends on factors like shop location, size, type of goods, sum insured, and selected add-ons.",
+      },
+      {
+        question: "Can I cover multiple shops under one policy?",
+        answer:
+          "Yes, many insurers allow coverage for multiple locations under a single policy, depending on their guidelines.",
+      },
+    ],
+    bgImage: "/finask/shop-owner-insurance.webp",
+    faqSection: {
+      title: "General Question",
+      description:
+        "Answers to common questions about our services and how we can help you achieve your financial goals.",
+      image: "/faq.webp",
+      consultationTitle: "Connect with an Expert",
+      consultationButton: "Get Started",
+    },
+  },
+  {
+    slug: "office-package-policy",
+    category: "Insurance",
+    title: "Office Package Policy",
+    tagline:
+      "Protect Your Workplace, Power Your Productivity And Grow With Confidence",
+    description:
+      "Office Package Policy is a comprehensive insurance solution designed to protect businesses from a wide range of operational risks. It covers physical assets such as office premises, furniture, fixtures, electronic equipment, and important documents against events like fire, theft, accidental damage, and natural disasters. In addition, it offers liability protection against third-party claims and can be extended to include employee-related covers and business interruption losses. With flexible and customizable options, an Office Package Policy ensures that your workplace remains financially secure, allowing you to focus on productivity and growth without worrying about unforeseen disruptions.",
+    features: [
+      {
+        title: "Trusted Risk Partner",
+        description: "Reliable protection for your growing business.",
+      },
+      {
+        title: "Asset Replacement Support",
+        description: "Ensures quick repair or replacement of damaged items.",
+      },
+      {
+        title: "Growth-Ready Protection",
+        description: "Designed to support scaling businesses.",
+      },
+      {
+        title: "Transparent Terms",
+        description: "Clear coverage with no hidden conditions.",
+      },
+    ],
+    faq: [
+      {
+        question: "Does it cover damage during office relocation?",
+        answer:
+          "Some policies may cover transit of office contents during relocation if specifically included.",
+      },
+      {
+        question: "Does Office Package Policy cover vandalism?",
+        answer:
+          "Yes, damage due to riots, strikes, or malicious acts is typically covered subject to policy terms and conditions.",
+      },
+      {
+        question: "How is the premium determined?",
+        answer:
+          "Premium depends on factors like location, office size, asset value, type of business, and coverage selected.",
+      },
+      {
+        question: "Is depreciation considered in claims?",
+        answer:
+          "It depends on the policy type. Some offer replacement value, while others consider depreciation.",
+      },
+    ],
+    bgImage: "/finask/office-package-policy.webp",
+    faqSection: {
+      title: "General Question",
+      description:
+        "Answers to common questions about our services and how we can help you achieve your financial goals.",
+      image: "/faq.webp",
+      consultationTitle: "Connect with an Expert",
       consultationButton: "Get Started",
     },
   },
@@ -1358,7 +2391,7 @@ export const servicesData = [
     slug: "mutual-funds",
     category: "Investments",
     title: "Mutual Funds",
-    tagline: "Because steady compounding is built on discipline, not impulse.",
+    tagline: "Because Steady Compounding Is Built on Discipline, Not Impulse.",
     description:
       "Mutual funds offer a versatile way to participate in equity, debt, or hybrid markets — guided by robust research and diversified exposure. We curate fund baskets that match your life goals, tax needs, and comfort with volatility, so your investments compound meaningfully over the long term. With us, SIPs become more than monthly deductions; they become milestones toward your financial aspirations.",
     features: [
@@ -1375,39 +2408,275 @@ export const servicesData = [
         description: "Periodic reviews to ensure performance.",
       },
     ],
-    faq: [
-      {
-        question: "How do Mutual Funds work?",
-        answer:
-          "Investors purchase units of a scheme. The fund manager invests the pooled money according to the scheme’s objective, and returns depend on market performance.",
-      },
-      {
-        question: "What is SIP in Mutual Funds?",
-        answer:
-          "SIP (Systematic Investment Plan) allows you to invest a fixed amount regularly (daily/monthly/quarterly), promoting disciplined investing and rupee cost averaging.",
-      },
-      {
-        question: "Are Mutual Fund investments taxable?",
-        answer:
-          "Yes, capital gains tax applies depending on the type of fund and holding period, as per prevailing tax laws.",
-      },
-      {
-        question: "How do I choose the right Mutual Fund?",
-        answer:
-          "The right fund depends on your financial goals, risk appetite, investment horizon, and asset allocation strategy.",
-      },
-    ],
+  faq: [
+  {
+    question: "What is the difference between active and passive mutual funds?",
+    answer:
+      "Active funds are managed by fund managers who actively select stocks, while passive funds track an index like Nifty or Sensex.",
+  },
+  {
+    question: "What is SIP in Mutual Funds?",
+    answer:
+      "Systematic Investment Plan (SIP) allows you to invest a fixed amount regularly, such as daily, monthly, or quarterly, promoting disciplined investing and rupee cost averaging.",
+  },
+  {
+    question: "Are Mutual Fund Investments taxable?",
+    answer:
+      "Yes, Capital Gains Tax applies depending on the type of fund and holding period, as per prevailing tax laws.",
+  },
+  {
+    question: "Can I withdraw money anytime?",
+    answer:
+      "Yes, most mutual funds are liquid, but some may have exit loads or lock-in periods, like ELSS funds.",
+  },
+],
     bgImage: "/finask/mutual-funds.webp",
-    introText:
-      "Finask Value, we offer our specialized approach to Mutual Funds absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
-    closingText:
-      "Our commitment to excellence in Mutual Funds truly reliable and deeply proven ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
       title: "General Question",
       description:
         "Answers to common questions about our services and how we can help you achieve your financial goals.",
       image: "/faq.webp",
-      consultationTitle: "If You Need Help, Get A Consultation",
+      consultationTitle: "Connect with an Expert",
+      consultationButton: "Get Started",
+    },
+  },
+  {
+    slug: "systematic-investment-plan",
+    category: "Investments",
+    title: "Systematic Investment Plan",
+    tagline: "Build Wealth with Discipline, Not Timing",
+    description:
+      "A Systematic Investment Plan (SIP) is a disciplined way to invest in mutual funds by contributing a fixed amount regularly instead of a lump sum. It helps you stay invested consistently without worrying about market timing, making it ideal for long-term wealth creation. \n SIP works on the principle of compounding, where your returns generate further returns over time, creating steady and exponential growth. It also benefits from rupee cost averaging, as you buy more units when prices are low and fewer when prices are high, helping reduce the impact of market volatility. The advantage is that you can start with a small amount and gradually increase your investment as your income grows, making it suitable for individuals at every stage of their financial journey. \n Whether you are planning for retirement, your child’s education or overall wealth creation, SIP provides a structured and goal-oriented approach to investing.",
+    features: [
+      {
+        title: "Compounding Growth",
+        description:
+          "Wealth builds over time as your earnings generate additional returns.",
+      },
+      {
+        title: "Cost Averaging Benefit",
+        description:
+          "Reduces average investment cost by investing regularly in different market conditions.",
+      },
+      {
+        title: "Disciplined Investing",
+        description:
+          "Builds strong financial habits through regular and structured investments.",
+      },
+      {
+        title: "Goal-Based Planning",
+        description:
+          "Align your investments with life goals like retirement, education, and wealth creation.",
+      },
+    ],
+    faq: [
+      {
+        question: "What is the ideal duration for SIP investment?",
+        answer:
+          "SIP works best over the long term, typically 7+ years or more, to benefit from compounding and market cycles.",
+      },
+      {
+        question: "Can I increase my SIP amount later?",
+        answer:
+          "Yes, you can increase your SIP through a step-up option as your income grows or during the tenure of SIP.",
+      },
+      {
+        question: "Are SIP returns guaranteed?",
+        answer:
+          "No, returns are market-linked as mutual funds invest in equity, debt, or other instruments. However, long-term investing improves the potential for stable returns.",
+      },
+      {
+        question: "How do I choose the right SIP?",
+        answer:
+          "The best SIP for you depends on your goals, risk level, and investment horizon. Our expert advice helps you choose the right funds and stay on track.",
+      },
+    ],
+    bgImage: "/finask/systematic-investment-plan.webp",
+    faqSection: {
+      title: "General Question",
+      description:
+        "Answers to common questions about our services and how we can help you achieve your financial goals.",
+      image: "/faq.webp",
+      consultationTitle: "Connect with an Expert",
+      consultationButton: "Get Started",
+    },
+  },
+  {
+    slug: "systematic-withdrawal-plan",
+    category: "Investments",
+    title: "Systematic Withdrawal Plan in Mutual Funds",
+    tagline: "Create a Regular Income from Your Investments",
+    description:
+      "A Systematic Withdrawal Plan (SWP) is a smart way to generate regular income from your investments while keeping the remaining corpus invested. It allows you to withdraw a fixed amount at chosen intervals—monthly, quarterly, or annually—ensuring steady cash flow without redeeming the entire investment at once. SWPs are particularly useful for retirees or investors seeking passive income, as they offer flexibility, tax efficiency, and the potential for continued capital growth. With the right strategy and fund selection, an SWP helps balance income needs with long-term wealth preservation.",
+    features: [
+      {
+        title: "Regular Income Flow",
+        description:
+          "Receive a steady payout at fixed intervals without redeeming your entire investment.",
+      },
+      {
+        title: "Wealth Continuity",
+        description:
+          "Keep your remaining funds invested to continue benefiting from market growth.",
+      },
+      {
+        title: "Tax Efficiency",
+        description:
+          "Withdraw smartly with potential tax advantages compared to traditional income options.",
+      },
+      {
+        title: "Flexible Withdrawals",
+        description:
+          "Choose your withdrawal amount and frequency as per your financial needs.",
+      },
+    ],
+    faq: [
+      {
+        question: "Are there exit loads in SWP?",
+        answer:
+          "Yes, depending on the fund, exit load may apply on early withdrawals.",
+      },
+      {
+        question: "Is SWP better than Fixed Deposits?",
+        answer:
+          "SWP may offer better inflation-adjusted returns but comes with market risk compared to Fixed Deposits.",
+      },
+      {
+        question: "Can SWP be paused or stopped?",
+        answer:
+          "Yes, SWP is flexible and can be paused, modified, or stopped anytime without penalties.",
+      },
+      {
+        question: "How is SWP different from SIP?",
+        answer:
+          "SIP is used to invest regularly and build wealth, while SWP is used to withdraw regularly and generate income from existing investments.",
+      },
+    ],
+    bgImage: "/finask/systematic-withdrawal-plan.webp",
+    faqSection: {
+      title: "General Question",
+      description:
+        "Answers to common questions about our services and how we can help you achieve your financial goals.",
+      image: "/faq.webp",
+      consultationTitle: "Connect with an Expert",
+      consultationButton: "Get Started",
+    },
+  },
+  {
+    slug: "systematic-transfer-plan",
+    category: "Investments",
+    title: "Systematic Transfer Plan in Mutual Funds",
+    tagline: "Transfer Smartly, Invest Strategically",
+    description:
+      "A Systematic Transfer Plan (STP) is a mutual fund facility that allows you to transfer a fixed amount from one fund to another at regular intervals, typically from a low-risk debt fund to a higher-growth equity fund. It helps you invest gradually instead of deploying a lump sum at once. \n STP reduces market timing risk by spreading investments over time, while your funds parked in safer options continue to earn returns. It brings discipline and consistency, ensuring a structured approach to investing. It allows you to choose the transfer amount and frequency based on your needs, making it ideal for managing large investments efficiently.",
+    features: [
+      {
+        title: "Gradual Investment",
+        description:
+          "Transfer funds systematically to reduce the risk of investing a lump sum at once.",
+      },
+      {
+        title: "Risk Management",
+        description:
+          "Gradually shifts investments from low-risk to high-growth funds to balance stability and returns, or vice versa.",
+      },
+      {
+        title: "Flexibility of Amount",
+        description:
+          "Allows customization of transfer value and frequency as per your investment needs.",
+      },
+      {
+        title: "Strategic Allocation",
+        description:
+          "Ensures efficient distribution of assets across fund categories for optimal portfolio growth.",
+      },
+    ],
+    faq: [
+      {
+        question: "Which funds are used in STP?",
+        answer:
+          "Typically, Debt Funds act as source funds and Equity or Hybrid Funds as destination funds, or vice versa.",
+      },
+      {
+        question: "How is STP different from SIP?",
+        answer:
+          "SIP involves investing fresh money regularly, whereas STP involves transferring money from one existing fund to another.",
+      },
+      {
+        question: "Can STP be automated?",
+        answer:
+          "Yes, STP is fully automated with predefined amount, frequency, and duration.",
+      },
+      {
+        question: "Does STP guarantee returns?",
+        answer:
+          "No, STP does not guarantee returns; it only improves investment discipline and entry timing efficiency.",
+      },
+    ],
+    bgImage: "/finask/systematic-transfer-plan.webp",
+    faqSection: {
+      title: "General Question",
+      description:
+        "Answers to common questions about our services and how we can help you achieve your financial goals.",
+      image: "/faq.webp",
+      consultationTitle: "Connect with an Expert",
+      consultationButton: "Get Started",
+    },
+  },
+  {
+    slug: "specialised-investment-fund",
+    category: "Investments",
+    title: "Specialized Investment Funds",
+    tagline: "Smarter Strategies For Smarter Capital",
+    description:
+      "Specialized Investment Funds (SIF) are advanced investment solutions designed for discerning investors seeking tailored strategies beyond traditional mutual funds. Built to cater to High-Net-Worth Individuals and Ultra High-Net-Worth Individuals, SIFs offer flexibility in asset allocation, enabling exposure across equities, fixed income, derivatives, and alternative instruments within a single structure. These funds are actively managed with a focused approach, allowing for dynamic risk management and the ability to capitalize on evolving market opportunities. With higher customization, transparency, and strategic diversification, they aim to deliver optimized risk-adjusted returns aligned with specific financial goals and sophisticated investment needs.",
+    features: [
+      {
+        title: "Active Portfolio Monitoring",
+        description: "Continuous review and rebalancing of investments.",
+      },
+      {
+        title: "Goal-Oriented Structuring",
+        description: "Designed to match specific investment objectives.",
+      },
+      {
+        title: "Diversified Strategies",
+        description: "Invests across multiple strategies.",
+      },
+      {
+        title: "Sophisticated Investment Framework",
+        description: "Built for complex and high-value portfolios.",
+      },
+    ],
+    faq: [
+      {
+        question: "What is the minimum ticket size for investment in SIF?",
+        answer:
+          "The minimum investment ticket size for investment in SIF is ₹10 lakhs.",
+      },
+      {
+        question: "How liquid are SIF investments?",
+        answer:
+          "Liquidity depends on the fund structure; some may have lock-in periods or limited redemption options.",
+      },
+      {
+        question: "What are the risks involved in SIFs?",
+        answer:
+          "SIFs may carry market risk, liquidity risk, interest rate risk, and strategy-specific risks depending on the underlying investments.",
+      },
+      {
+        question: "What is the investment horizon for SIFs?",
+        answer:
+          "They usually require a medium to long-term investment horizon for optimal results.",
+      },
+    ],
+    bgImage: "/finask/specialized-investment-funds.webp",
+    faqSection: {
+      title: "General Question",
+      description:
+        "Answers to common questions about our services and how we can help you achieve your financial goals.",
+      image: "/faq.webp",
+      consultationTitle: "Connect with an Expert",
       consultationButton: "Get Started",
     },
   },
@@ -1433,46 +2702,42 @@ export const servicesData = [
       },
     ],
     faq: [
-      {
-        question: "What types of bonds are available?",
-        answer:
-          "Government Bonds, Corporate Bonds, Tax-Free Bonds, RBI Bonds, Sovereign Gold Bonds, Municipal Bonds.",
-      },
-      {
-        question: "Are corporate bonds risky?",
-        answer:
-          "Corporate bonds carry credit risk depending on the financial strength of the issuing company. Higher returns often come with higher risk.",
-      },
-      {
-        question: "How are bonds different from Fixed Deposits (FDs)?",
-        answer:
-          "Bonds may offer higher returns.\nBonds can be traded before maturity.\nFDs are generally simpler and may be insured up to a limit.",
-      },
-      {
-        question: "How do I choose the right bond?",
-        answer:
-          "Consider:\nCredit rating\nInterest rate outlook\nInvestment horizon\nLiquidity needs\nTax implications",
-      },
-    ],
+  {
+    question: "Are Bond returns fixed?",
+    answer:
+      "Coupon payments are fixed, but overall returns may vary if the bond is sold before maturity or due to interest rate changes.",
+  },
+  {
+    question: "Are Corporate Bonds risky?",
+    answer:
+      "Corporate Bonds carry credit risk depending on the financial strength of the issuing company. Higher returns often come with higher risk.",
+  },
+  {
+    question: "How are Bonds different from Fixed Deposits?",
+    answer:
+      "Bonds may offer higher returns and can be traded before maturity, whereas Fixed Deposits are generally simpler and may be insured up to a limit.",
+  },
+  {
+    question: "What is the difference between Government and Corporate Bonds?",
+    answer:
+      "Government Bonds are issued by the government and are low risk, while Corporate Bonds are issued by companies and may offer higher returns with higher risk.",
+  },
+],
     bgImage: "/finask/bond.png",
-    introText:
-      "Finask Value, we offer our specialized approach to Bonds absolutely essential and highly reliable trusted dynamic modern ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
-    closingText:
-      "Our commitment to excellence in Bonds truly reliable and deeply proven advanced ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
       title: "General Question",
       description:
         "Answers to common questions about our services and how we can help you achieve your financial goals.",
       image: "/faq.webp",
-      consultationTitle: "If You Need Help, Get A Consultation",
+      consultationTitle: "Connect with an Expert",
       consultationButton: "Get Started",
     },
   },
   {
     slug: "pms",
     category: "Investments",
-    title: "Portfolio Management Services (PMS)",
-    tagline: "Because your success story deserves a bespoke strategy.",
+    title: "Portfolio Management Services",
+    tagline: "Because Your Success Story Deserves a Bespoke Strategy",
     description:
       "For larger portfolios, PMS goes beyond standard allocation to deliver personalized, high-conviction investing. We collaborate with top PMS providers to craft portfolios that align with your unique financial blueprint — considering your liquidity needs, legacy goals, and appetite for concentrated bets. It’s an approach where your wealth doesn’t just grow, it evolves intentionally, stewarded by seasoned experts.",
     features: [
@@ -1493,7 +2758,7 @@ export const servicesData = [
       {
         question: "How is PMS different from Mutual Funds?",
         answer:
-          "In PMS, investments are held in your own demat account and are customized to your profile, whereas mutual funds pool money from multiple investors into a common portfolio.",
+          "In PMS, investments are held in your own demat account and are customized to your profile, whereas Mutual Funds pool money from multiple investors into a common portfolio.",
       },
       {
         question: "What is the minimum investment required for PMS?",
@@ -1503,7 +2768,7 @@ export const servicesData = [
       {
         question: "Is PMS suitable for all investors?",
         answer:
-          "PMS is generally suitable for high-net-worth individuals (HNIs) who seek personalized portfolio management and are comfortable with market-linked investments.",
+          "PMS is generally suitable for High-Net-Worth Individuals (HNIs) who seek personalized portfolio management and are comfortable with market-linked investments.",
       },
       {
         question: "How are returns generated in PMS?",
@@ -1512,27 +2777,23 @@ export const servicesData = [
       },
     ],
     bgImage: "/finask/pms.jpg",
-    introText:
-      "Finask Value, we offer our specialized approach to Portfolio Management Services PMS absolutely essential and highly reliable ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
-    closingText:
-      "Our commitment to excellence in Portfolio Management Services PMS truly reliable and ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
       title: "General Question",
       description:
         "Answers to common questions about our services and how we can help you achieve your financial goals.",
       image: "/faq.webp",
-      consultationTitle: "If You Need Help, Get A Consultation",
+      consultationTitle: "Connect with an Expert",
       consultationButton: "Get Started",
     },
   },
   {
     slug: "aifs",
     category: "Investments",
-    title: "Alternative Investment Funds (AIFs)",
+    title: "Alternative Investment Funds",
     tagline:
-      "Because true diversification ventures where the ordinary doesn’t.",
+      "Because True Diversification Ventures Where the Ordinary Does Not",
     description:
-      "AIFs open avenues into private equity, venture capital, real estate, and structured opportunities that traditional vehicles can’t reach. We help you navigate this sophisticated space with diligence and clarity — selecting category I, II, or III funds suited to your long-term ambitions. The result: a portfolio that not only mitigates mainstream market risks but also captures new-age growth stories with strategic foresight.",
+      "Alternative Investment Funds (AIFs)  open avenues into private equity, venture capital, real estate, and structured opportunities that traditional vehicles can’t reach. We help you navigate this sophisticated space with diligence and clarity — selecting category I, II, or III funds suited to your long-term ambitions. The result: a portfolio that not only mitigates mainstream market risks but also captures new-age growth stories with strategic foresight.",
     features: [
       {
         title: "Exclusive Access",
@@ -1559,7 +2820,7 @@ export const servicesData = [
           "As per regulatory guidelines, the minimum investment amount in an AIF is generally ₹1 crore per investor (subject to specific category exceptions).",
       },
       {
-        question: "What are the different categories of AIF?",
+        question: "What are the different categories of AIFs?",
         answer:
           "AIFs are broadly classified into:\nCategory I – Venture Capital, Startups, Infrastructure, Social Ventures\nCategory II – Private Equity, Debt Funds\nCategory III – Hedge Funds and complex trading strategies",
       },
@@ -1570,16 +2831,12 @@ export const servicesData = [
       },
     ],
     bgImage: "/finask/alternative-investment-funds.webp",
-    introText:
-      "Finask Value, we offer our specialized approach to Alternative Investment Funds AIFs absolutely essential and highly reliable ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
-    closingText:
-      "Our commitment to excellence in Alternative Investment Funds AIFs truly reliable and ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
       title: "General Question",
       description:
         "Answers to common questions about our services and how we can help you achieve your financial goals.",
       image: "/faq.webp",
-      consultationTitle: "If You Need Help, Get A Consultation",
+      consultationTitle: "Connect with an Expert",
       consultationButton: "Get Started",
     },
   },
@@ -1608,12 +2865,12 @@ export const servicesData = [
       {
         question: "Who should invest in Unlisted Equity?",
         answer:
-          "Unlisted equity is generally suitable for informed investors or HNIs who have a higher risk appetite and a long-term investment horizon.",
+          "Unlisted equity is generally suitable for informed investors or High-Net-Worth Individuals who have a higher risk appetite and a long-term investment horizon.",
       },
       {
         question: "Is Unlisted Equity risky?",
         answer:
-          "Yes, unlisted investments carry higher risk due to limited liquidity, valuation uncertainty, and lack of public market transparency.",
+          "Yes, Unlisted Investments carry higher risk due to limited liquidity, valuation uncertainty and lack of public market transparency.",
       },
       {
         question: "How is the price of Unlisted Shares determined?",
@@ -1627,27 +2884,23 @@ export const servicesData = [
       },
     ],
     bgImage: "/finask/unlisted-equity.webp",
-    introText:
-      "Finask Value, we offer our specialized approach to Unlisted Equity absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
-    closingText:
-      "Our commitment to excellence in Unlisted Equity truly reliable and deeply proven ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
       title: "General Question",
       description:
         "Answers to common questions about our services and how we can help you achieve your financial goals.",
       image: "/faq.webp",
-      consultationTitle: "If You Need Help, Get A Consultation",
+      consultationTitle: "Connect with an Expert",
       consultationButton: "Get Started",
     },
   },
   {
     slug: "reits",
     category: "Goal Planning",
-    title: "REITs",
+    title: "Real Estate Investment Trusts ",
     tagline:
-      "Because real estate returns shouldn’t require real estate headaches.",
+      "Because Real Estate Returns Should Not Require Real Estate Headaches",
     description:
-      "REITs offer a seamless way to invest in large-scale, income-generating real estate—such as malls, office parks, residential properties and logistics centers—without buying property outright. Traded like stocks, these trusts blend the tangibility of real estate with the convenience and liquidity of modern investing.\n Finask Value helps you integrate REITs into your portfolio as a stable, yield-generating asset class with long-term upside and regular payouts.\n Build your portfolio with concrete value—without laying a single brick.",
+      "Real Estate Investment Trusts (REITs)  offer a seamless way to invest in large-scale, income-generating real estate—such as malls, office parks, residential properties and logistics centers—without buying property outright. Traded like stocks, these trusts blend the tangibility of real estate with the convenience and liquidity of modern investing.\n Finask Value helps you integrate REITs into your portfolio as a stable, yield-generating asset class with long-term upside and regular payouts.\n Build your portfolio with concrete value—without laying a single brick.",
     features: [
       {
         title: "Corpus Calculation",
@@ -1662,39 +2915,35 @@ export const servicesData = [
         description: "Ensuring adequate cover for medical needs.",
       },
     ],
-    faq: [
-      {
-        question: "Who should consider investing in REITs?",
-        answer:
-          "Investors looking for regular income, portfolio diversification, and exposure to real estate without large capital investment may consider REITs.",
-      },
-      {
-        question: "What is the minimum investment required in REITs?",
-        answer:
-          "REITs are listed on stock exchanges, and you can invest by purchasing units through your demat account, making them accessible with relatively lower investment amounts compared to direct property purchase.",
-      },
-      {
-        question: "Are REITs liquid investments?",
-        answer:
-          "Yes. Since REITs are traded on stock exchanges, investors can buy or sell units during market hours, subject to liquidity conditions.",
-      },
-      {
-        question: "How are REITs different from buying physical property?",
-        answer:
-          "REITs offer professional management, diversification across multiple properties, liquidity, and lower entry cost compared to purchasing property directly.",
-      },
-    ],
+ faq: [
+  {
+    question: "Are REITs good during inflation?",
+    answer:
+      "Yes, often rent agreements may include escalation clauses, and property values tend to rise with inflation. So, REITs can act as a partial inflation hedge.",
+  },
+  {
+    question: "How transparent are REIT investments?",
+    answer:
+      "REITs provide regular disclosures on financials, occupancy, lease terms, and portfolio performance.",
+  },
+  {
+    question: "Are REIT distributions always stable?",
+    answer:
+      "No, distributions can fluctuate based on rental income, occupancy levels, and interest rate movements.",
+  },
+  {
+    question: "Why invest in REITs?",
+    answer:
+      "They provide an efficient way to invest in real estate through managed portfolios, multiple asset exposure, better liquidity, and reduced capital requirements.",
+  },
+],
     bgImage: "/finask/reit.webp",
-    introText:
-      "Finask Value, we offer our specialized approach to REITs absolutely essential and highly reliable trusted dynamic modern ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
-    closingText:
-      "Our commitment to excellence in REITs truly reliable and deeply proven advanced ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
       title: "General Question",
       description:
         "Answers to common questions about our services and how we can help you achieve your financial goals.",
       image: "/faq.webp",
-      consultationTitle: "If You Need Help, Get A Consultation",
+      consultationTitle: "Connect with an Expert",
       consultationButton: "Get Started",
     },
   },
@@ -1702,10 +2951,10 @@ export const servicesData = [
     slug: "invits",
     category: "Investments",
     title: "Infrastructure Investment Trusts",
-    tagline: "Because progress shouldn’t just be admired — it should be owned.",
+    tagline: "Because Progress Should Not Just Be Admired — It Should Be Owned",
     description:
-      "InvITs let you participate in India’s infrastructure growth by investing in operational assets like highways, power grids, and renewable energy projects. They turn vast, capital-heavy ventures into accessible, regulated opportunities — offering you predictable cash flows and a stake in nation-building.\n\nSo every toll collected, every megawatt delivered, quietly builds your wealth too — blending personal prosperity with collective progress.",
-    features: [
+    "Infrastructure Investment Trusts (InvITs) are a modern investment avenue that allow investors to participate in income-generating infrastructure assets such as roads, power transmission projects and renewable energy. It is designed to offer stable and predictable cash flows and distribute a significant portion of earnings to investors, making them an attractive option for those seeking regular income along with potential capital appreciation. They combine the benefits of infrastructure investing with the liquidity of market-linked instruments, providing transparency, diversification and professional management. For investors looking to add a steady income-generating asset class to their portfolio, InvITs can play a strategic role in long-term wealth creation. ",
+     features: [
       {
         title: "Stable Cash Flows",
         description: "Revenue from operational infrastructure assets.",
@@ -1720,21 +2969,21 @@ export const servicesData = [
       },
     ],
     faq: [
-      {
-        question: "How do InvITs generate returns?",
-        answer:
-          "InvITs earn revenue from operational infrastructure projects and distribute a significant portion of the cash flows to investors as periodic payouts.",
-      },
-      {
-        question: "Who should consider investing in InvITs?",
-        answer:
-          "Investors seeking relatively stable income, portfolio diversification, and exposure to infrastructure assets may consider InvITs.",
-      },
-      {
-        question: "What is the minimum investment required in InvITs?",
-        answer:
-          "InvIT units are listed on stock exchanges and can be purchased through a demat account, making them accessible with moderate investment amounts.",
-      },
+   {
+    question: "What is the structure of an InvIT?",
+    answer:
+      "An InvIT typically has a trust structure with a sponsor, investment manager, project manager, and trustee overseeing operations and compliance.",
+  },
+  {
+    question: "What is the difference between Public InvITs and Private InvITs?",
+    answer:
+      "Public InvITs are listed and available to retail investors, while Private InvITs are unlisted and typically accessible only to institutional or large investors.",
+  },
+  {
+    question: "What is distribution payout frequency in InvITs?",
+    answer:
+      "Most InvITs provide quarterly or semi-annual distributions depending on cash flow generation.",
+  },
       {
         question: "How are InvITs different from REITs?",
         answer:
@@ -1742,16 +2991,12 @@ export const servicesData = [
       },
     ],
     bgImage: "/finask/invi.webp",
-    introText:
-      "Finask Value, we offer our specialized approach to Infrastructure Investment Trusts absolutely essential and highly reliable trusted ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
-    closingText:
-      "Our commitment to excellence in Infrastructure Investment Trusts truly reliable and deeply ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
       title: "General Question",
       description:
         "Answers to common questions about our services and how we can help you achieve your financial goals.",
       image: "/faq.webp",
-      consultationTitle: "If You Need Help, Get A Consultation",
+      consultationTitle: "Connect with an Expert",
       consultationButton: "Get Started",
     },
   },
@@ -1759,10 +3004,10 @@ export const servicesData = [
     slug: "fractional-commercial-real-estate",
     category: "Goal Planning",
     title: "Fractional Commercial Real Estate",
-    tagline: "Because progress shouldn’t require owning the whole skyline.",
+    tagline: "Because Progress Should Not Require Owning the Whole Skyline",
     description:
-      "Fractional ownership and Infrastructure Investment Trusts (InvITs) allow you to participate in India’s booming commercial and infrastructural growth — one strategic slice at a time. Whether it’s office towers, co-working spaces, or national highways, these vehicles unlock stable income and potential capital gains without the hassles of full ownership or maintenance.\n\nWith handpicked opportunities and expert due diligence, Finask Value helps you diversify into high-ticket real assets—without the entry barriers, paperwork, or property stress.\n It’s not just smart investing. It’s smart access to a growing India.",
-    features: [
+    "It is an innovative investment solution that allows investors to own a share of high-quality, income-generating commercial properties such as office spaces, warehouses, and retail assets without the need for large capital outlays. By pooling funds with other investors, you gain access to premium real estate opportunities that were traditionally available only to large institutions or HNI investors. This asset class offers the potential for stable rental income, capital appreciation, and portfolio diversification. With professional management, transparency and lower entry barriers, fractional ownership makes commercial real estate more accessible, efficient and aligned with modern investment needs.",
+     features: [
       {
         title: "Corpus Calculation",
         description: "Estimating the amount needed for your desired lifestyle.",
@@ -1778,50 +3023,46 @@ export const servicesData = [
     ],
     faq: [
       {
-        question: "How does fractional ownership work?",
+        question: "How does Fractional Ownership work?",
         answer:
           "Investors pool funds to purchase a commercial asset (like office spaces or warehouses) through a structured platform or SPV (Special Purpose Vehicle). Rental income and potential appreciation are shared proportionately.",
       },
       {
         question:
-          "What type of properties are available under fractional investment?",
+          "How liquid is fractional real estate?",
         answer:
-          "Typically, Grade A commercial properties such as IT parks, corporate offices, pre-leased buildings, warehouses, and retail spaces are offered.",
+          " It is less liquid than listed instruments, though some platforms offer secondary market exits or structured buyback options.",
       },
       {
-        question: "What returns can I expect?",
+        question: "What returns can I expect from Fractional Investment?",
         answer:
           "Returns generally come from two sources — regular rental income and capital appreciation over time. However, returns depend on property performance and market conditions.",
       },
       {
         question:
-          "Is fractional real estate better than buying physical property?",
+          "Is Fractional Ownership regulated?",
         answer:
-          "It offers lower ticket size, diversification, professional management, and access to premium assets — without the burden of direct property management.",
+          "Regulation varies by structure; some platforms operate under SEBI guidelines or alternative investment frameworks, while others function through private agreements.",
       },
     ],
     bgImage: "/finask/fractional.webp",
-    introText:
-      "Finask Value, we offer our specialized approach to Fractional Commercial Real Estate absolutely essential and highly reliable ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
-    closingText:
-      "Our commitment to excellence in Fractional Commercial Real Estate truly reliable and ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
       title: "General Question",
       description:
         "Answers to common questions about our services and how we can help you achieve your financial goals.",
       image: "/faq.webp",
-      consultationTitle: "If You Need Help, Get A Consultation",
+      consultationTitle: "Connect with an Expert",
       consultationButton: "Get Started",
     },
   },
   {
     slug: "p2p-lending",
     category: "Investments",
-    title: "P2P Lending",
+    title: "Peer-to-Peer Lending",
     tagline: "Elevating Fixed Income with Thoughtful Innovation",
     description:
-      "Not every investor is drawn to the pulse of markets. Many seek stable, predictable returns—but wish to surpass traditional fixed deposit yields. Peer-to-Peer lending, when curated and monitored diligently, offers such an elegant middle path.\nFinask Value, we approach P2P as a structured fixed income strategy—not a speculative tech fad. Whether you are a retiree desiring monthly income, a professional diversifying surplus, or an HNI layering alternative fixed income alongside bonds and FDRs, P2P can complement your strategy.\nFinask Value, we handle everything from platform selection and borrower diversification to ongoing risk monitoring, so your fixed income evolves with clarity and calm.",
-    features: [
+    "Not every investor is drawn to the pulse of markets. Many seek stable, predictable returns—but wish to surpass traditional fixed deposit yields. Peer-to-Peer Lending, when curated and monitored diligently, offers such an elegant middle path. \n At FinAsk Value, we approach P2P Lending as a structured fixed income strategy—not a speculative tech fad. Whether you are a retiree desiring monthly income, a professional diversifying surplus or an HNI layering alternative fixed income alongside bonds and FDRs, P2P Lending can complement your strategy. \n We handle everything from platform selection and borrower diversification to ongoing risk monitoring, so your fixed income evolves with clarity and calm.",
+     features: [
       {
         title: "Enhanced Yields",
         description: "Returns typically ranging from 10-12%.",
@@ -1858,16 +3099,12 @@ export const servicesData = [
       },
     ],
     bgImage: "/finask/p2p.webp",
-    introText:
-      "Finask Value, we offer our specialized approach to P2P Lending absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
-    closingText:
-      "Our commitment to excellence in P2P Lending truly reliable and deeply proven ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
       title: "General Question",
       description:
         "Answers to common questions about our services and how we can help you achieve your financial goals.",
       image: "/faq.webp",
-      consultationTitle: "If You Need Help, Get A Consultation",
+      consultationTitle: "Connect with an Expert",
       consultationButton: "Get Started",
     },
   },
@@ -1896,37 +3133,33 @@ export const servicesData = [
     faq: [
       {
         question:
-          "How are Alternative Fixed Income products different from traditional Fixed Deposits?",
+          "How are Alternative Fixed Income products different from Traditional Fixed Deposits?",
         answer:
-          "Unlike bank FDs, these investments are market-linked or credit-linked and may offer higher potential returns, but they also carry higher risk.",
+          "Unlike Bank Fixed Deposits, these investments are market-linked or credit-linked and may offer higher potential returns, but they also carry higher risk.",
       },
       {
-        question: "Are Alternative Fixed Income investments safe?",
+        question: "Are Alternative Fixed Income Investments safe?",
         answer:
           "They carry credit and liquidity risk. Proper due diligence, diversification, and understanding of the underlying structure are essential before investing.",
       },
       {
-        question: "Who should consider Alternative Fixed Income?",
+        question: "Why is portfolio allocation important in Alternative Fixed Income?",
         answer:
-          "Investors seeking higher income than traditional debt instruments and who are comfortable with moderate risk may consider these options.",
+          "Because balancing risk, liquidity and yield across instruments helps optimize stable long-term returns.",
       },
       {
-        question: "What is the typical investment tenure?",
+        question: "What is the typical investment tenure for Alternative Fixed Income?",
         answer:
           "Tenure can range from short-term (a few months) to medium or long-term, depending on the product structure.",
       },
     ],
     bgImage: "/finask/afi.webp",
-    introText:
-      "Finask Value, we offer our specialized approach to Alternative Fixed Income absolutely essential and highly reliable trusted ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
-    closingText:
-      "Our commitment to excellence in Alternative Fixed Income truly reliable and deeply ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
       title: "General Question",
       description:
         "Answers to common questions about our services and how we can help you achieve your financial goals.",
       image: "/faq.webp",
-      consultationTitle: "If You Need Help, Get A Consultation",
+      consultationTitle: "Connect with an Expert",
       consultationButton: "Get Started",
     },
   },
@@ -1953,9 +3186,9 @@ export const servicesData = [
     ],
     faq: [
       {
-        question: "How are Corporate FDRs different from Bank Fixed Deposits?",
+        question: "How are Corporate FDRs different from Bank FDs?",
         answer:
-          "Corporate FDRs are issued by companies, not banks, and may offer higher interest rates. However, they carry higher credit risk compared to bank deposits.",
+          " Corporate FDRs are issued by companies, not banks and may offer higher interest rates. However, they carry higher credit risk compared to Bank FDs.",
       },
       {
         question: "Are Corporate FDRs safe?",
@@ -1965,36 +3198,32 @@ export const servicesData = [
       {
         question: "Are Corporate FDRs secured?",
         answer:
-          "Some corporate deposits are secured against company assets, while others may be unsecured. It is important to review the terms before investing.",
+          " Some Corporate FDRs are secured against company assets, while others may be unsecured. It is important to review the terms before investing.",
       },
       {
-        question: "Who should consider investing in Corporate FDRs?",
+        question: "What is the minimum investment required in Corporate FDRs?",
         answer:
-          "Investors seeking higher fixed returns than bank FDs and willing to take moderate credit risk may consider Corporate FDRs as part of a diversified portfolio.",
+          " Minimum investment varies by issuer but usually starts from ₹10,000 or more, depending on the Corporate FD scheme.",
       },
     ],
     bgImage: "/finask/c-fdr.jpg",
-    introText:
-      "Finask Value, we offer our specialized approach to Corporate Fixed Deposits absolutely essential and highly reliable trusted ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
-    closingText:
-      "Our commitment to excellence in Corporate Fixed Deposits truly reliable and deeply ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
       title: "General Question",
       description:
         "Answers to common questions about our services and how we can help you achieve your financial goals.",
       image: "/faq.webp",
-      consultationTitle: "If You Need Help, Get A Consultation",
+      consultationTitle: "Connect with an Expert",
       consultationButton: "Get Started",
     },
   },
   {
     slug: "gift-city",
     category: "Investments",
-    title: "GIFT City Investments",
+    title: "Gift City",
     tagline: "Opening Global Doors, Seamlessly Within India",
     description:
-      "As Indian wealth matures, aspirations naturally extend beyond borders. But global investing, tax treatment, and compliance often pose hurdles. Enter GIFT City—India’s international financial hub that marries global opportunity with regulatory simplicity.\n\nGIFT City provides a streamlined, tax-efficient channel to diversify into global markets or sophisticated products without the complexity of traditional offshore vehicles. Whether you’re seeking to bypass PIS hassles, repatriate seamlessly, or consolidate your international allocation under a transparent, Indian-compliant structure, GIFT City serves as your trusted bridge, combining India’s regulatory confidence with global market reach.\nIt’s not just a location on the map; it’s a forward-looking gateway that redefines how Indian investors, at home and abroad, build cross-border legacies with clarity, compliance, and unmatched convenience.\n\nInvest in INR, Earn in your home currency: GIFT City allows you to grow global wealth while remaining anchored in your home currency. Say goodbye to the unpredictability of cross-currency depreciation or foreign exchange fluctuations.\n\nTax-Efficient Returns: Enjoy favorable tax treatment—including exemptions on certain capital gains, interest income, and dividends—making your cross-border investments not just smarter, but lighter on the wallet.\n\nCompliance Without Complexity: No more PIS hassles, repatriation bottlenecks, or navigating foreign jurisdictions. GIFT City gives you global access with Indian simplicity.\n\nInstitutional-Grade Access: From global REITs to ETFs to dollar bonds Finask Value helps you tap into sophisticated global instruments without stepping outside India’s legal and regulatory comfort zone.",
-    features: [
+    "It is India’s first operational International Financial Services Centre which designed to position the country as a global financial hub. It offers a world-class ecosystem for financial services, including offshore investments, banking, insurance and fund management, all within a highly regulated and tax-efficient environment with benefits such as tax incentives, ease of doing business and access to global markets in foreign currency.  \n It provides investors and institutions a unique opportunity to diversify internationally while operating from India. For forward-looking investors, it represents a gateway to global investing with enhanced efficiency, transparency and regulatory support.",
+     features: [
       {
         title: "Tax Efficiency",
         description: "Exemptions on certain capital gains and interest income.",
@@ -2010,19 +3239,19 @@ export const servicesData = [
     ],
     faq: [
       {
-        question: "Who can invest?",
+        question: "Who can invest in Gift City?",
         answer:
           "Both resident Indians (under LRS) and Non-Resident Indians (NRIs) can invest in GIFT City IFSC.",
       },
       {
-        question: "What is LRS?",
+        question: "Who can invest in Liberalised Remittance Scheme?",
         answer:
           "Liberalised Remittance Scheme (LRS) allows resident individuals to remit up to USD 250,000 per financial year for permissible transactions.",
       },
       {
-        question: "Is it tax-free?",
+        question: "Is investment in Gift City tax-free?",
         answer:
-          "There are specific tax incentives, such as no capital gains tax on certain derivatives and bonds for non-residents, but rules vary for residents.",
+          " There are specific tax incentives, such as no Capital Gains Tax and No GST for Non-Residents Indians, but rules vary for residents Indians.",
       },
       {
         question: "Can I invest in US stocks?",
@@ -2031,16 +3260,12 @@ export const servicesData = [
       },
     ],
     bgImage: "/finask/gift-city.webp",
-    introText:
-      "Finask Value, we offer our specialized approach to GIFT City Investments absolutely essential and highly reliable trusted ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
-    closingText:
-      "Our commitment to excellence in GIFT City Investments truly reliable and deeply ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
       title: "General Question",
       description:
         "Answers to common questions about our services and how we can help you achieve your financial goals.",
       image: "/faq.webp",
-      consultationTitle: "If You Need Help, Get A Consultation",
+      consultationTitle: "Connect with an Expert",
       consultationButton: "Get Started",
     },
   },
@@ -2048,7 +3273,7 @@ export const servicesData = [
     slug: "e-gold",
     category: "Investments",
     title: "E-Gold",
-    tagline: "Because modern aspirations still treasure timeless wealth.",
+    tagline: "Because Modern Aspirations Still Treasure Timeless Wealth",
     description:
       "E-Gold lets you build your gold holdings digitally — no safes, no insurance worries, no purity concerns. Buy as little as a gram or as much as your milestones demand, all secured in vaulted assurance and ready for cash redemption or jewellery conversion when your heart desires.\n\nIt’s tradition, transformed for today, making sure your portfolio shines with both heritage and hassle-free liquidity.\n\nFinask Value, we help you integrate E-Gold seamlessly into your broader financial goals—whether it’s gifting with grace, saving for a future wedding, or simply balancing your asset mix with a timeless hedge. With 24K purity, full transparency, and the power of automation through SIPs, E-Gold becomes more than just a commodity—it becomes a modern heirloom in the making, one digital gram at a time.",
     features: [
@@ -2065,46 +3290,42 @@ export const servicesData = [
         description: "Accumulate gold systematically.",
       },
     ],
-    faq: [
-      {
-        question: "How is E-Gold different from physical gold?",
-        answer:
-          "E-Gold eliminates storage risk, making charges, and purity concerns. It can be bought and sold online easily, while physical gold involves storage, security, and resale challenges.",
-      },
-      {
-        question: "Is E-Gold safe?",
-        answer:
-          "Yes, when purchased through reputed platforms or exchanges, E-Gold is backed by physical gold stored securely in insured vaults.",
-      },
-      {
-        question: "Can I convert E-Gold into physical gold?",
-        answer:
-          "Yes, many providers allow conversion of E-Gold into physical gold (coins/bars), subject to minimum quantity and delivery charges.",
-      },
-      {
-        question: "Is E-Gold suitable for long-term investment?",
-        answer:
-          "E-Gold is suitable for portfolio diversification and long-term wealth preservation, especially for investors looking to hedge against inflation and market volatility.",
-      },
-    ],
+   faq: [
+  {
+    question: "How is E-Gold different from physical gold?",
+    answer:
+      "E-Gold eliminates storage risk, making charges, and purity concerns. It can be bought and sold online easily, while physical gold involves storage, security, and resale challenges.",
+  },
+  {
+    question: "What is the minimum investment required in E-Gold?",
+    answer:
+      "E-Gold can be started with a very small amount, often as low as ₹500.",
+  },
+  {
+    question: "What drives the price of E-Gold?",
+    answer:
+      "Its price is directly linked to international gold prices and domestic demand-supply conditions.",
+  },
+  {
+    question: "Can E-Gold be pledged or used as collateral?",
+    answer:
+      "Yes, some platforms allow E-Gold holdings to be pledged for loans, similar to physical gold collateralization.",
+  },
+],
     bgImage: "/finask/e-gold.webp",
-    introText:
-      "Finask Value, we offer our specialized approach to E-Gold absolutely essential and highly reliable trusted dynamic modern ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
-    closingText:
-      "Our commitment to excellence in E-Gold truly reliable and deeply proven advanced ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
       title: "General Question",
       description:
         "Answers to common questions about our services and how we can help you achieve your financial goals.",
       image: "/faq.webp",
-      consultationTitle: "If You Need Help, Get A Consultation",
+      consultationTitle: "Connect with an Expert",
       consultationButton: "Get Started",
     },
   },
   {
     slug: "nps",
     category: "Investments",
-    title: "National Pension System (NPS)",
+    title: "National Pension System ",
     tagline: "Building a Retirement That Honours Your Efforts",
     description:
       "Retirement is not the conclusion of earning—it’s the moment your lifetime of discipline begins to work for you. It’s when the fruits of your labor, invested wisely over decades, transform into dignified security and freedom.\nThe National Pension System (NPS) is one of India’s most robust instruments to shape this chapter—Whether you’re a salaried executive optimizing deductions, an entrepreneur without employer pensions, or an NRI anchoring part of your retirement in India, NPS provides a versatile platform. \nFinask Value, we simplify this entire landscape: from selecting among top-tier pension fund managers to guiding optimal equity exposure based on your horizon, recalibrating annually, and planning your eventual annuity so post-retirement income feels seamless.",
@@ -2129,7 +3350,7 @@ export const servicesData = [
           "Any Indian citizen (resident or NRI) between 18 and 70 years of age can open an NPS account, subject to KYC compliance.",
       },
       {
-        question: "What are the types of NPS accounts?",
+        question: "What are the types of NPS Accounts?",
         answer:
           "There are two types:\nTier I – A primary retirement account with tax benefits and withdrawal restrictions.\nTier II – A voluntary savings account with flexible withdrawals but limited tax benefits.",
       },
@@ -2145,16 +3366,12 @@ export const servicesData = [
       },
     ],
     bgImage: "/finask/national-pension-sceme.webp",
-    introText:
-      "Finask Value, we offer our specialized approach to National Pension System NPS absolutely essential and highly reliable ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
-    closingText:
-      "Our commitment to excellence in National Pension System NPS truly reliable and ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
       title: "General Question",
       description:
         "Answers to common questions about our services and how we can help you achieve your financial goals.",
       image: "/faq.webp",
-      consultationTitle: "If You Need Help, Get A Consultation",
+      consultationTitle: "Connect with an Expert",
       consultationButton: "Get Started",
     },
   },
@@ -2182,37 +3399,33 @@ export const servicesData = [
     ],
     faq: [
       {
-        question: "How can I start investing in stocks?",
+        question: "How can I start investing in Stocks?",
         answer:
           "You need to open a Demat and Trading account, complete KYC formalities, link your bank account, and then you can begin investing or trading through an online platform.",
       },
       {
-        question: "What is the difference between trading and investing?",
+        question: "What is the difference between Trading and Investing?",
         answer:
-          "Investing focuses on long-term wealth creation by holding stocks over time, while trading involves frequent buying and selling to benefit from short-term price movements.",
+          " Investing focuses on long-term wealth creation by holding stocks over time, while Trading involves frequent buying and selling to benefit from short-term price movements.",
       },
       {
-        question: "Is stock market investment risky?",
+        question: "Are Stock Market Investments risky?",
         answer:
-          "Yes, stock markets are subject to market volatility and price fluctuations. However, disciplined investing, diversification, and proper research can help manage risk.",
+          "Yes, Stock Markets are subject to market volatility and price fluctuations. However, disciplined investing, diversification and proper research can help manage risk.",
       },
       {
-        question: "Can NRIs invest in Indian stock markets?",
+        question: "Can NRIs invest in Indian Stock Markets?",
         answer:
           "Yes, NRIs can invest in Indian equities through a PIS (Portfolio Investment Scheme) account, subject to RBI and SEBI regulations.",
       },
     ],
     bgImage: "/finask/stock-roking.webp",
-    introText:
-      "Finask Value, we offer our specialized approach to Stock Broking absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
-    closingText:
-      "Our commitment to excellence in Stock Broking truly reliable and deeply proven ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
       title: "General Question",
       description:
         "Answers to common questions about our services and how we can help you achieve your financial goals.",
       image: "/faq.webp",
-      consultationTitle: "If You Need Help, Get A Consultation",
+      consultationTitle: "Connect with an Expert",
       consultationButton: "Get Started",
     },
   },
@@ -2222,8 +3435,8 @@ export const servicesData = [
     title: "Loan Against Securities",
     tagline: "Unlock Liquidity Without Selling Your Investments",
     description:
-      "Your investments in mutual funds and shares are valuable financial assets. Instead of selling them when you need funds, you can pledge them and access instant liquidity through a Loan Against Securities (LAS). With Loan Against Mutual Funds (LAMF) and Loan Against Shares, you can meet your short-term financial needs while your investments remain invested and continue to grow. Whether you need funds for business expansion, personal needs, emergencies, or financial planning, Loan Against Securities offers a smart and cost-effective borrowing solution.",
-    features: [
+    "Your investments in mutual funds and shares are valuable financial assets. Instead of selling them when you need funds, you can pledge them and access instant liquidity through a Loan Against Securities (LAS). With Loan Against Mutual Funds (LAMF) and Loan Against Securities (LAS), you can meet your short-term financial needs while your investments remain invested and continue to grow.  \n Whether you need funds for business expansion, personal needs, emergencies or financial planning, Loan Against Securities offers a smart and cost-effective borrowing solution. It is a smart way to unlock funds while keeping your long-term investment strategy intact. \n At FinAsk Value, access liquidity without selling your portfolio through cost-effective borrowing backed by your securities.",
+     features: [
       {
         title: "Instant Liquidity",
         description:
@@ -2240,33 +3453,29 @@ export const servicesData = [
           "Loans against securities often come with lower interest rates than personal loans or credit cards.",
       },
     ],
-    faq: [
-      {
-        question: "What is Loan Against Securities (LAS)?",
-        answer:
-          "It is a facility that allows investors to pledge financial investments such as mutual funds or shares as collateral to obtain a loan from a financial institution.",
-      },
-      {
-        question: "Why choose LAS instead of selling investments?",
-        answer:
-          "LAS helps you avoid redeeming investments, capital gains tax, and the loss of future growth while still giving you access to funds.",
-      },
-      {
-        question: "Can I use the loan flexibly?",
-        answer:
-          "Yes. Many LAS facilities work like an overdraft, allowing you to withdraw funds as needed and pay interest only on the amount utilized.",
-      },
-      {
-        question: "Who is this suitable for?",
-        answer:
-          "It is ideal for investors who need short-term liquidity for business expansion, personal needs, emergencies, or financial planning without disrupting long-term wealth creation.",
-      },
-    ],
+   faq: [
+  {
+    question: "How is interest charged in LAS?",
+    answer:
+      "Interest is charged only on the amount utilized from the sanctioned limit, not on the entire approved loan amount.",
+  },
+  {
+    question: "Can I continue to earn returns on pledged securities?",
+    answer:
+      "Yes, you continue to earn dividends, interest, and capital appreciation on pledged assets.",
+  },
+  {
+    question: "Can I use the Loan flexibly?",
+    answer:
+      "Yes, many LAS facilities work like an overdraft, allowing you to withdraw funds as needed and pay interest only on the amount utilized.",
+  },
+  {
+    question: "Is LAS better during bullish or bearish markets?",
+    answer:
+      "LAS is generally more effective in bullish or stable markets where collateral value remains strong and margin calls are minimized.",
+  },
+],
     bgImage: "/finask/loan-against-securities.webp",
-    introText:
-      "Loan Against Securities is a smart way to unlock funds while keeping your long-term investment strategy intact.",
-    closingText:
-      "Access liquidity without selling your portfolio. Explore a cost-effective borrowing solution backed by your mutual funds and shares.",
     faqSection: {
       title: "General Questions",
       description:
@@ -2328,10 +3537,6 @@ export const servicesData = [
       },
     ],
     bgImage: "/finask/sip.png",
-    introText:
-      "Finask Value, we help you use Step-Up SIP as a practical and powerful tool for long-term wealth creation. By aligning your investments with your income growth, we make it easier for you to build financial discipline, stay ahead of inflation, and move closer to your goals with confidence.",
-    closingText:
-      "Our approach to Step-Up SIP is designed to make investing simple, flexible, and effective. Whether you are just starting your investment journey or planning for bigger life goals, Finask Value helps you create a strategy that grows with you and supports your future with clarity and confidence.",
     faqSection: {
       title: "General Questions",
       description:
@@ -2367,9 +3572,9 @@ export const servicesData = [
     ],
     faq: [
       {
-        question: "Is a trust only for the rich?",
+        question: "Is a Trust only for the wealthy?",
         answer:
-          "No, a trust is a useful tool for anyone wanting specific control over asset distribution, protecting beneficiaries, or caring for a special needs child.",
+"No, a Trust is a useful tool for anyone wanting specific control over asset distribution, protecting beneficiaries or caring for a special needs child."
       },
       {
         question: "What is a Private Family Trust?",
@@ -2382,22 +3587,18 @@ export const servicesData = [
           "Yes, the settlor (creator) can also be a trustee and manage the assets during their lifetime.",
       },
       {
-        question: "Is it revocable?",
+        question: "Are Trusts revocable?",
         answer:
           "Trusts can be revocable (can be cancelled) or irrevocable (permanent). Irrevocable trusts offer better asset protection.",
       },
     ],
     bgImage: "/finask/trust.webp",
-    introText:
-      "Finask Value, we offer our specialized approach to Trust Formation absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
-    closingText:
-      "Our commitment to excellence in Trust Formation truly reliable and deeply proven ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
       title: "General Question",
       description:
         "Answers to common questions about our services and how we can help you achieve your financial goals.",
       image: "/faq.webp",
-      consultationTitle: "If You Need Help, Get A Consultation",
+      consultationTitle: "Connect with an Expert",
       consultationButton: "Get Started",
     },
   },
@@ -2424,7 +3625,7 @@ export const servicesData = [
     ],
     faq: [
       {
-        question: "Do I need a lawyer?",
+        question: "Do I need a Lawyer while writing my Will?",
         answer:
           "While not mandatory, professional help ensures your Will is legally sound, clear, and leaves no room for misinterpretation.",
       },
@@ -2445,16 +3646,12 @@ export const servicesData = [
       },
     ],
     bgImage: "/finask/will-writing.webp",
-    introText:
-      "Finask Value, we offer our specialized approach to Will Writing absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
-    closingText:
-      "Our commitment to excellence in Will Writing truly reliable and deeply proven ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
       title: "General Question",
       description:
         "Answers to common questions about our services and how we can help you achieve your financial goals.",
       image: "/faq.webp",
-      consultationTitle: "If You Need Help, Get A Consultation",
+      consultationTitle: "Connect with an Expert",
       consultationButton: "Get Started",
     },
   },
@@ -2463,9 +3660,9 @@ export const servicesData = [
     category: "Goal Planning",
     title: "Executor Services",
     tagline:
-      "Because legacies deserve more than emotion — they deserve precise execution.",
+      "Because Legacies Deserve More Than Emotion — They Deserve Precise Execution",
     description:
-      "Wills and trusts hold your intentions, but it’s the executor who ensures they come alive, without delay, dispute, or dilution. Our executor services stand as an unwavering hand to manage distributions, settle obligations, and uphold your wishes with absolute integrity.\n\nSo your lifetime of effort becomes a source of harmony, not heartache, for those you leave behind.\nFinask Value, our executor services go beyond paperwork. We step in with compassion, clarity, and complete confidentiality—coordinating with legal, financial, and family stakeholders to ensure every step reflects your intent. Whether it’s handling complex assets, addressing cross-border beneficiaries, or mediating sensitive transitions, we provide the calm, competent presence your legacy deserves. Because honouring your life’s work shouldn’t be left to chance.",
+      "Wills and trusts hold your intentions, but it’s the executor who ensures they come alive, without delay, dispute, or dilution. Our executor services stand as an unwavering hand to manage distributions, settle obligations, and uphold your wishes with absolute integrity.\n\nSo your lifetime of effort becomes a source of harmony, not heartache, for those you leave behind.\n At Finask Value, our executor services go beyond paperwork. We step in with compassion, clarity, and complete confidentiality—coordinating with legal, financial, and family stakeholders to ensure every step reflects your intent. Whether it’s handling complex assets, addressing cross-border beneficiaries, or mediating sensitive transitions, we provide the calm, competent presence your legacy deserves. Because honouring your life’s work shouldn’t be left to chance.",
     features: [
       {
         title: "Impartial Execution",
@@ -2480,39 +3677,35 @@ export const servicesData = [
         description: "Minimizing disputes among beneficiaries.",
       },
     ],
-    faq: [
-      {
-        question: "Why hire a professional?",
-        answer:
-          "To reduce burden on family, ensure unbiased execution, and handle complex legal/tax formalities efficiently.",
-      },
-      {
-        question: "What does an executor do?",
-        answer:
-          "An executor locates assets, pays debts/taxes, and distributes the remaining estate to beneficiaries as per the Will.",
-      },
-      {
-        question: "Can a family member be an executor?",
-        answer:
-          "Yes, but they may lack the expertise or time, and it could lead to conflicts. A professional executor is neutral.",
-      },
-      {
-        question: "When does the executor's role start?",
-        answer:
-          "The executor's role begins immediately upon the death of the testator (person who made the Will).",
-      },
-    ],
+ faq: [
+  {
+    question: "Can multiple executors be appointed?",
+    answer:
+      "Yes, a Will can appoint more than one executor to jointly manage estate administration, depending on complexity and preference.",
+  },
+  {
+    question: "Can an executor sell property from the estate?",
+    answer:
+      "Yes, if required, an executor can liquidate assets such as property to settle debts or distribute proceeds among heirs.",
+  },
+  {
+    question: "Can a family member act as an executor?",
+    answer:
+      "Yes, a family member can act as an executor, but many people prefer a neutral professional to avoid conflicts of interest.",
+  },
+  {
+    question: "What happens if no executor is named in a Will?",
+    answer:
+      "If no executor is named, the court appoints an administrator to manage and settle the estate.",
+  },
+],
     bgImage: "/finask/executor-services.png",
-    introText:
-      "Finask Value, we offer our specialized approach to Executor Services absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
-    closingText:
-      "Our commitment to excellence in Executor Services truly reliable and deeply proven ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
       title: "General Question",
       description:
         "Answers to common questions about our services and how we can help you achieve your financial goals.",
       image: "/faq.webp",
-      consultationTitle: "If You Need Help, Get A Consultation",
+      consultationTitle: "Connect with an Expert",
       consultationButton: "Get Started",
     },
   },
@@ -2520,9 +3713,9 @@ export const servicesData = [
     slug: "legal-advisory",
     category: "Consultation",
     title: "Legal Advisory",
-    tagline: "Turning law into a shield, not a stressor",
+    tagline: "Turning Law into A Shield, Not A Stressor",
     description:
-      "In a world of increasing regulatory oversight and legal complexity, protecting your wealth isn’t just about what you earn—it’s about how well you’re prepared. From property disputes to contract clarity, founder agreements to legacy documentation, every legal oversight can have a lasting financial impact.\nFinask Value, legal advisory is not a last-minute rescue. It’s built into your journey from the start—offering proactive legal structuring, due diligence, and risk mitigation that safeguards your assets, relationships, and long-term intentions.\nWhether you're acquiring real estate, drafting succession documents, reviewing investor agreements, or setting up holding structures, our legal team partners with your goals—not just the paperwork. We guide you with clarity, confidentiality, and a strategic lens that turns law from a limitation into a legacy protector.",
+      "In a world of increasing regulatory oversight and legal complexity, protecting your wealth isn’t just about what you earn—it’s about how well you’re prepared. From property disputes to contract clarity, founder agreements to legacy documentation, every legal oversight can have a lasting financial impact.\n At Finask Value, legal advisory is not a last-minute rescue. It’s built into your journey from the start—offering proactive legal structuring, due diligence, and risk mitigation that safeguards your assets, relationships, and long-term intentions.\nWhether you're acquiring real estate, drafting succession documents, reviewing investor agreements, or setting up holding structures, our legal team partners with your goals—not just the paperwork. We guide you with clarity, confidentiality, and a strategic lens that turns law from a limitation into a legacy protector.",
     features: [
       {
         title: "Property Due Diligence",
@@ -2539,9 +3732,9 @@ export const servicesData = [
     ],
     faq: [
       {
-        question: "Do you handle litigation?",
+        question: "Do you handle Litigation?",
         answer:
-          "We primarily focus on non-litigation advisory, documentation, and preventive law. We can refer you to litigators if court representation is needed.",
+          "We primarily focus on non-litigation advisory, documentation and preventive law. We can refer you to Litigators if court representation is needed.",
       },
       {
         question: "Why is due diligence important?",
@@ -2549,7 +3742,7 @@ export const servicesData = [
           "It uncovers potential legal risks (like unclear property titles or hidden liabilities) before you commit to a transaction.",
       },
       {
-        question: "Can you help with startup incorporation?",
+        question: "Can you help with Startup Incorporation?",
         answer:
           "Yes, we assist with entity selection (LLP, Pvt Ltd), registration, and founder agreements.",
       },
@@ -2560,16 +3753,12 @@ export const servicesData = [
       },
     ],
     bgImage: "/finask/legal-advisory.webp",
-    introText:
-      "Finask Value, we offer our specialized approach to Legal Advisory absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
-    closingText:
-      "Our commitment to excellence in Legal Advisory truly reliable and deeply proven ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
       title: "General Question",
       description:
         "Answers to common questions about our services and how we can help you achieve your financial goals.",
       image: "/faq.webp",
-      consultationTitle: "If You Need Help, Get A Consultation",
+      consultationTitle: "Connect with an Expert",
       consultationButton: "Get Started",
     },
   },
@@ -2577,7 +3766,7 @@ export const servicesData = [
     slug: "tax-advisory",
     category: "Consultation",
     title: "Tax Advisory",
-    tagline: "Because wealth should grow, not leak",
+    tagline: "Because Wealth Should Grow, Not Leak",
     description:
       "Every rupee saved in taxes is a rupee reinvested in your future. Finask Value, tax advisory isn’t just about compliance—it’s about optimisation, foresight, and aligning your personal or business growth with evolving tax frameworks.\nWe help individuals, families, professionals, and entrepreneurs uncover intelligent strategies—be it through HUF structuring, capital gains planning, investment-linked deductions, or multi-entity income management.\nFor businesses, we integrate GST planning, director remuneration strategies, ESOP tax treatment, and cross-border tax implications into a cohesive framework. And for NRIs, we simplify global reporting, repatriation rules, and DTAA considerations.\nYou don’t just stay compliant—you stay confident. Because with Finask Value, your tax story isn’t about burden. It’s about benefit, built into every step of your financial journey.",
     features: [
@@ -2596,14 +3785,14 @@ export const servicesData = [
     ],
     faq: [
       {
-        question: "Do you help with ITR?",
+        question: "Do you help with Income Tax Returns?",
         answer:
           "Yes, we assist with comprehensive Income Tax Return (ITR) filing for individuals, HUFs, and businesses.",
       },
       {
-        question: "How can I save tax legally?",
+        question: "How often should I review my tax plan?",
         answer:
-          "We analyze your income and suggest deductions (80C, 80D, etc.), exemptions, and efficient investment structures.",
+          "It is recommended to review tax planning regularly at the starting of every financial year or whenever there are major income or regulatory changes.",
       },
       {
         question: "What is Capital Gains Tax?",
@@ -2611,22 +3800,18 @@ export const servicesData = [
           "It is the tax on profit from the sale of assets like property or stocks. We help calculate and optimize this liability.",
       },
       {
-        question: "Do you handle NRI taxation?",
+        question: " Is tax advisory only for the financial year-end?",
         answer:
-          "Yes, we specialize in NRI tax compliance, DTAA benefits, and repatriation procedures.",
+          "No, it is most effective when done throughout the year for proactive tax planning.",
       },
     ],
     bgImage: "/finask/tax-advisory.webp",
-    introText:
-      "Finask Value, we offer our specialized approach to Tax Advisory absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
-    closingText:
-      "Our commitment to excellence in Tax Advisory truly reliable and deeply proven ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
       title: "General Question",
       description:
         "Answers to common questions about our services and how we can help you achieve your financial goals.",
       image: "/faq.webp",
-      consultationTitle: "If You Need Help, Get A Consultation",
+      consultationTitle: "Connect with an Expert",
       consultationButton: "Get Started",
     },
   },
@@ -2653,98 +3838,151 @@ export const servicesData = [
     ],
     faq: [
       {
-        question: "Are these paid?",
+        question: "Are these Financial Literacy Workshops paid?",
         answer:
-          "We conduct both free awareness programs (often sponsored) and paid advanced workshops for in-depth learning.",
+          "We offer both free awareness programs (often sponsored) and advanced paid workshops for in-depth learning.",
       },
       {
-        question: "Can you conduct this for my employees?",
+        question: "Do you conduct Financial Literacy Workshops for employees?",
         answer:
           "Yes, we offer corporate financial wellness programs tailored to employee needs.",
       },
       {
-        question: "Do I need prior finance knowledge?",
+        question: "Do I need prior finance knowledge before attending these workshops?",
         answer:
           "No, our workshops are designed to be beginner-friendly and jargon-free.",
       },
       {
-        question: "What topics are covered?",
+        question: "Do workshops address behavioural aspects of money management?",
         answer:
-          "We cover budgeting, debt management, insurance basics, mutual funds, and retirement planning.",
+          "Yes, they often include behavioural finance concepts to help participants understand spending habits, biases and decision-making patterns.",
       },
     ],
     bgImage: "/finask/financial-literacy.webp",
-    introText:
-      "Finask Value, we offer our specialized approach to Financial Literacy Workshops absolutely essential and highly reliable trusted ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
-    closingText:
-      "Our commitment to excellence in Financial Literacy Workshops truly reliable and deeply ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
       title: "General Question",
       description:
         "Answers to common questions about our services and how we can help you achieve your financial goals.",
       image: "/faq.webp",
-      consultationTitle: "If You Need Help, Get A Consultation",
+      consultationTitle: "Connect with an Expert",
       consultationButton: "Get Started",
     },
   },
+  // {
+  //   slug: "next-gen-coaching",
+  //   category: "Empowerment",
+  //   title: "Next-Gen Financial Coaching",
+  //   tagline: "Building Wealth with Wisdom, Not Just Wallets",
+  //   description:
+  //     "They’ve grown up with apps, algorithms, and ambition. But what today’s generation often lacks is what no school or screen teaches — the financial wisdom to make wealth decisions with confidence, responsibility, and foresight.\nFinask Value, our Next-Gen Financial Coaching goes beyond numbers and jargon. We help young adults, heirs, first-jobbers, and aspiring entrepreneurs decode the language of money — from managing credit and investments to understanding equity, taxes, insurance, and legacy.\nBecause wealth is no longer inherited — it’s learned. And we’re here to make sure the next generation doesn’t just receive assets, but the ability to grow and respect them.",
+  //   features: [
+  //     {
+  //       title: "Money Management",
+  //       description: "Budgeting, saving, and credit basics.",
+  //     },
+  //     {
+  //       title: "Investment Basics",
+  //       description: "Introduction to asset classes and compounding.",
+  //     },
+  //     {
+  //       title: "Wealth Responsibility",
+  //       description: "Understanding the stewardship of family wealth.",
+  //     },
+  //   ],
+  //   faq: [
+  //     {
+  //       question: "What age group?",
+  //       answer:
+  //         "Typically 18-30 years old, including students, first-time earners, and young professionals.",
+  //     },
+  //     {
+  //       question: "Why do I need coaching so young?",
+  //       answer:
+  //         "Starting early allows you to harness the power of compounding and build good financial habits for life.",
+  //     },
+  //     {
+  //       question: "Do you help with student loans?",
+  //       answer:
+  //         "Yes, we help you create a strategy to pay off student loans efficiently while saving for other goals.",
+  //     },
+  //     {
+  //       question: "Is it about getting rich quick?",
+  //       answer:
+  //         "No, we teach sustainable wealth creation through discipline, patience, and smart decision-making.",
+  //     },
+  //   ],
+  //   bgImage: "/finask/next-gen.webp",
+  //   faqSection: {
+  //     title: "General Question",
+  //     description:
+  //       "Answers to common questions about our services and how we can help you achieve your financial goals.",
+  //     image: "/faq.webp",
+  //     consultationTitle: "Connect with an Expert",
+  //     consultationButton: "Get Started",
+  //   },
+  // },
   {
-    slug: "next-gen-coaching",
-    category: "Empowerment",
-    title: "Next-Gen Financial Coaching",
-    tagline: "Building Wealth with Wisdom, Not Just Wallets",
+    slug: "credit-cards",
+    category: "Financial Services",
+    title: "Credit Cards",
+    tagline: "Use Credit Smartly, Invest Strategically",
     description:
-      "They’ve grown up with apps, algorithms, and ambition. But what today’s generation often lacks is what no school or screen teaches — the financial wisdom to make wealth decisions with confidence, responsibility, and foresight.\nFinask Value, our Next-Gen Financial Coaching goes beyond numbers and jargon. We help young adults, heirs, first-jobbers, and aspiring entrepreneurs decode the language of money — from managing credit and investments to understanding equity, taxes, insurance, and legacy.\nBecause wealth is no longer inherited — it’s learned. And we’re here to make sure the next generation doesn’t just receive assets, but the ability to grow and respect them.",
+      "A credit card is a powerful financial tool that offers convenience, short-term liquidity, and benefits such as reward points, cashback, and interest-free periods. When used wisely, it enables efficient management of everyday expenses while maintaining financial flexibility. \n  It can also play an important role in your financial planning by supporting cash flow—allowing your surplus funds to remain invested in wealth-creating avenues like mutual funds, rather than being withdrawn for short-term needs. However, disciplined usage is key. Timely payments and avoiding revolving credit help prevent high interest costs and keep your finances on track. \n We help you choose the right credit card based on your lifestyle and financial goals, guide you on maximizing reward points and benefits, and assist in upgrading or replacing your existing card so you can take full advantage of better features and enhanced value.",
     features: [
       {
-        title: "Money Management",
-        description: "Budgeting, saving, and credit basics.",
+        title: "Smart Spending",
+        description:
+          "Manage everyday expenses efficiently with convenience and control.",
       },
       {
-        title: "Investment Basics",
-        description: "Introduction to asset classes and compounding.",
+        title: "Rewards & Benefits",
+        description:
+          "Earn cashback, reward points, and exclusive perks on your spending.",
       },
       {
-        title: "Wealth Responsibility",
-        description: "Understanding the stewardship of family wealth.",
+        title: "Global Acceptance",
+        description:
+          "Use your card seamlessly across countries for travel and online purchases.",
+      },
+      {
+        title: "Expense Tracking",
+        description:
+          "Monitor and categorize your spending to stay in control of your finances.",
       },
     ],
     faq: [
       {
-        question: "What age group?",
+        question: "How does the interest-free period work?",
         answer:
-          "Typically 18-30 years old, including students, first-time earners, and young professionals.",
+          "Most credit cards offer an interest-free period, typically 20–50 days, if you pay the full outstanding amount by the due date.",
       },
       {
-        question: "Why do I need coaching so young?",
+        question:
+          "What happens if I do not pay the full credit card due amount?",
         answer:
-          "Starting early allows you to harness the power of compounding and build good financial habits for life.",
+          "If you pay only the minimum due, interest is charged on the remaining balance, often at a high rate, which can increase your financial burden.",
       },
       {
-        question: "Do you help with student loans?",
+        question: "Do credit cards affect my credit score?",
         answer:
-          "Yes, we help you create a strategy to pay off student loans efficiently while saving for other goals.",
+          "Yes, timely payments and responsible usage improve your credit score, while missed payments or high utilization can negatively impact it.",
       },
       {
-        question: "Is it about getting rich quick?",
+        question: "Can I convert credit card purchases into EMI?",
         answer:
-          "No, we teach sustainable wealth creation through discipline, patience, and smart decision-making.",
+          "Yes, most credit cards allow conversion of eligible transactions into easy monthly installments (EMIs).",
       },
     ],
-    bgImage: "/finask/next-gen.webp",
-    introText:
-      "Finask Value, we offer our specialized approach to Next-Gen Financial Coaching absolutely essential and highly reliable trusted ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
-    closingText:
-      "Our commitment to excellence in Next-Gen Financial Coaching truly reliable and deeply ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
+    bgImage: "/finask/credit-cards.webp",
     faqSection: {
       title: "General Question",
       description:
         "Answers to common questions about our services and how we can help you achieve your financial goals.",
       image: "/faq.webp",
-      consultationTitle: "If You Need Help, Get A Consultation",
+      consultationTitle: "Connect with an Expert",
       consultationButton: "Get Started",
     },
   },
-
   {
     slug: "nri-corner",
     category: "Goal Planning",
@@ -2791,16 +4029,12 @@ export const servicesData = [
       },
     ],
     bgImage: "/nri-services1.webp",
-    introText:
-      "Finask Value, we offer our specialized approach to NRI Corner absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
-    closingText:
-      "Our commitment to excellence in NRI Corner truly reliable and deeply proven ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
       title: "General Question",
       description:
         "Answers to common questions about our services and how we can help you achieve your financial goals.",
       image: "/faq.webp",
-      consultationTitle: "If You Need Help, Get A Consultation",
+      consultationTitle: "Connect with an Expert",
       consultationButton: "Get Started",
     },
   },
@@ -2810,7 +4044,7 @@ export const servicesData = [
     title: "Women Corner",
     tagline: "Because She Needs More Than Advice. She Needs Advocacy.",
     description:
-      "From her relationships to her marriage, from her career to her household, a woman navigates complexities at every turn. Often, she puts others ahead of herself—her spouse, children, aging parents. She may pause her career to care for family, adjust her ambitions to support a partner, or stay silent on financial matters that intimately shape her life.\nEven today, despite earning more than ever, many women hesitate to take the lead in conversations about investing, insurance, or inheritance. They’re told money is complicated. Or that it's simply not their domain. As a result, too many brilliant, resilient women continue to carry emotional, social, and even financial weight—without the security, knowledge, or confidence they deserve.\nFinask Value, we created Women Corner not as a marketing vertical, but as a stand — to show that her goals matter, her security matters, and her choices deserve to be as expansive and informed as anyone else's.\nWe work with:\n● Young professionals who juggle EMIs, family expectations, and ambitions no one fully understands.\n● Mothers who quietly prioritize school fees over retirement funds, fearing tomorrow’s uncertainty.\n ● Homemakers who wish to grasp how family wealth is truly structured—so they aren’t left in the dark if life shifts.\n● Women rebuilding after separation or loss, who need clarity, compassion, and a map to financial independence.\nFrom setting up a first SIP, securing health and critical care protection, or building long-term inheritance structures—right to candid conversations about burnout, self-worth, and reimagining a life on her own terms—this is a space where every version of her is seen, heard, and powerfully equipped.\nBecause when a woman is financially informed and emotionally supported:\n● Families grow safer.\n● Marriages become partnerships of equals.\n● Workplaces become more just.\n● And communities transform from the inside out.\n\nFinask Value, we don’t just create portfolios for women. We co-create possibilities—proving, every step of the way, that her dreams, her dignity, and her financial future are not an afterthought. They’re the very heart of what matters.",
+      "From her relationships to her marriage, from her career to her household, a woman navigates complexities at every turn. Often, she puts others ahead of herself—her spouse, children, aging parents. She may pause her career to care for family, adjust her ambitions to support a partner, or stay silent on financial matters that intimately shape her life.\nEven today, despite earning more than ever, many women hesitate to take the lead in conversations about investing, insurance, or inheritance. They’re told money is complicated. Or that it's simply not their domain. As a result, too many brilliant, resilient women continue to carry emotional, social, and even financial weight—without the security, knowledge, or confidence they deserve.\nFinask Value, we created Women Corner not as a marketing vertical, but as a stand — to show that her goals matter, her security matters, and her choices deserve to be as expansive and informed as anyone else's.\nWe work with:\n● Young professionals who juggle EMIs, family expectations, and ambitions no one fully understands.\n● Mothers who quietly prioritize school fees over retirement funds, fearing tomorrow’s uncertainty.\n ● Homemakers who wish to grasp how family wealth is truly structured—so they aren’t left in the dark if life shifts.\n● Women rebuilding after separation or loss, who need clarity, compassion, and a map to financial independence.",
     features: [
       {
         title: "Financial Independence",
@@ -2848,16 +4082,12 @@ export const servicesData = [
       },
     ],
     bgImage: "/women-corner1.png",
-    introText:
-      "Finask Value, we offer our specialized approach to Women Corner absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
-    closingText:
-      "Our commitment to excellence in Women Corner truly reliable and deeply proven ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
       title: "General Question",
       description:
         "Answers to common questions about our services and how we can help you achieve your financial goals.",
       image: "/faq.webp",
-      consultationTitle: "If You Need Help, Get A Consultation",
+      consultationTitle: "Connect with an Expert",
       consultationButton: "Get Started",
     },
   },
@@ -2866,7 +4096,7 @@ export const servicesData = [
     category: "Consultation",
     title: "Family Office",
     tagline:
-      "A comprehensive wealth management solution for ultra-high-net-worth families.",
+      "A Comprehensive Wealth Management Solution for Ultra-High-Net-Worth Families ",
     description:
       "A comprehensive wealth management solution for ultra-high-net-worth families, managing everything from investments to lifestyle. We provide integrated management of all family assets and liabilities, ensuring smooth transition of wealth across generations.",
     features: [
@@ -2907,16 +4137,12 @@ export const servicesData = [
       },
     ],
     bgImage: "/family-office1.webp",
-    introText:
-      "Finask Value, we offer our specialized approach to Family Office absolutely essential and highly reliable trusted dynamic ensuring your financial well-being. Our team is dedicated to providing you expert insights and strategies needed to navigate complex landscapes with utmost confidence. Whether you seek to grow wealth, protect assets, or plan the future, we stand ready to guide you always.",
-    closingText:
-      "Our commitment to excellence in Family Office truly reliable and deeply proven ensures you receive the highest standard of service. We use technology and insights to deliver meaningful results. Partner with us for a seamless financial journey.",
     faqSection: {
       title: "General Question",
       description:
         "Answers to common questions about our services and how we can help you achieve your financial goals.",
       image: "/faq.webp",
-      consultationTitle: "If You Need Help, Get A Consultation",
+      consultationTitle: "Connect with an Expert",
       consultationButton: "Get Started",
     },
   },

@@ -2,7 +2,6 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { ChevronRight } from "lucide-react";
 
 // helper: name → slug
 const toSlug = (name) =>
@@ -41,11 +40,11 @@ function InsuranceMegaMenu() {
       items: [
         "Health Insurance",
         "Health Super Top-up",
-        "Critical Illness",
-        "Personal Accident",
+        "Critical Illness Insurance",
+        "Personal Accident Insurance",
         "Term Insurance",
         "Term - ROP",
-        "ULIP",
+        " Unit Link Insurance Plan ",
         "Traditional Life Insurance Plans",
       ],
     },
@@ -59,6 +58,7 @@ function InsuranceMegaMenu() {
         "Pet Insurance",
         "Cycle Insurance",
         "Personal Cyber Insurance",
+        "Roadside Assistance",
       ],
     },
   ];
@@ -76,8 +76,8 @@ function InsuranceMegaMenu() {
     {
       title: "General Business",
       items: [
-        "Surety Bond",
-        "Trade Credit",
+        "Surety Bond Insurance",
+        "Trade Credit Insurance",
         "Errors and Omissions",
         "Commercial Vehicle Insurance",
         "Fleet Insurance",
@@ -112,7 +112,8 @@ function InsuranceMegaMenu() {
     },
   ];
 
-  const sections = activeTab === "personal" ? personalSections : businessSections;
+  const sections =
+    activeTab === "personal" ? personalSections : businessSections;
 
   const Item = ({ label }) => (
     <Link
@@ -126,12 +127,11 @@ function InsuranceMegaMenu() {
 
   return (
     <div className="absolute top-[calc(100%+12px)] left-1/2 -translate-x-[48%] w-[1000px] bg-white rounded-md shadow-[0_16px_48px_rgba(0,57,78,0.14)] border border-gray-100 opacity-0 invisible translate-y-3 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-200 ease-out z-50 overflow-hidden">
-
       {/* ── Tabs ── */}
       <div className="flex gap-6 px-8 pt-5 pb-0 border-b border-gray-100">
         {[
-          { id: "personal",  label: "Personal Insurance" },
-          { id: "business",  label: "Business Insurance" },
+          { id: "personal", label: "Personal Insurance" },
+          { id: "business", label: "Business Insurance" },
         ].map((t) => (
           <button
             key={t.id}
@@ -146,7 +146,6 @@ function InsuranceMegaMenu() {
             {t.label}
           </button>
         ))}
-     
       </div>
 
       {/* ── Content ── */}
@@ -155,12 +154,13 @@ function InsuranceMegaMenu() {
           <div key={sec.title}>
             {/* Section header */}
             <div className="flex items-center gap-3 mb-4">
-              <span className="text-[13px] font-bold text-gray-800">{sec.title}</span>
-             </div>
+              <span className="text-[13px] font-bold text-gray-800">
+                {sec.title}
+              </span>
+            </div>
             <div className="grid grid-cols-4 gap-x-2 gap-y-0.5">
               {sec.items.map((item) => (
                 <Item key={item} label={item} />
-                
               ))}
             </div>
           </div>
@@ -170,6 +170,105 @@ function InsuranceMegaMenu() {
   );
 }
 
+function InvestmentMegaMenu() {
+  const mutualFundItems = [
+    {
+      label: "Mutual Funds",
+      href: "/services/mutual-funds",
+    },
+    {
+      label: "Systematic Investment Plan (SIP)",
+      href: "/services/systematic-investment-plan",
+    },
+    {
+      label: "Systematic Withdrawal Plan (SWP)",
+      href: "/services/systematic-withdrawal-plan",
+    },
+    { label: "Systematic Transfer Plan (STP)", href: "/services/systematic-transfer-plan" },
+  ];
+
+  const investmentItems = [
+    { label: "Bonds", href: "/services/bonds" },
+    {
+      label: "Portfolio Management Services",
+      href: "/services/pms",
+    },
+    {
+      label: "Alternative Investment Funds",
+      href: "/services/aifs",
+    },
+    { label: "Unlisted Equity", href: "/services/unlisted-equity" },
+    { label: "Real Estate Investment Trusts ", href: "/services/reits" },
+    { label: "Infrastructure Investment Trusts", href: "/services/invits" },
+    {
+      label: "Fractional Commercial Real Estate",
+      href: "/services/fractional-commercial-real-estate",
+    },
+    { label: "Peer-to-Peer Lending", href: "/services/p2p-lending" },
+    {
+      label: "Alternative Fixed Income",
+      href: "/services/alternative-fixed-income",
+    },
+    { label: "Corporate FDRs", href: "/services/corporate-fdrs" },
+    { label: "Gift City", href: "/services/gift-city" },
+    { label: "E-Gold", href: "/services/e-gold" },
+    { label: "National Pension System ", href: "/services/nps" },
+    { label: "Stock & Broking", href: "/services/stock-broking" },
+    {
+      label: "Loan Against Securities",
+      href: "/services/loan-against-securities",
+    },
+    {
+      label: "Specialised Investment Fund (SIF)",
+      href: "/services/specialised-investment-fund",
+    },
+    {
+      label: "Step-Up SIP",
+      href: "/services/set-up-sip",
+    },
+  ];
+
+  return (
+    <div className="absolute top-[calc(100%+12px)] left-1/2 -translate-x-1/2 w-[830px] max-w-[calc(100vw-40px)] bg-white rounded-md shadow-[0_16px_48px_rgba(0,57,78,0.14)] border border-gray-100 opacity-0 invisible translate-y-3 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-200 ease-out z-50 overflow-hidden">
+      <div className="p-8 py-6 space-y-1 max-h-[500px] overflow-y-auto">
+        <div>
+          <div className="flex items-center gap-3 mb-2">
+            <span className="text-[13px] font-bold text-gray-800">
+              Mutual Funds
+            </span>
+          </div>
+          <div className="grid grid-cols-3 gap-x-4 gap-y-0.5">
+            {mutualFundItems.map((item) => (
+              <Link
+                key={item.label}
+                href={item.href}
+                className="flex items-center gap-2 px-2 py-2 rounded-sm text-[13px] text-gray-500 hover:text-[#00394E] hover:bg-[#EBF4F7] transition-colors duration-100 leading-snug"
+              >
+                <span className="w-1 h-1 rounded-full bg-gray-300 shrink-0" />
+                <span>{item.label}</span>
+              </Link>
+            ))}
+          </div>
+        </div>
+
+        <div className="grid grid-cols-3 gap-x-4 gap-y-1 border-t border-gray-100 pt-1">
+          {investmentItems.map((item) => (
+            <Link
+              key={item.label}
+              href={item.href}
+              className="flex items-center gap-2 py-[7px] px-2 rounded-md hover:bg-[#f5f9fa] transition-colors duration-150"
+            >
+              <span className="w-1 h-1 rounded-full bg-gray-300 shrink-0" />
+              <span className="text-[13.5px] text-gray-600 hover:text-[#00394E] transition-colors">
+                {item.label}
+              </span>
+            </Link>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+}
 
 // ── Main Navbar ───────────────────────────────────────────────────────────────
 export default function Navbar() {
@@ -191,7 +290,7 @@ export default function Navbar() {
     <li>
       <Link
         href={href}
-        className="flex items-center gap-2 py-[7px] px-2 rounded-lg group/li hover:bg-[#f5f9fa] transition-colors duration-150"
+        className="flex items-center gap-2 py-[7px] px-2 rounded-md group/li hover:bg-[#f5f9fa] transition-colors duration-150"
       >
         <span className="w-1 h-1 rounded-full bg-gray-300   transition-colors shrink-0" />
         <span className="text-[13.5px] text-gray-600 group-hover/li:text-[#00394E] transition-colors">
@@ -201,34 +300,19 @@ export default function Navbar() {
     </li>
   );
 
-  const investmentItems = [
-    { name: "Mutual Funds", slug: "mutual-funds" },
-    { name: "Bonds", slug: "bonds" },
-    { name: "Portfolio Management Services", slug: "pms" },
-    { name: "Alternative Investment Funds", slug: "aifs" },
-    { name: "Unlisted Equity", slug: "unlisted-equity" },
-    { name: "REITs", slug: "reits" },
-    { name: "InvITs", slug: "invits" },
-    { name: "Fractional Commercial Real Estate", slug: "fractional-commercial-real-estate" },
-    { name: "Step-Up SIP", slug: "set-up-sip" },
-    { name: "P2P Lending", slug: "p2p-lending" },
-    { name: "Alternative Fixed Income", slug: "alternative-fixed-income" },
-    { name: "Corporate FDRs", slug: "corporate-fdrs" },
-    { name: "GIFT City", slug: "gift-city" },
-    { name: "E-Gold", slug: "e-gold" },
-    { name: "National Pension System", slug: "nps" },
-    { name: "Stock & Broking", slug: "stock-broking" },
-    { name: "Loan Against Securities", slug: "loan-against-securities" },
-  ];
-
   const serviceItems = [
     { name: "Trust Formation", slug: "trust-formation" },
     { name: "Will Writing", slug: "will-writing" },
     { name: "Executor Services", slug: "executor-services" },
     { name: "Legal Advisory", slug: "legal-advisory" },
-    { name: "Tax Advisory and Execution", slug: "tax-advisory" },
+    { name: "Tax Advisory", slug: "tax-advisory" },
     { name: "Financial Literacy Workshop", slug: "financial-literacy" },
-    { name: "Next Gen Financial Coaching", slug: "next-gen-coaching" },
+    // { name: "Next Gen Financial Coaching", slug: "next-gen-coaching" },
+    { name: "Credit cards", slug: "credit-cards" },
+    {
+      name: "Health Assistance",
+      slug: "health-assistance",
+    },
   ];
 
   return (
@@ -268,37 +352,26 @@ export default function Navbar() {
             About Us
           </Link>
 
-            {/* Investment */}
-            <div className="group relative flex items-center h-full">
-              <span className={`${navLinkClass} flex items-center gap-1.5 py-5 cursor-pointer`}>
-                Investment <Chevron />
-              </span>
-            <div className={`${dropdownBase} w-[560px] left-1/2 -translate-x-1/2`}>
-              <div className="grid grid-cols-2 gap-x-6">
-                <ul className="space-y-0.5">
-                  {investmentItems.slice(0, 9).map((item) => (
-                    <MenuItem key={item.slug} href={`/services/${item.slug}`}>
-                      {item.name}
-                    </MenuItem>
-                  ))}
-                </ul>
-                <ul className="space-y-0.5">
-                  {investmentItems.slice(9).map((item) => (
-                    <MenuItem key={item.slug} href={`/services/${item.slug}`}>
-                      {item.name}
-                    </MenuItem>
-                  ))}
-                </ul>
-              </div>
-            </div>
+          {/* Investment */}
+          <div className="group relative flex items-center h-full">
+            <span
+              className={`${navLinkClass} flex items-center gap-1.5 py-5 cursor-pointer`}
+            >
+              Investment <Chevron />
+            </span>
+            <InvestmentMegaMenu />
           </div>
 
           {/* Services */}
           <div className="group relative flex items-center h-full">
-            <span className={`${navLinkClass} flex items-center gap-1.5 py-5 cursor-pointer`}>
+            <span
+              className={`${navLinkClass} flex items-center gap-1.5 py-5 cursor-pointer`}
+            >
               Services <Chevron />
             </span>
-            <div className={`${dropdownBase} w-[260px] left-1/2 -translate-x-1/2`}>
+            <div
+              className={`${dropdownBase} w-[260px] left-1/2 -translate-x-1/2`}
+            >
               <ul className="space-y-0.5">
                 {serviceItems.map((item) => (
                   <MenuItem key={item.slug} href={`/services/${item.slug}`}>
@@ -306,22 +379,24 @@ export default function Navbar() {
                   </MenuItem>
                 ))}
               </ul>
-              </div>
             </div>
+          </div>
 
-            {/* Insurance */}
-            <div className="group relative flex items-center h-full">
-              <span className={`${navLinkClass} flex items-center gap-1.5 py-5 cursor-pointer`}>
-                Insurance <Chevron />
-              </span>
-              <InsuranceMegaMenu />
-            </div>
+          {/* Insurance */}
+          <div className="group relative flex items-center h-full">
+            <span
+              className={`${navLinkClass} flex items-center gap-1.5 py-5 cursor-pointer`}
+            >
+              Insurance <Chevron />
+            </span>
+            <InsuranceMegaMenu />
+          </div>
 
-            <Link href="/services/family-office" className={navLinkClass}>
-              Family Office
-            </Link>
+          <Link href="/services/family-office" className={navLinkClass}>
+            Family Office
+          </Link>
           <Link href="/services/nri-corner" className={navLinkClass}>
-            NRI Services
+           NRI Corner 
           </Link>
           <Link href="/services/women-corner" className={navLinkClass}>
             Women Corner
