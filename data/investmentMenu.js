@@ -1,5 +1,9 @@
 export const mutualFundItems = [
-  {
+ 
+];
+
+export const investmentItems = [
+   {
     label: "Mutual Funds",
     slug: "mutual-funds",
     href: "/services/mutual-funds",
@@ -19,9 +23,6 @@ export const mutualFundItems = [
     slug: "systematic-transfer-plan",
     href: "/services/systematic-transfer-plan",
   },
-];
-
-export const investmentItems = [
   { label: "Bonds", slug: "bonds", href: "/services/bonds" },
   {
     label: "Portfolio Management Services",

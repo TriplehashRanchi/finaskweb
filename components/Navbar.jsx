@@ -39,116 +39,101 @@ function InsuranceMegaMenu() {
   const currentSection =
     sections.find((section) => section.title === activeSection) || sections[0];
 
-  const Item = ({ item }) => (
-    <Link
-      href={`/services/${item.slug}`}
-      className="flex items-center gap-2 px-2 py-2 rounded-sm text-[13px] text-gray-500 hover:text-[#00394E] hover:bg-[#EBF4F7] transition-colors duration-100 leading-snug"
-    >
-      <span className="w-1 h-1 rounded-full bg-gray-300 shrink-0" />
-      <span>{item.label}</span>
-    </Link>
-  );
+  const handleTabChange = (tabId, firstSection) => {
+    setActiveTab(tabId);
+    setActiveSection(firstSection);
+  };
 
   return (
-    <div className="absolute top-[calc(100%+12px)] left-1/2 -translate-x-1/2 w-[560px] max-w-[calc(100vw-40px)] bg-white rounded-md shadow-[0_16px_48px_rgba(0,57,78,0.14)] border border-gray-100 opacity-0 invisible translate-y-3 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-200 ease-out z-50 overflow-hidden">
-      <div className="flex gap-6 px-6 pt-5 pb-0 border-b border-gray-100">
+    <div className="absolute top-[calc(100%+14px)] left-1/2 -translate-x-1/2 w-[720px] max-w-[calc(100vw-40px)] bg-white rounded-md shadow-[0_24px_60px_rgba(0,57,78,0.16)] border border-gray-100/80 opacity-0 invisible translate-y-3 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-200 ease-out z-50 overflow-hidden">
+
+      {/* ── Header / Tab Bar ── */}
+      <div className="flex items-center gap-8 px-5 pt-2 pb-0">
         {[
-          {
-            id: "personal",
-            label: "Personal Insurance",
-            firstSection: personalInsuranceSections[0]?.title,
-          },
-          {
-            id: "business",
-            label: "Business Insurance",
-            firstSection: businessInsuranceSections[0]?.title,
-          },
+          { id: "personal",  label: "Personal Insurance",   firstSection: personalInsuranceSections[0]?.title },
+          { id: "business",  label: "Business Insurance",    firstSection: businessInsuranceSections[0]?.title },
         ].map((tab) => (
           <button
             key={tab.id}
-            onMouseEnter={() => {
-              setActiveTab(tab.id);
-              setActiveSection(tab.firstSection);
-            }}
-            onClick={() => {
-              setActiveTab(tab.id);
-              setActiveSection(tab.firstSection);
-            }}
-            className={`pb-2 cursor-pointer text-[14px] font-semibold transition-all duration-150 border-b-2 ${
+            onMouseEnter={() => handleTabChange(tab.id, tab.firstSection)}
+            onClick={() => handleTabChange(tab.id, tab.firstSection)}
+            className={`flex items-center gap-2 px-6 py-2 text-[13.5px] font-semibold transition-all duration-150 cursor-pointer border-b-2 ${
               activeTab === tab.id
                 ? "border-[#00394E] text-[#00394E]"
-                : "border-transparent text-gray-400 hover:text-gray-600"
+                : "border-transparent text-gray-400 hover:text-gray-600 hover:bg-gray-50"
             }`}
           >
-            {tab.label}
+             {tab.label}
           </button>
         ))}
       </div>
+      <div className="h-px bg-gray-100 mx-5" />
 
-      <div className="flex min-h-[380px]">
-        <div className="w-[220px] shrink-0  border-gray-100  p-4">
-          <div className="space-y-1">
-            {sections.map((section) => (
+      {/* ── Body ── */}
+      <div className="flex" style={{ minHeight: "280px" }}>
+
+        {/* Left sidebar */}
+        <div className="w-[206px] shrink-0  border-r border-gray-100 py-4 px-3 flex flex-col gap-1">
+          {sections.map((section) => {
+            const isActive = currentSection.title === section.title;
+            return (
               <button
                 key={section.title}
                 onMouseEnter={() => setActiveSection(section.title)}
                 onClick={() => setActiveSection(section.title)}
-                className={`w-full rounded-sm px-3 py-1.5 text-left transition-colors duration-150 cursor-pointer ${
-                  currentSection.title === section.title
-                    ? "bg-white text-[#00394E] hover:text-[#00394E] hover:bg-[#EBF4F7]"
-                    : "text-gray-500 hover:bg-white hover:text-[#00394E]"
+                className={`w-full flex items-center rounded-sm px-2 py-2 text-left transition-all duration-150 cursor-pointer group/sec ${
+                  isActive
+                    ? "bg-[#EBF4F7] text-[#00394E]"
+                    : "text-gray-500 hover:text-[#00394E] hover:bg-[#EBF4F7]"
                 }`}
               >
-                <span className="text-[14px] font-semibold">
-                  {section.title}
-                </span>
+                <span className="text-[13px] font-semibold leading-snug">{section.title}</span>
+                {isActive && (
+                  <span className="ml-auto shrink-0">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="w-3 h-3 text-[#00394E]">
+                      <path d="m9 18 6-6-6-6"/>
+                    </svg>
+                  </span>
+                )}
               </button>
-            ))}
-          </div>
+            );
+          })}
         </div>
 
-        <div className="min-w-0 flex-1 p-6">
-          <div className="mb-3">
-            <span className="text-[15px] font-bold text-[#00394E]">
-              {currentSection.title}
-            </span>
-          </div>
-          <div className="grid grid-cols-1 gap-y-1 max-h-[360px] overflow-y-auto pr-2">
+        {/* Right content panel */}
+        <div className="min-w-0 flex-1 py-5 px-5 ">
+          {/* Section heading */}
+          <div className="flex items-center gap-2 mb-3">
+            <span className="text-[14px] font-bold text-[#00394E]">{currentSection.title}</span>
+           </div>
+
+          {/* Items grid */}
+          <div className="grid grid-cols-2 gap-x-3 gap-y-0.5 max-h-[280px] overflow-y-auto pr-1 scrollbar-thin scrollbar-thumb-gray-200 scrollbar-track-transparent">
             {currentSection.items.map((item) => (
-              <Item key={item.slug} item={item} />
+              <Link
+                key={item.slug}
+                href={`/services/${item.slug}`}
+                className="flex items-center gap-2 px-2.5 py-2 rounded-sm text-[12.5px] text-gray-500 hover:text-[#00394E]/70 hover:bg-[#EBF4F7] transition-all duration-100 leading-snug group/item"
+              >
+                <span className="w-1 h-1 rounded-full bg-[#00394E]/10   shrink-0 transition-colors" />
+                <span className="truncate">{item.label}</span>
+              </Link>
             ))}
           </div>
         </div>
       </div>
+
+   
     </div>
   );
 }
 
 function InvestmentMegaMenu() {
   return (
-    <div className="absolute top-[calc(100%+12px)] left-1/2 -translate-x-1/2 w-[830px] max-w-[calc(100vw-40px)] bg-white rounded-md shadow-[0_16px_48px_rgba(0,57,78,0.14)] border border-gray-100 opacity-0 invisible translate-y-3 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-200 ease-out z-50 overflow-hidden">
-      <div className="p-8 py-6 space-y-1 max-h-[500px] overflow-y-auto">
-        <div>
-          <div className="flex items-center gap-3 mb-2">
-            <span className="text-[13px] font-bold text-gray-800">
-              Mutual Funds
-            </span>
-          </div>
-          <div className="grid grid-cols-3 gap-x-4 gap-y-0.5">
-            {mutualFundItems.map((item) => (
-              <Link
-                key={item.label}
-                href={item.href}
-                className="flex items-center gap-2 px-2 py-2 rounded-sm text-[13px] text-gray-500 hover:text-[#00394E] hover:bg-[#EBF4F7] transition-colors duration-100 leading-snug"
-              >
-                <span className="w-1 h-1 rounded-full bg-gray-300 shrink-0" />
-                <span>{item.label}</span>
-              </Link>
-            ))}
-          </div>
-        </div>
-
-        <div className="grid grid-cols-3 gap-x-4 gap-y-1 border-t border-gray-100 pt-1">
+    <div className="absolute top-[calc(100%+12px)] left-75 -translate-x-1/2 w-[830px] max-w-[calc(100vw-40px)] bg-white rounded-md shadow-[0_16px_48px_rgba(0,57,78,0.14)] border border-gray-100 opacity-0 invisible translate-y-3 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-200 ease-out z-50 overflow-hidden">
+      <div className="p-6 py-6 space-y-1 max-h-[500px] overflow-y-auto">
+         
+        <div className="grid grid-cols-3 gap-x-4 gap-y-1  ">
           {investmentItems.map((item) => (
             <Link
               key={item.label}
