@@ -13,7 +13,7 @@ export default function ServiceHero({ service }) {
         style={{
           backgroundImage: `url("${service.bgImage || '/service.webp'}")`,
           backgroundSize: "cover",
-           backgroundPosition: "top center",
+           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
          
         }}

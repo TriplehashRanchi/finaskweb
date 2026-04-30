@@ -8,14 +8,6 @@ import {
   businessInsuranceSections,
 } from "@/data/insuranceMenu";
 
-// helper: name → slug
-const toSlug = (name) =>
-  name
-    .toLowerCase()
-    .replace(/[^a-z0-9\s-]/g, "")
-    .trim()
-    .replace(/\s+/g, "-");
-
 function Chevron() {
   return (
     <svg
@@ -35,18 +27,22 @@ function Chevron() {
   );
 }
 
-// ── Insurance Mega Menu — Icon Grid Style (like reference image) ──────────────
 function InsuranceMegaMenu() {
   const [activeTab, setActiveTab] = useState("personal");
   const sections =
     activeTab === "personal"
       ? personalInsuranceSections
       : businessInsuranceSections;
+  const [activeSection, setActiveSection] = useState(
+    personalInsuranceSections[0]?.title
+  );
+  const currentSection =
+    sections.find((section) => section.title === activeSection) || sections[0];
 
   const Item = ({ item }) => (
     <Link
       href={`/services/${item.slug}`}
-      className="flex items-center gap-2 px-3 py-2 rounded-sm text-[13px] text-gray-500 hover:text-[#00394E] hover:bg-[#EBF4F7] transition-colors duration-100 leading-snug"
+      className="flex items-center gap-2 px-2 py-2 rounded-sm text-[13px] text-gray-500 hover:text-[#00394E] hover:bg-[#EBF4F7] transition-colors duration-100 leading-snug"
     >
       <span className="w-1 h-1 rounded-full bg-gray-300 shrink-0" />
       <span>{item.label}</span>
@@ -54,45 +50,75 @@ function InsuranceMegaMenu() {
   );
 
   return (
-    <div className="absolute top-[calc(100%+12px)] left-1/2 -translate-x-[48%] w-[1000px] bg-white rounded-md shadow-[0_16px_48px_rgba(0,57,78,0.14)] border border-gray-100 opacity-0 invisible translate-y-3 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-200 ease-out z-50 overflow-hidden">
-      {/* ── Tabs ── */}
-      <div className="flex gap-6 px-8 pt-5 pb-0 border-b border-gray-100">
+    <div className="absolute top-[calc(100%+12px)] left-1/2 -translate-x-1/2 w-[560px] max-w-[calc(100vw-40px)] bg-white rounded-md shadow-[0_16px_48px_rgba(0,57,78,0.14)] border border-gray-100 opacity-0 invisible translate-y-3 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-200 ease-out z-50 overflow-hidden">
+      <div className="flex gap-6 px-6 pt-5 pb-0 border-b border-gray-100">
         {[
-          { id: "personal", label: "Personal Insurance" },
-          { id: "business", label: "Business Insurance" },
-        ].map((t) => (
+          {
+            id: "personal",
+            label: "Personal Insurance",
+            firstSection: personalInsuranceSections[0]?.title,
+          },
+          {
+            id: "business",
+            label: "Business Insurance",
+            firstSection: businessInsuranceSections[0]?.title,
+          },
+        ].map((tab) => (
           <button
-            key={t.id}
-            onMouseEnter={() => setActiveTab(t.id)}
-            onClick={() => setActiveTab(t.id)}
+            key={tab.id}
+            onMouseEnter={() => {
+              setActiveTab(tab.id);
+              setActiveSection(tab.firstSection);
+            }}
+            onClick={() => {
+              setActiveTab(tab.id);
+              setActiveSection(tab.firstSection);
+            }}
             className={`pb-2 cursor-pointer text-[14px] font-semibold transition-all duration-150 border-b-2 ${
-              activeTab === t.id
+              activeTab === tab.id
                 ? "border-[#00394E] text-[#00394E]"
                 : "border-transparent text-gray-400 hover:text-gray-600"
             }`}
           >
-            {t.label}
+            {tab.label}
           </button>
         ))}
       </div>
 
-      {/* ── Content ── */}
-      <div className="p-8 py-6 space-y-5 max-h-[420px] overflow-y-auto">
-        {sections.map((sec) => (
-          <div key={sec.title}>
-            {/* Section header */}
-            <div className="flex items-center gap-3 mb-4">
-              <span className="text-[13px] font-bold text-gray-800">
-                {sec.title}
-              </span>
-            </div>
-            <div className="grid grid-cols-4 gap-x-2 gap-y-0.5">
-              {sec.items.map((item) => (
-                <Item key={item.slug} item={item} />
-              ))}
-            </div>
+      <div className="flex min-h-[380px]">
+        <div className="w-[220px] shrink-0  border-gray-100  p-4">
+          <div className="space-y-1">
+            {sections.map((section) => (
+              <button
+                key={section.title}
+                onMouseEnter={() => setActiveSection(section.title)}
+                onClick={() => setActiveSection(section.title)}
+                className={`w-full rounded-sm px-3 py-1.5 text-left transition-colors duration-150 cursor-pointer ${
+                  currentSection.title === section.title
+                    ? "bg-white text-[#00394E] hover:text-[#00394E] hover:bg-[#EBF4F7]"
+                    : "text-gray-500 hover:bg-white hover:text-[#00394E]"
+                }`}
+              >
+                <span className="text-[14px] font-semibold">
+                  {section.title}
+                </span>
+              </button>
+            ))}
           </div>
-        ))}
+        </div>
+
+        <div className="min-w-0 flex-1 p-6">
+          <div className="mb-3">
+            <span className="text-[15px] font-bold text-[#00394E]">
+              {currentSection.title}
+            </span>
+          </div>
+          <div className="grid grid-cols-1 gap-y-1 max-h-[360px] overflow-y-auto pr-2">
+            {currentSection.items.map((item) => (
+              <Item key={item.slug} item={item} />
+            ))}
+          </div>
+        </div>
       </div>
     </div>
   );
@@ -141,7 +167,6 @@ function InvestmentMegaMenu() {
   );
 }
 
-// ── Main Navbar ───────────────────────────────────────────────────────────────
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
 
@@ -163,7 +188,7 @@ export default function Navbar() {
         href={href}
         className="flex items-center gap-2 py-[7px] px-2 rounded-md group/li hover:bg-[#f5f9fa] transition-colors duration-150"
       >
-        <span className="w-1 h-1 rounded-full bg-gray-300   transition-colors shrink-0" />
+        <span className="w-1 h-1 rounded-full bg-gray-300 transition-colors shrink-0" />
         <span className="text-[13.5px] text-gray-600 group-hover/li:text-[#00394E] transition-colors">
           {children}
         </span>
@@ -178,7 +203,6 @@ export default function Navbar() {
     { name: "Legal Advisory", slug: "legal-advisory" },
     { name: "Tax Advisory", slug: "tax-advisory" },
     { name: "Financial Literacy Workshop", slug: "financial-literacy" },
-    // { name: "Next Gen Financial Coaching", slug: "next-gen-coaching" },
     { name: "Credit cards", slug: "credit-cards" },
     {
       name: "Health Assistance",
@@ -199,7 +223,6 @@ export default function Navbar() {
             : "w-full max-w-[1500px] bg-transparent border-transparent px-10 py-4 shadow-none rounded-none"
         }`}
       >
-        {/* Logo */}
         <div
           className={`shrink-0 mr-4 flex items-center ${
             !isScrolled ? "bg-white px-2 py-1 rounded-full shadow-lg" : ""
@@ -217,13 +240,11 @@ export default function Navbar() {
           </Link>
         </div>
 
-        {/* Nav Links */}
         <div className="hidden xl:flex items-center gap-6 grow justify-center">
           <Link href="/about" className={navLinkClass}>
             About Us
           </Link>
 
-          {/* Investment */}
           <div className="group relative flex items-center h-full">
             <span
               className={`${navLinkClass} flex items-center gap-1.5 py-5 cursor-pointer`}
@@ -233,7 +254,6 @@ export default function Navbar() {
             <InvestmentMegaMenu />
           </div>
 
-          {/* Services */}
           <div className="group relative flex items-center h-full">
             <span
               className={`${navLinkClass} flex items-center gap-1.5 py-5 cursor-pointer`}
@@ -253,7 +273,6 @@ export default function Navbar() {
             </div>
           </div>
 
-          {/* Insurance */}
           <div className="group relative flex items-center h-full">
             <span
               className={`${navLinkClass} flex items-center gap-1.5 py-5 cursor-pointer`}
@@ -267,14 +286,13 @@ export default function Navbar() {
             Family Office
           </Link>
           <Link href="/services/nri-corner" className={navLinkClass}>
-           NRI Corner 
+            NRI Corner
           </Link>
           <Link href="/services/women-corner" className={navLinkClass}>
             Women Corner
           </Link>
         </div>
 
-        {/* CTA */}
         <div className="shrink-0 ml-4">
           <Link
             href="/contact"
