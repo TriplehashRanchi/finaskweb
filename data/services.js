@@ -1431,7 +1431,7 @@ faq: [
           "No, ROP returns are up to the premium paid and do not account for inflation impact over time.",
       },
     ],
-    bgImage: "/finask/term-rop.webp",
+    bgImage: "/finask/term-rop.png",
     faqSection: {
       title: "General Question",
       description:
@@ -1741,7 +1741,7 @@ faq: [
     },
   },
   {
-    slug: "general-liability",
+    slug: "general-liability-insurance",
     category: "Insurance",
     title: "General Liability Insurance",
     tagline: "Coverage For Unforeseen Claims That Can Impact Your Business",
@@ -1845,7 +1845,7 @@ faq: [
           "Wear and tear, mechanical breakdown, and intentional damage are usually excluded.",
       },
     ],
-    bgImage: "/finask/contractors-all-risk-insurance.webp",
+    bgImage: "/finask/contractors-all-risk-insurance.png",
     faqSection: {
       title: "General Question",
       description:
@@ -2021,7 +2021,7 @@ faq: [
           "Normal wear and tear, mechanical or gradual deterioration of machinery, and intentional damage are usually excluded.",
       },
     ],
-    bgImage: "/finask/contractors-plant-machinery.webp",
+    bgImage: "/finask/contractors-plant-machinery.png",
     faqSection: {
       title: "General Question",
       description:
@@ -2140,7 +2140,7 @@ faq: [
           "Yes, if the policy includes retroactive coverage, it can cover past services.",
       },
     ],
-    bgImage: "/finask/errors-and-omissions-insurance.webp",
+    bgImage: "/finask/errors-and-omissions-insurance.png",
     faqSection: {
       title: "General Question",
       description:
@@ -2199,7 +2199,7 @@ faq: [
           "Some policies may cover costs related to reputation management, depending on extensions opted.",
       },
     ],
-    bgImage: "/finask/professional-indemnity-insurance.webp",
+    bgImage: "/finask/professional-indemnity-insurance.png",
     faqSection: {
       title: "General Question",
       description:
@@ -2374,7 +2374,7 @@ faq: [
           "It depends on the policy type. Some offer replacement value, while others consider depreciation.",
       },
     ],
-    bgImage: "/finask/office-package-policy.webp",
+    bgImage: "/finask/office-package-policy.png",
     faqSection: {
       title: "General Question",
       description:
