@@ -2,6 +2,11 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { mutualFundItems, investmentItems } from "@/data/investmentMenu";
+import {
+  personalInsuranceSections,
+  businessInsuranceSections,
+} from "@/data/insuranceMenu";
 
 // helper: name → slug
 const toSlug = (name) =>
@@ -33,95 +38,18 @@ function Chevron() {
 // ── Insurance Mega Menu — Icon Grid Style (like reference image) ──────────────
 function InsuranceMegaMenu() {
   const [activeTab, setActiveTab] = useState("personal");
-
-  const personalSections = [
-    {
-      title: "Health & Life",
-      items: [
-        "Health Insurance",
-        "Health Super Top-up",
-        "Critical Illness Insurance",
-        "Personal Accident Insurance",
-        "Term Insurance",
-        "Term - ROP",
-        " Unit Link Insurance Plan ",
-        "Traditional Life Insurance Plans",
-      ],
-    },
-    {
-      title: "Motor, Travel & More",
-      items: [
-        "Motor Insurance",
-        "Taxi Insurance",
-        "Travel Insurance",
-        "Home Insurance",
-        "Pet Insurance",
-        "Cycle Insurance",
-        "Personal Cyber Insurance",
-        "Roadside Assistance",
-      ],
-    },
-  ];
-
-  const businessSections = [
-    {
-      title: "Marine & Property",
-      items: [
-        "Marine & Cargo Insurance",
-        "Fire & Burglary Insurance",
-        "Office Package Policy",
-        "Shop Owner Insurance",
-      ],
-    },
-    {
-      title: "General Business",
-      items: [
-        "Surety Bond Insurance",
-        "Trade Credit Insurance",
-        "Errors and Omissions",
-        "Commercial Vehicle Insurance",
-        "Fleet Insurance",
-      ],
-    },
-    {
-      title: "Engineering",
-      items: [
-        "Contractor All Risk",
-        "Erection All Risk",
-        "Contractor Plant & Machinery",
-      ],
-    },
-    {
-      title: "Liability",
-      items: [
-        "Prof. Indemnity for Doctors",
-        "Professional Indemnity",
-        "Workmen Compensation",
-        "General Liability Insurance",
-        "Corporate Cyber Insurance",
-        "Director & Officer's Liability",
-      ],
-    },
-    {
-      title: "Employee Benefits",
-      items: [
-        "Group Personal Accident",
-        "Group Health Insurance",
-        "Group Term Life",
-      ],
-    },
-  ];
-
   const sections =
-    activeTab === "personal" ? personalSections : businessSections;
+    activeTab === "personal"
+      ? personalInsuranceSections
+      : businessInsuranceSections;
 
-  const Item = ({ label }) => (
+  const Item = ({ item }) => (
     <Link
-      href={`/services/${toSlug(label)}`}
+      href={`/services/${item.slug}`}
       className="flex items-center gap-2 px-3 py-2 rounded-sm text-[13px] text-gray-500 hover:text-[#00394E] hover:bg-[#EBF4F7] transition-colors duration-100 leading-snug"
     >
       <span className="w-1 h-1 rounded-full bg-gray-300 shrink-0" />
-      <span>{label}</span>
+      <span>{item.label}</span>
     </Link>
   );
 
@@ -160,7 +88,7 @@ function InsuranceMegaMenu() {
             </div>
             <div className="grid grid-cols-4 gap-x-2 gap-y-0.5">
               {sec.items.map((item) => (
-                <Item key={item} label={item} />
+                <Item key={item.slug} item={item} />
               ))}
             </div>
           </div>
@@ -171,63 +99,6 @@ function InsuranceMegaMenu() {
 }
 
 function InvestmentMegaMenu() {
-  const mutualFundItems = [
-    {
-      label: "Mutual Funds",
-      href: "/services/mutual-funds",
-    },
-    {
-      label: "Systematic Investment Plan (SIP)",
-      href: "/services/systematic-investment-plan",
-    },
-    {
-      label: "Systematic Withdrawal Plan (SWP)",
-      href: "/services/systematic-withdrawal-plan",
-    },
-    { label: "Systematic Transfer Plan (STP)", href: "/services/systematic-transfer-plan" },
-  ];
-
-  const investmentItems = [
-    { label: "Bonds", href: "/services/bonds" },
-    {
-      label: "Portfolio Management Services",
-      href: "/services/pms",
-    },
-    {
-      label: "Alternative Investment Funds",
-      href: "/services/aifs",
-    },
-    { label: "Unlisted Equity", href: "/services/unlisted-equity" },
-    { label: "Real Estate Investment Trusts ", href: "/services/reits" },
-    { label: "Infrastructure Investment Trusts", href: "/services/invits" },
-    {
-      label: "Fractional Commercial Real Estate",
-      href: "/services/fractional-commercial-real-estate",
-    },
-    { label: "Peer-to-Peer Lending", href: "/services/p2p-lending" },
-    {
-      label: "Alternative Fixed Income",
-      href: "/services/alternative-fixed-income",
-    },
-    { label: "Corporate FDRs", href: "/services/corporate-fdrs" },
-    { label: "Gift City", href: "/services/gift-city" },
-    { label: "E-Gold", href: "/services/e-gold" },
-    { label: "National Pension System ", href: "/services/nps" },
-    { label: "Stock & Broking", href: "/services/stock-broking" },
-    {
-      label: "Loan Against Securities",
-      href: "/services/loan-against-securities",
-    },
-    {
-      label: "Specialised Investment Fund (SIF)",
-      href: "/services/specialised-investment-fund",
-    },
-    {
-      label: "Step-Up SIP",
-      href: "/services/set-up-sip",
-    },
-  ];
-
   return (
     <div className="absolute top-[calc(100%+12px)] left-1/2 -translate-x-1/2 w-[830px] max-w-[calc(100vw-40px)] bg-white rounded-md shadow-[0_16px_48px_rgba(0,57,78,0.14)] border border-gray-100 opacity-0 invisible translate-y-3 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-200 ease-out z-50 overflow-hidden">
       <div className="p-8 py-6 space-y-1 max-h-[500px] overflow-y-auto">
