@@ -10,16 +10,25 @@ export const servicesData = [
     features: [
       {
         title: "Comprehensive Coverage",
+        icon: "/insurance-icons/health-insurance-1.png",
         description:
           "Protection against hospitalization, critical illnesses, and modern treatments.",
       },
       {
         title: "Global Protection",
+        icon: "/insurance-icons/health-insurance-3.png",
         description: "Plans that cover you wherever your lifestyle takes you.",
       },
       {
         title: "Family Floater",
+        icon: "/insurance-icons/health-insurance-2.png",
         description: "One plan to secure the health of your entire family.",
+      },
+      {
+        title: "Wellness Continuity",
+        icon: "/insurance-icons/health-insurance-4.png",
+        description:
+          "Ensuring uninterrupted care through every stage of life.  ",
       },
     ],
     faq: [
@@ -65,12 +74,26 @@ export const servicesData = [
     features: [
       {
         title: "High Leverage",
-        description: "Get large coverage for a relatively small premium.",
+        icon: "/insurance-icons/health-super-top-up-1.png",
+        description:
+          "Unlocks a larger coverage pool for major medical needs.  ",
       },
       {
         title: "Aggregate Deductible",
+        icon: "/insurance-icons/health-super-top-up-2.png",
         description:
           "Deductible applies to the total claims in a year, not per claim.",
+      },
+      {
+        title: "Cost Efficiency",
+        icon: "/insurance-icons/health-super-top-up-3.png",
+        description:
+          "Maximum benefits at a fraction of the cost of higher base plans.  ",
+      },
+      {
+        title: "Future-Ready Protection",
+        icon: "/insurance-icons/health-super-top-up-4.png",
+        description: "Built to handle evolving healthcare costs.",
       },
     ],
     faq: [
@@ -118,17 +141,28 @@ export const servicesData = [
       "Accidents rarely seek permission. A brief mishap can momentarily pause income or, in more severe cases, permanently alter earning trajectories. Personal accident coverage ensures your household’s rhythm continues unbroken — supporting recoveries and sustaining ambitions with quiet financial reinforcement.\nIt’s more than a payout; it’s a promise that dreams remain intact, children’s plans stay on course, and daily comforts don’t give way to compromises.\nFrom covering medical costs to providing income replacement and long-term disability benefits, this shield steps in precisely when life feels most uncertain — so your future’s design stays undisturbed.",
     features: [
       {
-        title: "Comprehensive Coverage",
+        title: "Accidental Death Benefit",
+        icon: "/insurance-icons/personal-accident-insurance-1.png",
         description:
-          "Protection against hospitalization, critical illnesses, and modern treatments.",
+          "Financial security for your family with a lump-sum payout in case of an unfortunate loss of life.",
       },
       {
-        title: "Global Protection",
-        description: "Plans that cover you wherever your lifestyle takes you.",
+        title: "Permanent Disability Cover",
+        icon: "/insurance-icons/personal-accident-insurance-2.png",
+        description:
+          "Long-term financial support in case of total or partial disability impacting your earning ability.",
       },
       {
-        title: "Family Floater",
-        description: "One plan to secure the health of your entire family.",
+        title: "Total Disability Protection",
+        icon: "/insurance-icons/personal-accident-insurance-3.png",
+        description:
+          "Lump-sum support only in case of complete permanent disability, helping secure your income and lifestyle.",
+      },
+      {
+        title: "Future Security",
+        icon: "/insurance-icons/personal-accident-insurance-4.png",
+        description:
+          "Protects long-term goals even in the face of life-altering events.",
       },
     ],
     faq: [
@@ -173,17 +207,28 @@ export const servicesData = [
       "Confronting a serious diagnosis is challenging enough without the added strain of sourcing funds or restructuring investments. Critical illness insurance offers a dignified, immediate payout upon diagnosis, empowering you to secure superior care and protect your family’s accustomed lifestyle — all without distressing your long-horizon financial plans.\n\nIt ensures that while you focus on recovery, your ambitions, your children’s education, and your family’s day-to-day comfort continue undeterred.\nBecause true financial planning doesn’t just anticipate the best — it thoughtfully prepares for the unexpected.",
     features: [
       {
-        title: "Comprehensive Coverage",
+        title: "Second Medical Opinion",
+        icon: "/insurance-icons/critical-illness-1.png",
         description:
-          "Protection against hospitalization, critical illnesses, and modern treatments.",
+          "Access expert opinions from leading specialists to make confident treatment decisions.",
       },
       {
-        title: "Global Protection",
-        description: "Plans that cover you wherever your lifestyle takes you.",
+        title: "Recovery Support",
+        icon: "/insurance-icons/critical-illness-2.png",
+        description:
+          "Covers rehabilitation and post-treatment care for a smoother return to normal life.",
       },
       {
-        title: "Family Floater",
-        description: "One plan to secure the health of your entire family.",
+        title: "Customizable Plans",
+        icon: "/insurance-icons/critical-illness-3.png",
+        description:
+          "Flexibility to choose coverage based on your health risks, lifestyle, and financial goals.",
+      },
+      {
+        title: "Financial Cushion",
+        icon: "/insurance-icons/critical-illness-4.png",
+        description:
+          "A strong buffer against the high cost of critical treatments.",
       },
     ],
     faq: [
@@ -279,18 +324,27 @@ export const servicesData = [
     features: [
       {
         title: "High Life Cover",
+        icon: "/insurance-icons/term-insurance-1.png",
         description:
           "Large protection amounts at comparatively affordable premium costs.",
       },
       {
-        title: "Income Replacement",
+        title: "Financial Continuity",
+        icon: "/insurance-icons/term-insurance-2.png",
         description:
-          "Ensures your family can maintain goals and lifestyle continuity.",
+          "Ensures your family’s expenses and goals continue without disruption.",
       },
       {
         title: "Liability Shield",
+        icon: "/insurance-icons/term-insurance-3.png",
         description:
-          "Helps secure loans, education plans, and future household responsibilities comfortably.",
+          "Protects your financial commitments like loans and EMIs with ease and stability.",
+      },
+      {
+        title: "Smart Coverage",
+        icon: "/insurance-icons/term-insurance-4.png",
+        description:
+          "Optimally structured protection aligned with your income and goals.",
       },
     ],
     faq: [
@@ -336,19 +390,28 @@ export const servicesData = [
       "For those who value protection alongside disciplined wealth creation, ULIP offers a refined dual advantage. It combines life cover with market-linked investing, allowing your money to participate in long-term growth while serving broader family goals. At FinAsk Value, we help you evaluate funds, risk appetite, policy horizons and charges with clarity, so every allocation supports both protection and performance. Whether planning children’s futures, retirement goals or legacy creation — we curate solutions designed to build wealth with purpose over time elegantly.",
     features: [
       {
-        title: "Life Cover + Investment",
+        title: "Dual Advantage",
+        icon: "/insurance-icons/unit-link-insurance-plan-1.png",
         description:
-          "Combines insurance protection with long-term market participation benefits.",
+          "Combines life cover with market-linked investing for long-term wealth creation.",
       },
       {
-        title: "Fund Choice",
+        title: "Fund choice",
+        icon: "/insurance-icons/unit-link-insurance-plan-2.png",
         description:
-          "Lets you align equity or debt exposure strategically today.",
+          "Allows you to choose equity or debt exposure based on your investment strategy today.",
       },
       {
         title: "Wealth Switching Flexibility",
+        icon: "/insurance-icons/unit-link-insurance-plan-3.png",
         description:
-          "Supports evolving goals through fund switches and disciplined investing decisions.",
+          "Allows seamless switching between funds as your goals and market conditions evolve.",
+      },
+      {
+        title: "Tax-Efficient Wealth Creation",
+        icon: "/insurance-icons/unit-link-insurance-plan-4.png",
+        description:
+          "Helps optimize savings under applicable tax benefits.",
       },
     ],
     faq: [
@@ -394,16 +457,19 @@ export const servicesData = [
     features: [
       {
         title: "Guaranteed Returns",
+        icon: "",
         description:
           "Offers defined benefits with low uncertainty and stability.",
       },
       {
         title: "Assured Payouts",
+        icon: "",
         description:
           "Useful for milestone planning, education needs, or retirement income.",
       },
       {
         title: "Capital Preservation",
+        icon: "",
         description:
           "Prioritizes steadiness while supporting disciplined long-term savings objectives for families.",
       },
@@ -451,17 +517,26 @@ export const servicesData = [
       "Your vehicles — whether cherished classics or trusted everyday drives — are more than mere conveyances. They reflect taste, independence and a lifestyle carefully cultivated. \n Our Motor Insurance solutions go far beyond basic compliance. We find tailored covers that account for true market value, zero depreciation concerns and seamless repair or replacement — so every drive remains a pleasure, never a preoccupation. \n From accidental damages to theft and liability, we ensure you are shielded from life’s unforeseen detours. Because with the right protection, your journeys can stay focused on joy — not just risk.",
     features: [
       {
-        title: "Zero Depreciation",
+        title: "Zero depreciation",
+        icon: "/insurance-icons/motor-insurance-1.png",
         description: "Full claim amount without deduction for depreciation.",
       },
       {
         title: "Roadside Assistance",
+        icon: "/insurance-icons/motor-insurance-2.png",
         description: "24x7 support for breakdowns and emergencies.",
       },
       {
         title: "Engine Protection",
+        icon: "/insurance-icons/motor-insurance-3.png",
         description:
           "Cover for engine damage due to water ingression or leakage.",
+      },
+      {
+        title: "Peace of Mind",
+        icon: "/insurance-icons/motor-insurance-4.png",
+        description:
+          "Enjoy every drive without worrying about uncertainties.",
       },
     ],
     faq: [
@@ -508,14 +583,17 @@ export const servicesData = [
     features: [
       {
         title: "Medical Emergencies",
+        icon: "",
         description: "Coverage for hospitalization and treatment abroad.",
       },
       {
         title: "Trip Cancellation",
+        icon: "",
         description: "Reimbursement for non-refundable bookings.",
       },
       {
         title: "Baggage Loss",
+        icon: "",
         description: "Compensation for lost or delayed checked-in baggage.",
       },
     ],
@@ -612,15 +690,18 @@ export const servicesData = [
     features: [
       {
         title: "Comprehensive Coverage",
+        icon: "",
         description:
           "Protection against hospitalization, critical illnesses, and modern treatments.",
       },
       {
         title: "Global Protection",
+        icon: "",
         description: "Plans that cover you wherever your lifestyle takes you.",
       },
       {
         title: "Family Floater",
+        icon: "",
         description: "One plan to secure the health of your entire family.",
       },
     ],
@@ -667,15 +748,18 @@ export const servicesData = [
     features: [
       {
         title: "Comprehensive Coverage",
+        icon: "",
         description:
           "Protection against hospitalization, critical illnesses, and modern treatments.",
       },
       {
         title: "Global Protection",
+        icon: "",
         description: "Plans that cover you wherever your lifestyle takes you.",
       },
       {
         title: "Family Floater",
+        icon: "",
         description: "One plan to secure the health of your entire family.",
       },
     ],
@@ -835,15 +919,18 @@ export const servicesData = [
     features: [
       {
         title: "Comprehensive Coverage",
+        icon: "",
         description:
           "Protection against hospitalization, critical illnesses, and modern treatments.",
       },
       {
         title: "Global Protection",
+        icon: "",
         description: "Plans that cover you wherever your lifestyle takes you.",
       },
       {
         title: "Family Floater",
+        icon: "",
         description: "One plan to secure the health of your entire family.",
       },
     ],
@@ -894,16 +981,19 @@ export const servicesData = [
     features: [
       {
         title: "Accidental Death Cover",
+        icon: "",
         description:
           "If an employee dies due to an accident, the nominee receives the full sum insured as a lump-sum payout.",
       },
       {
         title: "Disability Protection",
+        icon: "",
         description:
           "Covers Permanent Total Disability (PTD), Permanent Partial Disability (PPD), and Temporary Total Disability (TTD) based on policy terms.",
       },
       {
         title: "Optional Add-Ons",
+        icon: "",
         description:
           "Employers can enhance protection with accident medical expense reimbursement, ambulance charges, child education grant, and fracture cover.",
       },
@@ -949,16 +1039,19 @@ export const servicesData = [
     features: [
       {
         title: "Death Cover",
+        icon: "",
         description:
           "Provides financial protection in case of death due to illness, natural causes, or accidents.",
       },
       {
         title: "Immediate Coverage",
+        icon: "",
         description:
           "Employees are usually covered from day one of employment without medical underwriting.",
       },
       {
         title: "Flexible Coverage Models",
+        icon: "",
         description:
           "Employers can choose fixed sum assured or salary-linked cover, along with optional riders like accidental death and critical illness.",
       },
@@ -1008,16 +1101,19 @@ export const servicesData = [
     features: [
       {
         title: "Hospitalisation Coverage",
+        icon: "",
         description:
           "Covers room charges, doctor fees, medicines, and treatment costs.",
       },
       {
         title: "Family Protection",
+        icon: "",
         description:
           "Coverage can often be extended to spouse, children, and sometimes parents.",
       },
       {
         title: "Cashless & Day-One Benefits",
+        icon: "",
         description:
           "Most plans offer cashless hospitalisation and immediate coverage, often including pre-existing conditions from day one.",
       },
@@ -1066,16 +1162,19 @@ export const servicesData = [
     features: [
       {
         title: "Doctor Teleconsultation",
+        icon: "",
         description:
           "Consult experienced doctors remotely through secure video or phone consultations.",
       },
       {
         title: "Diagnostics & Pharmacy",
+        icon: "",
         description:
           "Book laboratory tests, MRI/X-ray scans, and order medicines for home delivery.",
       },
       {
         title: "Wellness & Home Care",
+        icon: "",
         description:
           "Access self-care plans, nursing care, live health interactions, and gym or yoga sessions.",
       },
@@ -1124,16 +1223,19 @@ export const servicesData = [
     features: [
       {
         title: "24x7 Emergency Support",
+        icon: "",
         description:
           "Round-the-clock assistance anytime, anywhere during breakdowns or emergencies.",
       },
       {
         title: "On-Road Services",
+        icon: "",
         description:
           "Includes flat tyre repair or replacement, battery jumpstart, lost key assistance, and towing support.",
       },
       {
         title: "Travel Convenience",
+        icon: "",
         description:
           "Provides additional support such as accommodation assistance if breakdown-related repairs take extended time.",
       },
@@ -1183,15 +1285,18 @@ export const servicesData = [
     features: [
       {
         title: "Theft Protection",
+        icon: "",
         description: "Coverage in case your bicycle is stolen.",
       },
       {
         title: "Accidental Damage Cover",
+        icon: "",
         description:
           "Protection against damage caused by accidents or unforeseen incidents.",
       },
       {
         title: "Emergency Assistance",
+        icon: "",
         description:
           "Includes support services such as health assistance, doctor referral, emergency message relay, police station locator, and ambulance referral.",
       },
@@ -1239,16 +1344,19 @@ export const servicesData = [
     features: [
       {
         title: "Illness & Accident Cover",
+        icon: "",
         description:
           "Helps cover unexpected illnesses, accidents, and medical emergencies affecting your pets.",
       },
       {
         title: "Veterinary Expense Support",
+        icon: "",
         description:
           "Provides financial support for veterinary treatments and hospitalization.",
       },
       {
         title: "Peace of Mind",
+        icon: "",
         description:
           "Ensures timely medical care for your pets without the burden of sudden high expenses.",
       },
@@ -1296,21 +1404,25 @@ export const servicesData = [
     features: [
       {
         title: "Employee Protection",
+        icon: "",
         description:
           "Ensure financial support for employees in case of workplace injuries or accidents.",
       },
       {
         title: "Medical & Disability Benefits",
+        icon: "",
         description:
           "Cover medical expenses, disability compensation, and loss of income support.",
       },
       {
         title: "Industry-Wide Coverage",
+        icon: "",
         description:
           "Applicable across sectors, especially where operational risks are higher.",
       },
       {
         title: "Financial Safeguard",
+        icon: "",
         description:
           "Protect your business from unexpected compensation payouts and liabilities.",
       },
@@ -1358,21 +1470,25 @@ export const servicesData = [
     features: [
       {
         title: "Professional Credibility Protection",
+        icon: "",
         description:
           "Safeguard your professional credibility, patient relationships, and reputation.",
       },
       {
         title: "Comprehensive Coverage",
+        icon: "",
         description:
           "Get tailored protection based on your specialization and risk exposure.",
       },
       {
         title: "Medico-Legal Support",
+        icon: "",
         description:
           "Access expert legal assistance to handle complex medical claims efficiently.",
       },
       {
         title: "Long-Term Security",
+        icon: "",
         description:
           "Get coverage for claims arising even after treatment, as per policy terms.",
       },
@@ -1420,20 +1536,24 @@ export const servicesData = [
     features: [
       {
         title: "Dual Benefit Plan",
+        icon: "",
         description: "Insurance and savings combined in one smart solution.",
       },
       {
         title: "Money Back Assurance",
+        icon: "",
         description:
           "Get back all premiums paid at maturity with life cover protection.",
       },
       {
         title: "Family Security Assured",
+        icon: "",
         description:
           "Financial protection for your loved ones with added returns.",
       },
       {
         title: "Financial Discipline",
+        icon: "",
         description: "Build a habit of saving while staying protected.",
       },
     ],
@@ -1481,18 +1601,22 @@ export const servicesData = [
     features: [
       {
         title: "Complete Digital Protection",
+        icon: "",
         description: "Covers all major cyber risks under one solution.",
       },
       {
         title: "Claim Support",
+        icon: "",
         description: "Assistance when you need it the most.",
       },
       {
         title: "Expert Guidance",
+        icon: "",
         description: "Dedicated support to handle cyber incidents smoothly.",
       },
       {
         title: "Tailored Coverage",
+        icon: "",
         description: "Plans designed as per your digital usage and lifestyle.",
       },
     ],
@@ -1540,20 +1664,24 @@ export const servicesData = [
     features: [
       {
         title: "Advanced Firewall Protection",
+        icon: "",
         description:
           "Strong defense against evolving cyberattacks and hacking attempts.",
       },
       {
         title: "Global Network Protection",
+        icon: "",
         description: "Protection across every connected system.",
       },
       {
         title: "Business Continuity Support",
+        icon: "",
         description:
           "Keeping your business running without interruption during cyber incidents.",
       },
       {
         title: "Data Breach Protection",
+        icon: "",
         description:
           "Safeguards sensitive business and customer data from breaches.",
       },
@@ -1602,18 +1730,22 @@ export const servicesData = [
     features: [
       {
         title: "Mandatory Compliance",
+        icon: "",
         description: "Ensures legal coverage as per IRDAI norms.",
       },
       {
         title: "Driver Shield",
+        icon: "",
         description: "Provides safety and security for drivers on every trip.",
       },
       {
         title: "Quick Repairs",
+        icon: "",
         description: "Minimizes downtime with efficient claim support.",
       },
       {
         title: "Asset Protection",
+        icon: "",
         description:
           "Safeguards against financial loss due to unexpected damages.",
       },
@@ -1662,20 +1794,24 @@ export const servicesData = [
     features: [
       {
         title: "Legal Liability Cover",
+        icon: "",
         description:
           "Protection against legal expenses arising from accidents.",
       },
       {
         title: "Trusted Regulation",
+        icon: "",
         description: "Governed by guidelines of the IRDAI.",
       },
       {
         title: "Multi-Risk Protection",
+        icon: "",
         description:
           "Coverage against accidents, fire, theft, and third-party liability.",
       },
       {
         title: "Add-On Benefits",
+        icon: "",
         description:
           "Options like zero depreciation, engine protection, return to invoice, and more.",
       },
@@ -1723,20 +1859,24 @@ export const servicesData = [
     features: [
       {
         title: "Building Protection",
+        icon: "",
         description:
           "Covers structural damage to your home from fire, disasters, and accidents.",
       },
       {
         title: "Valuable Items Cover",
+        icon: "",
         description:
           "Optional protection for jewellery and high-value possessions.",
       },
       {
         title: "Affordable Premiums",
+        icon: "",
         description: "Relatively low cost compared to potential losses.",
       },
       {
         title: "Reconstruction Support",
+        icon: "",
         description:
           "Covers the cost of rebuilding or repairing your home, or a pre-agreed insured value.",
       },
@@ -1784,18 +1924,22 @@ export const servicesData = [
     features: [
       {
         title: "Financial Protection",
+        icon: "",
         description: "Prevents heavy losses from claims and lawsuits.",
       },
       {
         title: "Builds Credibility",
+        icon: "",
         description: "Enhances trust with clients and partners.",
       },
       {
         title: "Customizable Plans",
+        icon: "",
         description: "Coverage tailored to your business needs.",
       },
       {
         title: "Business Safety Net",
+        icon: "",
         description: "Protects your operations from unexpected risks.",
       },
     ],
@@ -1842,19 +1986,23 @@ export const servicesData = [
     features: [
       {
         title: "Project Shield",
+        icon: "",
         description: "Smart risk management for contractors and developers.",
       },
       {
         title: "Construction Cover",
+        icon: "",
         description:
           "Covering unforeseen risks at every stage of construction.",
       },
       {
         title: "Financial Security",
+        icon: "",
         description: "Prevents unexpected project losses.",
       },
       {
         title: "End-to-End Coverage",
+        icon: "",
         description: "Covers development, testing, and commissioning phases.",
       },
     ],
@@ -1902,18 +2050,22 @@ export const servicesData = [
     features: [
       {
         title: "Installation Security",
+        icon: "",
         description: "Covers risks during assembly and setup.",
       },
       {
         title: "Workforce Safety Support",
+        icon: "",
         description: "Covers third-party risks involving workers.",
       },
       {
         title: "Industrial Project Essential",
+        icon: "",
         description: "Ideal for factories, plants, and heavy installations.",
       },
       {
         title: "Business Continuity",
+        icon: "",
         description: "Ensures projects stay on track financially.",
       },
     ],
@@ -1960,18 +2112,22 @@ export const servicesData = [
     features: [
       {
         title: "Credit Risk Protection",
+        icon: "",
         description: "Covers losses arising from buyer default or non-payment.",
       },
       {
         title: "Network Shield",
+        icon: "",
         description: "Protecting your business across markets and borders.",
       },
       {
         title: "Trade Security",
+        icon: "",
         description: "Builds confidence in offering credit to customers.",
       },
       {
         title: "Cash Flow Stability",
+        icon: "",
         description:
           "Ensures smoother business cash flow despite payment delays.",
       },
@@ -2019,21 +2175,25 @@ export const servicesData = [
     features: [
       {
         title: "All-Risk Coverage",
+        icon: "",
         description:
           "Protects against a wide range of unforeseen events like fire, theft, and natural calamities.",
       },
       {
         title: "Multiple Equipment Cover",
+        icon: "",
         description:
           "Covers a range of construction machinery under one policy.",
       },
       {
         title: "Repair & Replacement",
+        icon: "",
         description:
           "Covers the cost of fixing or replacing damaged equipment.",
       },
       {
         title: "Cost-Effective Protection",
+        icon: "",
         description:
           "Affordable way to secure high-value construction equipment.",
       },
@@ -2080,18 +2240,22 @@ export const servicesData = [
     features: [
       {
         title: "Performance Assurance",
+        icon: "",
         description: "Guarantees completion of contractual obligations.",
       },
       {
         title: "Project Completion Security",
+        icon: "",
         description: "Ensures timely and proper execution of projects.",
       },
       {
         title: "Multi-Project Support",
+        icon: "",
         description: "Allows coverage across multiple ongoing contracts.",
       },
       {
         title: "Credibility Booster",
+        icon: "",
         description: "Improves trust and eligibility for large contracts.",
       },
     ],
@@ -2139,21 +2303,25 @@ export const servicesData = [
     features: [
       {
         title: "Professional Protection Cover",
+        icon: "",
         description:
           "Covers risks arising from errors in services or professional advice.",
       },
       {
         title: "Legal Expense Cover",
+        icon: "",
         description:
           "Pays for lawyer fees and court expenses in legal disputes.",
       },
       {
         title: "Industry-Specific Protection",
+        icon: "",
         description:
           "Suitable for consultants, IT, legal, finance, and architects.",
       },
       {
         title: "Client Dispute Protection",
+        icon: "",
         description: "Covers financial claims from dissatisfied clients.",
       },
     ],
@@ -2201,20 +2369,24 @@ export const servicesData = [
     features: [
       {
         title: "Breach of Duty Cover",
+        icon: "",
         description:
           "Protects against failure to meet expected standards of care by professionals and service providers.",
       },
       {
         title: "Growth Enablement",
+        icon: "",
         description: "Helps you take bigger projects confidently.",
       },
       {
         title: "Risk Mitigation Tool",
+        icon: "",
         description:
           "Acts as a financial safety net for professional practice.",
       },
       {
         title: "Customizable Coverage",
+        icon: "",
         description: "Tailored limits based on profession.",
       },
     ],
@@ -2261,19 +2433,23 @@ export const servicesData = [
     features: [
       {
         title: "Single Policy Cover",
+        icon: "",
         description:
           "One plan to insure all your business vehicles effortlessly.",
       },
       {
         title: "Cost Efficiency",
+        icon: "",
         description: "Save more with bulk insurance and reduced premiums.",
       },
       {
         title: "Digital Fleet Management",
+        icon: "",
         description: "Centralized monitoring and policy control.",
       },
       {
         title: "Reduced Risk Exposure",
+        icon: "",
         description: "Minimizes financial losses across your entire fleet.",
       },
     ],
@@ -2321,19 +2497,23 @@ export const servicesData = [
     features: [
       {
         title: "Cash & Asset Security",
+        icon: "",
         description: "Protection for cash, furniture, fixtures, and equipment.",
       },
       {
         title: "Customizable Plans",
+        icon: "",
         description: "Tailor coverage based on your shop’s unique needs.",
       },
       {
         title: "Contents Protection",
+        icon: "",
         description:
           "Covers furniture, fixtures, and equipment inside the shop.",
       },
       {
         title: "Secure Business Continuity",
+        icon: "",
         description: "Ensures stability even during disruptions.",
       },
     ],
@@ -2381,18 +2561,22 @@ export const servicesData = [
     features: [
       {
         title: "Trusted Risk Partner",
+        icon: "",
         description: "Reliable protection for your growing business.",
       },
       {
         title: "Asset Replacement Support",
+        icon: "",
         description: "Ensures quick repair or replacement of damaged items.",
       },
       {
         title: "Growth-Ready Protection",
+        icon: "",
         description: "Designed to support scaling businesses.",
       },
       {
         title: "Transparent Terms",
+        icon: "",
         description: "Clear coverage with no hidden conditions.",
       },
     ],
@@ -2442,14 +2626,17 @@ export const servicesData = [
     features: [
       {
         title: "Goal Alignment",
+        icon: "",
         description: "Funds selected to match specific financial goals.",
       },
       {
         title: "Risk Profiling",
+        icon: "",
         description: "Portfolios tailored to your risk tolerance.",
       },
       {
         title: "Regular Monitoring",
+        icon: "",
         description: "Periodic reviews to ensure performance.",
       },
     ],
@@ -2497,21 +2684,25 @@ export const servicesData = [
     features: [
       {
         title: "Compounding Growth",
+        icon: "",
         description:
           "Wealth builds over time as your earnings generate additional returns.",
       },
       {
         title: "Cost Averaging Benefit",
+        icon: "",
         description:
           "Reduces average investment cost by investing regularly in different market conditions.",
       },
       {
         title: "Disciplined Investing",
+        icon: "",
         description:
           "Builds strong financial habits through regular and structured investments.",
       },
       {
         title: "Goal-Based Planning",
+        icon: "",
         description:
           "Align your investments with life goals like retirement, education, and wealth creation.",
       },
@@ -2559,21 +2750,25 @@ export const servicesData = [
     features: [
       {
         title: "Regular Income Flow",
+        icon: "",
         description:
           "Receive a steady payout at fixed intervals without redeeming your entire investment.",
       },
       {
         title: "Wealth Continuity",
+        icon: "",
         description:
           "Keep your remaining funds invested to continue benefiting from market growth.",
       },
       {
         title: "Tax Efficiency",
+        icon: "",
         description:
           "Withdraw smartly with potential tax advantages compared to traditional income options.",
       },
       {
         title: "Flexible Withdrawals",
+        icon: "",
         description:
           "Choose your withdrawal amount and frequency as per your financial needs.",
       },
@@ -2621,21 +2816,25 @@ export const servicesData = [
     features: [
       {
         title: "Gradual Investment",
+        icon: "",
         description:
           "Transfer funds systematically to reduce the risk of investing a lump sum at once.",
       },
       {
         title: "Risk Management",
+        icon: "",
         description:
           "Gradually shifts investments from low-risk to high-growth funds to balance stability and returns, or vice versa.",
       },
       {
         title: "Flexibility of Amount",
+        icon: "",
         description:
           "Allows customization of transfer value and frequency as per your investment needs.",
       },
       {
         title: "Strategic Allocation",
+        icon: "",
         description:
           "Ensures efficient distribution of assets across fund categories for optimal portfolio growth.",
       },
@@ -2683,18 +2882,22 @@ export const servicesData = [
     features: [
       {
         title: "Active Portfolio Monitoring",
+        icon: "",
         description: "Continuous review and rebalancing of investments.",
       },
       {
         title: "Goal-Oriented Structuring",
+        icon: "",
         description: "Designed to match specific investment objectives.",
       },
       {
         title: "Diversified Strategies",
+        icon: "",
         description: "Invests across multiple strategies.",
       },
       {
         title: "Sophisticated Investment Framework",
+        icon: "",
         description: "Built for complex and high-value portfolios.",
       },
     ],
@@ -2741,14 +2944,17 @@ export const servicesData = [
     features: [
       {
         title: "Capital Preservation",
+        icon: "",
         description: "Focus on safety of principal.",
       },
       {
         title: "Predictable Income",
+        icon: "",
         description: "Regular interest payouts.",
       },
       {
         title: "Diverse Options",
+        icon: "",
         description: "Govt bonds, corporate bonds, and tax-free bonds.",
       },
     ],
@@ -2796,14 +3002,17 @@ export const servicesData = [
     features: [
       {
         title: "Focused Portfolios",
+        icon: "",
         description: "High-conviction bets on specific themes or sectors.",
       },
       {
         title: "Active Management",
+        icon: "",
         description: "Dynamic adjustments based on market conditions.",
       },
       {
         title: "Transparency",
+        icon: "",
         description: "Direct ownership of securities in your name.",
       },
     ],
@@ -2851,14 +3060,17 @@ export const servicesData = [
     features: [
       {
         title: "Exclusive Access",
+        icon: "",
         description: "Participate in PE, VC, and private credit deals.",
       },
       {
         title: "Uncorrelated Returns",
+        icon: "",
         description: "Performance often independent of stock market moves.",
       },
       {
         title: "Sophisticated Strategies",
+        icon: "",
         description: "Long-short, arbitrage, and other hedge fund strategies.",
       },
     ],
@@ -2905,14 +3117,17 @@ export const servicesData = [
     features: [
       {
         title: "Pre-IPO Access",
+        icon: "",
         description: "Invest in companies before they list on exchanges.",
       },
       {
         title: "High Growth Potential",
+        icon: "",
         description: "Capture value creation during the private phase.",
       },
       {
         title: "Strategic Diversification",
+        icon: "",
         description: "Exposure to new-age sectors.",
       },
     ],
@@ -2960,14 +3175,17 @@ export const servicesData = [
     features: [
       {
         title: "Corpus Calculation",
+        icon: "",
         description: "Estimating the amount needed for your desired lifestyle.",
       },
       {
         title: "Income Strategy",
+        icon: "",
         description: "Creating a reliable stream of post-retirement income.",
       },
       {
         title: "Healthcare Planning",
+        icon: "",
         description: "Ensuring adequate cover for medical needs.",
       },
     ],
@@ -3014,14 +3232,17 @@ export const servicesData = [
     features: [
       {
         title: "Stable Cash Flows",
+        icon: "",
         description: "Revenue from operational infrastructure assets.",
       },
       {
         title: "Nation Building",
+        icon: "",
         description: "Invest in India's growth story.",
       },
       {
         title: "Yield Oriented",
+        icon: "",
         description: "Focus on regular income distribution.",
       },
     ],
@@ -3069,14 +3290,17 @@ export const servicesData = [
     features: [
       {
         title: "Corpus Calculation",
+        icon: "",
         description: "Estimating the amount needed for your desired lifestyle.",
       },
       {
         title: "Income Strategy",
+        icon: "",
         description: "Creating a reliable stream of post-retirement income.",
       },
       {
         title: "Healthcare Planning",
+        icon: "",
         description: "Ensuring adequate cover for medical needs.",
       },
     ],
@@ -3123,14 +3347,17 @@ export const servicesData = [
     features: [
       {
         title: "Enhanced Yields",
+        icon: "",
         description: "Returns typically ranging from 10-12%.",
       },
       {
         title: "Diversification",
+        icon: "",
         description: "Spread risk across hundreds of borrowers.",
       },
       {
         title: "Monthly Income",
+        icon: "",
         description: "Options for regular monthly payouts.",
       },
     ],
@@ -3177,15 +3404,18 @@ export const servicesData = [
     features: [
       {
         title: "Market Linked Debentures",
+        icon: "",
         description:
           "Returns linked to market performance with capital protection.",
       },
       {
         title: "Invoice Discounting",
+        icon: "",
         description: "Short-term working capital finance.",
       },
       {
         title: "Supply Chain Finance",
+        icon: "",
         description: "Funding vendor payments for corporates.",
       },
     ],
@@ -3235,14 +3465,17 @@ export const servicesData = [
     features: [
       {
         title: "Higher Rates",
+        icon: "",
         description: "Better returns than traditional bank deposits.",
       },
       {
         title: "Rated Safety",
+        icon: "",
         description: "Focus on AAA/AA rated issuers.",
       },
       {
         title: "Flexible Tenure",
+        icon: "",
         description: "Options ranging from 1 to 5 years.",
       },
     ],
@@ -3289,14 +3522,17 @@ export const servicesData = [
     features: [
       {
         title: "Tax Efficiency",
+        icon: "",
         description: "Exemptions on certain capital gains and interest income.",
       },
       {
         title: "Dollar Assets",
+        icon: "",
         description: "Invest in USD denominated assets.",
       },
       {
         title: "Ease of Access",
+        icon: "",
         description: "No PIS hassles or complex foreign compliance.",
       },
     ],
@@ -3343,14 +3579,17 @@ export const servicesData = [
     features: [
       {
         title: "Safety & Purity",
+        icon: "",
         description: "24K gold stored in secure vaults.",
       },
       {
         title: "Liquidity",
+        icon: "",
         description: "Easy to buy and sell digitally.",
       },
       {
         title: "SIP Option",
+        icon: "",
         description: "Accumulate gold systematically.",
       },
     ],
@@ -3397,14 +3636,17 @@ export const servicesData = [
     features: [
       {
         title: "Tax Efficiency",
+        icon: "",
         description: "Additional deduction of ₹50,000 under 80CCD(1B).",
       },
       {
         title: "Low Cost",
+        icon: "",
         description: "One of the lowest cost investment products globally.",
       },
       {
         title: "Market Linked",
+        icon: "",
         description: "Option to invest in equity for higher long-term returns.",
       },
     ],
@@ -3451,15 +3693,18 @@ export const servicesData = [
     features: [
       {
         title: "Research Backed",
+        icon: "",
         description:
           "Recommendations based on fundamental and technical analysis.",
       },
       {
         title: "Personalized Guidance",
+        icon: "",
         description: "Strategies tailored to your risk profile.",
       },
       {
         title: "Seamless Execution",
+        icon: "",
         description: "Advanced platforms for easy trading.",
       },
     ],
@@ -3506,16 +3751,19 @@ export const servicesData = [
     features: [
       {
         title: "Instant Liquidity",
+        icon: "",
         description:
           "Access funds quickly by leveraging your investments without lengthy loan processes.",
       },
       {
         title: "Keep Investments Intact",
+        icon: "",
         description:
           "Your mutual funds and shares remain invested, allowing you to benefit from potential market growth.",
       },
       {
         title: "Lower Borrowing Cost",
+        icon: "",
         description:
           "Loans against securities often come with lower interest rates than personal loans or credit cards.",
       },
@@ -3563,21 +3811,25 @@ export const servicesData = [
     features: [
       {
         title: "The Compounding Advantage",
+        icon: "",
         description:
           "Small increments create a big long-term impact on wealth creation.",
       },
       {
         title: "Step-by-Step Investing",
+        icon: "",
         description:
           "Increase investments gradually without creating financial pressure.",
       },
       {
         title: "Better Goal Mapping",
+        icon: "",
         description:
           "Bridge the gap between your savings and future aspirations more effectively.",
       },
       {
         title: "Inflation Beating Strategy",
+        icon: "",
         description:
           "Increase your investments over time to stay ahead of rising costs.",
       },
@@ -3628,14 +3880,17 @@ export const servicesData = [
     features: [
       {
         title: "Asset Protection",
+        icon: "",
         description: "Shield assets from creditors and liabilities.",
       },
       {
         title: "Control",
+        icon: "",
         description: "Define how and when beneficiaries receive assets.",
       },
       {
         title: "Succession",
+        icon: "",
         description: "Smooth transfer of wealth across generations.",
       },
     ],
@@ -3682,14 +3937,17 @@ export const servicesData = [
     features: [
       {
         title: "Legal Clarity",
+        icon: "",
         description: "Avoid ambiguity and legal disputes.",
       },
       {
         title: "Asset Distribution",
+        icon: "",
         description: "Ensure assets go to the intended beneficiaries.",
       },
       {
         title: "Guardianship",
+        icon: "",
         description: "Appoint guardians for minor children.",
       },
     ],
@@ -3737,14 +3995,17 @@ export const servicesData = [
     features: [
       {
         title: "Impartial Execution",
+        icon: "",
         description: "Neutral third-party management of the estate.",
       },
       {
         title: "Legal Compliance",
+        icon: "",
         description: "Handling probate and legal formalities.",
       },
       {
         title: "Conflict Resolution",
+        icon: "",
         description: "Minimizing disputes among beneficiaries.",
       },
     ],
@@ -3791,14 +4052,17 @@ export const servicesData = [
     features: [
       {
         title: "Property Due Diligence",
+        icon: "",
         description: "Verification of titles and documents.",
       },
       {
         title: "Contract Review",
+        icon: "",
         description: "Reviewing financial and business agreements.",
       },
       {
         title: "Family Settlements",
+        icon: "",
         description: "Drafting family settlement deeds.",
       },
     ],
@@ -3845,14 +4109,17 @@ export const servicesData = [
     features: [
       {
         title: "Strategic Planning",
+        icon: "",
         description: "Optimizing tax liabilities legally.",
       },
       {
         title: "Compliance",
+        icon: "",
         description: "Filing returns and handling notices.",
       },
       {
         title: "Cross-Border Tax",
+        icon: "",
         description: "Advisory for NRIs and global investments.",
       },
     ],
@@ -3899,14 +4166,17 @@ export const servicesData = [
     features: [
       {
         title: "Interactive Sessions",
+        icon: "",
         description: "Engaging workshops with real-life examples.",
       },
       {
         title: "Unbiased Education",
+        icon: "",
         description: "Pure knowledge sharing, no product selling.",
       },
       {
         title: "Diverse Topics",
+        icon: "",
         description: "Covering basics to advanced financial concepts.",
       },
     ],
@@ -4008,21 +4278,25 @@ export const servicesData = [
     features: [
       {
         title: "Smart Spending",
+        icon: "",
         description:
           "Manage everyday expenses efficiently with convenience and control.",
       },
       {
         title: "Rewards & Benefits",
+        icon: "",
         description:
           "Earn cashback, reward points, and exclusive perks on your spending.",
       },
       {
         title: "Global Acceptance",
+        icon: "",
         description:
           "Use your card seamlessly across countries for travel and online purchases.",
       },
       {
         title: "Expense Tracking",
+        icon: "",
         description:
           "Monitor and categorize your spending to stay in control of your finances.",
       },
@@ -4072,14 +4346,17 @@ export const servicesData = [
     features: [
       {
         title: "FEMA Compliance",
+        icon: "",
         description: "Adhering to regulations for NRI investments.",
       },
       {
         title: "Tax Optimization",
+        icon: "",
         description: "Leveraging DTAA and tax-efficient instruments.",
       },
       {
         title: "Repatriation",
+        icon: "",
         description:
           "Smooth transfer of funds back to your country of residence.",
       },
@@ -4127,14 +4404,17 @@ export const servicesData = [
     features: [
       {
         title: "Financial Independence",
+        icon: "",
         description: "Building a corpus for personal security.",
       },
       {
         title: "Empowerment",
+        icon: "",
         description: "Education and guidance to take control of finances.",
       },
       {
         title: "Life Transitions",
+        icon: "",
         description: "Support during marriage, maternity, or separation.",
       },
     ],
@@ -4182,15 +4462,18 @@ export const servicesData = [
     features: [
       {
         title: "Holistic Management",
+        icon: "",
         description:
           "Integrated management of all family assets and liabilities.",
       },
       {
         title: "Intergenerational Transfer",
+        icon: "",
         description: "Ensuring smooth transition of wealth across generations.",
       },
       {
         title: "Lifestyle Services",
+        icon: "",
         description: "Concierge services for family needs.",
       },
     ],

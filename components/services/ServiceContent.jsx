@@ -60,7 +60,6 @@ export default function ServiceContent({ service, hideFaq = false }) {
               {line}
             </p>
           ))}
-        
         </div>
       </div>
 
@@ -73,9 +72,13 @@ export default function ServiceContent({ service, hideFaq = false }) {
             <div key={idx} className="flex gap-4 items-start">
               {/* Icon Circle */}
               <div className="w-16 h-16 rounded-full  flex items-center justify-center shrink-0 bg-[#00394E]   ">
-                {" "}
-                {/* Soft White BG */}
-                {getIcon(idx)}
+                <Image
+                  src={feature.icon}
+                  alt={feature.title}
+                  width={40}
+                  height={40}
+                  className="h-10 w-10 object-contain transition duration-500 [filter:brightness(0)_saturate(100%)_invert(72%)_sepia(47%)_saturate(749%)_hue-rotate(359deg)_brightness(92%)_contrast(87%)] group-hover:[filter:brightness(0)_saturate(100%)_invert(100%)]"
+                />
               </div>
               <div className=" ">
                 <h3 className="font-serif text-xl font-bold text-[#00394E] mb-1">
@@ -90,7 +93,6 @@ export default function ServiceContent({ service, hideFaq = false }) {
             </div>
           ))}
       </div>
- 
 
       {/* ----------------------------- */}
       {/*        FAQ SECTION            */}
@@ -137,14 +139,13 @@ export default function ServiceContent({ service, hideFaq = false }) {
 
             {/* Right Column: FAQ Accordion */}
             <div className="w-full lg:w-1/2 pt-4">
-             
               {/* Warm Mustard Label */}
               <h2 className="font-serif text-3xl font-bold text-[#00394E] mb-4">
                 {" "}
                 {/* Deep Teal Heading */}
                 Frequently Asked Questions
               </h2>
-            
+
               <div className="space-y-4">
                 {service.faq.map((item, idx) => (
                   <div
