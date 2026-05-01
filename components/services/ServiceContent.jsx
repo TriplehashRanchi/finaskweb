@@ -72,13 +72,17 @@ export default function ServiceContent({ service, hideFaq = false }) {
             <div key={idx} className="flex gap-4 items-start">
               {/* Icon Circle */}
               <div className="w-16 h-16 rounded-full  flex items-center justify-center shrink-0 bg-[#00394E]   ">
-                <Image
-                  src={feature.icon}
-                  alt={feature.title}
-                  width={40}
-                  height={40}
-                  className="h-10 w-10 object-contain transition duration-500 [filter:brightness(0)_saturate(100%)_invert(72%)_sepia(47%)_saturate(749%)_hue-rotate(359deg)_brightness(92%)_contrast(87%)] group-hover:[filter:brightness(0)_saturate(100%)_invert(100%)]"
-                />
+                {feature.icon ? (
+                  <Image
+                    src={feature.icon}
+                    alt={feature.title}
+                    width={40}
+                    height={40}
+                    className="h-10 w-10 object-contain transition duration-500 [filter:brightness(0)_saturate(100%)_invert(72%)_sepia(47%)_saturate(749%)_hue-rotate(359deg)_brightness(92%)_contrast(87%)] group-hover:[filter:brightness(0)_saturate(100%)_invert(100%)]"
+                  />
+                ) : (
+                  getIcon(idx)
+                )}
               </div>
               <div className=" ">
                 <h3 className="font-serif text-xl font-bold text-[#00394E] mb-1">

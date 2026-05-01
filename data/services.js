@@ -457,19 +457,19 @@ export const servicesData = [
     features: [
       {
         title: "Guaranteed Returns",
-        icon: "",
+        icon: "/insurance-icons/national-pension-system-1.png",
         description:
           "Offers defined benefits with low uncertainty and stability.",
       },
       {
         title: "Assured Payouts",
-        icon: "",
+        icon: "/insurance-icons/national-pension-system-2.png",
         description:
           "Useful for milestone planning, education needs, or retirement income.",
       },
       {
         title: "Capital Preservation",
-        icon: "",
+        icon: "/insurance-icons/national-pension-system-3.png",
         description:
           "Prioritizes steadiness while supporting disciplined long-term savings objectives for families.",
       },
@@ -583,18 +583,24 @@ export const servicesData = [
     features: [
       {
         title: "Medical Emergencies",
-        icon: "",
+        icon: "/insurance-icons/travel-insurance-1.png",
         description: "Coverage for hospitalization and treatment abroad.",
       },
       {
         title: "Trip Cancellation",
-        icon: "",
+        icon: "/insurance-icons/travel-insurance-2.png",
         description: "Reimbursement for non-refundable bookings.",
       },
       {
         title: "Baggage Loss",
-        icon: "",
+        icon: "/insurance-icons/travel-insurance-3.png",
         description: "Compensation for lost or delayed checked-in baggage.",
+      },
+      {
+        title: "Emergency Travel Support",
+        icon: "/insurance-icons/travel-insurance-4.png",
+        description:
+          "Immediate assistance during unforeseen travel emergencies.",
       },
     ],
     faq: [
@@ -689,20 +695,28 @@ export const servicesData = [
       "Your homes, offices, factories — they embody years of aspirations and efforts. Unforeseen incidents like fires or intrusions should not possess the power to erase that legacy. We devise protections that enable swift restitution, preserving both your tangible assets and your family’s composure. \n It’s about more than rebuilding walls or replacing inventory — it’s about restoring normalcy without enduring financial distress. ",
     features: [
       {
-        title: "Comprehensive Coverage",
-        icon: "",
+        title: "Reliable Protection",
+        icon: "/insurance-icons/fire-burglary-insurance-1.png",
         description:
-          "Protection against hospitalization, critical illnesses, and modern treatments.",
+          "A trusted and dependable approach ensuring your financial security at every stage.",
       },
       {
-        title: "Global Protection",
-        icon: "",
-        description: "Plans that cover you wherever your lifestyle takes you.",
+        title: "Smart Protection Planning",
+        icon: "/insurance-icons/fire-burglary-insurance-2.png",
+        description:
+          "Provides comprehensive protection in a cost-efficient manner.",
       },
       {
-        title: "Family Floater",
-        icon: "",
-        description: "One plan to secure the health of your entire family.",
+        title: "Claim Settlement",
+        icon: "/insurance-icons/fire-burglary-insurance-3.png",
+        description:
+          "Faster processing to restore normalcy quickly.",
+      },
+      {
+        title: "Asset Protection",
+        icon: "/insurance-icons/fire-burglary-insurance-4.png",
+        description:
+          "Safeguards your property and valuables against fire, theft, and unforeseen damage.",
       },
     ],
     faq: [
@@ -747,20 +761,28 @@ export const servicesData = [
       "A single damaged, lost or delayed consignment can lead to revenue loss, supply chain disruptions or breached contracts—that’s where comprehensive coverage becomes critical. \n Our Marine & Cargo Insurance is tailored for businesses engaged in domestic and international trade. It provides protection against physical loss or damage to goods in transit, across all modes of transportation — air, sea, road or rail. Whether you are shipping raw materials, finished products or high-value equipment, our policies are structured to absorb the risk — not your balance sheet. \n With FinAsk Value, you protect not just your shipments, but your profitability, reliability and business continuity.",
     features: [
       {
-        title: "Comprehensive Coverage",
-        icon: "",
+        title: "Securing Your Supply Chain",
+        icon: "/insurance-icons/marine-cargo-insurance-1.png",
         description:
-          "Protection against hospitalization, critical illnesses, and modern treatments.",
+          "Minimizing disruptions by protecting goods from origin to destination.",
       },
       {
-        title: "Global Protection",
-        icon: "",
-        description: "Plans that cover you wherever your lifestyle takes you.",
+        title: "Seamless Cross-Border Protection",
+        icon: "/insurance-icons/marine-cargo-insurance-2.png",
+        description:
+          "Confidence to operate across borders with robust risk coverage in place.",
       },
       {
-        title: "Family Floater",
-        icon: "",
-        description: "One plan to secure the health of your entire family.",
+        title: "Business Growth Support",
+        icon: "/insurance-icons/marine-cargo-insurance-3.png",
+        description:
+          "Expand your trade operations knowing every shipment is well protected.",
+      },
+      {
+        title: "Multi-Mode Coverage",
+        icon: "/insurance-icons/marine-cargo-insurance-4.png",
+        description:
+          "Protection across air, sea, road, and rail shipments.",
       },
     ],
     faq: [
@@ -918,20 +940,28 @@ export const servicesData = [
       "Directors’ and Officers’ Liability Insurance (D&O) is more than a personal safety net — it’s a strategic safeguard for businesses. It ensures that if the unthinkable happens, key obligations are met, debts are covered and shareholder or partner transitions remain smooth, protecting enterprise value. \n Because your vision should not falter, even if life takes an unforeseen turn. \n At FinAsk Value, we help founders, directors and key management personnel structure life cover not just for personal protection—but for business continuity. It is not just about preparing for loss—it’s about preserving leadership, legacy and long-term confidence. \n This coverage can support succession planning, stabilize cash flow, reinforce loan and credit obligations and signal preparedness to investors and stakeholders. \n It’s more than a policy—it’s a contingency plan for confidence. Leadership may be personal, but its impact is profoundly institutional. ",
     features: [
       {
-        title: "Comprehensive Coverage",
-        icon: "",
+        title: "Seamless Succession Planning",
+        icon: "/insurance-icons/directors-officers-liability-1.png",
         description:
-          "Protection against hospitalization, critical illnesses, and modern treatments.",
+          "Ensures smooth transition of ownership and management without disrupting business operations.",
       },
       {
-        title: "Global Protection",
-        icon: "",
-        description: "Plans that cover you wherever your lifestyle takes you.",
+        title: "Enterprise Value Protection",
+        icon: "/insurance-icons/directors-officers-liability-2.png",
+        description:
+          "Preserves overall business valuation and stakeholder interests.",
       },
       {
-        title: "Family Floater",
-        icon: "",
-        description: "One plan to secure the health of your entire family.",
+        title: "Debt & Liability Coverage",
+        icon: "/insurance-icons/directors-officers-liability-3.png",
+        description:
+          "Helps settle business loans and financial obligations.",
+      },
+      {
+        title: "Investor Confidence Support",
+        icon: "/insurance-icons/directors-officers-liability-4.png",
+        description:
+          "Signals preparedness and strengthens trust among investors and partners.",
       },
     ],
     faq: [
@@ -981,21 +1011,27 @@ export const servicesData = [
     features: [
       {
         title: "Accidental Death Cover",
-        icon: "",
+        icon: "/insurance-icons/group-personal-accident-1.png",
         description:
           "If an employee dies due to an accident, the nominee receives the full sum insured as a lump-sum payout.",
       },
       {
         title: "Disability Protection",
-        icon: "",
+        icon: "/insurance-icons/group-personal-accident-2.png",
         description:
           "Covers Permanent Total Disability (PTD), Permanent Partial Disability (PPD), and Temporary Total Disability (TTD) based on policy terms.",
       },
       {
-        title: "Optional Add-Ons",
-        icon: "",
+        title: "Family Support",
+        icon: "/insurance-icons/group-personal-accident-3.png",
         description:
-          "Employers can enhance protection with accident medical expense reimbursement, ambulance charges, child education grant, and fracture cover.",
+          "Ensures dependents are financially protected during difficult times.",
+      },
+      {
+        title: "Claim Settlement",
+        icon: "/insurance-icons/group-personal-accident-4.png",
+        description:
+          "Ensures quick financial assistance to employees or nominees.",
       },
     ],
     faq: [
@@ -1039,21 +1075,27 @@ export const servicesData = [
     features: [
       {
         title: "Death Cover",
-        icon: "",
+        icon: "/insurance-icons/group-term-life-1.png",
         description:
           "Provides financial protection in case of death due to illness, natural causes, or accidents.",
       },
       {
         title: "Immediate Coverage",
-        icon: "",
+        icon: "/insurance-icons/group-term-life-2.png",
         description:
           "Employees are usually covered from day one of employment without medical underwriting.",
       },
       {
-        title: "Flexible Coverage Models",
-        icon: "",
+        title: "Flexible Coverage Model",
+        icon: "/insurance-icons/group-term-life-3.png",
         description:
           "Employers can choose fixed sum assured or salary-linked cover, along with optional riders like accidental death and critical illness.",
+      },
+      {
+        title: "Risk-Free Enrolment",
+        icon: "/insurance-icons/group-term-life-4.png",
+        description:
+          "Typically requires no medical underwriting for eligible employees.",
       },
     ],
     faq: [
@@ -1101,21 +1143,27 @@ export const servicesData = [
     features: [
       {
         title: "Hospitalisation Coverage",
-        icon: "",
+        icon: "/insurance-icons/group-health-1.png",
         description:
           "Covers room charges, doctor fees, medicines, and treatment costs.",
       },
       {
         title: "Family Protection",
-        icon: "",
+        icon: "/insurance-icons/group-health-2.png",
         description:
           "Coverage can often be extended to spouse, children, and sometimes parents.",
       },
       {
         title: "Cashless & Day-One Benefits",
-        icon: "",
+        icon: "/insurance-icons/group-health-3.png",
         description:
           "Most plans offer cashless hospitalisation and immediate coverage, often including pre-existing conditions from day one.",
+      },
+      {
+        title: "Employee Health Security",
+        icon: "/insurance-icons/group-health-4.png",
+        description:
+          "Comprehensive medical coverage that protects employees and strengthens workforce well-being.",
       },
     ],
     faq: [
@@ -1162,21 +1210,27 @@ export const servicesData = [
     features: [
       {
         title: "Doctor Teleconsultation",
-        icon: "",
+        icon: "/insurance-icons/health-assistance-1.png",
         description:
           "Consult experienced doctors remotely through secure video or phone consultations.",
       },
       {
-        title: "Diagnostics & Pharmacy",
-        icon: "",
+        title: "Diagnostic & Pharmacy",
+        icon: "/insurance-icons/health-assistance-2.png",
         description:
           "Book laboratory tests, MRI/X-ray scans, and order medicines for home delivery.",
       },
       {
         title: "Wellness & Home Care",
-        icon: "",
+        icon: "/insurance-icons/health-assistance-3.png",
         description:
           "Access self-care plans, nursing care, live health interactions, and gym or yoga sessions.",
+      },
+      {
+        title: "Paperless Experience",
+        icon: "/insurance-icons/health-assistance-4.png",
+        description:
+          "Fully digital healthcare management system.",
       },
     ],
     faq: [
@@ -1222,22 +1276,28 @@ export const servicesData = [
       "Unexpected situations can occur anytime while you are on the road. Even with regular servicing and careful driving, disruptions can still interrupt your journey. \n Roadside Assistance (RSA) ensures that help is always available when you need it most. From minor fixes to emergency towing, it covers a wide range of situations. Whether you are stranded due to a mechanical issue, a flat tyre or misplaced car keys, it provides quick support and emergency services wherever you are, at any time. \n With 24x7 availability, you can drive with confidence knowing that professional help is just a call away. This service is designed to handle vehicle emergencies efficiently, minimizing inconvenience and getting you back on the road quickly. ",
     features: [
       {
-        title: "24x7 Emergency Support",
-        icon: "",
+        title: "24X7 Emergency support",
+        icon: "/insurance-icons/roadside-assistance-1.png",
         description:
           "Round-the-clock assistance anytime, anywhere during breakdowns or emergencies.",
       },
       {
-        title: "On-Road Services",
-        icon: "",
+        title: "On- Road Service",
+        icon: "/insurance-icons/roadside-assistance-2.png",
         description:
           "Includes flat tyre repair or replacement, battery jumpstart, lost key assistance, and towing support.",
       },
       {
         title: "Travel Convenience",
-        icon: "",
+        icon: "/insurance-icons/roadside-assistance-3.png",
         description:
           "Provides additional support such as accommodation assistance if breakdown-related repairs take extended time.",
+      },
+      {
+        title: "Nationwide Coverage",
+        icon: "/insurance-icons/roadside-assistance-4.png",
+        description:
+          "Assistance available across locations as per service scope.",
       },
     ],
     faq: [
@@ -1285,20 +1345,26 @@ export const servicesData = [
     features: [
       {
         title: "Theft Protection",
-        icon: "",
+        icon: "/insurance-icons/cycle-protection-1.png",
         description: "Coverage in case your bicycle is stolen.",
       },
       {
         title: "Accidental Damage Cover",
-        icon: "",
+        icon: "/insurance-icons/cycle-protection-2.png",
         description:
           "Protection against damage caused by accidents or unforeseen incidents.",
       },
       {
         title: "Emergency Assistance",
-        icon: "",
+        icon: "/insurance-icons/cycle-protection-3.png",
         description:
           "Includes support services such as health assistance, doctor referral, emergency message relay, police station locator, and ambulance referral.",
+      },
+      {
+        title: "Worry-Free Riding",
+        icon: "/insurance-icons/cycle-protection-4.png",
+        description:
+          "Enjoy every ride without concern over unexpected setbacks.",
       },
     ],
     faq: [
@@ -1344,21 +1410,27 @@ export const servicesData = [
     features: [
       {
         title: "Illness & Accident Cover",
-        icon: "",
+        icon: "/insurance-icons/pet-insurance-1.png",
         description:
-          "Helps cover unexpected illnesses, accidents, and medical emergencies affecting your pets.",
+          "Provides protection against unexpected illnesses, accidents, and medical emergencies affecting your pet.",
       },
       {
         title: "Veterinary Expense Support",
-        icon: "",
+        icon: "/insurance-icons/pet-insurance-2.png",
         description:
-          "Provides financial support for veterinary treatments and hospitalization.",
+          "Offers financial assistance for veterinary treatments, consultations, and hospitalization expenses.",
       },
       {
         title: "Peace of Mind",
-        icon: "",
+        icon: "/insurance-icons/pet-insurance-3.png",
         description:
           "Ensures timely medical care for your pets without the burden of sudden high expenses.",
+      },
+      {
+        title: "Multi-Pet Coverage Options",
+        icon: "/insurance-icons/pet-insurance-4.png",
+        description:
+          "Ability to insure more than one pet under a single policy.",
       },
     ],
     faq: [
@@ -1404,25 +1476,25 @@ export const servicesData = [
     features: [
       {
         title: "Employee Protection",
-        icon: "",
+        icon: "/insurance-icons/workmen-compensation-1.png",
         description:
           "Ensure financial support for employees in case of workplace injuries or accidents.",
       },
       {
         title: "Medical & Disability Benefits",
-        icon: "",
+        icon: "/insurance-icons/workmen-compensation-2.png",
         description:
           "Cover medical expenses, disability compensation, and loss of income support.",
       },
       {
         title: "Industry-Wide Coverage",
-        icon: "",
+        icon: "/insurance-icons/workmen-compensation-3.png",
         description:
           "Applicable across sectors, especially where operational risks are higher.",
       },
       {
         title: "Financial Safeguard",
-        icon: "",
+        icon: "/insurance-icons/workmen-compensation-4.png",
         description:
           "Protect your business from unexpected compensation payouts and liabilities.",
       },
@@ -1470,25 +1542,25 @@ export const servicesData = [
     features: [
       {
         title: "Professional Credibility Protection",
-        icon: "",
+        icon: "/insurance-icons/professional-indemnity-doctors-1.png",
         description:
           "Safeguard your professional credibility, patient relationships, and reputation.",
       },
       {
         title: "Comprehensive Coverage",
-        icon: "",
+        icon: "/insurance-icons/professional-indemnity-doctors-2.png",
         description:
           "Get tailored protection based on your specialization and risk exposure.",
       },
       {
         title: "Medico-Legal Support",
-        icon: "",
+        icon: "/insurance-icons/professional-indemnity-doctors-3.png",
         description:
           "Access expert legal assistance to handle complex medical claims efficiently.",
       },
       {
         title: "Long-Term Security",
-        icon: "",
+        icon: "/insurance-icons/professional-indemnity-doctors-4.png",
         description:
           "Get coverage for claims arising even after treatment, as per policy terms.",
       },
@@ -1536,24 +1608,24 @@ export const servicesData = [
     features: [
       {
         title: "Dual Benefit Plan",
-        icon: "",
+        icon: "/insurance-icons/term-rop-1.png",
         description: "Insurance and savings combined in one smart solution.",
       },
       {
         title: "Money Back Assurance",
-        icon: "",
+        icon: "/insurance-icons/term-rop-2.png",
         description:
           "Get back all premiums paid at maturity with life cover protection.",
       },
       {
         title: "Family Security Assured",
-        icon: "",
+        icon: "/insurance-icons/term-rop-3.png",
         description:
           "Financial protection for your loved ones with added returns.",
       },
       {
         title: "Financial Discipline",
-        icon: "",
+        icon: "/insurance-icons/term-rop-4.png",
         description: "Build a habit of saving while staying protected.",
       },
     ],
@@ -1601,22 +1673,22 @@ export const servicesData = [
     features: [
       {
         title: "Complete Digital Protection",
-        icon: "",
+        icon: "/insurance-icons/personal-cyber-insurance-1.png",
         description: "Covers all major cyber risks under one solution.",
       },
       {
         title: "Claim Support",
-        icon: "",
+        icon: "/insurance-icons/personal-cyber-insurance-2.png",
         description: "Assistance when you need it the most.",
       },
       {
         title: "Expert Guidance",
-        icon: "",
+        icon: "/insurance-icons/personal-cyber-insurance-3.png",
         description: "Dedicated support to handle cyber incidents smoothly.",
       },
       {
         title: "Tailored Coverage",
-        icon: "",
+        icon: "/insurance-icons/personal-cyber-insurance-4.png",
         description: "Plans designed as per your digital usage and lifestyle.",
       },
     ],
@@ -1664,24 +1736,24 @@ export const servicesData = [
     features: [
       {
         title: "Advanced Firewall Protection",
-        icon: "",
+        icon: "/insurance-icons/corporate-cyber-insurance-1.png",
         description:
           "Strong defense against evolving cyberattacks and hacking attempts.",
       },
       {
         title: "Global Network Protection",
-        icon: "",
+        icon: "/insurance-icons/corporate-cyber-insurance-2.png",
         description: "Protection across every connected system.",
       },
       {
         title: "Business Continuity Support",
-        icon: "",
+        icon: "/insurance-icons/corporate-cyber-insurance-3.png",
         description:
           "Keeping your business running without interruption during cyber incidents.",
       },
       {
         title: "Data Breach Protection",
-        icon: "",
+        icon: "/insurance-icons/corporate-cyber-insurance-4.png",
         description:
           "Safeguards sensitive business and customer data from breaches.",
       },
@@ -1730,22 +1802,22 @@ export const servicesData = [
     features: [
       {
         title: "Mandatory Compliance",
-        icon: "",
+        icon: "/insurance-icons/taxi-insurance-1.png",
         description: "Ensures legal coverage as per IRDAI norms.",
       },
       {
         title: "Driver Shield",
-        icon: "",
+        icon: "/insurance-icons/taxi-insurance-2.png",
         description: "Provides safety and security for drivers on every trip.",
       },
       {
         title: "Quick Repairs",
-        icon: "",
+        icon: "/insurance-icons/taxi-insurance-3.png",
         description: "Minimizes downtime with efficient claim support.",
       },
       {
         title: "Asset Protection",
-        icon: "",
+        icon: "/insurance-icons/taxi-insurance-4.png",
         description:
           "Safeguards against financial loss due to unexpected damages.",
       },
@@ -1794,24 +1866,24 @@ export const servicesData = [
     features: [
       {
         title: "Legal Liability Cover",
-        icon: "",
+        icon: "/insurance-icons/commercial-vehicle-insurance-1.png",
         description:
           "Protection against legal expenses arising from accidents.",
       },
       {
         title: "Trusted Regulation",
-        icon: "",
+        icon: "/insurance-icons/commercial-vehicle-insurance-2.png",
         description: "Governed by guidelines of the IRDAI.",
       },
       {
         title: "Multi-Risk Protection",
-        icon: "",
+        icon: "/insurance-icons/commercial-vehicle-insurance-3.png",
         description:
           "Coverage against accidents, fire, theft, and third-party liability.",
       },
       {
         title: "Add-On Benefits",
-        icon: "",
+        icon: "/insurance-icons/commercial-vehicle-insurance-4.png",
         description:
           "Options like zero depreciation, engine protection, return to invoice, and more.",
       },
@@ -1859,24 +1931,24 @@ export const servicesData = [
     features: [
       {
         title: "Building Protection",
-        icon: "",
+        icon: "/insurance-icons/home-insurance-1.png",
         description:
           "Covers structural damage to your home from fire, disasters, and accidents.",
       },
       {
         title: "Valuable Items Cover",
-        icon: "",
+        icon: "/insurance-icons/home-insurance-2.png",
         description:
           "Optional protection for jewellery and high-value possessions.",
       },
       {
         title: "Affordable Premiums",
-        icon: "",
+        icon: "/insurance-icons/home-insurance-3.png",
         description: "Relatively low cost compared to potential losses.",
       },
       {
         title: "Reconstruction Support",
-        icon: "",
+        icon: "/insurance-icons/home-insurance-4.png",
         description:
           "Covers the cost of rebuilding or repairing your home, or a pre-agreed insured value.",
       },
@@ -1924,22 +1996,22 @@ export const servicesData = [
     features: [
       {
         title: "Financial Protection",
-        icon: "",
+        icon: "/insurance-icons/general-liability-insurance-1.png",
         description: "Prevents heavy losses from claims and lawsuits.",
       },
       {
         title: "Builds Credibility",
-        icon: "",
+        icon: "/insurance-icons/general-liability-insurance-2.png",
         description: "Enhances trust with clients and partners.",
       },
       {
         title: "Customizable Plans",
-        icon: "",
+        icon: "/insurance-icons/general-liability-insurance-3.png",
         description: "Coverage tailored to your business needs.",
       },
       {
         title: "Business Safety Net",
-        icon: "",
+        icon: "/insurance-icons/general-liability-insurance-4.png",
         description: "Protects your operations from unexpected risks.",
       },
     ],
@@ -1986,23 +2058,23 @@ export const servicesData = [
     features: [
       {
         title: "Project Shield",
-        icon: "",
+        icon: "/insurance-icons/contractor-all-risk-1.png",
         description: "Smart risk management for contractors and developers.",
       },
       {
         title: "Construction Cover",
-        icon: "",
+        icon: "/insurance-icons/contractor-all-risk-2.png",
         description:
           "Covering unforeseen risks at every stage of construction.",
       },
       {
         title: "Financial Security",
-        icon: "",
+        icon: "/insurance-icons/contractor-all-risk-3.png",
         description: "Prevents unexpected project losses.",
       },
       {
         title: "End-to-End Coverage",
-        icon: "",
+        icon: "/insurance-icons/contractor-all-risk-4.png",
         description: "Covers development, testing, and commissioning phases.",
       },
     ],
@@ -2050,22 +2122,22 @@ export const servicesData = [
     features: [
       {
         title: "Installation Security",
-        icon: "",
+        icon: "/insurance-icons/erection-all-risk-1.png",
         description: "Covers risks during assembly and setup.",
       },
       {
         title: "Workforce Safety Support",
-        icon: "",
+        icon: "/insurance-icons/erection-all-risk-2.png",
         description: "Covers third-party risks involving workers.",
       },
       {
         title: "Industrial Project Essential",
-        icon: "",
+        icon: "/insurance-icons/erection-all-risk-3.png",
         description: "Ideal for factories, plants, and heavy installations.",
       },
       {
         title: "Business Continuity",
-        icon: "",
+        icon: "/insurance-icons/erection-all-risk-4.png",
         description: "Ensures projects stay on track financially.",
       },
     ],
@@ -2112,22 +2184,22 @@ export const servicesData = [
     features: [
       {
         title: "Credit Risk Protection",
-        icon: "",
+        icon: "/insurance-icons/trade-credit-insurance-1.png",
         description: "Covers losses arising from buyer default or non-payment.",
       },
       {
         title: "Network Shield",
-        icon: "",
+        icon: "/insurance-icons/trade-credit-insurance-2.png",
         description: "Protecting your business across markets and borders.",
       },
       {
         title: "Trade Security",
-        icon: "",
+        icon: "/insurance-icons/trade-credit-insurance-3.png",
         description: "Builds confidence in offering credit to customers.",
       },
       {
         title: "Cash Flow Stability",
-        icon: "",
+        icon: "/insurance-icons/trade-credit-insurance-4.png",
         description:
           "Ensures smoother business cash flow despite payment delays.",
       },
@@ -2175,25 +2247,25 @@ export const servicesData = [
     features: [
       {
         title: "All-Risk Coverage",
-        icon: "",
+        icon: "/insurance-icons/contractor-plant-machinery-1.png",
         description:
           "Protects against a wide range of unforeseen events like fire, theft, and natural calamities.",
       },
       {
         title: "Multiple Equipment Cover",
-        icon: "",
+        icon: "/insurance-icons/contractor-plant-machinery-2.png",
         description:
           "Covers a range of construction machinery under one policy.",
       },
       {
         title: "Repair & Replacement",
-        icon: "",
+        icon: "/insurance-icons/contractor-plant-machinery-3.png",
         description:
           "Covers the cost of fixing or replacing damaged equipment.",
       },
       {
         title: "Cost-Effective Protection",
-        icon: "",
+        icon: "/insurance-icons/contractor-plant-machinery-4.png",
         description:
           "Affordable way to secure high-value construction equipment.",
       },
@@ -2240,22 +2312,22 @@ export const servicesData = [
     features: [
       {
         title: "Performance Assurance",
-        icon: "",
+        icon: "/insurance-icons/surety-bond-insurance-1.png",
         description: "Guarantees completion of contractual obligations.",
       },
       {
         title: "Project Completion Security",
-        icon: "",
+        icon: "/insurance-icons/surety-bond-insurance-2.png",
         description: "Ensures timely and proper execution of projects.",
       },
       {
         title: "Multi-Project Support",
-        icon: "",
+        icon: "/insurance-icons/surety-bond-insurance-3.png",
         description: "Allows coverage across multiple ongoing contracts.",
       },
       {
         title: "Credibility Booster",
-        icon: "",
+        icon: "/insurance-icons/surety-bond-insurance-4.png",
         description: "Improves trust and eligibility for large contracts.",
       },
     ],
@@ -2303,25 +2375,25 @@ export const servicesData = [
     features: [
       {
         title: "Professional Protection Cover",
-        icon: "",
+        icon: "/insurance-icons/errors-and-omissions-1.png",
         description:
           "Covers risks arising from errors in services or professional advice.",
       },
       {
         title: "Legal Expense Cover",
-        icon: "",
+        icon: "/insurance-icons/errors-and-omissions-2.png",
         description:
           "Pays for lawyer fees and court expenses in legal disputes.",
       },
       {
         title: "Industry-Specific Protection",
-        icon: "",
+        icon: "/insurance-icons/errors-and-omissions-3.png",
         description:
           "Suitable for consultants, IT, legal, finance, and architects.",
       },
       {
         title: "Client Dispute Protection",
-        icon: "",
+        icon: "/insurance-icons/errors-and-omissions-4.png",
         description: "Covers financial claims from dissatisfied clients.",
       },
     ],
@@ -2369,24 +2441,24 @@ export const servicesData = [
     features: [
       {
         title: "Breach of Duty Cover",
-        icon: "",
+        icon: "/insurance-icons/professional-indemnity-1.png",
         description:
           "Protects against failure to meet expected standards of care by professionals and service providers.",
       },
       {
         title: "Growth Enablement",
-        icon: "",
+        icon: "/insurance-icons/professional-indemnity-2.png",
         description: "Helps you take bigger projects confidently.",
       },
       {
         title: "Risk Mitigation Tool",
-        icon: "",
+        icon: "/insurance-icons/professional-indemnity-3.png",
         description:
           "Acts as a financial safety net for professional practice.",
       },
       {
         title: "Customizable Coverage",
-        icon: "",
+        icon: "/insurance-icons/professional-indemnity-4.png",
         description: "Tailored limits based on profession.",
       },
     ],
@@ -2433,23 +2505,23 @@ export const servicesData = [
     features: [
       {
         title: "Single Policy Cover",
-        icon: "",
+        icon: "/insurance-icons/fleet-insurance-1.png",
         description:
           "One plan to insure all your business vehicles effortlessly.",
       },
       {
         title: "Cost Efficiency",
-        icon: "",
+        icon: "/insurance-icons/fleet-insurance-2.png",
         description: "Save more with bulk insurance and reduced premiums.",
       },
       {
         title: "Digital Fleet Management",
-        icon: "",
+        icon: "/insurance-icons/fleet-insurance-3.png",
         description: "Centralized monitoring and policy control.",
       },
       {
         title: "Reduced Risk Exposure",
-        icon: "",
+        icon: "/insurance-icons/fleet-insurance-4.png",
         description: "Minimizes financial losses across your entire fleet.",
       },
     ],
@@ -2497,23 +2569,23 @@ export const servicesData = [
     features: [
       {
         title: "Cash & Asset Security",
-        icon: "",
+        icon: "/insurance-icons/shop-owner-insurance-1.png",
         description: "Protection for cash, furniture, fixtures, and equipment.",
       },
       {
         title: "Customizable Plans",
-        icon: "",
+        icon: "/insurance-icons/shop-owner-insurance-2.png",
         description: "Tailor coverage based on your shop’s unique needs.",
       },
       {
         title: "Contents Protection",
-        icon: "",
+        icon: "/insurance-icons/shop-owner-insurance-3.png",
         description:
           "Covers furniture, fixtures, and equipment inside the shop.",
       },
       {
         title: "Secure Business Continuity",
-        icon: "",
+        icon: "/insurance-icons/shop-owner-insurance-4.png",
         description: "Ensures stability even during disruptions.",
       },
     ],
@@ -2561,22 +2633,22 @@ export const servicesData = [
     features: [
       {
         title: "Trusted Risk Partner",
-        icon: "",
+        icon: "/insurance-icons/office-package-policy-1.png",
         description: "Reliable protection for your growing business.",
       },
       {
         title: "Asset Replacement Support",
-        icon: "",
+        icon: "/insurance-icons/office-package-policy-2.png",
         description: "Ensures quick repair or replacement of damaged items.",
       },
       {
         title: "Growth-Ready Protection",
-        icon: "",
+        icon: "/insurance-icons/office-package-policy-3.png",
         description: "Designed to support scaling businesses.",
       },
       {
         title: "Transparent Terms",
-        icon: "",
+        icon: "/insurance-icons/office-package-policy-4.png",
         description: "Clear coverage with no hidden conditions.",
       },
     ],
@@ -2625,19 +2697,26 @@ export const servicesData = [
       "Mutual funds offer a versatile way to participate in equity, debt, or hybrid markets — guided by robust research and diversified exposure. We curate fund baskets that match your life goals, tax needs, and comfort with volatility, so your investments compound meaningfully over the long term. With us, SIPs become more than monthly deductions; they become milestones toward your financial aspirations.",
     features: [
       {
-        title: "Goal Alignment",
-        icon: "",
+        title: "Goal Based Investing",
+        icon: "/insurance-icons/mutual-funds-1.png",
         description: "Funds selected to match specific financial goals.",
       },
       {
         title: "Risk Profiling",
-        icon: "",
+        icon: "/insurance-icons/mutual-funds-2.png",
         description: "Portfolios tailored to your risk tolerance.",
       },
       {
         title: "Regular Monitoring",
-        icon: "",
-        description: "Periodic reviews to ensure performance.",
+        icon: "/insurance-icons/mutual-funds-3.png",
+        description:
+          "Periodic reviews to track performance and make informed adjustments.",
+      },
+      {
+        title: "SIP Discipline",
+        icon: "/insurance-icons/mutual-funds-4.png",
+        description:
+          "Encourages consistent investing habits to build long-term wealth through systematic contributions.",
       },
     ],
     faq: [
@@ -2681,32 +2760,32 @@ export const servicesData = [
     tagline: "Build Wealth with Discipline, Not Timing",
     description:
       "A Systematic Investment Plan (SIP) is a disciplined way to invest in mutual funds by contributing a fixed amount regularly instead of a lump sum. It helps you stay invested consistently without worrying about market timing, making it ideal for long-term wealth creation. \n SIP works on the principle of compounding, where your returns generate further returns over time, creating steady and exponential growth. It also benefits from rupee cost averaging, as you buy more units when prices are low and fewer when prices are high, helping reduce the impact of market volatility. The advantage is that you can start with a small amount and gradually increase your investment as your income grows, making it suitable for individuals at every stage of their financial journey. \n Whether you are planning for retirement, your child’s education or overall wealth creation, SIP provides a structured and goal-oriented approach to investing.",
-    features: [
-      {
-        title: "Compounding Growth",
-        icon: "",
-        description:
-          "Wealth builds over time as your earnings generate additional returns.",
-      },
-      {
-        title: "Cost Averaging Benefit",
-        icon: "",
-        description:
-          "Reduces average investment cost by investing regularly in different market conditions.",
-      },
-      {
-        title: "Disciplined Investing",
-        icon: "",
-        description:
-          "Builds strong financial habits through regular and structured investments.",
-      },
-      {
-        title: "Goal-Based Planning",
-        icon: "",
-        description:
-          "Align your investments with life goals like retirement, education, and wealth creation.",
-      },
-    ],
+      features: [
+        {
+          title: "Compounding Growth",
+          icon: "/insurance-icons/systematic-investment-plan-1.png",
+          description:
+            "Wealth builds over time as your earnings generate additional returns.",
+        },
+        {
+          title: "Cost Averaging Benefit",
+          icon: "/insurance-icons/systematic-investment-plan-2.png",
+          description:
+            "Reduces average investment cost by investing regularly in different market conditions.",
+        },
+        {
+          title: "Disciplined Investing",
+          icon: "/insurance-icons/systematic-investment-plan-3.png",
+          description:
+            "Builds strong financial habits through regular and structured investments.",
+        },
+        {
+          title: "Goal-Based Planning",
+          icon: "/insurance-icons/systematic-investment-plan-4.png",
+          description:
+            "Align your investments with life goals like retirement, education, and wealth creation.",
+        },
+      ],
     faq: [
       {
         question: "What is the ideal duration for SIP investment?",
@@ -2747,32 +2826,32 @@ export const servicesData = [
     tagline: "Create a Regular Income from Your Investments",
     description:
       "A Systematic Withdrawal Plan (SWP) is a smart way to generate regular income from your investments while keeping the remaining corpus invested. It allows you to withdraw a fixed amount at chosen intervals—monthly, quarterly, or annually—ensuring steady cash flow without redeeming the entire investment at once. SWPs are particularly useful for retirees or investors seeking passive income, as they offer flexibility, tax efficiency, and the potential for continued capital growth. With the right strategy and fund selection, an SWP helps balance income needs with long-term wealth preservation.",
-    features: [
-      {
-        title: "Regular Income Flow",
-        icon: "",
-        description:
-          "Receive a steady payout at fixed intervals without redeeming your entire investment.",
-      },
-      {
-        title: "Wealth Continuity",
-        icon: "",
-        description:
-          "Keep your remaining funds invested to continue benefiting from market growth.",
-      },
-      {
-        title: "Tax Efficiency",
-        icon: "",
-        description:
-          "Withdraw smartly with potential tax advantages compared to traditional income options.",
-      },
-      {
-        title: "Flexible Withdrawals",
-        icon: "",
-        description:
-          "Choose your withdrawal amount and frequency as per your financial needs.",
-      },
-    ],
+      features: [
+        {
+          title: "Regular Income Flow",
+          icon: "/insurance-icons/systematic-withdrawal-plan-1.png",
+          description:
+            "Receive a steady payout at fixed intervals without redeeming your entire investment.",
+        },
+        {
+          title: "Wealth Continuity",
+          icon: "/insurance-icons/systematic-withdrawal-plan-2.png",
+          description:
+            "Keep your remaining funds invested to continue benefiting from market growth.",
+        },
+        {
+          title: "Tax Efficiency",
+          icon: "/insurance-icons/systematic-withdrawal-plan-3.png",
+          description:
+            "Withdraw smartly with potential tax advantages compared to traditional income options.",
+        },
+        {
+          title: "Flexible Withdrawals",
+          icon: "/insurance-icons/systematic-withdrawal-plan-4.png",
+          description:
+            "Choose your withdrawal amount and frequency as per your financial needs.",
+        },
+      ],
     faq: [
       {
         question: "Are there exit loads in SWP?",
@@ -2813,32 +2892,32 @@ export const servicesData = [
     tagline: "Transfer Smartly, Invest Strategically",
     description:
       "A Systematic Transfer Plan (STP) is a mutual fund facility that allows you to transfer a fixed amount from one fund to another at regular intervals, typically from a low-risk debt fund to a higher-growth equity fund. It helps you invest gradually instead of deploying a lump sum at once. \n STP reduces market timing risk by spreading investments over time, while your funds parked in safer options continue to earn returns. It brings discipline and consistency, ensuring a structured approach to investing. It allows you to choose the transfer amount and frequency based on your needs, making it ideal for managing large investments efficiently.",
-    features: [
-      {
-        title: "Gradual Investment",
-        icon: "",
-        description:
-          "Transfer funds systematically to reduce the risk of investing a lump sum at once.",
-      },
-      {
-        title: "Risk Management",
-        icon: "",
-        description:
-          "Gradually shifts investments from low-risk to high-growth funds to balance stability and returns, or vice versa.",
-      },
-      {
-        title: "Flexibility of Amount",
-        icon: "",
-        description:
-          "Allows customization of transfer value and frequency as per your investment needs.",
-      },
-      {
-        title: "Strategic Allocation",
-        icon: "",
-        description:
-          "Ensures efficient distribution of assets across fund categories for optimal portfolio growth.",
-      },
-    ],
+      features: [
+        {
+          title: "Gradual Investment",
+          icon: "/insurance-icons/systematic-transfer-plan-1.png",
+          description:
+            "Transfer funds systematically to reduce the risk of investing a lump sum at once.",
+        },
+        {
+          title: "Risk Management",
+          icon: "/insurance-icons/systematic-transfer-plan-2.png",
+          description:
+            "Gradually shifts investments from low-risk to high-growth funds to balance stability and returns, or vice versa.",
+        },
+        {
+          title: "Flexibility of Amount",
+          icon: "/insurance-icons/systematic-transfer-plan-3.png",
+          description:
+            "Allows customization of transfer value and frequency as per your investment needs.",
+        },
+        {
+          title: "Strategic Allocation",
+          icon: "/insurance-icons/systematic-transfer-plan-4.png",
+          description:
+            "Ensures efficient distribution of assets across fund categories for optimal portfolio growth.",
+        },
+      ],
     faq: [
       {
         question: "Which funds are used in STP?",
@@ -2882,22 +2961,22 @@ export const servicesData = [
     features: [
       {
         title: "Active Portfolio Monitoring",
-        icon: "",
+        icon: "/insurance-icons/specialised-investment-fund-1.png",
         description: "Continuous review and rebalancing of investments.",
       },
       {
         title: "Goal-Oriented Structuring",
-        icon: "",
+        icon: "/insurance-icons/specialised-investment-fund-2.png",
         description: "Designed to match specific investment objectives.",
       },
       {
         title: "Diversified Strategies",
-        icon: "",
+        icon: "/insurance-icons/specialised-investment-fund-3.png",
         description: "Invests across multiple strategies.",
       },
       {
         title: "Sophisticated Investment Framework",
-        icon: "",
+        icon: "/insurance-icons/specialised-investment-fund-4.png",
         description: "Built for complex and high-value portfolios.",
       },
     ],
@@ -2944,18 +3023,25 @@ export const servicesData = [
     features: [
       {
         title: "Capital Preservation",
-        icon: "",
+        icon: "/insurance-icons/bonds-1.png",
         description: "Focus on safety of principal.",
       },
       {
         title: "Predictable Income",
-        icon: "",
+        icon: "/insurance-icons/bonds-2.png",
         description: "Regular interest payouts.",
       },
       {
         title: "Diverse Options",
-        icon: "",
-        description: "Govt bonds, corporate bonds, and tax-free bonds.",
+        icon: "/insurance-icons/bonds-3.png",
+        description:
+          "Government Bonds, Corporate Bonds, Tax-Free Bonds, RBI Bonds, Sovereign Gold Bonds, Municipal Bonds.",
+      },
+      {
+        title: "Goal-Based Investing",
+        icon: "/insurance-icons/bonds-4.png",
+        description:
+          "Suitable for retirement and income planning.",
       },
     ],
     faq: [
@@ -3001,19 +3087,25 @@ export const servicesData = [
       "For larger portfolios, PMS goes beyond standard allocation to deliver personalized, high-conviction investing. We collaborate with top PMS providers to craft portfolios that align with your unique financial blueprint — considering your liquidity needs, legacy goals, and appetite for concentrated bets. It’s an approach where your wealth doesn’t just grow, it evolves intentionally, stewarded by seasoned experts.",
     features: [
       {
-        title: "Focused Portfolios",
-        icon: "",
+        title: "Focused Portfolio",
+        icon: "/insurance-icons/portfolio-management-services-1.png",
         description: "High-conviction bets on specific themes or sectors.",
       },
       {
         title: "Active Management",
-        icon: "",
+        icon: "/insurance-icons/portfolio-management-services-2.png",
         description: "Dynamic adjustments based on market conditions.",
       },
       {
         title: "Transparency",
-        icon: "",
+        icon: "/insurance-icons/portfolio-management-services-3.png",
         description: "Direct ownership of securities in your name.",
+      },
+      {
+        title: "Strategic Wealth Building",
+        icon: "/insurance-icons/portfolio-management-services-4.png",
+        description:
+          "A refined approach to long-term wealth creation.",
       },
     ],
     faq: [
@@ -3060,18 +3152,24 @@ export const servicesData = [
     features: [
       {
         title: "Exclusive Access",
-        icon: "",
+        icon: "/insurance-icons/alternative-investment-funds-1.png",
         description: "Participate in PE, VC, and private credit deals.",
       },
       {
         title: "Uncorrelated Returns",
-        icon: "",
+        icon: "/insurance-icons/alternative-investment-funds-2.png",
         description: "Performance often independent of stock market moves.",
       },
       {
         title: "Sophisticated Strategies",
-        icon: "",
+        icon: "/insurance-icons/alternative-investment-funds-3.png",
         description: "Long-short, arbitrage, and other hedge fund strategies.",
+      },
+      {
+        title: "Strategic Wealth Positioning",
+        icon: "/insurance-icons/alternative-investment-funds-4.png",
+        description:
+          "Builds long-term capital appreciation through curated opportunities.",
       },
     ],
     faq: [
@@ -3116,19 +3214,25 @@ export const servicesData = [
       "Some opportunities never appear on stock tickers. They live in boardrooms of high-growth companies still charting their scale-up journeys—fintech leaders yet to list, consumer brands preparing for IPO, or late-stage startups opening pre-IPO rounds.\nFinask Value, we bridge you to these curated unlisted plays—Because accessing these deals requires more than capital—it demands relationships, diligence, and precise timing. We assess financials, business models, and sector outlooks, structure your entry for optimal eventual liquidity, and align this exposure with your overall portfolio—so private equity remains a complement, not a risk amplifier.",
     features: [
       {
-        title: "Pre-IPO Access",
-        icon: "",
+        title: "Pre- IPO Access",
+        icon: "/insurance-icons/unlisted-equity-1.png",
         description: "Invest in companies before they list on exchanges.",
       },
       {
         title: "High Growth Potential",
-        icon: "",
+        icon: "/insurance-icons/unlisted-equity-2.png",
         description: "Capture value creation during the private phase.",
       },
       {
         title: "Strategic Diversification",
-        icon: "",
+        icon: "/insurance-icons/unlisted-equity-3.png",
         description: "Exposure to new-age sectors.",
+      },
+      {
+        title: "Relationship-Driven Access",
+        icon: "/insurance-icons/unlisted-equity-4.png",
+        description:
+          "Leverage networks and insights to unlock premium deals.",
       },
     ],
     faq: [
@@ -3172,23 +3276,29 @@ export const servicesData = [
       "Because Real Estate Returns Should Not Require Real Estate Headaches",
     description:
       "Real Estate Investment Trusts (REITs)  offer a seamless way to invest in large-scale, income-generating real estate—such as malls, office parks, residential properties and logistics centers—without buying property outright. Traded like stocks, these trusts blend the tangibility of real estate with the convenience and liquidity of modern investing.\n Finask Value helps you integrate REITs into your portfolio as a stable, yield-generating asset class with long-term upside and regular payouts.\n Build your portfolio with concrete value—without laying a single brick.",
-    features: [
-      {
-        title: "Corpus Calculation",
-        icon: "",
-        description: "Estimating the amount needed for your desired lifestyle.",
-      },
-      {
-        title: "Income Strategy",
-        icon: "",
-        description: "Creating a reliable stream of post-retirement income.",
-      },
-      {
-        title: "Healthcare Planning",
-        icon: "",
-        description: "Ensuring adequate cover for medical needs.",
-      },
-    ],
+      features: [
+        {
+          title: "Corpus Calculation",
+          icon: "/insurance-icons/reit-1.png",
+          description: "Estimates the amount needed for your desired lifestyle.",
+        },
+        {
+          title: "Income Strategy",
+          icon: "/insurance-icons/reit-2.png",
+          description: "Creates a reliable post-retirement income stream.",
+        },
+        {
+          title: "Portfolio Balance",
+          icon: "/insurance-icons/reit-3.png",
+          description:
+            "Complement equities and debt with yield-focused assets.",
+        },
+        {
+          title: "Expert Advisory Support",
+          icon: "/insurance-icons/reit-4.png",
+          description: "Optimizes returns and manage risks effectively.",
+        },
+      ],
     faq: [
       {
         question: "Are REITs good during inflation?",
@@ -3229,23 +3339,32 @@ export const servicesData = [
     tagline: "Because Progress Should Not Just Be Admired — It Should Be Owned",
     description:
       "Infrastructure Investment Trusts (InvITs) are a modern investment avenue that allow investors to participate in income-generating infrastructure assets such as roads, power transmission projects and renewable energy. It is designed to offer stable and predictable cash flows and distribute a significant portion of earnings to investors, making them an attractive option for those seeking regular income along with potential capital appreciation. They combine the benefits of infrastructure investing with the liquidity of market-linked instruments, providing transparency, diversification and professional management. For investors looking to add a steady income-generating asset class to their portfolio, InvITs can play a strategic role in long-term wealth creation. ",
-    features: [
-      {
-        title: "Stable Cash Flows",
-        icon: "",
-        description: "Revenue from operational infrastructure assets.",
-      },
-      {
-        title: "Nation Building",
-        icon: "",
-        description: "Invest in India's growth story.",
-      },
-      {
-        title: "Yield Oriented",
-        icon: "",
-        description: "Focus on regular income distribution.",
-      },
-    ],
+      features: [
+        {
+          title: "Predictable Cash Flows",
+          icon: "/insurance-icons/invits-1.png",
+          description:
+            "Earn stable income from operational infrastructure project.",
+        },
+        {
+          title: "Long-Term Growth Potential",
+          icon: "/insurance-icons/invits-2.png",
+          description:
+            "Benefit from India's expanding infrastructure ecosystem.",
+        },
+        {
+          title: "Renewable & Future Assets",
+          icon: "/insurance-icons/invits-3.png",
+          description:
+            "Gain exposure to sustainable energy and modern infrastructure.",
+        },
+        {
+          title: "Regulated & Transparent",
+          icon: "/insurance-icons/invits-4.png",
+          description:
+            "Invest in SEBI-governed structures with clear disclosures.",
+        },
+      ],
     faq: [
       {
         question: "What is the structure of an InvIT?",
@@ -3287,23 +3406,32 @@ export const servicesData = [
     tagline: "Because Progress Should Not Require Owning the Whole Skyline",
     description:
       "It is an innovative investment solution that allows investors to own a share of high-quality, income-generating commercial properties such as office spaces, warehouses, and retail assets without the need for large capital outlays. By pooling funds with other investors, you gain access to premium real estate opportunities that were traditionally available only to large institutions or HNI investors. This asset class offers the potential for stable rental income, capital appreciation, and portfolio diversification. With professional management, transparency and lower entry barriers, fractional ownership makes commercial real estate more accessible, efficient and aligned with modern investment needs.",
-    features: [
-      {
-        title: "Corpus Calculation",
-        icon: "",
-        description: "Estimating the amount needed for your desired lifestyle.",
-      },
-      {
-        title: "Income Strategy",
-        icon: "",
-        description: "Creating a reliable stream of post-retirement income.",
-      },
-      {
-        title: "Healthcare Planning",
-        icon: "",
-        description: "Ensuring adequate cover for medical needs.",
-      },
-    ],
+      features: [
+        {
+          title: "Diversified Real Asset Exposure",
+          icon: "/insurance-icons/fractional-commercial-real-estate-1.png",
+          description:
+            "Balance your portfolio with real estate and infrastructure investments.",
+        },
+        {
+          title: "Curated Investment Opportunities",
+          icon: "/insurance-icons/fractional-commercial-real-estate-2.png",
+          description:
+            "Handpicked deals backed by expert diligence and analysis.",
+        },
+        {
+          title: "Capital Appreciation Potential",
+          icon: "/insurance-icons/fractional-commercial-real-estate-3.png",
+          description:
+            "Benefit from long-term value growth of prime real assets.",
+        },
+        {
+          title: "Own Premium Assets Fractionally",
+          icon: "/insurance-icons/fractional-commercial-real-estate-4.png",
+          description:
+            "Invest in Grade-A commercial properties without full ownership.",
+        },
+      ],
     faq: [
       {
         question: "How does Fractional Ownership work?",
@@ -3344,23 +3472,28 @@ export const servicesData = [
     tagline: "Elevating Fixed Income with Thoughtful Innovation",
     description:
       "Not every investor is drawn to the pulse of markets. Many seek stable, predictable returns—but wish to surpass traditional fixed deposit yields. Peer-to-Peer Lending, when curated and monitored diligently, offers such an elegant middle path. \n At FinAsk Value, we approach P2P Lending as a structured fixed income strategy—not a speculative tech fad. Whether you are a retiree desiring monthly income, a professional diversifying surplus or an HNI layering alternative fixed income alongside bonds and FDRs, P2P Lending can complement your strategy. \n We handle everything from platform selection and borrower diversification to ongoing risk monitoring, so your fixed income evolves with clarity and calm.",
-    features: [
-      {
-        title: "Enhanced Yields",
-        icon: "",
-        description: "Returns typically ranging from 10-12%.",
-      },
-      {
-        title: "Diversification",
-        icon: "",
-        description: "Spread risk across hundreds of borrowers.",
-      },
-      {
-        title: "Monthly Income",
-        icon: "",
-        description: "Options for regular monthly payouts.",
-      },
-    ],
+      features: [
+        {
+          title: "Enhance Yields",
+          icon: "/insurance-icons/peer-to-peer-lending-1.png",
+          description: "Returns typically ranging from 10-12%.",
+        },
+        {
+          title: "Diversification",
+          icon: "/insurance-icons/peer-to-peer-lending-2.png",
+          description: "Spread risk across hundreds of borrowers.",
+        },
+        {
+          title: "Monthly Income",
+          icon: "/insurance-icons/peer-to-peer-lending-3.png",
+          description: "Options for regular monthly payouts.",
+        },
+        {
+          title: "Transparent & Monitored Process",
+          icon: "/insurance-icons/peer-to-peer-lending-4.png",
+          description: "Track performance with clarity and ongoing oversight.",
+        },
+      ],
     faq: [
       {
         question: "How does P2P Lending work?",
@@ -3401,24 +3534,32 @@ export const servicesData = [
     tagline: "When Smart Innovation Meets Predictable Returns",
     description:
       "Fixed income doesn’t have to be monotonous. Beyond bonds and deposits lie avenues like Market-Linked Debentures, Invoice Discounting, and tech-driven supply chain finance—each crafted to generate 9%–14% returns while balancing varying degrees of liquidity and risk.\nFinask Value, we make this universe approachable. We vet platforms, examine issuer balance sheets, and design diversified allocations so you can benefit from structured income without undue exposure. Because true wealth stewardship means knowing how to weave traditional and alternative fabrics into a single, resilient financial tapestry.",
-    features: [
-      {
-        title: "Market Linked Debentures",
-        icon: "",
-        description:
-          "Returns linked to market performance with capital protection.",
-      },
-      {
-        title: "Invoice Discounting",
-        icon: "",
-        description: "Short-term working capital finance.",
-      },
-      {
-        title: "Supply Chain Finance",
-        icon: "",
-        description: "Funding vendor payments for corporates.",
-      },
-    ],
+      features: [
+        {
+          title: "Capital Preservation",
+          icon: "/insurance-icons/alternative-fixed-income-1.png",
+          description:
+            "Investment approach focused on protecting principal while generating stable returns.",
+        },
+        {
+          title: "Invoice Discounting",
+          icon: "/insurance-icons/alternative-fixed-income-2.png",
+          description:
+            "Short-term financing by unlocking liquidity against unpaid invoices to improve cash flow.",
+        },
+        {
+          title: "Supply Chain Finance",
+          icon: "/insurance-icons/alternative-fixed-income-3.png",
+          description:
+            "Funding structured vendor payment cycles to optimize corporate working capital.",
+        },
+        {
+          title: "Structured Income Solutions",
+          icon: "/insurance-icons/alternative-fixed-income-4.png",
+          description:
+            "Customized investment structures designed to deliver predictable, periodic cash flows.",
+        },
+      ],
     faq: [
       {
         question:
@@ -3462,23 +3603,29 @@ export const servicesData = [
     tagline: "Combining Familiar Stability with Enhanced Yield",
     description:
       "For many investors, fixed deposits have long signified financial prudence. Yet traditional bank FDs often underperform inflation. Corporate FDRs offer a refined alternative—delivering higher yields through reputable NBFCs and corporates, backed by rigorous credit ratings.\nFinask Value, we navigate this terrain carefully. Because with fixed income, it’s not just about rates—it’s about safeguarding stability with informed discretion.",
-    features: [
-      {
-        title: "Higher Rates",
-        icon: "",
-        description: "Better returns than traditional bank deposits.",
-      },
-      {
-        title: "Rated Safety",
-        icon: "",
-        description: "Focus on AAA/AA rated issuers.",
-      },
-      {
-        title: "Flexible Tenure",
-        icon: "",
-        description: "Options ranging from 1 to 5 years.",
-      },
-    ],
+      features: [
+        {
+          title: "Higher Rates",
+          icon: "/insurance-icons/corporate-fixed-deposits-1.png",
+          description: "Better returns than traditional bank deposits.",
+        },
+        {
+          title: "Rated Safety",
+          icon: "/insurance-icons/corporate-fixed-deposits-2.png",
+          description: "Focus on AAA/AA rated issuers.",
+        },
+        {
+          title: "Flexible Tenure",
+          icon: "/insurance-icons/corporate-fixed-deposits-3.png",
+          description: "Options ranging from 1 to 5 years.",
+        },
+        {
+          title: "Capital Stability",
+          icon: "/insurance-icons/corporate-fixed-deposits-4.png",
+          description:
+            "Prioritise safety while enhancing fixed income returns.",
+        },
+      ],
     faq: [
       {
         question: "How are Corporate FDRs different from Bank FDs?",
@@ -3519,23 +3666,29 @@ export const servicesData = [
     tagline: "Opening Global Doors, Seamlessly Within India",
     description:
       "It is India’s first operational International Financial Services Centre which designed to position the country as a global financial hub. It offers a world-class ecosystem for financial services, including offshore investments, banking, insurance and fund management, all within a highly regulated and tax-efficient environment with benefits such as tax incentives, ease of doing business and access to global markets in foreign currency.  \n It provides investors and institutions a unique opportunity to diversify internationally while operating from India. For forward-looking investors, it represents a gateway to global investing with enhanced efficiency, transparency and regulatory support.",
-    features: [
-      {
-        title: "Tax Efficiency",
-        icon: "",
-        description: "Exemptions on certain capital gains and interest income.",
-      },
-      {
-        title: "Dollar Assets",
-        icon: "",
-        description: "Invest in USD denominated assets.",
-      },
-      {
-        title: "Ease of Access",
-        icon: "",
-        description: "No PIS hassles or complex foreign compliance.",
-      },
-    ],
+      features: [
+        {
+          title: "Tax Efficiency",
+          icon: "/insurance-icons/gift-city-1.png",
+          description: "Exemptions on certain capital gains and interest income.",
+        },
+        {
+          title: "Dollar Assets",
+          icon: "/insurance-icons/gift-city-2.png",
+          description: "Invest in USD denominated assets.",
+        },
+        {
+          title: "Ease of Access",
+          icon: "/insurance-icons/gift-city-3.png",
+          description: "No PIS hassles or complex foreign compliance.",
+        },
+        {
+          title: "Global Financial Hub Ecosystem",
+          icon: "/insurance-icons/gift-city-4.png",
+          description:
+            "Supports offshore investments, banking, insurance, and fund management.",
+        },
+      ],
     faq: [
       {
         question: "Who can invest in Gift City?",
@@ -3576,23 +3729,29 @@ export const servicesData = [
     tagline: "Because Modern Aspirations Still Treasure Timeless Wealth",
     description:
       "E-Gold lets you build your gold holdings digitally — no safes, no insurance worries, no purity concerns. Buy as little as a gram or as much as your milestones demand, all secured in vaulted assurance and ready for cash redemption or jewellery conversion when your heart desires.\n\nIt’s tradition, transformed for today, making sure your portfolio shines with both heritage and hassle-free liquidity.\n\nFinask Value, we help you integrate E-Gold seamlessly into your broader financial goals—whether it’s gifting with grace, saving for a future wedding, or simply balancing your asset mix with a timeless hedge. With 24K purity, full transparency, and the power of automation through SIPs, E-Gold becomes more than just a commodity—it becomes a modern heirloom in the making, one digital gram at a time.",
-    features: [
-      {
-        title: "Safety & Purity",
-        icon: "",
-        description: "24K gold stored in secure vaults.",
-      },
-      {
-        title: "Liquidity",
-        icon: "",
-        description: "Easy to buy and sell digitally.",
-      },
-      {
-        title: "SIP Option",
-        icon: "",
-        description: "Accumulate gold systematically.",
-      },
-    ],
+      features: [
+        {
+          title: "Safety & Purity",
+          icon: "/insurance-icons/e-gold-1.png",
+          description: "24K Gold stored in secure vaults.",
+        },
+        {
+          title: "Liquidity",
+          icon: "/insurance-icons/e-gold-2.png",
+          description: "Easy to buy and sell digitally.",
+        },
+        {
+          title: "SIP Option",
+          icon: "/insurance-icons/e-gold-3.png",
+          description: "Accumulate gold systematically.",
+        },
+        {
+          title: "Digital Gold Ownership",
+          icon: "/insurance-icons/e-gold-4.png",
+          description:
+            "Invest in 24K Gold without physical storage hassles.",
+        },
+      ],
     faq: [
       {
         question: "How is E-Gold different from physical gold?",
@@ -3636,18 +3795,23 @@ export const servicesData = [
     features: [
       {
         title: "Tax Efficiency",
-        icon: "",
+        icon: "/insurance-icons/national-pension-system-1.png",
         description: "Additional deduction of ₹50,000 under 80CCD(1B).",
       },
       {
         title: "Low Cost",
-        icon: "",
+        icon: "/insurance-icons/national-pension-system-2.png",
         description: "One of the lowest cost investment products globally.",
       },
       {
         title: "Market Linked",
-        icon: "",
+        icon: "/insurance-icons/national-pension-system-3.png",
         description: "Option to invest in equity for higher long-term returns.",
+      },
+      {
+        title: "Customized Asset Allocation",
+        icon: "/insurance-icons/national-pension-system-4.png",
+        description: "Align equity and debt exposure with your age and goals.",
       },
     ],
     faq: [
@@ -3693,19 +3857,25 @@ export const servicesData = [
     features: [
       {
         title: "Research Backed",
-        icon: "",
+        icon: "/insurance-icons/stock-broking-1.png",
         description:
           "Recommendations based on fundamental and technical analysis.",
       },
       {
         title: "Personalized Guidance",
-        icon: "",
+        icon: "/insurance-icons/stock-broking-2.png",
         description: "Strategies tailored to your risk profile.",
       },
       {
         title: "Seamless Execution",
-        icon: "",
+        icon: "/insurance-icons/stock-broking-3.png",
         description: "Advanced platforms for easy trading.",
+      },
+      {
+        title: "Disciplined Investment Approach",
+        icon: "/insurance-icons/stock-broking-4.png",
+        description:
+          "Focus on long-term wealth creation over short-term speculation.",
       },
     ],
     faq: [
@@ -3751,21 +3921,26 @@ export const servicesData = [
     features: [
       {
         title: "Instant Liquidity",
-        icon: "",
+        icon: "/insurance-icons/loan-against-securities-1.png",
         description:
           "Access funds quickly by leveraging your investments without lengthy loan processes.",
       },
       {
-        title: "Keep Investments Intact",
-        icon: "",
+        title: "Portfolio Protection",
+        icon: "/insurance-icons/loan-against-securities-2.png",
         description:
           "Your mutual funds and shares remain invested, allowing you to benefit from potential market growth.",
       },
       {
         title: "Lower Borrowing Cost",
-        icon: "",
+        icon: "/insurance-icons/loan-against-securities-3.png",
         description:
           "Loans against securities often come with lower interest rates than personal loans or credit cards.",
+      },
+      {
+        title: "No Asset Liquidation Required",
+        icon: "/insurance-icons/loan-against-securities-4.png",
+        description: "Avoid Capital Gains Tax by retaining investments.",
       },
     ],
     faq: [
@@ -3879,19 +4054,28 @@ export const servicesData = [
       "True wealth extends beyond mere accumulation; it is measured by how thoughtfully it is preserved and how purposefully it is passed on. For families, business owners, and philanthropists alike, establishing a trust remains one of the most nuanced tools to secure a legacy — ensuring your assets are protected, your intentions honored, and your loved ones provided for without complication or conflict.\nA trust legally transfers assets from you, the settlor, to chosen trustees, who hold and manage these for beneficiaries under carefully designed terms. From private family trusts that prioritize multi-generational wealth transfer, to irrevocable structures that shield assets from potential liabilities, to discretionary models that offer flexibility in distributions — each trust serves as a bespoke safeguard for what matters most.\nFinask Value, we coordinate the entire journey — advising on trust structures, engaging premier legal partners, ensuring regulatory compliance, and guiding you through post-formation nuances such as audits and trustee management. Because for legacies to last, they must be built on clarity, control, and confidence.",
     features: [
       {
-        title: "Asset Protection",
-        icon: "",
-        description: "Shield assets from creditors and liabilities.",
+        title: "Wealth Protection",
+        icon: "/insurance-icons/trust-formation-1.png",
+        description:
+          "Safeguard your assets against risks, liabilities, and uncertainties.",
       },
       {
-        title: "Control",
-        icon: "",
-        description: "Define how and when beneficiaries receive assets.",
+        title: "Asset Security",
+        icon: "/insurance-icons/trust-formation-2.png",
+        description:
+          "Create legally robust frameworks to protect what matters most.",
       },
       {
-        title: "Succession",
-        icon: "",
-        description: "Smooth transfer of wealth across generations.",
+        title: "Trustee Management",
+        icon: "/insurance-icons/trust-formation-3.png",
+        description:
+          "Professional oversight to ensure smooth execution and compliance.",
+      },
+      {
+        title: "Philanthropic Planning",
+        icon: "/insurance-icons/trust-formation-4.png",
+        description:
+          "Channel your wealth into meaningful social impact with structured giving.",
       },
     ],
     faq: [
@@ -3934,23 +4118,28 @@ export const servicesData = [
     tagline: "A Gentle Blueprint for Lasting Peace",
     description:
       "A lifetime of diligence deserves more than just fond memories; it deserves clear direction. Yet, many individuals delay writing a will, inadvertently leaving behind a maze of legal uncertainties and emotional strain for those they cherish most.\nFinask Value, we bring empathy and expertise together to simplify the process of creating a will that’s both legally robust and deeply personal. By clearly outlining how your assets — from properties and investments to heirlooms and guardianships — should be distributed, a well-crafted will ensures your family navigates the future with certainty, not confusion.\nWe view will writing not as a somber task, but as an empowering opportunity to guide your family with love and forethought — ensuring they receive your wealth with gratitude, not grievances.",
-    features: [
-      {
-        title: "Legal Clarity",
-        icon: "",
-        description: "Avoid ambiguity and legal disputes.",
-      },
-      {
-        title: "Asset Distribution",
-        icon: "",
-        description: "Ensure assets go to the intended beneficiaries.",
-      },
-      {
-        title: "Guardianship",
-        icon: "",
-        description: "Appoint guardians for minor children.",
-      },
-    ],
+      features: [
+        {
+          title: "Legal Clarity",
+          icon: "/insurance-icons/will-writing-1.png",
+          description: "Avoid ambiguity and legal disputes.",
+        },
+        {
+          title: "Asset Distribution",
+          icon: "/insurance-icons/will-writing-2.png",
+          description: "Ensure assets go to the intended beneficiaries.",
+        },
+        {
+          title: "Guardianship",
+          icon: "/insurance-icons/will-writing-3.png",
+          description: "Appoint guardians for minor children.",
+        },
+        {
+          title: "Legacy Preservation",
+          icon: "/insurance-icons/will-writing-4.png",
+          description: "Helps preserve intentions and values across generations.",
+        },
+      ],
     faq: [
       {
         question: "Do I need a Lawyer while writing my Will?",
@@ -3992,23 +4181,31 @@ export const servicesData = [
       "Because Legacies Deserve More Than Emotion — They Deserve Precise Execution",
     description:
       "Wills and trusts hold your intentions, but it’s the executor who ensures they come alive, without delay, dispute, or dilution. Our executor services stand as an unwavering hand to manage distributions, settle obligations, and uphold your wishes with absolute integrity.\n\nSo your lifetime of effort becomes a source of harmony, not heartache, for those you leave behind.\n At Finask Value, our executor services go beyond paperwork. We step in with compassion, clarity, and complete confidentiality—coordinating with legal, financial, and family stakeholders to ensure every step reflects your intent. Whether it’s handling complex assets, addressing cross-border beneficiaries, or mediating sensitive transitions, we provide the calm, competent presence your legacy deserves. Because honouring your life’s work shouldn’t be left to chance.",
-    features: [
-      {
-        title: "Impartial Execution",
-        icon: "",
-        description: "Neutral third-party management of the estate.",
-      },
-      {
-        title: "Legal Compliance",
-        icon: "",
-        description: "Handling probate and legal formalities.",
-      },
-      {
-        title: "Conflict Resolution",
-        icon: "",
-        description: "Minimizing disputes among beneficiaries.",
-      },
-    ],
+      features: [
+        {
+          title: "Faithful Execution",
+          icon: "/insurance-icons/executor-services-1.png",
+          description: "Ensure your wishes are carried out exactly as intended.",
+        },
+        {
+          title: "Confidential Handling",
+          icon: "/insurance-icons/executor-services-2.png",
+          description:
+            "Maintain complete discretion across sensitive financial matters.",
+        },
+        {
+          title: "Dispute Mitigation",
+          icon: "/insurance-icons/executor-services-3.png",
+          description:
+            "Proactively address conflicts to ensure smooth transitions.",
+        },
+        {
+          title: "Debt & Obligation Settlement",
+          icon: "/insurance-icons/executor-services-4.png",
+          description:
+            "Handles outstanding liabilities and financial dues efficiently.",
+        },
+      ],
     faq: [
       {
         question: "Can multiple executors be appointed?",
@@ -4049,23 +4246,29 @@ export const servicesData = [
     tagline: "Turning Law into A Shield, Not A Stressor",
     description:
       "In a world of increasing regulatory oversight and legal complexity, protecting your wealth isn’t just about what you earn—it’s about how well you’re prepared. From property disputes to contract clarity, founder agreements to legacy documentation, every legal oversight can have a lasting financial impact.\n At Finask Value, legal advisory is not a last-minute rescue. It’s built into your journey from the start—offering proactive legal structuring, due diligence, and risk mitigation that safeguards your assets, relationships, and long-term intentions.\nWhether you're acquiring real estate, drafting succession documents, reviewing investor agreements, or setting up holding structures, our legal team partners with your goals—not just the paperwork. We guide you with clarity, confidentiality, and a strategic lens that turns law from a limitation into a legacy protector.",
-    features: [
-      {
-        title: "Property Due Diligence",
-        icon: "",
-        description: "Verification of titles and documents.",
-      },
-      {
-        title: "Contract Review",
-        icon: "",
-        description: "Reviewing financial and business agreements.",
-      },
-      {
-        title: "Family Settlements",
-        icon: "",
-        description: "Drafting family settlement deeds.",
-      },
-    ],
+      features: [
+        {
+          title: "Property Due Diligence",
+          icon: "/insurance-icons/legal-advisory-1.png",
+          description: "Verification of titles and documents.",
+        },
+        {
+          title: "Contract Review",
+          icon: "/insurance-icons/legal-advisory-2.png",
+          description: "Reviewing financial and business agreements.",
+        },
+        {
+          title: "Family Settlement",
+          icon: "/insurance-icons/legal-advisory-3.png",
+          description: "Drafting family settlement deeds.",
+        },
+        {
+          title: "Risk Mitigation",
+          icon: "/insurance-icons/legal-advisory-4.png",
+          description:
+            "Identify and address legal vulnerabilities across your wealth ecosystem.",
+        },
+      ],
     faq: [
       {
         question: "Do you handle Litigation?",
@@ -4106,23 +4309,30 @@ export const servicesData = [
     tagline: "Because Wealth Should Grow, Not Leak",
     description:
       "Every rupee saved in taxes is a rupee reinvested in your future. Finask Value, tax advisory isn’t just about compliance—it’s about optimisation, foresight, and aligning your personal or business growth with evolving tax frameworks.\nWe help individuals, families, professionals, and entrepreneurs uncover intelligent strategies—be it through HUF structuring, capital gains planning, investment-linked deductions, or multi-entity income management.\nFor businesses, we integrate GST planning, director remuneration strategies, ESOP tax treatment, and cross-border tax implications into a cohesive framework. And for NRIs, we simplify global reporting, repatriation rules, and DTAA considerations.\nYou don’t just stay compliant—you stay confident. Because with Finask Value, your tax story isn’t about burden. It’s about benefit, built into every step of your financial journey.",
-    features: [
-      {
-        title: "Strategic Planning",
-        icon: "",
-        description: "Optimizing tax liabilities legally.",
-      },
-      {
-        title: "Compliance",
-        icon: "",
-        description: "Filing returns and handling notices.",
-      },
-      {
-        title: "Cross-Border Tax",
-        icon: "",
-        description: "Advisory for NRIs and global investments.",
-      },
-    ],
+      features: [
+        {
+          title: "Cross-Border Tax Advisory",
+          icon: "/insurance-icons/tax-advisory-1.png",
+          description: "Manages global income and international tax implications.",
+        },
+        {
+          title: "Business Tax Efficiency",
+          icon: "/insurance-icons/tax-advisory-2.png",
+          description:
+            "Structure remuneration, expenses, and profits for optimal tax outcomes.",
+        },
+        {
+          title: "Future-Ready Tax Strategy",
+          icon: "/insurance-icons/tax-advisory-3.png",
+          description: "Stay ahead of evolving tax laws with proactive planning.",
+        },
+        {
+          title: "Tax Optimisation",
+          icon: "/insurance-icons/tax-advisory-4.png",
+          description:
+            "Maximise savings by structuring income and investments efficiently.",
+        },
+      ],
     faq: [
       {
         question: "Do you help with Income Tax Returns?",
@@ -4163,23 +4373,32 @@ export const servicesData = [
     tagline: "Empowering Clarity, Inspiring Confidence",
     description:
       "Finask Value, we believe that the most valuable asset any individual can own is clarity. In a world full of noise and financial quick fixes, informed decision-making isn’t just smart—it’s empowering.\nOur Financial Literacy Workshops and SEBI-compliant Investor Awareness Programs (IAPs) are designed to democratize that empowerment. Whether you're a salaried professional, homemaker, entrepreneur, student, or retiree—we meet you where you are, and help you move forward with confidence.\nEach program is thoughtfully curated to simplify complex concepts: from budgeting and SIPs to tax planning, insurance design, and wealth transfer. We address real-life questions, bust financial myths, and help participants build a framework they can actually apply—today, tomorrow, and 20 years from now.\nDelivered virtually or on-site, our sessions use relatable stories, practical illustrations, and interactive Q&A formats led by certified experts. And most importantly, every IAP is 100% educational—zero product pitching, full commitment to SEBI’s mission of protecting and uplifting Indian investors.\nBecause when financial literacy improves, everything else follows: financial dignity, family wellbeing, and the confidence to build a better life. Finask Value, that’s the kind of wealth we aim to co-create.",
-    features: [
-      {
-        title: "Interactive Sessions",
-        icon: "",
-        description: "Engaging workshops with real-life examples.",
-      },
-      {
-        title: "Unbiased Education",
-        icon: "",
-        description: "Pure knowledge sharing, no product selling.",
-      },
-      {
-        title: "Diverse Topics",
-        icon: "",
-        description: "Covering basics to advanced financial concepts.",
-      },
-    ],
+      features: [
+        {
+          title: "Confidence to Grow",
+          icon: "/insurance-icons/financial-literacy-workshops-1.png",
+          description:
+            "Empowers you to take control of your financial journey.",
+        },
+        {
+          title: "Inclusive Learning",
+          icon: "/insurance-icons/financial-literacy-workshops-2.png",
+          description:
+            "Designed for professionals, homemakers, students, and retirees alike.",
+        },
+        {
+          title: "Smart Investing Basics",
+          icon: "/insurance-icons/financial-literacy-workshops-3.png",
+          description:
+            "Builds understanding of SIPs, asset allocation, and wealth-building fundamentals.",
+        },
+        {
+          title: "Interactive Learning Experience",
+          icon: "/insurance-icons/financial-literacy-workshops-4.png",
+          description:
+            "Engaging sessions with real-life examples and open Q&A.",
+        },
+      ],
     faq: [
       {
         question: "Are these Financial Literacy Workshops paid?",
@@ -4278,25 +4497,25 @@ export const servicesData = [
     features: [
       {
         title: "Smart Spending",
-        icon: "",
+        icon: "/insurance-icons/credit-cards-1.png",
         description:
           "Manage everyday expenses efficiently with convenience and control.",
       },
       {
         title: "Rewards & Benefits",
-        icon: "",
+        icon: "/insurance-icons/credit-cards-2.png",
         description:
           "Earn cashback, reward points, and exclusive perks on your spending.",
       },
       {
         title: "Global Acceptance",
-        icon: "",
+        icon: "/insurance-icons/credit-cards-3.png",
         description:
           "Use your card seamlessly across countries for travel and online purchases.",
       },
       {
         title: "Expense Tracking",
-        icon: "",
+        icon: "/insurance-icons/credit-cards-4.png",
         description:
           "Monitor and categorize your spending to stay in control of your finances.",
       },
@@ -4343,24 +4562,32 @@ export const servicesData = [
       "Because Home Isn’t Just Where You Live. It’s Also Where You Grow.",
     description:
       "From the avenues of London to the towers of Dubai, India is never far. For NRIs, India represents unmatched economic momentum and the unique joy of watching your roots flourish. At , we help global Indians turn emotional ties into financial advantage. Whether it’s building cross-currency wealth with tax-optimized strategies, protecting family assets in India while you’re overseas, or planning legacies that gracefully span continents, we bring structure, compliance, and vision to your India-linked investments.",
-    features: [
-      {
-        title: "FEMA Compliance",
-        icon: "",
-        description: "Adhering to regulations for NRI investments.",
-      },
-      {
-        title: "Tax Optimization",
-        icon: "",
-        description: "Leveraging DTAA and tax-efficient instruments.",
-      },
-      {
-        title: "Repatriation",
-        icon: "",
-        description:
-          "Smooth transfer of funds back to your country of residence.",
-      },
-    ],
+      features: [
+        {
+          title: "Global Wealth Structuring",
+          icon: "/insurance-icons/nri-corner-1.png",
+          description:
+            "Build and manage wealth seamlessly across multiple geographies.",
+        },
+        {
+          title: "NRI Tax & Compliance",
+          icon: "/insurance-icons/nri-corner-2.png",
+          description:
+            "Navigate FEMA, DTAA, and global tax regulations with ease.",
+        },
+        {
+          title: "Rooted Yet Global",
+          icon: "/insurance-icons/nri-corner-3.png",
+          description:
+            "Stay connected to India while building a borderless financial future.",
+        },
+        {
+          title: "Family Asset Protection in India",
+          icon: "/insurance-icons/nri-corner-4.png",
+          description:
+            "Safeguards family wealth and assets while residing abroad.",
+        },
+      ],
     faq: [
       {
         question: "Can NRIs invest in Mutual Funds?",
@@ -4401,23 +4628,32 @@ export const servicesData = [
     tagline: "Because She Needs More Than Advice. She Needs Advocacy.",
     description:
       "From her relationships to her marriage, from her career to her household, a woman navigates complexities at every turn. Often, she puts others ahead of herself—her spouse, children, aging parents. She may pause her career to care for family, adjust her ambitions to support a partner, or stay silent on financial matters that intimately shape her life.\nEven today, despite earning more than ever, many women hesitate to take the lead in conversations about investing, insurance, or inheritance. They’re told money is complicated. Or that it's simply not their domain. As a result, too many brilliant, resilient women continue to carry emotional, social, and even financial weight—without the security, knowledge, or confidence they deserve.\nFinask Value, we created Women Corner not as a marketing vertical, but as a stand — to show that her goals matter, her security matters, and her choices deserve to be as expansive and informed as anyone else's.\nWe work with:\n● Young professionals who juggle EMIs, family expectations, and ambitions no one fully understands.\n● Mothers who quietly prioritize school fees over retirement funds, fearing tomorrow’s uncertainty.\n ● Homemakers who wish to grasp how family wealth is truly structured—so they aren’t left in the dark if life shifts.\n● Women rebuilding after separation or loss, who need clarity, compassion, and a map to financial independence.",
-    features: [
-      {
-        title: "Financial Independence",
-        icon: "",
-        description: "Building a corpus for personal security.",
-      },
-      {
-        title: "Empowerment",
-        icon: "",
-        description: "Education and guidance to take control of finances.",
-      },
-      {
-        title: "Life Transitions",
-        icon: "",
-        description: "Support during marriage, maternity, or separation.",
-      },
-    ],
+      features: [
+        {
+          title: "Women-Centric Financial Planning",
+          icon: "/insurance-icons/women-corner-1.png",
+          description:
+            "Dedicated solutions designed around women’s life stages and priorities.",
+        },
+        {
+          title: "Income Continuity Awareness",
+          icon: "/insurance-icons/women-corner-2.png",
+          description:
+            "Encourages planning for financial stability across life transitions.",
+        },
+        {
+          title: "Holistic Life-Centric Planning",
+          icon: "/insurance-icons/women-corner-3.png",
+          description:
+            "Integrates career, family, and personal financial goals.",
+        },
+        {
+          title: "Legacy & Inheritance Planning Support",
+          icon: "/insurance-icons/women-corner-4.png",
+          description:
+            "Helps structure secure and informed wealth transfer decisions.",
+        },
+      ],
     faq: [
       {
         question: "Do you have women advisors?",
@@ -4459,24 +4695,30 @@ export const servicesData = [
       "A Comprehensive Wealth Management Solution for Ultra-High-Net-Worth Families ",
     description:
       "A comprehensive wealth management solution for ultra-high-net-worth families, managing everything from investments to lifestyle. We provide integrated management of all family assets and liabilities, ensuring smooth transition of wealth across generations.",
-    features: [
-      {
-        title: "Holistic Management",
-        icon: "",
-        description:
-          "Integrated management of all family assets and liabilities.",
-      },
-      {
-        title: "Intergenerational Transfer",
-        icon: "",
-        description: "Ensuring smooth transition of wealth across generations.",
-      },
-      {
-        title: "Lifestyle Services",
-        icon: "",
-        description: "Concierge services for family needs.",
-      },
-    ],
+      features: [
+        {
+          title: "Holistic Wealth Management",
+          icon: "/insurance-icons/family-office-1.png",
+          description:
+            "Integrated management of all family assets and liabilities.",
+        },
+        {
+          title: "Intergenerational Transfer",
+          icon: "/insurance-icons/family-office-2.png",
+          description: "Ensuring smooth transition of wealth across generations.",
+        },
+        {
+          title: "Lifestyle Services",
+          icon: "/insurance-icons/family-office-3.png",
+          description: "Concierge services for family needs.",
+        },
+        {
+          title: "Consolidated Reporting",
+          icon: "/insurance-icons/family-office-4.png",
+          description:
+            "Gain a clear, unified view of your entire financial ecosystem.",
+        },
+      ],
     faq: [
       {
         question: "Who needs a Family Office?",
