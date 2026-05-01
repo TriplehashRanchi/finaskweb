@@ -45,6 +45,7 @@ export const servicesData = [
       },
     ],
     bgImage: "/finask/health.jpg",
+    backgroundPosition: "center",
     faqSection: {
       title: "General Question",
       description:
@@ -97,6 +98,7 @@ export const servicesData = [
       },
     ],
     bgImage: "/finask/super.webp",
+    backgroundPosition: "center",
     faqSection: {
       title: "General Question",
       description:
@@ -152,6 +154,7 @@ export const servicesData = [
       },
     ],
     bgImage: "/finask/accident.webp",
+    backgroundPosition: "top center",
     faqSection: {
       title: "General Question",
       description:
@@ -208,6 +211,7 @@ export const servicesData = [
       },
     ],
     bgImage: "/finask/critical-illness-insurance.jpeg",
+    backgroundPosition: "center",
     faqSection: {
       title: "General Question",
       description:
@@ -313,6 +317,7 @@ export const servicesData = [
       },
     ],
     bgImage: "/finask/term.png",
+    backgroundPosition: "center",
     faqSection: {
       title: "General Question",
       description:
@@ -369,6 +374,7 @@ export const servicesData = [
       },
     ],
     bgImage: "/finask/ulip.png",
+    backgroundPosition: "center",
     faqSection: {
       title: "General Question",
       description:
@@ -426,6 +432,7 @@ export const servicesData = [
       },
     ],
     bgImage: "/finask/traditional-guaranteed-saving.webp",
+    backgroundPosition: "center",
     faqSection: {
       title: "General Question",
       description:
@@ -481,6 +488,7 @@ export const servicesData = [
       },
     ],
     bgImage: "/finask/motor-insurance.png",
+    backgroundPosition: "center",
     faqSection: {
       title: "General Question",
       description:
@@ -534,6 +542,7 @@ export const servicesData = [
       },
     ],
     bgImage: "/finask/travel-insurance.webp",
+    backgroundPosition: "center",
     faqSection: {
       title: "General Question",
       description:
@@ -638,6 +647,7 @@ export const servicesData = [
       },
     ],
     bgImage: "/finask/fire-and-urglary.webp",
+    backgroundPosition: "center",
     faqSection: {
       title: "General Question",
       description:
@@ -653,8 +663,8 @@ export const servicesData = [
     title: "Marine & Cargo Insurance",
     tagline: "In Business, Logistics Is More Than Movement It’s A Promise",
     description:
-    "A single damaged, lost or delayed consignment can lead to revenue loss, supply chain disruptions or breached contracts—that’s where comprehensive coverage becomes critical. \n Our Marine & Cargo Insurance is tailored for businesses engaged in domestic and international trade. It provides protection against physical loss or damage to goods in transit, across all modes of transportation — air, sea, road or rail. Whether you are shipping raw materials, finished products or high-value equipment, our policies are structured to absorb the risk — not your balance sheet. \n With FinAsk Value, you protect not just your shipments, but your profitability, reliability and business continuity.",
-     features: [
+      "A single damaged, lost or delayed consignment can lead to revenue loss, supply chain disruptions or breached contracts—that’s where comprehensive coverage becomes critical. \n Our Marine & Cargo Insurance is tailored for businesses engaged in domestic and international trade. It provides protection against physical loss or damage to goods in transit, across all modes of transportation — air, sea, road or rail. Whether you are shipping raw materials, finished products or high-value equipment, our policies are structured to absorb the risk — not your balance sheet. \n With FinAsk Value, you protect not just your shipments, but your profitability, reliability and business continuity.",
+    features: [
       {
         title: "Comprehensive Coverage",
         description:
@@ -693,6 +703,7 @@ export const servicesData = [
       },
     ],
     bgImage: "/finask/marine-and-cargo-insurance.webp",
+    backgroundPosition: "center",
     faqSection: {
       title: "General Question",
       description:
@@ -820,7 +831,7 @@ export const servicesData = [
     tagline:
       "Because Leadership Carries Responsibilities That Outlive The Leader",
     description:
-"Directors’ and Officers’ Liability Insurance (D&O) is more than a personal safety net — it’s a strategic safeguard for businesses. It ensures that if the unthinkable happens, key obligations are met, debts are covered and shareholder or partner transitions remain smooth, protecting enterprise value. \n Because your vision should not falter, even if life takes an unforeseen turn. \n At FinAsk Value, we help founders, directors and key management personnel structure life cover not just for personal protection—but for business continuity. It is not just about preparing for loss—it’s about preserving leadership, legacy and long-term confidence. \n This coverage can support succession planning, stabilize cash flow, reinforce loan and credit obligations and signal preparedness to investors and stakeholders. \n It’s more than a policy—it’s a contingency plan for confidence. Leadership may be personal, but its impact is profoundly institutional. ",
+      "Directors’ and Officers’ Liability Insurance (D&O) is more than a personal safety net — it’s a strategic safeguard for businesses. It ensures that if the unthinkable happens, key obligations are met, debts are covered and shareholder or partner transitions remain smooth, protecting enterprise value. \n Because your vision should not falter, even if life takes an unforeseen turn. \n At FinAsk Value, we help founders, directors and key management personnel structure life cover not just for personal protection—but for business continuity. It is not just about preparing for loss—it’s about preserving leadership, legacy and long-term confidence. \n This coverage can support succession planning, stabilize cash flow, reinforce loan and credit obligations and signal preparedness to investors and stakeholders. \n It’s more than a policy—it’s a contingency plan for confidence. Leadership may be personal, but its impact is profoundly institutional. ",
     features: [
       {
         title: "Comprehensive Coverage",
@@ -837,29 +848,33 @@ export const servicesData = [
       },
     ],
     faq: [
-     {
-    question: "Can Directors’ and Officers’ Liability Insurance cover Startups?",
-    answer:
-      "Yes, Startups are strongly encouraged to take Directors’ and Officers’ Liability Insurance to protect founders and early-stage leadership from governance-related risks.",
-  },
-  {
-    question:
-      "What are common claims under Directors’ and Officers’ Liability Insurance?",
-    answer:
-      "Common claims include mismanagement, breach of fiduciary duty, regulatory violations, and shareholder disputes.",
-  },
       {
-        question: "Who pays the premium for Directors’ and Officers’ Liability Insurance?",
+        question:
+          "Can Directors’ and Officers’ Liability Insurance cover Startups?",
+        answer:
+          "Yes, Startups are strongly encouraged to take Directors’ and Officers’ Liability Insurance to protect founders and early-stage leadership from governance-related risks.",
+      },
+      {
+        question:
+          "What are common claims under Directors’ and Officers’ Liability Insurance?",
+        answer:
+          "Common claims include mismanagement, breach of fiduciary duty, regulatory violations, and shareholder disputes.",
+      },
+      {
+        question:
+          "Who pays the premium for Directors’ and Officers’ Liability Insurance?",
         answer:
           "Typically, the company pays the premium, as the policy is taken to protect business interests.",
       },
       {
-        question: " Who receives the claim amount in Directors’ and Officers’ Liability Insurance?",
+        question:
+          " Who receives the claim amount in Directors’ and Officers’ Liability Insurance?",
         answer:
           "In most cases, the company is the beneficiary and receives the payout to manage liabilities, stabilize operations, or compensate financial loss.",
       },
     ],
     bgImage: "/finask/directors-life-insurance.png",
+    backgroundPosition: "center",
     faqSection: {
       title: "General Question",
       description:
@@ -893,27 +908,28 @@ export const servicesData = [
           "Employers can enhance protection with accident medical expense reimbursement, ambulance charges, child education grant, and fracture cover.",
       },
     ],
- faq: [
-  {
-    question:
-      "Is there any waiting period under Group Personal Accident Insurance?",
-    answer:
-      "No, Group Personal Accident Insurance policies typically have no waiting period and coverage starts immediately after policy activation.",
-  },
-  {
-    question:
-      "How is Group Personal Accident Insurance different from Workmen Compensation Insurance?",
-    answer:
-      "Group Personal Accident Insurance provides fixed benefits regardless of salary, while Workmen Compensation is legally mandated and salary-based compensation.",
-  },
-  {
-    question:
-      "Is Group Personal Accident Insurance coverage limited to the workplace only?",
-    answer:
-      "No, Group Personal Accident Insurance coverage usually applies 24x7 worldwide, including accidents at work, during travel, commuting, or at home.",
-  },
-],
+    faq: [
+      {
+        question:
+          "Is there any waiting period under Group Personal Accident Insurance?",
+        answer:
+          "No, Group Personal Accident Insurance policies typically have no waiting period and coverage starts immediately after policy activation.",
+      },
+      {
+        question:
+          "How is Group Personal Accident Insurance different from Workmen Compensation Insurance?",
+        answer:
+          "Group Personal Accident Insurance provides fixed benefits regardless of salary, while Workmen Compensation is legally mandated and salary-based compensation.",
+      },
+      {
+        question:
+          "Is Group Personal Accident Insurance coverage limited to the workplace only?",
+        answer:
+          "No, Group Personal Accident Insurance coverage usually applies 24x7 worldwide, including accidents at work, during travel, commuting, or at home.",
+      },
+    ],
     bgImage: "/finask/group-personal-accident-insurance.png",
+    backgroundPosition: "center",
     faqSection: {
       title: "General Questions",
       description:
@@ -949,7 +965,8 @@ export const servicesData = [
     ],
     faq: [
       {
-        question: "Can Group Term Life Insurance be customized for different employee levels?",
+        question:
+          "Can Group Term Life Insurance be customized for different employee levels?",
         answer:
           "Yes, employers can structure coverage based on designation, salary slabs or job roles.",
       },
@@ -959,7 +976,8 @@ export const servicesData = [
           "Coverage for suicide depends on policy terms, but many Group Term Life Insurance plans cover suicide after a specified waiting period, as per insurer rules.",
       },
       {
-        question: "What are the most common coverage models in Group Term Life Insurance?",
+        question:
+          "What are the most common coverage models in Group Term Life Insurance?",
         answer:
           "The two common models are Fixed Sum Assured, where all employees receive the same cover amount, and Salary-Linked Cover, where the cover is linked to annual CTC.",
       },
@@ -970,6 +988,7 @@ export const servicesData = [
       },
     ],
     bgImage: "/finask/group-term-life-insurance.webp",
+    backgroundPosition: "center",
     faqSection: {
       title: "General Questions",
       description:
@@ -1004,29 +1023,30 @@ export const servicesData = [
       },
     ],
     faq: [
-  {
-    question: "Is there a maximum age limit in Group Health Insurance?",
-    answer:
-      "Yes, eligibility and age limits depend on the insurer and employer’s group policy structure.",
-  },
-  {
-    question: "What is a co-payment in Group Health Insurance?",
-    answer:
-      "Co-payment means the employee shares a fixed percentage of the medical bill with the insurer.",
-  },
-  {
-    question: "Can employees choose any hospital for treatment?",
-    answer:
-      "Yes, employees can choose any hospital, but cashless benefits are available only at network hospitals.",
-  },
-  {
-    question:
-      "Are medical tests typically required before enrolling in Group Health Insurance?",
-    answer:
-      "Usually, medical tests are not required for employees enrolling under a Group Health Insurance policy, but this may vary based on the insurer and policy terms.",
-  },
-],
+      {
+        question: "Is there a maximum age limit in Group Health Insurance?",
+        answer:
+          "Yes, eligibility and age limits depend on the insurer and employer’s group policy structure.",
+      },
+      {
+        question: "What is a co-payment in Group Health Insurance?",
+        answer:
+          "Co-payment means the employee shares a fixed percentage of the medical bill with the insurer.",
+      },
+      {
+        question: "Can employees choose any hospital for treatment?",
+        answer:
+          "Yes, employees can choose any hospital, but cashless benefits are available only at network hospitals.",
+      },
+      {
+        question:
+          "Are medical tests typically required before enrolling in Group Health Insurance?",
+        answer:
+          "Usually, medical tests are not required for employees enrolling under a Group Health Insurance policy, but this may vary based on the insurer and policy terms.",
+      },
+    ],
     bgImage: "/finask/group-health-insurance.webp",
+    backgroundPosition: "center",
     faqSection: {
       title: "General Questions",
       description:
@@ -1060,29 +1080,31 @@ export const servicesData = [
           "Access self-care plans, nursing care, live health interactions, and gym or yoga sessions.",
       },
     ],
-faq: [
-  {
-    question: "Is Health Assistance affordable?",
-    answer:
-      "It is generally cost-effective, with options for subscription-based or pay-per-use services depending on the plan.",
-  },
-  {
-    question: "What happens if I miss a scheduled consultation?",
-    answer:
-      "You can usually reschedule the appointment or book another available slot.",
-  },
-  {
-    question: "How is patient data managed and protected?",
-    answer:
-      "Health Assistance platforms use secure encryption, access controls, and compliance-driven systems to protect sensitive health data.",
-  },
-  {
-    question: "Does Health Assistance offer corporate wellness analytics support?",
-    answer:
-      "In enterprise setups, it can provide aggregated health insights to help organizations design better employee wellness programs.",
-  },
-],
+    faq: [
+      {
+        question: "Is Health Assistance affordable?",
+        answer:
+          "It is generally cost-effective, with options for subscription-based or pay-per-use services depending on the plan.",
+      },
+      {
+        question: "What happens if I miss a scheduled consultation?",
+        answer:
+          "You can usually reschedule the appointment or book another available slot.",
+      },
+      {
+        question: "How is patient data managed and protected?",
+        answer:
+          "Health Assistance platforms use secure encryption, access controls, and compliance-driven systems to protect sensitive health data.",
+      },
+      {
+        question:
+          "Does Health Assistance offer corporate wellness analytics support?",
+        answer:
+          "In enterprise setups, it can provide aggregated health insights to help organizations design better employee wellness programs.",
+      },
+    ],
     bgImage: "/finask/health-assistance.webp",
+    backgroundPosition: "top center",
     faqSection: {
       title: "General Questions",
       description:
@@ -1098,8 +1120,8 @@ faq: [
     title: "Roadside Assistance",
     tagline: "24x7 Support When the Unexpected Happens on the Road",
     description:
-    "Unexpected situations can occur anytime while you are on the road. Even with regular servicing and careful driving, disruptions can still interrupt your journey. \n Roadside Assistance (RSA) ensures that help is always available when you need it most. From minor fixes to emergency towing, it covers a wide range of situations. Whether you are stranded due to a mechanical issue, a flat tyre or misplaced car keys, it provides quick support and emergency services wherever you are, at any time. \n With 24x7 availability, you can drive with confidence knowing that professional help is just a call away. This service is designed to handle vehicle emergencies efficiently, minimizing inconvenience and getting you back on the road quickly. ",
-     features: [
+      "Unexpected situations can occur anytime while you are on the road. Even with regular servicing and careful driving, disruptions can still interrupt your journey. \n Roadside Assistance (RSA) ensures that help is always available when you need it most. From minor fixes to emergency towing, it covers a wide range of situations. Whether you are stranded due to a mechanical issue, a flat tyre or misplaced car keys, it provides quick support and emergency services wherever you are, at any time. \n With 24x7 availability, you can drive with confidence knowing that professional help is just a call away. This service is designed to handle vehicle emergencies efficiently, minimizing inconvenience and getting you back on the road quickly. ",
+    features: [
       {
         title: "24x7 Emergency Support",
         description:
@@ -1116,30 +1138,32 @@ faq: [
           "Provides additional support such as accommodation assistance if breakdown-related repairs take extended time.",
       },
     ],
-  faq: [
-  {
-    question: "Is there any limit on Roadside Assistance usage?",
-    answer:
-      "Yes, some plans may have limits on the number of services or towing distance per policy period.",
-  },
-  {
-    question: "Is Roadside Assistance included in motor insurance policies?",
-    answer:
-      "Roadside Assistance is sometimes included as an add-on or bundled benefit with Comprehensive Motor Insurance, but it can also be purchased separately.",
-  },
-  {
-    question:
-      "What is the typical response time for Roadside Assistance services?",
-    answer:
-      "Response time varies by location, but assistance is usually dispatched within 30–60 minutes in urban areas, depending on traffic and availability.",
-  },
-  {
-    question: "Is RSA available for electric vehicles (EVs)?",
-    answer:
-      "Yes, some RSA plans now include EV-specific services such as battery support, towing to charging stations, and specialized assistance.",
-  },
-],
+    faq: [
+      {
+        question: "Is there any limit on Roadside Assistance usage?",
+        answer:
+          "Yes, some plans may have limits on the number of services or towing distance per policy period.",
+      },
+      {
+        question:
+          "Is Roadside Assistance included in motor insurance policies?",
+        answer:
+          "Roadside Assistance is sometimes included as an add-on or bundled benefit with Comprehensive Motor Insurance, but it can also be purchased separately.",
+      },
+      {
+        question:
+          "What is the typical response time for Roadside Assistance services?",
+        answer:
+          "Response time varies by location, but assistance is usually dispatched within 30–60 minutes in urban areas, depending on traffic and availability.",
+      },
+      {
+        question: "Is RSA available for electric vehicles (EVs)?",
+        answer:
+          "Yes, some RSA plans now include EV-specific services such as battery support, towing to charging stations, and specialized assistance.",
+      },
+    ],
     bgImage: "/finask/roadside-assistance.jpg",
+    backgroundPosition: "center",
     faqSection: {
       title: "General Questions",
       description:
@@ -1155,8 +1179,8 @@ faq: [
     title: "Cycle Protection",
     tagline: "Protect Your Ride and Ride with Peace of Mind",
     description:
-    "Your bicycle is not just a ride it is an investment in your health, lifestyle and daily commute. Whether your bicycle is new or frequently used, insurance ensures long-term peace of mind. \n Cycle Protection (Bicycle Insurance) provides comprehensive coverage for your bicycle against unforeseen incidents such as theft, damage or loss. Whether you use your bicycle for fitness, commuting, adventure rides or professional cycling, this protection ensures that you can ride worry-free. It also encourages safer and more confident riding habits. \n With the right coverage, you can avoid sudden repair or replacement expenses and continue your cycling journey with confidence.",
-     features: [
+      "Your bicycle is not just a ride it is an investment in your health, lifestyle and daily commute. Whether your bicycle is new or frequently used, insurance ensures long-term peace of mind. \n Cycle Protection (Bicycle Insurance) provides comprehensive coverage for your bicycle against unforeseen incidents such as theft, damage or loss. Whether you use your bicycle for fitness, commuting, adventure rides or professional cycling, this protection ensures that you can ride worry-free. It also encourages safer and more confident riding habits. \n With the right coverage, you can avoid sudden repair or replacement expenses and continue your cycling journey with confidence.",
+    features: [
       {
         title: "Theft Protection",
         description: "Coverage in case your bicycle is stolen.",
@@ -1172,29 +1196,30 @@ faq: [
           "Includes support services such as health assistance, doctor referral, emergency message relay, police station locator, and ambulance referral.",
       },
     ],
-  faq: [
-  {
-    question: "Does Cycle Insurance cover natural disasters?",
-    answer:
-      "Yes, many policies include coverage for damage due to floods, storms, earthquakes, and other natural calamities.",
-  },
-  {
-    question: "What types of cycles can be insured?",
-    answer:
-      "It typically covers standard bicycles, high-end cycles, electric cycles (e-bikes), and sports cycles.",
-  },
-  {
-    question: "What is zero depreciation cover in Cycle Insurance?",
-    answer:
-      "This add-on ensures full claim settlement without deducting depreciation on parts, leading to higher claim payouts.",
-  },
-  {
-    question: "Does Cycle Insurance cover third-party liability?",
-    answer:
-      "Some plans offer optional third-party liability cover for accidental injury or property damage caused while riding the cycle.",
-  },
-],
+    faq: [
+      {
+        question: "Does Cycle Insurance cover natural disasters?",
+        answer:
+          "Yes, many policies include coverage for damage due to floods, storms, earthquakes, and other natural calamities.",
+      },
+      {
+        question: "What types of cycles can be insured?",
+        answer:
+          "It typically covers standard bicycles, high-end cycles, electric cycles (e-bikes), and sports cycles.",
+      },
+      {
+        question: "What is zero depreciation cover in Cycle Insurance?",
+        answer:
+          "This add-on ensures full claim settlement without deducting depreciation on parts, leading to higher claim payouts.",
+      },
+      {
+        question: "Does Cycle Insurance cover third-party liability?",
+        answer:
+          "Some plans offer optional third-party liability cover for accidental injury or property damage caused while riding the cycle.",
+      },
+    ],
     bgImage: "/finask/cycle-protection.webp",
+    backgroundPosition: "center",
     faqSection: {
       title: "General Questions",
       description:
@@ -1210,8 +1235,8 @@ faq: [
     title: "Pet Insurance",
     tagline: "Because They Are Family",
     description:
-    "Our pets are more than our companions — they are our family. They bring joy, comfort and unconditional love into our lives every single day. Just like any other family member, they deserve the best care and protection. \n Unexpected illnesses, accidents or medical emergencies can happen at any time and veterinary treatments can sometimes be expensive. Pet Insurance helps pet parents manage these unforeseen medical expenses, ensuring that their beloved dogs and cats receive the best possible treatment without financial stress. ",
-     features: [
+      "Our pets are more than our companions — they are our family. They bring joy, comfort and unconditional love into our lives every single day. Just like any other family member, they deserve the best care and protection. \n Unexpected illnesses, accidents or medical emergencies can happen at any time and veterinary treatments can sometimes be expensive. Pet Insurance helps pet parents manage these unforeseen medical expenses, ensuring that their beloved dogs and cats receive the best possible treatment without financial stress. ",
+    features: [
       {
         title: "Illness & Accident Cover",
         description:
@@ -1228,29 +1253,30 @@ faq: [
           "Ensures timely medical care for your pets without the burden of sudden high expenses.",
       },
     ],
-  faq: [
-  {
-    question: "Does Pet Insurance cover routine checkups?",
-    answer:
-      "Routine checkups are usually not covered unless included as an add-on benefit.",
-  },
-  {
-    question: "Is there a waiting period in Pet Insurance?",
-    answer:
-      "Yes, most policies include a waiting period for illnesses and specific conditions before coverage becomes active.",
-  },
-  {
-    question: "Are pre-existing conditions covered in Pet Insurance?",
-    answer:
-      "No, pre-existing diseases are generally excluded, unless specifically mentioned under certain limited plans.",
-  },
-  {
-    question: "Is there an age limit for insuring pets?",
-    answer:
-      "Yes, insurers usually define minimum and maximum age limits for enrolment, depending on pet type and breed.",
-  },
-],
+    faq: [
+      {
+        question: "Does Pet Insurance cover routine checkups?",
+        answer:
+          "Routine checkups are usually not covered unless included as an add-on benefit.",
+      },
+      {
+        question: "Is there a waiting period in Pet Insurance?",
+        answer:
+          "Yes, most policies include a waiting period for illnesses and specific conditions before coverage becomes active.",
+      },
+      {
+        question: "Are pre-existing conditions covered in Pet Insurance?",
+        answer:
+          "No, pre-existing diseases are generally excluded, unless specifically mentioned under certain limited plans.",
+      },
+      {
+        question: "Is there an age limit for insuring pets?",
+        answer:
+          "Yes, insurers usually define minimum and maximum age limits for enrolment, depending on pet type and breed.",
+      },
+    ],
     bgImage: "/finask/pet-insurance.webp",
+    backgroundPosition: "center",
     faqSection: {
       title: "General Questions",
       description:
@@ -1312,6 +1338,7 @@ faq: [
       },
     ],
     bgImage: "/finask/workmen-compensation-insurance.png",
+    backgroundPosition: "center",
     faqSection: {
       title: "General Question",
       description:
@@ -1373,6 +1400,7 @@ faq: [
       },
     ],
     bgImage: "/finask/professional-indemnity-insurance-for-doctors.png",
+    backgroundPosition: "center",
     faqSection: {
       title: "General Question",
       description:
@@ -1432,6 +1460,7 @@ faq: [
       },
     ],
     bgImage: "/finask/term-rop.png",
+    backgroundPosition: "center",
     faqSection: {
       title: "General Question",
       description:
@@ -1490,6 +1519,7 @@ faq: [
       },
     ],
     bgImage: "/finask/personal-cyber-insurance.png",
+    backgroundPosition: "center",
     faqSection: {
       title: "General Question",
       description:
@@ -1552,6 +1582,7 @@ faq: [
       },
     ],
     bgImage: "/finask/corporate-cyber-insurance.png",
+    backgroundPosition: "center",
     faqSection: {
       title: "General Question",
       description:
@@ -1610,6 +1641,7 @@ faq: [
       },
     ],
     bgImage: "/finask/taxi-insurance.png",
+    backgroundPosition: "center",
     faqSection: {
       title: "General Question",
       description:
@@ -1671,6 +1703,7 @@ faq: [
       },
     ],
     bgImage: "/finask/commercial-vehicle-insurance.png",
+    backgroundPosition: "center",
     faqSection: {
       title: "General Question",
       description:
@@ -1731,6 +1764,7 @@ faq: [
       },
     ],
     bgImage: "/finask/property-insurance.webp",
+    backgroundPosition: "center",
     faqSection: {
       title: "General Question",
       description:
@@ -1788,6 +1822,7 @@ faq: [
       },
     ],
     bgImage: "/finask/general-liability-insurance.png",
+    backgroundPosition: "center",
     faqSection: {
       title: "General Question",
       description:
@@ -1846,6 +1881,7 @@ faq: [
       },
     ],
     bgImage: "/finask/contractors-all-risk-insurance.png",
+    backgroundPosition: "center",
     faqSection: {
       title: "General Question",
       description:
@@ -1904,6 +1940,7 @@ faq: [
       },
     ],
     bgImage: "/finask/erection-all-risk-insurance.png",
+    backgroundPosition: "center",
     faqSection: {
       title: "General Question",
       description:
@@ -1962,6 +1999,7 @@ faq: [
       },
     ],
     bgImage: "/finask/trade-credit-insurance.png",
+    backgroundPosition: "center",
     faqSection: {
       title: "General Question",
       description:
@@ -2022,6 +2060,7 @@ faq: [
       },
     ],
     bgImage: "/finask/contractors-plant-machinery.png",
+    backgroundPosition: "center",
     faqSection: {
       title: "General Question",
       description:
@@ -2080,6 +2119,7 @@ faq: [
       },
     ],
     bgImage: "/finask/surety-bond-insurance.png",
+    backgroundPosition: "center",
     faqSection: {
       title: "General Question",
       description:
@@ -2141,6 +2181,7 @@ faq: [
       },
     ],
     bgImage: "/finask/errors-and-omissions-insurance.png",
+    backgroundPosition: "center",
     faqSection: {
       title: "General Question",
       description:
@@ -2200,6 +2241,7 @@ faq: [
       },
     ],
     bgImage: "/finask/professional-indemnity-insurance.png",
+    backgroundPosition: "center",
     faqSection: {
       title: "General Question",
       description:
@@ -2259,6 +2301,7 @@ faq: [
       },
     ],
     bgImage: "/finask/fleet-insurance.png",
+    backgroundPosition: "center",
     faqSection: {
       title: "General Question",
       description:
@@ -2317,6 +2360,7 @@ faq: [
       },
     ],
     bgImage: "/finask/shop-owner-insurance.png",
+    backgroundPosition: "center",
     faqSection: {
       title: "General Question",
       description:
@@ -2375,6 +2419,7 @@ faq: [
       },
     ],
     bgImage: "/finask/office-package-policy.png",
+    backgroundPosition: "center",
     faqSection: {
       title: "General Question",
       description:
@@ -2408,29 +2453,31 @@ faq: [
         description: "Periodic reviews to ensure performance.",
       },
     ],
-  faq: [
-  {
-    question: "What is the difference between active and passive mutual funds?",
-    answer:
-      "Active funds are managed by fund managers who actively select stocks, while passive funds track an index like Nifty or Sensex.",
-  },
-  {
-    question: "What is SIP in Mutual Funds?",
-    answer:
-      "Systematic Investment Plan (SIP) allows you to invest a fixed amount regularly, such as daily, monthly, or quarterly, promoting disciplined investing and rupee cost averaging.",
-  },
-  {
-    question: "Are Mutual Fund Investments taxable?",
-    answer:
-      "Yes, Capital Gains Tax applies depending on the type of fund and holding period, as per prevailing tax laws.",
-  },
-  {
-    question: "Can I withdraw money anytime?",
-    answer:
-      "Yes, most mutual funds are liquid, but some may have exit loads or lock-in periods, like ELSS funds.",
-  },
-],
-    bgImage: "/finask/mutual-funds.webp",
+    faq: [
+      {
+        question:
+          "What is the difference between active and passive mutual funds?",
+        answer:
+          "Active funds are managed by fund managers who actively select stocks, while passive funds track an index like Nifty or Sensex.",
+      },
+      {
+        question: "What is SIP in Mutual Funds?",
+        answer:
+          "Systematic Investment Plan (SIP) allows you to invest a fixed amount regularly, such as daily, monthly, or quarterly, promoting disciplined investing and rupee cost averaging.",
+      },
+      {
+        question: "Are Mutual Fund Investments taxable?",
+        answer:
+          "Yes, Capital Gains Tax applies depending on the type of fund and holding period, as per prevailing tax laws.",
+      },
+      {
+        question: "Can I withdraw money anytime?",
+        answer:
+          "Yes, most mutual funds are liquid, but some may have exit loads or lock-in periods, like ELSS funds.",
+      },
+    ],
+    bgImage: "/finask/mutual-funds.png",
+    backgroundPosition: "center",
     faqSection: {
       title: "General Question",
       description:
@@ -2492,6 +2539,7 @@ faq: [
       },
     ],
     bgImage: "/finask/sip.png",
+    backgroundPosition: "bottom",
     faqSection: {
       title: "General Question",
       description:
@@ -2553,6 +2601,7 @@ faq: [
       },
     ],
     bgImage: "/finask/swp.png",
+    backgroundPosition: "center",
     faqSection: {
       title: "General Question",
       description:
@@ -2614,6 +2663,7 @@ faq: [
       },
     ],
     bgImage: "/finask/stp.png",
+    backgroundPosition: "center",
     faqSection: {
       title: "General Question",
       description:
@@ -2671,6 +2721,7 @@ faq: [
       },
     ],
     bgImage: "/finask/sif.png",
+    backgroundPosition: "top center",
     faqSection: {
       title: "General Question",
       description:
@@ -2702,28 +2753,30 @@ faq: [
       },
     ],
     faq: [
-  {
-    question: "Are Bond returns fixed?",
-    answer:
-      "Coupon payments are fixed, but overall returns may vary if the bond is sold before maturity or due to interest rate changes.",
-  },
-  {
-    question: "Are Corporate Bonds risky?",
-    answer:
-      "Corporate Bonds carry credit risk depending on the financial strength of the issuing company. Higher returns often come with higher risk.",
-  },
-  {
-    question: "How are Bonds different from Fixed Deposits?",
-    answer:
-      "Bonds may offer higher returns and can be traded before maturity, whereas Fixed Deposits are generally simpler and may be insured up to a limit.",
-  },
-  {
-    question: "What is the difference between Government and Corporate Bonds?",
-    answer:
-      "Government Bonds are issued by the government and are low risk, while Corporate Bonds are issued by companies and may offer higher returns with higher risk.",
-  },
-],
+      {
+        question: "Are Bond returns fixed?",
+        answer:
+          "Coupon payments are fixed, but overall returns may vary if the bond is sold before maturity or due to interest rate changes.",
+      },
+      {
+        question: "Are Corporate Bonds risky?",
+        answer:
+          "Corporate Bonds carry credit risk depending on the financial strength of the issuing company. Higher returns often come with higher risk.",
+      },
+      {
+        question: "How are Bonds different from Fixed Deposits?",
+        answer:
+          "Bonds may offer higher returns and can be traded before maturity, whereas Fixed Deposits are generally simpler and may be insured up to a limit.",
+      },
+      {
+        question:
+          "What is the difference between Government and Corporate Bonds?",
+        answer:
+          "Government Bonds are issued by the government and are low risk, while Corporate Bonds are issued by companies and may offer higher returns with higher risk.",
+      },
+    ],
     bgImage: "/finask/bond.png",
+    backgroundPosition: "center",
     faqSection: {
       title: "General Question",
       description:
@@ -2777,6 +2830,7 @@ faq: [
       },
     ],
     bgImage: "/finask/pms.jpg",
+    backgroundPosition: "center",
     faqSection: {
       title: "General Question",
       description:
@@ -2831,6 +2885,7 @@ faq: [
       },
     ],
     bgImage: "/finask/alternative-investment-funds.webp",
+    backgroundPosition: "top",
     faqSection: {
       title: "General Question",
       description:
@@ -2884,6 +2939,7 @@ faq: [
       },
     ],
     bgImage: "/finask/unlisted-equity.webp",
+    backgroundPosition: "top",
     faqSection: {
       title: "General Question",
       description:
@@ -2915,29 +2971,30 @@ faq: [
         description: "Ensuring adequate cover for medical needs.",
       },
     ],
- faq: [
-  {
-    question: "Are REITs good during inflation?",
-    answer:
-      "Yes, often rent agreements may include escalation clauses, and property values tend to rise with inflation. So, REITs can act as a partial inflation hedge.",
-  },
-  {
-    question: "How transparent are REIT investments?",
-    answer:
-      "REITs provide regular disclosures on financials, occupancy, lease terms, and portfolio performance.",
-  },
-  {
-    question: "Are REIT distributions always stable?",
-    answer:
-      "No, distributions can fluctuate based on rental income, occupancy levels, and interest rate movements.",
-  },
-  {
-    question: "Why invest in REITs?",
-    answer:
-      "They provide an efficient way to invest in real estate through managed portfolios, multiple asset exposure, better liquidity, and reduced capital requirements.",
-  },
-],
+    faq: [
+      {
+        question: "Are REITs good during inflation?",
+        answer:
+          "Yes, often rent agreements may include escalation clauses, and property values tend to rise with inflation. So, REITs can act as a partial inflation hedge.",
+      },
+      {
+        question: "How transparent are REIT investments?",
+        answer:
+          "REITs provide regular disclosures on financials, occupancy, lease terms, and portfolio performance.",
+      },
+      {
+        question: "Are REIT distributions always stable?",
+        answer:
+          "No, distributions can fluctuate based on rental income, occupancy levels, and interest rate movements.",
+      },
+      {
+        question: "Why invest in REITs?",
+        answer:
+          "They provide an efficient way to invest in real estate through managed portfolios, multiple asset exposure, better liquidity, and reduced capital requirements.",
+      },
+    ],
     bgImage: "/finask/reit.webp",
+    backgroundPosition: "center",
     faqSection: {
       title: "General Question",
       description:
@@ -2953,8 +3010,8 @@ faq: [
     title: "Infrastructure Investment Trusts",
     tagline: "Because Progress Should Not Just Be Admired — It Should Be Owned",
     description:
-    "Infrastructure Investment Trusts (InvITs) are a modern investment avenue that allow investors to participate in income-generating infrastructure assets such as roads, power transmission projects and renewable energy. It is designed to offer stable and predictable cash flows and distribute a significant portion of earnings to investors, making them an attractive option for those seeking regular income along with potential capital appreciation. They combine the benefits of infrastructure investing with the liquidity of market-linked instruments, providing transparency, diversification and professional management. For investors looking to add a steady income-generating asset class to their portfolio, InvITs can play a strategic role in long-term wealth creation. ",
-     features: [
+      "Infrastructure Investment Trusts (InvITs) are a modern investment avenue that allow investors to participate in income-generating infrastructure assets such as roads, power transmission projects and renewable energy. It is designed to offer stable and predictable cash flows and distribute a significant portion of earnings to investors, making them an attractive option for those seeking regular income along with potential capital appreciation. They combine the benefits of infrastructure investing with the liquidity of market-linked instruments, providing transparency, diversification and professional management. For investors looking to add a steady income-generating asset class to their portfolio, InvITs can play a strategic role in long-term wealth creation. ",
+    features: [
       {
         title: "Stable Cash Flows",
         description: "Revenue from operational infrastructure assets.",
@@ -2969,21 +3026,22 @@ faq: [
       },
     ],
     faq: [
-   {
-    question: "What is the structure of an InvIT?",
-    answer:
-      "An InvIT typically has a trust structure with a sponsor, investment manager, project manager, and trustee overseeing operations and compliance.",
-  },
-  {
-    question: "What is the difference between Public InvITs and Private InvITs?",
-    answer:
-      "Public InvITs are listed and available to retail investors, while Private InvITs are unlisted and typically accessible only to institutional or large investors.",
-  },
-  {
-    question: "What is distribution payout frequency in InvITs?",
-    answer:
-      "Most InvITs provide quarterly or semi-annual distributions depending on cash flow generation.",
-  },
+      {
+        question: "What is the structure of an InvIT?",
+        answer:
+          "An InvIT typically has a trust structure with a sponsor, investment manager, project manager, and trustee overseeing operations and compliance.",
+      },
+      {
+        question:
+          "What is the difference between Public InvITs and Private InvITs?",
+        answer:
+          "Public InvITs are listed and available to retail investors, while Private InvITs are unlisted and typically accessible only to institutional or large investors.",
+      },
+      {
+        question: "What is distribution payout frequency in InvITs?",
+        answer:
+          "Most InvITs provide quarterly or semi-annual distributions depending on cash flow generation.",
+      },
       {
         question: "How are InvITs different from REITs?",
         answer:
@@ -2991,6 +3049,7 @@ faq: [
       },
     ],
     bgImage: "/finask/invi.webp",
+    backgroundPosition: "center",
     faqSection: {
       title: "General Question",
       description:
@@ -3006,8 +3065,8 @@ faq: [
     title: "Fractional Commercial Real Estate",
     tagline: "Because Progress Should Not Require Owning the Whole Skyline",
     description:
-    "It is an innovative investment solution that allows investors to own a share of high-quality, income-generating commercial properties such as office spaces, warehouses, and retail assets without the need for large capital outlays. By pooling funds with other investors, you gain access to premium real estate opportunities that were traditionally available only to large institutions or HNI investors. This asset class offers the potential for stable rental income, capital appreciation, and portfolio diversification. With professional management, transparency and lower entry barriers, fractional ownership makes commercial real estate more accessible, efficient and aligned with modern investment needs.",
-     features: [
+      "It is an innovative investment solution that allows investors to own a share of high-quality, income-generating commercial properties such as office spaces, warehouses, and retail assets without the need for large capital outlays. By pooling funds with other investors, you gain access to premium real estate opportunities that were traditionally available only to large institutions or HNI investors. This asset class offers the potential for stable rental income, capital appreciation, and portfolio diversification. With professional management, transparency and lower entry barriers, fractional ownership makes commercial real estate more accessible, efficient and aligned with modern investment needs.",
+    features: [
       {
         title: "Corpus Calculation",
         description: "Estimating the amount needed for your desired lifestyle.",
@@ -3028,8 +3087,7 @@ faq: [
           "Investors pool funds to purchase a commercial asset (like office spaces or warehouses) through a structured platform or SPV (Special Purpose Vehicle). Rental income and potential appreciation are shared proportionately.",
       },
       {
-        question:
-          "How liquid is fractional real estate?",
+        question: "How liquid is fractional real estate?",
         answer:
           " It is less liquid than listed instruments, though some platforms offer secondary market exits or structured buyback options.",
       },
@@ -3039,13 +3097,13 @@ faq: [
           "Returns generally come from two sources — regular rental income and capital appreciation over time. However, returns depend on property performance and market conditions.",
       },
       {
-        question:
-          "Is Fractional Ownership regulated?",
+        question: "Is Fractional Ownership regulated?",
         answer:
           "Regulation varies by structure; some platforms operate under SEBI guidelines or alternative investment frameworks, while others function through private agreements.",
       },
     ],
     bgImage: "/finask/fractional.webp",
+    backgroundPosition: "top center",
     faqSection: {
       title: "General Question",
       description:
@@ -3061,8 +3119,8 @@ faq: [
     title: "Peer-to-Peer Lending",
     tagline: "Elevating Fixed Income with Thoughtful Innovation",
     description:
-    "Not every investor is drawn to the pulse of markets. Many seek stable, predictable returns—but wish to surpass traditional fixed deposit yields. Peer-to-Peer Lending, when curated and monitored diligently, offers such an elegant middle path. \n At FinAsk Value, we approach P2P Lending as a structured fixed income strategy—not a speculative tech fad. Whether you are a retiree desiring monthly income, a professional diversifying surplus or an HNI layering alternative fixed income alongside bonds and FDRs, P2P Lending can complement your strategy. \n We handle everything from platform selection and borrower diversification to ongoing risk monitoring, so your fixed income evolves with clarity and calm.",
-     features: [
+      "Not every investor is drawn to the pulse of markets. Many seek stable, predictable returns—but wish to surpass traditional fixed deposit yields. Peer-to-Peer Lending, when curated and monitored diligently, offers such an elegant middle path. \n At FinAsk Value, we approach P2P Lending as a structured fixed income strategy—not a speculative tech fad. Whether you are a retiree desiring monthly income, a professional diversifying surplus or an HNI layering alternative fixed income alongside bonds and FDRs, P2P Lending can complement your strategy. \n We handle everything from platform selection and borrower diversification to ongoing risk monitoring, so your fixed income evolves with clarity and calm.",
+    features: [
       {
         title: "Enhanced Yields",
         description: "Returns typically ranging from 10-12%.",
@@ -3099,6 +3157,7 @@ faq: [
       },
     ],
     bgImage: "/finask/p2p.webp",
+    backgroundPosition: "center",
     faqSection: {
       title: "General Question",
       description:
@@ -3143,17 +3202,20 @@ faq: [
           "They carry credit and liquidity risk. Proper due diligence, diversification, and understanding of the underlying structure are essential before investing.",
       },
       {
-        question: "Why is portfolio allocation important in Alternative Fixed Income?",
+        question:
+          "Why is portfolio allocation important in Alternative Fixed Income?",
         answer:
           "Because balancing risk, liquidity and yield across instruments helps optimize stable long-term returns.",
       },
       {
-        question: "What is the typical investment tenure for Alternative Fixed Income?",
+        question:
+          "What is the typical investment tenure for Alternative Fixed Income?",
         answer:
           "Tenure can range from short-term (a few months) to medium or long-term, depending on the product structure.",
       },
     ],
     bgImage: "/finask/afi.webp",
+    backgroundPosition: "top",
     faqSection: {
       title: "General Question",
       description:
@@ -3207,6 +3269,7 @@ faq: [
       },
     ],
     bgImage: "/finask/c-fdr.jpg",
+    backgroundPosition: "top",
     faqSection: {
       title: "General Question",
       description:
@@ -3222,8 +3285,8 @@ faq: [
     title: "Gift City",
     tagline: "Opening Global Doors, Seamlessly Within India",
     description:
-    "It is India’s first operational International Financial Services Centre which designed to position the country as a global financial hub. It offers a world-class ecosystem for financial services, including offshore investments, banking, insurance and fund management, all within a highly regulated and tax-efficient environment with benefits such as tax incentives, ease of doing business and access to global markets in foreign currency.  \n It provides investors and institutions a unique opportunity to diversify internationally while operating from India. For forward-looking investors, it represents a gateway to global investing with enhanced efficiency, transparency and regulatory support.",
-     features: [
+      "It is India’s first operational International Financial Services Centre which designed to position the country as a global financial hub. It offers a world-class ecosystem for financial services, including offshore investments, banking, insurance and fund management, all within a highly regulated and tax-efficient environment with benefits such as tax incentives, ease of doing business and access to global markets in foreign currency.  \n It provides investors and institutions a unique opportunity to diversify internationally while operating from India. For forward-looking investors, it represents a gateway to global investing with enhanced efficiency, transparency and regulatory support.",
+    features: [
       {
         title: "Tax Efficiency",
         description: "Exemptions on certain capital gains and interest income.",
@@ -3259,7 +3322,8 @@ faq: [
           "Yes, GIFT City provides a platform to invest in global stocks (like US markets) through NSE IFSC.",
       },
     ],
-    bgImage: "/finask/gift-city.webp",
+    bgImage: "/finask/gift-city.png",
+    backgroundPosition: "top",
     faqSection: {
       title: "General Question",
       description:
@@ -3290,29 +3354,30 @@ faq: [
         description: "Accumulate gold systematically.",
       },
     ],
-   faq: [
-  {
-    question: "How is E-Gold different from physical gold?",
-    answer:
-      "E-Gold eliminates storage risk, making charges, and purity concerns. It can be bought and sold online easily, while physical gold involves storage, security, and resale challenges.",
-  },
-  {
-    question: "What is the minimum investment required in E-Gold?",
-    answer:
-      "E-Gold can be started with a very small amount, often as low as ₹500.",
-  },
-  {
-    question: "What drives the price of E-Gold?",
-    answer:
-      "Its price is directly linked to international gold prices and domestic demand-supply conditions.",
-  },
-  {
-    question: "Can E-Gold be pledged or used as collateral?",
-    answer:
-      "Yes, some platforms allow E-Gold holdings to be pledged for loans, similar to physical gold collateralization.",
-  },
-],
+    faq: [
+      {
+        question: "How is E-Gold different from physical gold?",
+        answer:
+          "E-Gold eliminates storage risk, making charges, and purity concerns. It can be bought and sold online easily, while physical gold involves storage, security, and resale challenges.",
+      },
+      {
+        question: "What is the minimum investment required in E-Gold?",
+        answer:
+          "E-Gold can be started with a very small amount, often as low as ₹500.",
+      },
+      {
+        question: "What drives the price of E-Gold?",
+        answer:
+          "Its price is directly linked to international gold prices and domestic demand-supply conditions.",
+      },
+      {
+        question: "Can E-Gold be pledged or used as collateral?",
+        answer:
+          "Yes, some platforms allow E-Gold holdings to be pledged for loans, similar to physical gold collateralization.",
+      },
+    ],
     bgImage: "/finask/e-gold.webp",
+    backgroundPosition: "top",
     faqSection: {
       title: "General Question",
       description:
@@ -3366,6 +3431,7 @@ faq: [
       },
     ],
     bgImage: "/finask/national-pension-sceme.webp",
+    backgroundPosition: "center",
     faqSection: {
       title: "General Question",
       description:
@@ -3420,6 +3486,7 @@ faq: [
       },
     ],
     bgImage: "/finask/stock-roking.webp",
+    backgroundPosition: "center",
     faqSection: {
       title: "General Question",
       description:
@@ -3435,8 +3502,8 @@ faq: [
     title: "Loan Against Securities",
     tagline: "Unlock Liquidity Without Selling Your Investments",
     description:
-    "Your investments in mutual funds and shares are valuable financial assets. Instead of selling them when you need funds, you can pledge them and access instant liquidity through a Loan Against Securities (LAS). With Loan Against Mutual Funds (LAMF) and Loan Against Securities (LAS), you can meet your short-term financial needs while your investments remain invested and continue to grow.  \n Whether you need funds for business expansion, personal needs, emergencies or financial planning, Loan Against Securities offers a smart and cost-effective borrowing solution. It is a smart way to unlock funds while keeping your long-term investment strategy intact. \n At FinAsk Value, access liquidity without selling your portfolio through cost-effective borrowing backed by your securities.",
-     features: [
+      "Your investments in mutual funds and shares are valuable financial assets. Instead of selling them when you need funds, you can pledge them and access instant liquidity through a Loan Against Securities (LAS). With Loan Against Mutual Funds (LAMF) and Loan Against Securities (LAS), you can meet your short-term financial needs while your investments remain invested and continue to grow.  \n Whether you need funds for business expansion, personal needs, emergencies or financial planning, Loan Against Securities offers a smart and cost-effective borrowing solution. It is a smart way to unlock funds while keeping your long-term investment strategy intact. \n At FinAsk Value, access liquidity without selling your portfolio through cost-effective borrowing backed by your securities.",
+    features: [
       {
         title: "Instant Liquidity",
         description:
@@ -3453,29 +3520,30 @@ faq: [
           "Loans against securities often come with lower interest rates than personal loans or credit cards.",
       },
     ],
-   faq: [
-  {
-    question: "How is interest charged in LAS?",
-    answer:
-      "Interest is charged only on the amount utilized from the sanctioned limit, not on the entire approved loan amount.",
-  },
-  {
-    question: "Can I continue to earn returns on pledged securities?",
-    answer:
-      "Yes, you continue to earn dividends, interest, and capital appreciation on pledged assets.",
-  },
-  {
-    question: "Can I use the Loan flexibly?",
-    answer:
-      "Yes, many LAS facilities work like an overdraft, allowing you to withdraw funds as needed and pay interest only on the amount utilized.",
-  },
-  {
-    question: "Is LAS better during bullish or bearish markets?",
-    answer:
-      "LAS is generally more effective in bullish or stable markets where collateral value remains strong and margin calls are minimized.",
-  },
-],
+    faq: [
+      {
+        question: "How is interest charged in LAS?",
+        answer:
+          "Interest is charged only on the amount utilized from the sanctioned limit, not on the entire approved loan amount.",
+      },
+      {
+        question: "Can I continue to earn returns on pledged securities?",
+        answer:
+          "Yes, you continue to earn dividends, interest, and capital appreciation on pledged assets.",
+      },
+      {
+        question: "Can I use the Loan flexibly?",
+        answer:
+          "Yes, many LAS facilities work like an overdraft, allowing you to withdraw funds as needed and pay interest only on the amount utilized.",
+      },
+      {
+        question: "Is LAS better during bullish or bearish markets?",
+        answer:
+          "LAS is generally more effective in bullish or stable markets where collateral value remains strong and margin calls are minimized.",
+      },
+    ],
     bgImage: "/finask/loan-against-securities.webp",
+    backgroundPosition: "top",
     faqSection: {
       title: "General Questions",
       description:
@@ -3537,6 +3605,7 @@ faq: [
       },
     ],
     bgImage: "/finask/sip.png",
+    backgroundPosition: "bottom",
     faqSection: {
       title: "General Questions",
       description:
@@ -3574,7 +3643,7 @@ faq: [
       {
         question: "Is a Trust only for the wealthy?",
         answer:
-"No, a Trust is a useful tool for anyone wanting specific control over asset distribution, protecting beneficiaries or caring for a special needs child."
+          "No, a Trust is a useful tool for anyone wanting specific control over asset distribution, protecting beneficiaries or caring for a special needs child.",
       },
       {
         question: "What is a Private Family Trust?",
@@ -3592,7 +3661,8 @@ faq: [
           "Trusts can be revocable (can be cancelled) or irrevocable (permanent). Irrevocable trusts offer better asset protection.",
       },
     ],
-    bgImage: "/finask/trust.jpg",
+    bgImage: "/finask/trust.png",
+    backgroundPosition: "center",
     faqSection: {
       title: "General Question",
       description:
@@ -3646,6 +3716,7 @@ faq: [
       },
     ],
     bgImage: "/finask/will-writing.webp",
+    backgroundPosition: "center",
     faqSection: {
       title: "General Question",
       description:
@@ -3677,29 +3748,30 @@ faq: [
         description: "Minimizing disputes among beneficiaries.",
       },
     ],
- faq: [
-  {
-    question: "Can multiple executors be appointed?",
-    answer:
-      "Yes, a Will can appoint more than one executor to jointly manage estate administration, depending on complexity and preference.",
-  },
-  {
-    question: "Can an executor sell property from the estate?",
-    answer:
-      "Yes, if required, an executor can liquidate assets such as property to settle debts or distribute proceeds among heirs.",
-  },
-  {
-    question: "Can a family member act as an executor?",
-    answer:
-      "Yes, a family member can act as an executor, but many people prefer a neutral professional to avoid conflicts of interest.",
-  },
-  {
-    question: "What happens if no executor is named in a Will?",
-    answer:
-      "If no executor is named, the court appoints an administrator to manage and settle the estate.",
-  },
-],
+    faq: [
+      {
+        question: "Can multiple executors be appointed?",
+        answer:
+          "Yes, a Will can appoint more than one executor to jointly manage estate administration, depending on complexity and preference.",
+      },
+      {
+        question: "Can an executor sell property from the estate?",
+        answer:
+          "Yes, if required, an executor can liquidate assets such as property to settle debts or distribute proceeds among heirs.",
+      },
+      {
+        question: "Can a family member act as an executor?",
+        answer:
+          "Yes, a family member can act as an executor, but many people prefer a neutral professional to avoid conflicts of interest.",
+      },
+      {
+        question: "What happens if no executor is named in a Will?",
+        answer:
+          "If no executor is named, the court appoints an administrator to manage and settle the estate.",
+      },
+    ],
     bgImage: "/finask/executor-services.png",
+    backgroundPosition: "Top center",
     faqSection: {
       title: "General Question",
       description:
@@ -3753,6 +3825,7 @@ faq: [
       },
     ],
     bgImage: "/finask/legal-advisory.webp",
+    backgroundPosition: "top center",
     faqSection: {
       title: "General Question",
       description:
@@ -3806,6 +3879,7 @@ faq: [
       },
     ],
     bgImage: "/finask/tax-advisory.webp",
+    backgroundPosition: "center",
     faqSection: {
       title: "General Question",
       description:
@@ -3848,17 +3922,20 @@ faq: [
           "Yes, we offer corporate financial wellness programs tailored to employee needs.",
       },
       {
-        question: "Do I need prior finance knowledge before attending these workshops?",
+        question:
+          "Do I need prior finance knowledge before attending these workshops?",
         answer:
           "No, our workshops are designed to be beginner-friendly and jargon-free.",
       },
       {
-        question: "Do workshops address behavioural aspects of money management?",
+        question:
+          "Do workshops address behavioural aspects of money management?",
         answer:
           "Yes, they often include behavioural finance concepts to help participants understand spending habits, biases and decision-making patterns.",
       },
     ],
     bgImage: "/finask/financial-literacy.webp",
+    backgroundPosition: "center",
     faqSection: {
       title: "General Question",
       description:
@@ -3974,6 +4051,7 @@ faq: [
       },
     ],
     bgImage: "/finask/credit-cards.png",
+    backgroundPosition: "bottom center",
     faqSection: {
       title: "General Question",
       description:
@@ -4029,6 +4107,7 @@ faq: [
       },
     ],
     bgImage: "/finask/nri-corner.png",
+    backgroundPosition: "center",
     faqSection: {
       title: "General Question",
       description:
@@ -4082,6 +4161,7 @@ faq: [
       },
     ],
     bgImage: "/finask/women-corner.png",
+    backgroundPosition: "center",
     faqSection: {
       title: "General Question",
       description:
@@ -4137,6 +4217,7 @@ faq: [
       },
     ],
     bgImage: "/family-office1.webp",
+    backgroundPosition: "center",
     faqSection: {
       title: "General Question",
       description:
