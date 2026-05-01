@@ -935,7 +935,7 @@ export const servicesData = [
       description:
         "Answers to common questions about Group Personal Accident Insurance and how it protects employees and their families.",
       image: "/faq.webp",
-      consultationTitle: "Need Help Choosing the Right Accident Cover?",
+      consultationTitle: "Connect with an Expert",
       consultationButton: "Get Started",
     },
   },
@@ -994,7 +994,7 @@ export const servicesData = [
       description:
         "Answers to common questions about Group Term Life Insurance and the benefits it offers to organizations and employees.",
       image: "/faq.webp",
-      consultationTitle: "Need Help Structuring Group Life Cover?",
+      consultationTitle: "Connect with an Expert",
       consultationButton: "Get Started",
     },
   },
@@ -1052,7 +1052,7 @@ export const servicesData = [
       description:
         "Answers to common questions about Group Health Insurance and how it supports employee well-being and business continuity.",
       image: "/faq.webp",
-      consultationTitle: "Looking for the Right Group Health Plan?",
+      consultationTitle: "Connect with an Expert",
       consultationButton: "Get Started",
     },
   },
@@ -1110,7 +1110,7 @@ export const servicesData = [
       description:
         "Answers to common questions about Health Assistance services and how they support your family’s healthcare needs.",
       image: "/faq.webp",
-      consultationTitle: "Need Convenient Healthcare Support?",
+      consultationTitle: "Connect with an Expert",
       consultationButton: "Get Started",
     },
   },
@@ -1169,7 +1169,7 @@ export const servicesData = [
       description:
         "Answers to common questions about Roadside Assistance services and how they protect you during on-road emergencies.",
       image: "/faq.webp",
-      consultationTitle: "Need 24x7 Roadside Support?",
+      consultationTitle: "Connect with an Expert",
       consultationButton: "Get Started",
     },
   },
@@ -1225,7 +1225,7 @@ export const servicesData = [
       description:
         "Answers to common questions about Cycle Protection and how it safeguards your bicycle and your peace of mind.",
       image: "/faq.webp",
-      consultationTitle: "Need Protection for Your Bicycle?",
+      consultationTitle: "Connect with an Expert",
       consultationButton: "Get Started",
     },
   },
@@ -1282,7 +1282,7 @@ export const servicesData = [
       description:
         "Answers to common questions about Pet Insurance and how it supports the health and well-being of your pets.",
       image: "/faq.webp",
-      consultationTitle: "Need the Right Pet Insurance Plan?",
+      consultationTitle: "Connect with an Expert",
       consultationButton: "Get Started",
     },
   },
@@ -3549,7 +3549,7 @@ export const servicesData = [
       description:
         "Answers to common questions about Loan Against Securities, its benefits, and how it works.",
       image: "/faq.webp",
-      consultationTitle: "Need Funds Without Selling Investments?",
+      consultationTitle: "Connect with an Expert",
       consultationButton: "Get Started",
     },
   },
@@ -3611,7 +3611,7 @@ export const servicesData = [
       description:
         "Answers to common questions about Loan Against Securities, its benefits, and how it works.",
       image: "/faq.webp",
-      consultationTitle: "Need Funds Without Selling Investments?",
+      consultationTitle: "Connect with an Expert",
       consultationButton: "Get Started",
     },
   },
