@@ -18,7 +18,7 @@ const greatVibes = Great_Vibes({
 });
 
 export const metadata = {
-  title: "Finask value - Financial Services",
+  title: "Finask Value - Financial Services",
   description: "Wealth Management Hero Section",
 };
 

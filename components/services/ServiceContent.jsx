@@ -85,12 +85,12 @@ export default function ServiceContent({ service, hideFaq = false }) {
                 )}
               </div>
               <div className=" ">
-                <h3 className="font-serif text-xl font-bold text-[#00394E] mb-1">
+                <h3 className="font-serif text-[1.4rem] font-bold text-[#00394E] ">
                   {" "}
                   {/* Deep Teal */}
                   {feature.title}
                 </h3>
-                <p className="text-slate-500 leading-relaxed text-sm">
+                <p className="text-slate-500 leading-[1.2] text-md">
                   {feature.description}
                 </p>
               </div>
