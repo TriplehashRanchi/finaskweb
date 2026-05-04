@@ -320,7 +320,7 @@ export const servicesData = [
     title: "Term Insurance",
     tagline: "Care That Never Fades",
     description:
-      "Life’s certainties are few, but your family’s stability should never be one of them. Term Insurance creates a strong financial foundation, ensuring loved ones can continue their lives with dignity, education and independence even in your absence. At FinAsk Value, we help you choose thoughtfully structured cover that matches your responsibilities, future liabilities and income goals. Whether protecting young children, supporting a spouse or securing aging parents — we curate plans that preserve security when it matters most for generations ahead confidently.",
+      "Life’s certainties are few, but your family’s stability should never be one of them. Term Insurance creates a strong financial foundation, ensuring loved ones can continue their lives with dignity, education and independence even in your absence. At Finask Value, we help you choose thoughtfully structured cover that matches your responsibilities, future liabilities and income goals. Whether protecting young children, supporting a spouse or securing aging parents — we curate plans that preserve security when it matters most for generations ahead confidently.",
     features: [
       {
         title: "High Life Cover",
@@ -387,7 +387,7 @@ export const servicesData = [
     title: "Unit Link Insurance Plan ",
     tagline: "So Protection and Wealth Creation Can Grow Together",
     description:
-      "For those who value protection alongside disciplined wealth creation, ULIP offers a refined dual advantage. It combines life cover with market-linked investing, allowing your money to participate in long-term growth while serving broader family goals. At FinAsk Value, we help you evaluate funds, risk appetite, policy horizons and charges with clarity, so every allocation supports both protection and performance. Whether planning children’s futures, retirement goals or legacy creation — we curate solutions designed to build wealth with purpose over time elegantly.",
+      "For those who value protection alongside disciplined wealth creation, ULIP offers a refined dual advantage. It combines life cover with market-linked investing, allowing your money to participate in long-term growth while serving broader family goals. At Finask Value, we help you evaluate funds, risk appetite, policy horizons and charges with clarity, so every allocation supports both protection and performance. Whether planning children’s futures, retirement goals or legacy creation — we curate solutions designed to build wealth with purpose over time elegantly.",
     features: [
       {
         title: "Dual Advantage",
@@ -453,7 +453,7 @@ export const servicesData = [
     title: "Traditional Life Insurance Plans",
     tagline: "Certainty That Quietly Supports Your Future Financial Milestones",
     description:
-      "When predictability matters more than volatility, Traditional Life Insurance Plans offer reassuring financial certainty. They are designed for those who value steady accumulation, defined benefits and disciplined planning over market fluctuations. At FinAsk Value, we help you identify structures that align with education goals, retirement income, legacy intentions or planned milestones with confidence. Whether you seek assured payouts, capital preservation or dependable long-term savings — we curate solutions that bring stability, visibility and peace to your financial journey for years ahead.",
+      "When predictability matters more than volatility, Traditional Life Insurance Plans offer reassuring financial certainty. They are designed for those who value steady accumulation, defined benefits and disciplined planning over market fluctuations. At Finask Value, we help you identify structures that align with education goals, retirement income, legacy intentions or planned milestones with confidence. Whether you seek assured payouts, capital preservation or dependable long-term savings — we curate solutions that bring stability, visibility and peace to your financial journey for years ahead.",
     features: [
       {
         title: "Guaranteed Returns",
@@ -758,7 +758,7 @@ export const servicesData = [
     title: "Marine & Cargo Insurance",
     tagline: "In Business, Logistics Is More Than Movement It’s A Promise",
     description:
-      "A single damaged, lost or delayed consignment can lead to revenue loss, supply chain disruptions or breached contracts—that’s where comprehensive coverage becomes critical. \n Our Marine & Cargo Insurance is tailored for businesses engaged in domestic and international trade. It provides protection against physical loss or damage to goods in transit, across all modes of transportation — air, sea, road or rail. Whether you are shipping raw materials, finished products or high-value equipment, our policies are structured to absorb the risk — not your balance sheet. \n With FinAsk Value, you protect not just your shipments, but your profitability, reliability and business continuity.",
+      "A single damaged, lost or delayed consignment can lead to revenue loss, supply chain disruptions or breached contracts—that’s where comprehensive coverage becomes critical. \n Our Marine & Cargo Insurance is tailored for businesses engaged in domestic and international trade. It provides protection against physical loss or damage to goods in transit, across all modes of transportation — air, sea, road or rail. Whether you are shipping raw materials, finished products or high-value equipment, our policies are structured to absorb the risk — not your balance sheet. \n With Finask Value, you protect not just your shipments, but your profitability, reliability and business continuity.",
     features: [
       {
         title: "Securing Your Supply Chain",
@@ -937,7 +937,7 @@ export const servicesData = [
     tagline:
       "Because Leadership Carries Responsibilities That Outlive The Leader",
     description:
-      "Directors’ and Officers’ Liability Insurance (D&O) is more than a personal safety net — it’s a strategic safeguard for businesses. It ensures that if the unthinkable happens, key obligations are met, debts are covered and shareholder or partner transitions remain smooth, protecting enterprise value. \n Because your vision should not falter, even if life takes an unforeseen turn. \n At FinAsk Value, we help founders, directors and key management personnel structure life cover not just for personal protection—but for business continuity. It is not just about preparing for loss—it’s about preserving leadership, legacy and long-term confidence. \n This coverage can support succession planning, stabilize cash flow, reinforce loan and credit obligations and signal preparedness to investors and stakeholders. \n It’s more than a policy—it’s a contingency plan for confidence. Leadership may be personal, but its impact is profoundly institutional. ",
+      "Directors’ and Officers’ Liability Insurance (D&O) is more than a personal safety net — it’s a strategic safeguard for businesses. It ensures that if the unthinkable happens, key obligations are met, debts are covered and shareholder or partner transitions remain smooth, protecting enterprise value. \n Because your vision should not falter, even if life takes an unforeseen turn. \n At Finask Value, we help founders, directors and key management personnel structure life cover not just for personal protection—but for business continuity. It is not just about preparing for loss—it’s about preserving leadership, legacy and long-term confidence. \n This coverage can support succession planning, stabilize cash flow, reinforce loan and credit obligations and signal preparedness to investors and stakeholders. \n It’s more than a policy—it’s a contingency plan for confidence. Leadership may be personal, but its impact is profoundly institutional. ",
     features: [
       {
         title: "Seamless Succession Planning",
@@ -1139,7 +1139,7 @@ export const servicesData = [
     title: "Group Health Insurance",
     tagline: "Protect Your Employees with Comprehensive Group Health Insurance",
     description:
-      "Group Health Insurance is a health insurance policy purchased by an employer to provide medical coverage to employees and, in many cases, their family members. Instead of individual policies, a single master policy covers the entire workforce, offering affordable and comprehensive healthcare protection. For businesses, group health insurance is one of the most cost-effective employee benefits, helping attract talent, improve retention, and ensure financial protection against rising healthcare costs. \n Choosing the right Group Health Insurance requires understanding your workforce needs, coverage requirements and budget. \n At FinAsk Value, we help businesses compare and choose the most suitable Group Health Insurance plans from leading insurers with transparent guidance and customized solutions.",
+      "Group Health Insurance is a health insurance policy purchased by an employer to provide medical coverage to employees and, in many cases, their family members. Instead of individual policies, a single master policy covers the entire workforce, offering affordable and comprehensive healthcare protection. For businesses, group health insurance is one of the most cost-effective employee benefits, helping attract talent, improve retention, and ensure financial protection against rising healthcare costs. \n Choosing the right Group Health Insurance requires understanding your workforce needs, coverage requirements and budget. \n At Finask Value, we help businesses compare and choose the most suitable Group Health Insurance plans from leading insurers with transparent guidance and customized solutions.",
     features: [
       {
         title: "Hospitalisation Coverage",
@@ -3471,7 +3471,7 @@ export const servicesData = [
     title: "Peer-to-Peer Lending",
     tagline: "Elevating Fixed Income with Thoughtful Innovation",
     description:
-      "Not every investor is drawn to the pulse of markets. Many seek stable, predictable returns—but wish to surpass traditional fixed deposit yields. Peer-to-Peer Lending, when curated and monitored diligently, offers such an elegant middle path. \n At FinAsk Value, we approach P2P Lending as a structured fixed income strategy—not a speculative tech fad. Whether you are a retiree desiring monthly income, a professional diversifying surplus or an HNI layering alternative fixed income alongside bonds and FDRs, P2P Lending can complement your strategy. \n We handle everything from platform selection and borrower diversification to ongoing risk monitoring, so your fixed income evolves with clarity and calm.",
+      "Not every investor is drawn to the pulse of markets. Many seek stable, predictable returns—but wish to surpass traditional fixed deposit yields. Peer-to-Peer Lending, when curated and monitored diligently, offers such an elegant middle path. \n At Finask Value, we approach P2P Lending as a structured fixed income strategy—not a speculative tech fad. Whether you are a retiree desiring monthly income, a professional diversifying surplus or an HNI layering alternative fixed income alongside bonds and FDRs, P2P Lending can complement your strategy. \n We handle everything from platform selection and borrower diversification to ongoing risk monitoring, so your fixed income evolves with clarity and calm.",
       features: [
         {
           title: "Enhance Yields",
@@ -3917,7 +3917,7 @@ export const servicesData = [
     title: "Loan Against Securities",
     tagline: "Unlock Liquidity Without Selling Your Investments",
     description:
-      "Your investments in mutual funds and shares are valuable financial assets. Instead of selling them when you need funds, you can pledge them and access instant liquidity through a Loan Against Securities (LAS). With Loan Against Mutual Funds (LAMF) and Loan Against Securities (LAS), you can meet your short-term financial needs while your investments remain invested and continue to grow.  \n Whether you need funds for business expansion, personal needs, emergencies or financial planning, Loan Against Securities offers a smart and cost-effective borrowing solution. It is a smart way to unlock funds while keeping your long-term investment strategy intact. \n At FinAsk Value, access liquidity without selling your portfolio through cost-effective borrowing backed by your securities.",
+      "Your investments in mutual funds and shares are valuable financial assets. Instead of selling them when you need funds, you can pledge them and access instant liquidity through a Loan Against Securities (LAS). With Loan Against Mutual Funds (LAMF) and Loan Against Securities (LAS), you can meet your short-term financial needs while your investments remain invested and continue to grow.  \n Whether you need funds for business expansion, personal needs, emergencies or financial planning, Loan Against Securities offers a smart and cost-effective borrowing solution. It is a smart way to unlock funds while keeping your long-term investment strategy intact. \n At Finask Value, access liquidity without selling your portfolio through cost-effective borrowing backed by your securities.",
     features: [
       {
         title: "Instant Liquidity",
