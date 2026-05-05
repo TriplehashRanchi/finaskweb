@@ -38,56 +38,49 @@ export default function TestimonialSection() {
       quote:
         "We truly value the partnership and appreciate the consistent support from your team. The professionalism, timely assistance, and customer-centric approach have made our experience very positive.",
       author: "Divya Sawhney",
-      location: "Client",
-      image: "/testimonial1.png",
+       image: "/testimonial1.png",
     },
     {
       id: 2,
       quote:
         "Worked with Palash and Finask Value Team in the past. Their professionalism, depth of financial knowledge, and genuine commitment to helping clients succeed really sets them apart in the industry.",
       author: "Rohit Bhardwaj",
-      location: "Client",
-      image: "/testimonial2.png",
+       image: "/testimonial2.png",
     },
     {
       id: 3,
       quote:
         "Palash is great when it comes to investment. I know him for the past 3 years and all his investment advice has helped me very well — especially Mutual Funds. I highly recommend him.",
       author: "Amit Gupta",
-      location: "Client",
-      image: "/testimonial3.png",
+       image: "/testimonial3.png",
     },
     {
       id: 4,
       quote:
         "Palash Malik, Founder and CEO of Finask Value, has been very active in providing solutions to any queries related to portfolio management, PMS services, insurance products, and general financial advice. His personalized guidance with a long-term outlook is highly commendable. I recommend Finask Value as a service provider of choice for managing personal finances.",
       author: "Atul Bhola",
-      location: "Client",
-      image: "/testimonial4.png",
+       image: "/testimonial4.png",
     },
     {
       id: 5,
       quote:
         "I have had a great customer experience with Finask Value. Whenever I called regarding any query or service, it was handled promptly and correctly. The founder maintains a great relationship with customers which inspires confidence. Their suggestions and recommendations have turned out to be excellent.",
       author: "Chetan Pendharkar",
-      location: "Client",
-      image: "/testimonial5.png",
+       image: "/testimonial5.png",
     },
     {
       id: 6,
       quote:
         "Customer need-based solutions — under one roof you get all products and services without compromising on quality. I must say it is not only satisfaction, it is Customer Delight.",
       author: "Dr. Sunil Kadyan",
-      location: "Client",
-      image: "/testimonial6.png",
+       image: "/testimonial6.png",
     },
     {
       id: 7,
       quote:
         "Super professionalism! Great knowledge on financial products. Amazing customer service. I have never seen a financial advisor like Palash and Finask Value.",
       author: "Yogendra Kumar Malik",
-      location: "Client",
-      image: "/testimonial7.png",
+       image: "/testimonial7.png",
     },
   ];
 
@@ -155,7 +148,7 @@ export default function TestimonialSection() {
                 >
                     
                     {/* User Info */}
-                    <div className="flex items-center gap-4 mb-4">
+                    <div className="flex items-center gap-2 mb-4">
                         <div className="relative w-14 h-14 rounded-full overflow-hidden border-2 border-gray-100 pointer-events-none">
                             <Image
                                 src={currentTestimonial.image}
@@ -168,9 +161,7 @@ export default function TestimonialSection() {
                             <h4 className="font-serif text-lg font-bold text-[#001F2B]">
                                 {currentTestimonial.author}
                             </h4>
-                            <p className="text-[#DAA434] text-sm font-medium">
-                                {currentTestimonial.location}
-                            </p>
+                         
                         </div>
                     </div>
 
