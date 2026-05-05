@@ -56,12 +56,10 @@ export const servicesData = [
     bgImage: "/finask/health.jpg",
     backgroundPosition: "center",
     faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.webp",
-      consultationTitle: "Connect with an Expert",
-      consultationButton: "Get Started",
+      promoTitle: "Invest \u20B910k/month & Get",
+      promoText: "\u20B91 Crore*Tax-Free",
+      promoBadges1: "Plans starting from \u20B91000/month",
+      promoBadges2: "In-built life cover",
     },
   },
   {
@@ -123,12 +121,10 @@ export const servicesData = [
     bgImage: "/finask/super.webp",
     backgroundPosition: "center",
     faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.webp",
-      consultationTitle: "Connect with an Expert",
-      consultationButton: "Get Started",
+      promoTitle: "Invest \u20B910k/month & Get",
+      promoText: "\u20B91 Crore*Tax-Free",
+      promoBadges1: "Plans starting from \u20B91000/month",
+      promoBadges2: "In-built life cover",
     },
   },
   {
@@ -190,12 +186,10 @@ export const servicesData = [
     bgImage: "/finask/accident.webp",
     backgroundPosition: "top center",
     faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.webp",
-      consultationTitle: "Connect with an Expert",
-      consultationButton: "Get Started",
+      promoTitle: "Invest \u20B910k/month & Get",
+      promoText: "\u20B91 Crore*Tax-Free",
+      promoBadges1: "Plans starting from \u20B91000/month",
+      promoBadges2: "In-built life cover",
     },
   },
   {
@@ -258,12 +252,10 @@ export const servicesData = [
     bgImage: "/finask/critical-illness-insurance.jpeg",
     backgroundPosition: "center",
     faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.webp",
-      consultationTitle: "Connect with an Expert",
-      consultationButton: "Get Started",
+      promoTitle: "Invest \u20B910k/month & Get",
+      promoText: "\u20B91 Crore*Tax-Free",
+      promoBadges1: "Plans starting from \u20B91000/month",
+      promoBadges2: "In-built life cover",
     },
   },
   // {
@@ -373,12 +365,10 @@ export const servicesData = [
     bgImage: "/finask/term.png",
     backgroundPosition: "center",
     faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.webp",
-      consultationTitle: "Connect with an Expert",
-      consultationButton: "Get Started",
+      promoTitle: "Invest \u20B910k/month & Get",
+      promoText: "\u20B91 Crore*Tax-Free",
+      promoBadges1: "Plans starting from \u20B91000/month",
+      promoBadges2: "In-built life cover",
     },
   },
   {
@@ -439,12 +429,10 @@ export const servicesData = [
     bgImage: "/finask/ulip.png",
     backgroundPosition: "center",
     faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.webp",
-      consultationTitle: "Connect with an Expert",
-      consultationButton: "Get Started",
+      promoTitle: "Invest \u20B910k/month & Get",
+      promoText: "\u20B91 Crore*Tax-Free",
+      promoBadges1: "Plans starting from \u20B91000/month",
+      promoBadges2: "In-built life cover",
     },
   },
   {
@@ -500,12 +488,10 @@ export const servicesData = [
     bgImage: "/finask/traditional-guaranteed-saving.webp",
     backgroundPosition: "center",
     faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.webp",
-      consultationTitle: "Connect with an Expert",
-      consultationButton: "Get Started",
+      promoTitle: "Invest \u20B910k/month & Get",
+      promoText: "\u20B91 Crore*Tax-Free",
+      promoBadges1: "Plans starting from \u20B91000/month",
+      promoBadges2: "In-built life cover",
     },
   },
   {
@@ -565,12 +551,10 @@ export const servicesData = [
     bgImage: "/finask/motor-insurance.png",
     backgroundPosition: "center",
     faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.webp",
-      consultationTitle: "Connect with an Expert",
-      consultationButton: "Get Started",
+      promoTitle: "Invest \u20B910k/month & Get",
+      promoText: "\u20B91 Crore*Tax-Free",
+      promoBadges1: "Plans starting from \u20B91000/month",
+      promoBadges2: "In-built life cover",
     },
   },
   {
@@ -628,12 +612,10 @@ export const servicesData = [
     bgImage: "/finask/travel-insurance.webp",
     backgroundPosition: "center",
     faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.webp",
-      consultationTitle: "Connect with an Expert",
-      consultationButton: "Get Started",
+      promoTitle: "Invest \u20B910k/month & Get",
+      promoText: "\u20B91 Crore*Tax-Free",
+      promoBadges1: "Plans starting from \u20B91000/month",
+      promoBadges2: "In-built life cover",
     },
   },
   // {
@@ -744,12 +726,10 @@ export const servicesData = [
     bgImage: "/finask/fire-and-urglary.webp",
     backgroundPosition: "center",
     faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.webp",
-      consultationTitle: "Connect with an Expert",
-      consultationButton: "Get Started",
+      promoTitle: "Invest \u20B910k/month & Get",
+      promoText: "\u20B91 Crore*Tax-Free",
+      promoBadges1: "Plans starting from \u20B91000/month",
+      promoBadges2: "In-built life cover",
     },
   },
   {
@@ -811,12 +791,10 @@ export const servicesData = [
     bgImage: "/finask/marine-and-cargo-insurance.webp",
     backgroundPosition: "center",
     faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.webp",
-      consultationTitle: "Connect with an Expert",
-      consultationButton: "Get Started",
+      promoTitle: "Invest \u20B910k/month & Get",
+      promoText: "\u20B91 Crore*Tax-Free",
+      promoBadges1: "Plans starting from \u20B91000/month",
+      promoBadges2: "In-built life cover",
     },
   },
   // {
@@ -993,12 +971,10 @@ export const servicesData = [
     bgImage: "/finask/directors-life-insurance.png",
     backgroundPosition: "center",
     faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.webp",
-      consultationTitle: "Connect with an Expert",
-      consultationButton: "Get Started",
+      promoTitle: "Invest \u20B910k/month & Get",
+      promoText: "\u20B91 Crore*Tax-Free",
+      promoBadges1: "Plans starting from \u20B91000/month",
+      promoBadges2: "In-built life cover",
     },
   },
   {
@@ -1057,12 +1033,10 @@ export const servicesData = [
     bgImage: "/finask/group-personal-accident-insurance.png",
     backgroundPosition: "center",
     faqSection: {
-      title: "General Questions",
-      description:
-        "Answers to common questions about Group Personal Accident Insurance and how it protects employees and their families.",
-      image: "/faq.webp",
-      consultationTitle: "Connect with an Expert",
-      consultationButton: "Get Started",
+      promoTitle: "Invest \u20B910k/month & Get",
+      promoText: "\u20B91 Crore*Tax-Free",
+      promoBadges1: "Plans starting from \u20B91000/month",
+      promoBadges2: "In-built life cover",
     },
   },
   {
@@ -1125,12 +1099,10 @@ export const servicesData = [
     bgImage: "/finask/group-term-life-insurance.webp",
     backgroundPosition: "center",
     faqSection: {
-      title: "General Questions",
-      description:
-        "Answers to common questions about Group Term Life Insurance and the benefits it offers to organizations and employees.",
-      image: "/faq.webp",
-      consultationTitle: "Connect with an Expert",
-      consultationButton: "Get Started",
+      promoTitle: "Invest \u20B910k/month & Get",
+      promoText: "\u20B91 Crore*Tax-Free",
+      promoBadges1: "Plans starting from \u20B91000/month",
+      promoBadges2: "In-built life cover",
     },
   },
   {
@@ -1192,12 +1164,10 @@ export const servicesData = [
     bgImage: "/finask/group-health-insurance.webp",
     backgroundPosition: "center",
     faqSection: {
-      title: "General Questions",
-      description:
-        "Answers to common questions about Group Health Insurance and how it supports employee well-being and business continuity.",
-      image: "/faq.webp",
-      consultationTitle: "Connect with an Expert",
-      consultationButton: "Get Started",
+      promoTitle: "Invest \u20B910k/month & Get",
+      promoText: "\u20B91 Crore*Tax-Free",
+      promoBadges1: "Plans starting from \u20B91000/month",
+      promoBadges2: "In-built life cover",
     },
   },
   {
@@ -1259,12 +1229,10 @@ export const servicesData = [
     bgImage: "/finask/health-assistance.webp",
     backgroundPosition: "top center",
     faqSection: {
-      title: "General Questions",
-      description:
-        "Answers to common questions about Health Assistance services and how they support your family’s healthcare needs.",
-      image: "/faq.webp",
-      consultationTitle: "Connect with an Expert",
-      consultationButton: "Get Started",
+      promoTitle: "Invest \u20B910k/month & Get",
+      promoText: "\u20B91 Crore*Tax-Free",
+      promoBadges1: "Plans starting from \u20B91000/month",
+      promoBadges2: "In-built life cover",
     },
   },
   {
@@ -1327,12 +1295,10 @@ export const servicesData = [
     bgImage: "/finask/roadside-assistance.jpg",
     backgroundPosition: "center",
     faqSection: {
-      title: "General Questions",
-      description:
-        "Answers to common questions about Roadside Assistance services and how they protect you during on-road emergencies.",
-      image: "/faq.webp",
-      consultationTitle: "Connect with an Expert",
-      consultationButton: "Get Started",
+      promoTitle: "Invest \u20B910k/month & Get",
+      promoText: "\u20B91 Crore*Tax-Free",
+      promoBadges1: "Plans starting from \u20B91000/month",
+      promoBadges2: "In-built life cover",
     },
   },
   {
@@ -1392,12 +1358,10 @@ export const servicesData = [
     bgImage: "/finask/cycle-protection.webp",
     backgroundPosition: "center",
     faqSection: {
-      title: "General Questions",
-      description:
-        "Answers to common questions about Cycle Protection and how it safeguards your bicycle and your peace of mind.",
-      image: "/faq.webp",
-      consultationTitle: "Connect with an Expert",
-      consultationButton: "Get Started",
+      promoTitle: "Invest \u20B910k/month & Get",
+      promoText: "\u20B91 Crore*Tax-Free",
+      promoBadges1: "Plans starting from \u20B91000/month",
+      promoBadges2: "In-built life cover",
     },
   },
   {
@@ -1458,12 +1422,10 @@ export const servicesData = [
     bgImage: "/finask/pet-insurance.webp",
     backgroundPosition: "center",
     faqSection: {
-      title: "General Questions",
-      description:
-        "Answers to common questions about Pet Insurance and how it supports the health and well-being of your pets.",
-      image: "/faq.webp",
-      consultationTitle: "Connect with an Expert",
-      consultationButton: "Get Started",
+      promoTitle: "Invest \u20B910k/month & Get",
+      promoText: "\u20B91 Crore*Tax-Free",
+      promoBadges1: "Plans starting from \u20B91000/month",
+      promoBadges2: "In-built life cover",
     },
   },
   {
@@ -1524,12 +1486,10 @@ export const servicesData = [
     bgImage: "/finask/workmen-compensation-insurance.png",
     backgroundPosition: "center",
     faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.webp",
-      consultationTitle: "Connect with an Expert",
-      consultationButton: "Get Started",
+      promoTitle: "Invest \u20B910k/month & Get",
+      promoText: "\u20B91 Crore*Tax-Free",
+      promoBadges1: "Plans starting from \u20B91000/month",
+      promoBadges2: "In-built life cover",
     },
   },
   {
@@ -1590,12 +1550,10 @@ export const servicesData = [
     bgImage: "/finask/professional-indemnity-insurance-for-doctors.png",
     backgroundPosition: "center",
     faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.webp",
-      consultationTitle: "Connect with an Expert",
-      consultationButton: "Get Started",
+      promoTitle: "Invest \u20B910k/month & Get",
+      promoText: "\u20B91 Crore*Tax-Free",
+      promoBadges1: "Plans starting from \u20B91000/month",
+      promoBadges2: "In-built life cover",
     },
   },
   {
@@ -1654,12 +1612,10 @@ export const servicesData = [
     bgImage: "/finask/term-rop.png",
     backgroundPosition: "center",
     faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.webp",
-      consultationTitle: "Connect with an Expert",
-      consultationButton: "Get Started",
+      promoTitle: "Invest \u20B910k/month & Get",
+      promoText: "\u20B91 Crore*Tax-Free",
+      promoBadges1: "Plans starting from \u20B91000/month",
+      promoBadges2: "In-built life cover",
     },
   },
   {
@@ -1717,12 +1673,10 @@ export const servicesData = [
     bgImage: "/finask/personal-cyber-insurance.png",
     backgroundPosition: "center",
     faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.webp",
-      consultationTitle: "Connect with an Expert",
-      consultationButton: "Get Started",
+      promoTitle: "Invest \u20B910k/month & Get",
+      promoText: "\u20B91 Crore*Tax-Free",
+      promoBadges1: "Plans starting from \u20B91000/month",
+      promoBadges2: "In-built life cover",
     },
   },
   {
@@ -1784,12 +1738,10 @@ export const servicesData = [
     bgImage: "/finask/corporate-cyber-insurance.png",
     backgroundPosition: "center",
     faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.webp",
-      consultationTitle: "Connect with an Expert",
-      consultationButton: "Get Started",
+      promoTitle: "Invest \u20B910k/month & Get",
+      promoText: "\u20B91 Crore*Tax-Free",
+      promoBadges1: "Plans starting from \u20B91000/month",
+      promoBadges2: "In-built life cover",
     },
   },
   {
@@ -1847,12 +1799,10 @@ export const servicesData = [
     bgImage: "/finask/taxi-insurance.png",
     backgroundPosition: "center",
     faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.webp",
-      consultationTitle: "Connect with an Expert",
-      consultationButton: "Get Started",
+      promoTitle: "Invest \u20B910k/month & Get",
+      promoText: "\u20B91 Crore*Tax-Free",
+      promoBadges1: "Plans starting from \u20B91000/month",
+      promoBadges2: "In-built life cover",
     },
   },
   {
@@ -1913,12 +1863,10 @@ export const servicesData = [
     bgImage: "/finask/commercial-vehicle-insurance.png",
     backgroundPosition: "center",
     faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.webp",
-      consultationTitle: "Connect with an Expert",
-      consultationButton: "Get Started",
+      promoTitle: "Invest \u20B910k/month & Get",
+      promoText: "\u20B91 Crore*Tax-Free",
+      promoBadges1: "Plans starting from \u20B91000/month",
+      promoBadges2: "In-built life cover",
     },
   },
   {
@@ -1978,12 +1926,10 @@ export const servicesData = [
     bgImage: "/finask/property-insurance.webp",
     backgroundPosition: "center",
     faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.webp",
-      consultationTitle: "Connect with an Expert",
-      consultationButton: "Get Started",
+      promoTitle: "Invest \u20B910k/month & Get",
+      promoText: "\u20B91 Crore*Tax-Free",
+      promoBadges1: "Plans starting from \u20B91000/month",
+      promoBadges2: "In-built life cover",
     },
   },
   {
@@ -2040,12 +1986,10 @@ export const servicesData = [
     bgImage: "/finask/general-liability-insurance.png",
     backgroundPosition: "center",
     faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.webp",
-      consultationTitle: "Connect with an Expert",
-      consultationButton: "Get Started",
+      promoTitle: "Invest \u20B910k/month & Get",
+      promoText: "\u20B91 Crore*Tax-Free",
+      promoBadges1: "Plans starting from \u20B91000/month",
+      promoBadges2: "In-built life cover",
     },
   },
   {
@@ -2103,12 +2047,10 @@ export const servicesData = [
     bgImage: "/finask/contractors-all-risk-insurance.png",
     backgroundPosition: "center",
     faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.webp",
-      consultationTitle: "Connect with an Expert",
-      consultationButton: "Get Started",
+      promoTitle: "Invest \u20B910k/month & Get",
+      promoText: "\u20B91 Crore*Tax-Free",
+      promoBadges1: "Plans starting from \u20B91000/month",
+      promoBadges2: "In-built life cover",
     },
   },
   {
@@ -2166,12 +2108,10 @@ export const servicesData = [
     bgImage: "/finask/erection-all-risk-insurance.png",
     backgroundPosition: "center",
     faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.webp",
-      consultationTitle: "Connect with an Expert",
-      consultationButton: "Get Started",
+      promoTitle: "Invest \u20B910k/month & Get",
+      promoText: "\u20B91 Crore*Tax-Free",
+      promoBadges1: "Plans starting from \u20B91000/month",
+      promoBadges2: "In-built life cover",
     },
   },
   {
@@ -2229,12 +2169,10 @@ export const servicesData = [
     bgImage: "/finask/trade-credit-insurance.png",
     backgroundPosition: "center",
     faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.webp",
-      consultationTitle: "Connect with an Expert",
-      consultationButton: "Get Started",
+      promoTitle: "Invest \u20B910k/month & Get",
+      promoText: "\u20B91 Crore*Tax-Free",
+      promoBadges1: "Plans starting from \u20B91000/month",
+      promoBadges2: "In-built life cover",
     },
   },
   {
@@ -2294,12 +2232,10 @@ export const servicesData = [
     bgImage: "/finask/contractors-plant-machinery.png",
     backgroundPosition: "center",
     faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.webp",
-      consultationTitle: "Connect with an Expert",
-      consultationButton: "Get Started",
+      promoTitle: "Invest \u20B910k/month & Get",
+      promoText: "\u20B91 Crore*Tax-Free",
+      promoBadges1: "Plans starting from \u20B91000/month",
+      promoBadges2: "In-built life cover",
     },
   },
   {
@@ -2357,12 +2293,10 @@ export const servicesData = [
     bgImage: "/finask/surety-bond-insurance.png",
     backgroundPosition: "center",
     faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.webp",
-      consultationTitle: "Connect with an Expert",
-      consultationButton: "Get Started",
+      promoTitle: "Invest \u20B910k/month & Get",
+      promoText: "\u20B91 Crore*Tax-Free",
+      promoBadges1: "Plans starting from \u20B91000/month",
+      promoBadges2: "In-built life cover",
     },
   },
   {
@@ -2423,12 +2357,10 @@ export const servicesData = [
     bgImage: "/finask/errors-and-omissions-insurance.png",
     backgroundPosition: "center",
     faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.webp",
-      consultationTitle: "Connect with an Expert",
-      consultationButton: "Get Started",
+      promoTitle: "Invest \u20B910k/month & Get",
+      promoText: "\u20B91 Crore*Tax-Free",
+      promoBadges1: "Plans starting from \u20B91000/month",
+      promoBadges2: "In-built life cover",
     },
   },
   {
@@ -2487,12 +2419,10 @@ export const servicesData = [
     bgImage: "/finask/professional-indemnity-insurance.png",
     backgroundPosition: "center",
     faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.webp",
-      consultationTitle: "Connect with an Expert",
-      consultationButton: "Get Started",
+      promoTitle: "Invest \u20B910k/month & Get",
+      promoText: "\u20B91 Crore*Tax-Free",
+      promoBadges1: "Plans starting from \u20B91000/month",
+      promoBadges2: "In-built life cover",
     },
   },
   {
@@ -2551,12 +2481,10 @@ export const servicesData = [
     bgImage: "/finask/fleet-insurance.png",
     backgroundPosition: "center",
     faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.webp",
-      consultationTitle: "Connect with an Expert",
-      consultationButton: "Get Started",
+      promoTitle: "Invest \u20B910k/month & Get",
+      promoText: "\u20B91 Crore*Tax-Free",
+      promoBadges1: "Plans starting from \u20B91000/month",
+      promoBadges2: "In-built life cover",
     },
   },
   {
@@ -2614,12 +2542,10 @@ export const servicesData = [
     bgImage: "/finask/shop-owner-insurance.png",
     backgroundPosition: "center",
     faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.webp",
-      consultationTitle: "Connect with an Expert",
-      consultationButton: "Get Started",
+      promoTitle: "Invest \u20B910k/month & Get",
+      promoText: "\u20B91 Crore*Tax-Free",
+      promoBadges1: "Plans starting from \u20B91000/month",
+      promoBadges2: "In-built life cover",
     },
   },
   {
@@ -2677,12 +2603,10 @@ export const servicesData = [
     bgImage: "/finask/office-package-policy.png",
     backgroundPosition: "center",
     faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.webp",
-      consultationTitle: "Connect with an Expert",
-      consultationButton: "Get Started",
+      promoTitle: "Invest \u20B910k/month & Get",
+      promoText: "\u20B91 Crore*Tax-Free",
+      promoBadges1: "Plans starting from \u20B91000/month",
+      promoBadges2: "In-built life cover",
     },
   },
 
@@ -2745,12 +2669,10 @@ export const servicesData = [
     bgImage: "/finask/mutual-funds.png",
     backgroundPosition: "center",
     faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.webp",
-      consultationTitle: "Connect with an Expert",
-      consultationButton: "Get Started",
+      promoTitle: "Invest \u20B910k/month & Get",
+      promoText: "\u20B91 Crore*Tax-Free",
+      promoBadges1: "Plans starting from \u20B91000/month",
+      promoBadges2: "In-built life cover",
     },
   },
   {
@@ -2811,12 +2733,10 @@ export const servicesData = [
     bgImage: "/finask/sip.png",
     backgroundPosition: "bottom",
     faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.webp",
-      consultationTitle: "Connect with an Expert",
-      consultationButton: "Get Started",
+      promoTitle: "Invest \u20B910k/month & Get",
+      promoText: "\u20B91 Crore*Tax-Free",
+      promoBadges1: "Plans starting from \u20B91000/month",
+      promoBadges2: "In-built life cover",
     },
   },
   {
@@ -2877,12 +2797,10 @@ export const servicesData = [
     bgImage: "/finask/swp.png",
     backgroundPosition: "center",
     faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.webp",
-      consultationTitle: "Connect with an Expert",
-      consultationButton: "Get Started",
+      promoTitle: "Invest \u20B910k/month & Get",
+      promoText: "\u20B91 Crore*Tax-Free",
+      promoBadges1: "Plans starting from \u20B91000/month",
+      promoBadges2: "In-built life cover",
     },
   },
   {
@@ -2943,12 +2861,10 @@ export const servicesData = [
     bgImage: "/finask/stp.png",
     backgroundPosition: "center",
     faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.webp",
-      consultationTitle: "Connect with an Expert",
-      consultationButton: "Get Started",
+      promoTitle: "Invest \u20B910k/month & Get",
+      promoText: "\u20B91 Crore*Tax-Free",
+      promoBadges1: "Plans starting from \u20B91000/month",
+      promoBadges2: "In-built life cover",
     },
   },
   {
@@ -3005,12 +2921,10 @@ export const servicesData = [
     bgImage: "/finask/sif.png",
     backgroundPosition: "top center",
     faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.webp",
-      consultationTitle: "Connect with an Expert",
-      consultationButton: "Get Started",
+      promoTitle: "Invest \u20B910k/month & Get",
+      promoText: "\u20B91 Crore*Tax-Free",
+      promoBadges1: "Plans starting from \u20B91000/month",
+      promoBadges2: "In-built life cover",
     },
   },
   {
@@ -3070,12 +2984,10 @@ export const servicesData = [
     bgImage: "/finask/bond.png",
     backgroundPosition: "center",
     faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.webp",
-      consultationTitle: "Connect with an Expert",
-      consultationButton: "Get Started",
+      promoTitle: "Invest \u20B910k/month & Get",
+      promoText: "\u20B91 Crore*Tax-Free",
+      promoBadges1: "Plans starting from \u20B91000/month",
+      promoBadges2: "In-built life cover",
     },
   },
   {
@@ -3133,12 +3045,10 @@ export const servicesData = [
     bgImage: "/finask/pms.jpg",
     backgroundPosition: "center",
     faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.webp",
-      consultationTitle: "Connect with an Expert",
-      consultationButton: "Get Started",
+      promoTitle: "Invest \u20B910k/month & Get",
+      promoText: "\u20B91 Crore*Tax-Free",
+      promoBadges1: "Plans starting from \u20B91000/month",
+      promoBadges2: "In-built life cover",
     },
   },
   {
@@ -3197,12 +3107,10 @@ export const servicesData = [
     bgImage: "/finask/alternative-investment-funds.webp",
     backgroundPosition: "top",
     faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.webp",
-      consultationTitle: "Connect with an Expert",
-      consultationButton: "Get Started",
+      promoTitle: "Invest \u20B910k/month & Get",
+      promoText: "\u20B91 Crore*Tax-Free",
+      promoBadges1: "Plans starting from \u20B91000/month",
+      promoBadges2: "In-built life cover",
     },
   },
   {
@@ -3260,12 +3168,10 @@ export const servicesData = [
     bgImage: "/finask/unlisted-equity.webp",
     backgroundPosition: "top",
     faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.webp",
-      consultationTitle: "Connect with an Expert",
-      consultationButton: "Get Started",
+      promoTitle: "Invest \u20B910k/month & Get",
+      promoText: "\u20B91 Crore*Tax-Free",
+      promoBadges1: "Plans starting from \u20B91000/month",
+      promoBadges2: "In-built life cover",
     },
   },
   {
@@ -3324,12 +3230,10 @@ export const servicesData = [
     bgImage: "/finask/reit.webp",
     backgroundPosition: "center",
     faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.webp",
-      consultationTitle: "Connect with an Expert",
-      consultationButton: "Get Started",
+      promoTitle: "Invest \u20B910k/month & Get",
+      promoText: "\u20B91 Crore*Tax-Free",
+      promoBadges1: "Plans starting from \u20B91000/month",
+      promoBadges2: "In-built life cover",
     },
   },
   {
@@ -3391,12 +3295,10 @@ export const servicesData = [
     bgImage: "/finask/invi.webp",
     backgroundPosition: "center",
     faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.webp",
-      consultationTitle: "Connect with an Expert",
-      consultationButton: "Get Started",
+      promoTitle: "Invest \u20B910k/month & Get",
+      promoText: "\u20B91 Crore*Tax-Free",
+      promoBadges1: "Plans starting from \u20B91000/month",
+      promoBadges2: "In-built life cover",
     },
   },
   {
@@ -3457,12 +3359,10 @@ export const servicesData = [
     bgImage: "/finask/fractional.webp",
     backgroundPosition: "top center",
     faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.webp",
-      consultationTitle: "Connect with an Expert",
-      consultationButton: "Get Started",
+      promoTitle: "Invest \u20B910k/month & Get",
+      promoText: "\u20B91 Crore*Tax-Free",
+      promoBadges1: "Plans starting from \u20B91000/month",
+      promoBadges2: "In-built life cover",
     },
   },
   {
@@ -3519,12 +3419,10 @@ export const servicesData = [
     bgImage: "/finask/p2p.webp",
     backgroundPosition: "center",
     faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.webp",
-      consultationTitle: "Connect with an Expert",
-      consultationButton: "Get Started",
+      promoTitle: "Invest \u20B910k/month & Get",
+      promoText: "\u20B91 Crore*Tax-Free",
+      promoBadges1: "Plans starting from \u20B91000/month",
+      promoBadges2: "In-built life cover",
     },
   },
   {
@@ -3588,12 +3486,10 @@ export const servicesData = [
     bgImage: "/finask/afi.webp",
     backgroundPosition: "top",
     faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.webp",
-      consultationTitle: "Connect with an Expert",
-      consultationButton: "Get Started",
+      promoTitle: "Invest \u20B910k/month & Get",
+      promoText: "\u20B91 Crore*Tax-Free",
+      promoBadges1: "Plans starting from \u20B91000/month",
+      promoBadges2: "In-built life cover",
     },
   },
   {
@@ -3651,12 +3547,10 @@ export const servicesData = [
     bgImage: "/finask/c-fdr.jpg",
     backgroundPosition: "top",
     faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.webp",
-      consultationTitle: "Connect with an Expert",
-      consultationButton: "Get Started",
+      promoTitle: "Invest \u20B910k/month & Get",
+      promoText: "\u20B91 Crore*Tax-Free",
+      promoBadges1: "Plans starting from \u20B91000/month",
+      promoBadges2: "In-built life cover",
     },
   },
   {
@@ -3714,12 +3608,10 @@ export const servicesData = [
     bgImage: "/finask/gift-city.png",
     backgroundPosition: "top",
     faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.webp",
-      consultationTitle: "Connect with an Expert",
-      consultationButton: "Get Started",
+      promoTitle: "Invest \u20B910k/month & Get",
+      promoText: "\u20B91 Crore*Tax-Free",
+      promoBadges1: "Plans starting from \u20B91000/month",
+      promoBadges2: "In-built life cover",
     },
   },
   {
@@ -3777,12 +3669,10 @@ export const servicesData = [
     bgImage: "/finask/e-gold.webp",
     backgroundPosition: "top",
     faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.webp",
-      consultationTitle: "Connect with an Expert",
-      consultationButton: "Get Started",
+      promoTitle: "Invest \u20B910k/month & Get",
+      promoText: "\u20B91 Crore*Tax-Free",
+      promoBadges1: "Plans starting from \u20B91000/month",
+      promoBadges2: "In-built life cover",
     },
   },
   {
@@ -3839,12 +3729,10 @@ export const servicesData = [
     bgImage: "/finask/national-pension-sceme.webp",
     backgroundPosition: "center",
     faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.webp",
-      consultationTitle: "Connect with an Expert",
-      consultationButton: "Get Started",
+      promoTitle: "Invest \u20B910k/month & Get",
+      promoText: "\u20B91 Crore*Tax-Free",
+      promoBadges1: "Plans starting from \u20B91000/month",
+      promoBadges2: "In-built life cover",
     },
   },
   {
@@ -3903,12 +3791,10 @@ export const servicesData = [
     bgImage: "/finask/stock-roking.webp",
     backgroundPosition: "center",
     faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.webp",
-      consultationTitle: "Connect with an Expert",
-      consultationButton: "Get Started",
+      promoTitle: "Invest \u20B910k/month & Get",
+      promoText: "\u20B91 Crore*Tax-Free",
+      promoBadges1: "Plans starting from \u20B91000/month",
+      promoBadges2: "In-built life cover",
     },
   },
   {
@@ -3968,12 +3854,10 @@ export const servicesData = [
     bgImage: "/finask/loan-against-securities.webp",
     backgroundPosition: "top",
     faqSection: {
-      title: "General Questions",
-      description:
-        "Answers to common questions about Loan Against Securities, its benefits, and how it works.",
-      image: "/faq.webp",
-      consultationTitle: "Connect with an Expert",
-      consultationButton: "Get Started",
+      promoTitle: "Invest \u20B910k/month & Get",
+      promoText: "\u20B91 Crore*Tax-Free",
+      promoBadges1: "Plans starting from \u20B91000/month",
+      promoBadges2: "In-built life cover",
     },
   },
   {
@@ -4034,12 +3918,10 @@ export const servicesData = [
     bgImage: "/finask/sip.png",
     backgroundPosition: "bottom",
     faqSection: {
-      title: "General Questions",
-      description:
-        "Answers to common questions about Loan Against Securities, its benefits, and how it works.",
-      image: "/faq.webp",
-      consultationTitle: "Connect with an Expert",
-      consultationButton: "Get Started",
+      promoTitle: "Invest \u20B910k/month & Get",
+      promoText: "\u20B91 Crore*Tax-Free",
+      promoBadges1: "Plans starting from \u20B91000/month",
+      promoBadges2: "In-built life cover",
     },
   },
 
@@ -4103,12 +3985,10 @@ export const servicesData = [
     bgImage: "/finask/trust.png",
     backgroundPosition: "center",
     faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.webp",
-      consultationTitle: "Connect with an Expert",
-      consultationButton: "Get Started",
+      promoTitle: "Invest \u20B910k/month & Get",
+      promoText: "\u20B91 Crore*Tax-Free",
+      promoBadges1: "Plans starting from \u20B91000/month",
+      promoBadges2: "In-built life cover",
     },
   },
   {
@@ -4165,12 +4045,10 @@ export const servicesData = [
     bgImage: "/finask/will-writing.webp",
     backgroundPosition: "center",
     faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.webp",
-      consultationTitle: "Connect with an Expert",
-      consultationButton: "Get Started",
+      promoTitle: "Invest \u20B910k/month & Get",
+      promoText: "\u20B91 Crore*Tax-Free",
+      promoBadges1: "Plans starting from \u20B91000/month",
+      promoBadges2: "In-built life cover",
     },
   },
   {
@@ -4231,12 +4109,10 @@ export const servicesData = [
     bgImage: "/finask/executor-services.png",
     backgroundPosition: "Top center",
     faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.webp",
-      consultationTitle: "Connect with an Expert",
-      consultationButton: "Get Started",
+      promoTitle: "Invest \u20B910k/month & Get",
+      promoText: "\u20B91 Crore*Tax-Free",
+      promoBadges1: "Plans starting from \u20B91000/month",
+      promoBadges2: "In-built life cover",
     },
   },
   {
@@ -4294,12 +4170,10 @@ export const servicesData = [
     bgImage: "/finask/legal-advisory.webp",
     backgroundPosition: "top center",
     faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.webp",
-      consultationTitle: "Connect with an Expert",
-      consultationButton: "Get Started",
+      promoTitle: "Invest \u20B910k/month & Get",
+      promoText: "\u20B91 Crore*Tax-Free",
+      promoBadges1: "Plans starting from \u20B91000/month",
+      promoBadges2: "In-built life cover",
     },
   },
   {
@@ -4358,12 +4232,10 @@ export const servicesData = [
     bgImage: "/finask/tax-advisory.webp",
     backgroundPosition: "center",
     faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.webp",
-      consultationTitle: "Connect with an Expert",
-      consultationButton: "Get Started",
+      promoTitle: "Invest \u20B910k/month & Get",
+      promoText: "\u20B91 Crore*Tax-Free",
+      promoBadges1: "Plans starting from \u20B91000/month",
+      promoBadges2: "In-built life cover",
     },
   },
   {
@@ -4426,12 +4298,10 @@ export const servicesData = [
     bgImage: "/finask/financial-literacy.webp",
     backgroundPosition: "center",
     faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.webp",
-      consultationTitle: "Connect with an Expert",
-      consultationButton: "Get Started",
+      promoTitle: "Invest \u20B910k/month & Get",
+      promoText: "\u20B91 Crore*Tax-Free",
+      promoBadges1: "Plans starting from \u20B91000/month",
+      promoBadges2: "In-built life cover",
     },
   },
   // {
@@ -4546,12 +4416,10 @@ export const servicesData = [
     bgImage: "/finask/credit-cards.png",
     backgroundPosition: "bottom center",
     faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.webp",
-      consultationTitle: "Connect with an Expert",
-      consultationButton: "Get Started",
+      promoTitle: "Invest \u20B910k/month & Get",
+      promoText: "\u20B91 Crore*Tax-Free",
+      promoBadges1: "Plans starting from \u20B91000/month",
+      promoBadges2: "In-built life cover",
     },
   },
   {
@@ -4613,12 +4481,10 @@ export const servicesData = [
     bgImage: "/finask/nri-corner.png",
     backgroundPosition: "center",
     faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.webp",
-      consultationTitle: "Connect with an Expert",
-      consultationButton: "Get Started",
+      promoTitle: "Invest \u20B910k/month & Get",
+      promoText: "\u20B91 Crore*Tax-Free",
+      promoBadges1: "Plans starting from \u20B91000/month",
+      promoBadges2: "In-built life cover",
     },
   },
   {
@@ -4679,12 +4545,10 @@ export const servicesData = [
     bgImage: "/finask/women-corner.png",
     backgroundPosition: "center",
     faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.webp",
-      consultationTitle: "Connect with an Expert",
-      consultationButton: "Get Started",
+      promoTitle: "Invest \u20B910k/month & Get",
+      promoText: "\u20B91 Crore*Tax-Free",
+      promoBadges1: "Plans starting from \u20B91000/month",
+      promoBadges2: "In-built life cover",
     },
   },
   {
@@ -4744,12 +4608,10 @@ export const servicesData = [
     bgImage: "/family-office1.webp",
     backgroundPosition: "center",
     faqSection: {
-      title: "General Question",
-      description:
-        "Answers to common questions about our services and how we can help you achieve your financial goals.",
-      image: "/faq.webp",
-      consultationTitle: "Connect with an Expert",
-      consultationButton: "Get Started",
+      promoTitle: "Invest \u20B910k/month & Get",
+      promoText: "\u20B91 Crore*Tax-Free",
+      promoBadges1: "Plans starting from \u20B91000/month",
+      promoBadges2: "In-built life cover",
     },
   },
 ];
@@ -4761,3 +4623,5 @@ export function getServiceBySlug(slug) {
 export function getAllServices() {
   return servicesData;
 }
+
+

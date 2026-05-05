@@ -24,6 +24,14 @@ export default function ServiceContent({ service, hideFaq = false }) {
 
   if (!service) return null;
 
+  const promoTitle =
+    service.faqSection?.promoTitle || "Invest \u20B910k/month & Get";
+  const promoText = service.faqSection?.promoText || "\u20B91 Crore*Tax-Free";
+  const promoBadges = [
+    service.faqSection?.promoBadges1 || "Plans starting from \u20B91000/month",
+    service.faqSection?.promoBadges2 || "In-built life cover",
+  ];
+
   // Helper to get icon for feature
   const getIcon = (index) => {
     const icons = [
@@ -105,31 +113,22 @@ export default function ServiceContent({ service, hideFaq = false }) {
             {/* Left Column: Image + Highlight Box */}
             <div className="w-full lg:w-[45%]">
               <div className="overflow-hidden rounded-[1rem] bg-gradient-to-b from-[#001F2B] to-[#00394E] px-5 py-8 text-white shadow-[0_24px_60px_rgba(21,83,199,0.25)] md:px-8 md:py-16 md:pb-12">
-               
                 <div className="mx-auto max-w-[460px]">
                   <div className="text-center">
-                    <p className="text-[1.2rem] font-light leading-tight md:text-[1.4rem]">
-                      Invest {"\u20B9"}10k
-                      <span className="text-lg md:text-[1.2rem]">/month</span> &
-                      Get
+                    <p className="text-[1.2rem] font-light leading-tight md:text-[1.2rem]">
+                      {promoTitle}
                     </p>
-                    <h3 className="mt-2 text-[2.2rem] font-semibold leading-none ">
-                      {"\u20B9"}1 Crore
-                      <span className="align-top text-lg font-medium md:text-[1.8rem]">
-                        *
-                      </span>
-                      <span className="ml-2 text-[1.4rem] font-semibold ">
-                        Tax-Free
-                      </span>
+                    <h3 className="mt-2 text-[2rem] font-semibold leading-none ">
+                      {promoText}
                     </h3>
                   </div>
 
                   <div className="mt-6 flex flex-col gap-2.5 md:flex-row md:justify-center">
                     <div className="rounded-lg bg-[#C8F0B0] px-4 py-2 text-center text-sm font-semibold text-[#245633] ">
-                      Plans starting from {"\u20B9"}1000/month
+                      {promoBadges[0]}
                     </div>
                     <div className="rounded-lg bg-[#C9DCF8] px-4 py-2 text-center text-sm font-semibold text-[#1D4C8F] ">
-                      In-built life cover
+                      {promoBadges[1]}
                     </div>
                   </div>
 
