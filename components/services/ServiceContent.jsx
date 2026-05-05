@@ -2,19 +2,17 @@
 
 import React, { useState } from "react";
 import Image from "next/image";
-import Link from "next/link";
 import {
   Shield,
   Zap,
   CheckCircle,
   BarChart,
   Users,
-  Briefcase,
   TrendingUp,
   Globe,
   Settings,
-  ArrowRight,
   ChevronDown,
+  Star,
 } from "lucide-react";
 
 export default function ServiceContent({ service, hideFaq = false }) {
@@ -66,7 +64,7 @@ export default function ServiceContent({ service, hideFaq = false }) {
       {/* ----------------------------- */}
       {/*        FEATURES GRID          */}
       {/* ----------------------------- */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-6 mb-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-6 mb-10">
         {service.features &&
           service.features.map((feature, idx) => (
             <div key={idx} className="flex gap-4 items-start">
@@ -105,44 +103,97 @@ export default function ServiceContent({ service, hideFaq = false }) {
         <div className="  ">
           <div className="flex flex-col lg:flex-row gap-12 items-start">
             {/* Left Column: Image + Highlight Box */}
-            <div className="w-full lg:w-1/2 relative">
-              <div className="relative h-[600px] w-full bg-slate-100 overflow-hidden">
-                {" "}
-                {/* Reduced height slightly for proportion */}
-                <Image
-                  src={service.faqSection?.image || "/faq.webp"}
-                  alt="Consultation"
-                  fill
-                  className="object-cover  "
-                />
-              </div>
-              {/* Overlay Consultation Box */}
-              <div className="absolute top-10 right-0 bg-[#00394E] p-6 w-[260px] shadow-2xl z-10">
-                {" "}
-                {/* Deep Teal Box */}
-                <h3 className="text-white text-xl font-serif font-bold mb-6 leading-tight">
-                  {service.faqSection?.consultationTitle ||
-                    "If You Need Help, Get A Consultation"}
-                </h3>
-                <Link
-                  href="/contact"
-                  className="text-[#DAA434] font-bold text-sm   flex items-center gap-2 hover:gap-3 transition-all group"
-                >
-                  {" "}
-                  {/* Warm Mustard Link */}
-                  {service.faqSection?.consultationButton || "Get Started"}
-                  <div className="bg-[#DAA434] rounded-full p-0.5 group-hover:bg-[#ffbf40] transition-colors">
-                    <ArrowRight
-                      className="w-4 h-4 text-[#00394E]"
-                      strokeWidth={3}
-                    />
+            <div className="w-full lg:w-[45%]">
+              <div className="overflow-hidden rounded-[1rem] bg-gradient-to-b from-[#001F2B] to-[#00394E] px-5 py-8 text-white shadow-[0_24px_60px_rgba(21,83,199,0.25)] md:px-8 md:py-16 md:pb-12">
+               
+                <div className="mx-auto max-w-[460px]">
+                  <div className="text-center">
+                    <p className="text-[1.2rem] font-light leading-tight md:text-[1.4rem]">
+                      Invest {"\u20B9"}10k
+                      <span className="text-lg md:text-[1.2rem]">/month</span> &
+                      Get
+                    </p>
+                    <h3 className="mt-2 text-[2.2rem] font-semibold leading-none ">
+                      {"\u20B9"}1 Crore
+                      <span className="align-top text-lg font-medium md:text-[1.8rem]">
+                        *
+                      </span>
+                      <span className="ml-2 text-[1.4rem] font-semibold ">
+                        Tax-Free
+                      </span>
+                    </h3>
                   </div>
-                </Link>
+
+                  <div className="mt-6 flex flex-col gap-2.5 md:flex-row md:justify-center">
+                    <div className="rounded-lg bg-[#C8F0B0] px-4 py-2 text-center text-sm font-semibold text-[#245633] ">
+                      Plans starting from {"\u20B9"}1000/month
+                    </div>
+                    <div className="rounded-lg bg-[#C9DCF8] px-4 py-2 text-center text-sm font-semibold text-[#1D4C8F] ">
+                      In-built life cover
+                    </div>
+                  </div>
+
+                  <div className="mt-16 rounded-[1rem] bg-white px-1 py-6 text-[#44546A] shadow-[0_18px_40px_rgba(15,23,42,0.12)] ">
+                    <p className="text-center text-xl font-medium md:text-[1rem]">
+                      We are rated~
+                    </p>
+
+                    <div className="mt-2 flex items-center justify-center gap-1">
+                      {[0, 1, 2, 3].map((star) => (
+                        <Star
+                          key={star}
+                          className="h-6 w-6 fill-[#FFC72C] text-[#FFC72C] md:h-6 md:w-6"
+                        />
+                      ))}
+                      <div className="relative h-8 w-8 md:h-6 md:w-6">
+                        <Star className="absolute inset-0 h-8 w-8 fill-[#D9DCE3] text-[#D9DCE3] md:h-6 md:w-6" />
+                        <div className="absolute inset-y-0 left-0 overflow-hidden w-1/2">
+                          <Star className="h-8 w-8 fill-[#FFC72C] text-[#FFC72C] md:h-6 md:w-6" />
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="mt-6 grid grid-cols-1  text-center sm:grid-cols-3 sm:divide-x sm:divide-slate-200">
+                      <div className="sm:px-4">
+                        <p className="text-[1.2rem] font-semibold leading-none text-[#4B58C1] md:text-[1.4rem]">
+                          13.2 <span className="text-lg md:text-sm">Crore</span>
+                        </p>
+                        <p className="mt-2 text-[0.64rem] text-slate-600  ">
+                          Registered Consumers
+                        </p>
+                      </div>
+                      <div className="sm:px-4">
+                        <p className="text-[1.2rem] font-semibold leading-none text-[#4B58C1] md:text-[1.4rem]">
+                          53
+                        </p>
+                        <p className="mt-2 text-[0.64rem] text-slate-600 ">
+                          Insurance Partners
+                        </p>
+                      </div>
+                      <div className="sm:px-4">
+                        <p className="text-[1.2rem] font-semibold leading-none text-[#4B58C1] md:text-[1.4rem]">
+                          6.29 <span className="text-lg md:text-sm">Crore</span>
+                        </p>
+                        <p className="mt-2 text-[0.64rem] text-slate-600 ">
+                          Policies Sold
+                        </p>
+                      </div>
+                    </div>
+
+                    <p className="mx-auto mt-8 max-w-[360px] text-center text-[0.95rem] leading-relaxed text-[#43526B] md:max-w-[390px] md:text-[1rem] md:leading-[1.4]">
+                      Policybazaar is{" "}
+                      <span className="font-semibold">
+                        one of India's leading
+                      </span>{" "}
+                      digital insurance platform
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
 
             {/* Right Column: FAQ Accordion */}
-            <div className="w-full lg:w-1/2 pt-4">
+            <div className="w-full lg:w-[55%] pt-4">
               {/* Warm Mustard Label */}
               <h2 className="font-serif text-3xl font-bold text-[#00394E] mb-4">
                 {" "}
