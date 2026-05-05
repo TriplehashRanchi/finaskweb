@@ -132,7 +132,7 @@ export default function ServiceContent({ service, hideFaq = false }) {
                     </div>
                   </div>
 
-                  <div className="mt-16 rounded-[1rem] bg-white px-1 py-6 text-[#44546A] shadow-[0_18px_40px_rgba(15,23,42,0.12)] ">
+                  <div className="mt-20 rounded-[1rem] bg-white px-1 py-6 text-[#44546A] shadow-[0_18px_40px_rgba(15,23,42,0.12)] ">
                     <p className="text-center text-xl font-medium md:text-[1rem]">
                       We are rated~
                     </p>
