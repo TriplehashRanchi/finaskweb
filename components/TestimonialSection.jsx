@@ -110,13 +110,13 @@ export default function TestimonialSection() {
       <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8 relative min-h-[500px] flex items-center">
         
         {/* RIGHT: Dark Background Block */}
-        <div className="absolute top-0 right-0 w-full lg:w-[60%] h-full bg-[#001F2B] z-0 "></div>
+        <div className="absolute top-0 right-20 w-full lg:w-[60%] h-full bg-[#001F2B] z-0 "></div>
 
         <div className="relative z-10 w-full grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-0 items-center">
           
           {/* LEFT: White Testimonial Card (Overlapping) */}
           <div 
-            className="w-full lg:w-[85%] bg-white shadow-2xl p-8 md:p-12 lg:p-8 relative lg:ml-24 xl:ml-32 overflow-hidden cursor-grab active:cursor-grabbing select-none"
+            className="w-full lg:w-[85%] bg-white shadow-2xl p-8 md:p-12 lg:p-8 relative lg:ml-24 xl:ml-12 overflow-hidden cursor-grab active:cursor-grabbing select-none"
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
             // Touch events for mobile to prevent conflicting scroll if needed, though drag usually handles it
@@ -197,7 +197,7 @@ export default function TestimonialSection() {
           </div>
 
           {/* RIGHT: Content Title Block (Inside Dark Area) */}
-          <div className="pl-0 lg:pl-[30%] pt-10 lg:pt-0 relative z-10 text-center lg:text-left">
+          <div className="pl-0 lg:pl-[10%] pt-10 lg:pt-0 relative z-10 text-center lg:text-left">
             <span className="text-[#DAA434] font-bold tracking-[0.2em] text-sm uppercase mb-4 block">
               TESTIMONIALS
             </span>

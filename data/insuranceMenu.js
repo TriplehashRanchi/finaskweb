@@ -1,17 +1,22 @@
 export const personalInsuranceSections = [
   {
-    title: "Health & Life",
+    title: "Health Insurance",
     items: [
       { label: "Health Insurance", slug: "health-insurance" },
       { label: "Health Super Top-up", slug: "health-super-top-up" },
       {
-        label: "Critical Illness Insurance",
+        label: "Critical Illness ",
         slug: "critical-illness-insurance",
       },
       {
         label: "Personal Accident Insurance",
         slug: "personal-accident-insurance",
       },
+    ],
+  },
+  {
+    title: "Term Insurance",
+    items: [
       { label: "Term Insurance", slug: "term-insurance" },
       { label: "Term - ROP", slug: "term---rop" },
       {
@@ -25,26 +30,34 @@ export const personalInsuranceSections = [
     ],
   },
   {
-    title: "Motor, Travel & More",
+    title: "Motor",
     items: [
       { label: "Motor Insurance", slug: "motor-insurance" },
       { label: "Taxi Insurance", slug: "taxi-insurance" },
-      { label: "Travel Insurance", slug: "travel-insurance" },
-      { label: "Home Insurance", slug: "home-insurance" },
-      { label: "Pet Insurance", slug: "pet-insurance" },
-      { label: "Cycle Insurance", slug: "cycle-insurance" },
+      {
+        label: "Commercial Vehicle Insurance",
+        slug: "commercial-vehicle-insurance",
+      },
+    ],
+  },
+  {
+    title: "Other Personal Insurance",
+    items: [
       {
         label: "Personal Cyber Insurance",
         slug: "personal-cyber-insurance",
       },
-      { label: "Roadside Assistance", slug: "roadside-assistance" },
+      { label: "Pet Insurance", slug: "pet-insurance" },
+      { label: "Cycle Insurance", slug: "cycle-insurance" },
+      { label: "Travel Insurance", slug: "travel-insurance" },
+      { label: "Home Insurance", slug: "home-insurance" },
     ],
   },
 ];
 
 export const businessInsuranceSections = [
   {
-    title: "Marine & Property",
+    title: "Marine & Property Insurance",
     items: [
       { label: "Marine & Cargo Insurance", slug: "marine-cargo-insurance" },
       { label: "Fire & Burglary Insurance", slug: "fire-burglary-insurance" },
@@ -52,19 +65,7 @@ export const businessInsuranceSections = [
       { label: "Shop Owner Insurance", slug: "shop-owner-insurance" },
     ],
   },
-  {
-    title: "General Business",
-    items: [
-      { label: "Surety Bond Insurance", slug: "surety-bond-insurance" },
-      { label: "Trade Credit Insurance", slug: "trade-credit-insurance" },
-      { label: "Errors and Omissions", slug: "errors-and-omissions" },
-      {
-        label: "Commercial Vehicle Insurance",
-        slug: "commercial-vehicle-insurance",
-      },
-      { label: "Fleet Insurance", slug: "fleet-insurance" },
-    ],
-  },
+
   {
     title: "Engineering",
     items: [
@@ -79,7 +80,10 @@ export const businessInsuranceSections = [
   {
     title: "Liability",
     items: [
-      { label: "Prof. Indemnity for Doctors", slug: "prof-indemnity-for-doctors" },
+      {
+        label: "Prof. Indemnity for Doctors",
+        slug: "prof-indemnity-for-doctors",
+      },
       { label: "Professional Indemnity", slug: "professional-indemnity" },
       { label: "Workmen Compensation", slug: "workmen-compensation" },
       {
@@ -94,11 +98,21 @@ export const businessInsuranceSections = [
     ],
   },
   {
-    title: "Employee Benefits",
+    title: "Employee",
     items: [
       { label: "Group Personal Accident", slug: "group-personal-accident" },
       { label: "Group Health Insurance", slug: "group-health-insurance" },
       { label: "Group Term Life", slug: "group-term-life" },
+    ],
+  },
+  {
+    title: "Other Business Insurance",
+    items: [
+      { label: "Surety Bond Insurance", slug: "surety-bond-insurance" },
+      { label: "Trade Credit Insurance", slug: "trade-credit-insurance" },
+      { label: "Errors and Omissions", slug: "errors-and-omissions" },
+
+      { label: "Fleet Insurance", slug: "fleet-insurance" },
     ],
   },
 ];
