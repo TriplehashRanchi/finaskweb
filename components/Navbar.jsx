@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { mutualFundItems, investmentItems } from "@/data/investmentMenu";
+import { investmentSections } from "@/data/investmentMenu";
 import {
   personalInsuranceSections,
   businessInsuranceSections,
@@ -129,23 +129,73 @@ function InsuranceMegaMenu() {
 }
 
 function InvestmentMegaMenu() {
+  const [activeSection, setActiveSection] = useState(
+    investmentSections[0]?.title
+  );
+  const currentSection =
+    investmentSections.find((section) => section.title === activeSection) ||
+    investmentSections[0];
+
   return (
-    <div className="absolute top-[calc(100%+12px)] left-75 -translate-x-1/2 w-[830px] max-w-[calc(100vw-40px)] bg-white rounded-md shadow-[0_16px_48px_rgba(0,57,78,0.14)] border border-gray-100 opacity-0 invisible translate-y-3 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-200 ease-out z-50 overflow-hidden">
-      <div className="p-6 py-6 space-y-1 max-h-[500px] overflow-y-auto">
-         
-        <div className="grid grid-cols-3 gap-x-4 gap-y-1  ">
-          {investmentItems.map((item) => (
-            <Link
-              key={item.label}
-              href={item.href}
-              className="flex items-center gap-2 py-[7px] px-2 rounded-md hover:bg-[#f5f9fa] transition-colors duration-150"
-            >
-              <span className="w-1 h-1 rounded-full bg-gray-300 shrink-0" />
-              <span className="text-[13.5px] text-gray-600 hover:text-[#00394E] transition-colors">
-                {item.label}
-              </span>
-            </Link>
-          ))}
+    <div className="absolute top-[calc(100%+14px)] left-50 -translate-x-1/2 w-[740px] max-w-[calc(100vw-40px)] bg-white rounded-md shadow-[0_24px_60px_rgba(0,57,78,0.16)] border border-gray-100/80 opacity-0 invisible translate-y-3 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-200 ease-out z-50 overflow-hidden">
+      <div className="flex" style={{ minHeight: "280px" }}>
+        <div className="w-[230px] shrink-0 border-r border-gray-100 py-4 px-3 flex flex-col gap-1">
+          {investmentSections.map((section) => {
+            const isActive = currentSection.title === section.title;
+
+            return (
+              <button
+                key={section.title}
+                onMouseEnter={() => setActiveSection(section.title)}
+                onClick={() => setActiveSection(section.title)}
+                className={`w-full flex items-center rounded-sm px-2 py-2 text-left transition-all duration-150 cursor-pointer group/sec ${
+                  isActive
+                    ? "bg-[#EBF4F7] text-[#00394E]"
+                    : "text-gray-500 hover:text-[#00394E] hover:bg-[#EBF4F7]"
+                }`}
+              >
+                <span className="text-[13px] font-semibold leading-snug">
+                  {section.title}
+                </span>
+                {isActive && (
+                  <span className="ml-auto shrink-0">
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      className="w-3 h-3 text-[#00394E]"
+                    >
+                      <path d="m9 18 6-6-6-6" />
+                    </svg>
+                  </span>
+                )}
+              </button>
+            );
+          })}
+        </div>
+
+        <div className="min-w-0 flex-1 py-5 px-5">
+          <div className="flex items-center gap-2 mb-3">
+            <span className="text-[14px] font-bold text-[#00394E]">
+              {currentSection.title}
+            </span>
+          </div>
+
+          <div className="grid grid-cols-2 gap-x-3 gap-y-0.5 max-h-[280px] overflow-y-auto pr-1 scrollbar-thin scrollbar-thumb-gray-200 scrollbar-track-transparent">
+            {currentSection.items.map((item) => (
+              <Link
+                key={item.slug}
+                href={`/services/${item.slug}`}
+                className="flex items-center gap-2 px-2.5 py-2 rounded-sm text-[12.5px] text-gray-500 hover:text-[#00394E]/70 hover:bg-[#EBF4F7] transition-all duration-100 leading-snug group/item"
+              >
+                <span className="w-1 h-1 rounded-full bg-[#00394E]/10 shrink-0 transition-colors" />
+                <span className="truncate">{item.label}</span>
+              </Link>
+            ))}
+          </div>
         </div>
       </div>
     </div>
