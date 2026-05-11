@@ -56,10 +56,10 @@ export const servicesData = [
     bgImage: "/finask/health.jpg",
     backgroundPosition: "center",
     faqSection: {
-      promoTitle: "Invest \u20B910k/month & Get",
-      promoText: "\u20B91 Crore*Tax-Free",
-      promoBadges1: "Plans starting from \u20B91000/month",
-      promoBadges2: "In-built life cover",
+      promoTitle: "Get 0% GST now Affordable options",
+      promoText: "Relationship manager for every customer",
+      promoBadges1: "60 minute claim support",
+      promoBadges2: "24*7 claims assistance",
     },
   },
   {
@@ -120,11 +120,11 @@ export const servicesData = [
     ],
     bgImage: "/finask/super.webp",
     backgroundPosition: "center",
-    faqSection: {
-      promoTitle: "Invest \u20B910k/month & Get",
-      promoText: "\u20B91 Crore*Tax-Free",
-      promoBadges1: "Plans starting from \u20B91000/month",
-      promoBadges2: "In-built life cover",
+     faqSection: {
+      promoTitle: "Get 0% GST now Affordable options",
+      promoText: "Relationship manager for every customer",
+      promoBadges1: "60 minute claim support",
+      promoBadges2: "24*7 claims assistance",
     },
   },
   {
@@ -252,10 +252,10 @@ export const servicesData = [
     bgImage: "/finask/critical-illness-insurance.jpeg",
     backgroundPosition: "center",
     faqSection: {
-      promoTitle: "Invest \u20B910k/month & Get",
-      promoText: "\u20B91 Crore*Tax-Free",
-      promoBadges1: "Plans starting from \u20B91000/month",
-      promoBadges2: "In-built life cover",
+      promoTitle: "30 minutes claim support",
+      promoText: "Relationship manager for every customer",
+      promoBadges1: "24*7 claims assistance",
+      promoBadges2: "Instant policy Issuance",
     },
   },
   // {
@@ -365,10 +365,10 @@ export const servicesData = [
     bgImage: "/finask/term.png",
     backgroundPosition: "center",
     faqSection: {
-      promoTitle: "Invest \u20B910k/month & Get",
-      promoText: "\u20B91 Crore*Tax-Free",
-      promoBadges1: "Plans starting from \u20B91000/month",
-      promoBadges2: "In-built life cover",
+      promoTitle: "100 % Digital Policy Issuance",
+      promoText: "Now no GST (18% cheaper)",
+      promoBadges1: "Upto 10% discount on plan features",
+      promoBadges2: "Relationship manager for every customer",
     },
   },
   {
@@ -429,10 +429,10 @@ export const servicesData = [
     bgImage: "/finask/ulip.png",
     backgroundPosition: "center",
     faqSection: {
-      promoTitle: "Invest \u20B910k/month & Get",
-      promoText: "\u20B91 Crore*Tax-Free",
-      promoBadges1: "Plans starting from \u20B91000/month",
-      promoBadges2: "In-built life cover",
+      promoTitle: " ",
+      promoText: " Take the first step to ₹1 Crore",
+      promoBadges1: "100% online, Zero paperwork",
+      promoBadges2: "Expert help at no extra cost",
     },
   },
   {
@@ -488,10 +488,10 @@ export const servicesData = [
     bgImage: "/finask/traditional-guaranteed-saving.webp",
     backgroundPosition: "center",
     faqSection: {
-      promoTitle: "Invest \u20B910k/month & Get",
-      promoText: "\u20B91 Crore*Tax-Free",
-      promoBadges1: "Plans starting from \u20B91000/month",
-      promoBadges2: "In-built life cover",
+      promoTitle: " ",
+      promoText: "Get Guaranteed Returns along with Life Cover",
+      promoBadges1: "choose your plan wisely",
+      promoBadges2: "Expert help at no extra cost",
     },
   },
   {
@@ -551,10 +551,10 @@ export const servicesData = [
     bgImage: "/finask/motor-insurance.png",
     backgroundPosition: "center",
     faqSection: {
-      promoTitle: "Invest \u20B910k/month & Get",
-      promoText: "\u20B91 Crore*Tax-Free",
-      promoBadges1: "Plans starting from \u20B91000/month",
-      promoBadges2: "In-built life cover",
+      promoTitle: " ",
+      promoText: "Suraksha kawach for your vehicle",
+      promoBadges1: "Compare & Save on motor insurance",
+      promoBadges2: "Cashless Claims",
     },
   },
   {
@@ -612,10 +612,10 @@ export const servicesData = [
     bgImage: "/finask/travel-insurance.webp",
     backgroundPosition: "center",
     faqSection: {
-      promoTitle: "Invest \u20B910k/month & Get",
-      promoText: "\u20B91 Crore*Tax-Free",
-      promoBadges1: "Plans starting from \u20B91000/month",
-      promoBadges2: "In-built life cover",
+      promoTitle: "Affordable Premiums",
+      promoText: "Dedicated Relationship Manager",
+      promoBadges1: "24*7 Claims Support",
+      promoBadges2: "Digital policy Issuance",
     },
   },
   // {
@@ -971,10 +971,10 @@ export const servicesData = [
     bgImage: "/finask/directors-life-insurance.png",
     backgroundPosition: "center",
     faqSection: {
-      promoTitle: "Invest \u20B910k/month & Get",
-      promoText: "\u20B91 Crore*Tax-Free",
-      promoBadges1: "Plans starting from \u20B91000/month",
-      promoBadges2: "In-built life cover",
+      promoTitle: " ",
+      promoText: "Dedicated relationship manager",
+      promoBadges1: "Expert Advise",
+      promoBadges2: "Hassle free process",
     },
   },
   {
@@ -1033,10 +1033,10 @@ export const servicesData = [
     bgImage: "/finask/group-personal-accident-insurance.png",
     backgroundPosition: "center",
     faqSection: {
-      promoTitle: "Invest \u20B910k/month & Get",
-      promoText: "\u20B91 Crore*Tax-Free",
-      promoBadges1: "Plans starting from \u20B91000/month",
-      promoBadges2: "In-built life cover",
+      promoTitle: " ",
+      promoText: "Negotiated Premiums from top Insurers.",
+      promoBadges1: "Pan-India Hospital Network",
+      promoBadges2: "Dedicated Relationship manager",
     },
   },
   {
@@ -1099,10 +1099,10 @@ export const servicesData = [
     bgImage: "/finask/group-term-life-insurance.webp",
     backgroundPosition: "center",
     faqSection: {
-      promoTitle: "Invest \u20B910k/month & Get",
-      promoText: "\u20B91 Crore*Tax-Free",
-      promoBadges1: "Plans starting from \u20B91000/month",
-      promoBadges2: "In-built life cover",
+      promoTitle: " ",
+      promoText: "Widest range of wellness benefits",
+      promoBadges1: "Dedicated Relationship manager     ",
+      promoBadges2: "Stress Free Claims",
     },
   },
   {
@@ -1164,10 +1164,10 @@ export const servicesData = [
     bgImage: "/finask/group-health-insurance.webp",
     backgroundPosition: "center",
     faqSection: {
-      promoTitle: "Invest \u20B910k/month & Get",
-      promoText: "\u20B91 Crore*Tax-Free",
-      promoBadges1: "Plans starting from \u20B91000/month",
-      promoBadges2: "In-built life cover",
+      promoTitle: "Stress free claim-24*7",
+      promoText: "High Quality Health Benefits",
+      promoBadges1: "Dedicated Relationship manager     ",
+      promoBadges2: "Pan India Coverage",
     },
   },
   {
@@ -1422,10 +1422,10 @@ export const servicesData = [
     bgImage: "/finask/pet-insurance.webp",
     backgroundPosition: "center",
     faqSection: {
-      promoTitle: "Invest \u20B910k/month & Get",
-      promoText: "\u20B91 Crore*Tax-Free",
-      promoBadges1: "Plans starting from \u20B91000/month",
-      promoBadges2: "In-built life cover",
+      promoTitle: "Dedicated Claims Manager",
+      promoText: "Affordable Premiums",
+      promoBadges1: "Expert Guidance, One Call Away",
+      promoBadges2: "Zero Documentation",
     },
   },
   {
@@ -1612,10 +1612,10 @@ export const servicesData = [
     bgImage: "/finask/term-rop.png",
     backgroundPosition: "center",
     faqSection: {
-      promoTitle: "Invest \u20B910k/month & Get",
-      promoText: "\u20B91 Crore*Tax-Free",
-      promoBadges1: "Plans starting from \u20B91000/month",
-      promoBadges2: "In-built life cover",
+      promoTitle: "100 % Digital Policy Issuance",
+      promoText: "Relationship manager for every customer",
+      promoBadges1: "Save up to 5% online discount",
+      promoBadges2: "Now no GST (18% cheaper)",
     },
   },
   {
@@ -1673,10 +1673,10 @@ export const servicesData = [
     bgImage: "/finask/personal-cyber-insurance.png",
     backgroundPosition: "center",
     faqSection: {
-      promoTitle: "Invest \u20B910k/month & Get",
-      promoText: "\u20B91 Crore*Tax-Free",
-      promoBadges1: "Plans starting from \u20B91000/month",
-      promoBadges2: "In-built life cover",
+      promoTitle: " ",
+      promoText: "Pocket friendly plans",
+      promoBadges1: "Safeguard your life from fraud",
+      promoBadges2: "Certified Expert Advice",
     },
   },
   {
@@ -1799,10 +1799,10 @@ export const servicesData = [
     bgImage: "/finask/taxi-insurance.png",
     backgroundPosition: "center",
     faqSection: {
-      promoTitle: "Invest \u20B910k/month & Get",
-      promoText: "\u20B91 Crore*Tax-Free",
-      promoBadges1: "Plans starting from \u20B91000/month",
-      promoBadges2: "In-built life cover",
+      promoTitle: " ",
+      promoText: "100000+ policies sold",
+      promoBadges1: "Fast Claim support",
+      promoBadges2: "Dedicated Claims Manager",
     },
   },
   {
@@ -1863,10 +1863,10 @@ export const servicesData = [
     bgImage: "/finask/commercial-vehicle-insurance.png",
     backgroundPosition: "center",
     faqSection: {
-      promoTitle: "Invest \u20B910k/month & Get",
-      promoText: "\u20B91 Crore*Tax-Free",
-      promoBadges1: "Plans starting from \u20B91000/month",
-      promoBadges2: "In-built life cover",
+      promoTitle: " ",
+      promoText: "100000+ policies sold",
+      promoBadges1: "Fast Claim Support",
+      promoBadges2: "Dedicated Claims Manager",
     },
   },
   {
@@ -1926,10 +1926,10 @@ export const servicesData = [
     bgImage: "/finask/property-insurance.webp",
     backgroundPosition: "center",
     faqSection: {
-      promoTitle: "Invest \u20B910k/month & Get",
-      promoText: "\u20B91 Crore*Tax-Free",
-      promoBadges1: "Plans starting from \u20B91000/month",
-      promoBadges2: "In-built life cover",
+      promoTitle: "Zero Documentation",
+      promoText: "Expert Guidance at your Door Step",
+      promoBadges1: "60 mins Claim assistance",
+      promoBadges2: "Digital Policy issuance",
     },
   },
   {
