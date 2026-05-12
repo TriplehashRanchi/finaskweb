@@ -29,12 +29,15 @@ export default function ServiceContent({ service, hideFaq = false }) {
 
     if (urlLayout && ALL_LAYOUTS.includes(urlLayout)) {
       setLayoutType(urlLayout);
+    } else if (service?.uspLayout && ALL_LAYOUTS.includes(service.uspLayout)) {
+      // Use the layout defined in services.js if it exists
+      setLayoutType(service.uspLayout);
     } else {
-      // Randomly assign a layout out of the 9 options
+      // Otherwise fallback to a random layout
       const randomLayout = ALL_LAYOUTS[Math.floor(Math.random() * ALL_LAYOUTS.length)];
       setLayoutType(randomLayout);
     }
-  }, []);
+  }, [service]);
 
   const toggleFaq = (index) => {
     setOpenFaqIndex((prev) => (prev === index ? -1 : index));

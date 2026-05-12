@@ -2,6 +2,7 @@ export const servicesData = [
   // --- INSURANCE ---
   {
     slug: "health-insurance",
+    uspLayout: "original",
     category: "Insurance",
     title: "Health Insurance",
     tagline: "So Your Wellbeing Remains Untouched by Financial Anxiety",
@@ -64,6 +65,7 @@ export const servicesData = [
   },
   {
     slug: "health-super-top-up",
+    uspLayout: "horizontal-ribbon",
     category: "Insurance",
     title: "Health Super Top-Up",
     tagline: "Because the Unforeseen Often Exceeds Conventional Bounds",
@@ -129,6 +131,7 @@ export const servicesData = [
   },
   {
     slug: "personal-accident-insurance",
+    uspLayout: "floating-pills",
     category: "Insurance",
     title: "Personal Accident Insurance",
     tagline:
@@ -194,6 +197,7 @@ export const servicesData = [
   },
   {
     slug: "critical-illness-insurance",
+    uspLayout: "bottom-sticky-banner",
     category: "Insurance",
     title: "  Critical Illness Insurance",
     tagline: "So That Healing Never Demands Dismantling Your Legacy.",
@@ -260,6 +264,7 @@ export const servicesData = [
   },
   // {
   //   slug: "life-insurance",
+    // uspLayout: "bottom-sticky-blue",
   //   category: "Insurance",
   //   title: "Life Insurance",
   //   tagline: "Because true love ensures a future unmarred by uncertainty.",
@@ -308,6 +313,7 @@ export const servicesData = [
   // },
   {
     slug: "term-insurance",
+    uspLayout: "scroll-popup-modal",
     category: "Insurance",
     title: "Term Insurance",
     tagline: "Care That Never Fades",
@@ -373,6 +379,7 @@ export const servicesData = [
   },
   {
     slug: "unit-link-insurance-plan",
+    uspLayout: "original",
     category: "Insurance",
     title: "Unit Link Insurance Plan ",
     tagline: "So Protection and Wealth Creation Can Grow Together",
@@ -437,6 +444,7 @@ export const servicesData = [
   },
   {
     slug: "traditional-life-insurance-plans",
+    uspLayout: "horizontal-ribbon",
     category: "Insurance",
     title: "Traditional Life Insurance Plans",
     tagline: "Certainty That Quietly Supports Your Future Financial Milestones",
@@ -496,6 +504,7 @@ export const servicesData = [
   },
   {
     slug: "motor-insurance",
+    uspLayout: "floating-pills",
     category: "Insurance",
     title: "Motor Insurance",
     tagline: "Drive with Confidence, Insured Every Mile",
@@ -559,6 +568,7 @@ export const servicesData = [
   },
   {
     slug: "travel-insurance",
+    uspLayout: "bottom-sticky-banner",
     category: "Insurance",
     title: "Travel Insurance",
     tagline: " Because Journeys Should Yield Memories, Not Misgivings",
@@ -620,6 +630,7 @@ export const servicesData = [
   },
   // {
   //   slug: "property-insurance",
+    // uspLayout: "bottom-sticky-blue",
   //   category: "Insurance",
   //   title: "Property Insurance",
   //   tagline: "Because a structure’s worth often transcends bricks and mortar.",
@@ -669,6 +680,7 @@ export const servicesData = [
   // },
   {
     slug: "fire-burglary-insurance",
+    uspLayout: "scroll-popup-modal",
     category: "Insurance",
     title: "Fire & Burglary Insurance",
     tagline:
@@ -734,6 +746,7 @@ export const servicesData = [
   },
   {
     slug: "marine-cargo-insurance",
+    uspLayout: "original",
     category: "Insurance",
     title: "Marine & Cargo Insurance",
     tagline: "In Business, Logistics Is More Than Movement It’s A Promise",
@@ -799,6 +812,7 @@ export const servicesData = [
   },
   // {
   //   slug: "corporate-insurance",
+    // uspLayout: "horizontal-ribbon",
   //   category: "Insurance",
   //   title: "Corporate Insurance",
   //   tagline: "Because enterprises flourish on foresight and resilience.",
@@ -852,6 +866,7 @@ export const servicesData = [
   // },
   // {
   //   slug: "cyber-insurance",
+    // uspLayout: "floating-pills",
   //   category: "Insurance",
   //   title: "Cyber Insurance",
   //   tagline: "Because your data is an asset — and a vulnerability.",
@@ -910,6 +925,7 @@ export const servicesData = [
   // },
   {
     slug: "director-officers-liability",
+    uspLayout: "bottom-sticky-banner",
     category: "Insurance",
     title: " Directors’ and Officers’ Liability Insurance ",
     tagline:
@@ -979,6 +995,7 @@ export const servicesData = [
   },
   {
     slug: "group-personal-accident",
+    uspLayout: "bottom-sticky-blue",
     category: "Corporate Insurance",
     title: "Group Personal Accident Insurance",
     tagline: "Financial Protection Against Accidental Risks",
@@ -1041,6 +1058,7 @@ export const servicesData = [
   },
   {
     slug: "group-term-life",
+    uspLayout: "scroll-popup-modal",
     category: "Corporate Insurance",
     title: "Group Term Life Insurance",
     tagline: "Financial Protection for Your Employees’ Families",
@@ -1107,6 +1125,7 @@ export const servicesData = [
   },
   {
     slug: "group-health-insurance",
+    uspLayout: "original",
     category: "Corporate Insurance",
     title: "Group Health Insurance",
     tagline: "Protect Your Employees with Comprehensive Group Health Insurance",
@@ -1172,6 +1191,7 @@ export const servicesData = [
   },
   {
     slug: "health-assistance",
+    uspLayout: "horizontal-ribbon",
     category: "Healthcare Assistance",
     title: "Health Assistance",
     tagline: "Access World-Class Healthcare Services at the Tap of a Button",
@@ -1237,6 +1257,7 @@ export const servicesData = [
   },
   {
     slug: "roadside-assistance",
+    uspLayout: "floating-pills",
     category: "Motor Assistance",
     title: "Roadside Assistance",
     tagline: "24x7 Support When the Unexpected Happens on the Road",
@@ -1303,6 +1324,7 @@ export const servicesData = [
   },
   {
     slug: "cycle-insurance",
+    uspLayout: "bottom-sticky-banner",
     category: "Lifestyle Protection",
     title: "Cycle Protection",
     tagline: "Protect Your Ride and Ride with Peace of Mind",
@@ -1366,6 +1388,7 @@ export const servicesData = [
   },
   {
     slug: "pet-insurance",
+    uspLayout: "bottom-sticky-blue",
     category: "Pet Insurance",
     title: "Pet Insurance",
     tagline: "Because They Are Family",
@@ -1430,6 +1453,7 @@ export const servicesData = [
   },
   {
     slug: "workmen-compensation",
+    uspLayout: "scroll-popup-modal",
     category: "Insurance",
     title: "Workmen Compensation Insurance",
     tagline: "Protecting Your Workforce, Securing Your Business",
@@ -1494,6 +1518,7 @@ export const servicesData = [
   },
   {
     slug: "prof-indemnity-for-doctors",
+    uspLayout: "original",
     category: "Insurance",
     title: "Professional Indemnity Insurance for Doctors",
     tagline: "Protecting Your Practice, Reputation and Peace of Mind",
@@ -1558,6 +1583,7 @@ export const servicesData = [
   },
   {
     slug: "term---rop",
+    uspLayout: "horizontal-ribbon",
     category: "Insurance",
     title: "Term-ROP",
     tagline: "Life Cover with the Added Benefit of Premium Return",
@@ -1620,6 +1646,7 @@ export const servicesData = [
   },
   {
     slug: "personal-cyber-insurance",
+    uspLayout: "floating-pills",
     category: "Insurance",
     title: "Personal Cyber Insurance",
     tagline:
@@ -1681,6 +1708,7 @@ export const servicesData = [
   },
   {
     slug: "corporate-cyber-insurance",
+    uspLayout: "bottom-sticky-banner",
     category: "Insurance",
     title: "Corporate Cyber Insurance",
     tagline:
@@ -1746,6 +1774,7 @@ export const servicesData = [
   },
   {
     slug: "taxi-insurance",
+    uspLayout: "bottom-sticky-blue",
     category: "Insurance",
     title: "Taxi Insurance",
     tagline: "Reliable Protection for Your Taxi and Your Livelihood",
@@ -1807,6 +1836,7 @@ export const servicesData = [
   },
   {
     slug: "commercial-vehicle-insurance",
+    uspLayout: "scroll-popup-modal",
     category: "Insurance",
     title: "Commercial Vehicle Insurance",
     tagline:
@@ -1871,6 +1901,7 @@ export const servicesData = [
   },
   {
     slug: "home-insurance",
+    uspLayout: "original",
     category: "Insurance",
     title: "Home Insurance",
     tagline: "Security and Peace of Mind For Your Most Valuable Space",
@@ -1934,6 +1965,7 @@ export const servicesData = [
   },
   {
     slug: "general-liability-insurance",
+    uspLayout: "horizontal-ribbon",
     category: "Insurance",
     title: "General Liability Insurance",
     tagline: "Coverage For Unforeseen Claims That Can Impact Your Business",
@@ -1994,6 +2026,7 @@ export const servicesData = [
   },
   {
     slug: "contractor-all-risk",
+    uspLayout: "floating-pills",
     category: "Insurance",
     title: "Contractor’s All Risk Insurance",
     tagline: "End-To-End Coverage For Materials, Works and On-Site Risks",
@@ -2055,6 +2088,7 @@ export const servicesData = [
   },
   {
     slug: "erection-all-risk",
+    uspLayout: "bottom-sticky-banner",
     category: "Insurance",
     title: "Erection All Risk Insurance",
     tagline:
@@ -2116,6 +2150,7 @@ export const servicesData = [
   },
   {
     slug: "trade-credit-insurance",
+    uspLayout: "bottom-sticky-blue",
     category: "Insurance",
     title: "Trade Credit Insurance",
     tagline: "Enabling Confident Business Growth With Credit Risk Protection",
@@ -2177,6 +2212,7 @@ export const servicesData = [
   },
   {
     slug: "contractor-plant-machinery",
+    uspLayout: "scroll-popup-modal",
     category: "Insurance",
     title: "Contractor’s Plant & Machinery",
     tagline: "Keep Your Operations Running With Reliable Equipment Protection",
@@ -2240,6 +2276,7 @@ export const servicesData = [
   },
   {
     slug: "surety-bond-insurance",
+    uspLayout: "original",
     category: "Insurance",
     title: "Surety Bond Insurance",
     tagline: "Providing Confidence to Stakeholders Through Financial Backing",
@@ -2301,6 +2338,7 @@ export const servicesData = [
   },
   {
     slug: "errors-and-omissions",
+    uspLayout: "horizontal-ribbon",
     category: "Insurance",
     title: "Errors & Omissions Insurance",
     tagline: "Financial Security Against Unforeseen Professional Risks",
@@ -2365,6 +2403,7 @@ export const servicesData = [
   },
   {
     slug: "professional-indemnity",
+    uspLayout: "floating-pills",
     category: "Insurance",
     title: "Professional Indemnity Insurance",
     tagline: "Ensuring Confidence in Your Profession with Financial Protection",
@@ -2427,6 +2466,7 @@ export const servicesData = [
   },
   {
     slug: "fleet-insurance",
+    uspLayout: "bottom-sticky-banner",
     category: "Insurance",
     title: "Fleet Insurance",
     tagline: "Comprehensive Coverage For All Your Vehicles Under A Single Plan",
@@ -2489,6 +2529,7 @@ export const servicesData = [
   },
   {
     slug: "shop-owner-insurance",
+    uspLayout: "bottom-sticky-blue",
     category: "Insurance",
     title: "Shop Owner Insurance",
     tagline: "Your Shop’s Safety Net For Every Uncertainty",
@@ -2550,6 +2591,7 @@ export const servicesData = [
   },
   {
     slug: "office-package-policy",
+    uspLayout: "scroll-popup-modal",
     category: "Insurance",
     title: "Office Package Policy",
     tagline:
@@ -2614,6 +2656,7 @@ export const servicesData = [
 
   {
     slug: "mutual-funds",
+    uspLayout: "original",
     category: "Investments",
     title: "Mutual Funds",
     tagline: "Because Steady Compounding Is Built on Discipline, Not Impulse.",
@@ -2677,6 +2720,7 @@ export const servicesData = [
   },
   {
     slug: "systematic-investment-plan",
+    uspLayout: "horizontal-ribbon",
     category: "Investments",
     title: "Systematic Investment Plan",
     tagline: "Build Wealth with Discipline, Not Timing",
@@ -2741,6 +2785,7 @@ export const servicesData = [
   },
   {
     slug: "systematic-withdrawal-plan",
+    uspLayout: "floating-pills",
     category: "Investments",
     title: "Systematic Withdrawal Plan in Mutual Funds",
     tagline: "Create a Regular Income from Your Investments",
@@ -2805,6 +2850,7 @@ export const servicesData = [
   },
   {
     slug: "systematic-transfer-plan",
+    uspLayout: "bottom-sticky-banner",
     category: "Investments",
     title: "Systematic Transfer Plan in Mutual Funds",
     tagline: "Transfer Smartly, Invest Strategically",
@@ -2869,6 +2915,7 @@ export const servicesData = [
   },
   {
     slug: "specialised-investment-fund",
+    uspLayout: "bottom-sticky-blue",
     category: "Investments",
     title: "Specialized Investment Funds",
     tagline: "Smarter Strategies For Smarter Capital",
@@ -2929,6 +2976,7 @@ export const servicesData = [
   },
   {
     slug: "bonds",
+    uspLayout: "scroll-popup-modal",
     category: "Investments",
     title: "Bonds",
     tagline: "Building Calm Amidst the Clamor",
@@ -2992,6 +3040,7 @@ export const servicesData = [
   },
   {
     slug: "pms",
+    uspLayout: "original",
     category: "Investments",
     title: "Portfolio Management Services",
     tagline: "Because Your Success Story Deserves a Bespoke Strategy",
@@ -3053,6 +3102,7 @@ export const servicesData = [
   },
   {
     slug: "aifs",
+    uspLayout: "horizontal-ribbon",
     category: "Investments",
     title: "Alternative Investment Funds",
     tagline:
@@ -3115,6 +3165,7 @@ export const servicesData = [
   },
   {
     slug: "unlisted-equity",
+    uspLayout: "floating-pills",
     category: "Investments",
     title: "Unlisted Equity",
     tagline: "Investing Where Vision Meets Venture",
@@ -3176,6 +3227,7 @@ export const servicesData = [
   },
   {
     slug: "reits",
+    uspLayout: "bottom-sticky-banner",
     category: "Goal Planning",
     title: "Real Estate Investment Trusts ",
     tagline:
@@ -3238,6 +3290,7 @@ export const servicesData = [
   },
   {
     slug: "invits",
+    uspLayout: "bottom-sticky-blue",
     category: "Investments",
     title: "Infrastructure Investment Trusts",
     tagline: "Because Progress Should Not Just Be Admired — It Should Be Owned",
@@ -3303,6 +3356,7 @@ export const servicesData = [
   },
   {
     slug: "fractional-commercial-real-estate",
+    uspLayout: "scroll-popup-modal",
     category: "Goal Planning",
     title: "Fractional Commercial Real Estate",
     tagline: "Because Progress Should Not Require Owning the Whole Skyline",
@@ -3367,6 +3421,7 @@ export const servicesData = [
   },
   {
     slug: "p2p-lending",
+    uspLayout: "original",
     category: "Investments",
     title: "Peer-to-Peer Lending",
     tagline: "Elevating Fixed Income with Thoughtful Innovation",
@@ -3427,6 +3482,7 @@ export const servicesData = [
   },
   {
     slug: "alternative-fixed-income",
+    uspLayout: "horizontal-ribbon",
     category: "Investments",
     title: "Alternative Fixed Income",
     tagline: "When Smart Innovation Meets Predictable Returns",
@@ -3494,6 +3550,7 @@ export const servicesData = [
   },
   {
     slug: "corporate-fdrs",
+    uspLayout: "floating-pills",
     category: "Investments",
     title: "Corporate Fixed Deposits",
     tagline: "Combining Familiar Stability with Enhanced Yield",
@@ -3555,6 +3612,7 @@ export const servicesData = [
   },
   {
     slug: "gift-city",
+    uspLayout: "bottom-sticky-banner",
     category: "Investments",
     title: "Gift City",
     tagline: "Opening Global Doors, Seamlessly Within India",
@@ -3616,6 +3674,7 @@ export const servicesData = [
   },
   {
     slug: "e-gold",
+    uspLayout: "bottom-sticky-blue",
     category: "Investments",
     title: "E-Gold",
     tagline: "Because Modern Aspirations Still Treasure Timeless Wealth",
@@ -3677,6 +3736,7 @@ export const servicesData = [
   },
   {
     slug: "nps",
+    uspLayout: "scroll-popup-modal",
     category: "Investments",
     title: "National Pension System ",
     tagline: "Building a Retirement That Honours Your Efforts",
@@ -3737,6 +3797,7 @@ export const servicesData = [
   },
   {
     slug: "stock-broking",
+    uspLayout: "original",
     category: "Investments",
     title: "Stock & Broking",
     tagline: "Bringing Clarity and Conviction to Your Equity Journey",
@@ -3799,6 +3860,7 @@ export const servicesData = [
   },
   {
     slug: "loan-against-securities",
+    uspLayout: "horizontal-ribbon",
     category: "Loans",
     title: "Loan Against Securities",
     tagline: "Unlock Liquidity Without Selling Your Investments",
@@ -3862,6 +3924,7 @@ export const servicesData = [
   },
   {
     slug: "set-up-sip",
+    uspLayout: "floating-pills",
     category: "Investment Planning",
     title: "Step-Up SIP",
     tagline: "Invest More As You Grow, Achieve More With Time.",
@@ -3929,6 +3992,7 @@ export const servicesData = [
 
   {
     slug: "trust-formation",
+    uspLayout: "bottom-sticky-banner",
     category: "Goal Planning",
     title: "Trust Formation",
     tagline: "Safeguard Today. Shape Tomorrow.",
@@ -3993,6 +4057,7 @@ export const servicesData = [
   },
   {
     slug: "will-writing",
+    uspLayout: "bottom-sticky-blue",
     category: "Goal Planning",
     title: "Will Writing",
     tagline: "A Gentle Blueprint for Lasting Peace",
@@ -4053,6 +4118,7 @@ export const servicesData = [
   },
   {
     slug: "executor-services",
+    uspLayout: "scroll-popup-modal",
     category: "Goal Planning",
     title: "Executor Services",
     tagline:
@@ -4117,6 +4183,7 @@ export const servicesData = [
   },
   {
     slug: "legal-advisory",
+    uspLayout: "original",
     category: "Consultation",
     title: "Legal Advisory",
     tagline: "Turning Law into A Shield, Not A Stressor",
@@ -4178,6 +4245,7 @@ export const servicesData = [
   },
   {
     slug: "tax-advisory",
+    uspLayout: "horizontal-ribbon",
     category: "Consultation",
     title: "Tax Advisory",
     tagline: "Because Wealth Should Grow, Not Leak",
@@ -4240,6 +4308,7 @@ export const servicesData = [
   },
   {
     slug: "financial-literacy",
+    uspLayout: "floating-pills",
     category: "Empowerment",
     title: "Financial Literacy Workshops",
     tagline: "Empowering Clarity, Inspiring Confidence",
@@ -4306,6 +4375,7 @@ export const servicesData = [
   },
   // {
   //   slug: "next-gen-coaching",
+    // uspLayout: "bottom-sticky-banner",
   //   category: "Empowerment",
   //   title: "Next-Gen Financial Coaching",
   //   tagline: "Building Wealth with Wisdom, Not Just Wallets",
@@ -4359,6 +4429,7 @@ export const servicesData = [
   // },
   {
     slug: "credit-cards",
+    uspLayout: "bottom-sticky-blue",
     category: "Financial Services",
     title: "Credit Cards",
     tagline: "Use Credit Smartly, Invest Strategically",
@@ -4424,6 +4495,7 @@ export const servicesData = [
   },
   {
     slug: "nri-corner",
+    uspLayout: "scroll-popup-modal",
     category: "Goal Planning",
     title: "NRI Corner",
     tagline:
@@ -4489,6 +4561,7 @@ export const servicesData = [
   },
   {
     slug: "women-corner",
+    uspLayout: "original",
     category: "Goal Planning",
     title: "Women Corner",
     tagline: "Because She Needs More Than Advice. She Needs Advocacy.",
@@ -4553,6 +4626,7 @@ export const servicesData = [
   },
   {
     slug: "family-office",
+    uspLayout: "horizontal-ribbon",
     category: "Consultation",
     title: "Family Office",
     tagline:
