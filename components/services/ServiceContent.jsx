@@ -71,10 +71,48 @@ export default function ServiceContent({ service, hideFaq = false }) {
         <h2 className="font-serif text-3xl md:text-5xl text-[#00394E] mb-8 font-medium">
           {service.title}
         </h2>
-        <div className="space-y-2 text-slate-600 leading-[1.4] text-md text-justify ">
-          {service.description.split("\n").map((line, i) => (
-            <p key={i} className="mb-2">{line}</p>
-          ))}
+        <div className="space-y-3 text-slate-600 leading-[1.6] text-[1.05rem] text-justify ">
+          {(() => {
+            const lines = service.description.split("\n");
+            const elements = [];
+            let currentBullets = [];
+
+            const renderBullets = (bulletsList, key) => (
+              <div key={`bullets-${key}`} className="bg-slate-50 border border-slate-200 rounded-[1rem] p-6 md:p-8 my-8">
+                <div className="grid grid-cols-1  gap-4">
+                  {bulletsList.map((b, idx) => (
+                    <div key={idx} className="flex gap-4 items-center bg-white p-5 rounded-xl border border-slate-100    transition-all group">
+                      <div className="w-8 h-8 rounded-full bg-[#00394E]/5 flex items-center justify-center shrink-0  transition-colors">
+                        <CheckCircle className="w-4 h-4 text-[#00394E]   transition-colors" strokeWidth={2.5} />
+                      </div>
+                      <p className="text-slate-700 font-medium text-[0.95rem] leading-snug">{b}</p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            );
+
+            lines.forEach((line, i) => {
+              const trimmed = line.trim();
+              if (trimmed.startsWith("●")) {
+                currentBullets.push(trimmed.substring(1).trim());
+              } else {
+                if (currentBullets.length > 0) {
+                  elements.push(renderBullets(currentBullets, i));
+                  currentBullets = [];
+                }
+                if (trimmed) {
+                  elements.push(<p key={`p-${i}`} className="mb-2">{line}</p>);
+                }
+              }
+            });
+
+            if (currentBullets.length > 0) {
+              elements.push(renderBullets(currentBullets, 'end'));
+            }
+
+            return elements;
+          })()}
         </div>
       </div>
 

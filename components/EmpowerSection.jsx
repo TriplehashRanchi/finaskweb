@@ -10,9 +10,9 @@ const features = [
 
     id: "family-office",
     title: "Family Office",
-    image: "/family.webp", 
+    image: "/family.png", 
     description: "Helping families protect harmony, purpose, and prosperity across generations.",
-     link: "/services/family-office"
+     link: "/services/ilfamy-office"
   },
   {
     id: "nri-corner",

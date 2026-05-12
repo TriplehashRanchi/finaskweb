@@ -97,7 +97,7 @@ export default function WhyWeExistSection() {
 
             <div className="relative w-full h-[350px]   overflow-hidden shadow-xl mt-4 group">
               <Image
-                src="/why.webp"
+                src="/why.jpg"
                 alt="Team Working"
                 fill
                 className="object-cover transition-transform duration-700 group-hover:scale-105"
