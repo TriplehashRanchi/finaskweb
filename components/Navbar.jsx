@@ -34,7 +34,7 @@ function InsuranceMegaMenu() {
       ? personalInsuranceSections
       : businessInsuranceSections;
   const [activeSection, setActiveSection] = useState(
-    personalInsuranceSections[0]?.title
+    personalInsuranceSections[0]?.title,
   );
   const currentSection =
     sections.find((section) => section.title === activeSection) || sections[0];
@@ -46,12 +46,19 @@ function InsuranceMegaMenu() {
 
   return (
     <div className="absolute top-[calc(100%+14px)] left-1/2 -translate-x-1/2 w-[740px] max-w-[calc(100vw-40px)] bg-white rounded-md shadow-[0_24px_60px_rgba(0,57,78,0.16)] border border-gray-100/80 opacity-0 invisible translate-y-3 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-200 ease-out z-50 overflow-hidden">
-
       {/* ── Header / Tab Bar ── */}
       <div className="flex items-center gap-10 px-5 pt-2 pb-0">
         {[
-          { id: "personal",  label: "Personal Insurance",   firstSection: personalInsuranceSections[0]?.title },
-          { id: "business",  label: "Business Insurance",    firstSection: businessInsuranceSections[0]?.title },
+          {
+            id: "personal",
+            label: "Personal Insurance",
+            firstSection: personalInsuranceSections[0]?.title,
+          },
+          {
+            id: "business",
+            label: "Business Insurance",
+            firstSection: businessInsuranceSections[0]?.title,
+          },
         ].map((tab) => (
           <button
             key={tab.id}
@@ -63,7 +70,7 @@ function InsuranceMegaMenu() {
                 : "border-transparent text-gray-400 hover:text-gray-600 hover:bg-gray-50"
             }`}
           >
-             {tab.label}
+            {tab.label}
           </button>
         ))}
       </div>
@@ -71,7 +78,6 @@ function InsuranceMegaMenu() {
 
       {/* ── Body ── */}
       <div className="flex" style={{ minHeight: "280px" }}>
-
         {/* Left sidebar */}
         <div className="w-[230px] shrink-0  border-r border-gray-100 py-4 px-3 flex flex-col gap-1">
           {sections.map((section) => {
@@ -87,11 +93,21 @@ function InsuranceMegaMenu() {
                     : "text-gray-500 hover:text-[#00394E] hover:bg-[#EBF4F7]"
                 }`}
               >
-                <span className="text-[13px] font-semibold leading-snug">{section.title}</span>
+                <span className="text-[13px] font-semibold leading-snug">
+                  {section.title}
+                </span>
                 {isActive && (
                   <span className="ml-auto shrink-0">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="w-3 h-3 text-[#00394E]">
-                      <path d="m9 18 6-6-6-6"/>
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      className="w-3 h-3 text-[#00394E]"
+                    >
+                      <path d="m9 18 6-6-6-6" />
                     </svg>
                   </span>
                 )}
@@ -104,8 +120,10 @@ function InsuranceMegaMenu() {
         <div className="min-w-0 flex-1 py-5 px-5 ">
           {/* Section heading */}
           <div className="flex items-center gap-2 mb-3">
-            <span className="text-[14px] font-bold text-[#00394E]">{currentSection.title}</span>
-           </div>
+            <span className="text-[14px] font-bold text-[#00394E]">
+              {currentSection.title}
+            </span>
+          </div>
 
           {/* Items grid */}
           <div className="grid grid-cols-2 gap-x-3 gap-y-0.5 max-h-[280px] overflow-y-auto pr-1 scrollbar-thin scrollbar-thumb-gray-200 scrollbar-track-transparent">
@@ -122,15 +140,13 @@ function InsuranceMegaMenu() {
           </div>
         </div>
       </div>
-
-   
     </div>
   );
 }
 
 function InvestmentMegaMenu() {
   const [activeSection, setActiveSection] = useState(
-    investmentSections[0]?.title
+    investmentSections[0]?.title,
   );
   const currentSection =
     investmentSections.find((section) => section.title === activeSection) ||
@@ -321,10 +337,10 @@ export default function Navbar() {
             Family Office
           </Link>
           <Link href="/services/nri-corner" className={navLinkClass}>
-            NRI Corner
+            NRI's corner
           </Link>
           <Link href="/services/women-corner" className={navLinkClass}>
-            Women Corner
+            Women's corner
           </Link>
         </div>
 

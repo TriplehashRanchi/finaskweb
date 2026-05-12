@@ -3614,7 +3614,7 @@ export const servicesData = [
     slug: "gift-city",
     uspLayout: "bottom-sticky-banner",
     category: "Investments",
-    title: "Gift City",
+    title: "GIFT City",
     tagline: "Opening Global Doors, Seamlessly Within India",
     description:
       "It is India’s first operational International Financial Services Centre which designed to position the country as a global financial hub. It offers a world-class ecosystem for financial services, including offshore investments, banking, insurance and fund management, all within a highly regulated and tax-efficient environment with benefits such as tax incentives, ease of doing business and access to global markets in foreign currency.  \n It provides investors and institutions a unique opportunity to diversify internationally while operating from India. For forward-looking investors, it represents a gateway to global investing with enhanced efficiency, transparency and regulatory support.",
@@ -4497,7 +4497,7 @@ export const servicesData = [
     slug: "nri-corner",
     uspLayout: "scroll-popup-modal",
     category: "Goal Planning",
-    title: "NRI Corner",
+    title: "NRI's corner",
     tagline:
       "Because Home Isn’t Just Where You Live. It’s Also Where You Grow.",
     description:
@@ -4563,7 +4563,7 @@ export const servicesData = [
     slug: "women-corner",
     uspLayout: "original",
     category: "Goal Planning",
-    title: "Women Corner",
+    title: "Women's corner",
     tagline: "Because She Needs More Than Advice. She Needs Advocacy.",
     description:
       "From her relationships to her marriage, from her career to her household, a woman navigates complexities at every turn. Often, she puts others ahead of herself—her spouse, children, aging parents. She may pause her career to care for family, adjust her ambitions to support a partner, or stay silent on financial matters that intimately shape her life.\nEven today, despite earning more than ever, many women hesitate to take the lead in conversations about investing, insurance, or inheritance. They’re told money is complicated. Or that it's simply not their domain. As a result, too many brilliant, resilient women continue to carry emotional, social, and even financial weight—without the security, knowledge, or confidence they deserve.\nFinask Value, we created Women Corner not as a marketing vertical, but as a stand — to show that her goals matter, her security matters, and her choices deserve to be as expansive and informed as anyone else's.\nWe work with:\n● Young professionals who juggle EMIs, family expectations, and ambitions no one fully understands.\n● Mothers who quietly prioritize school fees over retirement funds, fearing tomorrow’s uncertainty.\n ● Homemakers who wish to grasp how family wealth is truly structured—so they aren’t left in the dark if life shifts.\n● Women rebuilding after separation or loss, who need clarity, compassion, and a map to financial independence.",

@@ -4,15 +4,15 @@ export const investmentSections = [
     items: [
       { label: "Mutual Funds", slug: "mutual-funds" },
       {
-        label: "Systematic Investment Plan (SIP)",
+        label: "Systematic Investment Plan ",
         slug: "systematic-investment-plan",
       },
       {
-        label: "Systematic Withdrawal Plan (SWP)",
+        label: "Systematic Withdrawal Plan ",
         slug: "systematic-withdrawal-plan",
       },
       {
-        label: "Systematic Transfer Plan (STP)",
+        label: "Systematic Transfer Plan ",
         slug: "systematic-transfer-plan",
       },
       { label: "Step-Up SIP", slug: "set-up-sip" },
@@ -39,7 +39,7 @@ export const investmentSections = [
         slug: "alternative-fixed-income",
       },
       {
-        label: "Specialised Investment Fund (SIF)",
+        label: "Specialised Investment Fund",
         slug: "specialised-investment-fund",
       },
       ,
@@ -61,7 +61,7 @@ export const investmentSections = [
   {
     title: "Structured & International Opportunities",
     items: [
-      { label: "Gift City Investments", slug: "gift-city" },
+      { label: "GIFT City", slug: "gift-city" },
 
       {
         label: "Loan Against Securities",
