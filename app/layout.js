@@ -33,7 +33,7 @@ export default function RootLayout({ children }) {
         <link href="https://api.fontshare.com/v2/css?f[]=telma@300,400,500,700,900&display=swap" rel="stylesheet"></link>
       </head>
       <body
-        className={`${playfair.variable} ${manrope.variable} ${greatVibes.variable} font-sans antialiased`}
+        className={`${playfair.variable} ${manrope.variable} ${greatVibes.variable} font-sans antialiased overflow-x-hidden`}
       >
         <Navbar />
         <ExitIntentPopup />
