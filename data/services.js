@@ -253,8 +253,8 @@ export const servicesData = [
           "Anyone with financial responsibilities, family history of serious illnesses, high-stress lifestyle, or limited savings should strongly consider this cover.",
       },
     ],
-    bgImage: "/finask/critical-illness-insurance.jpeg",
-    backgroundPosition: "center",
+    bgImage: "/finask/critical-illness-insurance.png",
+    backgroundPosition: "top center",
     faqSection: {
       promoTitle: "30 minutes claim support",
       promoText: "Relationship manager for every customer",
@@ -1825,7 +1825,7 @@ export const servicesData = [
           "Yes, fleet owners can opt for fleet insurance policies covering multiple vehicles under a single plan.",
       },
     ],
-    bgImage: "/finask/taxi-insurance.png",
+    bgImage: "/finask/taxi.png",
     backgroundPosition: "center",
     faqSection: {
       promoTitle: " ",
@@ -2139,8 +2139,8 @@ export const servicesData = [
           "Wear and tear, mechanical breakdown, and intentional damage are usually excluded.",
       },
     ],
-    bgImage: "/finask/erection-all-risk-insurance.png",
-    backgroundPosition: "center",
+    bgImage: "/finask/erection-all-risk.png",
+    backgroundPosition: "top center",
     faqSection: {
       promoTitle: "Invest \u20B910k/month & Get",
       promoText: "\u20B91 Crore*Tax-Free",
