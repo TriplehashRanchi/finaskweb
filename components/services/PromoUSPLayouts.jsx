@@ -131,79 +131,6 @@ export function HorizontalRibbon({ promoTitle, promoText, promoBadges }) {
   );
 }
 
-// Layout 3: Split Board (Left of FAQ)
-export function SplitBoard({ promoTitle, promoText, promoBadges }) {
-  return (
-    <div className="flex flex-col rounded-2xl overflow-hidden shadow-2xl">
-      <div className="bg-[#DAA434] p-8 md:p-12 text-[#00394E] relative overflow-hidden">
-        <div className="absolute top-0 right-0 w-32 h-32 bg-white/20 rounded-full blur-2xl -mr-10 -mt-10"></div>
-        <p className="text-sm font-bold tracking-widest uppercase mb-3 opacity-80">
-          {promoTitle}
-        </p>
-        <h3 className="font-serif text-3xl md:text-4xl font-bold leading-tight mb-8 relative z-10">
-          {promoText}
-        </h3>
-        <div className="flex flex-col gap-4 relative z-10">
-          <div className="bg-white/30 backdrop-blur-sm px-5 py-4 rounded-xl font-bold text-sm shadow-sm">
-            {promoBadges[0]}
-          </div>
-          <div className="bg-[#00394E]/10 backdrop-blur-sm px-5 py-4 rounded-xl font-bold text-sm shadow-sm">
-            {promoBadges[1]}
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-}
-
-// Layout 4: Hero Overlap (Top of content)
-export function HeroOverlap({ promoTitle, promoText, promoBadges }) {
-  return (
-    <div className="w-full max-w-4xl mx-auto -mt-24 relative z-30 px-4">
-      <div className="bg-white/90 backdrop-blur-xl border border-white/50 rounded-[2rem] shadow-[0_20px_40px_rgba(0,0,0,0.08)] p-6 md:p-10 text-center">
-        <span className="inline-block px-4 py-1.5 bg-[#D44659]/10 text-[#D44659] text-xs font-bold rounded-full mb-4 uppercase tracking-wide">
-          {promoTitle}
-        </span>
-        <h3 className="font-serif text-2xl md:text-3xl font-bold text-[#00394E] mb-6">
-          {promoText}
-        </h3>
-        <div className="flex flex-wrap justify-center gap-4">
-          <span className="px-5 py-2.5 bg-[#F0F4F8] text-[#00394E] rounded-full text-sm font-semibold">
-            {promoBadges[0]}
-          </span>
-          <span className="px-5 py-2.5 bg-[#F0F4F8] text-[#00394E] rounded-full text-sm font-semibold">
-            {promoBadges[1]}
-          </span>
-        </div>
-      </div>
-    </div>
-  );
-}
-
-// Layout 5: Minimal Editorial (Left of FAQ)
-export function MinimalEditorial({ promoTitle, promoText, promoBadges }) {
-  return (
-    <div className="pr-6 pt-4">
-      <p className="text-[#D44659] font-bold text-sm tracking-widest uppercase mb-4 flex items-center gap-2">
-        <span className="w-8 h-px bg-[#D44659]"></span> {promoTitle}
-      </p>
-      <h3 className="font-serif text-4xl text-[#00394E] leading-tight mb-8 font-medium">
-        {promoText}
-      </h3>
-      <div className="space-y-4">
-        <div className="flex items-center gap-4 text-slate-700 border-l-2 border-[#DAA434] pl-4 py-1">
-          <CheckCircle className="w-6 h-6 text-[#DAA434]" />
-          <span className="font-semibold text-lg">{promoBadges[0]}</span>
-        </div>
-        <div className="flex items-center gap-4 text-slate-700 border-l-2 border-[#DAA434] pl-4 py-1">
-          <ShieldCheck className="w-6 h-6 text-[#DAA434]" />
-          <span className="font-semibold text-lg">{promoBadges[1]}</span>
-        </div>
-      </div>
-    </div>
-  );
-}
-
 // Layout 6: Floating Pills (Above FAQ)
 export function FloatingPills({ promoTitle, promoText, promoBadges }) {
   return (
@@ -292,23 +219,21 @@ export function BottomStickyBanner({ promoTitle, promoText, promoBadges }) {
         </div>
 
         <div className="flex flex-col items-start w-full md:w-auto shrink-0">
-         
-            <button className="bg-[#D44659] hover:bg-[#b03548] text-white px-6 py-3 rounded-lg font-semibold text-[0.95rem] transition-colors whitespace-nowrap flex items-center gap-2">
-                Contact Now
-              <svg
-                width="16"
-                height="16"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2.5"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              >
-                <path d="M5 12h14M12 5l7 7-7 7" />
-              </svg>
-            </button>
-   
+          <button className="bg-[#D44659] hover:bg-[#b03548] text-white px-6 py-3 rounded-lg font-semibold text-[0.95rem] transition-colors whitespace-nowrap flex items-center gap-2">
+            Contact Now
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2.5"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
+              <path d="M5 12h14M12 5l7 7-7 7" />
+            </svg>
+          </button>
         </div>
       </div>
     </div>
@@ -486,14 +411,8 @@ export function PromoUSPRenderer({
 }) {
   const props = { promoTitle, promoText, promoBadges };
   switch (layoutType) {
-    case "hero-overlap":
-      return <HeroOverlap {...props} />;
     case "horizontal-ribbon":
       return <HorizontalRibbon {...props} />;
-    case "split-board":
-      return <SplitBoard {...props} />;
-    case "minimal-editorial":
-      return <MinimalEditorial {...props} />;
     case "floating-pills":
       return <FloatingPills {...props} />;
     case "bottom-sticky-banner":
