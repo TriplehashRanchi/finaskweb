@@ -5,21 +5,21 @@ import { CheckCircle, ShieldCheck, Trophy } from "lucide-react";
 // Layout 1: Original Card
 export function OriginalCard({ promoTitle, promoText, promoBadges }) {
   return (
-    <div className="overflow-hidden rounded-[1rem] bg-gradient-to-b from-[#001F2B] to-[#00394E] px-5 py-8 text-white shadow-[0_24px_60px_rgba(21,83,199,0.25)] md:px-8 md:py-28">
+    <div className="overflow-hidden rounded-[1rem] bg-gradient-to-b from-[#001F2B] to-[#00394E] px-5 py-8 text-white shadow-[0_24px_60px_rgba(21,83,199,0.25)] md:px-12 md:py-28">
       <div className="mx-auto max-w-[460px]">
         <div className="text-center">
           <p className="text-[1.2rem] font-light  leading-tight md:text-[1.2rem]">
             {promoTitle}
           </p>
-          <h3 className="mt-2 text-[2rem] font-semibold leading-none ">
+          <h3 className="mt-2 text-[2.2rem] font-semibold leading-none text-[#DAA434]  ">
             {promoText}
           </h3>
         </div>
         <div className="mt-8 flex flex-col gap-3 md:flex-row md:justify-center">
-          <div className="rounded-lg bg-[#C8F0B0] px-4 py-3 text-center text-sm font-semibold text-[#245633] ">
+          <div className="rounded-lg bg-[#C8F0B0] p-4 text-center text-sm font-semibold text-[#245633] ">
             {promoBadges[0]}
           </div>
-          <div className="rounded-lg bg-[#C9DCF8] px-4 py-3 text-center text-sm font-semibold text-[#1D4C8F] ">
+          <div className="rounded-lg bg-[#C9DCF8] p-4 text-center text-sm font-semibold text-[#1D4C8F] ">
             {promoBadges[1]}
           </div>
         </div>

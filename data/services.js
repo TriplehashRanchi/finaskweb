@@ -4240,7 +4240,7 @@ export const servicesData = [
       promoTitle: "Invest \u20B910k/month & Get",
       promoText: "\u20B91 Crore*Tax-Free",
       promoBadges1: "Plans starting from \u20B91000/month",
-      promoBadges2: "In-built life cover",
+      promoBadges2: "Plans starting from \u20B91000/month",
     },
   },
   {
