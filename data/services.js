@@ -2140,7 +2140,7 @@ export const servicesData = [
       },
     ],
     bgImage: "/finask/erection-all-risk.png",
-    backgroundPosition: "top center",
+    backgroundPosition: "center",
     faqSection: {
       promoTitle: "Invest \u20B910k/month & Get",
       promoText: "\u20B91 Crore*Tax-Free",
@@ -2393,7 +2393,7 @@ export const servicesData = [
       },
     ],
     bgImage: "/finask/errors-and-omissions-insurance.png",
-    backgroundPosition: "center",
+    backgroundPosition: "bottom center",
     faqSection: {
       promoTitle: "Invest \u20B910k/month & Get",
       promoText: "\u20B91 Crore*Tax-Free",
@@ -2456,7 +2456,7 @@ export const servicesData = [
       },
     ],
     bgImage: "/finask/professional-indemnity-insurance.png",
-    backgroundPosition: "center",
+    backgroundPosition: "bottom center",
     faqSection: {
       promoTitle: "Invest \u20B910k/month & Get",
       promoText: "\u20B91 Crore*Tax-Free",
