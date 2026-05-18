@@ -33,7 +33,7 @@ export default function RatingCard() {
             <span className="text-[#00394E] font-semibold text-[0.95rem]">4.8/5</span>
           </div>
           <h4 className="text-slate-800 font-medium text-[1.1rem] leading-tight mb-0.5">Read what our customers have to say</h4>
-          <p className="text-slate-500 text-[0.85rem] mb-1.5">Rated 4.8/5 with over 5775 reviews on Google</p>
+          <p className="text-slate-500 text-[0.85rem] mb-1.5">Rated 4.8/5 with over 100+ reviews on Google</p>
          </div>
       </div>
       

@@ -49,6 +49,7 @@ export default function ServiceContent({ service, hideFaq = false }) {
   const promoBadges = [
     service.faqSection?.promoBadges1 || "Plans starting from \u20B91000/month",
     service.faqSection?.promoBadges2 || "In-built life cover",
+    service.faqSection?.promoBadges3 || "Flexible tenure up to 30 years"
   ];
 
   const getIcon = (index) => {

@@ -24,11 +24,9 @@ export function HorizontalRibbon({ promoTitle, promoText, promoBadges }) {
               </div>
               <div>
                 <p className="font-bold text-[#00394E] text-[1.1rem] mb-0.5 leading-tight">
-                  {promoTitle}
+                  {promoBadges[0] || "45 Lacs+"}
                 </p>
-                <p className="text-xs text-slate-500 font-medium">
-                  Included Benefit
-                </p>
+                
               </div>
             </div>
 
@@ -50,11 +48,9 @@ export function HorizontalRibbon({ promoTitle, promoText, promoBadges }) {
               </div>
               <div>
                 <p className="font-bold text-[#00394E] text-[1.1rem] mb-0.5 leading-tight">
-                  Claim Support
+                  {promoBadges[1] || "45 Lacs+"}
                 </p>
-                <p className="text-xs text-slate-500 font-medium">
-                  Everyday 10AM-7PM
-                </p>
+               
               </div>
             </div>
 
@@ -79,11 +75,9 @@ export function HorizontalRibbon({ promoTitle, promoText, promoBadges }) {
               </div>
               <div>
                 <p className="font-bold text-[#00394E] text-[1.1rem] mb-0.5 leading-tight">
-                  {promoBadges[0] || "45 Lacs+"}
+                  {promoBadges[2] || "45 Lacs+"}
                 </p>
-                <p className="text-xs text-slate-500 font-medium">
-                  Happy Customers
-                </p>
+               
               </div>
             </div>
           </div>
@@ -121,7 +115,7 @@ export function FloatingPills({ promoTitle, promoText, promoBadges }) {
           <p className="text-lg font-bold text-[#00394E]">{promoBadges[1]}</p>
         </div>
         <div className="rounded-lg bg-[#F0F4F8] px-4 py-3 text-center text-sm font-semibold text-[#00394E] ">
-          <p className="text-lg font-bold text-[#00394E]">{promoBadges[0]}</p>
+          <p className="text-lg font-bold text-[#00394E]">{promoBadges[2]}</p>
         </div>
       </div>
     </div>
