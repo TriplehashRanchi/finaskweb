@@ -11,7 +11,7 @@ const slides = [
     image: "/1.webp", // Happy Family / Legacy
     title: "Where Wealth Meets Purpose, and Legacies Find Direction",
     subtitle:
-      "Beyond returns, we craft clarity—for families, entrepreneurs, and visionaries who see wealth not just as numbers, but as a narrative.",
+      "Beyond returns, we craft clarity for families, entrepreneurs, and visionaries who see wealth not just as numbers, but as a narrative.",
     highlight: "Direction",
     theme: "light",
   },
@@ -20,7 +20,7 @@ const slides = [
     image: "/2.webp", // Clarity/Confidence/Advisor
     title: "Clarity Today. Confidence Tomorrow. Continuity Forever.",
     subtitle:
-      "From investments and insurance to succession and stewardship, we don’t just manage your wealth—we help it grow with integrity, empathy, and foresight.",
+      "From investments and insurance to succession and stewardship, we don’t just manage your wealth we help it grow with integrity, empathy, and foresight.",
     highlight: "Forever.",
     theme: "light",
   },
@@ -29,7 +29,7 @@ const slides = [
     image: "/3.webp", // Generations/Business Succession
     title: "Protecting Dreams. Preserving Legacies. Powering Generations.",
     subtitle:
-      "For every milestone—child’s education, retirement, business succession, or global investing Finask Value is where aspirations meet trusted financial architecture.",
+      "For every milestone child’s education, retirement, business succession, or global investing Finask Value is where aspirations meet trusted financial architecture.",
     highlight: "Generations.",
     theme: "light",
   },

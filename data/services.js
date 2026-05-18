@@ -4183,7 +4183,7 @@ export const servicesData = [
   },
   {
     slug: "legal-advisory",
-    uspLayout: "original",
+    uspLayout: "bottom-sticky-blue",
     category: "Consultation",
     title: "Legal Advisory",
     tagline: "Turning Law into A Shield, Not A Stressor",

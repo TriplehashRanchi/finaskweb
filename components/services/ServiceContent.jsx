@@ -10,7 +10,6 @@ import { PromoUSPRenderer } from "./PromoUSPLayouts";
 import RatingCard from "./RatingCard";
 
 const ALL_LAYOUTS = [
-  "original",
   "horizontal-ribbon",
   "floating-pills",
   "bottom-sticky-banner",
@@ -58,9 +57,7 @@ export default function ServiceContent({ service, hideFaq = false }) {
     return <Icon className="w-8 h-8 text-[#DAA434]" />;
   };
 
-  // We default to true before mount to avoid aggressive layout shifts, 
-  // but hide content with opacity until the random layout is resolved.
-  const isLeftLayout = layoutType ? ["original"].includes(layoutType) : true;
+  const isLeftLayout = false;
 
   return (
     <div className={`w-full transition-opacity duration-500 ${layoutType ? 'opacity-100' : 'opacity-0'}`}>
