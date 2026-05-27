@@ -155,7 +155,7 @@ function InvestmentMegaMenu() {
   return (
     <div className="absolute top-[calc(100%+14px)] left-50 -translate-x-1/2 w-[900px] max-w-[calc(100vw-40px)] bg-white rounded-md shadow-[0_24px_60px_rgba(0,57,78,0.16)] border border-gray-100/80 opacity-0 invisible translate-y-3 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-200 ease-out z-50 overflow-hidden">
       <div className="flex" style={{ minHeight: "280px" }}>
-        <div className="w-[300px] shrink-0 border-r border-gray-100 py-4 px-3 flex flex-col gap-2">
+        <div className="w-[310px] shrink-0 border-r border-gray-100 py-6 px-4 flex flex-col gap-2">
           {investmentSections.map((section) => {
             const isActive = currentSection.title === section.title;
 
