@@ -3939,31 +3939,31 @@ export const servicesData = [
     title: "Step-Up SIP",
     tagline: "Invest More As You Grow, Achieve More With Time.",
     description:
-      "A Step-Up SIP is a smart and disciplined way to grow your wealth by gradually increasing your investment amount over time. It allows you to start with a comfortable monthly contribution and automatically step it up at regular intervals, typically in line with your rising income. This strategy not only helps you stay ahead of inflation but also accelerates wealth creation through the power of compounding. It is ideal for salaried individuals and long-term investors.\nIt ensures that your investments evolve with your financial growth, helping you achieve your life goals more efficiently without feeling a financial burden.",
+      "A Step-Up SIP is a smart and disciplined way to grow your wealth by gradually increasing your investment amount over time. It allows you to start with a comfortable monthly contribution and automatically step it up at regular intervals typically in line with your rising income. This strategy not only helps you stay ahead of inflation but also accelerates wealth creation through the power of compounding. It is ideal for salaried individuals and long-term investors. It ensures that your investments evolve with your financial growth, helping you achieve your life goals more efficiently without feeling a financial burden.",
     features: [
       {
         title: "The Compounding Advantage",
-        icon: "",
+        icon: "/insurance-icons/step-up-sip-1.png",
         description:
-          "Small increments create a big long-term impact on wealth creation.",
+          "Small increments create big long-term impact.",
       },
       {
         title: "Step-by-Step Investing",
-        icon: "",
+        icon: "/insurance-icons/step-up-sip-2.png",
         description:
-          "Increase investments gradually without creating financial pressure.",
+          "Climb gradually without financial pressure.",
       },
       {
         title: "Better Goal Mapping",
-        icon: "",
+        icon: "/insurance-icons/step-up-sip-3.png",
         description:
-          "Bridge the gap between your savings and future aspirations more effectively.",
+          "Bridge the gap between savings & aspirations.",
       },
       {
         title: "Inflation Beating Strategy",
-        icon: "",
+        icon: "/insurance-icons/step-up-sip-4.png",
         description:
-          "Increase your investments over time to stay ahead of rising costs.",
+          "Increase investments to stay ahead of rising costs.",
       },
     ],
     faq: [
@@ -3975,7 +3975,7 @@ export const servicesData = [
       {
         question: "How often can I increase my SIP step-up amount?",
         answer:
-          "Most people prefer to step up their SIP annually, though you also have the option to increase it semi-annually or at custom intervals based on your needs.",
+          "Mostly people prefer to step up their SIP annually, though you also have the option to increase it semi-annually or at custom intervals based on your needs.",
       },
       {
         question: "Can I stop or modify the step-up feature later?",
@@ -4707,5 +4707,3 @@ export function getServiceBySlug(slug) {
 export function getAllServices() {
   return servicesData;
 }
-
-
