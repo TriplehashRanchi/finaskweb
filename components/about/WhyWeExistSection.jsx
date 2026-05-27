@@ -61,9 +61,9 @@ export default function WhyWeExistSection() {
               </div>
               <div className="flex flex-col">
                 <p className="font-bold text-[#00394E] text-sm tracking-wide uppercase leading-tight">
-                  MORE THAN 500+ FAMILIES
+                  MORE THAN 5000+ FAMILIES
                 </p>
-                <p className="text-sm text-gray-500 font-medium tracking-wide uppercase">
+                <p className="text-sm text-[#00394E] font-medium tracking-wide uppercase">
                   SERVED
                 </p>
               </div>

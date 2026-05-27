@@ -3988,7 +3988,7 @@ export const servicesData = [
           "The risk level is the same as the mutual funds you invest in. The step-up feature only affects the contribution amount, not the market risk.",
       },
     ],
-    bgImage: "/finask/sip.png",
+    bgImage: "/finask/step-up-sip.png",
     backgroundPosition: "bottom",
     faqSection: {
       promoTitle: "Invest \u20B910k/month & Get",

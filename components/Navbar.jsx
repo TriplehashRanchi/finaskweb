@@ -337,10 +337,10 @@ export default function Navbar() {
             Family Office
           </Link>
           <Link href="/services/nri-corner" className={navLinkClass}>
-            NRI's corner
+            NRI's Corner
           </Link>
           <Link href="/services/women-corner" className={navLinkClass}>
-            Women's corner
+            Women's Corner
           </Link>
         </div>
 

@@ -26,7 +26,7 @@ export default function PurposeSection() {
                   Purpose Beyond <span className=" text-[#DAA434]">Profit</span>
                 </h2>
 
-                <p className="text-lg  text-gray-400 leading-relaxed font-light ">
+                <p className=" text-lg text-gray-400 leading-relaxed  text-justify">
                   True wealth is measured by the good it does. Our success is
                   intrinsically linked to the well-being of the communities we
                   serve.
@@ -34,7 +34,7 @@ export default function PurposeSection() {
               </div>
 
               {/* User Content: Concise Paragraphs */}
-              <div className="  text-gray-400 leading-relaxed text-justify">
+              <div className="  text-lg text-gray-400 leading-relaxed text-justify">
                 <p className="mb-4">
                   Financial Literacy & Legacy Through workshops and our "1%
                   Pledge", we empower the next generation with the knowledge to
