@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import {
   Shield, Zap, CheckCircle, BarChart,
@@ -8,6 +8,7 @@ import {
 } from "lucide-react";
 import { PromoUSPRenderer } from "./PromoUSPLayouts";
 import RatingCard from "./RatingCard";
+import { allInsuranceMenuItems } from "@/data/insuranceMenu";
 
 const ALL_LAYOUTS = [
   "horizontal-ribbon",
@@ -19,30 +20,37 @@ const ALL_LAYOUTS = [
 
 export default function ServiceContent({ service, hideFaq = false }) {
   const [openFaqIndex, setOpenFaqIndex] = useState(0);
-  const [layoutType, setLayoutType] = useState(null);
-
-  useEffect(() => {
+  const [layoutType] = useState(() => {
     // Allow forcing a specific layout via URL parameter for easy testing
-    const params = new URLSearchParams(window.location.search);
-    const urlLayout = params.get('layout');
+    const params =
+      typeof window !== "undefined"
+        ? new URLSearchParams(window.location.search)
+        : null;
+    const urlLayout = params?.get("layout");
 
     if (urlLayout && ALL_LAYOUTS.includes(urlLayout)) {
-      setLayoutType(urlLayout);
-    } else if (service?.uspLayout && ALL_LAYOUTS.includes(service.uspLayout)) {
-      // Use the layout defined in services.js if it exists
-      setLayoutType(service.uspLayout);
-    } else {
-      // Otherwise fallback to a random layout
-      const randomLayout = ALL_LAYOUTS[Math.floor(Math.random() * ALL_LAYOUTS.length)];
-      setLayoutType(randomLayout);
+      return urlLayout;
     }
-  }, [service]);
+
+    if (service?.uspLayout && ALL_LAYOUTS.includes(service.uspLayout)) {
+      // Use the layout defined in services.js if it exists
+      return service.uspLayout;
+    }
+
+    // Otherwise fallback to a random layout
+    return ALL_LAYOUTS[Math.floor(Math.random() * ALL_LAYOUTS.length)];
+  });
 
   const toggleFaq = (index) => {
     setOpenFaqIndex((prev) => (prev === index ? -1 : index));
   };
 
   if (!service) return null;
+
+  const isInsuranceService = allInsuranceMenuItems.some(
+    (item) => item.slug === service.slug
+  );
+  const shouldShowUSP = isInsuranceService && !hideFaq;
 
   const promoTitle = service.faqSection?.promoTitle || "Invest \u20B910k/month & Get";
   const promoText = service.faqSection?.promoText || "\u20B91 Crore*Tax-Free";
@@ -143,13 +151,13 @@ export default function ServiceContent({ service, hideFaq = false }) {
           ))}
       </div>
 
-      {layoutType && ["horizontal-ribbon", "floating-pills"].includes(layoutType) && !hideFaq && (
+      {layoutType && ["horizontal-ribbon", "floating-pills"].includes(layoutType) && shouldShowUSP && (
         <div className="mb-16">
           <PromoUSPRenderer layoutType={layoutType} promoTitle={promoTitle} promoText={promoText} promoBadges={promoBadges} />
         </div>
       )}
 
-      {["bottom-sticky-banner", "bottom-sticky-blue", "scroll-popup-modal"].includes(layoutType) && !hideFaq && (
+      {["bottom-sticky-banner", "bottom-sticky-blue", "scroll-popup-modal"].includes(layoutType) && shouldShowUSP && (
         <PromoUSPRenderer layoutType={layoutType} promoTitle={promoTitle} promoText={promoText} promoBadges={promoBadges} />
       )}
 
@@ -157,7 +165,7 @@ export default function ServiceContent({ service, hideFaq = false }) {
         <div className="">
           <div className="flex flex-col lg:flex-row gap-12 items-start">
             
-            {isLeftLayout && layoutType && (
+            {isLeftLayout && layoutType && shouldShowUSP && (
               <div className="w-full lg:w-[45%]">
                 <PromoUSPRenderer layoutType={layoutType} promoTitle={promoTitle} promoText={promoText} promoBadges={promoBadges} />
               </div>
