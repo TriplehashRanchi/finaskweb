@@ -149,7 +149,7 @@ export default function TestimonialSection() {
                     
                     {/* User Info */}
                     <div className="flex items-center gap-2 mb-4">
-                        <div className="relative w-14 h-14 rounded-full overflow-hidden border-2 border-gray-100 pointer-events-none">
+                        <div className="relative w-16 h-16 rounded-full overflow-hidden border-2 border-gray-100 pointer-events-none">
                             <Image
                                 src={currentTestimonial.image}
                                 alt={currentTestimonial.author}
@@ -158,7 +158,7 @@ export default function TestimonialSection() {
                             />
                         </div>
                         <div>
-                            <h4 className="font-serif text-lg font-bold text-[#001F2B]">
+                            <h4 className="font-serif text-xl font-bold text-[#001F2B]">
                                 {currentTestimonial.author}
                             </h4>
                          
@@ -167,7 +167,7 @@ export default function TestimonialSection() {
 
                     {/* Quote Text */}
                     <div className="min-h-[120px]">
-                        <p className="text-gray-600 leading-relaxed text-sm select-none">
+                        <p className="text-gray-600 leading-relaxed text-md select-none">
                             {currentTestimonial.quote}
                         </p>
                     </div>
@@ -198,11 +198,11 @@ export default function TestimonialSection() {
 
           {/* RIGHT: Content Title Block (Inside Dark Area) */}
           <div className="pl-0 lg:pl-[10%] pt-10 lg:pt-0 relative z-10 text-center lg:text-left">
-            <span className="text-[#DAA434] font-bold tracking-[0.2em] text-sm uppercase mb-4 block">
+            <span className="text-[#DAA434] font-bold tracking-[0.2em] text-lg uppercase mb-4 block">
               TESTIMONIALS
             </span>
             <h2 className="text-4xl md:text-4xl font-bold text-white mb-6 font-serif">
-              What Our Clients Says
+              From Advices To Outcomes
             </h2>
             <div className="w-40 h-1 bg-[#DAA434] mb-6 mx-auto lg:mx-0" />
 
