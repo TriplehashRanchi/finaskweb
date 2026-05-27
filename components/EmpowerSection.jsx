@@ -67,7 +67,7 @@ export default function EmpowerSection() {
         <div className="w-full lg:w-1/2 flex flex-col justify-center">
             
             {/* Top Heading */}
-            <h4 className="text-white font-bold tracking-wide uppercase text-sm mb-8 relative inline-block">
+            <h4 className="text-white text-xl font-bold   tracking-wide    mb-8 relative inline-block">
                 Because Every Journey Deserves a Financial Blueprint
              </h4>
 

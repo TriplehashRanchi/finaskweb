@@ -45,7 +45,7 @@ function InsuranceMegaMenu() {
   };
 
   return (
-    <div className="absolute top-[calc(100%+14px)] left-1/2 -translate-x-1/2 w-[740px] max-w-[calc(100vw-40px)] bg-white rounded-md shadow-[0_24px_60px_rgba(0,57,78,0.16)] border border-gray-100/80 opacity-0 invisible translate-y-3 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-200 ease-out z-50 overflow-hidden">
+    <div className="absolute top-[calc(100%+14px)] left-1/2 -translate-x-1/2 w-[800px] max-w-[calc(100vw-40px)] bg-white rounded-md shadow-[0_24px_60px_rgba(0,57,78,0.16)] border border-gray-100/80 opacity-0 invisible translate-y-3 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-200 ease-out z-50 overflow-hidden">
       {/* ── Header / Tab Bar ── */}
       <div className="flex items-center gap-10 px-5 pt-2 pb-0">
         {[
@@ -64,7 +64,7 @@ function InsuranceMegaMenu() {
             key={tab.id}
             onMouseEnter={() => handleTabChange(tab.id, tab.firstSection)}
             onClick={() => handleTabChange(tab.id, tab.firstSection)}
-            className={`flex items-center gap-2 px-6 py-2 text-[13.5px] font-semibold transition-all duration-150 cursor-pointer border-b-2 ${
+            className={`flex items-center gap-2 px-6 py-2 text-[16px] font-semibold transition-all duration-150 cursor-pointer border-b-2 ${
               activeTab === tab.id
                 ? "border-[#00394E] text-[#00394E]"
                 : "border-transparent text-gray-400 hover:text-gray-600 hover:bg-gray-50"
@@ -79,7 +79,7 @@ function InsuranceMegaMenu() {
       {/* ── Body ── */}
       <div className="flex" style={{ minHeight: "280px" }}>
         {/* Left sidebar */}
-        <div className="w-[230px] shrink-0  border-r border-gray-100 py-4 px-3 flex flex-col gap-1">
+        <div className="w-[260px] shrink-0  border-r border-gray-100 py-4 px-3 flex flex-col gap-1">
           {sections.map((section) => {
             const isActive = currentSection.title === section.title;
             return (
@@ -93,7 +93,7 @@ function InsuranceMegaMenu() {
                     : "text-gray-500 hover:text-[#00394E] hover:bg-[#EBF4F7]"
                 }`}
               >
-                <span className="text-[13px] font-semibold leading-snug">
+                <span className="text-[15px] font-semibold leading-snug">
                   {section.title}
                 </span>
                 {isActive && (
@@ -131,7 +131,7 @@ function InsuranceMegaMenu() {
               <Link
                 key={item.slug}
                 href={`/services/${item.slug}`}
-                className="flex items-center gap-2 px-2.5 py-2 rounded-sm text-[12.5px] text-gray-500 hover:text-[#00394E]/70 hover:bg-[#EBF4F7] transition-all duration-100 leading-snug group/item"
+                className="flex items-center gap-2 px-2.5 py-2 rounded-sm text-[14px] text-gray-500 hover:text-[#00394E]/70 hover:bg-[#EBF4F7] transition-all duration-100 leading-snug group/item"
               >
                 <span className="w-1 h-1 rounded-full bg-[#00394E]/10   shrink-0 transition-colors" />
                 <span className="truncate">{item.label}</span>
@@ -153,9 +153,9 @@ function InvestmentMegaMenu() {
     investmentSections[0];
 
   return (
-    <div className="absolute top-[calc(100%+14px)] left-50 -translate-x-1/2 w-[740px] max-w-[calc(100vw-40px)] bg-white rounded-md shadow-[0_24px_60px_rgba(0,57,78,0.16)] border border-gray-100/80 opacity-0 invisible translate-y-3 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-200 ease-out z-50 overflow-hidden">
+    <div className="absolute top-[calc(100%+14px)] left-50 -translate-x-1/2 w-[900px] max-w-[calc(100vw-40px)] bg-white rounded-md shadow-[0_24px_60px_rgba(0,57,78,0.16)] border border-gray-100/80 opacity-0 invisible translate-y-3 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-200 ease-out z-50 overflow-hidden">
       <div className="flex" style={{ minHeight: "280px" }}>
-        <div className="w-[230px] shrink-0 border-r border-gray-100 py-4 px-3 flex flex-col gap-1">
+        <div className="w-[300px] shrink-0 border-r border-gray-100 py-4 px-3 flex flex-col gap-2">
           {investmentSections.map((section) => {
             const isActive = currentSection.title === section.title;
 
@@ -170,7 +170,7 @@ function InvestmentMegaMenu() {
                     : "text-gray-500 hover:text-[#00394E] hover:bg-[#EBF4F7]"
                 }`}
               >
-                <span className="text-[13px] font-semibold leading-snug">
+                <span className="text-[14px] font-semibold leading-snug">
                   {section.title}
                 </span>
                 {isActive && (
@@ -205,7 +205,7 @@ function InvestmentMegaMenu() {
               <Link
                 key={item.slug}
                 href={`/services/${item.slug}`}
-                className="flex items-center gap-2 px-2.5 py-2 rounded-sm text-[12.5px] text-gray-500 hover:text-[#00394E]/70 hover:bg-[#EBF4F7] transition-all duration-100 leading-snug group/item"
+                className="flex items-center gap-2 px-2.5 py-2 rounded-sm text-[14px] text-gray-500 hover:text-[#00394E]/70 hover:bg-[#EBF4F7] transition-all duration-100 leading-snug group/item"
               >
                 <span className="w-1 h-1 rounded-full bg-[#00394E]/10 shrink-0 transition-colors" />
                 <span className="truncate">{item.label}</span>
@@ -240,7 +240,7 @@ export default function Navbar() {
         className="flex items-center gap-2 py-[7px] px-2 rounded-md group/li hover:bg-[#f5f9fa] transition-colors duration-150"
       >
         <span className="w-1 h-1 rounded-full bg-gray-300 transition-colors shrink-0" />
-        <span className="text-[13.5px] text-gray-600 group-hover/li:text-[#00394E] transition-colors">
+        <span className="text-[14px] text-gray-600 group-hover/li:text-[#00394E] transition-colors">
           {children}
         </span>
       </Link>

@@ -70,7 +70,7 @@ export default function EthosSection() {
             src="/ethos.jpg"
             alt="FinAsk Team"
             fill
-            className="object-cover object-center"
+            className="object-cover object-right"
           />
           <div className="absolute inset-0 bg-gradient-to-tr from-[#001F2B]/40 to-transparent pointer-events-none"></div>
         </div>
