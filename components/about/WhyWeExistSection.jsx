@@ -37,7 +37,7 @@ export default function WhyWeExistSection() {
               <span className="text-[14rem] sm:text-[16rem] leading-none font-medium text-[#00394E] font-sans -ml-2 sm:-ml-4 tracking-tighter">
                 8+
               </span>
-              <div className="writing-vertical-rl rotate-90 text-xs sm:text-sm font-bold tracking-[0.2em] text-[#DAA434] h-[12rem] sm:h-[16rem] mt-6 sm:mt-8   self-start">
+              <div className="writing-vertical-rl rotate-90 text-xs sm:text-sm font-bold tracking-[0.2em] text-[#DAA434] h-[12rem] sm:h-[16rem] mt-6 sm:mt-8 -ml-10 sm:-ml-16 self-start">
                 YEARS OF SERVING <br /> FAMILIES
               </div>
             </div>
@@ -70,14 +70,14 @@ export default function WhyWeExistSection() {
             </div>
 
             {/* Vertical Divider (Desktop only) */}
-            <div className="absolute right-0 top-0 bottom-0 w-px bg-gray-200 hidden lg:block" />
+            <div className="absolute right-10 top-0 bottom-0 w-px bg-gray-200 hidden lg:block" />
           </div>
 
           {/* RIGHT COLUMN: Content & Image */}
           <div className="w-full lg:w-[60%] flex flex-col gap-4  py-10">
-            <p className="  text-gray-600 leading-relaxed text-justify">
+            <p className="  text-gray-600 text-lg leading-[1.3] text-justify">
               We founded Finask Value on a simple philosophy: -
-              <strong className="text-[#00394E] block my-4 text-lg leading-[1.3]">
+              <strong className="text-[#00394E] block my-4 text-lg leading-[1.3] text-justify">
                 That every family deserves to approach life’s most meaningful
                 moments unburdened by financial anxiety.
               </strong>

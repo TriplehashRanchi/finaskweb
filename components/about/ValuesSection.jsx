@@ -77,7 +77,7 @@ export default function ValuesSection() {
               <div className="absolute inset-0 bg-[#00394E] translate-y-full group-hover:translate-y-0 transition-transform duration-700 ease-in-out z-10"></div>
 
               {/* Content Container */}
-              <div className="absolute inset-0 p-8 flex flex-col items-start justify-center z-20 transition-all duration-500 group-hover:items-start">
+              <div className="absolute inset-0 p-8 pt-12 flex flex-col items-start justify-start z-20 transition-all duration-500 group-hover:items-start">
                 {/* Icon */}
                 <div className="mb-6 text-[#DAA434] bg-orange-50 p-2 rounded-xl group-hover:bg-white/10 group-hover:text-white transition-colors duration-500">
                   <Image

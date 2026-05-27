@@ -19,9 +19,9 @@ export default function HowWeWorkSection() {
               <h3 className="text-2xl font-serif font-bold text-[#DAA434] mb-4">
                 Patient Listening
               </h3>
-              <p className="text-gray-300 leading-relaxed font-light">
+              <p className="text-gray-300 leading-relaxed font-light text-justify">
                 We begin not with policies or portfolios, but with patient
-                listening — understanding your ambitions, family narratives,
+                listening  understanding your ambitions, family narratives,
                 business intricacies, and the deeper motivations that drive your
                 decisions.
               </p>
@@ -59,7 +59,7 @@ export default function HowWeWorkSection() {
               <p className="text-gray-300 leading-relaxed font-light mb-4">
                 From there, we curate finely tuned frameworks:
               </p>
-              <ul className="list-disc list-outside ml-5 text-gray-300 space-y-2 font-light">
+              <ul className="list-disc list-outside  ml-5 text-gray-300 space-y-2 font-light">
                 <li>
                   <strong className="text-white">Insurance plans</strong> that
                   stand resilient when life surprises you.
@@ -83,7 +83,7 @@ export default function HowWeWorkSection() {
               <h4 className="text-2xl font-serif font-bold text-[#DAA434] mt-6 mb-2">
                 A Partnership Across Generations
               </h4>
-              <p className="text-gray-300 leading-relaxed font-light text-md">
+              <p className="text-gray-300 leading-relaxed font-light text-md  text-justify">
                 Over the years, we’ve quietly stood beside families as they
                 navigated joyous occasions and life’s inevitable tests. Because
                 Finask Value Value, success is not about accounts — it's about lives
