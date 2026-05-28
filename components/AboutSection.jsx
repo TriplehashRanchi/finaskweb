@@ -12,14 +12,14 @@ export default function AboutSection() {
           <div className="order-2 lg:order-1 flex flex-col justify-center">
             {/* Main Heading */}
             <h2 className="text-4xl md:text-5xl lg:text-5xl font-medium text-[#00394E] mb-6 font-serif leading-[1.1]">
-              Not Just Growing Wealth, But Guiding Its Journey
+             Not Just Growing Wealth, But Guiding Its Journey
             </h2>
 
             {/* Description */}
             <p className="text-gray-600 text-lg leading-[1.4] mb-4 max-w-xl">
               We believe wealth is more than numbers it is security for
               families, dignity in retirement and continuity across generations.
-              At Finask Value, we listen before we advise and design financial
+              At FinAsk Value, we listen before we advise and design financial
               frameworks that protect, grow and transfer wealth with clarity,
               care and character.{" "}
             </p>

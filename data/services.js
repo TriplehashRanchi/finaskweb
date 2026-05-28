@@ -9,7 +9,7 @@ export const servicesData = [
     title: "Health Insurance",
     tagline: "So Your Wellbeing Remains Untouched by Financial Anxiety",
     description:
-      "Good health underpins every other joy from milestones celebrated to simple everyday contentment. Yet the rising intricacies and costs of medical care can quickly erode even the most robust fortunes if left unguarded. \n At Finask Value, we help you find discreet, sophisticated health coverage that stands silently by your side. Whether for your aging parents, a globe-trotting lifestyle or simply to insulate your wealth against life’s medical surprises we curate solutions that protect both your family’s wellbeing and your long-term aspirations. ",
+      "Good health underpins every other joy — from milestones celebrated to simple everyday contentment. Yet the rising intricacies and costs of medical care can quickly erode even the most robust fortunes if left unguarded. \n At FinAsk Value, we help you find discreet, sophisticated health coverage that stands silently by your side. Whether for your aging parents, a globe-trotting lifestyle or simply to insulate your wealth against life’s medical surprises — we curate solutions that protect both your family’s wellbeing and your long-term aspirations.",
     features: [
       {
         title: "Comprehensive Coverage",
@@ -53,7 +53,7 @@ export const servicesData = [
         question:
           "What is cashless settlement in Health Insurance and how does it work?",
         answer:
-          " Cashless settlement enables you to receive treatment at a network hospital without paying the full bill upfront. The insurer directly settles the approved amount with the hospital and you only pay for non-covered charges, if any.",
+          "Cashless settlement enables you to receive treatment at a network hospital without paying the full bill upfront. The insurer directly settles the approved amount with the hospital and you only pay for non-covered charges, if any.",
       },
     ],
     bgImage: "/finask/health.jpg",
@@ -73,8 +73,8 @@ export const servicesData = [
     title: "Health Super Top-Up",
     tagline: "Because the Unforeseen Often Exceeds Conventional Bounds",
     description:
-    "Even substantial base health covers may falter before the staggering costs of advanced treatments or repeat hospitalizations. A Health Super Top-Up creates a prudent second layer activating precisely when your primary plan’s limits are surpassed. \n It’s an astute strategy to command expansive protection without exorbitant premiums, allowing your portfolio to remain dedicated to growth rather than unplanned liquidation. \n With rising medical inflation, it’s no longer optional it’s essential foresight. So, when life tests your resilience, your finances stand unshaken.",
-     features: [
+    "Even substantial base health covers may falter before the staggering costs of advanced treatments or repeat hospitalizations. A Health Super Top-Up creates a prudent second layer — activating precisely when your primary plan’s limits are surpassed. \n It’s an astute strategy to command expansive protection without exorbitant premiums, allowing your portfolio to remain dedicated to growth rather than unplanned liquidation. \n With rising medical inflation, it’s no longer optional — it’s essential foresight. So, when life tests your resilience, your finances stand unshaken.",
+      features: [
       {
         title: "High Leverage",
         icon: "/insurance-icons/health-super-top-up-1.png",

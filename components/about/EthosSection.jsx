@@ -35,7 +35,7 @@ export default function EthosSection() {
             </div>
             <div className="w-full md:w-2/3">
               <p className="text-gray-600 text-base leading-relaxed text-justify">
-                Finask Value was founded on a deeply personal belief that no
+                FinAsk Value was founded on a deeply personal belief that no
                 family should suffer because they did not know how to plan.
                 Built in India, designed for lives that dream bigger. Our
                 clients are not accounts. They are stories in motion.

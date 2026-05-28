@@ -27,8 +27,7 @@ export default function Footer() {
               </span>
             </div>
             <p className="text-gray-400 text-sm leading-relaxed max-w-xs">
-              We're always in search for talented and motivated people. Don't be
-              shy introduce yourself!
+              Adding Value to Every Financial Step.
             </p>
 
             {/* Social Icons */}
@@ -38,7 +37,7 @@ export default function Footer() {
                   icon: Facebook,
                   link: "https://www.facebook.com/finaskvalue/",
                 },
-                {  
+                {
                   icon: Instagram,
                   link: "https://www.instagram.com/finask_value/",
                 },
@@ -103,7 +102,7 @@ export default function Footer() {
                 { label: "About Us", href: "/about" },
                 { label: "Contact Us", href: "/contact" },
                 { label: "Careers", href: "/careers" },
-               ].map((item) => (
+              ].map((item) => (
                 <li key={item.href}>
                   <a
                     href={item.href}
@@ -158,7 +157,7 @@ export default function Footer() {
                 </div>
                 <div>
                   <h4 className="text-white font-medium text-sm   group-hover:text-[#DAA434] transition-colors">
-                    Call Us 
+                    Call Us
                   </h4>
                   <p className="text-gray-400 text-sm font-sans">
                     {" "}

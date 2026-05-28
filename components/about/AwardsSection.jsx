@@ -12,7 +12,7 @@ export default function AwardsSection() {
           </h2>
 
           <p className="mt-4 text-gray-600 max-w-2xl mx-auto text-lg">
-            Our recognition is not just for performance but for the impact we
+            Our recognition is not just for performance—but for the impact we
             have created in the lives we manage.
           </p>
         </div>

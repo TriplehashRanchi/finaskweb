@@ -76,7 +76,7 @@ export default function WhyWeExistSection() {
           {/* RIGHT COLUMN: Content & Image */}
           <div className="w-full lg:w-[60%] flex flex-col gap-4  py-10">
             <p className="  text-gray-600 text-lg leading-[1.3] text-justify">
-              We founded Finask Value on a simple philosophy: -
+              We founded FinAsk Value on a simple philosophy: -
               <strong className="text-[#00394E] block my-4 text-lg leading-[1.3] text-justify">
                 That every family deserves to approach life’s most meaningful
                 moments unburdened by financial anxiety.
