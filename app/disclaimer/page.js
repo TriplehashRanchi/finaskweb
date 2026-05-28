@@ -12,11 +12,11 @@ export default function Disclaimer() {
             <p className="font-medium text-xl mb-4">The content on this website is for informational purposes only.</p>
             
             <ul className="list-disc pl-5 space-y-4 ">
-                <li>Finask Value acts as a Financial Advisor and Financial Product Distributor and does not provide investment advisory services unless separately registered and contractually agreed.</li>
+                <li>FinAsk Value acts as a Financial Advisor and Financial Product Distributor and does not provide investment advisory services unless separately registered and contractually agreed.</li>
                 <li>Nothing on this website constitutes a solicitation or recommendation to buy or sell securities.</li>
                 <li>Mutual fund investments are subject to market risks. Read all scheme-related documents carefully before investing.</li>
                 <li>Insurance products are governed by policy terms and regulatory guidelines.</li>
-                <li>Finask Value shall not be responsible for any loss arising from reliance on website information.</li>
+                <li>FinAsk Value shall not be responsible for any loss arising from reliance on website information.</li>
             </ul>
         </div>
       </div>

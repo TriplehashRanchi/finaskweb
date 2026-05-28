@@ -29,7 +29,7 @@ const slides = [
     image: "/3.webp", // Generations/Business Succession
     title: "Protecting Dreams. Preserving Legacies. Powering Generations.",
     subtitle:
-      "For every milestone child’s education, retirement, business succession, or global investing Finask Value is where aspirations meet trusted financial architecture.",
+      "For every milestone child’s education, retirement, business succession, or global investing FinAsk Value is where aspirations meet trusted financial architecture.",
     highlight: "Generations.",
     theme: "light",
   },

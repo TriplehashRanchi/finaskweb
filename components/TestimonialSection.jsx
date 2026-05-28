@@ -43,7 +43,7 @@ export default function TestimonialSection() {
     {
       id: 2,
       quote:
-        "Worked with Palash and Finask Value Team in the past. Their professionalism, depth of financial knowledge, and genuine commitment to helping clients succeed really sets them apart in the industry.",
+        "Worked with Palash and FinAsk Value Team in the past. Their professionalism, depth of financial knowledge, and genuine commitment to helping clients succeed really sets them apart in the industry.",
       author: "Rohit Bhardwaj",
        image: "/testimonial2.png",
     },
@@ -57,14 +57,14 @@ export default function TestimonialSection() {
     {
       id: 4,
       quote:
-        "Palash Malik, Founder and CEO of Finask Value, has been very active in providing solutions to any queries related to portfolio management, PMS services, insurance products, and general financial advice. His personalized guidance with a long-term outlook is highly commendable. I recommend Finask Value as a service provider of choice for managing personal finances.",
+        "Palash Malik, Founder and CEO of FinAsk Value, has been very active in providing solutions to any queries related to portfolio management, PMS services, insurance products, and general financial advice. His personalized guidance with a long-term outlook is highly commendable. I recommend FinAsk Value as a service provider of choice for managing personal finances.",
       author: "Atul Bhola",
        image: "/testimonial4.png",
     },
     {
       id: 5,
       quote:
-        "I have had a great customer experience with Finask Value. Whenever I called regarding any query or service, it was handled promptly and correctly. The founder maintains a great relationship with customers which inspires confidence. Their suggestions and recommendations have turned out to be excellent.",
+        "I have had a great customer experience with FinAsk Value. Whenever I called regarding any query or service, it was handled promptly and correctly. The founder maintains a great relationship with customers which inspires confidence. Their suggestions and recommendations have turned out to be excellent.",
       author: "Chetan Pendharkar",
        image: "/testimonial5.png",
     },
@@ -78,7 +78,7 @@ export default function TestimonialSection() {
     {
       id: 7,
       quote:
-        "Super professionalism! Great knowledge on financial products. Amazing customer service. I have never seen a financial advisor like Palash and Finask Value.",
+        "Super professionalism! Great knowledge on financial products. Amazing customer service. I have never seen a financial advisor like Palash and FinAsk Value.",
       author: "Yogendra Kumar Malik",
        image: "/testimonial7.png",
     },
@@ -207,7 +207,7 @@ export default function TestimonialSection() {
             <div className="w-40 h-1 bg-[#DAA434] mb-6 mx-auto lg:mx-0" />
 
             <p className="text-gray-400 max-w-md mx-auto lg:mx-0 leading-[1.4] mb-0 text-md">
-              Discover how Finask Value has empowered individuals and businesses to
+              Discover how FinAsk Value has empowered individuals and businesses to
               achieve their financial dreams.
             </p>
           </div>

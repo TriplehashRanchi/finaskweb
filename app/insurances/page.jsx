@@ -11,7 +11,7 @@ const insurance = allInsuranceMenuItems.map((item, index) => {
   const service = servicesData.find((entry) => entry.slug === item.slug);
   const description =
     service?.description?.replace(/\s+/g, " ").trim() ||
-    "Explore this insurance solution with tailored guidance from Finask Value.";
+    "Explore this insurance solution with tailored guidance from FinAsk Value.";
 
   return {
     id: index + 1,
