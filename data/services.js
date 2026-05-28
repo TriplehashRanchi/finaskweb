@@ -77,7 +77,7 @@ export const servicesData = [
     features: [
       {
         title: "High Leverage",
-        icon: "/insurance-icons/health-super-top-up-1.png",
+        icon: "/insurance-icons/up-1.png",
         description:
           "Unlocks a larger coverage pool for major medical needs.  ",
       },
@@ -89,7 +89,7 @@ export const servicesData = [
       },
       {
         title: "Cost Efficiency",
-        icon: "/insurance-icons/health-super-top-up-3.png",
+        icon: "/insurance-icons/up-3.png",
         description:
           "Maximum benefits at a fraction of the cost of higher base plans.  ",
       },
@@ -145,13 +145,13 @@ export const servicesData = [
     features: [
       {
         title: "Accidental Death Benefit",
-        icon: "/insurance-icons/personal-accident-insurance-1.png",
+        icon: "/insurance-icons/personal-1.png",
         description:
           "Financial security for your family with a lump-sum payout in case of an unfortunate loss of life.",
       },
       {
         title: "Permanent Disability Cover",
-        icon: "/insurance-icons/personal-accident-insurance-2.png",
+        icon: "/insurance-icons/personal-2.png",
         description:
           "Long-term financial support in case of total or partial disability impacting your earning ability.",
       },
@@ -330,7 +330,7 @@ export const servicesData = [
       },
       {
         title: "Financial Continuity",
-        icon: "/insurance-icons/term-insurance-2.png",
+        icon: "/insurance-icons/term-2.png",
         description:
           "Ensures your family’s expenses and goals continue without disruption.",
       },
@@ -467,7 +467,7 @@ export const servicesData = [
       },
       {
         title: "Capital Preservation",
-        icon: "/insurance-icons/national-pension-system-3.png",
+        icon: "/insurance-icons/t-3.png",
         description:
           "Prioritizes steadiness while supporting disciplined long-term savings objectives for families.",
       },
@@ -515,7 +515,7 @@ export const servicesData = [
     features: [
       {
         title: "Zero depreciation",
-        icon: "/insurance-icons/motor-insurance-1.png",
+        icon: "/insurance-icons/motor-1.png",
         description: "Full claim amount without deduction for depreciation.",
       },
       {
@@ -762,7 +762,7 @@ export const servicesData = [
       },
       {
         title: "Seamless Cross-Border Protection",
-        icon: "/insurance-icons/marine-cargo-insurance-2.png",
+        icon: "/insurance-icons/m-2.png",
         description:
           "Confidence to operate across borders with robust risk coverage in place.",
       },
@@ -1924,7 +1924,7 @@ export const servicesData = [
       },
       {
         title: "Affordable Premiums",
-        icon: "/insurance-icons/home-insurance-3.png",
+        icon: "/insurance-icons/home-3.png",
         description: "Relatively low cost compared to potential losses.",
       },
       {
@@ -2242,7 +2242,7 @@ export const servicesData = [
       },
       {
         title: "Cost-Effective Protection",
-        icon: "/insurance-icons/contractor-plant-machinery-4.png",
+        icon: "/insurance-icons/c4.png",
         description:
           "Affordable way to secure high-value construction equipment.",
       },
@@ -2929,22 +2929,22 @@ export const servicesData = [
     features: [
       {
         title: "Active Portfolio Monitoring",
-        icon: "/insurance-icons/specialised-investment-fund-1.png",
+        icon: "/insurance-icons/sif1.png",
         description: "Continuous review and rebalancing of investments.",
       },
       {
         title: "Goal-Oriented Structuring",
-        icon: "/insurance-icons/specialised-investment-fund-2.png",
+        icon: "/insurance-icons/sif-2.png",
         description: "Designed to match specific investment objectives.",
       },
       {
         title: "Diversified Strategies",
-        icon: "/insurance-icons/specialised-investment-fund-3.png",
+        icon: "/insurance-icons/sif3.png",
         description: "Invests across multiple strategies.",
       },
       {
         title: "Sophisticated Investment Framework",
-        icon: "/insurance-icons/specialised-investment-fund-4.png",
+        icon: "/insurance-icons/sif-4.png",
         description: "Built for complex and high-value portfolios.",
       },
     ],
@@ -2990,7 +2990,7 @@ export const servicesData = [
     features: [
       {
         title: "Capital Preservation",
-        icon: "/insurance-icons/bonds-1.png",
+        icon: "/insurance-icons/bond-1.png",
         description: "Focus on safety of principal.",
       },
       {
@@ -3006,7 +3006,7 @@ export const servicesData = [
       },
       {
         title: "Goal-Based Investing",
-        icon: "/insurance-icons/bonds-4.png",
+        icon: "/insurance-icons/bond-4.png",
         description: "Suitable for retirement and income planning.",
       },
     ],
@@ -3068,7 +3068,7 @@ export const servicesData = [
       },
       {
         title: "Strategic Wealth Building",
-        icon: "/insurance-icons/portfolio-management-services-4.png",
+        icon: "/insurance-icons/pms-4.png",
         description: "A refined approach to long-term wealth creation.",
       },
     ],
@@ -3625,7 +3625,7 @@ export const servicesData = [
       },
       {
         title: "Dollar Assets",
-        icon: "/insurance-icons/gift-city-2.png",
+        icon: "/insurance-icons/gold-2.png",
         description: "Invest in USD denominated assets.",
       },
       {
@@ -3635,7 +3635,7 @@ export const servicesData = [
       },
       {
         title: "Global Financial Hub Ecosystem",
-        icon: "/insurance-icons/gift-city-4.png",
+        icon: "/insurance-icons/gift-4.png",
         description:
           "Supports offshore investments, banking, insurance and fund management.",
       },
@@ -3692,7 +3692,7 @@ export const servicesData = [
       },
       {
         title: "SIP Option",
-        icon: "/insurance-icons/e-gold-3.png",
+        icon: "/insurance-icons/gold-3.png",
         description: "Accumulate gold systematically.",
       },
       {
@@ -3885,7 +3885,7 @@ export const servicesData = [
       },
       {
         title: "No Asset Liquidation Required",
-        icon: "/insurance-icons/loan-against-securities-4.png",
+        icon: "/insurance-icons/loan-4.png",
         description: "Avoid Capital Gains Tax by retaining investments.",
       },
     ],
@@ -3946,7 +3946,7 @@ export const servicesData = [
       },
       {
         title: "Inflation Beating Strategy",
-        icon: "/insurance-icons/step-up-sip-4.png",
+        icon: "/insurance-icons/set-4.png",
         description: "Increase investments to stay ahead of rising costs.",
       },
     ],
@@ -4065,7 +4065,7 @@ export const servicesData = [
       },
       {
         title: "Asset Distribution",
-        icon: "/insurance-icons/will-writing-2.png",
+        icon: "/insurance-icons/w-2.png",
         description: "Ensure assets go to the intended beneficiaries.",
       },
       {
@@ -4139,7 +4139,7 @@ export const servicesData = [
       },
       {
         title: "Debt & Obligation Settlement",
-        icon: "/insurance-icons/executor-services-4.png",
+        icon: "/insurance-icons/e-4.png",
         description:
           "Handles outstanding liabilities and financial dues efficiently.",
       },
