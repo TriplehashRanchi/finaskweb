@@ -39,7 +39,7 @@ export default function RatingCard() {
       </div>
       
       <div className="w-full md:w-auto flex justify-end">
-        <Link href="/contact" className="bg-[#D44659] hover:bg-[#b03548] text-white font-semibold py-2.5 px-6 rounded-lg transition-colors">
+        <Link href="/contact" className="bg-[#D44659] cursor-pointer hover:bg-[#b03548] text-white font-semibold py-2.5 px-6 rounded-lg transition-colors">
           Contact Us
         </Link>
       </div>
