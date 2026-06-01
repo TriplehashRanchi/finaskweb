@@ -141,7 +141,7 @@ export const servicesData = [
     tagline:
       "Because Life’s Minor Stumbles Should Not Disrupt Its Grander Designs.",
     description:
-      "Accidents rarely seek permission. A brief mishap can momentarily pause income or, in more severe cases, permanently alter earning trajectories. Personal accident coverage ensures your household’s rhythm continues unbroken — supporting recoveries and sustaining ambitions with quiet financial reinforcement.\nIt’s more than a payout; it’s a promise that dreams remain intact, children’s plans stay on course and daily comforts don’t give way to compromises.\nFrom covering medical costs to providing income replacement and long-term disability benefits, this shield steps in precisely when life feels most uncertain — so your future’s design stays undisturbed.",
+      "Accidents rarely seek permission. A brief mishap can momentarily pause income or, in more severe cases, permanently alter earning trajectories. Personal Accident coverage ensures your household’s rhythm continues unbroken — supporting recoveries and sustaining ambitions with quiet financial reinforcement.\nIt’s more than a payout; it’s a promise that dreams remain intact, children’s plans stay on course and daily comforts do not give way to compromises.\nFrom covering medical costs to providing income replacement and long-term disability benefits, this shield steps in precisely when life feels most uncertain — so your future’s financial stability stays undisturbed.",
     features: [
       {
         title: "Accidental Death Benefit",
@@ -204,7 +204,7 @@ export const servicesData = [
     title: "  Critical Illness Insurance",
     tagline: "So That Healing Never Demands Dismantling Your Legacy.",
     description:
-      "Confronting a serious diagnosis is challenging enough without the added strain of sourcing funds or restructuring investments. Critical illness insurance offers a dignified, immediate payout upon diagnosis, empowering you to secure superior care and protect your family’s accustomed lifestyle — all without distressing your long-horizon financial plans.\n\nIt ensures that while you focus on recovery, your ambitions, your children’s education and your family’s day-to-day comfort continue undeterred.\nBecause true financial planning doesn’t just anticipate the best — it thoughtfully prepares for the unexpected.",
+      "Confronting a serious diagnosis is challenging enough without the added strain of sourcing funds or restructuring investments. Critical Illness Insurance offers a dignified, immediate payout upon diagnosis, empowering you to secure superior care and protect your family’s accustomed lifestyle — all without distressing your long-horizon financial plans.\n\nIt ensures that while you focus on recovery, your ambitions, your children’s education and your family’s day-to-day comfort continue undeterred.\nBecause true financial planning does not just anticipate the best — it thoughtfully prepares for the unexpected.",
     features: [
       {
         title: "Second Medical Opinion",
@@ -1004,7 +1004,7 @@ export const servicesData = [
     title: "Group Personal Accident Insurance",
     tagline: "Financial Protection Against Accidental Risks",
     description:
-      "Group Personal Accident Insurance (GPAI) is an insurance policy purchased by an employer to protect employees against financial losses caused by accidents. Under a single master policy, all employees are covered for accidental death, disability and injury-related financial risks. Unlike health insurance, which covers medical treatment, Group Personal Accident Insurance provides direct financial compensation to employees or their families if an accident leads to death or disability. This makes GPAI an essential employee benefit for organizations across industries, especially where employees travel frequently or work in higher-risk environments.",
+      "Group Personal Accident Insurance (GPAI) is an insurance policy purchased by an employer to protect employees against financial losses caused by accidents. Under a single master policy, all employees are covered for accidental death, disability and injury-related financial risks. Unlike Health Insurance, which covers medical treatment, Group Personal Accident Insurance provides direct financial compensation to employees or their families if an accident leads to death or disability. This makes it an essential employee benefit for organizations across industries, especially where employees travel frequently or work in higher-risk environments.",
     features: [
       {
         title: "Accidental Death Cover",
@@ -1067,7 +1067,7 @@ export const servicesData = [
     title: "Group Term Life Insurance",
     tagline: "Financial Protection for Your Employees’ Families",
     description:
-      "Group Term Life Insurance (GTLI) is a life insurance policy purchased by an employer to provide financial protection to employees under a single master policy. In the unfortunate event of an employee’s death due to illness, accident or natural causes, the nominee receives a lump-sum payout, ensuring financial security for the family. Unlike individual life insurance, group term life policies provide immediate coverage, usually without medical tests or lengthy documentation. This makes it one of the most valuable and affordable employee benefits for organizations.",
+      "Group Term Life Insurance (GTLI) is a life insurance policy purchased by an employer to provide financial protection to employees under a single master policy. In the unfortunate event of an employee’s death due to illness, accident or natural causes, the nominee receives a lump-sum payout, ensuring financial security for the family. Unlike Life Insurance, Group Term Life Insurance provide immediate coverage, usually without medical tests or lengthy documentation. This makes it one of the most valuable and affordable employee benefits for organizations.",
     features: [
       {
         title: "Death Cover",
@@ -1135,7 +1135,7 @@ export const servicesData = [
     title: "Group Health Insurance",
     tagline: "Protect Your Employees with Comprehensive Group Health Insurance",
     description:
-      "Group Health Insurance is a health insurance policy purchased by an employer to provide medical coverage to employees and, in many cases, their family members. Instead of individual policies, a single master policy covers the entire workforce, offering affordable and comprehensive healthcare protection. For businesses, group health insurance is one of the most cost-effective employee benefits, helping attract talent, improve retention and ensure financial protection against rising healthcare costs. \n Choosing the right Group Health Insurance requires understanding your workforce needs, coverage requirements and budget. \n At FinAsk Value, we help businesses compare and choose the most suitable Group Health Insurance plans from leading insurers with transparent guidance and customized solutions.",
+      "Group Health Insurance is a health insurance policy purchased by an employer to provide medical coverage to employees and in many cases, their family members. Instead of individual policies, a single master policy covers the entire workforce, offering affordable and comprehensive healthcare protection. For businesses, Group Health Insurance is one of the most cost-effective employee benefits, helping attract talent, improve retention and ensure financial protection against rising healthcare costs. \n Choosing the right Group Health Insurance requires understanding your workforce needs, coverage requirements and budget. \n At FinAsk Value, we help businesses compare and choose the most suitable Group Health Insurance plans from leading insurers with transparent guidance and customized solutions.",
     features: [
       {
         title: "Hospitalisation Coverage",
@@ -1333,7 +1333,7 @@ export const servicesData = [
     title: "Cycle Protection",
     tagline: "Protect Your Ride and Ride with Peace of Mind",
     description:
-      "Your bicycle is not just a ride it is an investment in your health, lifestyle and daily commute. Whether your bicycle is new or frequently used, insurance ensures long-term peace of mind. \n Cycle Protection (Bicycle Insurance) provides comprehensive coverage for your bicycle against unforeseen incidents such as theft, damage or loss. Whether you use your bicycle for fitness, commuting, adventure rides or professional cycling, this protection ensures that you can ride worry-free. It also encourages safer and more confident riding habits. \n With the right coverage, you can avoid sudden repair or replacement expenses and continue your cycling journey with confidence.",
+      "Your bicycle is not just a ride — it is an investment in your health, lifestyle and daily commute. Whether your bicycle is new or frequently used, insurance ensures long-term peace of mind. \n Cycle Protection (Bicycle Insurance) provides comprehensive coverage for your bicycle against unforeseen incidents such as theft, damage or loss. Whether you use your bicycle for fitness, commuting, adventure rides or professional cycling, this protection ensures that you can ride worry-free. It also encourages safer and more confident riding habits. \n With the right coverage, you can avoid sudden repair or replacement expenses and continue your cycling journey with confidence.",
     features: [
       {
         title: "Theft Protection",
@@ -1368,7 +1368,7 @@ export const servicesData = [
       {
         question: "What types of cycles can be insured?",
         answer:
-          "It typically covers standard bicycles, high-end cycles, electric cycles (e-bikes) and sports cycles.",
+          "It typically covers standard bicycles, high-end, electric cycles (e-bikes) and sports cycles.",
       },
       {
         question: "What is zero depreciation cover in Cycle Insurance?",
@@ -1627,7 +1627,7 @@ export const servicesData = [
       {
         question: "When will I receive the premium back?",
         answer:
-          "The premium is returned at the end of the policy term or maturity, if no claim has been made.",
+          "The premium is returned at the end of the policy term (maturity) if no claim has been made.",
       },
       {
         question: "Is medical check-up required for ROP plans?",
@@ -1721,7 +1721,7 @@ export const servicesData = [
     tagline:
       "Safeguarding Your Enterprise from Financial and Operational Cyber Risks",
     description:
-      "With rising cyber threats like data breaches, ransomware and hacking, businesses face serious financial and reputational risks. Corporate Cyber Insurance protects your organization against losses from cyber incidents, including data theft, business interruption, legal liabilities and recovery costs. \n It also provides expert support for incident response, ensuring minimal disruption and faster recovery.",
+      "With rising cyber threats like data breaches, ransomware and hacking, businesses face serious financial and reputational risks. It protects your organization against losses from cyber incidents, including data theft, business interruption, legal liabilities and recovery costs. \n It also provides expert support for incident response, ensuring minimal disruption and faster recovery.",
     features: [
       {
         title: "Advanced Firewall Protection",
@@ -1751,13 +1751,13 @@ export const servicesData = [
       {
         question: "Who should buy this policy?",
         answer:
-          "Businesses of all sizes, especially those handling customer data, digital payments, online platforms or sensitive information, should opt for Corporate Cyber Insurance to protect against cyber risks and financial losses.",
+          "Businesses of all sizes especially those handling customer data, digital payments, online platforms or sensitive information should opt for Corporate Cyber Insurance to protect against cyber risks and financial losses.",
       },
       {
         question:
           "What is First-Party and Third-Party Corporate Cyber Insurance coverage?",
         answer:
-          "First-party Corporate Cyber Insurance covers your own losses such as data recovery and business interruption, while third-party Corporate Cyber Insurance covers liabilities to customers due to data breaches.",
+          "First-party Corporate Cyber Insurance covers your own losses (data recovery, business interruption) , while Third-party Corporate Cyber Insurance covers liabilities to customers due to data breaches.",
       },
       {
         question: "Does this policy cover regulatory penalties?",
@@ -1786,7 +1786,7 @@ export const servicesData = [
     title: "Taxi Insurance",
     tagline: "Reliable Protection for Your Taxi and Your Livelihood",
     description:
-      "Taxi Insurance is a specialized commercial vehicle policy designed for cabs and passenger transport vehicles, offering protection against accidents, theft, natural disasters and third-party liabilities. As mandated by the Insurance Regulatory and Development Authority of India, third-party cover is compulsory, while comprehensive plans also safeguard your vehicle. With options like passenger cover, zero depreciation and many more, Taxi Insurance ensures business continuity, financial security and peace of mind for drivers and fleet owners.",
+      "It is a specialized commercial vehicle policy designed for cabs and passenger transport vehicles, offering protection against accidents, theft, natural disasters and third-party liabilities. As mandated by the Insurance Regulatory and Development Authority of India, Third-Party  cover is compulsory, while comprehensive plans also safeguard your vehicle. With options like passenger cover, zero depreciation and many more. Taxi Insurance ensures business continuity, financial security and peace of mind for drivers and fleet owners.",
     features: [
       {
         title: "Mandatory Compliance",
@@ -1849,7 +1849,7 @@ export const servicesData = [
     tagline:
       "Stay On The Road With Confidence and Complete Financial Protection",
     description:
-      "Commercial Vehicle Insurance is designed to protect vehicles used for business purposes such as taxis, trucks, buses and delivery vans against financial losses arising from accidents, theft, natural disasters and third-party liabilities. As mandated by the Insurance Regulatory and Development Authority of India, third-party insurance is compulsory, while comprehensive policies provide broader coverage including damage to your own vehicle. With add-ons like zero depreciation, engine protection and more, Commercial Vehicle Insurance ensures legal compliance, business continuity and financial security for owners and operators.",
+      "Commercial Vehicle Insurance is designed to protect vehicles used for business purposes such as taxis, trucks, buses and delivery vans — against financial losses arising from accidents, theft, natural disasters and third-party liabilities. As mandated by the Insurance Regulatory and Development Authority of India, Third-Party insurance is compulsory, while comprehensive policies provide broader coverage including damage to your own vehicle. With add-ons like zero depreciation, engine protection etc. Commercial Vehicle Insurance ensures legal compliance, business continuity and financial security for owners and operators.",
     features: [
       {
         title: "Legal Liability Cover",
@@ -1872,7 +1872,7 @@ export const servicesData = [
         title: "Add-On Benefits",
         icon: "/insurance-icons/commercial-vehicle-insurance-4.png",
         description:
-          "Options like zero depreciation, engine protection, return to invoice and more.",
+          "Options like zero depreciation, engine protection and return to invoice and more.",
       },
     ],
     faq: [
@@ -1913,7 +1913,7 @@ export const servicesData = [
     title: "Home Insurance",
     tagline: "Security and Peace of Mind For Your Most Valuable Space",
     description:
-      "Home Insurance provides financial protection for your home and personal assets against risks like fire, theft, natural disasters and accidental damage. It covers both the structure of your house and its contents, ensuring that you are safeguarded from unexpected financial losses. With flexible coverage options and add-ons, Home Insurance helps you secure your most valuable asset while offering peace of mind and long-term financial stability.",
+      "This insurance provides financial protection for your home and personal assets against risks like fire, theft, natural disasters and accidental damage. It covers both the structure of your house and its contents, ensuring that you are safeguarded from unexpected financial losses. With flexible coverage options and add-ons, Home Insurance helps you secure your most valuable asset while offering peace of mind and long-term financial stability.",
     features: [
       {
         title: "Building Protection",
@@ -2163,7 +2163,7 @@ export const servicesData = [
     title: "Trade Credit Insurance",
     tagline: "Enabling Confident Business Growth With Credit Risk Protection",
     description:
-      "Trade Credit Insurance protects businesses against the risk of non-payment by buyers due to insolvency, default or delayed payments. It ensures that your cash flow remains stable by covering outstanding receivables, allowing you to confidently extend credit to customers and expand your business. This policy not only safeguards your balance sheet but also enhances your ability to access financing, making it a vital tool for companies dealing in domestic or international trade.",
+      "It protects businesses against the risk of non-payment by buyers due to insolvency, default or delayed payments. It ensures that your cash flow remains stable by covering outstanding receivables, allowing you to confidently extend credit to customers and expand your business. This policy not only safeguards your balance sheet but also enhances your ability to access financing, making it a vital tool for companies dealing in domestic or international trade.",
     features: [
       {
         title: "Credit Risk Protection",
@@ -2196,7 +2196,7 @@ export const servicesData = [
       {
         question: "Is Export Business covered under this policy?",
         answer:
-          "Yes, export trade can be covered, including risks like political instability or currency restrictions, subject to policy terms and conditions.",
+          "Yes, Export Trade can be covered, including risks like political instability or currency restrictions subject to policy terms and conditions.",
       },
       {
         question: "What is not covered under this policy?",
@@ -2270,7 +2270,7 @@ export const servicesData = [
       {
         question: "What is not covered under this policy?",
         answer:
-          "Normal wear and tear, mechanical or gradual deterioration of machinery and intentional damage are usually excluded.",
+          "Normal wear and tear, mechanical or gradual deterioration of machinery, intentional damage are usually excluded.",
       },
     ],
     bgImage: "/finask/contractors-plant-machinery.png",
@@ -2289,7 +2289,7 @@ export const servicesData = [
     title: "Surety Bond Insurance",
     tagline: "Providing Confidence to Stakeholders Through Financial Backing",
     description:
-      "Surety Bond Insurance is a financial guarantee that ensures a contractor or business fulfils its contractual obligations as agreed. It involves three parties—the principal or contractor, the obligee or project owner and the surety or insurer. In case the contractor fails to perform or breaches the contract, the surety compensates the obligee for the loss. This solution enhances credibility, reduces financial risk and is widely used in infrastructure projects, government contracts and large commercial agreements to ensure timely and reliable project completion.",
+      "It is a financial guarantee that ensures a contractor or business fulfils its contractual obligations as agreed. It involves three parties—the principal (contractor), the oblige (project owner) and the surety (insurer). In case the contractor fails to perform or breaches the contract, the surety compensates the oblige for the loss. This solution enhances credibility, reduces financial risk and is widely used in infrastructure projects, government contracts and large commercial agreements to ensure timely and reliable project completion.",
     features: [
       {
         title: "Performance Assurance",
@@ -2392,7 +2392,7 @@ export const servicesData = [
       {
         question: "Is E&O Insurance mandatory?",
         answer:
-          "Not always mandatory, but it is often required in contracts or by regulatory bodies in certain professions.",
+          "Not always mandatory, but often required in contracts or by regulatory bodies in certain professions.",
       },
       {
         question: "Does it cover past work?",
@@ -2416,7 +2416,7 @@ export const servicesData = [
     title: "Professional Indemnity Insurance",
     tagline: "Ensuring Confidence in Your Profession with Financial Protection",
     description:
-      "Professional Indemnity Insurance protects professionals and service providers against claims arising from errors, negligence or omissions in the services they deliver. It covers legal defense costs, settlements and compensation if a client suffers financial loss due to incorrect advice or inadequate service. This policy is essential for professionals such as consultants, financial advisors, doctors and architects, helping safeguard their reputation, maintain client trust and ensure financial stability in case of unforeseen claims.",
+      "It protects professionals and service providers against claims arising from errors, negligence or omissions in the services they deliver. It covers legal defense costs, settlements and compensation if a client suffers financial loss due to incorrect advice or inadequate service. This policy is essential for professionals such as consultants, financial advisors, doctors and architects, helping safeguard their reputation, maintain client trust and ensure financial stability in case of unforeseen claims.",
     features: [
       {
         title: "Breach of Duty Cover",
@@ -2479,7 +2479,7 @@ export const servicesData = [
     title: "Fleet Insurance",
     tagline: "Comprehensive Coverage For All Your Vehicles Under A Single Plan",
     description:
-      "Fleet Insurance is a comprehensive insurance solution designed for businesses that own and operate multiple vehicles under a single policy. Instead of managing separate insurance policies for each vehicle, Fleet Insurance allows companies to cover all their vehicles—such as cars, trucks, vans or commercial vehicles—under one streamlined plan. This not only simplifies administration and renewal processes but also helps in reducing overall premium costs through bulk coverage benefits. Fleet Insurance typically covers risks like accidents, third-party liabilities, theft, natural disasters and damages, ensuring uninterrupted business operations. It is especially beneficial for logistics companies, transport operators and businesses relying heavily on mobility, offering flexibility, cost efficiency and centralized risk management.",
+      "Fleet Insurance is a comprehensive insurance solution designed for businesses that own and operate multiple vehicles under a single policy. Instead of managing separate insurance policies for each vehicle, Fleet Insurance allows companies to cover all their vehicles—such as cars, trucks, vans or commercial vehicles—under one streamlined plan. This not only simplifies administration and renewal processes but also helps in reducing overall premium costs through bulk coverage benefits. Fleet insurance typically covers risks like accidents, third-party liabilities, theft, natural disasters and damages, ensuring uninterrupted business operations. It is especially beneficial for logistics companies, transport operators and businesses relying heavily on mobility, offering flexibility, cost efficiency and centralized risk management.",
     features: [
       {
         title: "Single Policy Cover",
@@ -2706,7 +2706,7 @@ export const servicesData = [
       {
         question: "What is SIP in Mutual Funds?",
         answer:
-          "Systematic Investment Plan (SIP) allows you to invest a fixed amount regularly, such as daily, monthly or quarterly, promoting disciplined investing and rupee cost averaging.",
+          "Systematic Investment Plan (SIP) allows you to invest a fixed amount regularly (daily/monthly/quarterly), promoting disciplined investing and rupee cost averaging.",
       },
       {
         question: "Are Mutual Fund Investments taxable?",
@@ -2716,7 +2716,7 @@ export const servicesData = [
       {
         question: "Can I withdraw money anytime?",
         answer:
-          "Yes, most mutual funds are liquid, but some may have exit loads or lock-in periods, like ELSS funds.",
+          "Yes, most mutual funds are liquid, but some may have exit loads or lock-in periods (like ELSS funds).",
       },
     ],
     bgImage: "/finask/mutual-funds.png",
@@ -2735,7 +2735,7 @@ export const servicesData = [
     title: "Systematic Investment Plan",
     tagline: "Build Wealth with Discipline, Not Timing",
     description:
-      "A Systematic Investment Plan (SIP) is a disciplined way to invest in mutual funds by contributing a fixed amount regularly instead of a lump sum. It helps you stay invested consistently without worrying about market timing, making it ideal for long-term wealth creation. \n SIP works on the principle of compounding, where your returns generate further returns over time, creating steady and exponential growth. It also benefits from rupee cost averaging, as you buy more units when prices are low and fewer when prices are high, helping reduce the impact of market volatility. The advantage is that you can start with a small amount and gradually increase your investment as your income grows, making it suitable for individuals at every stage of their financial journey. \n Whether you are planning for retirement, your child’s education or overall wealth creation, SIP provides a structured and goal-oriented approach to investing.",
+      "A Systematic Investment Plan (SIP) is a disciplined way to invest in mutual funds by contributing a fixed amount regularly instead of a lump sum. It helps you stay invested consistently without worrying about market timing, making it ideal for long-term wealth creation. \n SIP works on the principle of compounding, where your returns generate further returns over time, creating steady and exponential growth. It also benefits from rupee cost averaging, as you buy more units when prices are low and fewer when prices are high, helping reduce the impact of market volatility. The advantage is you can start with a small amount and gradually increase your investment as your income grows, making it suitable for individuals at every stage of their financial journey. \n Whether you are planning for retirement, your child’s education or overall wealth creation, SIP provides a structured and goal-oriented approach to investing.",
     features: [
       {
         title: "Compounding Growth",
@@ -2771,7 +2771,7 @@ export const servicesData = [
       {
         question: "Can I increase my SIP amount later?",
         answer:
-          "Yes, you can increase your SIP through a step-up option as your income grows or during the tenure of SIP.",
+          "Yes, you can increase your SIP through a step-up option as your income grows or during the tenure of SIP also.",
       },
       {
         question: "Are SIP returns guaranteed?",
@@ -2781,7 +2781,7 @@ export const servicesData = [
       {
         question: "How do I choose the right SIP?",
         answer:
-          "The best SIP for you depends on your goals, risk level and investment horizon. Our expert advice helps you choose the right funds and stay on track.",
+          "The best SIP for you depends on your goals, risk level and how long you want to invest. Our expert advice help you to makes it easier to choose the right funds and stay on track.",
       },
     ],
     bgImage: "/finask/sip.png",
@@ -2797,7 +2797,7 @@ export const servicesData = [
     slug: "systematic-withdrawal-plan",
     uspLayout: "floating-pills",
     category: "Investments",
-    title: "Systematic Withdrawal Plan in Mutual Funds",
+    title: "Systematic Withdrawal Plan",
     tagline: "Create a Regular Income from Your Investments",
     description:
       "A Systematic Withdrawal Plan (SWP) is a smart way to generate regular income from your investments while keeping the remaining corpus invested. It allows you to withdraw a fixed amount at chosen intervals—monthly, quarterly or annually—ensuring steady cash flow without redeeming the entire investment at once. SWPs are particularly useful for retirees or investors seeking passive income, as they offer flexibility, tax efficiency and the potential for continued capital growth. With the right strategy and fund selection, an SWP helps balance income needs with long-term wealth preservation.",
@@ -2862,7 +2862,7 @@ export const servicesData = [
     slug: "systematic-transfer-plan",
     uspLayout: "bottom-sticky-banner",
     category: "Investments",
-    title: "Systematic Transfer Plan in Mutual Funds",
+    title: "Systematic Transfer Plan",
     tagline: "Transfer Smartly, Invest Strategically",
     description:
       "A Systematic Transfer Plan (STP) is a mutual fund facility that allows you to transfer a fixed amount from one fund to another at regular intervals, typically from a low-risk debt fund to a higher-growth equity fund. It helps you invest gradually instead of deploying a lump sum at once. \n STP reduces market timing risk by spreading investments over time, while your funds parked in safer options continue to earn returns. It brings discipline and consistency, ensuring a structured approach to investing. It allows you to choose the transfer amount and frequency based on your needs, making it ideal for managing large investments efficiently.",
@@ -2877,13 +2877,13 @@ export const servicesData = [
         title: "Risk Management",
         icon: "/insurance-icons/systematic-transfer-plan-2.png",
         description:
-          "Gradually shifts investments from low-risk to high-growth funds to balance stability and returns or vice versa.",
+          "Gradually shifts investments from low-risk to high-growth funds to balance stability and returns or vice-versa.",
       },
       {
         title: "Flexibility of Amount",
         icon: "/insurance-icons/systematic-transfer-plan-3.png",
         description:
-          "Allows customization of transfer value and frequency as per your investment needs.",
+          "Allows customization of transfer value and frequency.",
       },
       {
         title: "Strategic Allocation",
@@ -2930,7 +2930,7 @@ export const servicesData = [
     title: "Specialized Investment Funds",
     tagline: "Smarter Strategies For Smarter Capital",
     description:
-      "Specialized Investment Funds (SIF) are advanced investment solutions designed for discerning investors seeking tailored strategies beyond traditional mutual funds. Built to cater to High-Net-Worth Individuals and Ultra High-Net-Worth Individuals, SIFs offer flexibility in asset allocation, enabling exposure across equities, fixed income, derivatives and alternative instruments within a single structure. These funds are actively managed with a focused approach, allowing for dynamic risk management and the ability to capitalize on evolving market opportunities. With higher customization, transparency and strategic diversification, they aim to deliver optimized risk-adjusted returns aligned with specific financial goals and sophisticated investment needs.",
+      "Specialized Investment Funds (SIF) are advanced investment solutions designed for discerning investors seeking tailored strategies beyond traditional mutual funds. Built to cater to High-Net-Worth Individuals and Ultra High-Net-Worth Individuals, SIFs offer flexibility in asset allocation, enabling exposure across equities, fixed income, derivatives and alternative instruments within a single structure. These funds are actively managed with a focused approach, allowing for dynamic risk management and the ability to capitalize on evolving market opportunities. With higher customization, transparency and strategic diversification they aim to deliver optimized risk-adjusted returns aligned with specific financial goals and sophisticated investment needs.",
     features: [
       {
         title: "Active Portfolio Monitoring",
@@ -2991,7 +2991,7 @@ export const servicesData = [
     title: "Bonds",
     tagline: "Building Calm Amidst the Clamor",
     description:
-      "In a world that often rewards speed and speculation, some investors prefer the quiet dignity of certainty. Bonds offer precisely this—capital preservation paired with predictable income, creating a foundation upon which aspirations can securely rest.\nNavigating thousands of bond issuances—each with distinct ratings, coupon structures and market dynamics—requires more than a glance at yield tables. We evaluate credit histories, macro-economic overlays and your personal liquidity map to curate options that serve both immediate and intergenerational needs.\nOur advisory also manages demat allocations, monitors coupon flows and assists with maturity reinvestment—turning fixed income into a quietly compounding ally.",
+      "In a world that often rewards speed and speculation, some investors prefer the quiet dignity of certainty. Bonds offer precisely this—capital preservation paired with predictable income, creating a foundation upon which aspirations can securely rest.\nNavigating thousands of bond issuances—each with distinct ratings, coupon structures and market dynamics—requires more than a glance at yield tables. We evaluate credit histories, macro-economic overlays and your personal liquidity map to curate options that serve both immediate and intergenerational needs.\nOur advisory team also manages demat allocations, monitors coupon flows and assists with maturity reinvestment—turning fixed income into a quietly compounding ally.",
     features: [
       {
         title: "Capital Preservation",
@@ -3054,7 +3054,7 @@ export const servicesData = [
     title: "Portfolio Management Services",
     tagline: "Because Your Success Story Deserves a Bespoke Strategy",
     description:
-      "For larger portfolios, PMS goes beyond standard allocation to deliver personalized, high-conviction investing. We collaborate with top PMS providers to craft portfolios that align with your unique financial blueprint — considering your liquidity needs, legacy goals and appetite for concentrated bets. It’s an approach where your wealth doesn’t just grow, it evolves intentionally, stewarded by seasoned experts.",
+      "For larger portfolios, Portfolio Management Services (PMS) goes beyond standard allocation to deliver personalized, high-conviction investing. We collaborate with top PMS providers to craft portfolios that align with your unique financial blueprint — considering your liquidity needs, legacy goals and appetite for concentrated bets. It’s an approach where your wealth does not just grow, it evolves intentionally, stewarded by seasoned experts.",
     features: [
       {
         title: "Focused Portfolio",
@@ -3116,7 +3116,7 @@ export const servicesData = [
     tagline:
       "Because True Diversification Ventures Where the Ordinary Does Not",
     description:
-      "Alternative Investment Funds (AIFs)  open avenues into private equity, venture capital, real estate and structured opportunities that traditional vehicles can’t reach. We help you navigate this sophisticated space with diligence and clarity — selecting category I, II or III funds suited to your long-term ambitions. The result: a portfolio that not only mitigates mainstream market risks but also captures new-age growth stories with strategic foresight.",
+      "Alternative Investment Funds (AIFs)  open avenues into private equity, venture capital, real estate and structured opportunities that traditional vehicles cannot reach. We help you navigate this sophisticated space with diligence and clarity — selecting category I, II or III funds suited to your long-term ambitions. The result: a portfolio that not only mitigates mainstream market risks but also captures new-age growth stories with strategic foresight.",
     features: [
       {
         title: "Exclusive Access",
@@ -3178,7 +3178,7 @@ export const servicesData = [
     title: "Unlisted Equity",
     tagline: "Investing Where Vision Meets Venture",
     description:
-      "Some opportunities never appear on stock tickers. They live in boardrooms of high-growth companies still charting their scale-up journeys—fintech leaders yet to list, consumer brands preparing for IPO or late-stage startups opening pre-IPO rounds.\nFinAsk Value, we bridge you to these curated unlisted plays—Because accessing these deals requires more than capital—it demands relationships, diligence and precise timing. We assess financials, business models and sector outlooks, structure your entry for optimal eventual liquidity and align this exposure with your overall portfolio—so private equity remains a complement, not a risk amplifier.",
+      "Some opportunities never appear on stock tickers. They live in boardrooms of high-growth companies still charting their scale-up journeys—fintech leaders yet to list, consumer brands preparing for IPO or late-stage startups opening pre-IPO rounds.\n At FinAsk Value, we connect you to these curated unlisted plays—Because accessing these deals requires more than capital—it demands relationships, diligence and precise timing. We assess financials, business models and sector outlooks, structure your entry for optimal eventual liquidity and align this exposure with your overall portfolio—so private equity remains a complement, not a risk amplifier.",
     features: [
       {
         title: "Pre- IPO Access",
@@ -3267,7 +3267,7 @@ export const servicesData = [
       {
         question: "Are REITs good during inflation?",
         answer:
-          "Yes, often rent agreements may include escalation clauses and property values tend to rise with inflation. So, REITs can act as a partial inflation hedge.",
+          "Yes, often rent agreements may include escalation clauses, property values tend to rise with inflation. So, REITs can act as a partial inflation hedge.",
       },
       {
         question: "How transparent are REIT investments?",
@@ -3492,7 +3492,7 @@ export const servicesData = [
     title: "Alternative Fixed Income",
     tagline: "When Smart Innovation Meets Predictable Returns",
     description:
-      "Fixed income doesn’t have to be monotonous. Beyond bonds and deposits lie avenues like Market-Linked Debentures, Invoice Discounting and tech-driven supply chain finance—each crafted to generate 9%–14% returns while balancing varying degrees of liquidity and risk.\nFinAsk Value, we make this universe approachable. We vet platforms, examine issuer balance sheets and design diversified allocations so you can benefit from structured income without undue exposure. Because true wealth stewardship means knowing how to weave traditional and alternative fabrics into a single, resilient financial tapestry.",
+      "Fixed income does not have to be monotonous. Beyond bonds and deposits lie avenues like Market-Linked Debentures, Invoice Discounting and Tech-Driven Supply Chain Finance—each crafted to generate 9%–14% returns while balancing varying degrees of liquidity and risk.\nFinAsk Value, we make this universe approachable. We vet platforms, examine issuer balance sheets and design diversified allocations so you can benefit from structured income without undue exposure. Because true wealth stewardship means knowing how to weave traditional and alternative fabrics into a single, resilient financial tapestry.",
     features: [
       {
         title: "Capital Preservation",
@@ -3560,7 +3560,7 @@ export const servicesData = [
     title: "Corporate Fixed Deposits",
     tagline: "Combining Familiar Stability with Enhanced Yield",
     description:
-      "For many investors, fixed deposits have long signified financial prudence. Yet traditional bank FDs often underperform inflation. Corporate FDRs offer a refined alternative—delivering higher yields through reputable NBFCs and corporates, backed by rigorous credit ratings.\nFinAsk Value, we navigate this terrain carefully. Because with fixed income, it’s not just about rates—it’s about safeguarding stability with informed discretion.",
+      "For many investors, Fixed Deposits have long signified financial prudence. Yet Traditional bank FDs often underperform inflation. Corporate FDRs offer a refined alternative—delivering higher yields through reputable NBFCs and corporates, backed by rigorous credit ratings.\n At FinAsk Value, we navigate this terrain carefully. Because with fixed income, it’s not just about rates—it’s about safeguarding stability with informed discretion.",
     features: [
       {
         title: "Higher Rates",
@@ -3683,7 +3683,7 @@ export const servicesData = [
     title: "E-Gold",
     tagline: "Because Modern Aspirations Still Treasure Timeless Wealth",
     description:
-      "E-Gold lets you build your gold holdings digitally — no safes, no insurance worries, no purity concerns. Buy as little as a gram or as much as your milestones demand, all secured in vaulted assurance and ready for cash redemption or jewellery conversion when your heart desires.\n\nIt’s tradition, transformed for today, making sure your portfolio shines with both heritage and hassle-free liquidity.\n\nFinAsk Value, we help you integrate E-Gold seamlessly into your broader financial goals—whether it’s gifting with grace, saving for a future wedding or simply balancing your asset mix with a timeless hedge. With 24K purity, full transparency and the power of automation through SIPs, E-Gold becomes more than just a commodity—it becomes a modern heirloom in the making, one digital gram at a time.",
+      "E-Gold lets you build your gold holdings digitally — no safes, no insurance worries, no purity concerns. Buy as little as a gram or as much as your milestones demand, all secured in vaulted assurance and ready for cash redemption or jewellery conversion when your heart desires.\n\nIt’s tradition, transformed for today, making sure your portfolio shines with both heritage and hassle-free liquidity.\n\n At FinAsk Value, we help you integrate E-Gold seamlessly into your broader financial goals—whether it’s gifting with grace, saving for a future wedding or simply balancing your asset mix with a timeless hedge. With 24K purity, full transparency and the power of automation through SIPs, E-Gold becomes more than just a commodity—it becomes a modern heirloom in the making, one digital gram at a time.",
     features: [
       {
         title: "Safety & Purity",
@@ -3744,7 +3744,7 @@ export const servicesData = [
     title: "National Pension System ",
     tagline: "Building a Retirement That Honours Your Efforts",
     description:
-      "Retirement is not the conclusion of earning—it’s the moment your lifetime of discipline begins to work for you. It’s when the fruits of your labor, invested wisely over decades, transform into dignified security and freedom.\nThe National Pension System (NPS) is one of India’s most robust instruments to shape this chapter—Whether you’re a salaried executive optimizing deductions, an entrepreneur without employer pensions or an NRI anchoring part of your retirement in India, NPS provides a versatile platform. \nFinAsk Value, we simplify this entire landscape: from selecting among top-tier pension fund managers to guiding optimal equity exposure based on your horizon, recalibrating annually and planning your eventual annuity so post-retirement income feels seamless.",
+      "Retirement is not the conclusion of earning—it’s the moment your lifetime of discipline begins to work for you. It’s when the fruits of your labour, invested wisely over decades, transform into dignified security and freedom.\nThe National Pension System (NPS) is one of India’s most robust instruments to shape this chapter—Whether you are a salaried executive optimizing deductions, an entrepreneur without employer pensions or an NRI anchoring part of your retirement in India, NPS provides a versatile platform. \n At FinAsk Value, we simplify this entire landscape — from selecting among top-tier pension fund managers to guiding optimal equity exposure based on your horizon, recalibrating annually and planning your eventual annuity so post-retirement income feels seamless.",
     features: [
       {
         title: "Tax Efficiency",
@@ -3776,7 +3776,7 @@ export const servicesData = [
       {
         question: "What are the types of NPS Accounts?",
         answer:
-          "There are two types:\nTier I – A primary retirement account with tax benefits and withdrawal restrictions.\nTier II – A voluntary savings account with flexible withdrawals but limited tax benefits.",
+          "There are two types:\nTier I – A primary retirement account with tax benefits and withdrawal restrictions and Tier II – A voluntary savings account with flexible withdrawals but limited tax benefits.",
       },
       {
         question: "How does NPS invest my money?",
@@ -3805,7 +3805,7 @@ export const servicesData = [
     title: "Stock & Broking",
     tagline: "Bringing Clarity and Conviction to Your Equity Journey",
     description:
-      "Equities offer promise. But navigating them requires more than intuition; it demands structure, foresight and an ally who understands that investing is about compounding both capital and confidence.\nFinAsk Value, our stock and broking services are designed to cut through the noise. We combine research-backed insights with personalized guidance to help you build a portfolio that aligns with your goals, risk appetite and timeline. Whether you're a seasoned trader or a first-time investor, we offer the tools, transparency and expertise to help you make informed decisions — not impulsive ones.\nBecause in equities, it’s not about frequent thrills; it’s about enduring triumphs—structured, reviewed and recalibrated.",
+      "Equities offer promise. But navigating them requires more than intuition; it demands structure, foresight and an ally who understands that investing is about compounding both capital and confidence.\nAt FinAsk Value, our Stock and Broking Services are designed to cut through the noise. We combine research-backed insights with personalized guidance to help you build a portfolio that aligns with your goals, risk appetite and timeline. Whether you a re a seasoned trader or a first-time investor, we offer the tools, transparency and expertise to help you make informed decisions — not impulsive ones.\nBecause in equities, it’s not about frequent thrills; it’s about enduring triumphs—structured, reviewed and recalibrated.",
     features: [
       {
         title: "Research Backed",
@@ -3996,7 +3996,7 @@ export const servicesData = [
     title: "Trust Formation",
     tagline: "Safeguard Today. Shape Tomorrow.",
     description:
-      "True wealth extends beyond mere accumulation; it is measured by how thoughtfully it is preserved and how purposefully it is passed on. For families, business owners and philanthropists alike, establishing a trust remains one of the most nuanced tools to secure a legacy — ensuring your assets are protected, your intentions honored and your loved ones provided for without complication or conflict.\nA trust legally transfers assets from you, the settlor, to chosen trustees, who hold and manage these for beneficiaries under carefully designed terms. From private family trusts that prioritize multi-generational wealth transfer, to irrevocable structures that shield assets from potential liabilities, to discretionary models that offer flexibility in distributions — each trust serves as a bespoke safeguard for what matters most.\nFinAsk Value, we coordinate the entire journey — advising on trust structures, engaging premier legal partners, ensuring regulatory compliance and guiding you through post-formation nuances such as audits and trustee management. Because for legacies to last, they must be built on clarity, control and confidence.",
+      "True wealth extends beyond mere accumulation; it is measured by how thoughtfully it is preserved and how purposefully it is passed on. For families, business owners and philanthropists alike, establishing a Trust remains one of the most nuanced tools to secure a legacy — ensuring your assets are protected, your intentions honoured and your loved ones provided for without complication or conflict.\nA Trust legally transfers assets from you, the settlor, to chosen trustees, who hold and manage these for beneficiaries under carefully designed terms. From Private Family Trusts that prioritize multi-generational wealth transfer, to irrevocable structures that shield assets from potential liabilities, to discretionary models that offer flexibility in distributions — each Trust serves as a bespoke safeguard for what matters most.\n At FinAsk Value, we coordinate the entire journey — advising on Trust structures, engaging premier legal partners, ensuring regulatory compliance and guiding you through post-formation nuances such as audits and trustee management. Because for legacies to last, they must be built on clarity, control and confidence.",
     features: [
       {
         title: "Wealth Protection",
@@ -4061,7 +4061,7 @@ export const servicesData = [
     title: "Will Writing",
     tagline: "A Gentle Blueprint for Lasting Peace",
     description:
-      "A lifetime of diligence deserves more than just fond memories; it deserves clear direction. Yet, many individuals delay writing a will, inadvertently leaving behind a maze of legal uncertainties and emotional strain for those they cherish most.\nFinAsk Value, we bring empathy and expertise together to simplify the process of creating a will that’s both legally robust and deeply personal. By clearly outlining how your assets — from properties and investments to heirlooms and guardianships — should be distributed, a well-crafted will ensures your family navigates the future with certainty, not confusion.\nWe view will writing not as a somber task, but as an empowering opportunity to guide your family with love and forethought — ensuring they receive your wealth with gratitude, not grievances.",
+      "A lifetime of diligence deserves more than just fond memories; it deserves clear direction. Yet, many individuals delay writing a Will, inadvertently leaving behind a maze of legal uncertainties and emotional strain for those they cherish most.\nAt FinAsk Value, we bring empathy and expertise together to simplify the process of creating a Will that’s both legally robust and deeply personal. By clearly outlining how your assets — from properties and investments to heirlooms and guardianships — should be distributed, a well-crafted Will ensures your family navigates the future with certainty, not confusion.\nWe view Will writing not as a somber task, but as an empowering opportunity to guide your family with love and forethought — ensuring they receive your wealth with gratitude, not grievances.",
     features: [
       {
         title: "Legal Clarity",
@@ -4123,7 +4123,7 @@ export const servicesData = [
     tagline:
       "Because Legacies Deserve More Than Emotion — They Deserve Precise Execution",
     description:
-      "Wills and trusts hold your intentions, but it’s the executor who ensures they come alive, without delay, dispute or dilution. Our executor services stand as an unwavering hand to manage distributions, settle obligations and uphold your wishes with absolute integrity.\n\nSo your lifetime of effort becomes a source of harmony, not heartache, for those you leave behind.\n At FinAsk Value, our executor services go beyond paperwork. We step in with compassion, clarity and complete confidentiality—coordinating with legal, financial and family stakeholders to ensure every step reflects your intent. Whether it’s handling complex assets, addressing cross-border beneficiaries or mediating sensitive transitions, we provide the calm, competent presence your legacy deserves. Because honouring your life’s work shouldn’t be left to chance.",
+      "Wills and Trusts hold your intentions, but it is the executor who ensures they come alive, without delay, dispute or dilution. Our Executor services stand as an unwavering hand to manage distributions, settle obligations and uphold your wishes with absolute integrity.\n\nSo your lifetime of effort becomes a source of harmony, not heartache, for those you leave behind.\n At FinAsk Value, our Executor Services go beyond paperwork. We step in with compassion, clarity and complete confidentiality—coordinating with legal, financial and family stakeholders to ensure every step reflects your intent. Whether it’s handling complex assets, addressing cross-border beneficiaries or mediating sensitive transitions, we provide the calm, competent presence your legacy deserves. Because honouring your life’s work should not be left to chance.",
     features: [
       {
         title: "Faithful Execution",
@@ -4187,7 +4187,7 @@ export const servicesData = [
     title: "Legal Advisory",
     tagline: "Turning Law into A Shield, Not A Stressor",
     description:
-      "In a world of increasing regulatory oversight and legal complexity, protecting your wealth isn’t just about what you earn—it’s about how well you’re prepared. From property disputes to contract clarity, founder agreements to legacy documentation, every legal oversight can have a lasting financial impact.\n At FinAsk Value, legal advisory is not a last-minute rescue. It’s built into your journey from the start—offering proactive legal structuring, due diligence and risk mitigation that safeguards your assets, relationships and long-term intentions.\nWhether you're acquiring real estate, drafting succession documents, reviewing investor agreements or setting up holding structures, our legal team partners with your goals—not just the paperwork. We guide you with clarity, confidentiality and a strategic lens that turns law from a limitation into a legacy protector.",
+      "In a world of increasing regulatory oversight and legal complexity, protecting your wealth is not just about what you earn—it’s about how well you are prepared. From property disputes to contract clarity, founder agreements to legacy documentation, every legal oversight can have a lasting financial impact.\n At FinAsk Value, Legal Advisory is not a last-minute rescue. It’s built into your journey from the start—offering proactive legal structuring, due diligence and risk mitigation that safeguards your assets, relationships and long-term intentions.\nWhether you are acquiring real estate, drafting succession documents, reviewing investor agreements or setting up holding structures, our Legal Team partners with your goals—not just the paperwork. We guide you with clarity, confidentiality and a strategic lens that turns law from a limitation into a legacy protector.",
     features: [
       {
         title: "Property Due Diligence",
@@ -4249,7 +4249,7 @@ export const servicesData = [
     title: "Tax Advisory",
     tagline: "Because Wealth Should Grow, Not Leak",
     description:
-      "Every rupee saved in taxes is a rupee reinvested in your future. FinAsk Value, tax advisory isn’t just about compliance—it’s about optimisation, foresight and aligning your personal or business growth with evolving tax frameworks.\nWe help individuals, families, professionals and entrepreneurs uncover intelligent strategies—be it through HUF structuring, capital gains planning, investment-linked deductions or multi-entity income management.\nFor businesses, we integrate GST planning, director remuneration strategies, ESOP tax treatment and cross-border tax implications into a cohesive framework. And for NRIs, we simplify global reporting, repatriation rules and DTAA considerations.\nYou don’t just stay compliant—you stay confident. Because with FinAsk Value, your tax story isn’t about burden. It’s about benefit, built into every step of your financial journey.",
+      "Every rupee saved in taxes is a rupee reinvested in your future. At FinAsk Value, Tax Advisory is not just about compliance—it’s about optimisation, foresight and aligning your personal or business growth with evolving tax frameworks.\nWe help individuals, families, professionals and entrepreneurs uncover intelligent strategies—be it through HUF structuring, capital gains planning, investment-linked deductions or multi-entity income management.\nFor businesses, we integrate GST planning, director remuneration strategies, ESOP tax treatment and cross-border tax implications into a cohesive framework. And for NRIs, we simplify global reporting, repatriation rules and DTAA considerations.\nYou do not just stay compliant—you stay confident. Because with us, your tax story is not about burden—it’s about benefit,built into every step of your financial journey.",
     features: [
       {
         title: "Cross-Border Tax Advisory",
@@ -4313,7 +4313,7 @@ export const servicesData = [
     title: "Financial Literacy Workshops",
     tagline: "Empowering Clarity, Inspiring Confidence",
     description:
-      "FinAsk Value, we believe that the most valuable asset any individual can own is clarity. In a world full of noise and financial quick fixes, informed decision-making isn’t just smart—it’s empowering.\nOur Financial Literacy Workshops and SEBI-compliant Investor Awareness Programs (IAPs) are designed to democratize that empowerment. Whether you're a salaried professional, homemaker, entrepreneur, student or retiree—we meet you where you are and help you move forward with confidence.\nEach program is thoughtfully curated to simplify complex concepts: from budgeting and SIPs to tax planning, insurance design and wealth transfer. We address real-life questions, bust financial myths and help participants build a framework they can actually apply—today, tomorrow and 20 years from now.\nDelivered virtually or on-site, our sessions use relatable stories, practical illustrations and interactive Q&A formats led by certified experts. And most importantly, every IAP is 100% educational—zero product pitching, full commitment to SEBI’s mission of protecting and uplifting Indian investors.\nBecause when financial literacy improves, everything else follows: financial dignity, family wellbeing and the confidence to build a better life. FinAsk Value, that’s the kind of wealth we aim to co-create.",
+      "At FinAsk Value, we believe that the most valuable asset any individual can own is clarity. In a world full of noise and financial quick fixes, informed decision-making is not just smart—it’s empowering.\nOur Financial Literacy Workshops and SEBI-Compliant Investor Awareness Programs (IAPs) are designed to democratize that empowerment. Whether you are   a salaried professional, homemaker, entrepreneur, student or retiree—we meet you where you are and help you move forward with confidence.\nEach program is thoughtfully curated to simplify complex concepts: from budgeting and SIPs to tax planning, insurance design and wealth transfer. We address real-life questions, bust financial myths and help participants build a framework they can actually apply—today, tomorrow and 20 years from now.\nDelivered virtually or on-site, our sessions use relatable stories, practical illustrations and interactive Q&A formats led by certified experts. And most importantly, every IAP is 100% educational—zero product pitching, full commitment to SEBI’s mission of protecting and uplifting investors.\nBecause when financial literacy improves, everything else follows: financial dignity, family wellbeing and the confidence to build a better life. With us, that’s the kind of wealth we aim to co-create.",
     features: [
       {
         title: "Confidence to Grow",
@@ -4463,7 +4463,7 @@ export const servicesData = [
       {
         question: "How does the interest-free period work?",
         answer:
-          "Most credit cards offer an interest-free period, typically 20–50 days, if you pay the full outstanding amount by the due date.",
+          "Most credit cards offer an interest-free period (typically 20–50 days) if you pay the full outstanding amount by the due date.",
       },
       {
         question:
@@ -4495,11 +4495,11 @@ export const servicesData = [
     slug: "nri-corner",
     uspLayout: "scroll-popup-modal",
     category: "Goal Planning",
-    title: "NRI's corner",
+    title: "NRI Corner",
     tagline:
       "Because Home Isn’t Just Where You Live. It’s Also Where You Grow.",
     description:
-      "From the avenues of London to the towers of Dubai, India is never far. For NRIs, India represents unmatched economic momentum and the unique joy of watching your roots flourish. At , we help global Indians turn emotional ties into financial advantage. Whether it’s building cross-currency wealth with tax-optimized strategies, protecting family assets in India while you’re overseas or planning legacies that gracefully span continents, we bring structure, compliance and vision to your India-linked investments.",
+      "From the avenues of London to the towers of Dubai, India is never far. For NRIs, India represents unmatched economic momentum and the unique joy of watching your roots flourish. At FinAsk Value, we help global Indians turn emotional ties into financial advantage. Whether it’s building cross-currency wealth with tax-optimized strategies, protecting family assets in India while you’re overseas or planning legacies that gracefully span continents, we bring structure, compliance and vision to your India-linked investments.",
     features: [
       {
         title: "Global Wealth Structuring",
@@ -4561,10 +4561,10 @@ export const servicesData = [
     slug: "women-corner",
     uspLayout: "original",
     category: "Goal Planning",
-    title: "Women's corner",
+    title: "Women corner",
     tagline: "Because She Needs More Than Advice. She Needs Advocacy.",
     description:
-      "From her relationships to her marriage, from her career to her household, a woman navigates complexities at every turn. Often, she puts others ahead of herself—her spouse, children, aging parents. She may pause her career to care for family, adjust her ambitions to support a partner or stay silent on financial matters that intimately shape her life.\nEven today, despite earning more than ever, many women hesitate to take the lead in conversations about investing, insurance or inheritance. They’re told money is complicated. Or that it's simply not their domain. As a result, too many brilliant, resilient women continue to carry emotional, social and even financial weight—without the security, knowledge or confidence they deserve.\nFinAsk Value, we created Women Corner not as a marketing vertical, but as a stand — to show that her goals matter, her security matters and her choices deserve to be as expansive and informed as anyone else's.\nWe work with:\n● Young professionals who juggle EMIs, family expectations and ambitions no one fully understands.\n● Mothers who quietly prioritize school fees over retirement funds, fearing tomorrow’s uncertainty.\n ● Homemakers who wish to grasp how family wealth is truly structured—so they aren’t left in the dark if life shifts.\n● Women rebuilding after separation or loss, who need clarity, compassion and a map to financial independence.",
+      "From her relationships to her marriage, from her career to her household, a woman navigates complexities at every turn. Often, she puts others ahead of herself—her spouse, children, aging parents. She may pause her career to care for family, adjust her ambitions to support a partner or stay silent on financial matters that intimately shape her life.\nEven today, despite earning more than ever, many women hesitate to take the lead in conversations about investing, insurance or inheritance. They’re told money is complicated. Or that it's simply not their domain. As a result, too many brilliant, resilient women continue to carry emotional, social and even financial weight—without the security, knowledge or confidence they deserve.\nAt FinAsk Value, we created Women Corner not as a marketing vertical, but as a stand — to show that her goals matter, her security matters and her choices deserve to be as expansive and informed as anyone else's.\nWe work with:\n● Young professionals who juggle EMIs, family expectations and ambitions no one fully understands.\n● Mothers who quietly prioritize school fees over retirement funds, fearing tomorrow’s uncertainty.\n ● Homemakers who wish to grasp how family wealth is truly structured—so they aren’t left in the dark if life shifts.\n● Women rebuilding after separation or loss, who need clarity, compassion and a map to financial independence.",
     features: [
       {
         title: "Women-Centric Financial Planning",
@@ -4629,7 +4629,7 @@ export const servicesData = [
     tagline:
       "A Comprehensive Wealth Management Solution for Ultra-High-Net-Worth Families ",
     description:
-      "A comprehensive wealth management solution for ultra-high-net-worth families, managing everything from investments to lifestyle. We provide integrated management of all family assets and liabilities, ensuring smooth transition of wealth across generations.",
+      "A comprehensive wealth management solution for Ultra-High-Net-Worth families, managing everything from investments to lifestyle. We provide integrated management of all family assets and liabilities, ensuring smooth transition of wealth across generations.",
     features: [
       {
         title: "Holistic Wealth Management",
