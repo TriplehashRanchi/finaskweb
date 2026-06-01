@@ -1,5 +1,6 @@
 import React from "react";
 import { Star } from "lucide-react";
+import Link from "next/link";
 
 const GoogleIcon = () => (
   <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -38,9 +39,9 @@ export default function RatingCard() {
       </div>
       
       <div className="w-full md:w-auto flex justify-end">
-        <a herf="/contact" className="bg-[#D44659] hover:bg-[#b03548] text-white font-semibold py-2.5 px-6 rounded-lg transition-colors">
+        <Link href="/contact" className="bg-[#D44659] hover:bg-[#b03548] text-white font-semibold py-2.5 px-6 rounded-lg transition-colors">
           Contact Us
-        </a>
+        </Link>
       </div>
     </div>
   );
