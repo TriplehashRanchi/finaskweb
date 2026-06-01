@@ -13,7 +13,7 @@ export default function TermsAndConditions() {
                 By accessing or using this website, you agree to be bound by these Terms & Conditions, along with our Privacy Policy and Disclaimer. If you do not agree, please discontinue use of this website.
             </p>
             <p>
-                In this document, “FinAsk Value”, “we”, “us”, or “our” refers to FinAsk Value, a financial advisory and financial product distribution firm. “You” refers to any visitor, user, client, or prospective client.
+                In this document, “FinAsk Value”, “we”, “us” or “our” refers to FinAsk Value, a financial advisory and financial product distribution firm. “You” refers to any visitor, user, client or prospective client.
             </p>
 
             <section>
@@ -25,7 +25,7 @@ export default function TermsAndConditions() {
                     <li>We distribute insurance products and other financial instruments through empanelment with regulated financial institutions.</li>
                     <li>Unless specifically disclosed in writing, we are not acting as a SEBI-registered Investment Adviser (RIA).</li>
                     <li>We do not provide fee-based investment advisory services unless separately registered and contractually agreed.</li>
-                    <li>Our services are advisory in nature for guidance and suitability assistance, and execution support as a distributor.</li>
+                    <li>Our services are advisory in nature for guidance and suitability assistance and execution support as a distributor.</li>
                 </ul>
             </section>
             
@@ -38,7 +38,7 @@ export default function TermsAndConditions() {
                     <li>Is not personalized advice unless provided through a formal client engagement</li>
                 </ul>
                 <p>Any financial decision taken by you is based on your independent judgment.</p>
-                <p>We strongly recommend consulting your tax advisor, legal advisor, or other professionals wherever required.</p>
+                <p>We strongly recommend consulting your tax advisor, legal advisor or other professionals wherever required.</p>
             </section>
             
             <section>
@@ -47,7 +47,7 @@ export default function TermsAndConditions() {
                     <li>Financial markets are subject to risk and volatility.</li>
                     <li>Mutual fund investments are subject to market risks.</li>
                     <li>Past performance is not indicative of future results.</li>
-                    <li>Insurance products are governed by policy terms, exclusions, and IRDAI regulations.</li>
+                    <li>Insurance products are governed by policy terms, exclusions and IRDAI regulations.</li>
                     <li>We do not guarantee fixed or assured returns unless explicitly stated in a regulated product approved by authorities.</li>
                 </ul>
             </section>
@@ -56,7 +56,7 @@ export default function TermsAndConditions() {
                 <h2 className="text-2xl font-bold font-serif mb-4 text-brand-gold">4. Commission & Compensation Disclosure</h2>
                 <p className="mb-2">As a financial product distributor:</p>
                 <ul className="list-disc pl-5 space-y-2">
-                    <li>We may receive commission, trail commission, or other compensation from Asset Management Companies (AMCs), insurers, or product manufacturers.</li>
+                    <li>We may receive commission, trail commission or other compensation from Asset Management Companies (AMCs), insurers or product manufacturers.</li>
                     <li>We do not charge advisory fees unless a separate written agreement exists under a regulated structure.</li>
                     <li>Our recommendations may include products from empanelled institutions.</li>
                 </ul>
@@ -89,7 +89,7 @@ export default function TermsAndConditions() {
             <section>
                 <h2 className="text-2xl font-bold font-serif mb-4 text-brand-gold">7. Intellectual Property</h2>
                 <ul className="list-disc pl-5 space-y-2">
-                    <li>All website content, branding, graphics, materials, and intellectual assets are the property of FinAsk Value.</li>
+                    <li>All website content, branding, graphics, materials and intellectual assets are the property of FinAsk Value.</li>
                     <li>You may use the content for personal, non-commercial purposes only.</li>
                 </ul>
             </section>

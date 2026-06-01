@@ -11,21 +11,21 @@ const features = [
     id: "family-office",
     title: "Family Office",
     image: "/family.png", 
-    description: "Helping families protect harmony, purpose, and prosperity across generations.",
+    description: "Helping families protect harmony, purpose and prosperity across generations.",
      link: "/services/ilfamy-office"
   },
   {
     id: "nri-corner",
     title: "NRI Corner",
     image: "/nri.webp",
-    description: "Helping NRIs protect, grow, and repatriate wealth with confidence.",
+    description: "Helping NRIs protect, grow and repatriate wealth with confidence.",
     link: "/services/nri-corner"
   },
   {
     id: "women-corner",
     title: "Women Corner",
     image: "/women-corner1.webp",
-    description: "For every woman balancing dreams, duties, and tomorrow this is her corner.",
+    description: "For every woman balancing dreams, duties and tomorrow this is her corner.",
     link: "/services/women-corner"
   }
 ];
@@ -49,7 +49,7 @@ export default function EmpowerSection() {
                 }}
              >
                 <Image
-                    key={activeFeature} // changing key forces re-mount for animation effect if desired, or just src swap
+                    key={activeFeature} // changing key forces re-mount for animation effect if desired or just src swap
                     src={features[activeFeature].image} 
                     alt={features[activeFeature].title}
                     fill

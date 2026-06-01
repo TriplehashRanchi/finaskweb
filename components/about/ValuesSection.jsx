@@ -40,9 +40,9 @@ const values = [
   },
   {
     id: 6,
-    title: "Built on Collaboration  ",
+    title: "Built on Collaboration & Trust",
     description:
-      "Great outcomes are built through teamwork. We partner with top insurers, fund managers, and experts while internally breaking silos and sharing credit. Results improve when egos leave and collaboration leads.",
+      "Great outcomes are built through teamwork. We partner with top insurers, fund managers and experts while internally breaking silos and sharing credit. Results improve when egos leave and collaboration leads.",
     icon: "/values-icons/value-6.png",
   },
   {
@@ -56,7 +56,7 @@ const values = [
 
 export default function ValuesSection() {
   return (
-    <section id="values" className="py-14 px-6   bg-[#FDF9FB] ">
+    <section id="values" className="py-14 px-6 scroll-mt-[100px]    bg-[#FDF9FB] ">
       <div className="max-w-8xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="font-serif text-4xl md:text-5xl font-medium text-[#00394E] mb-4">

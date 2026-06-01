@@ -45,7 +45,7 @@ function InsuranceMegaMenu() {
   };
 
   return (
-    <div className="absolute top-[calc(100%+14px)] left-1/2 -translate-x-1/2 w-[800px] max-w-[calc(100vw-40px)] bg-white rounded-md shadow-[0_24px_60px_rgba(0,57,78,0.16)] border border-gray-100/80 opacity-0 invisible translate-y-3 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-200 ease-out z-50 overflow-hidden">
+    <div className="absolute top-[calc(100%+14px)] left-1/2 -translate-x-1/2 w-[850px] max-w-[calc(100vw-40px)] bg-white rounded-md shadow-[0_24px_60px_rgba(0,57,78,0.16)] border border-gray-100/80 opacity-0 invisible translate-y-3 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-200 ease-out z-50 overflow-hidden">
       {/* ── Header / Tab Bar ── */}
       <div className="flex items-center gap-10 px-5 pt-2 pb-0">
         {[

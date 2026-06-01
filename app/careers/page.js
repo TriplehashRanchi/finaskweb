@@ -53,7 +53,7 @@ export default function CareersPage() {
 
           <p className="text-lg  text-slate-600 leading-[1.4] font-light   max-w-3xl mx-auto">
             We’re building a team that redefines financial wellbeing in India
-            and beyond. If you believe in responsibility before revenue, and{" "}
+            and beyond. If you believe in responsibility before revenue and{" "}
             empathy before execution, we’d love to hear from you.
           </p>
         </div>

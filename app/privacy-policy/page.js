@@ -58,7 +58,7 @@ export default function PrivacyPolicy() {
             
             <section>
                 <h2 className="text-2xl font-bold font-serif mb-4 text-brand-gold">5. Your Rights</h2>
-                <p>You may request access, correction, or update of your personal information, subject to regulatory record retention requirements.</p>
+                <p>You may request access, correction or update of your personal information, subject to regulatory record retention requirements.</p>
             </section>
             
         </div>

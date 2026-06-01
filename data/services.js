@@ -450,26 +450,31 @@ export const servicesData = [
     category: "Insurance",
     title: "Traditional Life Insurance Plans",
     tagline: "Certainty That Quietly Supports Your Future Financial Milestones",
-    description:
-      "When predictability matters more than volatility, Traditional Life Insurance Plans offer reassuring financial certainty. They are designed for those who value steady accumulation, defined benefits and disciplined planning over market fluctuations. At FinAsk Value, we help you identify structures that align with education goals, retirement income, legacy intentions or planned milestones with confidence. Whether you seek assured payouts, capital preservation or dependable long-term savings — we curate solutions that bring stability, visibility and peace to your financial journey for years ahead.",
-    features: [
+    description:"When predictability matters more than volatility, Traditional Life Insurance Plans offer reassuring financial certainty. They are designed for those who value steady accumulation, defined benefits and disciplined planning over market fluctuations. At FinAsk Value, we help you identify structures that align with education goals, retirement income, legacy intentions or planned milestones with confidence. Whether you seek assured payouts, capital preservation or dependable long-term savings — we curate solutions that bring stability, visibility and peace to your financial journey for years ahead.",
+     features: [
       {
         title: "Guaranteed Returns",
-        icon: "/insurance-icons/national-pension-system-1.png",
+        icon: "/insurance-icons/tlip-1.png",
         description:
           "Offers defined benefits with low uncertainty and stability.",
       },
       {
-        title: "Assured Payouts",
-        icon: "/insurance-icons/national-pension-system-2.png",
+        title: "Structured Planning",
+        icon: "/insurance-icons/tlip-2.png",
         description:
-          "Useful for milestone planning, education needs or retirement income.",
+          "Systematic savings designed for predictable future milestones.",
       },
       {
         title: "Capital Preservation",
-        icon: "/insurance-icons/t-3.png",
+        icon: "/insurance-icons/tlip-03.png",
         description:
           "Prioritizes steadiness while supporting disciplined long-term savings objectives for families.",
+      },
+      {
+        title: "Future Visibility",
+        icon: "/insurance-icons/tlip-4.png",
+        description:
+          "Clarity today on what your finances will look like tomorrow.",
       },
     ],
     faq: [
@@ -2670,23 +2675,23 @@ export const servicesData = [
     features: [
       {
         title: "Goal Based Investing",
-        icon: "/insurance-icons/mutual-funds-1.png",
+        icon: "/insurance-icons/mutual-funds-01.png",
         description: "Funds selected to match specific financial goals.",
       },
       {
         title: "Risk Profiling",
-        icon: "/insurance-icons/mutual-funds-2.png",
+        icon: "/insurance-icons/mutual-funds-1.png",
         description: "Portfolios tailored to your risk tolerance.",
       },
       {
         title: "Regular Monitoring",
-        icon: "/insurance-icons/mutual-funds-3.png",
+        icon: "/insurance-icons/mutual-funds-2.png",
         description:
           "Periodic reviews to track performance and make informed adjustments.",
       },
       {
         title: "SIP Discipline",
-        icon: "/insurance-icons/mutual-funds-4.png",
+        icon: "/insurance-icons/mutual-funds-3.png",
         description:
           "Encourages consistent investing habits to build long-term wealth through systematic contributions.",
       },

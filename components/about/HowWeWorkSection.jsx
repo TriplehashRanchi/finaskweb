@@ -22,7 +22,7 @@ export default function HowWeWorkSection() {
               <p className="text-gray-300 leading-relaxed font-light text-justify">
                 We begin not with policies or portfolios, but with patient
                 listening  understanding your ambitions, family narratives,
-                business intricacies, and the deeper motivations that drive your
+                business intricacies and the deeper motivations that drive your
                 decisions.
               </p>
             </div>
@@ -85,8 +85,8 @@ export default function HowWeWorkSection() {
               </h4>
               <p className="text-gray-300 leading-relaxed font-light text-md  text-justify">
                 Over the years, we’ve quietly stood beside families as they
-                navigated joyous occasions and life’s inevitable tests. Because
-                FinAsk Value Value, success is not about accounts — it's about lives
+                navigated joyous occasions and life’s inevitable tests. Because At
+                FinAsk Value, success is not about accounts — it's about lives
                 continuing seamlessly.
               </p>
             </div>

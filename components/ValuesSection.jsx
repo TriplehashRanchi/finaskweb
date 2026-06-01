@@ -30,7 +30,7 @@ const values = [
   },
   {
     id: 4,
-    title: "	Growth Mindset - We Grow by Growing You ",
+    title: "Growth Mindset - We Grow by Growing You ",
     description:
       "We believe in evolution, not just returns. Clients grow wealth the right way and our team grows with learning, support and opportunity. No one is stuck — everyone is supported. ",
     icon: "/values-icons/value-4.png",
@@ -44,9 +44,9 @@ const values = [
   },
   {
     id: 6,
-    title: "Built on Collaboration  ",
+    title: "Built on Collaboration & Trust",
     description:
-      "Great outcomes are built through teamwork. We partner with top insurers, fund managers, and experts while internally breaking silos and sharing credit. Results improve when egos leave and collaboration leads.",
+      "Great outcomes are built through teamwork. We partner with top insurers, fund managers and experts while internally breaking silos and sharing credit. Results improve when egos leave and collaboration leads.",
     icon: "/values-icons/value-6.png",
   },
   {

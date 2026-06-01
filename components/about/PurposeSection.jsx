@@ -39,7 +39,7 @@ export default function PurposeSection() {
                   Financial Literacy & Legacy Through workshops and our "1%
                   Pledge", we empower the next generation with the knowledge to
                   build lasting legacies. We prepare heirs not just to inherit
-                  wealth, but to steward values, philanthropy, and family unity.
+                  wealth, but to steward values, philanthropy and family unity.
                 </p>
 
                 <p className="mt-4">

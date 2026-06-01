@@ -21,7 +21,7 @@ export default function WhyWeExistSection() {
   return (
     <section
       id="why-we-exist"
-      className="  px-6 md:px-12 bg-[#FDF9FB] relative overflow-hidden  "
+      className="scroll-mt-[100px] px-6 md:px-12 bg-[#FDF9FB] relative overflow-hidden  "
     >
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col lg:flex-row gap-16">

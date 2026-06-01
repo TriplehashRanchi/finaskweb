@@ -7,7 +7,7 @@ const services = [
   {
     id: 1,
     title: "Insurance",
-    description: "Comprehensive coverage plans designed to protect your assets, health, and loved ones against unforeseen risks.",
+    description: "Comprehensive coverage plans designed to protect your assets, health and loved ones against unforeseen risks.",
     icon: Shield,
   },
   {

@@ -81,7 +81,7 @@ export const businessInsuranceSections = [
     title: "Liability",
     items: [
       {
-        label: "professional indemnity for doctors",
+        label: "Professional indemnity for doctors",
         slug: "prof-indemnity-for-doctors",
       },
       { label: "Professional Indemnity", slug: "professional-indemnity" },

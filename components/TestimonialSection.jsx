@@ -36,14 +36,14 @@ export default function TestimonialSection() {
     {
       id: 1,
       quote:
-        "We truly value the partnership and appreciate the consistent support from your team. The professionalism, timely assistance, and customer-centric approach have made our experience very positive.",
+        "We truly value the partnership and appreciate the consistent support from your team. The professionalism, timely assistance and customer-centric approach have made our experience very positive.",
       author: "Divya Sawhney",
        image: "/testimonial1.png",
     },
     {
       id: 2,
       quote:
-        "Worked with Palash and FinAsk Value Team in the past. Their professionalism, depth of financial knowledge, and genuine commitment to helping clients succeed really sets them apart in the industry.",
+        "Worked with Palash and FinAsk Value Team in the past. Their professionalism, depth of financial knowledge and genuine commitment to helping clients succeed really sets them apart in the industry.",
       author: "Rohit Bhardwaj",
        image: "/testimonial2.png",
     },
@@ -57,7 +57,7 @@ export default function TestimonialSection() {
     {
       id: 4,
       quote:
-        "Palash Malik, Founder and CEO of FinAsk Value, has been very active in providing solutions to any queries related to portfolio management, PMS services, insurance products, and general financial advice. His personalized guidance with a long-term outlook is highly commendable. I recommend FinAsk Value as a service provider of choice for managing personal finances.",
+        "Palash Malik, Founder and CEO of FinAsk Value, has been very active in providing solutions to any queries related to portfolio management, PMS services, insurance products and general financial advice. His personalized guidance with a long-term outlook is highly commendable. I recommend FinAsk Value as a service provider of choice for managing personal finances.",
       author: "Atul Bhola",
        image: "/testimonial4.png",
     },
