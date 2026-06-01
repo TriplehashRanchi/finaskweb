@@ -3,7 +3,7 @@ export const personalInsuranceSections = [
     title: "Health Insurance",
     items: [
       { label: "Health Insurance", slug: "health-insurance" },
-      { label: "Health Super Top-up", slug: "health-super-top-up" },
+      { label: "Health Super Top-Up", slug: "health-super-top-up" },
       {
         label: "Critical Illness ",
         slug: "critical-illness-insurance",
@@ -92,7 +92,7 @@ export const businessInsuranceSections = [
       },
       { label: "Corporate Cyber Insurance", slug: "corporate-cyber-insurance" },
       {
-        label: "Director & Officer's Liability",
+        label: "Directors' & Officers' Liability",
         slug: "director-officers-liability",
       },
     ],

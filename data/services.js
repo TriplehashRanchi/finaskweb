@@ -755,7 +755,7 @@ export const servicesData = [
     uspLayout: "scroll-popup-modal",
     category: "Insurance",
     title: "Marine & Cargo Insurance",
-    tagline: "In Business, Logistics Is More Than Movement It’s A Promise",
+    tagline: "In Business, Logistics Is More Than Movement — It’s A Promise",
     description:
       "A single damaged, lost or delayed consignment can lead to revenue loss, supply chain disruptions or breached contracts—that’s where comprehensive coverage becomes critical. \n Our Marine & Cargo Insurance is tailored for businesses engaged in domestic and international trade. It provides protection against physical loss or damage to goods in transit, across all modes of transportation — air, sea, road or rail. Whether you are shipping raw materials, finished products or high-value equipment, our policies are structured to absorb the risk — not your balance sheet. \n With FinAsk Value, you protect not just your shipments, but your profitability, reliability and business continuity.",
     features: [
