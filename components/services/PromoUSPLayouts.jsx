@@ -9,10 +9,10 @@ export function HorizontalRibbon({ promoTitle, promoText, promoBadges }) {
       <div className="max-w-[1200px] mx-auto flex flex-col lg:flex-row items-center gap-12">
         {/* Left Side: Content & Cards */}
         <div className="w-full lg:w-2/3">
-          <h3 className="font-sans text-3xl md:text-[1.8rem] font-medium text-[#D44659] leading-tight mb-2 pr-0 lg:pr-12">
+          <h3 className="font-sans text-3xl md:text-[1.8rem] font-medium capitalize text-[#D44659] leading-tight mb-2 pr-0 lg:pr-12">
             {promoTitle}
           </h3>
-          <h3 className="font-sans text-3xl md:text-[2.4rem] font-medium leading-[1] text-[#00394E]  mb-10 pr-0 lg:pr-12">
+          <h3 className="font-sans text-3xl md:text-[2.4rem] font-medium capitalize leading-[1] text-[#00394E]  mb-10 pr-0 lg:pr-12">
             {promoText}
           </h3>
 
@@ -23,7 +23,7 @@ export function HorizontalRibbon({ promoTitle, promoText, promoBadges }) {
                 <ShieldCheck className="w-5 h-5" />
               </div>
               <div>
-                <p className="font-bold text-[#00394E] text-[1.1rem] mb-0.5 leading-tight">
+                <p className="font-bold capitalize text-[#00394E] text-[1.1rem] mb-0.5 leading-tight">
                   {promoBadges[0] || "45 Lacs+"}
                 </p>
                 
@@ -47,7 +47,7 @@ export function HorizontalRibbon({ promoTitle, promoText, promoBadges }) {
                 </svg>
               </div>
               <div>
-                <p className="font-bold text-[#00394E] text-[1.1rem] mb-0.5 leading-tight">
+                <p className="font-bold capitalize text-[#00394E] text-[1.1rem] mb-0.5 leading-tight">
                   {promoBadges[1] || "45 Lacs+"}
                 </p>
                
@@ -74,7 +74,7 @@ export function HorizontalRibbon({ promoTitle, promoText, promoBadges }) {
                 </svg>
               </div>
               <div>
-                <p className="font-bold text-[#00394E] text-[1.1rem] mb-0.5 leading-tight">
+                <p className="font-bold capitalize text-[#00394E] text-[1.1rem] mb-0.5 leading-tight">
                   {promoBadges[2] || "45 Lacs+"}
                 </p>
                
@@ -103,19 +103,19 @@ export function HorizontalRibbon({ promoTitle, promoText, promoBadges }) {
 export function FloatingPills({ promoTitle, promoText, promoBadges }) {
   return (
     <div className="w-full px-10 py-16 rounded-xl text-center bg-white">
-      <h3 className=" text-2xl text-[#D44659]  font-medium">{promoText}</h3>
-      <p className=" text-4xl text-[#00394E] leading-tight mb-8 font-medium">
+      <h3 className=" text-2xl capitalize text-[#D44659]  font-medium">{promoText}</h3>
+      <p className=" text-4xl capitalize text-[#00394E] leading-tight mb-8 font-medium">
         {promoTitle}
       </p>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         <div className="rounded-lg bg-[#C8F0B0] px-4 py-3 text-center text-sm font-semibold text-[#245633] ">
-          <p className="text-lg font-bold text-[#00394E]">{promoBadges[0]}</p>
+          <p className="text-lg font-bold capitalize text-[#00394E]">{promoBadges[0]}</p>
         </div>
         <div className="rounded-lg bg-[#C9DCF8] px-4 py-3 text-center text-sm font-semibold text-[#1D4C8F] ">
-          <p className="text-lg font-bold text-[#00394E]">{promoBadges[1]}</p>
+          <p className="text-lg font-bold capitalize text-[#00394E]">{promoBadges[1]}</p>
         </div>
         <div className="rounded-lg bg-[#F0F4F8] px-4 py-3 text-center text-sm font-semibold text-[#00394E] ">
-          <p className="text-lg font-bold text-[#00394E]">{promoBadges[2]}</p>
+          <p className="text-lg font-bold capitalize text-[#00394E]">{promoBadges[2]}</p>
         </div>
       </div>
     </div>
@@ -177,10 +177,10 @@ export function BottomStickyBanner({ promoTitle, promoText, promoBadges }) {
           </div>
 
           <div className="flex-1 relative z-20">
-            <h3 className="  text-4xl text-[#00394E] leading-tight font-medium mb-2">
+            <h3 className="  text-4xl capitalize text-[#00394E] leading-tight font-medium mb-2">
               {promoText}
             </h3>
-            <p className=" text-[1.4rem]  font-semibold text-[#D44659] leading-tight">
+            <p className=" text-[1.4rem] capitalize font-semibold text-[#D44659] leading-tight">
               {promoTitle}
             </p>
           </div>
@@ -258,10 +258,10 @@ export function BottomStickyBlue({ promoTitle, promoText, promoBadges }) {
           </div>
 
           <div className="flex flex-col">
-            <p className="text-[#DAA434] text-3xl  leading-tight font-medium mb-1">
+            <p className="text-[#DAA434] text-3xl capitalize leading-tight font-medium mb-1">
               {promoTitle}
             </p>
-            <h3 className="font-sans text-[1.6rem] md:text-[2rem] font-semibold text-white leading-tight">
+            <h3 className="font-sans text-[1.6rem] md:text-[2rem] font-semibold capitalize text-white leading-tight">
               {promoText}
             </h3>
           </div>
@@ -343,10 +343,10 @@ export function ScrollPopupModal({ promoTitle, promoText, promoBadges }) {
             <img src="/image1.webp" alt="" />
           </div>
 
-          <p className="text-[#DAA434]   font-medium text-[1.1rem] md:text-[1.4rem] mb-1 leading-tight">
+          <p className="text-[#DAA434] capitalize font-medium text-[1.1rem] md:text-[1.4rem] mb-1 leading-tight">
             {promoTitle}
           </p>
-          <h3 className=" text-4xl font-semibold text-[#00394E] leading-[1]">
+          <h3 className=" text-4xl font-semibold capitalize text-[#00394E] leading-[1]">
             {promoText}
           </h3>
         </div>
@@ -355,12 +355,12 @@ export function ScrollPopupModal({ promoTitle, promoText, promoBadges }) {
         <div className="p-8">
           <div className="flex items-center justify-between  gap-3 mb-6">
             <div className="rounded-lg bg-[#C8F0B0] px-4 py-3 text-center text-sm  font-semibold text-[#245633] ">
-              <p className="text-lg font-semibold text-[#00394E]">
+              <p className="text-lg capitalize font-semibold text-[#00394E]">
                 {promoBadges[0]}
               </p>
             </div>
             <div className="rounded-lg bg-[#C9DCF8] px-4 py-3 text-center text-sm font-semibold text-[#1D4C8F] ">
-              <p className="text-lg font-semibold text-[#00394E]">
+              <p className="text-lg font-semibold capitalize text-[#00394E]">
                 {promoBadges[1]}
               </p>
             </div>
