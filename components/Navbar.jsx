@@ -254,7 +254,7 @@ export default function Navbar() {
     { name: "Legal Advisory", slug: "legal-advisory" },
     { name: "Tax Advisory", slug: "tax-advisory" },
     { name: "Financial Literacy Workshop", slug: "financial-literacy" },
-    { name: "Credit cards", slug: "credit-cards" },
+    { name: "Credit Cards", slug: "credit-cards" },
     {
       name: "Health Assistance",
       slug: "health-assistance",

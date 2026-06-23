@@ -5,7 +5,7 @@ export const personalInsuranceSections = [
       { label: "Health Insurance", slug: "health-insurance" },
       { label: "Health Super Top-Up", slug: "health-super-top-up" },
       {
-        label: "Critical Illness ",
+        label: "Critical Illness Cover",
         slug: "critical-illness-insurance",
       },
       {

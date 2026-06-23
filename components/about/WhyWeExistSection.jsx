@@ -28,7 +28,7 @@ export default function WhyWeExistSection() {
           {/* LEFT COLUMN: Large Stats */}
           <div className="w-full lg:w-[50%] flex flex-col relative  py-10">
             {/* Top Label */}
-            <h5 className="text-[#00394E] font-bold text-2xl tracking-widest uppercase">
+            <h5 className="text-[#00394E] text-center -ml-12 font-bold text-2xl tracking-widest uppercase">
               Why we exist ?
             </h5>
 
@@ -37,7 +37,7 @@ export default function WhyWeExistSection() {
               <span className="text-[14rem] sm:text-[16rem] leading-none font-medium text-[#00394E] font-sans -ml-2 sm:-ml-4 tracking-tighter">
                 8+
               </span>
-              <div className="writing-vertical-rl rotate-90 text-xs sm:text-sm font-bold tracking-[0.2em] text-[#DAA434] h-[12rem] sm:h-[16rem] mt-6 sm:mt-8 -ml-10 sm:-ml-16 self-start">
+              <div className="writing-vertical text-center rotate-90 text-xs sm:text-lg font-bold tracking-[0.2em] text-[#DAA434] h-[12rem] sm:h-[16rem] mt-6 sm:mt-8 -ml-10 sm:-ml-32 self-center">
                 YEARS OF SERVING <br /> FAMILIES
               </div>
             </div>
@@ -45,7 +45,7 @@ export default function WhyWeExistSection() {
             {/* Clients / Reviews */}
             <div className="flex items-center gap-6 mt-8 pl-2">
               <div className="flex -space-x-4">
-                {image.map((i) => (
+                {/* {image.map((i) => (
                   <div
                     key={i}
                     className="w-12 h-12 rounded-full border-2 border-white bg-gray-200 relative overflow-hidden"
@@ -57,15 +57,13 @@ export default function WhyWeExistSection() {
                       className="object-cover"
                     />
                   </div>
-                ))}
+                ))} */}
               </div>
               <div className="flex flex-col">
-                <p className="font-bold text-[#00394E] text-sm tracking-wide uppercase leading-tight">
-                  MORE THAN 5000+ FAMILIES
+                <p className="font-bold text-[#00394E]  text-lg tracking-wide uppercase leading-tight">
+                  MORE THAN 5000+ FAMILIES SERVED
                 </p>
-                <p className="text-sm text-[#00394E] font-medium tracking-wide uppercase">
-                  SERVED
-                </p>
+               
               </div>
             </div>
 
@@ -97,7 +95,7 @@ export default function WhyWeExistSection() {
 
             <div className="relative w-full h-[350px]   overflow-hidden shadow-xl mt-4 group">
               <Image
-                src="/why.jpg"
+                src="/why.jpeg"
                 alt="Team Working"
                 fill
                 className="object-cover transition-transform duration-700 group-hover:scale-105"

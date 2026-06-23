@@ -14,13 +14,13 @@ export default function EthosSection() {
           {/* Intro Text */}
           <div className="mb-8">
             <p className="text-lg  text-[#00394E] font-semibold leading-[1.4] text-justify ">
-              <strong className="text-[#00394E] font-bold">
+              <span className="text-[#00394E] font-semibold">
                 Wealth is not a balance sheet.
-              </strong>{" "}
+              </span>{" "}
               It is a child’s future funded without stress. A retirement that
               gives back more than it takes. It is the joy of giving, the calm
               of knowing, the quiet power of being prepared. At{" "}
-              <span className="text-[#00394E] font-bold">FinAsk Value</span>, we
+              <span className="text-[#00394E] font-semibold">FinAsk Value</span>, we
               believe that wealth is not just grown. It is stewarded with care,
               with clarity and with character.
             </p>

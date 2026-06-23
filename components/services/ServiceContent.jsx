@@ -91,7 +91,7 @@ export default function ServiceContent({ service, hideFaq = false }) {
                       <div className="w-8 h-8 rounded-full bg-[#00394E]/5 flex items-center justify-center shrink-0  transition-colors">
                         <CheckCircle className="w-4 h-4 text-[#00394E]   transition-colors" strokeWidth={2.5} />
                       </div>
-                      <p className="text-slate-700 font-medium text-[0.95rem] leading-snug">{b}</p>
+                      <p className="text-slate-700 font-medium text-md leading-snug">{b}</p>
                     </div>
                   ))}
                 </div>
@@ -107,9 +107,18 @@ export default function ServiceContent({ service, hideFaq = false }) {
                   elements.push(renderBullets(currentBullets, i));
                   currentBullets = [];
                 }
-                if (trimmed) {
-                  elements.push(<p key={`p-${i}`} className="mb-2">{line}</p>);
-                }
+              if (trimmed.toLowerCase() === "we work with:") {
+                elements.push(
+                  <h3
+                    key={`heading-${i}`}
+                    className="mt-10 mb-5 text-[#00394E] text-xl"
+                  >
+                    {line}
+                  </h3>
+                );
+              } else {
+                elements.push(<p key={`p-${i}`} className="mb-2">{line}</p>);
+              }
               }
             });
 

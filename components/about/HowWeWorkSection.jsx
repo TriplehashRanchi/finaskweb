@@ -15,15 +15,12 @@ export default function HowWeWorkSection() {
 
           {/* Step 1: Listening */}
           <div className="flex flex-col md:flex-row items-center justify-between mb-14 relative group">
-            <div className="w-full md:w-[45%] text-right pr-0 md:pr-12 mb-8 md:mb-0 order-2 md:order-1">
+            <div className="w-full md:w-[45%] text-left pr-0 md:pr-12 mb-8 md:mb-0 order-2 md:order-1">
               <h3 className="text-2xl font-serif font-bold text-[#DAA434] mb-4">
                 Patient Listening
               </h3>
               <p className="text-gray-300 leading-relaxed font-light text-justify">
-                We begin not with policies or portfolios, but with patient
-                listening  understanding your ambitions, family narratives,
-                business intricacies and the deeper motivations that drive your
-                decisions.
+                We begin not with policies or portfolios, but with listening carefully to understand your ambitions, family aspirations, business complexities, and the deeper motivations that drive your decisions.
               </p>
             </div>
             <div className="absolute left-1/2 -translate-x-1/2 w-4 h-4 rounded-full bg-[#DAA434] border-4 border-[#00394E] z-10 hidden md:block shadow-[0_0_15px_rgba(218,164,52,0.5)] group-hover:scale-125 transition-transform duration-500" />
@@ -78,13 +75,13 @@ export default function HowWeWorkSection() {
 
           {/* Step 3: Living Richly */}
           <div className="flex flex-col md:flex-row items-center justify-between   relative group">
-            <div className="w-full md:w-[45%] text-right pr-0 md:pr-12 mb-8 md:mb-0 order-2 md:order-1">
+            <div className="w-full md:w-[45%] text-left pr-0 md:pr-12 mb-8 md:mb-0 order-2 md:order-1">
            
               <h4 className="text-2xl font-serif font-bold text-[#DAA434] mt-6 mb-2">
                 A Partnership Across Generations
               </h4>
               <p className="text-gray-300 leading-relaxed font-light text-md  text-justify">
-                Over the years, we’ve quietly stood beside families as they
+                Over the years, we have quietly stood beside families as they
                 navigated joyous occasions and life’s inevitable tests. Because At
                 FinAsk Value, success is not about accounts — it's about lives
                 continuing seamlessly.

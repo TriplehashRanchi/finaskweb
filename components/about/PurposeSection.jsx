@@ -27,27 +27,18 @@ export default function PurposeSection() {
                 </h2>
 
                 <p className=" text-lg text-gray-400 leading-relaxed  text-justify">
-                  True wealth is measured by the good it does. Our success is
-                  intrinsically linked to the well-being of the communities we
-                  serve.
+                  True wealth is measured by the good it does. Our success is intrinsically linked to the well-being of the communities we serve.
                 </p>
               </div>
 
               {/* User Content: Concise Paragraphs */}
               <div className="  text-lg text-gray-400 leading-relaxed text-justify">
                 <p className="mb-4">
-                  Financial Literacy & Legacy Through workshops and our "1%
-                  Pledge", we empower the next generation with the knowledge to
-                  build lasting legacies. We prepare heirs not just to inherit
-                  wealth, but to steward values, philanthropy and family unity.
+                  Through Financial Literacy & Legacy workshops and our "1% Pledge", we empower the next generation with the knowledge to build lasting legacies. We prepare heirs not just to inherit wealth, but to steward values, philanthropy and family unity.
                 </p>
 
                 <p className="mt-4">
-                  Sustainable Growth & Community We invest in businesses and
-                  initiatives that prioritize ethical practices and build a
-                  better future for all. Success is shared we actively
-                  participate in and contribute to the local ecosystems where we
-                  operate.
+                 We are committed to fostering sustainable growth by investig in businesses and initiatives that prioritize ethical practices and build a better future for all. By  contributing to the ecosystems in which we operate, we strive to create opportunities, drive positive change and ensure success is shared by all.
                 </p>
               </div>
             </div>

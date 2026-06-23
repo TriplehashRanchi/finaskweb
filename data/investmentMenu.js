@@ -39,7 +39,7 @@ export const investmentSections = [
         slug: "alternative-fixed-income",
       },
       {
-        label: "Specialised Investment Fund",
+        label: "Specialized Investment Funds",
         slug: "specialised-investment-fund",
       },
       ,

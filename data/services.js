@@ -9,7 +9,7 @@ export const servicesData = [
     title: "Health Insurance",
     tagline: "So Your Wellbeing Remains Untouched by Financial Anxiety",
     description:
-      "Good health underpins every other joy — from milestones celebrated to simple everyday contentment. Yet the rising intricacies and costs of medical care can quickly erode even the most robust fortunes if left unguarded. \n At FinAsk Value, we help you find discreet, sophisticated health coverage that stands silently by your side. Whether for your aging parents, a globe-trotting lifestyle or simply to insulate your wealth against life’s medical surprises — we curate solutions that protect both your family’s wellbeing and your long-term aspirations.",
+      "Good health underpins every other joy — from milestones celebrated to simple everyday contentment. Yet the rising intricacies and costs of medical care can quickly erode even the most robust fortunes if left unguarded. \n At FinAsk Value, we help you find discreet, sophisticated health coverage that stands silently by your side. Whether for your aging parents, a globe-trotting lifestyle or simply to insulate your wealth against life’s medical surprises, we curate solutions that protect both your family’s wellbeing and your long-term aspirations.",
     features: [
       {
         title: "Comprehensive Coverage",
@@ -38,7 +38,7 @@ export const servicesData = [
       {
         question: "How does No Claim Bonus benefit me?",
         answer:
-          "With every claim-free year, your coverage increases (as per policy terms). This means you get a larger financial cushion for future medical emergencies — without paying proportionately higher premiums. It’s a smart way to build protection year after year.",
+          "With every claim-free year, your coverage increases (as per policy terms). This means you get a larger financial cushion for future medical emergencies without paying proportionately higher premiums. It’s a smart way to build protection year after year.",
       },
       {
         question: "Can I increase my coverage later?",
@@ -73,7 +73,7 @@ export const servicesData = [
     title: "Health Super Top-Up",
     tagline: "Because the Unforeseen Often Exceeds Conventional Bounds",
     description:
-      "Even substantial base health covers may falter before the staggering costs of advanced treatments or repeat hospitalizations. A Health Super Top-Up creates a prudent second layer — activating precisely when your primary plan’s limits are surpassed. \n It’s an astute strategy to command expansive protection without exorbitant premiums, allowing your portfolio to remain dedicated to growth rather than unplanned liquidation. \n With rising medical inflation, it’s no longer optional — it’s essential foresight. So, when life tests your resilience, your finances stand unshaken.",
+      "Even substantial base health covers may falter before the staggering costs of advanced treatments or repeat hospitalizations. A Health Super Top-Up creates a prudent second layer, activating precisely when your primary plan’s limits are surpassed. \n It’s an astute strategy to command expansive protection without exorbitant premiums, allowing your portfolio to remain dedicated to growth rather than unplanned liquidation. \n With rising medical inflation, it’s no longer optional; it’s essential foresight. So, when life tests your resilience, your finances stand unshaken.",
     features: [
       {
         title: "High Leverage",
@@ -104,7 +104,7 @@ export const servicesData = [
         question:
           "Do I need a Base Policy before buying a Health Super Top-Up?",
         answer:
-          "Yes, it is recommended to have a base policy equal to or higher than the deductible amount for proper coverage.",
+          "Yes, it is recommended to have a Base Policy equal to or higher than the deductible amount for proper coverage.",
       },
       {
         question: "Can I cover my family members under the same plan?",
@@ -139,7 +139,7 @@ export const servicesData = [
     category: "Insurance",
     title: "Personal Accident Insurance",
     tagline:
-      "Because Life’s Minor Stumbles Should Not Disrupt Its Grander Designs.",
+      "Because Life’s Minor Stumbles Should Not Disrupt Its Grander Designs",
     description:
       "Accidents rarely seek permission. A brief mishap can momentarily pause income or, in more severe cases, permanently alter earning trajectories. Personal Accident coverage ensures your household’s rhythm continues unbroken — supporting recoveries and sustaining ambitions with quiet financial reinforcement.\nIt’s more than a payout; it’s a promise that dreams remain intact, children’s plans stay on course and daily comforts do not give way to compromises.\nFrom covering medical costs to providing income replacement and long-term disability benefits, this shield steps in precisely when life feels most uncertain — so your future’s financial stability stays undisturbed.",
     features: [
@@ -201,10 +201,10 @@ export const servicesData = [
     slug: "critical-illness-insurance",
     uspLayout: "scroll-popup-modal",
     category: "Insurance",
-    title: "  Critical Illness Insurance",
-    tagline: "So That Healing Never Demands Dismantling Your Legacy.",
+    title: "  Critical Illness Cover",
+    tagline: "So That Healing Never Demands Dismantling Your Legacy",
     description:
-      "Confronting a serious diagnosis is challenging enough without the added strain of sourcing funds or restructuring investments. Critical Illness Insurance offers a dignified, immediate payout upon diagnosis, empowering you to secure superior care and protect your family’s accustomed lifestyle — all without distressing your long-horizon financial plans.\n\nIt ensures that while you focus on recovery, your ambitions, your children’s education and your family’s day-to-day comfort continue undeterred.\nBecause true financial planning does not just anticipate the best — it thoughtfully prepares for the unexpected.",
+      "Confronting a serious diagnosis is challenging enough without the added strain of sourcing funds or restructuring investments. Critical Illness Insurance offers a dignified, immediate payout upon diagnosis, empowering you to secure superior care and protect your family’s accustomed lifestyle, all without distressing your long-horizon financial plans.\n\nIt ensures that while you focus on recovery, your ambitions, your children’s education and your family’s day-to-day comfort continue undeterred.\nBecause true financial planning does not just anticipate the best; it thoughtfully prepares for the unexpected.",
     features: [
       {
         title: "Second Medical Opinion",
@@ -260,7 +260,7 @@ export const servicesData = [
     faqSection: {
       promoTitle: "Digital policy issuance",
       promoText: "Dedicated Relationship manager",
-      promoBadges1: "60 minutes claim support**",
+      promoBadges1: "60-minute claim support**",
       promoBadges2: "10k + Happy Customers",
     },
   },
@@ -374,7 +374,7 @@ export const servicesData = [
     backgroundPosition: "center",
     faqSection: {
       promoTitle: " ",
-      promoText: "up to 10% discount ** ",
+      promoText: "Up to 10% discount ** ",
       promoBadges1: "Digital Policy Issuance",
       promoBadges2: "Now on GST (18% cheaper)",
     },
@@ -2669,7 +2669,7 @@ export const servicesData = [
     uspLayout: "original",
     category: "Investments",
     title: "Mutual Funds",
-    tagline: "Because Steady Compounding Is Built on Discipline, Not Impulse.",
+    tagline: "Because Steady Compounding Is Built on Discipline, Not Impulse",
     description:
       "Mutual funds offer a versatile way to participate in equity, debt or hybrid markets — guided by robust research and diversified exposure. We curate fund baskets that match your life goals, tax needs and comfort with volatility, so your investments compound meaningfully over the long term. With us, SIPs become more than monthly deductions; they become milestones toward your financial aspirations.",
     features: [
@@ -2957,7 +2957,7 @@ export const servicesData = [
       {
         question: "What is the minimum ticket size for investment in SIF?",
         answer:
-          "The minimum investment ticket size for investment in SIF is ₹10 lakhs.",
+          "The minimum ticket size for investment in SIF is ₹10 Lakhs.",
       },
       {
         question: "How liquid are SIF investments?",
@@ -2990,8 +2990,7 @@ export const servicesData = [
     category: "Investments",
     title: "Bonds",
     tagline: "Building Calm Amidst the Clamor",
-    description:
-      "In a world that often rewards speed and speculation, some investors prefer the quiet dignity of certainty. Bonds offer precisely this—capital preservation paired with predictable income, creating a foundation upon which aspirations can securely rest.\nNavigating thousands of bond issuances—each with distinct ratings, coupon structures and market dynamics—requires more than a glance at yield tables. We evaluate credit histories, macro-economic overlays and your personal liquidity map to curate options that serve both immediate and intergenerational needs.\nOur advisory team also manages demat allocations, monitors coupon flows and assists with maturity reinvestment—turning fixed income into a quietly compounding ally.",
+    description:"In a world that often rewards speed and speculation, some investors prefer the quiet dignity of certainty. Bonds offer precisely this: capital preservation paired with predictable income, creating a foundation upon which aspirations can securely rest. \n Navigating thousands of bond issuances, each with distinct ratings, coupon structures and market dynamics, requires more than a glance at yield tables. We evaluate credit histories, macroeconomic conditions and your personal liquidity needs to curate options that support both immediate goals and long-term wealth preservation.\n Our advisory team also manages demat allocations, monitors coupon flows and assists with maturity reinvestment. This transforms fixed-income investments into a dependable ally in your financial journey, steadily working toward your objectives over time.",
     features: [
       {
         title: "Capital Preservation",
@@ -3144,7 +3143,7 @@ export const servicesData = [
       {
         question: "Who can invest in AIFs?",
         answer:
-          "AIFs are typically designed for High Net-Worth Individuals (HNIs), Ultra-HNIs, family offices and institutional investors who understand market risks and long-term investment horizons.",
+          "AIFs are typically designed for High-Net-Worth Individuals (HNIs), Ultra-HNIs, family offices and institutional investors who understand market risks and long-term investment horizons.",
       },
       {
         question: "What is the minimum investment required in AIF?",
@@ -3154,7 +3153,7 @@ export const servicesData = [
       {
         question: "What are the different categories of AIFs?",
         answer:
-          "AIFs are broadly classified into:\nCategory I – Venture Capital, Startups, Infrastructure, Social Ventures\nCategory II – Private Equity, Debt Funds\nCategory III – Hedge Funds and complex trading strategies",
+          "AIFs are broadly classified into:\nCategory I – Venture Capital, Startups, Infrastructure, Social Ventures, Category II – Private Equity, Debt Funds and Category III – Hedge Funds and complex trading strategies",
       },
       {
         question: "Why consider AIFs in a portfolio?",
@@ -3178,7 +3177,7 @@ export const servicesData = [
     title: "Unlisted Equity",
     tagline: "Investing Where Vision Meets Venture",
     description:
-      "Some opportunities never appear on stock tickers. They live in boardrooms of high-growth companies still charting their scale-up journeys—fintech leaders yet to list, consumer brands preparing for IPO or late-stage startups opening pre-IPO rounds.\n At FinAsk Value, we connect you to these curated unlisted plays—Because accessing these deals requires more than capital—it demands relationships, diligence and precise timing. We assess financials, business models and sector outlooks, structure your entry for optimal eventual liquidity and align this exposure with your overall portfolio—so private equity remains a complement, not a risk amplifier.",
+      "Some opportunities never appear on stock tickers. They live in boardrooms of high-growth companies still charting their scale-up journeys—fintech leaders yet to list, consumer brands preparing for IPO or late-stage startups opening pre-IPO rounds.\n At FinAsk Value, we connect you to these curated unlisted plays—because accessing these deals requires more than capital—it demands relationships, diligence and precise timing. We assess financials, business models and sector outlooks, structure your entry for optimal eventual liquidity and align this exposure with your overall portfolio—so private equity remains a complement, not a risk amplifier.",
     features: [
       {
         title: "Pre- IPO Access",
@@ -3205,7 +3204,7 @@ export const servicesData = [
       {
         question: "Who should invest in Unlisted Equity?",
         answer:
-          "Unlisted equity is generally suitable for informed investors or High-Net-Worth Individuals who have a higher risk appetite and a long-term investment horizon.",
+          "Unlisted Equity is generally suitable for informed investors or High-Net-Worth Individuals who have a higher risk appetite and a long-term investment horizon.",
       },
       {
         question: "Is Unlisted Equity risky?",
@@ -3240,7 +3239,7 @@ export const servicesData = [
     tagline:
       "Because Real Estate Returns Should Not Require Real Estate Headaches",
     description:
-      "Real Estate Investment Trusts (REITs)  offer a seamless way to invest in large-scale, income-generating real estate—such as malls, office parks, residential properties and logistics centers—without buying property outright. Traded like stocks, these trusts blend the tangibility of real estate with the convenience and liquidity of modern investing.\n FinAsk Value helps you integrate REITs into your portfolio as a stable, yield-generating asset class with long-term upside and regular payouts.\n Build your portfolio with concrete value—without laying a single brick.",
+      "Real Estate Investment Trusts (REITs)  offer a seamless way to invest in large-scale, income-generating real estate, such as malls, office parks, residential properties and logistics centers—without buying property outright. Traded like Stocks, these Trusts blend the tangibility of real estate with the convenience and liquidity of modern investing.\n FinAsk Value helps you integrate REITs into your portfolio as a stable, yield-generating asset class with long-term upside and regular payouts, enabling you to build your portfolio with concrete value without laying a single brick.",
     features: [
       {
         title: "Corpus Calculation",
@@ -3331,7 +3330,7 @@ export const servicesData = [
       {
         question: "What is the structure of an InvIT?",
         answer:
-          "An InvIT typically has a trust structure with a sponsor, investment manager, project manager and trustee overseeing operations and compliance.",
+          "An InvIT typically has a Trust structure with a sponsor, investment manager, project manager and trustee overseeing operations and compliance.",
       },
       {
         question:
@@ -3340,7 +3339,7 @@ export const servicesData = [
           "Public InvITs are listed and available to retail investors, while Private InvITs are unlisted and typically accessible only to institutional or large investors.",
       },
       {
-        question: "What is distribution payout frequency in InvITs?",
+        question: "What is the distribution payout frequency in InvITs?",
         answer:
           "Most InvITs provide quarterly or semi-annual distributions depending on cash flow generation.",
       },
@@ -3366,7 +3365,7 @@ export const servicesData = [
     title: "Fractional Commercial Real Estate",
     tagline: "Because Progress Should Not Require Owning the Whole Skyline",
     description:
-      "It is an innovative investment solution that allows investors to own a share of high-quality, income-generating commercial properties such as office spaces, warehouses and retail assets without the need for large capital outlays. By pooling funds with other investors, you gain access to premium real estate opportunities that were traditionally available only to large institutions or HNI investors. This asset class offers the potential for stable rental income, capital appreciation and portfolio diversification. With professional management, transparency and lower entry barriers, fractional ownership makes commercial real estate more accessible, efficient and aligned with modern investment needs.",
+      "It is an innovative investment solution that allows investors to own a share of high-quality, income-generating commercial properties such as office spaces, warehouses and retail assets without the need for large capital outlays. By pooling funds with other investors, you gain access to premium real estate opportunities that were traditionally available only to large institutions or HNI investors. This asset class offers the potential for stable rental income, capital appreciation and portfolio diversification. With professional management, transparency and lower entry barriers, Fractional Ownership makes commercial real estate more accessible, efficient and aligned with modern investment needs.",
     features: [
       {
         title: "Diversified Real Asset Exposure",
@@ -3400,7 +3399,7 @@ export const servicesData = [
           "Investors pool funds to purchase a commercial asset (like office spaces or warehouses) through a structured platform or SPV (Special Purpose Vehicle). Rental income and potential appreciation are shared proportionately.",
       },
       {
-        question: "How liquid is fractional real estate?",
+        question: "How liquid is Fractional Real Estate?",
         answer:
           " It is less liquid than listed instruments, though some platforms offer secondary market exits or structured buyback options.",
       },
@@ -3412,7 +3411,7 @@ export const servicesData = [
       {
         question: "Is Fractional Ownership regulated?",
         answer:
-          "Regulation varies by structure; some platforms operate under SEBI guidelines or alternative investment frameworks, while others function through private agreements.",
+          "Regulation varies by structure, some platforms operate under SEBI guidelines or Alternative Investment Frameworks, while others function through private agreements.",
       },
     ],
     bgImage: "/finask/fractional.webp",
@@ -3431,7 +3430,7 @@ export const servicesData = [
     title: "Peer-to-Peer Lending",
     tagline: "Elevating Fixed Income with Thoughtful Innovation",
     description:
-      "Not every investor is drawn to the pulse of markets. Many seek stable, predictable returns—but wish to surpass traditional fixed deposit yields. Peer-to-Peer Lending, when curated and monitored diligently, offers such an elegant middle path. \n At FinAsk Value, we approach P2P Lending as a structured fixed income strategy—not a speculative tech fad. Whether you are a retiree desiring monthly income, a professional diversifying surplus or an HNI layering alternative fixed income alongside bonds and FDRs, P2P Lending can complement your strategy. \n We handle everything from platform selection and borrower diversification to ongoing risk monitoring, so your fixed income evolves with clarity and calm.",
+      "Not every investor is drawn to the pulse of markets. Many seek stable, predictable returns—but wish to surpass traditional fixed deposit yields. Peer-to-Peer Lending, when curated and monitored diligently, offers such an elegant middle path. \n At FinAsk Value, we approach P2P Lending as a structured fixed income strategy—not a speculative tech fad. Whether you are a retiree desiring monthly income, a professional diversifying surplus or an HNI layering Alternative Fixed Income alongside Bonds and FDRs, P2P Lending can complement your strategy. \n We handle everything from platform selection and borrower diversification to ongoing risk monitoring, so your fixed income evolves with clarity and calm.",
     features: [
       {
         title: "Enhance Yields",
@@ -3473,7 +3472,7 @@ export const servicesData = [
       {
         question: "Is P2P Lending risky?",
         answer:
-          "Yes, P2P Lending carries credit risk — borrowers may default on repayments. Diversifying across multiple borrowers helps reduce risk.",
+          "Yes, P2P Lending carries credit risk, as borrowers may default on repayments. Diversifying across multiple borrowers helps reduce risk.",
       },
     ],
     bgImage: "/finask/p2p.webp",
@@ -3492,7 +3491,7 @@ export const servicesData = [
     title: "Alternative Fixed Income",
     tagline: "When Smart Innovation Meets Predictable Returns",
     description:
-      "Fixed income does not have to be monotonous. Beyond bonds and deposits lie avenues like Market-Linked Debentures, Invoice Discounting and Tech-Driven Supply Chain Finance—each crafted to generate 9%–14% returns while balancing varying degrees of liquidity and risk.\nFinAsk Value, we make this universe approachable. We vet platforms, examine issuer balance sheets and design diversified allocations so you can benefit from structured income without undue exposure. Because true wealth stewardship means knowing how to weave traditional and alternative fabrics into a single, resilient financial tapestry.",
+      "Fixed income does not have to be monotonous. Beyond bonds and deposits lie avenues like Market-Linked Debentures, Invoice Discounting and Tech-Driven Supply Chain Finance—each crafted to generate 9%–14% returns while balancing varying degrees of liquidity and risk.\nAt FinAsk Value, we make this universe approachable. We vet platforms, examine issuer balance sheets and design diversified allocations so you can benefit from structured income without undue exposure. Because true wealth stewardship means knowing how to weave traditional and alternative fabrics into a single, resilient financial tapestry.",
     features: [
       {
         title: "Capital Preservation",
@@ -3560,7 +3559,7 @@ export const servicesData = [
     title: "Corporate Fixed Deposits",
     tagline: "Combining Familiar Stability with Enhanced Yield",
     description:
-      "For many investors, Fixed Deposits have long signified financial prudence. Yet Traditional bank FDs often underperform inflation. Corporate FDRs offer a refined alternative—delivering higher yields through reputable NBFCs and corporates, backed by rigorous credit ratings.\n At FinAsk Value, we navigate this terrain carefully. Because with fixed income, it’s not just about rates—it’s about safeguarding stability with informed discretion.",
+      "For many investors, Fixed Deposits have long signified financial prudence. Yet Traditional Bank FDs often underperform inflation. Corporate FDRs offer a refined alternative—delivering higher yields through reputable NBFCs and corporates, backed by rigorous credit ratings.\n At FinAsk Value, we navigate this terrain carefully. Because with fixed income, it’s not just about rates—it’s about safeguarding stability with informed discretion.",
     features: [
       {
         title: "Higher Rates",
@@ -3744,7 +3743,7 @@ export const servicesData = [
     title: "National Pension System ",
     tagline: "Building a Retirement That Honours Your Efforts",
     description:
-      "Retirement is not the conclusion of earning—it’s the moment your lifetime of discipline begins to work for you. It’s when the fruits of your labour, invested wisely over decades, transform into dignified security and freedom.\nThe National Pension System (NPS) is one of India’s most robust instruments to shape this chapter—Whether you are a salaried executive optimizing deductions, an entrepreneur without employer pensions or an NRI anchoring part of your retirement in India, NPS provides a versatile platform. \n At FinAsk Value, we simplify this entire landscape — from selecting among top-tier pension fund managers to guiding optimal equity exposure based on your horizon, recalibrating annually and planning your eventual annuity so post-retirement income feels seamless.",
+      "Retirement is not the conclusion of earning—it’s the moment your lifetime of discipline begins to work for you. It’s when the fruits of your labour, invested wisely over decades, transform into dignified security and freedom.\nThe National Pension System (NPS) is one of India’s most robust instruments to shape this chapter—whether you are a salaried executive optimizing deductions, an entrepreneur without employer pensions or an NRI anchoring part of your retirement in India, NPS provides a versatile platform. \n At FinAsk Value, we simplify this entire landscape — from selecting among top-tier pension fund managers to guiding optimal equity exposure based on your horizon, recalibrating annually and planning your eventual annuity so post-retirement income feels seamless.",
     features: [
       {
         title: "Tax Efficiency",
@@ -3930,7 +3929,7 @@ export const servicesData = [
     uspLayout: "floating-pills",
     category: "Investment Planning",
     title: "Step-Up SIP",
-    tagline: "Invest More As You Grow, Achieve More With Time.",
+    tagline: "Invest More As You Grow, Achieve More With Time",
     description:
       "A Step-Up SIP is a smart and disciplined way to grow your wealth by gradually increasing your investment amount over time. It allows you to start with a comfortable monthly contribution and automatically step it up at regular intervals typically in line with your rising income. This strategy not only helps you stay ahead of inflation but also accelerates wealth creation through the power of compounding. It is ideal for salaried individuals and long-term investors. It ensures that your investments evolve with your financial growth, helping you achieve your life goals more efficiently without feeling a financial burden.",
     features: [
@@ -3994,7 +3993,7 @@ export const servicesData = [
     uspLayout: "bottom-sticky-banner",
     category: "Goal Planning",
     title: "Trust Formation",
-    tagline: "Safeguard Today. Shape Tomorrow.",
+    tagline: "Safeguard Today. Shape Tomorrow",
     description:
       "True wealth extends beyond mere accumulation; it is measured by how thoughtfully it is preserved and how purposefully it is passed on. For families, business owners and philanthropists alike, establishing a Trust remains one of the most nuanced tools to secure a legacy — ensuring your assets are protected, your intentions honoured and your loved ones provided for without complication or conflict.\nA Trust legally transfers assets from you, the settlor, to chosen trustees, who hold and manage these for beneficiaries under carefully designed terms. From Private Family Trusts that prioritize multi-generational wealth transfer, to irrevocable structures that shield assets from potential liabilities, to discretionary models that offer flexibility in distributions — each Trust serves as a bespoke safeguard for what matters most.\n At FinAsk Value, we coordinate the entire journey — advising on Trust structures, engaging premier legal partners, ensuring regulatory compliance and guiding you through post-formation nuances such as audits and trustee management. Because for legacies to last, they must be built on clarity, control and confidence.",
     features: [
@@ -4032,7 +4031,7 @@ export const servicesData = [
       {
         question: "What is a Private Family Trust?",
         answer:
-          "It is a trust created for the benefit of family members, helping in tax planning, asset protection and succession.",
+          "It is a Trust created for the benefit of family members, helping in tax planning, asset protection and succession.",
       },
       {
         question: "Can I be a trustee?",
@@ -4042,7 +4041,7 @@ export const servicesData = [
       {
         question: "Are Trusts revocable?",
         answer:
-          "Trusts can be revocable (can be cancelled) or irrevocable (permanent). Irrevocable trusts offer better asset protection.",
+          "Trusts can be revocable (can be cancelled) or irrevocable (permanent). Irrevocable Trusts offer better asset protection.",
       },
     ],
     bgImage: "/finask/trust.png",
@@ -4061,7 +4060,7 @@ export const servicesData = [
     title: "Will Writing",
     tagline: "A Gentle Blueprint for Lasting Peace",
     description:
-      "A lifetime of diligence deserves more than just fond memories; it deserves clear direction. Yet, many individuals delay writing a Will, inadvertently leaving behind a maze of legal uncertainties and emotional strain for those they cherish most.\nAt FinAsk Value, we bring empathy and expertise together to simplify the process of creating a Will that’s both legally robust and deeply personal. By clearly outlining how your assets — from properties and investments to heirlooms and guardianships — should be distributed, a well-crafted Will ensures your family navigates the future with certainty, not confusion.\nWe view Will writing not as a somber task, but as an empowering opportunity to guide your family with love and forethought — ensuring they receive your wealth with gratitude, not grievances.",
+      "A lifetime of diligence deserves more than just fond memories; it deserves clear direction. Yet, many individuals delay writing a Will, inadvertently leaving behind a maze of legal uncertainties and emotional strain for those they cherish most.\nAt FinAsk Value, we bring empathy and expertise together to simplify the process of creating a Will that’s both legally robust and deeply personal. By clearly outlining how your assets — from properties and investments to heirlooms and guardianships should be distributed. A well-crafted Will ensures your family navigates the future with certainty, not confusion.\nWe view Will Writing not as a somber task, but as an empowering opportunity to guide your family with love and forethought, ensuring they receive your wealth with gratitude, not grievances.",
     features: [
       {
         title: "Legal Clarity",
@@ -4123,7 +4122,7 @@ export const servicesData = [
     tagline:
       "Because Legacies Deserve More Than Emotion — They Deserve Precise Execution",
     description:
-      "Wills and Trusts hold your intentions, but it is the executor who ensures they come alive, without delay, dispute or dilution. Our Executor services stand as an unwavering hand to manage distributions, settle obligations and uphold your wishes with absolute integrity.\n\nSo your lifetime of effort becomes a source of harmony, not heartache, for those you leave behind.\n At FinAsk Value, our Executor Services go beyond paperwork. We step in with compassion, clarity and complete confidentiality—coordinating with legal, financial and family stakeholders to ensure every step reflects your intent. Whether it’s handling complex assets, addressing cross-border beneficiaries or mediating sensitive transitions, we provide the calm, competent presence your legacy deserves. Because honouring your life’s work should not be left to chance.",
+      "Wills and Trusts hold your intentions, but it is the executor who ensures they come alive, without delay, dispute or dilution. Our Executor Services stand as an unwavering hand to manage distributions, settle obligations and uphold your wishes with absolute integrity.\n\nSo, your lifetime of effort becomes a source of harmony, not heartache, for those you leave behind.\n At FinAsk Value, our Executor Services go beyond paperwork. We step in with compassion, clarity and complete confidentiality, coordinating with legal, financial and family stakeholders to ensure every step reflects your intent. Whether it’s handling complex assets, addressing cross-border beneficiaries or mediating sensitive transitions, we provide the calm, competent presence your legacy deserves, because honouring your life’s work should not be left to chance.",
     features: [
       {
         title: "Faithful Execution",
@@ -4187,7 +4186,7 @@ export const servicesData = [
     title: "Legal Advisory",
     tagline: "Turning Law into A Shield, Not A Stressor",
     description:
-      "In a world of increasing regulatory oversight and legal complexity, protecting your wealth is not just about what you earn—it’s about how well you are prepared. From property disputes to contract clarity, founder agreements to legacy documentation, every legal oversight can have a lasting financial impact.\n At FinAsk Value, Legal Advisory is not a last-minute rescue. It’s built into your journey from the start—offering proactive legal structuring, due diligence and risk mitigation that safeguards your assets, relationships and long-term intentions.\nWhether you are acquiring real estate, drafting succession documents, reviewing investor agreements or setting up holding structures, our Legal Team partners with your goals—not just the paperwork. We guide you with clarity, confidentiality and a strategic lens that turns law from a limitation into a legacy protector.",
+      "In a world of increasing regulatory oversight and legal complexity, protecting your wealth is not just about what you earn—it’s about how well you are prepared. From property disputes to contract clarity, founder agreements to legacy documentation, every legal oversight can have a lasting financial impact.\n At FinAsk Value, Legal Advisory is not a last-minute rescue. It’s built into your journey from the start, offering proactive legal structuring, due diligence and risk mitigation that safeguards your assets, relationships and long-term intentions.\nWhether you are acquiring real estate, drafting succession documents, reviewing investor agreements or setting up holding structures, our Legal Team partners with your goals—not just the paperwork. We guide you with clarity, confidentiality and a strategic lens that turns law from a limitation into a legacy protector.",
     features: [
       {
         title: "Property Due Diligence",
@@ -4249,7 +4248,7 @@ export const servicesData = [
     title: "Tax Advisory",
     tagline: "Because Wealth Should Grow, Not Leak",
     description:
-      "Every rupee saved in taxes is a rupee reinvested in your future. At FinAsk Value, Tax Advisory is not just about compliance—it’s about optimisation, foresight and aligning your personal or business growth with evolving tax frameworks.\nWe help individuals, families, professionals and entrepreneurs uncover intelligent strategies—be it through HUF structuring, capital gains planning, investment-linked deductions or multi-entity income management.\nFor businesses, we integrate GST planning, director remuneration strategies, ESOP tax treatment and cross-border tax implications into a cohesive framework. And for NRIs, we simplify global reporting, repatriation rules and DTAA considerations.\nYou do not just stay compliant—you stay confident. Because with us, your tax story is not about burden—it’s about benefit,built into every step of your financial journey.",
+      "Every rupee saved in taxes is a rupee reinvested in your future. At FinAsk Value, Tax Advisory is not just about compliance—it’s about optimisation, foresight and aligning your personal or business growth with evolving tax frameworks.\nWe help individuals, families, professionals and entrepreneurs uncover intelligent strategies, be it through HUF structuring, capital gains planning, investment-linked deductions or multi-entity income management.\nFor businesses, we integrate GST planning, Director Remuneration Strategies, ESOP tax treatment and cross-border tax implications into a cohesive framework. And for NRIs, we simplify global reporting, repatriation rules and DTAA considerations.\nYou do not just stay compliant; you stay confident. Because with us, your tax story is not about burden, it’s about benefit, built into every step of your financial journey.",
     features: [
       {
         title: "Cross-Border Tax Advisory",
@@ -4313,7 +4312,7 @@ export const servicesData = [
     title: "Financial Literacy Workshops",
     tagline: "Empowering Clarity, Inspiring Confidence",
     description:
-      "At FinAsk Value, we believe that the most valuable asset any individual can own is clarity. In a world full of noise and financial quick fixes, informed decision-making is not just smart—it’s empowering.\nOur Financial Literacy Workshops and SEBI-Compliant Investor Awareness Programs (IAPs) are designed to democratize that empowerment. Whether you are   a salaried professional, homemaker, entrepreneur, student or retiree—we meet you where you are and help you move forward with confidence.\nEach program is thoughtfully curated to simplify complex concepts: from budgeting and SIPs to tax planning, insurance design and wealth transfer. We address real-life questions, bust financial myths and help participants build a framework they can actually apply—today, tomorrow and 20 years from now.\nDelivered virtually or on-site, our sessions use relatable stories, practical illustrations and interactive Q&A formats led by certified experts. And most importantly, every IAP is 100% educational—zero product pitching, full commitment to SEBI’s mission of protecting and uplifting investors.\nBecause when financial literacy improves, everything else follows: financial dignity, family wellbeing and the confidence to build a better life. With us, that’s the kind of wealth we aim to co-create.",
+      "At FinAsk Value, we believe that the most valuable asset any individual can own is clarity. In a world full of noise and financial quick fixes, informed decision-making is not just smart—it’s empowering.\nOur Financial Literacy Workshops and SEBI-Compliant Investor Awareness Programs (IAPs) are designed to democratize that empowerment. Whether you are   a salaried professional, homemaker, entrepreneur, student or retiree, we meet you where you are and help you move forward with confidence.\nEach program is thoughtfully curated to simplify complex concepts: from budgeting and SIPs to tax planning, insurance design and wealth transfer. We address real-life questions, bust financial myths and help participants build a framework they can actually apply today, tomorrow and 20 years from now.\nDelivered virtually or on-site, our sessions use relatable stories, practical illustrations and interactive Q&A formats led by certified experts. And most importantly, every IAP is 100% educational—zero product pitching, full commitment to SEBI’s mission of protecting and uplifting investors.\nBecause when financial literacy improves, everything else follows: financial dignity, family wellbeing and the confidence to build a better life. With us, that’s the kind of wealth we aim to co-create.",
     features: [
       {
         title: "Confidence to Grow",
@@ -4432,7 +4431,7 @@ export const servicesData = [
     title: "Credit Cards",
     tagline: "Use Credit Smartly, Invest Strategically",
     description:
-      "A credit card is a powerful financial tool that offers convenience, short-term liquidity and benefits such as reward points, cashback and interest-free periods. When used wisely, it enables efficient management of everyday expenses while maintaining financial flexibility. \n  It can also play an important role in your financial planning by supporting cash flow—allowing your surplus funds to remain invested in wealth-creating avenues like mutual funds, rather than being withdrawn for short-term needs. However, disciplined usage is key. Timely payments and avoiding revolving credit help prevent high interest costs and keep your finances on track. \n We help you choose the right credit card based on your lifestyle and financial goals, guide you on maximizing reward points and benefits and assist in upgrading or replacing your existing card so you can take full advantage of better features and enhanced value.",
+      "A credit card is a powerful financial tool that offers convenience, short-term liquidity and benefits such as reward points, cashback and interest-free periods. When used wisely, it enables efficient management of everyday expenses while maintaining financial flexibility. \n  It can also play an important role in your financial planning by supporting cash flow, allowing your surplus funds to remain invested in wealth-creating avenues like mutual funds, rather than being withdrawn for short-term needs. However, disciplined usage is key. Timely payments and avoiding revolving credit help prevent high interest costs and keep your finances on track. \n We help you choose the right credit card based on your lifestyle and financial goals, guide you on maximizing reward points and benefits and assist in upgrading or replacing your existing card so you can take full advantage of better features and enhanced value.",
     features: [
       {
         title: "Smart Spending",
@@ -4467,7 +4466,7 @@ export const servicesData = [
       },
       {
         question:
-          "What happens if I do not pay the full credit card due amount?",
+          "What happens if I do not pay the full amount due on my credit card?",
         answer:
           "If you pay only the minimum due, interest is charged on the remaining balance, often at a high rate, which can increase your financial burden.",
       },
@@ -4479,7 +4478,7 @@ export const servicesData = [
       {
         question: "Can I convert credit card purchases into EMI?",
         answer:
-          "Yes, most credit cards allow conversion of eligible transactions into easy monthly installments (EMIs).",
+          "Yes, most credit cards allow conversion of eligible transactions into Equated Monthly Instalments (EMIs).",
       },
     ],
     bgImage: "/finask/credit-cards.png",
@@ -4495,11 +4494,11 @@ export const servicesData = [
     slug: "nri-corner",
     uspLayout: "scroll-popup-modal",
     category: "Goal Planning",
-    title: "NRI Corner",
+    title: "NRI's Corner",
     tagline:
-      "Because Home Isn’t Just Where You Live. It’s Also Where You Grow.",
+      "Because Home Is Not Just Where You Live. It’s Also Where You Grow",
     description:
-      "From the avenues of London to the towers of Dubai, India is never far. For NRIs, India represents unmatched economic momentum and the unique joy of watching your roots flourish. At FinAsk Value, we help global Indians turn emotional ties into financial advantage. Whether it’s building cross-currency wealth with tax-optimized strategies, protecting family assets in India while you’re overseas or planning legacies that gracefully span continents, we bring structure, compliance and vision to your India-linked investments.",
+      "From the avenues of London to the towers of Dubai, India is never far. For NRIs, India represents unmatched economic momentum and the unique joy of watching your roots flourish. At FinAsk Value, we help global Indians turn emotional ties into financial advantage. Whether it’s building cross-currency wealth with tax-optimized strategies, protecting family assets in India while you are overseas or planning legacies that gracefully span continents, we bring structure, compliance and vision to your India-linked investments.",
     features: [
       {
         title: "Global Wealth Structuring",
@@ -4561,10 +4560,10 @@ export const servicesData = [
     slug: "women-corner",
     uspLayout: "original",
     category: "Goal Planning",
-    title: "Women corner",
-    tagline: "Because She Needs More Than Advice. She Needs Advocacy.",
+    title: "Women's Corner",
+    tagline: "Empowering Her Decisions, Securing Her Future",
     description:
-      "From her relationships to her marriage, from her career to her household, a woman navigates complexities at every turn. Often, she puts others ahead of herself—her spouse, children, aging parents. She may pause her career to care for family, adjust her ambitions to support a partner or stay silent on financial matters that intimately shape her life.\nEven today, despite earning more than ever, many women hesitate to take the lead in conversations about investing, insurance or inheritance. They’re told money is complicated. Or that it's simply not their domain. As a result, too many brilliant, resilient women continue to carry emotional, social and even financial weight—without the security, knowledge or confidence they deserve.\nAt FinAsk Value, we created Women Corner not as a marketing vertical, but as a stand — to show that her goals matter, her security matters and her choices deserve to be as expansive and informed as anyone else's.\nWe work with:\n● Young professionals who juggle EMIs, family expectations and ambitions no one fully understands.\n● Mothers who quietly prioritize school fees over retirement funds, fearing tomorrow’s uncertainty.\n ● Homemakers who wish to grasp how family wealth is truly structured—so they aren’t left in the dark if life shifts.\n● Women rebuilding after separation or loss, who need clarity, compassion and a map to financial independence.",
+      "From her relationships to her marriage, from her career to her household, a woman navigates complexities at every turn. Often, she puts others ahead of herself—her spouse, children, aging parents. She may pause her career to care for family, adjust her ambitions to support a partner or stay silent on financial matters that intimately shape her life.\nEven today, despite earning more than ever, many women hesitate to take the lead in conversations about investing, insurance or inheritance. They are told money is complicated or that it's simply not their domain. As a result, too many brilliant, resilient women continue to carry emotional, social and even financial weight—without the security, knowledge or confidence they deserve.\nAt FinAsk Value, we created Women's Corner not as a marketing vertical, but as a stand to show that her goals matter, her security matters and her choices deserve to be as expansive and informed as anyone else's.\nWe work with:\n● Young professionals who juggle EMIs, family expectations and ambitions no one fully understands.\n● Mothers who quietly prioritize school fees over retirement funds, fearing tomorrow’s uncertainty.\n ● Homemakers who wish to grasp how family wealth is truly structured so they are not left in the dark if life shifts.\n● Women rebuilding after separation or loss, who need clarity, compassion and a map to financial independence.",
     features: [
       {
         title: "Women-Centric Financial Planning",
@@ -4627,7 +4626,7 @@ export const servicesData = [
     category: "Consultation",
     title: "Family Office",
     tagline:
-      "A Comprehensive Wealth Management Solution for Ultra-High-Net-Worth Families ",
+      "A Unified Approach To Family Prosperity",
     description:
       "A comprehensive wealth management solution for Ultra-High-Net-Worth families, managing everything from investments to lifestyle. We provide integrated management of all family assets and liabilities, ensuring smooth transition of wealth across generations.",
     features: [

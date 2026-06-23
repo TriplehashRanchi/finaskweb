@@ -20,13 +20,13 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-12 lg:gap-8 mb-10">
           {/* Column 1: Brand & Social */}
           <div className="space-y-6 lg:col-span-4">
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-2 ">
               {/* Using text logo for now, or Image if available */}
               <span className="text-3xl font-medium font-serif text-white">
                 Fin<span className="text-[#DAA434]">Ask</span>
               </span>
             </div>
-            <p className="text-gray-400 text-sm leading-relaxed max-w-xs">
+            <p className="text-gray-400 -mt-4 text-md leading-relaxed max-w-xs">
               Adding Value to Every Financial Step.
             </p>
 
@@ -96,7 +96,7 @@ export default function Footer() {
               <div className="w-4 h-1 bg-white/20 rounded-full"></div>
             </div>
 
-            <ul className="space-y-4 text-sm text-gray-400">
+            <ul className="space-y-4 text-md text-gray-400">
               {[
                 { label: "Home", href: "/" },
                 { label: "About Us", href: "/about" },
@@ -122,13 +122,13 @@ export default function Footer() {
               <div className="w-12 h-1 bg-white/20 rounded-full"></div>
               <div className="w-4 h-1 bg-white/20 rounded-full"></div>
             </div>
-            <ul className="space-y-4 text-sm text-gray-400">
+            <ul className="space-y-4 text-md text-gray-400">
               {[
                 { label: "Family Office", href: "/services/family-office" },
                 { label: "Insurance", href: "/insurances" },
                 { label: "Investments", href: "/investments" },
-                { label: "NRI Services", href: "/services/nri-corner" },
-                { label: "Women Corner", href: "/services/women-corner" },
+                { label: "NRI's Corner", href: "/services/nri-corner" },
+                { label: "Women's Corner", href: "/services/women-corner" },
               ].map((item) => (
                 <li key={item.href}>
                   <a
@@ -156,10 +156,10 @@ export default function Footer() {
                   <Phone size={18} />
                 </div>
                 <div>
-                  <h4 className="text-white font-medium text-sm   group-hover:text-[#DAA434] transition-colors">
+                  <h4 className="text-white font-medium text-md   group-hover:text-[#DAA434] transition-colors">
                     Call Us
                   </h4>
-                  <p className="text-gray-400 text-sm font-sans">
+                  <p className="text-gray-400 text-md font-sans">
                     {" "}
                     +91 80763 51485
                   </p>
@@ -172,10 +172,10 @@ export default function Footer() {
                   <Mail size={18} />
                 </div>
                 <div>
-                  <h4 className="text-white font-medium text-sm   group-hover:text-[#DAA434] transition-colors">
+                  <h4 className="text-white font-medium text-md  group-hover:text-[#DAA434] transition-colors">
                     Work with us
                   </h4>
-                  <p className="text-gray-400 text-sm font-sans">
+                  <p className="text-gray-400 text-md font-sans">
                     wecare@finaskvalue.com
                   </p>
                 </div>
@@ -187,10 +187,10 @@ export default function Footer() {
                   <MapPin size={18} />
                 </div>
                 <div>
-                  <h4 className="text-white font-medium text-sm   group-hover:text-[#DAA434] transition-colors">
+                  <h4 className="text-white font-medium text-md  group-hover:text-[#DAA434] transition-colors">
                     Our Location
                   </h4>
-                  <p className="text-gray-400 text-sm leading-relaxed font-sans">
+                  <p className="text-gray-400 text-md leading-relaxed font-sans">
                     {" "}
                     Haryana / Delhi{" "}
                   </p>
