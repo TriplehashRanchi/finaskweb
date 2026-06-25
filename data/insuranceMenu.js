@@ -9,7 +9,7 @@ export const personalInsuranceSections = [
         slug: "critical-illness-insurance",
       },
       {
-        label: "Personal Accident Insurance",
+        label: "Personal Accident Cover",
         slug: "personal-accident-insurance",
       },
     ],

@@ -253,7 +253,7 @@ export default function Navbar() {
     { name: "Executor Services", slug: "executor-services" },
     { name: "Legal Advisory", slug: "legal-advisory" },
     { name: "Tax Advisory", slug: "tax-advisory" },
-    { name: "Financial Literacy Workshop", slug: "financial-literacy" },
+    { name: "Financial Literacy Workshops", slug: "financial-literacy" },
     { name: "Credit Cards", slug: "credit-cards" },
     {
       name: "Health Assistance",

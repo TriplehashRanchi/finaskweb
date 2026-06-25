@@ -34,11 +34,11 @@ export default function PurposeSection() {
               {/* User Content: Concise Paragraphs */}
               <div className="  text-lg text-gray-400 leading-relaxed text-justify">
                 <p className="mb-4">
-                  Through Financial Literacy & Legacy workshops and our "1% Pledge", we empower the next generation with the knowledge to build lasting legacies. We prepare heirs not just to inherit wealth, but to steward values, philanthropy and family unity.
+                  Through Financial Literacy & Legacy Workshops and our "1% Pledge", we empower the next generation with the knowledge to build lasting legacies. We prepare heirs not just to inherit wealth, but to steward values, philanthropy and family unity.
                 </p>
 
                 <p className="mt-4">
-                 We are committed to fostering sustainable growth by investig in businesses and initiatives that prioritize ethical practices and build a better future for all. By  contributing to the ecosystems in which we operate, we strive to create opportunities, drive positive change and ensure success is shared by all.
+                 We are committed to fostering sustainable growth by investing in businesses and initiatives that prioritize ethical practices and build a better future for all. By  contributing to the ecosystems in which we operate, we strive to create opportunities, drive positive change and ensure success is shared by all.
                 </p>
               </div>
             </div>

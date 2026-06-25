@@ -20,7 +20,7 @@ export default function HowWeWorkSection() {
                 Patient Listening
               </h3>
               <p className="text-gray-300 leading-relaxed font-light text-justify">
-                We begin not with policies or portfolios, but with listening carefully to understand your ambitions, family aspirations, business complexities, and the deeper motivations that drive your decisions.
+                We begin not with policies or portfolios, but with listening carefully to understand your ambitions, family aspirations, business complexities and the deeper motivations that drive your decisions.
               </p>
             </div>
             <div className="absolute left-1/2 -translate-x-1/2 w-4 h-4 rounded-full bg-[#DAA434] border-4 border-[#00394E] z-10 hidden md:block shadow-[0_0_15px_rgba(218,164,52,0.5)] group-hover:scale-125 transition-transform duration-500" />

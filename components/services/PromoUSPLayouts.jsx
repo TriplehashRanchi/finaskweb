@@ -1,6 +1,7 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import { ShieldCheck } from "lucide-react";
+import Link from "next/link";
 
 // Layout 2: Horizontal Ribbon (Updated to Family Promo Layout)
 export function HorizontalRibbon({ promoTitle, promoText, promoBadges }) {
@@ -103,18 +104,18 @@ export function HorizontalRibbon({ promoTitle, promoText, promoBadges }) {
 export function FloatingPills({ promoTitle, promoText, promoBadges }) {
   return (
     <div className="w-full px-10 py-16 rounded-xl text-center bg-white">
-      <h3 className=" text-2xl capitalize text-[#D44659]  font-medium">{promoText}</h3>
-      <p className=" text-4xl capitalize text-[#00394E] leading-tight mb-8 font-medium">
+      {/* <h3 className=" text-2xl capitalize text-[#D44659]  font-medium">{promoText}</h3> */}
+      {/* <p className=" text-4xl capitalize text-[#00394E] leading-tight mb-8 font-medium">
         {promoTitle}
-      </p>
+      </p> */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-        <div className="rounded-lg bg-[#C8F0B0] px-4 py-3 text-center text-sm font-semibold text-[#245633] ">
+        <div className="rounded-lg bg-[#C8F0B0] px-4 py-3 text-center content-center text-sm font-semibold text-[#245633] ">
           <p className="text-lg font-bold capitalize text-[#00394E]">{promoBadges[0]}</p>
         </div>
-        <div className="rounded-lg bg-[#C9DCF8] px-4 py-3 text-center text-sm font-semibold text-[#1D4C8F] ">
+        <div className="rounded-lg bg-[#C9DCF8] px-4 py-3 text-center content-center text-sm font-semibold text-[#1D4C8F] ">
           <p className="text-lg font-bold capitalize text-[#00394E]">{promoBadges[1]}</p>
         </div>
-        <div className="rounded-lg bg-[#F0F4F8] px-4 py-3 text-center text-sm font-semibold text-[#00394E] ">
+        <div className="rounded-lg bg-[#F0F4F8] px-4 py-3 text-center content-center text-sm font-semibold text-[#00394E] ">
           <p className="text-lg font-bold capitalize text-[#00394E]">{promoBadges[2]}</p>
         </div>
       </div>
@@ -187,7 +188,7 @@ export function BottomStickyBanner({ promoTitle, promoText, promoBadges }) {
         </div>
 
         <div className="flex flex-col items-start w-full md:w-auto shrink-0">
-          <button className="bg-[#D44659] hover:bg-[#b03548] text-white px-6 py-3 rounded-lg font-semibold text-[0.95rem] transition-colors whitespace-nowrap flex items-center gap-2">
+          <Link className="bg-[#D44659] hover:bg-[#b03548] text-white px-6 py-3 rounded-lg font-semibold text-[0.95rem] transition-colors whitespace-nowrap flex items-center gap-2" href="/contact">
             Contact Now
             <svg
               width="16"
@@ -201,7 +202,7 @@ export function BottomStickyBanner({ promoTitle, promoText, promoBadges }) {
             >
               <path d="M5 12h14M12 5l7 7-7 7" />
             </svg>
-          </button>
+          </Link>
         </div>
       </div>
     </div>
@@ -268,7 +269,7 @@ export function BottomStickyBlue({ promoTitle, promoText, promoBadges }) {
         </div>
 
         <div className="flex flex-col items-cente  w-full md:w-auto shrink-0 md:pr-10">
-          <button className="bg-[#D44659] hover:bg-[#b03548] text-white px-8 py-3 rounded-lg font-bold text-[1rem] transition-colors whitespace-nowrap flex items-center gap-2 mb-2 shadow-md">
+          <Link className="bg-[#D44659] hover:bg-[#b03548] text-white px-8 py-3 rounded-lg font-bold text-[1rem] transition-colors whitespace-nowrap flex items-center gap-2 mb-2 shadow-md" href="/contact">
             Contact Now
             <svg
               width="16"
@@ -282,7 +283,7 @@ export function BottomStickyBlue({ promoTitle, promoText, promoBadges }) {
             >
               <path d="M5 12h14M12 5l7 7-7 7" />
             </svg>
-          </button>
+          </Link>
         </div>
       </div>
     </div>
