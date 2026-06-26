@@ -693,7 +693,7 @@ export const servicesData = [
     tagline:
       "Because What You Have Meticulously Built Deserves Unwavering Guardianship",
     description:
-      "Your homes, offices, factories — they embody years of aspirations and efforts. Unforeseen incidents like fires or intrusions should not possess the power to erase that legacy. We devise protections that enable swift restitution, preserving both your tangible assets and your family’s composure. \n It’s about more than rebuilding walls or replacing inventory — it’s about restoring normalcy without enduring financial distress. ",
+      "Your homes, offices and factories embody years of aspirations and efforts. Unforeseen incidents like fires or intrusions should not possess the power to erase that legacy. We devise protections that enable swift restitution, preserving both your tangible assets and your family’s composure. \n It’s about more than rebuilding walls or replacing inventory; it’s about restoring normalcy without enduring financial distress. ",
     features: [
       {
         title: "Reliable Protection",
@@ -930,13 +930,13 @@ export const servicesData = [
   // },
   {
     slug: "director-officers-liability",
-    uspLayout: "bottom-sticky-banner",
+    uspLayout: "floating-pills",
     category: "Insurance",
     title: " Directors’ and Officers’ Liability Insurance ",
     tagline:
       "Because Leadership Carries Responsibilities That Outlive The Leader",
     description:
-      "Directors’ and Officers’ Liability Insurance (D&O) is more than a personal safety net — it’s a strategic safeguard for businesses. It ensures that if the unthinkable happens, key obligations are met, debts are covered and shareholder or partner transitions remain smooth, protecting enterprise value. \n Because your vision should not falter, even if life takes an unforeseen turn. \n At FinAsk Value, we help founders, directors and key management personnel structure life cover not just for personal protection—but for business continuity. It is not just about preparing for loss—it’s about preserving leadership, legacy and long-term confidence. \n This coverage can support succession planning, stabilize cash flow, reinforce loan and credit obligations and signal preparedness to investors and stakeholders. \n It’s more than a policy—it’s a contingency plan for confidence. Leadership may be personal, but its impact is profoundly institutional. ",
+      "Directors’ and Officers’ Liability Insurance (D&O) is more than a personal safety net; it’s a strategic safeguard for businesses. It ensures that if the unthinkable happens, key obligations are met, debts are covered and shareholder or partner transitions remain smooth, protecting enterprise value. \n Because your vision should not falter, even if life takes an unforeseen turn. \n At FinAsk Value, we help founders, directors and key management personnel structure life cover not just for personal protection, but for business continuity. It is not just about preparing for loss; it’s about preserving leadership, legacy and long-term confidence. \n This coverage can support succession planning, stabilize cash flow, reinforce loan and credit obligations and signal preparedness to investors and stakeholders. \n It’s more than a policy; it’s a contingency plan for confidence. Leadership may be personal, but its impact is profoundly institutional. ",
     features: [
       {
         title: "Seamless Succession Planning",
@@ -993,16 +993,17 @@ export const servicesData = [
     faqSection: {
       promoTitle: "Invest ₹10k/month & Get",
       promoText: "₹1 Crore*Tax-Free",
-      promoBadges1: " ",
-      promoBadges2: " ",
+      promoBadges1: "In-House Expert Guidance",
+      promoBadges2: "24/7 Claims Support*",
+      promoBadges3: "Get Custom Quotes Instantly"
     },
   },
   {
     slug: "group-personal-accident",
-    uspLayout: "bottom-sticky-banner",
+    uspLayout: "scroll-popup-modal",
     category: "Corporate Insurance",
     title: "Group Personal Accident Insurance",
-    tagline: "Financial Protection Against Accidental Risks",
+    tagline: "A Safety Net For Your Most Valuable Resource",
     description:
       "Group Personal Accident Insurance (GPAI) is an insurance policy purchased by an employer to protect employees against financial losses caused by accidents. Under a single master policy, all employees are covered for accidental death, disability and injury-related financial risks. Unlike Health Insurance, which covers medical treatment, Group Personal Accident Insurance provides direct financial compensation to employees or their families if an accident leads to death or disability. This makes it an essential employee benefit for organizations across industries, especially where employees travel frequently or work in higher-risk environments.",
     features: [
@@ -1050,19 +1051,23 @@ export const servicesData = [
         answer:
           "No, Group Personal Accident Insurance coverage usually applies 24x7 worldwide, including accidents at work, during travel, commuting or at home.",
       },
+      {
+        question:"What are the common exclusions under Group Personal Accident Insurance?",
+        answer: "Common exclusions may include self-inflicted injuries, participation in hazardous activities, intoxication-related incidents, war-related events and pre-existing disabilities, unless specifically covered."
+      }
     ],
     bgImage: "/finask/group-personal-accident-insurance.png",
     backgroundPosition: "center",
     faqSection: {
-      promoTitle: "Zero Waiting Periods",
-      promoText: " Dedicated Relationship Manager",
-      promoBadges1: " ",
-      promoBadges2: " ",
+      promoTitle: "Paperless Claims",
+      promoText: " Zero Waiting Periods",
+      promoBadges1: "24/7 Claims Support*",
+      promoBadges2: "Dedicated Relationship Manager ",
     },
   },
   {
     slug: "group-term-life",
-    uspLayout: "floating-pills",
+    uspLayout: "bottom-sticky-blue",
     category: "Corporate Insurance",
     title: "Group Term Life Insurance",
     tagline: "Financial Protection for Your Employees’ Families",
@@ -1115,25 +1120,25 @@ export const servicesData = [
       {
         question: "Why do companies offer Group Term Life Insurance?",
         answer:
-          "It helps organizations protect employees’ families financially, improve employee loyalty and retention, enhance employee benefits and demonstrate commitment to workforce well-being.",
+          "It helps organizations provide financial protection to employees’ families, enhance employee benefits, improve loyalty and retention and demonstrate a commitment to workforce well-being.",
       },
     ],
     bgImage: "/finask/group-term-life-insurance.webp",
     backgroundPosition: "center",
     faqSection: {
-      promoTitle: " ",
-      promoText: " ",
-      promoBadges1: "Coverage from Day 1*",
+      promoTitle: "Coverage from Day 1 ",
+      promoText: " 24*7 Claims Support*",
+      promoBadges1: "",
       promoBadges2: " Keep- Claim Support",
-      promoBadges3: " 24*7 Support",
+      promoBadges3: " ",
     },
   },
   {
     slug: "group-health-insurance",
-    uspLayout: "scroll-popup-modal",
+    uspLayout: "bottom-sticky-banner",
     category: "Corporate Insurance",
     title: "Group Health Insurance",
-    tagline: "Protect Your Employees with Comprehensive Group Health Insurance",
+    tagline: "Supporting Healthier Lives And Stronger Teams",
     description:
       "Group Health Insurance is a health insurance policy purchased by an employer to provide medical coverage to employees and in many cases, their family members. Instead of individual policies, a single master policy covers the entire workforce, offering affordable and comprehensive healthcare protection. For businesses, Group Health Insurance is one of the most cost-effective employee benefits, helping attract talent, improve retention and ensure financial protection against rising healthcare costs. \n Choosing the right Group Health Insurance requires understanding your workforce needs, coverage requirements and budget. \n At FinAsk Value, we help businesses compare and choose the most suitable Group Health Insurance plans from leading insurers with transparent guidance and customized solutions.",
     features: [
@@ -1188,9 +1193,9 @@ export const servicesData = [
     bgImage: "/finask/group-health-insurance.webp",
     backgroundPosition: "center",
     faqSection: {
-      promoTitle: " ",
-      promoText: "Wide range Wellness Benefit",
-      promoBadges1: "Dedicated Relationship Manager     ",
+      promoTitle: " Dedicated Relationship Manager ",
+      promoText: "Wide Range of Wellness Benefits",
+      promoBadges1: "    ",
       promoBadges2: "24*7 Support",
     },
   },
@@ -1458,10 +1463,10 @@ export const servicesData = [
   },
   {
     slug: "workmen-compensation",
-    uspLayout: "bottom-sticky-banner",
+    uspLayout: "bottom-sticky-blue",
     category: "Insurance",
     title: "Workmen Compensation Insurance",
-    tagline: "Protecting Your Workforce, Securing Your Business",
+    tagline: "Designed To Protect Every Working Hand",
     description:
       "Workmen Compensation Insurance is a statutory policy that protects employers against financial liabilities arising from work-related injuries, disabilities or death of employees, ensuring rightful compensation to workers or their dependents. It covers medical expenses, loss of income, disability benefits and compensation in case of unfortunate incidents during employment, while ensuring compliance with the Employees’ Compensation Act. \n This policy not only safeguards businesses from legal and financial risks but also reflects a strong commitment towards employee well-being and workplace safety.",
     features: [
@@ -1515,20 +1520,20 @@ export const servicesData = [
     bgImage: "/finask/workmen-compensation-insurance.png",
     backgroundPosition: "center",
     faqSection: {
-      promoTitle: "Invest \u20B910k/month & Get",
-      promoText: "\u20B91 Crore*Tax-Free",
+      promoTitle: "Plans Available From Top Insurers",
+      promoText: "Get Instant Quote",
       promoBadges1: " ",
       promoBadges2: " ",
     },
   },
   {
     slug: "prof-indemnity-for-doctors",
-    uspLayout: "bottom-sticky-banner",
+    uspLayout: "scroll-popup-modal",
     category: "Insurance",
     title: "Professional Indemnity Insurance for Doctors",
-    tagline: "Protecting Your Practice, Reputation and Peace of Mind",
+    tagline: "Coverage That Stands Behind Your Expertise",
     description:
-      "Professional Indemnity Insurance for doctors provides protection against legal and financial liabilities arising from errors, omissions or alleged negligence in medical practice. It ensures that a single claim does not impact your finances or professional standing. The policy covers risks such as misdiagnosis, incorrect treatment and surgical errors, along with legal defence costs and compensation. This enables you to manage medico-legal challenges without disrupting your practice or cash flow. \n In today’s increasingly litigious environment, even minor allegations can lead to significant consequences. This coverage safeguards both your financial stability and professional reputation, allowing you to practice with confidence. It also offers continuity of protection through features like retroactive coverage, ensuring claims from past treatments are covered, subject to policy terms. The policy can be tailored to your specialization, experience and risk exposure—whether you are an individual practitioner, part of a clinic or associated with a hospital.",
+      "Professional Indemnity Insurance For Doctors provides protection against legal and financial liabilities arising from errors, omissions or alleged negligence in medical practice. It ensures that a single claim does not adversely affect your finances or professional standing. The policy covers risks such as misdiagnosis, incorrect treatment and surgical errors, along with legal defence costs and compensation. This enables you to address medico-legal challenges without disrupting your practice or cash flow. \n In today’s increasingly litigious environment, even minor allegations can lead to significant consequences. This coverage safeguards both your financial security and professional reputation, allowing you to focus on patient care with confidence. It also offers continuity of protection through features like retroactive coverage, ensuring claims arising from past treatments are covered, subject to policy terms. The policy can be tailored to your specialization, experience and risk exposure, whether you are an individual practitioner, part of a clinic or associated with a hospital.",
     features: [
       {
         title: "Professional Credibility Protection",
@@ -1569,7 +1574,7 @@ export const servicesData = [
       {
         question: "Does it cover both civil and criminal cases?",
         answer:
-          "The policy primarily covers civil liabilities. Some policies may provide support for criminal defense costs, depending on terms and conditions.",
+          "The policy primarily covers civil liabilities. Some policies may provide support for criminal defence costs, depending on terms and conditions.",
       },
       {
         question: "Is Telemedicine covered under this policy?",
@@ -1580,10 +1585,10 @@ export const servicesData = [
     bgImage: "/finask/professional-indemnity-insurance-for-doctors.png",
     backgroundPosition: "center",
     faqSection: {
-      promoTitle: "Invest \u20B910k/month & Get",
-      promoText: "\u20B91 Crore*Tax-Free",
-      promoBadges1: " ",
-      promoBadges2: " ",
+      promoTitle: "Get Custom Quote Instantly",
+      promoText: "Medico-Legal Lawyer Panel",
+      promoBadges1: "365-Day Claims Assistance",
+    promoBadges2: "Instant Policy Issuance",
     },
   },
   {
@@ -1708,7 +1713,7 @@ export const servicesData = [
       promoTitle:
         "Personalized Cyber Insurance Solutions for Individuals & Families",
       promoText: "IRDA Certified Advisors",
-      promoBadges1: "Pocket Friendly plans",
+      promoBadges1: "Pocket-Friendly plans",
       promoBadges2: "Certified Insurance advisors",
       promoBadges3: "Personalized Policy Recommendations",
     },
@@ -1719,7 +1724,7 @@ export const servicesData = [
     category: "Insurance",
     title: "Corporate Cyber Insurance",
     tagline:
-      "Safeguarding Your Enterprise from Financial and Operational Cyber Risks",
+      "Protecting Your Business In a Digital-First World",
     description:
       "With rising cyber threats like data breaches, ransomware and hacking, businesses face serious financial and reputational risks. It protects your organization against losses from cyber incidents, including data theft, business interruption, legal liabilities and recovery costs. \n It also provides expert support for incident response, ensuring minimal disruption and faster recovery.",
     features: [
@@ -1727,7 +1732,7 @@ export const servicesData = [
         title: "Advanced Firewall Protection",
         icon: "/insurance-icons/corporate-cyber-insurance-1.png",
         description:
-          "Strong defense against evolving cyberattacks and hacking attempts.",
+          "Strong defence against evolving cyberattacks and hacking attempts.",
       },
       {
         title: "Global Network Protection",
@@ -1757,7 +1762,7 @@ export const servicesData = [
         question:
           "What is First-Party and Third-Party Corporate Cyber Insurance coverage?",
         answer:
-          "First-party Corporate Cyber Insurance covers your own losses (data recovery, business interruption) , while Third-party Corporate Cyber Insurance covers liabilities to customers due to data breaches.",
+          "First-Party Corporate Cyber Insurance covers your own losses, such as data recovery and business interruption, while Third-Party Corporate Cyber Insurance covers liabilities to customers resulting from data breaches.",
       },
       {
         question: "Does this policy cover regulatory penalties?",
@@ -1773,8 +1778,8 @@ export const servicesData = [
     bgImage: "/finask/corporate-cyber-insurance.png",
     backgroundPosition: "center",
     faqSection: {
-      promoTitle: "Invest \u20B910k/month & Get",
-      promoText: "\u20B91 Crore*Tax-Free",
+      promoTitle: "Afforadable Plans",
+      promoText: "Customized Coverage As Per Requirement",
       promoBadges1: " ",
       promoBadges2: " ",
     },
@@ -1973,10 +1978,10 @@ export const servicesData = [
   },
   {
     slug: "general-liability-insurance",
-    uspLayout: "bottom-sticky-banner",
+    uspLayout: " ",
     category: "Insurance",
     title: "General Liability Insurance",
-    tagline: "Coverage For Unforeseen Claims That Can Impact Your Business",
+    tagline: "Safeguarding Your Business From Liability Claims",
     description:
       "General Liability Insurance protects your business against financial losses arising from third-party claims of bodily injury, property damage or legal liabilities. It covers expenses such as medical costs, legal fees and compensation, ensuring that unexpected incidents do not impact your business operations or finances. This policy is essential for businesses of all sizes to safeguard their reputation and maintain long-term stability.",
     features: [
@@ -2010,7 +2015,7 @@ export const servicesData = [
       {
         question: "Does it cover employee injuries?",
         answer:
-          "No, employee-related injuries are covered under Employee Compensation Insurance.",
+          "No, employee-related injuries are covered under Workmen Compensation Insurance.",
       },
       {
         question: "What is not covered under this policy?",
@@ -2020,7 +2025,7 @@ export const servicesData = [
       {
         question: "How much coverage should I choose?",
         answer:
-          "Coverage depends on business size and risk exposure, typically starting from ₹50 lakhs.",
+          "Coverage depends on business size and risk exposure, typically starting from ₹50 Lakhs.",
       },
     ],
     bgImage: "/finask/general-liability-insurance.png",
@@ -2037,7 +2042,7 @@ export const servicesData = [
     uspLayout: "bottom-sticky-banner",
     category: "Insurance",
     title: "Contractor’s All Risk Insurance",
-    tagline: "End-To-End Coverage For Materials, Works and On-Site Risks",
+    tagline:"Minimizing Risks, Maximizing Project Success",
     description:
       "Contractor’s All Risk Insurance (CAR) provides comprehensive protection for construction projects against unforeseen risks during execution. It covers damage to the project site, materials, machinery and third-party liabilities arising from accidents, natural disasters, fire, theft or human errors. Whether it is a small construction job or a large infrastructure project, this policy ensures financial security by covering repair or replacement costs, helping contractors complete projects smoothly without major financial disruptions.",
     features: [
@@ -2067,7 +2072,7 @@ export const servicesData = [
       {
         question: "Is CAR Insurance mandatory in India?",
         answer:
-          "It is not legally mandatory, but is often required by project contracts, banks and financial institutions, government bodies and large infrastructure projects.",
+          "While not legally mandatory, it is often required by project contracts, banks and financial institutions, government authorities and large infrastructure projects.",
       },
       {
         question: "How is the sum insured calculated?",
@@ -2077,7 +2082,7 @@ export const servicesData = [
       {
         question: "Can the policy be extended?",
         answer:
-          "Yes, it can be extended for project delays or to include maintenance period cover.",
+          "Yes, it can be extended for project delays or to include Maintenance Period Cover.",
       },
       {
         question: "What is not covered under CAR Insurance?",
@@ -2088,21 +2093,21 @@ export const servicesData = [
     bgImage: "/finask/contractors-all-risk-insurance.png",
     backgroundPosition: "center",
     faqSection: {
-      promoTitle: "Invest \u20B910k/month & Get",
-      promoText: "\u20B91 Crore*Tax-Free",
-      promoBadges1: "Plans starting from \u20B91000/month",
+      promoTitle: "Efficient Claims Assistance and Coordination",
+      promoText: "Risk Management Expertise For Complex Projects",
+      promoBadges1: "",
       promoBadges2: "In-built life cover",
     },
   },
   {
     slug: "erection-all-risk",
-    uspLayout: "bottom-sticky-banner",
+    uspLayout: "bottom-sticky-blue",
     category: "Insurance",
     title: "Erection All Risk Insurance",
     tagline:
-      "Financial Security For Machinery And Plant During Installation Phases",
+      "From Blueprint To Reality, Fully Protected",
     description:
-      "Erection All Risk Insurance (EAR) provides comprehensive coverage for projects involving the installation and erection of plant, machinery and equipment. It protects against unforeseen risks such as accidental damage, fire, natural disasters and human errors during the erection, testing and commissioning phases. Additionally, it includes third-party liability coverage for injury or property damage. This policy ensures financial security for contractors and project owners, helping them complete installation projects smoothly without unexpected financial setbacks.",
+      "Erection All Risk Insurance (EAR) provides comprehensive coverage for projects involving the installation and erection of plant, machinery and equipment. It protects against unforeseen risks such as accidental damage, fire, natural disasters and human error during the erection, testing and commissioning phases. Additionally, it includes Third-Party Liability Coverage for bodily injury or property damage. This policy provides financial protection for contractors and project owners, helping them complete installation projects smoothly while minimizing the impact of unexpected losses.",
     features: [
       {
         title: "Installation Security",
@@ -2150,8 +2155,8 @@ export const servicesData = [
     bgImage: "/finask/erection-all-risk.png",
     backgroundPosition: "center",
     faqSection: {
-      promoTitle: "Invest \u20B910k/month & Get",
-      promoText: "\u20B91 Crore*Tax-Free",
+      promoTitle: "Specialized Risk Advisory",
+      promoText: "Dedicated Claims Assistance",
       promoBadges1: "Plans starting from \u20B91000/month",
       promoBadges2: "In-built life cover",
     },
@@ -2220,10 +2225,10 @@ export const servicesData = [
   },
   {
     slug: "contractor-plant-machinery",
-    uspLayout: "bottom-sticky-banner",
+    uspLayout: "floating-pills",
     category: "Insurance",
     title: "Contractor’s Plant & Machinery",
-    tagline: "Keep Your Operations Running With Reliable Equipment Protection",
+    tagline: "Engineered Protection For Critical Assets",
     description:
       "Contractor’s Plant & Machinery (CPM) provides coverage for construction equipment and machinery against sudden and unforeseen damages while at work or at rest. It protects assets such as excavators, cranes, loaders and other heavy equipment from risks like accidents, fire, theft, natural disasters and operational mishaps. This policy ensures that contractors and project owners are financially safeguarded against repair or replacement costs, minimizing downtime and helping projects continue without disruption.",
     features: [
@@ -2270,31 +2275,32 @@ export const servicesData = [
       {
         question: "What is not covered under this policy?",
         answer:
-          "Normal wear and tear, mechanical or gradual deterioration of machinery, intentional damage are usually excluded.",
+          "Normal wear and tear, mechanical or gradual deterioration of machinery and intentional damage are usually excluded.",
       },
     ],
     bgImage: "/finask/contractors-plant-machinery.png",
     backgroundPosition: "center",
     faqSection: {
       promoTitle: "Invest \u20B910k/month & Get",
-      promoText: "\u20B91 Crore*Tax-Free",
-      promoBadges1: "Plans starting from \u20B91000/month",
-      promoBadges2: "In-built life cover",
+      promoText: "",
+      promoBadges1: "Wallet-Friendly Plans",
+      promoBadges2: "Dedicated Relationship Manager",
+      promoBadges3: "Personalized Instant Quotes",
     },
   },
   {
     slug: "surety-bond-insurance",
-    uspLayout: "bottom-sticky-banner",
+    uspLayout: "bottom-sticky-blue",
     category: "Insurance",
-    title: "Surety Bond Insurance",
+    title: "Surety Bonds Insurance",
     tagline: "Providing Confidence to Stakeholders Through Financial Backing",
     description:
-      "It is a financial guarantee that ensures a contractor or business fulfils its contractual obligations as agreed. It involves three parties—the principal (contractor), the oblige (project owner) and the surety (insurer). In case the contractor fails to perform or breaches the contract, the surety compensates the oblige for the loss. This solution enhances credibility, reduces financial risk and is widely used in infrastructure projects, government contracts and large commercial agreements to ensure timely and reliable project completion.",
+      "It is a financial guarantee that ensures a contractor or business fulfils its contractual obligations as agreed. It involves three parties: the principal (contractor), the oblige (project owner) and the surety (insurer). In case the contractor fails to perform or breaches the contract, the surety compensates the oblige for the loss. This solution enhances credibility, reduces financial risk and is widely used in infrastructure projects, government contracts and large commercial agreements to ensure timely and reliable project completion.",
     features: [
       {
         title: "Performance Assurance",
         icon: "/insurance-icons/surety-bond-insurance-1.png",
-        description: "Guarantees completion of contractual obligations.",
+        description: "Ensures compliance with agreed contract requirements.",
       },
       {
         title: "Project Completion Security",
@@ -2322,7 +2328,7 @@ export const servicesData = [
         question:
           "What is the difference between Surety Bond and Bank Guarantee?",
         answer:
-          "A Surety Bond is a guarantee with risk assessment by an insurer, while a bank guarantee involves blocking funds or credit limits in a bank.",
+          "A Surety Bond is a guarantee with risk assessment by an insurer, while a Bank Guarantee involves blocking funds or credit limits in a bank.",
       },
       {
         question: "What types of Surety Bonds are available?",
@@ -2332,15 +2338,15 @@ export const servicesData = [
       {
         question: "Does a Surety Bond impact credit rating?",
         answer:
-          "No, it generally does not impact credit utilization like bank guarantees, but financial assessment is still required.",
+          "No, it generally does not impact credit utilization like Bank Guarantees, but financial assessment is still required.",
       },
     ],
     bgImage: "/finask/surety-bond-insurance.png",
     backgroundPosition: "center",
     faqSection: {
-      promoTitle: "Invest \u20B910k/month & Get",
-      promoText: "\u20B91 Crore*Tax-Free",
-      promoBadges1: " ",
+      promoTitle: " ",
+      promoText: "Shield Your Project From Surety Bonds Insurance Now",
+      promoBadges1: " ", 
       promoBadges2: " ",
     },
   },
@@ -2411,12 +2417,12 @@ export const servicesData = [
   },
   {
     slug: "professional-indemnity",
-    uspLayout: "bottom-sticky-banner",
+    uspLayout: "horizontal-ribbon",
     category: "Insurance",
     title: "Professional Indemnity Insurance",
-    tagline: "Ensuring Confidence in Your Profession with Financial Protection",
+    tagline: "Protecting Careers Built On Trust",
     description:
-      "It protects professionals and service providers against claims arising from errors, negligence or omissions in the services they deliver. It covers legal defense costs, settlements and compensation if a client suffers financial loss due to incorrect advice or inadequate service. This policy is essential for professionals such as consultants, financial advisors, doctors and architects, helping safeguard their reputation, maintain client trust and ensure financial stability in case of unforeseen claims.",
+      "It protects professionals and service providers against claims arising from errors, negligence or omissions in the services they deliver. It covers legal defence costs, settlements and compensation if a client suffers financial loss due to incorrect advice or inadequate service. This policy is essential for professionals such as consultants, financial advisors, doctors and architects, helping safeguard their reputation, maintain client trust and ensure financial stability in case of unforeseen claims.",
     features: [
       {
         title: "Breach of Duty Cover",
@@ -2468,8 +2474,9 @@ export const servicesData = [
     faqSection: {
       promoTitle: "Invest \u20B910k/month & Get",
       promoText: "\u20B91 Crore*Tax-Free",
-      promoBadges1: " ",
-      promoBadges2: " ",
+      promoBadges1: "Best Prices, Maximum Savings",
+      promoBadges2: " Dedicated Support, Quick Replies",
+      promoBadges3: "Quotes In Seconds, Coverage in Minutes",
     },
   },
   {
@@ -2603,7 +2610,7 @@ export const servicesData = [
     category: "Insurance",
     title: "Office Package Policy",
     tagline:
-      "Protect Your Workplace, Power Your Productivity And Grow With Confidence",
+      "Protecting Offices, Powering Productivity",
     description:
       "Office Package Policy is a comprehensive insurance solution designed to protect businesses from a wide range of operational risks. It covers physical assets such as office premises, furniture, fixtures, electronic equipment and important documents against events like fire, theft, accidental damage and natural disasters. In addition, it offers liability protection against third-party claims and can be extended to include employee-related covers and business interruption losses. With flexible and customizable options, an Office Package Policy ensures that your workplace remains financially secure, allowing you to focus on productivity and growth without worrying about unforeseen disruptions.",
     features: [
@@ -2655,10 +2662,10 @@ export const servicesData = [
     faqSection: {
       promoTitle: " ",
       promoText: " ",
-      promoBadges1: "Instant & Digital Policy Issuance",
-      promoBadges2: "365 Days Dedicated Claims Support",
+      promoBadges1: "Digital Policy Issuance",
+      promoBadges2: "365-Day Dedicated Claims Support",
       promoBadges3:
-        " Expert Assistance from Policy Purchase to Claim Settlement",
+        " Expert Guidance from Purchase to Claim",
     },
   },
 

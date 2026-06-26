@@ -69,10 +69,10 @@ export const businessInsuranceSections = [
   {
     title: "Engineering",
     items: [
-      { label: "Contractor All Risk", slug: "contractor-all-risk" },
+      { label: "Contractor's All Risk", slug: "contractor-all-risk" },
       { label: "Erection All Risk", slug: "erection-all-risk" },
       {
-        label: "Contractor Plant & Machinery",
+        label: "Contractor's Plant & Machinery",
         slug: "contractor-plant-machinery",
       },
     ],
@@ -81,7 +81,7 @@ export const businessInsuranceSections = [
     title: "Liability",
     items: [
       {
-        label: "Professional indemnity for doctors",
+        label: "Professional Indemnity For Doctors",
         slug: "prof-indemnity-for-doctors",
       },
       { label: "Professional Indemnity", slug: "professional-indemnity" },
@@ -100,15 +100,15 @@ export const businessInsuranceSections = [
   {
     title: "Employee",
     items: [
-      { label: "Group Personal Accident", slug: "group-personal-accident" },
+      { label: "Group Personal Accident Insurance", slug: "group-personal-accident" },
       { label: "Group Health Insurance", slug: "group-health-insurance" },
-      { label: "Group Term Life", slug: "group-term-life" },
+      { label: "Group Term Life Insurance", slug: "group-term-life" },
     ],
   },
   {
     title: "Other Business Insurance",
     items: [
-      { label: "Surety Bond Insurance", slug: "surety-bond-insurance" },
+      { label: "Surety Bonds Insurance", slug: "surety-bond-insurance" },
       { label: "Trade Credit Insurance", slug: "trade-credit-insurance" },
       { label: "Errors and Omissions", slug: "errors-and-omissions" },
 
