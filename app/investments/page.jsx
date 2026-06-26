@@ -7,7 +7,7 @@ import Footer from "@/components/Footer";
 import { servicesData } from "@/data/services";
 import { allInvestmentMenuItems } from "@/data/investmentMenu";
 
-const investments = allInvestmentMenuItems.map((item, index) => {
+const investments = [...allInvestmentMenuItems].sort((a, b) => a.label.localeCompare(b.label)).map((item, index) => {
   const service = servicesData.find((entry) => entry.slug === item.slug);
   const description =
     service?.description?.replace(/\s+/g, " ").trim() ||

@@ -2163,7 +2163,7 @@ export const servicesData = [
   },
   {
     slug: "trade-credit-insurance",
-    uspLayout: "horizontal-ribbon",
+    uspLayout: "horizontal-ribbon-business",
     category: "Insurance",
     title: "Trade Credit Insurance",
     tagline: "Protecting Cash Flow, Securing Business Growth",
@@ -2418,7 +2418,7 @@ export const servicesData = [
   },
   {
     slug: "professional-indemnity",
-    uspLayout: "horizontal-ribbon",
+    uspLayout: "horizontal-ribbon-business",
     category: "Insurance",
     title: "Professional Indemnity Insurance",
     tagline: "Protecting Careers Built On Trust",
@@ -2607,7 +2607,7 @@ export const servicesData = [
   },
   {
     slug: "office-package-policy",
-    uspLayout: "horizontal-ribbon",
+    uspLayout: "horizontal-ribbon-business",
     category: "Insurance",
     title: "Office Package Policy",
     tagline:

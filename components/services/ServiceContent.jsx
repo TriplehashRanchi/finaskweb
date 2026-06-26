@@ -12,6 +12,7 @@ import { allInsuranceMenuItems } from "@/data/insuranceMenu";
 
 const ALL_LAYOUTS = [
   "horizontal-ribbon",
+  "horizontal-ribbon-business",
   "floating-pills",
   "bottom-sticky-banner",
   "bottom-sticky-blue",
@@ -160,7 +161,7 @@ export default function ServiceContent({ service, hideFaq = false }) {
           ))}
       </div>
 
-      {layoutType && ["horizontal-ribbon", "floating-pills"].includes(layoutType) && shouldShowUSP && (
+      {layoutType && ["horizontal-ribbon", "horizontal-ribbon-business", "floating-pills"].includes(layoutType) && shouldShowUSP && (
         <div className="mb-16">
           <PromoUSPRenderer layoutType={layoutType} promoTitle={promoTitle} promoText={promoText} promoBadges={promoBadges} />
         </div>
