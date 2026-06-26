@@ -1854,7 +1854,7 @@ export const servicesData = [
     tagline:
       "Built To Protect Every Commercial Journey",
     description:
-      "Commercial Vehicle Insurance is designed to protect vehicles used for business purposes such as taxis, trucks, buses and delivery vans against financial losses arising from accidents, theft, natural disasters and third-party liabilities. As mandated by the Insurance Regulatory and Development Authority of India, Third-Party Insurance is compulsory, while Comprehensive Policies provide broader coverage including damage to your own vehicle. With add-ons like zero depreciation, engine protection and others, Commercial Vehicle Insurance ensures legal compliance, business continuity and financial security for owners and operators.",
+      "Commercial Vehicle Insurance is designed to protect vehicles used for business purposes such as taxis, trucks, buses and delivery vans against financial losses arising from accidents, theft, natural disasters and third-party liabilities. As mandated by the Insurance Regulatory and Development Authority of India, Third-Party Insurance is compulsory, while Comprehensive Policies provide broader coverage including damage to your own vehicle. With add-ons like zero depreciation, engine protection and other specialized covers, Commercial Vehicle Insurance ensures legal compliance, business continuity and financial security for owners and operators.",
     features: [
       {
         title: "Legal Liability Cover",
@@ -2163,10 +2163,10 @@ export const servicesData = [
   },
   {
     slug: "trade-credit-insurance",
-    uspLayout: "bottom-sticky-banner",
+    uspLayout: "horizontal-ribbon",
     category: "Insurance",
     title: "Trade Credit Insurance",
-    tagline: "Enabling Confident Business Growth With Credit Risk Protection",
+    tagline: "Protecting Cash Flow, Securing Business Growth",
     description:
       "It protects businesses against the risk of non-payment by buyers due to insolvency, default or delayed payments. It ensures that your cash flow remains stable by covering outstanding receivables, allowing you to confidently extend credit to customers and expand your business. This policy not only safeguards your balance sheet but also enhances your ability to access financing, making it a vital tool for companies dealing in domestic or international trade.",
     features: [
@@ -2199,7 +2199,7 @@ export const servicesData = [
           "Yes, it can cover losses if a buyer pays only a part of the invoice amount.",
       },
       {
-        question: "Is Export Business covered under this policy?",
+        question: "Is Export Trade covered under this policy?",
         answer:
           "Yes, Export Trade can be covered, including risks like political instability or currency restrictions subject to policy terms and conditions.",
       },
@@ -2217,10 +2217,11 @@ export const servicesData = [
     bgImage: "/finask/trade-credit-insurance.png",
     backgroundPosition: "center",
     faqSection: {
-      promoTitle: "Invest \u20B910k/month & Get",
-      promoText: "\u20B91 Crore*Tax-Free",
-      promoBadges1: " ",
-      promoBadges2: " ",
+      promoTitle: " ",
+      promoText: " ",
+      promoBadges1: "Get Custom Quotes Instantly ",
+      promoBadges2: "24/7 Claims Assistance*",
+      promoBadges3: "In-House Product Experts"
     },
   },
   {
@@ -2292,7 +2293,7 @@ export const servicesData = [
     slug: "surety-bond-insurance",
     uspLayout: "bottom-sticky-blue",
     category: "Insurance",
-    title: "Surety Bonds Insurance",
+    title: "Surety Bond Insurance",
     tagline: "Providing Confidence to Stakeholders Through Financial Backing",
     description:
       "It is a financial guarantee that ensures a contractor or business fulfils its contractual obligations as agreed. It involves three parties: the principal (contractor), the oblige (project owner) and the surety (insurer). In case the contractor fails to perform or breaches the contract, the surety compensates the oblige for the loss. This solution enhances credibility, reduces financial risk and is widely used in infrastructure projects, government contracts and large commercial agreements to ensure timely and reliable project completion.",
@@ -2345,7 +2346,7 @@ export const servicesData = [
     backgroundPosition: "center",
     faqSection: {
       promoTitle: " ",
-      promoText: "Shield Your Project From Surety Bonds Insurance Now",
+      promoText: "Shield Your Project From Surety Bond Insurance Now",
       promoBadges1: " ", 
       promoBadges2: " ",
     },
@@ -2355,7 +2356,7 @@ export const servicesData = [
     uspLayout: "bottom-sticky-banner",
     category: "Insurance",
     title: "Errors & Omissions Insurance",
-    tagline: "Financial Security Against Unforeseen Professional Risks",
+    tagline: "Security For Every Professional Decision",
     description:
       "Errors & Omissions Insurance (E&O) protects businesses and professionals against claims arising from negligence, mistakes or failure to deliver promised services. It covers legal costs, settlements and damages if a client suffers financial loss due to errors, omissions or inadequate advice. This policy is essential for consultants, financial advisors and service providers, ensuring financial protection while maintaining professional credibility and client trust.",
     features: [
@@ -2386,7 +2387,7 @@ export const servicesData = [
     faq: [
       {
         question:
-          "What is the difference between E&O and General Liability Insurance?",
+          "What is the difference between E&O Insurance and General Liability Insurance?",
         answer:
           "E&O Insurance covers professional mistakes or service errors, while General Liability Insurance covers physical injury or property damage.",
       },
@@ -2409,8 +2410,8 @@ export const servicesData = [
     bgImage: "/finask/errors-and-omissions-insurance.png",
     backgroundPosition: "bottom center",
     faqSection: {
-      promoTitle: "Invest \u20B910k/month & Get",
-      promoText: "\u20B91 Crore*Tax-Free",
+      promoTitle: "Certified Advisors",
+      promoText: "Wallet-Friendly Plans",
       promoBadges1: " ",
       promoBadges2: " ",
     },
@@ -2481,12 +2482,12 @@ export const servicesData = [
   },
   {
     slug: "fleet-insurance",
-    uspLayout: "bottom-sticky-banner",
+    uspLayout: "bottom-sticky-blue",
     category: "Insurance",
     title: "Fleet Insurance",
-    tagline: "Comprehensive Coverage For All Your Vehicles Under A Single Plan",
+    tagline: "Keeping Your Fleet Road-Ready And Protected",
     description:
-      "Fleet Insurance is a comprehensive insurance solution designed for businesses that own and operate multiple vehicles under a single policy. Instead of managing separate insurance policies for each vehicle, Fleet Insurance allows companies to cover all their vehicles—such as cars, trucks, vans or commercial vehicles—under one streamlined plan. This not only simplifies administration and renewal processes but also helps in reducing overall premium costs through bulk coverage benefits. Fleet insurance typically covers risks like accidents, third-party liabilities, theft, natural disasters and damages, ensuring uninterrupted business operations. It is especially beneficial for logistics companies, transport operators and businesses relying heavily on mobility, offering flexibility, cost efficiency and centralized risk management.",
+      "Fleet Insurance is a comprehensive insurance solution designed for businesses that own and operate multiple vehicles under a single policy. Instead of managing separate insurance policies for each vehicle, Fleet Insurance allows companies to cover all their vehicles, such as cars, trucks, vans or commercial vehicles, under one streamlined plan. This not only simplifies administration and renewal processes but also helps in reducing overall premium costs through bulk coverage benefits. Fleet insurance typically covers risks like accidents, third-party liabilities, theft, natural disasters and damages, ensuring uninterrupted business operations. It is especially beneficial for logistics companies, transport operators and businesses relying heavily on mobility, offering flexibility, cost efficiency and centralized risk management.",
     features: [
       {
         title: "Single Policy Cover",
@@ -2514,7 +2515,7 @@ export const servicesData = [
       {
         question: "How is the premium calculated?",
         answer:
-          "Premium depends on various factors like the number and type of vehicles, usage, claims history of the fleet, geographical location, coverage opted and add-ons.",
+          "Premium depends on various factors like number and type of vehicles, usage (private/commercial), claims history of the fleet, geographical location, coverage opted and add-ons.",
       },
       {
         question: "What is the minimum number of vehicles required?",
@@ -2536,8 +2537,8 @@ export const servicesData = [
     bgImage: "/finask/fleet-insurance.png",
     backgroundPosition: "center",
     faqSection: {
-      promoTitle: "Invest \u20B910k/month & Get",
-      promoText: "\u20B91 Crore*Tax-Free",
+      promoTitle: "Quote From Top Insurers",
+      promoText: "Get Insured In 2 Minutes",
       promoBadges1: " ",
       promoBadges2: " ",
     },

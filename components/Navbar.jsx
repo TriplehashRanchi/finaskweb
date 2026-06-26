@@ -120,7 +120,7 @@ function InsuranceMegaMenu() {
         <div className="min-w-0 flex-1 py-5 px-5 ">
           {/* Section heading */}
           <div className="flex items-center gap-2 mb-3">
-            <span className="text-[14px] font-bold text-[#00394E]">
+            <span className="text-[16px] font-bold text-[#00394E]">
               {currentSection.title}
             </span>
           </div>
@@ -195,7 +195,7 @@ function InvestmentMegaMenu() {
 
         <div className="min-w-0 flex-1 py-5 px-5">
           <div className="flex items-center gap-2 mb-3">
-            <span className="text-[14px] font-bold text-[#00394E]">
+            <span className="text-[16px] font-bold text-[#00394E]">
               {currentSection.title}
             </span>
           </div>
@@ -248,17 +248,16 @@ export default function Navbar() {
   );
 
   const serviceItems = [
+    { name: "Credit Cards", slug: "credit-cards" },
+    { name: "Executor Services", slug: "executor-services" },
+    { name: "Financial Literacy Workshops", slug: "financial-literacy" },
+    {name: "Health Assistance", slug: "health-assistance"},
+    { name: "Legal Advisory", slug: "legal-advisory" },
+     { name: "Tax Advisory", slug: "tax-advisory" },
     { name: "Trust Formation", slug: "trust-formation" },
     { name: "Will Writing", slug: "will-writing" },
-    { name: "Executor Services", slug: "executor-services" },
-    { name: "Legal Advisory", slug: "legal-advisory" },
-    { name: "Tax Advisory", slug: "tax-advisory" },
-    { name: "Financial Literacy Workshops", slug: "financial-literacy" },
-    { name: "Credit Cards", slug: "credit-cards" },
-    {
-      name: "Health Assistance",
-      slug: "health-assistance",
-    },
+     
+    
   ];
 
   return (

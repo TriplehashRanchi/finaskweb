@@ -2,7 +2,12 @@ export const investmentSections = [
   {
     title: "Core Investment Products",
     items: [
+      { label: "Bonds", slug: "bonds" },
+      { label: "Corporate FDRs", slug: "corporate-fdrs" },
+      { label: "E-Gold", slug: "e-gold" },
       { label: "Mutual Funds", slug: "mutual-funds" },
+      { label: "National Pension System", slug: "nps" },
+      { label: "Step-Up SIP", slug: "set-up-sip" },
       {
         label: "Systematic Investment Plan ",
         slug: "systematic-investment-plan",
@@ -15,20 +20,19 @@ export const investmentSections = [
         label: "Systematic Transfer Plan ",
         slug: "systematic-transfer-plan",
       },
-      { label: "Step-Up SIP", slug: "set-up-sip" },
-      { label: "Bonds", slug: "bonds" },
-      { label: "Corporate FDRs", slug: "corporate-fdrs" },
-      { label: "E-Gold", slug: "e-gold" },
-      { label: "National Pension System", slug: "nps" },
+      
+      
+     
+      
+      
     ],
   },
   {
     title: "Equity & Market-Linked Investments",
     items: [
       { label: "Portfolio Management Services", slug: "pms" },
-
-      { label: "Unlisted Equity", slug: "unlisted-equity" },
       { label: "Stock & Broking", slug: "stock-broking" },
+      { label: "Unlisted Equity", slug: "unlisted-equity" },
     ],
   },
   {
@@ -38,24 +42,27 @@ export const investmentSections = [
         label: "Alternative Fixed Income",
         slug: "alternative-fixed-income",
       },
+      { label: "Alternative Investment Funds", slug: "aifs" },
+      { label: "Peer-to-Peer Lending", slug: "p2p-lending" },
       {
         label: "Specialized Investment Funds",
         slug: "specialised-investment-fund",
       },
-      ,
-      { label: "Alternative Investment Funds", slug: "aifs" },
-      { label: "Peer-to-Peer Lending", slug: "p2p-lending" },
+      
+    
     ],
   },
   {
     title: "Real Estate & Infrastructure",
     items: [
-      { label: "Real Estate Investment Trusts", slug: "reits" },
-      { label: "Infrastructure Investment Trusts", slug: "invits" },
-      {
+      
+       {
         label: "Fractional Commercial Real Estate",
         slug: "fractional-commercial-real-estate",
       },
+      { label: "Infrastructure Investment Trusts", slug: "invits" },
+      { label: "Real Estate Investment Trusts", slug: "reits" },
+     
     ],
   },
   {

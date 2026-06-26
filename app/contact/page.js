@@ -26,8 +26,8 @@ export default function ContactPage() {
           <h1 className="font-serif text-5xl md:text-6xl font-bold text-white my-6 drop-shadow-lg">
             Get in Touch
           </h1>
-          <p className="text-gray-200 text-lg md:text-xl font-light leading-[1.2] max-w-2xl mx-auto">
-            Because a 10-minute conversation can create 10 years of clarity.
+          <p className="text-gray-200 capitalize text-lg md:text-xl font-light leading-[1.2] max-w-2xl mx-auto">
+            Because a 10-minute conversation can create 10 years of clarity
           </p>
         </div>
       </section>
@@ -40,7 +40,7 @@ export default function ContactPage() {
           <div className="flex flex-col md:flex-row">
             {/* Title Column - Clean White with Navy Text */}
             <div className="w-full md:w-1/3 bg-[#FDF9FB] p-10 flex flex-col items-center justify-center text-left border-b md:border-b-0 md:border-r border-slate-100 relative overflow-hidden">
-              <h3 className="font-bold text-3xl md:text-4xl text-[#00394E] leading-tight text-center ">
+              <h3 className="font-bold capitalize text-3xl md:text-4xl text-[#00394E] leading-tight text-center ">
                 How can we help you?
               </h3>
             </div>
@@ -67,7 +67,7 @@ export default function ContactPage() {
                     <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
                   </svg>
                 </div>
-                <h4 className="font-serif text-lg text-[#00394E] mb-2 group-hover:font-bold transition-all">
+                <h4 className="font-serif text-2xl text-[#00394E] mb-2 group-hover:font-bold transition-all">
                   Schedule a call
                 </h4>
                 <p className="text-xs text-slate-500 font-light uppercase tracking-wide">
@@ -96,7 +96,7 @@ export default function ContactPage() {
                     <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
                   </svg>
                 </div>
-                <h4 className="font-serif text-lg text-[#00394E] mb-2 group-hover:font-bold transition-all">
+                <h4 className="font-serif text-2xl text-[#00394E] mb-2 group-hover:font-bold transition-all">
                   Chat with us
                 </h4>
                 <p className="text-xs text-slate-500 font-light uppercase tracking-wide">
@@ -125,7 +125,7 @@ export default function ContactPage() {
                     <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
                   </svg>
                 </div>
-                <h4 className="font-serif text-lg text-[#00394E] mb-2 group-hover:font-bold transition-all">
+                <h4 className="font-serif text-2xl text-[#00394E] mb-2 group-hover:font-bold transition-all">
                   Send an email
                 </h4>
                 <p className="text-xs text-slate-500 font-light uppercase tracking-wide">
@@ -179,7 +179,7 @@ export default function ContactPage() {
                   <h4 className="font-bold text-[#DAA434] text-sm mb-1">
                     Our Location
                   </h4>
-                  <p className="text-gray-300 text-sm leading-relaxed font-light">
+                  <p className="text-gray-300 text-md leading-relaxed font-light">
                     1st Floor, Badshahpur Sohna Road, near Subhash Chowk,
                     Central Park II, Sector 48, Gurugram, Haryana – 122018
                   </p>
@@ -272,7 +272,7 @@ export default function ContactPage() {
                   <h4 className="font-bold text-[#DAA434] text-sm mb-1">
                     Our Location
                   </h4>
-                  <p className="text-slate-300 text-sm leading-relaxed font-light">
+                  <p className="text-slate-300 text-md leading-relaxed font-light">
                     Pocket 10, YC Co-Working Space, 3rd Floor, Plot No. 94,
                     Sector 13, Dwarka, Delhi – 110078
                   </p>
@@ -286,7 +286,7 @@ export default function ContactPage() {
                     width="20"
                     height="20"
                     viewBox="0 0 24 24"
-                    fill="none"
+                    fill="none" 
                     stroke="currentColor"
                     strokeWidth="2"
                     strokeLinecap="round"

@@ -53,10 +53,10 @@ export default function ExitIntentPopup() {
         <div className="text-center space-y-6">
           <div className="space-y-2">
             <h2 className="text-3xl md:text-4xl font-extrabold text-[#00394E]  tracking-tight font-sans">
-              Interested in getting insurance?
+              Ready To Achieve Your Financial Goals?
             </h2>
             <h3 className="text-2xl md:text-3xl font-extrabold text-[#00394E] tracking-tight font-sans">
-              Connect with us now
+              Whether It's Investment, Insurance, Tax Planning Or Wealth Creation, We Are Here To Help.
             </h3>
           </div>
 
@@ -65,7 +65,7 @@ export default function ExitIntentPopup() {
               Book A Free Call
             </Link>
             <Link href="https://wa.me/918076351485" target="_blank" onClick={() => setShowPopup(false)} className="w-full sm:w-auto px-10 py-3.5 bg-transparent border focus:outline-none rounded-xl focus:ring-2 focus:ring-black border-[#00394E]   text-black font-semibold   transition-colors">
-              Connect on WhatsApp
+              Connect On WhatsApp
             </Link>
           </div>
         </div>
