@@ -15,9 +15,9 @@ export default function CareersPage() {
         <div
           className="absolute inset-0 z-0"
           style={{
-            backgroundImage: 'url("/banner1.webp")',
+            backgroundImage: 'url("/joinourteam.jpg")',
             backgroundSize: "cover",
-            backgroundPosition: "center",
+            backgroundPosition: "top",
             backgroundRepeat: "no-repeat",
             filter: "brightness(0.35) ",
           }}

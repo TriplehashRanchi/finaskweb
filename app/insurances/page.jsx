@@ -28,9 +28,9 @@ export default function ServicesSection() {
         <div
           className="absolute inset-0 z-0"
           style={{
-            backgroundImage: 'url("/image.webp")',
+            backgroundImage: 'url("/insurancebanner.png")',
             backgroundSize: "cover",
-            backgroundPosition: "top center",
+            backgroundPosition: "center center",
             backgroundRepeat: "no-repeat",
           }}
         />

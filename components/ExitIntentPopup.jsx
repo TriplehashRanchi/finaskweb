@@ -62,7 +62,7 @@ export default function ExitIntentPopup() {
             <h2 className="text-3xl md:text-4xl font-extrabold text-[#00394E] tracking-tight font-sans">
               Ready To Achieve Your Financial Goals?
             </h2>
-            <h3 className="text-xl md:text-2xl font-extrabold text-[#00394E] tracking-tight font-sans">
+            <h3 className="text-xl md:text-2xl font-semi  bold text-[#00394E] tracking-tight font-sans">
               Whether It's Investment, Insurance, Tax Planning Or Wealth Creation, We Are Here To Help.
             </h3>
           </div>
