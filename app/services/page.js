@@ -9,15 +9,12 @@ import { servicesData } from "@/data/services";
 const serviceItems = [
   { name: "Credit Cards", slug: "credit-cards" },
   { name: "Executor Services", slug: "executor-services" },
-  { name: "Family Office", slug: "family-office" },
   { name: "Financial Literacy Workshops", slug: "financial-literacy" },
   { name: "Health Assistance", slug: "health-assistance" },
   { name: "Legal Advisory", slug: "legal-advisory" },
-  { name: "NRI's Corner", slug: "nri-corner" },
   { name: "Tax Advisory", slug: "tax-advisory" },
   { name: "Trust Formation", slug: "trust-formation" },
   { name: "Will Writing", slug: "will-writing" },
-  { name: "Women's Corner", slug: "women-corner" },
 ];
 
 const services = serviceItems.map((item, index) => {

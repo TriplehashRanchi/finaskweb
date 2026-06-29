@@ -63,7 +63,7 @@ export default function ExitIntentPopup() {
               Ready To Achieve Your Financial Goals?
             </h2>
             <h3 className="text-xl md:text-2xl font-semi  bold text-[#00394E] tracking-tight font-sans">
-              Whether It's Investment, Insurance, Tax Planning Or Wealth Creation, We Are Here To Help.
+              Whether It's Investment, Insurance, Tax Planning or Wealth Creation, We Are Here To Help.
             </h3>
           </div>
 

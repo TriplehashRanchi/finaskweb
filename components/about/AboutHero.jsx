@@ -25,7 +25,7 @@ export default function AboutHero() {
           Who Are We
         </h1>
         <p className="text-gray-200 text-lg  font-light leading-[1.2] max-w-lg mx-auto">
-          Stewarding Wealth With Character. Rooted In India. Committed To Your Financial Well-Being Today And Tomorrow.
+          Stewarding Wealth With Character. Rooted In India. <br /> Committed To Your Financial Well-Being Today And Tomorrow.
         </p>
       </div>
     </section>

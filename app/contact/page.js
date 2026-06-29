@@ -70,7 +70,7 @@ export default function ContactPage() {
                 <h4 className="font-serif text-2xl text-[#00394E] mb-2 group-hover:font-bold transition-all">
                   Schedule a call
                 </h4>
-                <p className="text-xs text-slate-500 font-light uppercase tracking-wide">
+                <p className="text-sm text-slate-500 font-normal uppercase tracking-wide">
                   Advisor Support
                 </p>
               </a>
@@ -99,7 +99,7 @@ export default function ContactPage() {
                 <h4 className="font-serif text-2xl text-[#00394E] mb-2 group-hover:font-bold transition-all">
                   Chat with us
                 </h4>
-                <p className="text-xs text-slate-500 font-light uppercase tracking-wide">
+               <p className="text-sm text-slate-500 font-normal uppercase tracking-wide">
                   WhatsApp
                 </p>
               </a>
@@ -128,7 +128,7 @@ export default function ContactPage() {
                 <h4 className="font-serif text-2xl text-[#00394E] mb-2 group-hover:font-bold transition-all">
                   Send an email
                 </h4>
-                <p className="text-xs text-slate-500 font-light uppercase tracking-wide">
+               <p className="text-sm text-slate-500 font-normal uppercase tracking-wide">
                   Inquiries
                 </p>
               </a>
@@ -176,10 +176,10 @@ export default function ContactPage() {
                   </svg>
                 </div>
                 <div>
-                  <h4 className="font-bold text-[#DAA434] text-sm mb-1">
-                    Our Location
+                  <h4 className="font-bold text-[#DAA434] text-md mb-1">
+                    Location
                   </h4>
-                  <p className="text-gray-300 text-md leading-relaxed font-light">
+                  <p className="text-gray-300 text-[17px] leading-relaxed font-normal">
                     1st Floor, Badshahpur Sohna Road, near Subhash Chowk,
                     Central Park II, Sector 48, Gurugram, Haryana – 122018
                   </p>
@@ -203,12 +203,12 @@ export default function ContactPage() {
                   </svg>
                 </div>
                 <div>
-                  <h4 className="font-bold text-[#DAA434] text-sm mb-1">
-                    Contact Us
+                  <h4 className="font-bold text-[#DAA434] text-md mb-1">
+                    Contact
                   </h4>
                   <a
                     href="tel:+918076351485"
-                    className="text-gray-300 hover:text-white transition-colors block text-sm"
+                    className="text-gray-300 hover:text-white transition-colors block text-md"
                   >
                     +91 80763 51485
                   </a>
@@ -232,12 +232,12 @@ export default function ContactPage() {
                   </svg>
                 </div>
                 <div>
-                  <h4 className="font-bold text-[#DAA434] text-sm mb-1">
-                    Email Us
+                  <h4 className="font-bold text-[#DAA434] text-md mb-1">
+                    Email
                   </h4>
                   <a
                     href="tel:+911140007000"
-                    className="text-gray-300 hover:text-white transition-colors block text-sm"
+                    className="text-gray-300 hover:text-white transition-colors block text-md"
                   >
                     wecare@finaskvalue.com
                   </a>
@@ -269,10 +269,10 @@ export default function ContactPage() {
                   </svg>
                 </div>
                 <div>
-                  <h4 className="font-bold text-[#DAA434] text-sm mb-1">
-                    Our Location
+                  <h4 className="font-bold text-[#DAA434] text-md mb-1">
+                     Location
                   </h4>
-                  <p className="text-slate-300 text-md leading-relaxed font-light">
+                  <p className="text-slate-300 text-[17px] leading-relaxed font-normal">
                     Pocket 10, YC Co-Working Space, 3rd Floor, Plot No. 94,
                     Sector 13, Dwarka, Delhi – 110078
                   </p>
@@ -296,12 +296,12 @@ export default function ContactPage() {
                   </svg>
                 </div>
                 <div>
-                  <h4 className="font-bold text-[#DAA434] text-sm mb-1">
-                    Contact Us
+                  <h4 className="font-bold text-[#DAA434] text-md mb-1">
+                    Contact 
                   </h4>
                   <a
                     href="tel:+911140007000"
-                    className="text-gray-300 hover:text-white transition-colors block text-sm"
+                    className="text-gray-300 hover:text-white transition-colors block text-md"
                   >
                     +91 80763 51485
                   </a>
@@ -324,12 +324,12 @@ export default function ContactPage() {
                   </svg>
                 </div>
                 <div>
-                  <h4 className="font-bold text-[#DAA434] text-sm mb-1">
-                    Email Us
+                  <h4 className="font-bold text-[#DAA434] text-md mb-1">
+                    Email 
                   </h4>
                   <a
                     href="tel:+911140007000"
-                    className="text-gray-300 hover:text-white transition-colors block text-sm"
+                    className="text-gray-300 hover:text-white transition-colors block text-md"
                   >
                     wecare@finaskvalue.com
                   </a>

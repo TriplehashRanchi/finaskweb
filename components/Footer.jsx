@@ -174,7 +174,7 @@ export default function Footer() {
                 </div>
                 <div>
                   <h4 className="text-white font-medium text-md  group-hover:text-[#DAA434] transition-colors">
-                    Work with us
+                    Work with Us
                   </h4>
                   <p className="text-gray-400 text-md font-sans">
                     wecare@finaskvalue.com

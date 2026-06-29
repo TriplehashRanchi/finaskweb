@@ -170,7 +170,7 @@ export const servicesData = [
     ],
     faq: [
       {
-        question: "Who should buy a Personal Accident Insurance?",
+        question: "Who should buy a Personal Accident Cover?",
         answer:
           "Anyone who earns for their family, travels frequently, drives regularly or works in physically demanding environments should consider this cover.",
       },
@@ -234,13 +234,13 @@ export const servicesData = [
     faq: [
       {
         question:
-          "How is Critical Illness Insurance different from Health Insurance?",
+          "How is Critical Illness Cover  different from Health Insurance?",
         answer:
-          "Health Insurance reimburses hospital bills, while Critical Illness Insurance pays a fixed lump-sum amount upon diagnosis, which you can use for treatment, recovery, income replacement or household expenses.",
+          "Health Insurance reimburses hospital bills, while Critical Illness Cover  pays a fixed lump-sum amount upon diagnosis, which you can use for treatment, recovery, income replacement or household expenses.",
       },
       {
         question:
-          "What illnesses are covered under Critical Illness Insurance?",
+          "What illnesses are covered under Critical Illness Cover ?",
         answer:
           "Coverage depends on the insurer, but most plans include major conditions like cancer, heart attack, stroke, organ transplant, paralysis, kidney failure and major surgeries.",
       },
@@ -250,7 +250,7 @@ export const servicesData = [
           "A survival period is the minimum number of days (for example, 30 days) you must survive after diagnosis to receive the claim payout.",
       },
       {
-        question: "Who should consider Critical Illness Insurance?",
+        question: "Who should consider Critical Illness Cover ?",
         answer:
           "Anyone with financial responsibilities, family history of serious illnesses, high-stress lifestyle or limited savings should strongly consider this cover.",
       },
@@ -822,7 +822,7 @@ export const servicesData = [
   //   title: "Corporate Insurance",
   //   tagline: "Because enterprises flourish on foresight and resilience.",
   //   description:
-  //     "Businesses, especially those stewarded across generations, thrive when well insulated against unpredictability. From group health schemes nurturing employee well-being to directors’ liability and cyber safeguards, we construct layered protections. Each is calibrated to uphold operational continuity and safeguard stakeholder confidence, even amid unforeseen tests.\n\nIt’s more than risk transfer — it’s strategic assurance that empowers growth without hesitation.\nWith FinAsk Value, your enterprise gains a partner dedicated to shielding its ambitions, reputation and hard-won legacy from vulnerabilities that could otherwise disrupt your vision.",
+  //     "Businesses, especially those stewarded across generations, thrive when well insulated against unpredictability. From group health schemes nurturing employee Well-Being to directors’ liability and cyber safeguards, we construct layered protections. Each is calibrated to uphold operational continuity and safeguard stakeholder confidence, even amid unforeseen tests.\n\nIt’s more than risk transfer — it’s strategic assurance that empowers growth without hesitation.\nWith FinAsk Value, your enterprise gains a partner dedicated to shielding its ambitions, reputation and hard-won legacy from vulnerabilities that could otherwise disrupt your vision.",
   //   features: [
   //     {
   //       title: "Group Health",
@@ -1120,7 +1120,7 @@ export const servicesData = [
       {
         question: "Why do companies offer Group Term Life Insurance?",
         answer:
-          "It helps organizations provide financial protection to employees’ families, enhance employee benefits, improve loyalty and retention and demonstrate a commitment to workforce well-being.",
+          "It helps organizations provide financial protection to employees’ families, enhance employee benefits, improve loyalty and retention and demonstrate a commitment to workforce Well-Being.",
       },
     ],
     bgImage: "/finask/group-term-life-insurance.webp",
@@ -1164,7 +1164,7 @@ export const servicesData = [
         title: "Employee Health Security",
         icon: "/insurance-icons/group-health-4.png",
         description:
-          "Comprehensive medical coverage that protects employees and strengthens workforce well-being.",
+          "Comprehensive medical coverage that protects employees and strengthens workforce Well-Being.",
       },
     ],
     faq: [
@@ -1206,7 +1206,7 @@ export const servicesData = [
     title: "Health Assistance",
     tagline: "World-Class Healthcare, Just a Tap Away",
     description:
-      "Your family’s health should never take a back seat due to a busy schedule or lack of access to medical services. Health Assistance enables you and your loved ones to access quality healthcare services from the comfort of your home. With a comprehensive range of digital healthcare solutions, you can consult doctors, schedule diagnostic tests, order medicines and manage your health easily through a single platform. Stay proactive about your well-being and ensure your family always has access to reliable, convenient and affordable healthcare services. \n Modern lifestyles often make it difficult to prioritize health. Health Assistance helps bridge that gap with quick and convenient access to healthcare professionals and services.",
+      "Your family’s health should never take a back seat due to a busy schedule or lack of access to medical services. Health Assistance enables you and your loved ones to access quality healthcare services from the comfort of your home. With a comprehensive range of digital healthcare solutions, you can consult doctors, schedule diagnostic tests, order medicines and manage your health easily through a single platform. Stay proactive about your Well-Being and ensure your family always has access to reliable, convenient and affordable healthcare services. \n Modern lifestyles often make it difficult to prioritize health. Health Assistance helps bridge that gap with quick and convenient access to healthcare professionals and services.",
     features: [
       {
         title: "Doctor Teleconsultation",
@@ -1468,7 +1468,7 @@ export const servicesData = [
     title: "Workmen Compensation Insurance",
     tagline: "Designed To Protect Every Working Hand",
     description:
-      "Workmen Compensation Insurance is a statutory policy that protects employers against financial liabilities arising from work-related injuries, disabilities or death of employees, ensuring rightful compensation to workers or their dependents. It covers medical expenses, loss of income, disability benefits and compensation in case of unfortunate incidents during employment, while ensuring compliance with the Employees’ Compensation Act. \n This policy not only safeguards businesses from legal and financial risks but also reflects a strong commitment towards employee well-being and workplace safety.",
+      "Workmen Compensation Insurance is a statutory policy that protects employers against financial liabilities arising from work-related injuries, disabilities or death of employees, ensuring rightful compensation to workers or their dependents. It covers medical expenses, loss of income, disability benefits and compensation in case of unfortunate incidents during employment, while ensuring compliance with the Employees’ Compensation Act. \n This policy not only safeguards businesses from legal and financial risks but also reflects a strong commitment towards employee Well-Being and workplace safety.",
     features: [
       {
         title: "Employee Protection",
@@ -2707,9 +2707,9 @@ export const servicesData = [
     faq: [
       {
         question:
-          "What is the difference between active and passive mutual funds?",
+          "What is the difference between Active and Passive Mutual Funds?",
         answer:
-          "Active funds are managed by fund managers who actively select stocks, while passive funds track an index like Nifty or Sensex.",
+          "Active Funds are managed by fund managers who actively select stocks, while Passive Funds track an index like Nifty or Sensex.",
       },
       {
         question: "What is SIP in Mutual Funds?",
@@ -3612,8 +3612,8 @@ export const servicesData = [
           " Minimum investment varies by issuer but usually starts from ₹10,000 or more, depending on the Corporate FD scheme.",
       },
     ],
-    bgImage: "/finask/c-fdr.jpg",
-    backgroundPosition: "top",
+    bgImage: "/finask/corporate-fdr.png",
+    backgroundPosition: "center",
     faqSection: {
       promoTitle: "Invest \u20B910k/month & Get",
       promoText: "\u20B91 Crore*Tax-Free",
@@ -4240,8 +4240,8 @@ export const servicesData = [
           "It is a document recording the amicable distribution of family assets to prevent future disputes.",
       },
     ],
-    bgImage: "/finask/legal-advisory.webp",
-    backgroundPosition: "top center",
+    bgImage: "/finask/legaladvisory.png",
+    backgroundPosition: "center",
     faqSection: {
       promoTitle: "Invest \u20B910k/month & Get",
       promoText: "\u20B91 Crore*Tax-Free",

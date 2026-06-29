@@ -82,7 +82,7 @@ export default function WhyWeExistSection() {
               Whether it’s safeguarding your enterprise, structuring a
               succession plan that prevents future disputes or crafting health
               and life covers that ensure no hospital bill or sudden tragedy
-              ever forces distress sales — we remain your quiet custodians,
+              ever forces distress sales, we remain your quiet custodians,
               focused on your peace of mind.
             </p>
 

@@ -56,7 +56,7 @@ export default function EthosSection() {
               <p className="text-gray-600 text-base leading-relaxed text-justify">
                 What sets us apart is our role as listeners first. From
                 goal-based investments to tax-efficient structures, we partner
-                with people not just for portfolios, but for purpose — because
+                with people not just for portfolios, but for purpose because
                 numbers alone do not drive us. We remain your quiet custodians,
                 focused on your peace of mind.
               </p>
