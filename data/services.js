@@ -2463,8 +2463,8 @@ export const servicesData = [
           "Some policies may cover costs related to reputation management, depending on extensions opted.",
       },
     ],
-    bgImage: "/finask/professional-indemnity-insurance.png",
-    backgroundPosition: "bottom center",
+    bgImage: "/finask/professional-indemnity.png",
+    backgroundPosition: "top",
     faqSection: {
       promoTitle: "Invest \u20B910k/month & Get",
       promoText: "\u20B91 Crore*Tax-Free",
@@ -3284,8 +3284,8 @@ export const servicesData = [
           "They provide an efficient way to invest in real estate through managed portfolios, multiple asset exposure, better liquidity and reduced capital requirements.",
       },
     ],
-    bgImage: "/finask/reit.webp",
-    backgroundPosition: "center",
+    bgImage: "/finask/reit.png",
+    backgroundPosition: "center ",
     faqSection: {
       promoTitle: "Invest \u20B910k/month & Get",
       promoText: "\u20B91 Crore*Tax-Free",

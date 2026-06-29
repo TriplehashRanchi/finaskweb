@@ -15,7 +15,7 @@ export default function ContactPage() {
         <div
           className="absolute inset-0 z-0"
           style={{
-            backgroundImage: 'url("/contact.webp")',
+            backgroundImage: 'url("/images/contact.png")',
             backgroundSize: "cover",
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat",
