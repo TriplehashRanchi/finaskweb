@@ -126,8 +126,9 @@ export default function Footer() {
               {[
                 { label: "Family Office", href: "/services/family-office" },
                 { label: "Insurance", href: "/insurances" },
-                { label: "Investments", href: "/investments" },
+                { label: "Investment", href: "/investments" },
                 { label: "NRI's Corner", href: "/services/nri-corner" },
+                { label: "Services", href: "/services" },
                 { label: "Women's Corner", href: "/services/women-corner" },
               ].map((item) => (
                 <li key={item.href}>

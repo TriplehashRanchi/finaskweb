@@ -1,6 +1,7 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import { ShieldCheck } from "lucide-react";
+import Link from "next/link";
 
 // Layout 2: Horizontal Ribbon (Updated to Family Promo Layout)
 export function HorizontalRibbon({ promoTitle, promoText, promoBadges }) {
@@ -99,22 +100,98 @@ export function HorizontalRibbon({ promoTitle, promoText, promoBadges }) {
   );
 }
 
+// Layout 2b: Horizontal Ribbon - Business variant
+export function HorizontalRibbonBusiness({ promoTitle, promoText, promoBadges }) {
+  return (
+    <div className="w-[100vw] ml-[calc(-50vw+50%)] bg-[#F0F4F8] py-6 px-6  border-y border-blue-50/50">
+      <div className="max-w-[1200px] mx-auto flex flex-col lg:flex-row items-center gap-12">
+        {/* Left Side: Content & Cards */}
+        <div className="w-full lg:w-2/3">
+          <h3 className="font-sans text-3xl md:text-[1.8rem] font-medium capitalize text-[#D44659] leading-tight mb-2 pr-0 lg:pr-12">
+            {promoTitle}
+          </h3>
+          <h3 className="font-sans text-3xl md:text-[2.4rem] font-medium capitalize leading-[1] text-[#00394E]  mb-10 pr-0 lg:pr-12">
+            {promoText}
+          </h3>
+
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-6">
+            {/* Card 1 */}
+            <div className="bg-white rounded-xl p-6   flex flex-col gap-3">
+              <div className="w-10 h-10 rounded-full bg-blue-50 flex items-center justify-center text-[#2196F3]">
+                <ShieldCheck className="w-5 h-5" />
+              </div>
+              <div>
+                <p className="font-bold capitalize text-[#00394E] text-[1.1rem] mb-0.5 leading-tight">
+                  {promoBadges[0] || "45 Lacs+"}
+                </p>
+              </div>
+            </div>
+
+            {/* Card 2 */}
+            <div className="bg-white rounded-xl p-6   flex flex-col gap-3">
+              <div className="w-10 h-10 rounded-full bg-blue-50 flex items-center justify-center text-[#2196F3]">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                </svg>
+              </div>
+              <div>
+                <p className="font-bold capitalize text-[#00394E] text-[1.1rem] mb-0.5 leading-tight">
+                  {promoBadges[1] || "45 Lacs+"}
+                </p>
+              </div>
+            </div>
+
+            {/* Card 3 */}
+            <div className="bg-white rounded-xl p-6 flex flex-col gap-3">
+              <div className="w-10 h-10 rounded-full bg-blue-50 flex items-center justify-center text-[#2196F3]">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <path d="M8 14s1.5 2 4 2 4-2 4-2"></path>
+                  <line x1="9" y1="9" x2="9.01" y2="9"></line>
+                  <line x1="15" y1="9" x2="15.01" y2="9"></line>
+                </svg>
+              </div>
+              <div>
+                <p className="font-bold capitalize text-[#00394E] text-[1.1rem] mb-0.5 leading-tight">
+                  {promoBadges[2] || "45 Lacs+"}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Right Side: Image with organic mask */}
+        <div className="w-full lg:w-1/3 flex justify-center relative">
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[280px] h-[320px] bg-[#F4D7DE] rounded-[3rem] -z-10 ml-6 mt-6"></div>
+          <div className="w-[250px] h-[300px] relative rounded-b-[10rem] rounded-t-[3.4rem] overflow-hidden border-white bg-white">
+            <img
+              src="/businessribbon.jpeg"
+              alt="Business Insurance"
+              className="w-full h-full object-cover"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 // Layout 6: Floating Pills (Above FAQ)
 export function FloatingPills({ promoTitle, promoText, promoBadges }) {
   return (
     <div className="w-full px-10 py-16 rounded-xl text-center bg-white">
-      <h3 className=" text-2xl capitalize text-[#D44659]  font-medium">{promoText}</h3>
-      <p className=" text-4xl capitalize text-[#00394E] leading-tight mb-8 font-medium">
+      {/* <h3 className=" text-2xl capitalize text-[#D44659]  font-medium">{promoText}</h3> */}
+      {/* <p className=" text-4xl capitalize text-[#00394E] leading-tight mb-8 font-medium">
         {promoTitle}
-      </p>
+      </p> */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-        <div className="rounded-lg bg-[#C8F0B0] px-4 py-3 text-center text-sm font-semibold text-[#245633] ">
+        <div className="rounded-lg bg-[#C8F0B0] px-4 py-3 text-center content-center text-sm font-semibold text-[#245633] ">
           <p className="text-lg font-bold capitalize text-[#00394E]">{promoBadges[0]}</p>
         </div>
-        <div className="rounded-lg bg-[#C9DCF8] px-4 py-3 text-center text-sm font-semibold text-[#1D4C8F] ">
+        <div className="rounded-lg bg-[#C9DCF8] px-4 py-3 text-center content-center text-sm font-semibold text-[#1D4C8F] ">
           <p className="text-lg font-bold capitalize text-[#00394E]">{promoBadges[1]}</p>
         </div>
-        <div className="rounded-lg bg-[#F0F4F8] px-4 py-3 text-center text-sm font-semibold text-[#00394E] ">
+        <div className="rounded-lg bg-[#F0F4F8] px-4 py-3 text-center content-center text-sm font-semibold text-[#00394E] ">
           <p className="text-lg font-bold capitalize text-[#00394E]">{promoBadges[2]}</p>
         </div>
       </div>
@@ -187,7 +264,7 @@ export function BottomStickyBanner({ promoTitle, promoText, promoBadges }) {
         </div>
 
         <div className="flex flex-col items-start w-full md:w-auto shrink-0">
-          <button className="bg-[#D44659] hover:bg-[#b03548] text-white px-6 py-3 rounded-lg font-semibold text-[0.95rem] transition-colors whitespace-nowrap flex items-center gap-2">
+          <Link className="bg-[#D44659] hover:bg-[#b03548] text-white px-6 py-3 rounded-lg font-semibold text-[0.95rem] transition-colors whitespace-nowrap flex items-center gap-2" href="/contact">
             Contact Now
             <svg
               width="16"
@@ -201,7 +278,7 @@ export function BottomStickyBanner({ promoTitle, promoText, promoBadges }) {
             >
               <path d="M5 12h14M12 5l7 7-7 7" />
             </svg>
-          </button>
+          </Link>
         </div>
       </div>
     </div>
@@ -268,7 +345,7 @@ export function BottomStickyBlue({ promoTitle, promoText, promoBadges }) {
         </div>
 
         <div className="flex flex-col items-cente  w-full md:w-auto shrink-0 md:pr-10">
-          <button className="bg-[#D44659] hover:bg-[#b03548] text-white px-8 py-3 rounded-lg font-bold text-[1rem] transition-colors whitespace-nowrap flex items-center gap-2 mb-2 shadow-md">
+          <Link className="bg-[#D44659] hover:bg-[#b03548] text-white px-8 py-3 rounded-lg font-bold text-[1rem] transition-colors whitespace-nowrap flex items-center gap-2 mb-2 shadow-md" href="/contact">
             Contact Now
             <svg
               width="16"
@@ -282,7 +359,7 @@ export function BottomStickyBlue({ promoTitle, promoText, promoBadges }) {
             >
               <path d="M5 12h14M12 5l7 7-7 7" />
             </svg>
-          </button>
+          </Link>
         </div>
       </div>
     </div>
@@ -381,6 +458,8 @@ export function PromoUSPRenderer({
   switch (layoutType) {
     case "horizontal-ribbon":
       return <HorizontalRibbon {...props} />;
+    case "horizontal-ribbon-business":
+      return <HorizontalRibbonBusiness {...props} />;
     case "floating-pills":
       return <FloatingPills {...props} />;
     case "bottom-sticky-banner":

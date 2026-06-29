@@ -9,7 +9,7 @@ export const servicesData = [
     title: "Health Insurance",
     tagline: "So Your Wellbeing Remains Untouched by Financial Anxiety",
     description:
-      "Good health underpins every other joy — from milestones celebrated to simple everyday contentment. Yet the rising intricacies and costs of medical care can quickly erode even the most robust fortunes if left unguarded. \n At FinAsk Value, we help you find discreet, sophisticated health coverage that stands silently by your side. Whether for your aging parents, a globe-trotting lifestyle or simply to insulate your wealth against life’s medical surprises, we curate solutions that protect both your family’s wellbeing and your long-term aspirations.",
+      "Good health underpins every other joy, from milestones celebrated to simple everyday contentment. Yet the rising intricacies and costs of medical care can quickly erode even the most robust fortunes if left unguarded. \n At FinAsk Value, we help you find discreet, sophisticated health coverage that stands silently by your side. Whether for your aging parents, a globe-trotting lifestyle or simply to insulate your wealth against life’s medical surprises, we curate solutions that protect both your family’s wellbeing and your long-term aspirations.",
     features: [
       {
         title: "Comprehensive Coverage",
@@ -62,8 +62,8 @@ export const servicesData = [
       promoTitle: "  ",
       promoText: "  ",
       promoBadges1: "Get 0% GST now",
-      promoBadges2: "24*7 claims assistance**",
-      promoBadges3: "Relationship manager for every customer",
+      promoBadges2: "24*7 claims assistance*",
+      promoBadges3: "Dedicated Relationship manager",
     },
   },
   {
@@ -128,8 +128,8 @@ export const servicesData = [
     faqSection: {
       promoTitle: " ",
       promoText: " ",
-      promoBadges1: "60-minute claim support**",
-      promoBadges2: "24*7 claims assistance**",
+      promoBadges1: "60-minute claims support*  ",
+      promoBadges2: "Personalized Policy Recommendations",
       promoBadges3: "Get 0% GST now",
     },
   },
@@ -137,11 +137,11 @@ export const servicesData = [
     slug: "personal-accident-insurance",
     uspLayout: "bottom-sticky-banner",
     category: "Insurance",
-    title: "Personal Accident Insurance",
+    title: "Personal Accident Cover",
     tagline:
       "Because Life’s Minor Stumbles Should Not Disrupt Its Grander Designs",
     description:
-      "Accidents rarely seek permission. A brief mishap can momentarily pause income or, in more severe cases, permanently alter earning trajectories. Personal Accident coverage ensures your household’s rhythm continues unbroken — supporting recoveries and sustaining ambitions with quiet financial reinforcement.\nIt’s more than a payout; it’s a promise that dreams remain intact, children’s plans stay on course and daily comforts do not give way to compromises.\nFrom covering medical costs to providing income replacement and long-term disability benefits, this shield steps in precisely when life feels most uncertain — so your future’s financial stability stays undisturbed.",
+      "Accidents rarely seek permission. A brief mishap can momentarily pause income or, in more severe cases, permanently alter earning trajectories. Personal Accident Coverage ensures your household’s rhythm continues unbroken, supporting recoveries and sustaining ambitions with quiet financial reinforcement.\nIt’s more than a payout; it’s a promise that dreams remain intact, children’s plans stay on course and daily comforts do not give way to compromises.\nFrom covering medical costs to providing income replacement and long-term disability benefits, this shield steps in precisely when life feels most uncertain, so your future’s financial stability stays undisturbed.",
     features: [
       {
         title: "Accidental Death Benefit",
@@ -182,7 +182,7 @@ export const servicesData = [
       {
         question: "What is Permanent Total Disability (PTD)?",
         answer:
-          "Permanent Total Disability refers to a condition where a person becomes completely and permanently unable to work due to an accident (for example, loss of both limbs or eyesight).",
+          "Permanent Total Disability refers to a condition where an accident results in complete and irreversible loss of ability to work, such as loss of both limbs or eyesight.",
       },
       {
         question: "What is Permanent Partial Disability (PPD)?",
@@ -193,8 +193,8 @@ export const servicesData = [
     bgImage: "/finask/accident.webp",
     backgroundPosition: "top center",
     faqSection: {
-      promoTitle: "Get 0% GST now",
-      promoText: "24*7 claims assistance**",
+      promoTitle: "Quick Policy Processing",
+      promoText: "End-to-End Policy Assistance",
     },
   },
   {
@@ -204,7 +204,7 @@ export const servicesData = [
     title: "  Critical Illness Cover",
     tagline: "So That Healing Never Demands Dismantling Your Legacy",
     description:
-      "Confronting a serious diagnosis is challenging enough without the added strain of sourcing funds or restructuring investments. Critical Illness Insurance offers a dignified, immediate payout upon diagnosis, empowering you to secure superior care and protect your family’s accustomed lifestyle, all without distressing your long-horizon financial plans.\n\nIt ensures that while you focus on recovery, your ambitions, your children’s education and your family’s day-to-day comfort continue undeterred.\nBecause true financial planning does not just anticipate the best; it thoughtfully prepares for the unexpected.",
+      "Confronting a serious diagnosis is challenging enough without the added strain of sourcing funds or restructuring investments. Critical Illness Cover offers a dignified, immediate payout upon diagnosis, empowering you to secure superior care and protect your family’s accustomed lifestyle, all without distressing your long-horizon financial plans.\n\nIt ensures that while you focus on recovery, your ambitions, your children’s education and your family’s day-to-day comfort continue undeterred.\nBecause true financial planning does not just anticipate the best; it thoughtfully prepares for the unexpected.",
     features: [
       {
         title: "Second Medical Opinion",
@@ -259,9 +259,9 @@ export const servicesData = [
     backgroundPosition: "top center",
     faqSection: {
       promoTitle: "Digital policy issuance",
-      promoText: "Dedicated Relationship manager",
-      promoBadges1: "60-minute claim support**",
-      promoBadges2: "10k + Happy Customers",
+      promoText: "10k + Happy Customers",
+      promoBadges1: "60-minute claims support*",
+      promoBadges2: "Dedicated Relationship manager",
     },
   },
   // {
@@ -320,7 +320,7 @@ export const servicesData = [
     title: "Term Insurance",
     tagline: "Care That Never Fades",
     description:
-      "Life’s certainties are few, but your family’s stability should never be one of them. Term Insurance creates a strong financial foundation, ensuring loved ones can continue their lives with dignity, education and independence even in your absence. At FinAsk Value, we help you choose thoughtfully structured cover that matches your responsibilities, future liabilities and income goals. Whether protecting young children, supporting a spouse or securing aging parents — we curate plans that preserve security when it matters most for generations ahead confidently.",
+      "Life’s certainties are few, but your family’s stability should never be one of them. Term Insurance creates a strong financial foundation, ensuring loved ones can continue their lives with dignity, education and independence even in your absence. At FinAsk Value, we help you choose thoughtfully structured cover that matches your responsibilities, future liabilities and income goals. Whether protecting young children, supporting a spouse or securing aging parents, we curate plans that preserve security when it matters most for generations ahead confidently.",
     features: [
       {
         title: "High Life Cover",
@@ -373,10 +373,10 @@ export const servicesData = [
     bgImage: "/finask/term.png",
     backgroundPosition: "center",
     faqSection: {
-      promoTitle: " ",
-      promoText: "Up to 10% discount ** ",
-      promoBadges1: "Digital Policy Issuance",
-      promoBadges2: "Now on GST (18% cheaper)",
+      promoTitle: "Paperless Documentation",
+      promoText: "Enjoy 18% GST Savings",
+      promoBadges1: "Expert Claim Guidance",
+      promoBadges2: "Hassle-Free Policy Issuance",
     },
   },
   {
@@ -386,7 +386,7 @@ export const servicesData = [
     title: "Unit Link Insurance Plan ",
     tagline: "So Protection and Wealth Creation Can Grow Together",
     description:
-      "For those who value protection alongside disciplined wealth creation, ULIP offers a refined dual advantage. It combines life cover with market-linked investing, allowing your money to participate in long-term growth while serving broader family goals. At FinAsk Value, we help you evaluate funds, risk appetite, policy horizons and charges with clarity, so every allocation supports both protection and performance. Whether planning children’s futures, retirement goals or legacy creation — we curate solutions designed to build wealth with purpose over time elegantly.",
+      "For those who value protection alongside disciplined wealth creation, ULIP offers a refined dual advantage. It combines life cover with market-linked investing, allowing your money to participate in long-term growth while serving broader family goals. At FinAsk Value, we help you evaluate funds, risk appetite and policy horizons, so every allocation supports both protection and performance. Whether planning children’s futures, retirement goals or legacy creation, we curate solutions designed to build wealth with purpose over time.",
     features: [
       {
         title: "Dual Advantage",
@@ -439,8 +439,8 @@ export const servicesData = [
     faqSection: {
       promoTitle: "Expert help at no extra cost",
       promoText: "  ",
-      promoBadges1: "Zero paperwork",
-      promoBadges2: "100% online",
+      promoBadges1: "End-to-End Assistance",
+      promoBadges2: "100% Digital Issuance",
       promoBadges3: "In-built Life Cover*",
     },
   },
@@ -450,7 +450,7 @@ export const servicesData = [
     category: "Insurance",
     title: "Traditional Life Insurance Plans",
     tagline: "Certainty That Quietly Supports Your Future Financial Milestones",
-    description:"When predictability matters more than volatility, Traditional Life Insurance Plans offer reassuring financial certainty. They are designed for those who value steady accumulation, defined benefits and disciplined planning over market fluctuations. At FinAsk Value, we help you identify structures that align with education goals, retirement income, legacy intentions or planned milestones with confidence. Whether you seek assured payouts, capital preservation or dependable long-term savings — we curate solutions that bring stability, visibility and peace to your financial journey for years ahead.",
+    description:"When predictability matters more than volatility, Traditional Life Insurance Plans offer reassuring financial certainty. They are designed for those who value steady accumulation, defined benefits and disciplined planning over market fluctuations. At FinAsk Value, we help you identify structures that align with education funding goals, retirement income needs, legacy intentions and other planned milestones with confidence. Whether you seek assured payouts, capital preservation or dependable long-term savings, we curate solutions that bring stability, visibility and peace to your financial journey for years ahead.",
      features: [
       {
         title: "Guaranteed Returns",
@@ -516,7 +516,7 @@ export const servicesData = [
     title: "Motor Insurance",
     tagline: "Drive with Confidence, Insured Every Mile",
     description:
-      "Your vehicles — whether cherished classics or trusted everyday drives — are more than mere conveyances. They reflect taste, independence and a lifestyle carefully cultivated. \n Our Motor Insurance solutions go far beyond basic compliance. We find tailored covers that account for true market value, zero depreciation concerns and seamless repair or replacement — so every drive remains a pleasure, never a preoccupation. \n From accidental damages to theft and liability, we ensure you are shielded from life’s unforeseen detours. Because with the right protection, your journeys can stay focused on joy — not just risk.",
+      "Your vehicles, whether cherished classics or trusted everyday drives, are more than mere conveyances. They reflect taste, independence and a lifestyle carefully cultivated. \n Our Motor Insurance solutions go far beyond basic compliance. We find tailored covers that account for true market value, zero depreciation concerns and seamless repair or replacement, so every drive remains a pleasure, never a preoccupation. \n From accidental damages to theft and liability, we ensure you are shielded from life’s unforeseen detours. Because with the right protection, your journeys can stay focused on joy, not just risk.",
     features: [
       {
         title: "Zero depreciation",
@@ -568,9 +568,9 @@ export const servicesData = [
     faqSection: {
       promoTitle: "Customize your Vehicle IDV & Addons",
       promoText: " ",
-      promoBadges1: "Cashless Claims**",
-      promoBadges2: "Digital Policy Issuance",
-      promoBadges3: "24*7 Claims Support**",
+      promoBadges1: "Customize Your Vehicle IDV and Add-Ons",
+      promoBadges2: "Paperless Policy Issuance",
+      promoBadges3: "End-to-End Support",
     },
   },
   {
@@ -580,7 +580,7 @@ export const servicesData = [
     title: "Travel Insurance",
     tagline: " Because Journeys Should Yield Memories, Not Misgivings",
     description:
-      "Exploring the world — be it for business negotiations in London or leisurely summers in the Bahamas — brings unparalleled joy. Yet travel also carries the occasional turbulence: misplaced luggage, unexpected illness or sudden disruptions. \n With finely attuned global coverage, we ensure these inconveniences never escalate into financial or emotional burdens — so your plans proceed unhindered and your mind stays at ease. \n From emergency evacuations to hotel cancellations, we safeguard every leg of your itinerary. So, you can immerse fully in new cultures and experiences, knowing we are quietly managing the ‘what ifs.’ ",
+      "Exploring the world, be it for business negotiations in London or leisurely summers in the Bahamas, brings unparalleled joy. Yet travel also carries the occasional turbulence: misplaced luggage, unexpected illness or sudden disruptions. \n With finely attuned global coverage, we ensure these inconveniences never escalate into financial or emotional burdens, so your plans proceed unhindered and your mind stays at ease. \n From emergency evacuations to hotel cancellations, we safeguard every leg of your itinerary. So, you can immerse fully in new cultures and experiences, knowing we are quietly managing the ‘what ifs.’ ",
     features: [
       {
         title: "Medical Emergencies",
@@ -608,7 +608,7 @@ export const servicesData = [
       {
         question: "Is Travel Insurance mandatory?",
         answer:
-          "Travel Insurance is mandatory for some countries like Schengen countries, while for others it is strongly recommended for financial protection.",
+          "Travel Insurance is mandatory for some countries like Schengen Countries, while for others it is strongly recommended for financial protection.",
       },
       {
         question: "How is the claim settled in Travel Insurance?",
@@ -618,7 +618,7 @@ export const servicesData = [
       {
         question: "Can senior citizens buy Travel Insurance?",
         answer:
-          "Yes, many insurers offer travel insurance plans for senior citizens, though medical screening may apply.",
+          "Yes, many insurers offer Travel Insurance plans for senior citizens, though medical screening may apply.",
       },
       {
         question: "Does Travel Insurance cover pre-existing diseases?",
@@ -629,10 +629,10 @@ export const servicesData = [
     bgImage: "/finask/travel-insurance.webp",
     backgroundPosition: "center",
     faqSection: {
-      promoTitle: "Affordable Premiums",
-      promoText: "Dedicated Relationship Manager",
-      promoBadges1: "Digital policy Issuance",
-      promoBadges2: "Affordable Premiums",
+      promoTitle: "Hassle-Free Digital Isssuance",
+      promoText: "Personalized Coverage Recommendations",
+      promoBadges1: "End-to-End Insurance Gudidance",
+      promoBadges2: "Competitive Premiums",
     },
   },
   // {
@@ -693,7 +693,7 @@ export const servicesData = [
     tagline:
       "Because What You Have Meticulously Built Deserves Unwavering Guardianship",
     description:
-      "Your homes, offices, factories — they embody years of aspirations and efforts. Unforeseen incidents like fires or intrusions should not possess the power to erase that legacy. We devise protections that enable swift restitution, preserving both your tangible assets and your family’s composure. \n It’s about more than rebuilding walls or replacing inventory — it’s about restoring normalcy without enduring financial distress. ",
+      "Your homes, offices and factories embody years of aspirations and efforts. Unforeseen incidents like fires or intrusions should not possess the power to erase that legacy. We devise protections that enable swift restitution, preserving both your tangible assets and your family’s composure. \n It’s about more than rebuilding walls or replacing inventory; it’s about restoring normalcy without enduring financial distress. ",
     features: [
       {
         title: "Reliable Protection",
@@ -755,9 +755,9 @@ export const servicesData = [
     uspLayout: "scroll-popup-modal",
     category: "Insurance",
     title: "Marine & Cargo Insurance",
-    tagline: "In Business, Logistics Is More Than Movement — It’s A Promise",
+    tagline: "In Business, Logistics Is More Than Movement; It’s A Promise",
     description:
-      "A single damaged, lost or delayed consignment can lead to revenue loss, supply chain disruptions or breached contracts—that’s where comprehensive coverage becomes critical. \n Our Marine & Cargo Insurance is tailored for businesses engaged in domestic and international trade. It provides protection against physical loss or damage to goods in transit, across all modes of transportation — air, sea, road or rail. Whether you are shipping raw materials, finished products or high-value equipment, our policies are structured to absorb the risk — not your balance sheet. \n With FinAsk Value, you protect not just your shipments, but your profitability, reliability and business continuity.",
+      "A single damaged, lost or delayed consignment can lead to revenue loss, supply chain disruptions or breached contracts, that’s where comprehensive coverage becomes critical. \n Our Marine & Cargo Insurance is tailored for businesses engaged in domestic and international trade. It provides protection against physical loss or damage to goods in transit, across all modes of transportation, air, sea, road or rail. Whether you are shipping raw materials, finished products or high-value equipment, our policies are structured to absorb the risk, not your balance sheet. \n With FinAsk Value, you protect not just your shipments, but your profitability, reliability and business continuity.",
     features: [
       {
         title: "Securing Your Supply Chain",
@@ -809,10 +809,10 @@ export const servicesData = [
     bgImage: "/finask/marine-and-cargo-insurance.webp",
     backgroundPosition: "center",
     faqSection: {
-      promoTitle: "Expert Guidance on Transit & Trade Risks",
-      promoText: "Fast & Hassle-Free Claims Assistance",
+      promoTitle: "Fast Quote Assistance",
+      promoText: "Specialized Expertise In Transit & Trade Risk",
       promoBadges1: "Digital policy issuance",
-      promoBadges2: "Diverse coverage under INCO terms",
+      promoBadges2: "End-to-End Claims Support",
     },
   },
   // {
@@ -930,13 +930,13 @@ export const servicesData = [
   // },
   {
     slug: "director-officers-liability",
-    uspLayout: "bottom-sticky-banner",
+    uspLayout: "floating-pills",
     category: "Insurance",
     title: " Directors’ and Officers’ Liability Insurance ",
     tagline:
       "Because Leadership Carries Responsibilities That Outlive The Leader",
     description:
-      "Directors’ and Officers’ Liability Insurance (D&O) is more than a personal safety net — it’s a strategic safeguard for businesses. It ensures that if the unthinkable happens, key obligations are met, debts are covered and shareholder or partner transitions remain smooth, protecting enterprise value. \n Because your vision should not falter, even if life takes an unforeseen turn. \n At FinAsk Value, we help founders, directors and key management personnel structure life cover not just for personal protection—but for business continuity. It is not just about preparing for loss—it’s about preserving leadership, legacy and long-term confidence. \n This coverage can support succession planning, stabilize cash flow, reinforce loan and credit obligations and signal preparedness to investors and stakeholders. \n It’s more than a policy—it’s a contingency plan for confidence. Leadership may be personal, but its impact is profoundly institutional. ",
+      "Directors’ and Officers’ Liability Insurance (D&O) is more than a personal safety net; it’s a strategic safeguard for businesses. It ensures that if the unthinkable happens, key obligations are met, debts are covered and shareholder or partner transitions remain smooth, protecting enterprise value. \n Because your vision should not falter, even if life takes an unforeseen turn. \n At FinAsk Value, we help founders, directors and key management personnel structure life cover not just for personal protection, but for business continuity. It is not just about preparing for loss; it’s about preserving leadership, legacy and long-term confidence. \n This coverage can support succession planning, stabilize cash flow, reinforce loan and credit obligations and signal preparedness to investors and stakeholders. \n It’s more than a policy; it’s a contingency plan for confidence. Leadership may be personal, but its impact is profoundly institutional. ",
     features: [
       {
         title: "Seamless Succession Planning",
@@ -993,16 +993,17 @@ export const servicesData = [
     faqSection: {
       promoTitle: "Invest ₹10k/month & Get",
       promoText: "₹1 Crore*Tax-Free",
-      promoBadges1: " ",
-      promoBadges2: " ",
+      promoBadges1: "In-House Expert Guidance",
+      promoBadges2: "24/7 Claims Support*",
+      promoBadges3: "Get Custom Quotes Instantly"
     },
   },
   {
     slug: "group-personal-accident",
-    uspLayout: "bottom-sticky-banner",
+    uspLayout: "scroll-popup-modal",
     category: "Corporate Insurance",
     title: "Group Personal Accident Insurance",
-    tagline: "Financial Protection Against Accidental Risks",
+    tagline: "A Safety Net For Your Most Valuable Resource",
     description:
       "Group Personal Accident Insurance (GPAI) is an insurance policy purchased by an employer to protect employees against financial losses caused by accidents. Under a single master policy, all employees are covered for accidental death, disability and injury-related financial risks. Unlike Health Insurance, which covers medical treatment, Group Personal Accident Insurance provides direct financial compensation to employees or their families if an accident leads to death or disability. This makes it an essential employee benefit for organizations across industries, especially where employees travel frequently or work in higher-risk environments.",
     features: [
@@ -1050,19 +1051,23 @@ export const servicesData = [
         answer:
           "No, Group Personal Accident Insurance coverage usually applies 24x7 worldwide, including accidents at work, during travel, commuting or at home.",
       },
+      {
+        question:"What are the common exclusions under Group Personal Accident Insurance?",
+        answer: "Common exclusions may include self-inflicted injuries, participation in hazardous activities, intoxication-related incidents, war-related events and pre-existing disabilities, unless specifically covered."
+      }
     ],
     bgImage: "/finask/group-personal-accident-insurance.png",
     backgroundPosition: "center",
     faqSection: {
-      promoTitle: "Zero Waiting Periods",
-      promoText: " Dedicated Relationship Manager",
-      promoBadges1: " ",
-      promoBadges2: " ",
+      promoTitle: "Paperless Claims",
+      promoText: " Zero Waiting Periods",
+      promoBadges1: "24/7 Claims Support*",
+      promoBadges2: "Dedicated Relationship Manager ",
     },
   },
   {
     slug: "group-term-life",
-    uspLayout: "floating-pills",
+    uspLayout: "bottom-sticky-blue",
     category: "Corporate Insurance",
     title: "Group Term Life Insurance",
     tagline: "Financial Protection for Your Employees’ Families",
@@ -1115,25 +1120,25 @@ export const servicesData = [
       {
         question: "Why do companies offer Group Term Life Insurance?",
         answer:
-          "It helps organizations protect employees’ families financially, improve employee loyalty and retention, enhance employee benefits and demonstrate commitment to workforce well-being.",
+          "It helps organizations provide financial protection to employees’ families, enhance employee benefits, improve loyalty and retention and demonstrate a commitment to workforce well-being.",
       },
     ],
     bgImage: "/finask/group-term-life-insurance.webp",
     backgroundPosition: "center",
     faqSection: {
-      promoTitle: " ",
-      promoText: " ",
-      promoBadges1: "Coverage from Day 1*",
+      promoTitle: "Coverage from Day 1 ",
+      promoText: " 24*7 Claims Support*",
+      promoBadges1: "",
       promoBadges2: " Keep- Claim Support",
-      promoBadges3: " 24*7 Support",
+      promoBadges3: " ",
     },
   },
   {
     slug: "group-health-insurance",
-    uspLayout: "scroll-popup-modal",
+    uspLayout: "bottom-sticky-banner",
     category: "Corporate Insurance",
     title: "Group Health Insurance",
-    tagline: "Protect Your Employees with Comprehensive Group Health Insurance",
+    tagline: "Supporting Healthier Lives And Stronger Teams",
     description:
       "Group Health Insurance is a health insurance policy purchased by an employer to provide medical coverage to employees and in many cases, their family members. Instead of individual policies, a single master policy covers the entire workforce, offering affordable and comprehensive healthcare protection. For businesses, Group Health Insurance is one of the most cost-effective employee benefits, helping attract talent, improve retention and ensure financial protection against rising healthcare costs. \n Choosing the right Group Health Insurance requires understanding your workforce needs, coverage requirements and budget. \n At FinAsk Value, we help businesses compare and choose the most suitable Group Health Insurance plans from leading insurers with transparent guidance and customized solutions.",
     features: [
@@ -1188,9 +1193,9 @@ export const servicesData = [
     bgImage: "/finask/group-health-insurance.webp",
     backgroundPosition: "center",
     faqSection: {
-      promoTitle: " ",
-      promoText: "Wide range Wellness Benefit",
-      promoBadges1: "Dedicated Relationship Manager     ",
+      promoTitle: " Dedicated Relationship Manager ",
+      promoText: "Wide Range of Wellness Benefits",
+      promoBadges1: "    ",
       promoBadges2: "24*7 Support",
     },
   },
@@ -1199,7 +1204,7 @@ export const servicesData = [
     uspLayout: "horizontal-ribbon",
     category: "Healthcare Assistance",
     title: "Health Assistance",
-    tagline: "Access World-Class Healthcare Services at the Tap of a Button",
+    tagline: "World-Class Healthcare, Just a Tap Away",
     description:
       "Your family’s health should never take a back seat due to a busy schedule or lack of access to medical services. Health Assistance enables you and your loved ones to access quality healthcare services from the comfort of your home. With a comprehensive range of digital healthcare solutions, you can consult doctors, schedule diagnostic tests, order medicines and manage your health easily through a single platform. Stay proactive about your well-being and ensure your family always has access to reliable, convenient and affordable healthcare services. \n Modern lifestyles often make it difficult to prioritize health. Health Assistance helps bridge that gap with quick and convenient access to healthcare professionals and services.",
     features: [
@@ -1330,10 +1335,10 @@ export const servicesData = [
     slug: "cycle-insurance",
     uspLayout: "bottom-sticky-blue",
     category: "Lifestyle Protection",
-    title: "Cycle Protection",
-    tagline: "Protect Your Ride and Ride with Peace of Mind",
+    title: "Cycle Insurance",
+    tagline: "Coverage That Moves With You",
     description:
-      "Your bicycle is not just a ride — it is an investment in your health, lifestyle and daily commute. Whether your bicycle is new or frequently used, insurance ensures long-term peace of mind. \n Cycle Protection (Bicycle Insurance) provides comprehensive coverage for your bicycle against unforeseen incidents such as theft, damage or loss. Whether you use your bicycle for fitness, commuting, adventure rides or professional cycling, this protection ensures that you can ride worry-free. It also encourages safer and more confident riding habits. \n With the right coverage, you can avoid sudden repair or replacement expenses and continue your cycling journey with confidence.",
+      "Your bicycle is not just a ride; it is an investment in your health, lifestyle and daily commute. Whether your bicycle is new or frequently used, insurance ensures long-term peace of mind. \n Cycle Insurance provides comprehensive coverage for your bicycle against unforeseen incidents such as theft, damage or loss. Whether you use your bicycle for fitness, commuting, adventure rides or professional cycling, this protection ensures that you can ride worry-free. It also encourages safer and more confident riding habits. \n With the right coverage, you can avoid sudden repair or replacement expenses and continue your cycling journey with confidence.",
     features: [
       {
         title: "Theft Protection",
@@ -1384,8 +1389,8 @@ export const servicesData = [
     bgImage: "/finask/cycle-protection.webp",
     backgroundPosition: "center",
     faqSection: {
-      promoTitle: " ",
-      promoText: "Secure Your Cycle On & Off the Road",
+      promoTitle: "Quick Digital Issuance",
+      promoText: "Expert Guidance ",
       promoBadges1: " ",
       promoBadges2: " ",
     },
@@ -1395,9 +1400,9 @@ export const servicesData = [
     uspLayout: "horizontal-ribbon",
     category: "Pet Insurance",
     title: "Pet Insurance",
-    tagline: "Because They Are Family",
+    tagline: "Care Beyond Companionship",
     description:
-      "Our pets are more than our companions — they are our family. They bring joy, comfort and unconditional love into our lives every single day. Just like any other family member, they deserve the best care and protection. \n Unexpected illnesses, accidents or medical emergencies can happen at any time and veterinary treatments can sometimes be expensive. Pet Insurance helps pet parents manage these unforeseen medical expenses, ensuring that their beloved dogs and cats receive the best possible treatment without financial stress. ",
+      "Our pets are more than our companions, they are our family. They bring joy, comfort and unconditional love into our lives every single day. Just like any other family member, they deserve the best care and protection. \n Unexpected illnesses, accidents or medical emergencies can happen at any time and veterinary treatments can sometimes be expensive. Pet Insurance helps pet parents manage these unforeseen medical expenses, ensuring that their beloved dogs and cats receive the best possible treatment without financial stress. ",
     features: [
       {
         title: "Illness & Accident Cover",
@@ -1451,17 +1456,17 @@ export const servicesData = [
     faqSection: {
       promoTitle: " ",
       promoText: "  ",
-      promoBadges1: "Dedicated Relationship Manager",
-      promoBadges2: "Affordable Premiums",
-      promoBadges3: "Expert Guidance",
+      promoBadges1: "100% Digital Issuance",
+      promoBadges2: "90-Minute Claims Support*",
+      promoBadges3: "Affordable Premiums",
     },
   },
   {
     slug: "workmen-compensation",
-    uspLayout: "bottom-sticky-banner",
+    uspLayout: "bottom-sticky-blue",
     category: "Insurance",
     title: "Workmen Compensation Insurance",
-    tagline: "Protecting Your Workforce, Securing Your Business",
+    tagline: "Designed To Protect Every Working Hand",
     description:
       "Workmen Compensation Insurance is a statutory policy that protects employers against financial liabilities arising from work-related injuries, disabilities or death of employees, ensuring rightful compensation to workers or their dependents. It covers medical expenses, loss of income, disability benefits and compensation in case of unfortunate incidents during employment, while ensuring compliance with the Employees’ Compensation Act. \n This policy not only safeguards businesses from legal and financial risks but also reflects a strong commitment towards employee well-being and workplace safety.",
     features: [
@@ -1515,20 +1520,20 @@ export const servicesData = [
     bgImage: "/finask/workmen-compensation-insurance.png",
     backgroundPosition: "center",
     faqSection: {
-      promoTitle: "Invest \u20B910k/month & Get",
-      promoText: "\u20B91 Crore*Tax-Free",
+      promoTitle: "Plans Available From Top Insurers",
+      promoText: "Get Instant Quote",
       promoBadges1: " ",
       promoBadges2: " ",
     },
   },
   {
     slug: "prof-indemnity-for-doctors",
-    uspLayout: "bottom-sticky-banner",
+    uspLayout: "scroll-popup-modal",
     category: "Insurance",
     title: "Professional Indemnity Insurance for Doctors",
-    tagline: "Protecting Your Practice, Reputation and Peace of Mind",
+    tagline: "Coverage That Stands Behind Your Expertise",
     description:
-      "Professional Indemnity Insurance for doctors provides protection against legal and financial liabilities arising from errors, omissions or alleged negligence in medical practice. It ensures that a single claim does not impact your finances or professional standing. The policy covers risks such as misdiagnosis, incorrect treatment and surgical errors, along with legal defence costs and compensation. This enables you to manage medico-legal challenges without disrupting your practice or cash flow. \n In today’s increasingly litigious environment, even minor allegations can lead to significant consequences. This coverage safeguards both your financial stability and professional reputation, allowing you to practice with confidence. It also offers continuity of protection through features like retroactive coverage, ensuring claims from past treatments are covered, subject to policy terms. The policy can be tailored to your specialization, experience and risk exposure—whether you are an individual practitioner, part of a clinic or associated with a hospital.",
+      "Professional Indemnity Insurance For Doctors provides protection against legal and financial liabilities arising from errors, omissions or alleged negligence in medical practice. It ensures that a single claim does not adversely affect your finances or professional standing. The policy covers risks such as misdiagnosis, incorrect treatment and surgical errors, along with legal defence costs and compensation. This enables you to address medico-legal challenges without disrupting your practice or cash flow. \n In today’s increasingly litigious environment, even minor allegations can lead to significant consequences. This coverage safeguards both your financial security and professional reputation, allowing you to focus on patient care with confidence. It also offers continuity of protection through features like retroactive coverage, ensuring claims arising from past treatments are covered, subject to policy terms. The policy can be tailored to your specialization, experience and risk exposure, whether you are an individual practitioner, part of a clinic or associated with a hospital.",
     features: [
       {
         title: "Professional Credibility Protection",
@@ -1569,7 +1574,7 @@ export const servicesData = [
       {
         question: "Does it cover both civil and criminal cases?",
         answer:
-          "The policy primarily covers civil liabilities. Some policies may provide support for criminal defense costs, depending on terms and conditions.",
+          "The policy primarily covers civil liabilities. Some policies may provide support for criminal defence costs, depending on terms and conditions.",
       },
       {
         question: "Is Telemedicine covered under this policy?",
@@ -1580,10 +1585,10 @@ export const servicesData = [
     bgImage: "/finask/professional-indemnity-insurance-for-doctors.png",
     backgroundPosition: "center",
     faqSection: {
-      promoTitle: "Invest \u20B910k/month & Get",
-      promoText: "\u20B91 Crore*Tax-Free",
-      promoBadges1: " ",
-      promoBadges2: " ",
+      promoTitle: "Get Custom Quote Instantly",
+      promoText: "Medico-Legal Lawyer Panel",
+      promoBadges1: "365-Day Claims Assistance",
+    promoBadges2: "Instant Policy Issuance",
     },
   },
   {
@@ -1591,7 +1596,7 @@ export const servicesData = [
     uspLayout: "bottom-sticky-banner",
     category: "Insurance",
     title: "Term-ROP",
-    tagline: "Life Cover with the Added Benefit of Premium Return",
+    tagline: "Life Cover That Rewards Commitment",
     description:
       "Return of Premium (ROP) in Life Insurance is a feature where all the premiums you pay during the policy term are returned to you if you survive the tenure, while still providing full life cover throughout. Unlike Pure Term Insurance, which offers only risk protection, ROP plans combine protection with a maturity benefit, ensuring your money is not “lost” if no claim arises. While the premiums are higher compared to standard term plans, they offer a sense of savings discipline and capital protection. ROP plans are ideal for individuals who prefer guaranteed outcomes, want both insurance and return of funds and are looking for a balanced approach between protection and financial reassurance without taking market-linked risks.",
     features: [
@@ -1637,14 +1642,14 @@ export const servicesData = [
       {
         question: "Are ROP returns inflation-adjusted?",
         answer:
-          "No, ROP returns are up to the premium paid and do not account for inflation impact over time.",
+          "No, ROP returns are up to the premium paid and do not factor in inflation over time.",
       },
     ],
     bgImage: "/finask/term-rop.png",
     backgroundPosition: "center",
     faqSection: {
-      promoTitle: "Now on GST (18% cheaper)",
-      promoText: "Save up to 5% online discount**",
+      promoTitle: "Quick Quote Assistance",
+      promoText: "Enjoy 18% GST Savings",
       promoBadges1: " ",
       promoBadges2: " ",
     },
@@ -1655,9 +1660,9 @@ export const servicesData = [
     category: "Insurance",
     title: "Personal Cyber Insurance",
     tagline:
-      "Because Your Digital Safety Is as Important as Your Financial Security",
+      "Your Shield In the Digital Age",
     description:
-      "In today’s digital world, risks like online fraud, hacking, phishing and identity theft are increasing rapidly. Personal Cyber Insurance protects you against financial losses arising from unauthorized transactions, cyber scams and data breaches. \n It also offers support for data restoration, cyber extortion, legal expenses and reputation management—ensuring complete protection for you and your family in the digital space.",
+      "In today’s digital world, risks like online fraud, hacking, phishing and identity theft are increasing rapidly. Personal Cyber Insurance protects you against financial losses arising from unauthorized transactions, cyber scams and data breaches. \n It also offers support for data restoration, cyber extortion, legal expenses and reputation management, ensuring complete protection for you and your family in the digital space.",
     features: [
       {
         title: "Complete Digital Protection",
@@ -1708,9 +1713,9 @@ export const servicesData = [
       promoTitle:
         "Personalized Cyber Insurance Solutions for Individuals & Families",
       promoText: "IRDA Certified Advisors",
-      promoBadges1: "Pocket Friendly plans",
-      promoBadges2: "Digital Policy Issuance",
-      promoBadges3: "24*7 Claims Support",
+      promoBadges1: "Pocket-Friendly plans",
+      promoBadges2: "Certified Insurance advisors",
+      promoBadges3: "Personalized Policy Recommendations",
     },
   },
   {
@@ -1719,7 +1724,7 @@ export const servicesData = [
     category: "Insurance",
     title: "Corporate Cyber Insurance",
     tagline:
-      "Safeguarding Your Enterprise from Financial and Operational Cyber Risks",
+      "Protecting Your Business In a Digital-First World",
     description:
       "With rising cyber threats like data breaches, ransomware and hacking, businesses face serious financial and reputational risks. It protects your organization against losses from cyber incidents, including data theft, business interruption, legal liabilities and recovery costs. \n It also provides expert support for incident response, ensuring minimal disruption and faster recovery.",
     features: [
@@ -1727,7 +1732,7 @@ export const servicesData = [
         title: "Advanced Firewall Protection",
         icon: "/insurance-icons/corporate-cyber-insurance-1.png",
         description:
-          "Strong defense against evolving cyberattacks and hacking attempts.",
+          "Strong defence against evolving cyberattacks and hacking attempts.",
       },
       {
         title: "Global Network Protection",
@@ -1757,7 +1762,7 @@ export const servicesData = [
         question:
           "What is First-Party and Third-Party Corporate Cyber Insurance coverage?",
         answer:
-          "First-party Corporate Cyber Insurance covers your own losses (data recovery, business interruption) , while Third-party Corporate Cyber Insurance covers liabilities to customers due to data breaches.",
+          "First-Party Corporate Cyber Insurance covers your own losses, such as data recovery and business interruption, while Third-Party Corporate Cyber Insurance covers liabilities to customers resulting from data breaches.",
       },
       {
         question: "Does this policy cover regulatory penalties?",
@@ -1773,8 +1778,8 @@ export const servicesData = [
     bgImage: "/finask/corporate-cyber-insurance.png",
     backgroundPosition: "center",
     faqSection: {
-      promoTitle: "Invest \u20B910k/month & Get",
-      promoText: "\u20B91 Crore*Tax-Free",
+      promoTitle: "Afforadable Plans",
+      promoText: "Customized Coverage As Per Requirement",
       promoBadges1: " ",
       promoBadges2: " ",
     },
@@ -1784,9 +1789,9 @@ export const servicesData = [
     uspLayout: "bottom-sticky-blue",
     category: "Insurance",
     title: "Taxi Insurance",
-    tagline: "Reliable Protection for Your Taxi and Your Livelihood",
+    tagline: "Secure Every Trip, Strengthen Every Mile You Earn",
     description:
-      "It is a specialized commercial vehicle policy designed for cabs and passenger transport vehicles, offering protection against accidents, theft, natural disasters and third-party liabilities. As mandated by the Insurance Regulatory and Development Authority of India, Third-Party  cover is compulsory, while comprehensive plans also safeguard your vehicle. With options like passenger cover, zero depreciation and many more. Taxi Insurance ensures business continuity, financial security and peace of mind for drivers and fleet owners.",
+      "It is a specialized commercial vehicle policy designed for cabs and passenger transport vehicles, offering protection against accidents, theft, natural disasters and third-party liabilities. As mandated by the Insurance Regulatory and Development Authority of India, Third-Party Cover is compulsory, while Comprehensive Plans provide broader protection for your vehicle,  with options like passenger cover, zero depreciation and other valuable add-ons. Taxi Insurance ensures business continuity, financial security and peace of mind for drivers and fleet owners.",
     features: [
       {
         title: "Mandatory Compliance",
@@ -1812,9 +1817,9 @@ export const servicesData = [
     ],
     faq: [
       {
-        question: "Is private car insurance valid for taxi use?",
+        question: "Is Private Car Insurance valid for taxi use?",
         answer:
-          "No, private car insurance is not valid for taxi or commercial use. Vehicles used for passenger transportation must have a Commercial Taxi Insurance policy.",
+          "No, Private Car Insurance is not valid for taxi or commercial use. Vehicles used for passenger transportation must have a Commercial Taxi Insurance policy.",
       },
       {
         question: "Does this policy cover passengers?",
@@ -1829,15 +1834,15 @@ export const servicesData = [
       {
         question: "Can I insure multiple taxis under one policy?",
         answer:
-          "Yes, fleet owners can opt for fleet insurance policies covering multiple vehicles under a single plan.",
+          "Yes, fleet owners can opt for Fleet Insurance policies covering multiple vehicles under a single plan.",
       },
     ],
     bgImage: "/finask/taxi.png",
     backgroundPosition: "center",
     faqSection: {
-      promoTitle: " ",
-      promoText: "Keep- 50k+ policies sold",
-      promoBadges1: " ",
+      promoTitle: " Priority Claims Handling ",
+      promoText: "50K+ policies sold",
+      promoBadges1: "",
       promoBadges2: " ",
     },
   },
@@ -1847,9 +1852,9 @@ export const servicesData = [
     category: "Insurance",
     title: "Commercial Vehicle Insurance",
     tagline:
-      "Stay On The Road With Confidence and Complete Financial Protection",
+      "Built To Protect Every Commercial Journey",
     description:
-      "Commercial Vehicle Insurance is designed to protect vehicles used for business purposes such as taxis, trucks, buses and delivery vans — against financial losses arising from accidents, theft, natural disasters and third-party liabilities. As mandated by the Insurance Regulatory and Development Authority of India, Third-Party insurance is compulsory, while comprehensive policies provide broader coverage including damage to your own vehicle. With add-ons like zero depreciation, engine protection etc. Commercial Vehicle Insurance ensures legal compliance, business continuity and financial security for owners and operators.",
+      "Commercial Vehicle Insurance is designed to protect vehicles used for business purposes such as taxis, trucks, buses and delivery vans against financial losses arising from accidents, theft, natural disasters and third-party liabilities. As mandated by the Insurance Regulatory and Development Authority of India, Third-Party Insurance is compulsory, while Comprehensive Policies provide broader coverage including damage to your own vehicle. With add-ons like zero depreciation, engine protection and other specialized covers, Commercial Vehicle Insurance ensures legal compliance, business continuity and financial security for owners and operators.",
     features: [
       {
         title: "Legal Liability Cover",
@@ -1911,7 +1916,7 @@ export const servicesData = [
     uspLayout: "horizontal-ribbon",
     category: "Insurance",
     title: "Home Insurance",
-    tagline: "Security and Peace of Mind For Your Most Valuable Space",
+    tagline: "Protecting Your Home, Inside And Out",
     description:
       "This insurance provides financial protection for your home and personal assets against risks like fire, theft, natural disasters and accidental damage. It covers both the structure of your house and its contents, ensuring that you are safeguarded from unexpected financial losses. With flexible coverage options and add-ons, Home Insurance helps you secure your most valuable asset while offering peace of mind and long-term financial stability.",
     features: [
@@ -1967,16 +1972,16 @@ export const servicesData = [
       promoTitle: " ",
       promoText: " ",
       promoBadges1: "Zero Documentation",
-      promoBadges2: "60 mins Claim assistance",
-      promoBadges3: "Expert Guidance at your Door Step",
+      promoBadges2: "Expedited Claims Support",
+      promoBadges3: "Tailored Policy Guidance",
     },
   },
   {
     slug: "general-liability-insurance",
-    uspLayout: "bottom-sticky-banner",
+    uspLayout: " ",
     category: "Insurance",
     title: "General Liability Insurance",
-    tagline: "Coverage For Unforeseen Claims That Can Impact Your Business",
+    tagline: "Safeguarding Your Business From Liability Claims",
     description:
       "General Liability Insurance protects your business against financial losses arising from third-party claims of bodily injury, property damage or legal liabilities. It covers expenses such as medical costs, legal fees and compensation, ensuring that unexpected incidents do not impact your business operations or finances. This policy is essential for businesses of all sizes to safeguard their reputation and maintain long-term stability.",
     features: [
@@ -2010,7 +2015,7 @@ export const servicesData = [
       {
         question: "Does it cover employee injuries?",
         answer:
-          "No, employee-related injuries are covered under Employee Compensation Insurance.",
+          "No, employee-related injuries are covered under Workmen Compensation Insurance.",
       },
       {
         question: "What is not covered under this policy?",
@@ -2020,7 +2025,7 @@ export const servicesData = [
       {
         question: "How much coverage should I choose?",
         answer:
-          "Coverage depends on business size and risk exposure, typically starting from ₹50 lakhs.",
+          "Coverage depends on business size and risk exposure, typically starting from ₹50 Lakhs.",
       },
     ],
     bgImage: "/finask/general-liability-insurance.png",
@@ -2037,7 +2042,7 @@ export const servicesData = [
     uspLayout: "bottom-sticky-banner",
     category: "Insurance",
     title: "Contractor’s All Risk Insurance",
-    tagline: "End-To-End Coverage For Materials, Works and On-Site Risks",
+    tagline:"Minimizing Risks, Maximizing Project Success",
     description:
       "Contractor’s All Risk Insurance (CAR) provides comprehensive protection for construction projects against unforeseen risks during execution. It covers damage to the project site, materials, machinery and third-party liabilities arising from accidents, natural disasters, fire, theft or human errors. Whether it is a small construction job or a large infrastructure project, this policy ensures financial security by covering repair or replacement costs, helping contractors complete projects smoothly without major financial disruptions.",
     features: [
@@ -2067,7 +2072,7 @@ export const servicesData = [
       {
         question: "Is CAR Insurance mandatory in India?",
         answer:
-          "It is not legally mandatory, but is often required by project contracts, banks and financial institutions, government bodies and large infrastructure projects.",
+          "While not legally mandatory, it is often required by project contracts, banks and financial institutions, government authorities and large infrastructure projects.",
       },
       {
         question: "How is the sum insured calculated?",
@@ -2077,7 +2082,7 @@ export const servicesData = [
       {
         question: "Can the policy be extended?",
         answer:
-          "Yes, it can be extended for project delays or to include maintenance period cover.",
+          "Yes, it can be extended for project delays or to include Maintenance Period Cover.",
       },
       {
         question: "What is not covered under CAR Insurance?",
@@ -2088,21 +2093,21 @@ export const servicesData = [
     bgImage: "/finask/contractors-all-risk-insurance.png",
     backgroundPosition: "center",
     faqSection: {
-      promoTitle: "Invest \u20B910k/month & Get",
-      promoText: "\u20B91 Crore*Tax-Free",
-      promoBadges1: "Plans starting from \u20B91000/month",
+      promoTitle: "Efficient Claims Assistance and Coordination",
+      promoText: "Risk Management Expertise For Complex Projects",
+      promoBadges1: "",
       promoBadges2: "In-built life cover",
     },
   },
   {
     slug: "erection-all-risk",
-    uspLayout: "bottom-sticky-banner",
+    uspLayout: "bottom-sticky-blue",
     category: "Insurance",
     title: "Erection All Risk Insurance",
     tagline:
-      "Financial Security For Machinery And Plant During Installation Phases",
+      "From Blueprint To Reality, Fully Protected",
     description:
-      "Erection All Risk Insurance (EAR) provides comprehensive coverage for projects involving the installation and erection of plant, machinery and equipment. It protects against unforeseen risks such as accidental damage, fire, natural disasters and human errors during the erection, testing and commissioning phases. Additionally, it includes third-party liability coverage for injury or property damage. This policy ensures financial security for contractors and project owners, helping them complete installation projects smoothly without unexpected financial setbacks.",
+      "Erection All Risk Insurance (EAR) provides comprehensive coverage for projects involving the installation and erection of plant, machinery and equipment. It protects against unforeseen risks such as accidental damage, fire, natural disasters and human error during the erection, testing and commissioning phases. Additionally, it includes Third-Party Liability Coverage for bodily injury or property damage. This policy provides financial protection for contractors and project owners, helping them complete installation projects smoothly while minimizing the impact of unexpected losses.",
     features: [
       {
         title: "Installation Security",
@@ -2150,18 +2155,18 @@ export const servicesData = [
     bgImage: "/finask/erection-all-risk.png",
     backgroundPosition: "center",
     faqSection: {
-      promoTitle: "Invest \u20B910k/month & Get",
-      promoText: "\u20B91 Crore*Tax-Free",
+      promoTitle: "Specialized Risk Advisory",
+      promoText: "Dedicated Claims Assistance",
       promoBadges1: "Plans starting from \u20B91000/month",
       promoBadges2: "In-built life cover",
     },
   },
   {
     slug: "trade-credit-insurance",
-    uspLayout: "bottom-sticky-banner",
+    uspLayout: "horizontal-ribbon-business",
     category: "Insurance",
     title: "Trade Credit Insurance",
-    tagline: "Enabling Confident Business Growth With Credit Risk Protection",
+    tagline: "Protecting Cash Flow, Securing Business Growth",
     description:
       "It protects businesses against the risk of non-payment by buyers due to insolvency, default or delayed payments. It ensures that your cash flow remains stable by covering outstanding receivables, allowing you to confidently extend credit to customers and expand your business. This policy not only safeguards your balance sheet but also enhances your ability to access financing, making it a vital tool for companies dealing in domestic or international trade.",
     features: [
@@ -2194,7 +2199,7 @@ export const servicesData = [
           "Yes, it can cover losses if a buyer pays only a part of the invoice amount.",
       },
       {
-        question: "Is Export Business covered under this policy?",
+        question: "Is Export Trade covered under this policy?",
         answer:
           "Yes, Export Trade can be covered, including risks like political instability or currency restrictions subject to policy terms and conditions.",
       },
@@ -2212,18 +2217,19 @@ export const servicesData = [
     bgImage: "/finask/trade-credit-insurance.png",
     backgroundPosition: "center",
     faqSection: {
-      promoTitle: "Invest \u20B910k/month & Get",
-      promoText: "\u20B91 Crore*Tax-Free",
-      promoBadges1: " ",
-      promoBadges2: " ",
+      promoTitle: " ",
+      promoText: " ",
+      promoBadges1: "Get Custom Quotes Instantly ",
+      promoBadges2: "24/7 Claims Assistance*",
+      promoBadges3: "In-House Product Experts"
     },
   },
   {
     slug: "contractor-plant-machinery",
-    uspLayout: "bottom-sticky-banner",
+    uspLayout: "floating-pills",
     category: "Insurance",
     title: "Contractor’s Plant & Machinery",
-    tagline: "Keep Your Operations Running With Reliable Equipment Protection",
+    tagline: "Engineered Protection For Critical Assets",
     description:
       "Contractor’s Plant & Machinery (CPM) provides coverage for construction equipment and machinery against sudden and unforeseen damages while at work or at rest. It protects assets such as excavators, cranes, loaders and other heavy equipment from risks like accidents, fire, theft, natural disasters and operational mishaps. This policy ensures that contractors and project owners are financially safeguarded against repair or replacement costs, minimizing downtime and helping projects continue without disruption.",
     features: [
@@ -2270,31 +2276,32 @@ export const servicesData = [
       {
         question: "What is not covered under this policy?",
         answer:
-          "Normal wear and tear, mechanical or gradual deterioration of machinery, intentional damage are usually excluded.",
+          "Normal wear and tear, mechanical or gradual deterioration of machinery and intentional damage are usually excluded.",
       },
     ],
     bgImage: "/finask/contractors-plant-machinery.png",
     backgroundPosition: "center",
     faqSection: {
       promoTitle: "Invest \u20B910k/month & Get",
-      promoText: "\u20B91 Crore*Tax-Free",
-      promoBadges1: "Plans starting from \u20B91000/month",
-      promoBadges2: "In-built life cover",
+      promoText: "",
+      promoBadges1: "Wallet-Friendly Plans",
+      promoBadges2: "Dedicated Relationship Manager",
+      promoBadges3: "Personalized Instant Quotes",
     },
   },
   {
     slug: "surety-bond-insurance",
-    uspLayout: "bottom-sticky-banner",
+    uspLayout: "bottom-sticky-blue",
     category: "Insurance",
     title: "Surety Bond Insurance",
     tagline: "Providing Confidence to Stakeholders Through Financial Backing",
     description:
-      "It is a financial guarantee that ensures a contractor or business fulfils its contractual obligations as agreed. It involves three parties—the principal (contractor), the oblige (project owner) and the surety (insurer). In case the contractor fails to perform or breaches the contract, the surety compensates the oblige for the loss. This solution enhances credibility, reduces financial risk and is widely used in infrastructure projects, government contracts and large commercial agreements to ensure timely and reliable project completion.",
+      "It is a financial guarantee that ensures a contractor or business fulfils its contractual obligations as agreed. It involves three parties: the principal (contractor), the oblige (project owner) and the surety (insurer). In case the contractor fails to perform or breaches the contract, the surety compensates the oblige for the loss. This solution enhances credibility, reduces financial risk and is widely used in infrastructure projects, government contracts and large commercial agreements to ensure timely and reliable project completion.",
     features: [
       {
         title: "Performance Assurance",
         icon: "/insurance-icons/surety-bond-insurance-1.png",
-        description: "Guarantees completion of contractual obligations.",
+        description: "Ensures compliance with agreed contract requirements.",
       },
       {
         title: "Project Completion Security",
@@ -2322,7 +2329,7 @@ export const servicesData = [
         question:
           "What is the difference between Surety Bond and Bank Guarantee?",
         answer:
-          "A Surety Bond is a guarantee with risk assessment by an insurer, while a bank guarantee involves blocking funds or credit limits in a bank.",
+          "A Surety Bond is a guarantee with risk assessment by an insurer, while a Bank Guarantee involves blocking funds or credit limits in a bank.",
       },
       {
         question: "What types of Surety Bonds are available?",
@@ -2332,15 +2339,15 @@ export const servicesData = [
       {
         question: "Does a Surety Bond impact credit rating?",
         answer:
-          "No, it generally does not impact credit utilization like bank guarantees, but financial assessment is still required.",
+          "No, it generally does not impact credit utilization like Bank Guarantees, but financial assessment is still required.",
       },
     ],
     bgImage: "/finask/surety-bond-insurance.png",
     backgroundPosition: "center",
     faqSection: {
-      promoTitle: "Invest \u20B910k/month & Get",
-      promoText: "\u20B91 Crore*Tax-Free",
-      promoBadges1: " ",
+      promoTitle: " ",
+      promoText: "Shield Your Project From Surety Bond Insurance Now",
+      promoBadges1: " ", 
       promoBadges2: " ",
     },
   },
@@ -2349,7 +2356,7 @@ export const servicesData = [
     uspLayout: "bottom-sticky-banner",
     category: "Insurance",
     title: "Errors & Omissions Insurance",
-    tagline: "Financial Security Against Unforeseen Professional Risks",
+    tagline: "Security For Every Professional Decision",
     description:
       "Errors & Omissions Insurance (E&O) protects businesses and professionals against claims arising from negligence, mistakes or failure to deliver promised services. It covers legal costs, settlements and damages if a client suffers financial loss due to errors, omissions or inadequate advice. This policy is essential for consultants, financial advisors and service providers, ensuring financial protection while maintaining professional credibility and client trust.",
     features: [
@@ -2380,7 +2387,7 @@ export const servicesData = [
     faq: [
       {
         question:
-          "What is the difference between E&O and General Liability Insurance?",
+          "What is the difference between E&O Insurance and General Liability Insurance?",
         answer:
           "E&O Insurance covers professional mistakes or service errors, while General Liability Insurance covers physical injury or property damage.",
       },
@@ -2403,20 +2410,20 @@ export const servicesData = [
     bgImage: "/finask/errors-and-omissions-insurance.png",
     backgroundPosition: "bottom center",
     faqSection: {
-      promoTitle: "Invest \u20B910k/month & Get",
-      promoText: "\u20B91 Crore*Tax-Free",
+      promoTitle: "Certified Advisors",
+      promoText: "Wallet-Friendly Plans",
       promoBadges1: " ",
       promoBadges2: " ",
     },
   },
   {
     slug: "professional-indemnity",
-    uspLayout: "bottom-sticky-banner",
+    uspLayout: "horizontal-ribbon-business",
     category: "Insurance",
     title: "Professional Indemnity Insurance",
-    tagline: "Ensuring Confidence in Your Profession with Financial Protection",
+    tagline: "Protecting Careers Built On Trust",
     description:
-      "It protects professionals and service providers against claims arising from errors, negligence or omissions in the services they deliver. It covers legal defense costs, settlements and compensation if a client suffers financial loss due to incorrect advice or inadequate service. This policy is essential for professionals such as consultants, financial advisors, doctors and architects, helping safeguard their reputation, maintain client trust and ensure financial stability in case of unforeseen claims.",
+      "It protects professionals and service providers against claims arising from errors, negligence or omissions in the services they deliver. It covers legal defence costs, settlements and compensation if a client suffers financial loss due to incorrect advice or inadequate service. This policy is essential for professionals such as consultants, financial advisors, doctors and architects, helping safeguard their reputation, maintain client trust and ensure financial stability in case of unforeseen claims.",
     features: [
       {
         title: "Breach of Duty Cover",
@@ -2468,18 +2475,19 @@ export const servicesData = [
     faqSection: {
       promoTitle: "Invest \u20B910k/month & Get",
       promoText: "\u20B91 Crore*Tax-Free",
-      promoBadges1: " ",
-      promoBadges2: " ",
+      promoBadges1: "Best Prices, Maximum Savings",
+      promoBadges2: " Dedicated Support, Quick Replies",
+      promoBadges3: "Quotes In Seconds, Coverage in Minutes",
     },
   },
   {
     slug: "fleet-insurance",
-    uspLayout: "bottom-sticky-banner",
+    uspLayout: "bottom-sticky-blue",
     category: "Insurance",
     title: "Fleet Insurance",
-    tagline: "Comprehensive Coverage For All Your Vehicles Under A Single Plan",
+    tagline: "Keeping Your Fleet Road-Ready And Protected",
     description:
-      "Fleet Insurance is a comprehensive insurance solution designed for businesses that own and operate multiple vehicles under a single policy. Instead of managing separate insurance policies for each vehicle, Fleet Insurance allows companies to cover all their vehicles—such as cars, trucks, vans or commercial vehicles—under one streamlined plan. This not only simplifies administration and renewal processes but also helps in reducing overall premium costs through bulk coverage benefits. Fleet insurance typically covers risks like accidents, third-party liabilities, theft, natural disasters and damages, ensuring uninterrupted business operations. It is especially beneficial for logistics companies, transport operators and businesses relying heavily on mobility, offering flexibility, cost efficiency and centralized risk management.",
+      "Fleet Insurance is a comprehensive insurance solution designed for businesses that own and operate multiple vehicles under a single policy. Instead of managing separate insurance policies for each vehicle, Fleet Insurance allows companies to cover all their vehicles, such as cars, trucks, vans or commercial vehicles, under one streamlined plan. This not only simplifies administration and renewal processes but also helps in reducing overall premium costs through bulk coverage benefits. Fleet insurance typically covers risks like accidents, third-party liabilities, theft, natural disasters and damages, ensuring uninterrupted business operations. It is especially beneficial for logistics companies, transport operators and businesses relying heavily on mobility, offering flexibility, cost efficiency and centralized risk management.",
     features: [
       {
         title: "Single Policy Cover",
@@ -2507,7 +2515,7 @@ export const servicesData = [
       {
         question: "How is the premium calculated?",
         answer:
-          "Premium depends on various factors like the number and type of vehicles, usage, claims history of the fleet, geographical location, coverage opted and add-ons.",
+          "Premium depends on various factors like number and type of vehicles, usage (private/commercial), claims history of the fleet, geographical location, coverage opted and add-ons.",
       },
       {
         question: "What is the minimum number of vehicles required?",
@@ -2529,8 +2537,8 @@ export const servicesData = [
     bgImage: "/finask/fleet-insurance.png",
     backgroundPosition: "center",
     faqSection: {
-      promoTitle: "Invest \u20B910k/month & Get",
-      promoText: "\u20B91 Crore*Tax-Free",
+      promoTitle: "Quote From Top Insurers",
+      promoText: "Get Insured In 2 Minutes",
       promoBadges1: " ",
       promoBadges2: " ",
     },
@@ -2599,11 +2607,11 @@ export const servicesData = [
   },
   {
     slug: "office-package-policy",
-    uspLayout: "horizontal-ribbon",
+    uspLayout: "horizontal-ribbon-business",
     category: "Insurance",
     title: "Office Package Policy",
     tagline:
-      "Protect Your Workplace, Power Your Productivity And Grow With Confidence",
+      "Protecting Offices, Powering Productivity",
     description:
       "Office Package Policy is a comprehensive insurance solution designed to protect businesses from a wide range of operational risks. It covers physical assets such as office premises, furniture, fixtures, electronic equipment and important documents against events like fire, theft, accidental damage and natural disasters. In addition, it offers liability protection against third-party claims and can be extended to include employee-related covers and business interruption losses. With flexible and customizable options, an Office Package Policy ensures that your workplace remains financially secure, allowing you to focus on productivity and growth without worrying about unforeseen disruptions.",
     features: [
@@ -2655,10 +2663,10 @@ export const servicesData = [
     faqSection: {
       promoTitle: " ",
       promoText: " ",
-      promoBadges1: "Instant & Digital Policy Issuance",
-      promoBadges2: "365 Days Dedicated Claims Support",
+      promoBadges1: "Digital Policy Issuance",
+      promoBadges2: "365-Day Dedicated Claims Support",
       promoBadges3:
-        " Expert Assistance from Policy Purchase to Claim Settlement",
+        " Expert Guidance from Purchase to Claim",
     },
   },
 
@@ -2669,9 +2677,9 @@ export const servicesData = [
     uspLayout: "original",
     category: "Investments",
     title: "Mutual Funds",
-    tagline: "Because Steady Compounding Is Built on Discipline, Not Impulse",
+    tagline: "Guided Investment, Meaningful Outcomes",
     description:
-      "Mutual funds offer a versatile way to participate in equity, debt or hybrid markets — guided by robust research and diversified exposure. We curate fund baskets that match your life goals, tax needs and comfort with volatility, so your investments compound meaningfully over the long term. With us, SIPs become more than monthly deductions; they become milestones toward your financial aspirations.",
+      "Mutual funds offer a versatile way to participate in equity, debt or hybrid markets, guided by robust research and diversified exposure. We curate fund baskets that match your life goals, tax needs and comfort with volatility, so your investments compound meaningfully over the long term. With us, SIPs become more than monthly deductions; they become milestones toward your financial aspirations.",
     features: [
       {
         title: "Goal Based Investing",
@@ -2798,9 +2806,9 @@ export const servicesData = [
     uspLayout: "floating-pills",
     category: "Investments",
     title: "Systematic Withdrawal Plan",
-    tagline: "Create a Regular Income from Your Investments",
+    tagline: "Invest. Withdraw. Thrive.",
     description:
-      "A Systematic Withdrawal Plan (SWP) is a smart way to generate regular income from your investments while keeping the remaining corpus invested. It allows you to withdraw a fixed amount at chosen intervals—monthly, quarterly or annually—ensuring steady cash flow without redeeming the entire investment at once. SWPs are particularly useful for retirees or investors seeking passive income, as they offer flexibility, tax efficiency and the potential for continued capital growth. With the right strategy and fund selection, an SWP helps balance income needs with long-term wealth preservation.",
+      "A Systematic Withdrawal Plan (SWP) is a smart way to generate regular income from your investments while keeping the remaining corpus invested. It allows you to withdraw a fixed amount at chosen intervals: monthly, quarterly or annually, ensuring steady cash flow without redeeming the entire investment at once. SWPs are particularly useful for retirees or investors seeking passive income, as they offer flexibility, tax efficiency and the potential for continued capital growth. With the right strategy and fund selection, an SWP helps balance income needs with long-term wealth preservation.",
     features: [
       {
         title: "Regular Income Flow",
@@ -2989,7 +2997,7 @@ export const servicesData = [
     uspLayout: "scroll-popup-modal",
     category: "Investments",
     title: "Bonds",
-    tagline: "Building Calm Amidst the Clamor",
+    tagline: "Income You Can Count On",
     description:"In a world that often rewards speed and speculation, some investors prefer the quiet dignity of certainty. Bonds offer precisely this: capital preservation paired with predictable income, creating a foundation upon which aspirations can securely rest. \n Navigating thousands of bond issuances, each with distinct ratings, coupon structures and market dynamics, requires more than a glance at yield tables. We evaluate credit histories, macroeconomic conditions and your personal liquidity needs to curate options that support both immediate goals and long-term wealth preservation.\n Our advisory team also manages demat allocations, monitors coupon flows and assists with maturity reinvestment. This transforms fixed-income investments into a dependable ally in your financial journey, steadily working toward your objectives over time.",
     features: [
       {
@@ -3053,7 +3061,7 @@ export const servicesData = [
     title: "Portfolio Management Services",
     tagline: "Because Your Success Story Deserves a Bespoke Strategy",
     description:
-      "For larger portfolios, Portfolio Management Services (PMS) goes beyond standard allocation to deliver personalized, high-conviction investing. We collaborate with top PMS providers to craft portfolios that align with your unique financial blueprint — considering your liquidity needs, legacy goals and appetite for concentrated bets. It’s an approach where your wealth does not just grow, it evolves intentionally, stewarded by seasoned experts.",
+      "For larger portfolios, Portfolio Management Services (PMS) goes beyond standard allocation to deliver personalized, high-conviction investing. We collaborate with top PMS providers to craft portfolios that align with your unique financial blueprint, considering your liquidity needs, legacy goals and appetite for concentrated bets. It’s an approach where your wealth does not just grow, it evolves intentionally, stewarded by seasoned experts.",
     features: [
       {
         title: "Focused Portfolio",
@@ -3115,7 +3123,7 @@ export const servicesData = [
     tagline:
       "Because True Diversification Ventures Where the Ordinary Does Not",
     description:
-      "Alternative Investment Funds (AIFs)  open avenues into private equity, venture capital, real estate and structured opportunities that traditional vehicles cannot reach. We help you navigate this sophisticated space with diligence and clarity — selecting category I, II or III funds suited to your long-term ambitions. The result: a portfolio that not only mitigates mainstream market risks but also captures new-age growth stories with strategic foresight.",
+      "Alternative Investment Funds (AIFs)  open avenues into private equity, venture capital, real estate and structured opportunities that traditional vehicles cannot reach. We help you navigate this sophisticated space with diligence and clarity, selecting category I, II or III funds suited to your long-term ambitions. The result: a portfolio that not only mitigates mainstream market risks but also captures new-age growth stories with strategic foresight.",
     features: [
       {
         title: "Exclusive Access",
@@ -3177,7 +3185,7 @@ export const servicesData = [
     title: "Unlisted Equity",
     tagline: "Investing Where Vision Meets Venture",
     description:
-      "Some opportunities never appear on stock tickers. They live in boardrooms of high-growth companies still charting their scale-up journeys—fintech leaders yet to list, consumer brands preparing for IPO or late-stage startups opening pre-IPO rounds.\n At FinAsk Value, we connect you to these curated unlisted plays—because accessing these deals requires more than capital—it demands relationships, diligence and precise timing. We assess financials, business models and sector outlooks, structure your entry for optimal eventual liquidity and align this exposure with your overall portfolio—so private equity remains a complement, not a risk amplifier.",
+      "Some opportunities never appear on stock tickers. They live in boardrooms of high-growth companies still charting their scale-up journeys, fintech leaders yet to list, consumer brands preparing for IPO or late-stage startups opening pre-IPO rounds.\n At FinAsk Value, we connect you to these curated unlisted plays because accessing these deals requires more than capital, it demands relationships, diligence and precise timing. We assess financials, business models and sector outlooks, structure your entry for optimal eventual liquidity and align this exposure with your overall portfolio, so private equity remains a complement, not a risk amplifier.",
     features: [
       {
         title: "Pre- IPO Access",
@@ -3239,7 +3247,7 @@ export const servicesData = [
     tagline:
       "Because Real Estate Returns Should Not Require Real Estate Headaches",
     description:
-      "Real Estate Investment Trusts (REITs)  offer a seamless way to invest in large-scale, income-generating real estate, such as malls, office parks, residential properties and logistics centers—without buying property outright. Traded like Stocks, these Trusts blend the tangibility of real estate with the convenience and liquidity of modern investing.\n FinAsk Value helps you integrate REITs into your portfolio as a stable, yield-generating asset class with long-term upside and regular payouts, enabling you to build your portfolio with concrete value without laying a single brick.",
+      "Real Estate Investment Trusts (REITs)  offer a seamless way to invest in large-scale, income-generating real estate, such as malls, office parks, residential properties and logistics centers, without buying property outright. Traded like Stocks, these Trusts blend the tangibility of real estate with the convenience and liquidity of modern investing.\n FinAsk Value helps you integrate REITs into your portfolio as a stable, yield-generating asset class with long-term upside and regular payouts, enabling you to build your portfolio with concrete value without laying a single brick.",
     features: [
       {
         title: "Corpus Calculation",
@@ -3298,7 +3306,7 @@ export const servicesData = [
     uspLayout: "bottom-sticky-blue",
     category: "Investments",
     title: "Infrastructure Investment Trusts",
-    tagline: "Because Progress Should Not Just Be Admired — It Should Be Owned",
+    tagline: "Because Progress Should Not Just Be Admired, It Should Be Owned",
     description:
       "Infrastructure Investment Trusts (InvITs) are a modern investment avenue that allow investors to participate in income-generating infrastructure assets such as roads, power transmission projects and renewable energy. It is designed to offer stable and predictable cash flows and distribute a significant portion of earnings to investors, making them an attractive option for those seeking regular income along with potential capital appreciation. They combine the benefits of infrastructure investing with the liquidity of market-linked instruments, providing transparency, diversification and professional management. For investors looking to add a steady income-generating asset class to their portfolio, InvITs can play a strategic role in long-term wealth creation. ",
     features: [
@@ -3363,7 +3371,7 @@ export const servicesData = [
     uspLayout: "scroll-popup-modal",
     category: "Goal Planning",
     title: "Fractional Commercial Real Estate",
-    tagline: "Because Progress Should Not Require Owning the Whole Skyline",
+    tagline: "Own a Fraction, Benefit From the Whole",
     description:
       "It is an innovative investment solution that allows investors to own a share of high-quality, income-generating commercial properties such as office spaces, warehouses and retail assets without the need for large capital outlays. By pooling funds with other investors, you gain access to premium real estate opportunities that were traditionally available only to large institutions or HNI investors. This asset class offers the potential for stable rental income, capital appreciation and portfolio diversification. With professional management, transparency and lower entry barriers, Fractional Ownership makes commercial real estate more accessible, efficient and aligned with modern investment needs.",
     features: [
@@ -3430,7 +3438,7 @@ export const servicesData = [
     title: "Peer-to-Peer Lending",
     tagline: "Elevating Fixed Income with Thoughtful Innovation",
     description:
-      "Not every investor is drawn to the pulse of markets. Many seek stable, predictable returns—but wish to surpass traditional fixed deposit yields. Peer-to-Peer Lending, when curated and monitored diligently, offers such an elegant middle path. \n At FinAsk Value, we approach P2P Lending as a structured fixed income strategy—not a speculative tech fad. Whether you are a retiree desiring monthly income, a professional diversifying surplus or an HNI layering Alternative Fixed Income alongside Bonds and FDRs, P2P Lending can complement your strategy. \n We handle everything from platform selection and borrower diversification to ongoing risk monitoring, so your fixed income evolves with clarity and calm.",
+      "Not every investor is drawn to the pulse of markets. Many seek stable, predictable returns but wish to surpass traditional fixed deposit yields. Peer-to-Peer Lending, when curated and monitored diligently, offers such an elegant middle path. \n At FinAsk Value, we approach P2P Lending as a structured fixed income strategy, not a speculative tech fad. Whether you are a retiree desiring monthly income, a professional diversifying surplus or an HNI layering Alternative Fixed Income alongside Bonds and FDRs, P2P Lending can complement your strategy. \n We handle everything from platform selection and borrower diversification to ongoing risk monitoring, so your fixed income evolves with clarity and calm.",
     features: [
       {
         title: "Enhance Yields",
@@ -3491,7 +3499,7 @@ export const servicesData = [
     title: "Alternative Fixed Income",
     tagline: "When Smart Innovation Meets Predictable Returns",
     description:
-      "Fixed income does not have to be monotonous. Beyond bonds and deposits lie avenues like Market-Linked Debentures, Invoice Discounting and Tech-Driven Supply Chain Finance—each crafted to generate 9%–14% returns while balancing varying degrees of liquidity and risk.\nAt FinAsk Value, we make this universe approachable. We vet platforms, examine issuer balance sheets and design diversified allocations so you can benefit from structured income without undue exposure. Because true wealth stewardship means knowing how to weave traditional and alternative fabrics into a single, resilient financial tapestry.",
+      "Fixed income does not have to be monotonous. Beyond bonds and deposits lie avenues like Market-Linked Debentures, Invoice Discounting and Tech-Driven Supply Chain Finance, each crafted to generate 9%–14% returns while balancing varying degrees of liquidity and risk.\nAt FinAsk Value, we make this universe approachable. We vet platforms, examine issuer balance sheets and design diversified allocations so you can benefit from structured income without undue exposure. Because true wealth stewardship means knowing how to weave traditional and alternative fabrics into a single, resilient financial tapestry.",
     features: [
       {
         title: "Capital Preservation",
@@ -3559,7 +3567,7 @@ export const servicesData = [
     title: "Corporate Fixed Deposits",
     tagline: "Combining Familiar Stability with Enhanced Yield",
     description:
-      "For many investors, Fixed Deposits have long signified financial prudence. Yet Traditional Bank FDs often underperform inflation. Corporate FDRs offer a refined alternative—delivering higher yields through reputable NBFCs and corporates, backed by rigorous credit ratings.\n At FinAsk Value, we navigate this terrain carefully. Because with fixed income, it’s not just about rates—it’s about safeguarding stability with informed discretion.",
+      "For many investors, Fixed Deposits have long signified financial prudence. Yet Traditional Bank FDs often underperform inflation. Corporate FDRs offer a refined alternative, delivering higher yields through reputable NBFCs and corporates, backed by rigorous credit ratings.\n At FinAsk Value, we navigate this terrain carefully. Because with fixed income, it’s not just about rates; it’s about safeguarding stability with informed discretion.",
     features: [
       {
         title: "Higher Rates",
@@ -3618,7 +3626,7 @@ export const servicesData = [
     uspLayout: "bottom-sticky-banner",
     category: "Investments",
     title: "GIFT City",
-    tagline: "Opening Global Doors, Seamlessly Within India",
+    tagline: "Opening Global Doors, Seamlessly In India",
     description:
       "It is India’s first operational International Financial Services Centre which designed to position the country as a global financial hub. It offers a world-class ecosystem for financial services, including offshore investments, banking, insurance and fund management, all within a highly regulated and tax-efficient environment with benefits such as tax incentives, ease of doing business and access to global markets in foreign currency.  \n It provides investors and institutions a unique opportunity to diversify internationally while operating from India. For forward-looking investors, it represents a gateway to global investing with enhanced efficiency, transparency and regulatory support.",
     features: [
@@ -3682,7 +3690,7 @@ export const servicesData = [
     title: "E-Gold",
     tagline: "Because Modern Aspirations Still Treasure Timeless Wealth",
     description:
-      "E-Gold lets you build your gold holdings digitally — no safes, no insurance worries, no purity concerns. Buy as little as a gram or as much as your milestones demand, all secured in vaulted assurance and ready for cash redemption or jewellery conversion when your heart desires.\n\nIt’s tradition, transformed for today, making sure your portfolio shines with both heritage and hassle-free liquidity.\n\n At FinAsk Value, we help you integrate E-Gold seamlessly into your broader financial goals—whether it’s gifting with grace, saving for a future wedding or simply balancing your asset mix with a timeless hedge. With 24K purity, full transparency and the power of automation through SIPs, E-Gold becomes more than just a commodity—it becomes a modern heirloom in the making, one digital gram at a time.",
+      "E-Gold lets you build your gold holdings digitally, no safes, no insurance worries, no purity concerns. Buy as little as a gram or as much as your milestones demand, all secured in vaulted assurance and ready for cash redemption or jewellery conversion when your heart desires.\n\nIt’s tradition, transformed for today, making sure your portfolio shines with both heritage and hassle-free liquidity.\n\n At FinAsk Value, we help you integrate E-Gold seamlessly into your broader financial goals, whether it’s gifting with grace, saving for a future wedding or simply balancing your asset mix with a timeless hedge. With 24K purity, full transparency and the power of automation through SIPs, E-Gold becomes more than just a commodity; it becomes a modern heirloom in the making, one digital gram at a time.",
     features: [
       {
         title: "Safety & Purity",
@@ -3743,7 +3751,7 @@ export const servicesData = [
     title: "National Pension System ",
     tagline: "Building a Retirement That Honours Your Efforts",
     description:
-      "Retirement is not the conclusion of earning—it’s the moment your lifetime of discipline begins to work for you. It’s when the fruits of your labour, invested wisely over decades, transform into dignified security and freedom.\nThe National Pension System (NPS) is one of India’s most robust instruments to shape this chapter—whether you are a salaried executive optimizing deductions, an entrepreneur without employer pensions or an NRI anchoring part of your retirement in India, NPS provides a versatile platform. \n At FinAsk Value, we simplify this entire landscape — from selecting among top-tier pension fund managers to guiding optimal equity exposure based on your horizon, recalibrating annually and planning your eventual annuity so post-retirement income feels seamless.",
+      "Retirement is not the conclusion of earning; it’s the moment your lifetime of discipline begins to work for you. It’s when the fruits of your labour, invested wisely over decades, transform into dignified security and freedom.\nThe National Pension System (NPS) is one of India’s most robust instruments to shape this chapter, whether you are a salaried executive optimizing deductions, an entrepreneur without employer pensions or an NRI anchoring part of your retirement in India, NPS provides a versatile platform. \n At FinAsk Value, we simplify this entire landscape, from selecting among top-tier pension fund managers to guiding optimal equity exposure based on your horizon, recalibrating annually and planning your eventual annuity so post-retirement income feels seamless.",
     features: [
       {
         title: "Tax Efficiency",
@@ -3804,7 +3812,7 @@ export const servicesData = [
     title: "Stock & Broking",
     tagline: "Bringing Clarity and Conviction to Your Equity Journey",
     description:
-      "Equities offer promise. But navigating them requires more than intuition; it demands structure, foresight and an ally who understands that investing is about compounding both capital and confidence.\nAt FinAsk Value, our Stock and Broking Services are designed to cut through the noise. We combine research-backed insights with personalized guidance to help you build a portfolio that aligns with your goals, risk appetite and timeline. Whether you a re a seasoned trader or a first-time investor, we offer the tools, transparency and expertise to help you make informed decisions — not impulsive ones.\nBecause in equities, it’s not about frequent thrills; it’s about enduring triumphs—structured, reviewed and recalibrated.",
+      "Equities offer promise. But navigating them requires more than intuition; it demands structure, foresight and an ally who understands that investing is about compounding both capital and confidence.\nAt FinAsk Value, our Stock and Broking Services are designed to cut through the noise. We combine research-backed insights with personalized guidance to help you build a portfolio that aligns with your goals, risk appetite and timeline. Whether you are a seasoned trader or a first-time investor, we offer the tools, transparency and expertise to help you make informed decisions, not impulsive ones.\nBecause in equities, it’s not about frequent thrills; it’s about enduring triumphs, structured, reviewed and recalibrated.",
     features: [
       {
         title: "Research Backed",
@@ -3929,7 +3937,7 @@ export const servicesData = [
     uspLayout: "floating-pills",
     category: "Investment Planning",
     title: "Step-Up SIP",
-    tagline: "Invest More As You Grow, Achieve More With Time",
+    tagline: "Grow Your Investments As Your Income Grows",
     description:
       "A Step-Up SIP is a smart and disciplined way to grow your wealth by gradually increasing your investment amount over time. It allows you to start with a comfortable monthly contribution and automatically step it up at regular intervals typically in line with your rising income. This strategy not only helps you stay ahead of inflation but also accelerates wealth creation through the power of compounding. It is ideal for salaried individuals and long-term investors. It ensures that your investments evolve with your financial growth, helping you achieve your life goals more efficiently without feeling a financial burden.",
     features: [
@@ -3993,9 +4001,9 @@ export const servicesData = [
     uspLayout: "bottom-sticky-banner",
     category: "Goal Planning",
     title: "Trust Formation",
-    tagline: "Safeguard Today. Shape Tomorrow",
+    tagline: "Safeguard Today, Shape Tomorrow",
     description:
-      "True wealth extends beyond mere accumulation; it is measured by how thoughtfully it is preserved and how purposefully it is passed on. For families, business owners and philanthropists alike, establishing a Trust remains one of the most nuanced tools to secure a legacy — ensuring your assets are protected, your intentions honoured and your loved ones provided for without complication or conflict.\nA Trust legally transfers assets from you, the settlor, to chosen trustees, who hold and manage these for beneficiaries under carefully designed terms. From Private Family Trusts that prioritize multi-generational wealth transfer, to irrevocable structures that shield assets from potential liabilities, to discretionary models that offer flexibility in distributions — each Trust serves as a bespoke safeguard for what matters most.\n At FinAsk Value, we coordinate the entire journey — advising on Trust structures, engaging premier legal partners, ensuring regulatory compliance and guiding you through post-formation nuances such as audits and trustee management. Because for legacies to last, they must be built on clarity, control and confidence.",
+      "True wealth extends beyond mere accumulation; it is measured by how thoughtfully it is preserved and how purposefully it is passed on. For families, business owners and philanthropists alike, establishing a Trust remains one of the most nuanced tools to secure a legacy, ensuring your assets are protected, your intentions honoured and your loved ones provided for without complication or conflict.\nA Trust legally transfers assets from you, the settlor, to chosen trustees, who hold and manage these for beneficiaries under carefully designed terms. From Private Family Trusts that prioritize multi-generational wealth transfer, to irrevocable structures that shield assets from potential liabilities, to discretionary models that offer flexibility in distributions, each Trust serves as a bespoke safeguard for what matters most.\n At FinAsk Value, we coordinate the entire journey, advising on Trust structures, engaging premier legal partners, ensuring regulatory compliance and guiding you through post-formation nuances such as audits and trustee management. Because for legacies to last, they must be built on clarity, control and confidence.",
     features: [
       {
         title: "Wealth Protection",
@@ -4060,7 +4068,7 @@ export const servicesData = [
     title: "Will Writing",
     tagline: "A Gentle Blueprint for Lasting Peace",
     description:
-      "A lifetime of diligence deserves more than just fond memories; it deserves clear direction. Yet, many individuals delay writing a Will, inadvertently leaving behind a maze of legal uncertainties and emotional strain for those they cherish most.\nAt FinAsk Value, we bring empathy and expertise together to simplify the process of creating a Will that’s both legally robust and deeply personal. By clearly outlining how your assets — from properties and investments to heirlooms and guardianships should be distributed. A well-crafted Will ensures your family navigates the future with certainty, not confusion.\nWe view Will Writing not as a somber task, but as an empowering opportunity to guide your family with love and forethought, ensuring they receive your wealth with gratitude, not grievances.",
+      "A lifetime of diligence deserves more than just fond memories; it deserves clear direction. Yet, many individuals delay writing a Will, inadvertently leaving behind a maze of legal uncertainties and emotional strain for those they cherish most.\nAt FinAsk Value, we bring empathy and expertise together to simplify the process of creating a Will that’s both legally robust and deeply personal. By clearly outlining how your assets, from properties and investments to heirlooms and guardianships should be distributed, a well-crafted Will ensures your family navigates the future with certainty, not confusion.\nWe view Will Writing not as a somber task, but as an empowering opportunity to guide your family with love and forethought, ensuring they receive your wealth with gratitude, not grievances.",
     features: [
       {
         title: "Legal Clarity",
@@ -4120,7 +4128,7 @@ export const servicesData = [
     category: "Goal Planning",
     title: "Executor Services",
     tagline:
-      "Because Legacies Deserve More Than Emotion — They Deserve Precise Execution",
+      "Because Legacies Deserve More Than Emotion, They Deserve Precise Execution",
     description:
       "Wills and Trusts hold your intentions, but it is the executor who ensures they come alive, without delay, dispute or dilution. Our Executor Services stand as an unwavering hand to manage distributions, settle obligations and uphold your wishes with absolute integrity.\n\nSo, your lifetime of effort becomes a source of harmony, not heartache, for those you leave behind.\n At FinAsk Value, our Executor Services go beyond paperwork. We step in with compassion, clarity and complete confidentiality, coordinating with legal, financial and family stakeholders to ensure every step reflects your intent. Whether it’s handling complex assets, addressing cross-border beneficiaries or mediating sensitive transitions, we provide the calm, competent presence your legacy deserves, because honouring your life’s work should not be left to chance.",
     features: [
@@ -4186,7 +4194,7 @@ export const servicesData = [
     title: "Legal Advisory",
     tagline: "Turning Law into A Shield, Not A Stressor",
     description:
-      "In a world of increasing regulatory oversight and legal complexity, protecting your wealth is not just about what you earn—it’s about how well you are prepared. From property disputes to contract clarity, founder agreements to legacy documentation, every legal oversight can have a lasting financial impact.\n At FinAsk Value, Legal Advisory is not a last-minute rescue. It’s built into your journey from the start, offering proactive legal structuring, due diligence and risk mitigation that safeguards your assets, relationships and long-term intentions.\nWhether you are acquiring real estate, drafting succession documents, reviewing investor agreements or setting up holding structures, our Legal Team partners with your goals—not just the paperwork. We guide you with clarity, confidentiality and a strategic lens that turns law from a limitation into a legacy protector.",
+      "In a world of increasing regulatory oversight and legal complexity, protecting your wealth is not just about what you earn, it’s about how well you are prepared. From property disputes to contract clarity, founder agreements to legacy documentation, every legal oversight can have a lasting financial impact.\n At FinAsk Value, Legal Advisory is not a last-minute rescue. It’s built into your journey from the start, offering proactive legal structuring, due diligence and risk mitigation that safeguards your assets, relationships and long-term intentions.\nWhether you are acquiring real estate, drafting succession documents, reviewing investor agreements or setting up holding structures, our Legal Team partners with your goals, not just the paperwork. We guide you with clarity, confidentiality and a strategic lens that turns law from a limitation into a legacy protector.",
     features: [
       {
         title: "Property Due Diligence",
@@ -4248,7 +4256,7 @@ export const servicesData = [
     title: "Tax Advisory",
     tagline: "Because Wealth Should Grow, Not Leak",
     description:
-      "Every rupee saved in taxes is a rupee reinvested in your future. At FinAsk Value, Tax Advisory is not just about compliance—it’s about optimisation, foresight and aligning your personal or business growth with evolving tax frameworks.\nWe help individuals, families, professionals and entrepreneurs uncover intelligent strategies, be it through HUF structuring, capital gains planning, investment-linked deductions or multi-entity income management.\nFor businesses, we integrate GST planning, Director Remuneration Strategies, ESOP tax treatment and cross-border tax implications into a cohesive framework. And for NRIs, we simplify global reporting, repatriation rules and DTAA considerations.\nYou do not just stay compliant; you stay confident. Because with us, your tax story is not about burden, it’s about benefit, built into every step of your financial journey.",
+      "Every rupee saved in taxes is a rupee reinvested in your future. At FinAsk Value, Tax Advisory is not just about compliance, it’s about optimisation, foresight and aligning your personal or business growth with evolving tax frameworks.\nWe help individuals, families, professionals and entrepreneurs uncover intelligent strategies, be it through HUF structuring, capital gains planning, investment-linked deductions or multi-entity income management.\nFor businesses, we integrate GST planning, director remuneration strategies, ESOP tax treatment and cross-border tax implications into a cohesive framework. And for NRIs, we simplify global reporting, repatriation rules and DTAA compliance to ensure clarity and confidence across jurisdictions.\nYou do not just stay compliant; you stay confident. Because with us, your tax story is not about burden, it’s about benefit, built into every step of your financial journey.",
     features: [
       {
         title: "Cross-Border Tax Advisory",
@@ -4312,7 +4320,7 @@ export const servicesData = [
     title: "Financial Literacy Workshops",
     tagline: "Empowering Clarity, Inspiring Confidence",
     description:
-      "At FinAsk Value, we believe that the most valuable asset any individual can own is clarity. In a world full of noise and financial quick fixes, informed decision-making is not just smart—it’s empowering.\nOur Financial Literacy Workshops and SEBI-Compliant Investor Awareness Programs (IAPs) are designed to democratize that empowerment. Whether you are   a salaried professional, homemaker, entrepreneur, student or retiree, we meet you where you are and help you move forward with confidence.\nEach program is thoughtfully curated to simplify complex concepts: from budgeting and SIPs to tax planning, insurance design and wealth transfer. We address real-life questions, bust financial myths and help participants build a framework they can actually apply today, tomorrow and 20 years from now.\nDelivered virtually or on-site, our sessions use relatable stories, practical illustrations and interactive Q&A formats led by certified experts. And most importantly, every IAP is 100% educational—zero product pitching, full commitment to SEBI’s mission of protecting and uplifting investors.\nBecause when financial literacy improves, everything else follows: financial dignity, family wellbeing and the confidence to build a better life. With us, that’s the kind of wealth we aim to co-create.",
+      "At FinAsk Value, we believe that the most valuable asset any individual can own is clarity. In a world full of noise and financial quick fixes, informed decision-making is not just smart, it’s empowering.\nOur Financial Literacy Workshops and SEBI-Compliant Investor Awareness Programs (IAPs) are designed to democratize that empowerment. Whether you are   a salaried professional, homemaker, entrepreneur, student or retiree, we meet you where you are and help you move forward with confidence.\nEach program is thoughtfully curated to simplify complex concepts: from budgeting and SIPs to tax planning, insurance design and wealth transfer. We address real-life questions, bust financial myths and help participants build a framework they can actually apply today, tomorrow and 20 years from now.\nDelivered virtually or on-site, our sessions use relatable stories, practical illustrations and interactive Q&A formats led by certified experts. And most importantly, every IAP is 100% educational, zero product pitching, full commitment to SEBI’s mission of protecting and uplifting investors.\nBecause when financial literacy improves, everything else follows: financial dignity, family wellbeing and the confidence to build a better life. With us, that’s the kind of wealth we aim to co-create.",
     features: [
       {
         title: "Confidence to Grow",
@@ -4429,7 +4437,7 @@ export const servicesData = [
     uspLayout: "bottom-sticky-blue",
     category: "Financial Services",
     title: "Credit Cards",
-    tagline: "Use Credit Smartly, Invest Strategically",
+    tagline: "Elevating Everyday Spending",
     description:
       "A credit card is a powerful financial tool that offers convenience, short-term liquidity and benefits such as reward points, cashback and interest-free periods. When used wisely, it enables efficient management of everyday expenses while maintaining financial flexibility. \n  It can also play an important role in your financial planning by supporting cash flow, allowing your surplus funds to remain invested in wealth-creating avenues like mutual funds, rather than being withdrawn for short-term needs. However, disciplined usage is key. Timely payments and avoiding revolving credit help prevent high interest costs and keep your finances on track. \n We help you choose the right credit card based on your lifestyle and financial goals, guide you on maximizing reward points and benefits and assist in upgrading or replacing your existing card so you can take full advantage of better features and enhanced value.",
     features: [
@@ -4563,7 +4571,7 @@ export const servicesData = [
     title: "Women's Corner",
     tagline: "Empowering Her Decisions, Securing Her Future",
     description:
-      "From her relationships to her marriage, from her career to her household, a woman navigates complexities at every turn. Often, she puts others ahead of herself—her spouse, children, aging parents. She may pause her career to care for family, adjust her ambitions to support a partner or stay silent on financial matters that intimately shape her life.\nEven today, despite earning more than ever, many women hesitate to take the lead in conversations about investing, insurance or inheritance. They are told money is complicated or that it's simply not their domain. As a result, too many brilliant, resilient women continue to carry emotional, social and even financial weight—without the security, knowledge or confidence they deserve.\nAt FinAsk Value, we created Women's Corner not as a marketing vertical, but as a stand to show that her goals matter, her security matters and her choices deserve to be as expansive and informed as anyone else's.\nWe work with:\n● Young professionals who juggle EMIs, family expectations and ambitions no one fully understands.\n● Mothers who quietly prioritize school fees over retirement funds, fearing tomorrow’s uncertainty.\n ● Homemakers who wish to grasp how family wealth is truly structured so they are not left in the dark if life shifts.\n● Women rebuilding after separation or loss, who need clarity, compassion and a map to financial independence.",
+      "From her relationships to her marriage, from her career to her household, a woman navigates complexities at every turn. Often, she puts others ahead of herself, her spouse, children, aging parents. She may pause her career to care for family, adjust her ambitions to support a partner or stay silent on financial matters that intimately shape her life.\nEven today, despite earning more than ever, many women hesitate to take the lead in conversations about investing, insurance or inheritance. They are told money is complicated or that it's simply not their domain. As a result, too many brilliant, resilient women continue to carry emotional, social and even financial weight without the security, knowledge or confidence they deserve.\nAt FinAsk Value, we created Women's Corner not as a marketing vertical, but as a stand to show that her goals matter, her security matters and her choices deserve to be as expansive and informed as anyone else's.\nWe work with:\n● Young professionals who juggle EMIs, family expectations and ambitions no one fully understands.\n● Mothers who quietly prioritize school fees over retirement funds, fearing tomorrow’s uncertainty.\n ● Homemakers who wish to grasp how family wealth is truly structured so they are not left in the dark if life shifts.\n● Women rebuilding after separation or loss, who need clarity, compassion and a map to financial independence.",
     features: [
       {
         title: "Women-Centric Financial Planning",

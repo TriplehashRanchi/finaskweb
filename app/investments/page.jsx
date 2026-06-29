@@ -7,7 +7,7 @@ import Footer from "@/components/Footer";
 import { servicesData } from "@/data/services";
 import { allInvestmentMenuItems } from "@/data/investmentMenu";
 
-const investments = allInvestmentMenuItems.map((item, index) => {
+const investments = [...allInvestmentMenuItems].sort((a, b) => a.label.localeCompare(b.label)).map((item, index) => {
   const service = servicesData.find((entry) => entry.slug === item.slug);
   const description =
     service?.description?.replace(/\s+/g, " ").trim() ||
@@ -28,9 +28,9 @@ export default function ServicesSection() {
         <div
           className="absolute inset-0 z-0"
           style={{
-            backgroundImage: 'url("/image.webp")',
+            backgroundImage: 'url("/investmentpage.jpg")',
             backgroundSize: "cover",
-            backgroundPosition: "top center",
+            backgroundPosition: "center center",
             backgroundRepeat: "no-repeat",
           }}
         />
@@ -41,7 +41,7 @@ export default function ServicesSection() {
             Investment
           </h1>
           <p className="text-gray-200 text-lg font-light leading-[1.2] max-w-md mx-auto">
-            Expert financial solutions tailored to your unique needs and goals.
+            Your Gateway To Every Wealth-Building Opportunity
           </p>
         </div>
       </section>
@@ -52,7 +52,7 @@ export default function ServicesSection() {
             {investments.map((service) => (
               <div
                 key={service.id}
-                className="px-10 py-10 flex flex-col items-start text-left group border border-[#00394E]/40 rounded-tl-2xl rounded-br-2xl"
+                className="px-10 py-10 flex flex-col items-center text-center group border border-[#00394E]/40 rounded-tl-2xl rounded-br-2xl"
               >
                 <div className="mb-6 p-3 rounded-full border-2 border-[#DAA434] transition-colors duration-300">
                   <TrendingUp
@@ -62,7 +62,7 @@ export default function ServicesSection() {
                   />
                 </div>
 
-                <h3 className="text-2xl font-bold text-[#00394E] mb-6 font-serif leading-tight group-hover:text-[#DAA434] transition-colors">
+                <h3 className="text-2xl self-center font-bold text-[#00394E] mb-6 font-serif leading-tight group-hover:text-[#DAA434] transition-colors">
                   {service.title}
                 </h3>
 

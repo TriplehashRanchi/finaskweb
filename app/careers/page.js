@@ -15,9 +15,9 @@ export default function CareersPage() {
         <div
           className="absolute inset-0 z-0"
           style={{
-            backgroundImage: 'url("/banner1.webp")',
+            backgroundImage: 'url("/joinourteam.jpg")',
             backgroundSize: "cover",
-            backgroundPosition: "center",
+            backgroundPosition: "top",
             backgroundRepeat: "no-repeat",
             filter: "brightness(0.35) ",
           }}
@@ -30,8 +30,7 @@ export default function CareersPage() {
             Join Our Team
           </h1>
           <p className="text-gray-200 text-lg  font-light leading-[1.2] max-w-lg mx-auto">
-            We’re building a team that redefines financial wellbeing in India
-            and beyond.
+            Be a Part Of a Team That Turns Financial Aspirations Into Lasting Achievements
           </p>
         </div>
       </section>
@@ -43,18 +42,16 @@ export default function CareersPage() {
         {/* Decorative Elements */}
 
         <div className="max-w-4xl mx-auto relative z-10">
-          <span className="inline-block py-2 px-6 rounded-full bg-[#DAA434]/10 text-[#DAA434] font-semibold tracking-widest text-sm   mb-6 animate-fade-in-up">
+          <span className="inline-block py-2 px-6 rounded-full bg-[#DAA434]/10 text-[#DAA434] font-semibold tracking-widest text-2xl   mb-6 animate-fade-in-up">
             Careers
           </span>
 
-          <h2 className="font-serif text-4xl md:text-4xl text-[#00394E] mb-4 leading-tight font-semibold  ">
-            Where purpose meets profession.
+          <h2 className="font-serif capitalize text-4xl md:text-4xl text-[#00394E] mb-4 leading-tight font-semibold  ">
+            Where purpose meets profession
           </h2>
 
           <p className="text-lg  text-slate-600 leading-[1.4] font-light   max-w-3xl mx-auto">
-            We’re building a team that redefines financial wellbeing in India
-            and beyond. If you believe in responsibility before revenue and{" "}
-            empathy before execution, we’d love to hear from you.
+           We are building a team that redefines financial well-being in India and beyond. If you believe in responsibility over revenue and empathy alongside expertise, we would love to hear from you.
           </p>
         </div>
       </section>
@@ -70,11 +67,11 @@ export default function CareersPage() {
                     Ready To Take Your Next Step?
                 </h2>
                 <p className="text-slate-600 text-md leading-[1.2] mb-6 max-w-xl font-light">
-                    We are always looking for exceptional talent. If you think you can make a difference, we want to hear from you. join us in redefining financial wellbeing.
+                   We believe exceptional people create exceptional impact. If you are ready to help redefine financial well-being, we look forward to connecting with you.
                 </p>
                 <a
                     href="mailto:careers@finask.com"
-                    className="inline-flex items-center gap-2 bg-[#00394E] text-white px-8 py-4 rounded-full font-bold text-sm tracking-wide hover:bg-[#002836] transition-colors   group"
+                    className="inline-flex items-center gap-2 bg-[#00394E] text-white px-8 py-4 rounded-full font-bold text-lg tracking-wide hover:bg-[#002836] transition-colors   group"
                 >
                     Send us your resume 
                     <span className="group-hover:translate-x-1 transition-transform">&rarr;</span>
