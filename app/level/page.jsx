@@ -4,7 +4,7 @@ import React from "react";
 const page = () => {
   return (
     <div>
-      <section className="relative h-[60vh] flex flex-col justify-center overflow-hidden bg-[#0b1218]">
+      <section className="relative h-[60vh] flex flex-col justify-center overflow-hidden">
         {/* Background Image */}
         <div
           className="absolute inset-0 z-0"
@@ -20,9 +20,9 @@ const page = () => {
         <div className="absolute inset-0 bg-gradient-to-t from-[#00394E]/90 via-[#00394E]/30 to-[#00394E]/40" />
 
         <div className="relative z-20 text-center px-4 max-w-4xl mx-auto ">
-          <h1 className="font-serif text-5xl   font-bold text-white my-6 drop-shadow-lg">We’re Here to Resolve</h1>
+          <h1 className="font-serif text-5xl   font-bold text-white my-6 drop-shadow-lg">We Are Here To Resolve</h1>
 
-          <p className="text-gray-200 text-lg  font-light leading-[1.2] max-w-xl mx-auto">A clear, three-level escalation path so your concern is heard, resolved and closed with care.</p>
+          <p className="text-gray-200 text-lg  font-light leading-[1.3] max-w-xl mx-auto">A Clear, Three-Level Escalation Path So Your Concern Is Heard, Resolved And Closed With Care.</p>
         </div>
       </section>
       <section className=" pt-10 px-6 md:px-12 bg-[#FDF9FB] relative overflow-hidden">
@@ -37,7 +37,7 @@ const page = () => {
               </div>
               <div className="grow">
                 <div className="flex items-center gap-3 mb-2">
-                  <span className="px-3 py-1 bg-[#FDF9FB] border border-[#00394E]/10 text-[#00394E] text-[10px] font-bold uppercase tracking-wider rounded-full">
+                  <span className="px-3 py-1 bg-[#FDF9FB] border border-[#00394E]/10 text-[#00394E] text-[14px] font-bold uppercase tracking-wider rounded-full">
                     Level 1
                   </span>
                   <h3 className="font-serif text-2xl text-[#00394E]">
@@ -106,7 +106,7 @@ const page = () => {
               </div>
               <div className="grow">
                 <div className="flex items-center gap-3 mb-2">
-                  <span className="px-3 py-1 bg-[#FDF9FB] border border-[#00394E]/10 text-[#00394E] text-[10px] font-bold uppercase tracking-wider rounded-full">
+                  <span className="px-3 py-1 bg-[#FDF9FB] border border-[#00394E]/10 text-[#00394E] text-[14px] font-bold uppercase tracking-wider rounded-full">
                     Level 2
                   </span>
                   <h3 className="font-serif text-2xl text-[#00394E]">
@@ -155,7 +155,7 @@ const page = () => {
               </div>
               <div className="grow">
                 <div className="flex items-center gap-3 mb-2">
-                  <span className="px-3 py-1 bg-[#00394E] text-white text-[10px] font-bold uppercase tracking-wider rounded-full">
+                  <span className="px-3 py-1 bg-[#00394E] text-white text-[14px] font-bold uppercase tracking-wider rounded-full">
                     Level 3
                   </span>
                   <h3 className="font-serif text-2xl text-[#00394E]">

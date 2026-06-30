@@ -65,11 +65,23 @@ export default function Footer() {
             <div className="pt-2">
               <div className="space-y-2 text-sm text-gray-400">
                 <p>
-                  <span className="text-white font-medium">ARN Number:</span>{" "}
+                  <span className="text-white font-medium">ARN Code:</span>{" "}
                   ARN-306001
                 </p>
                 <p>
-                  <span className="text-white font-medium">CIN Number:</span>{" "}
+                  <span className="text-white font-medium">ARN Validity:</span>{" "}
+                  25th August 2027
+                </p>
+                <p>
+                  <span className="text-white font-medium">ARPN Code:</span>{" "}
+                  ARPN09216
+                </p>
+                <p>
+                  <span className="text-white font-medium">ARPN Validity:</span>{" "}
+                  25th May 2029
+                </p>
+                <p>
+                  <span className="text-white font-medium">CIN:</span>{" "}
                   U67190DL2020PTC375119
                 </p>
                 {/* <p>
@@ -143,62 +155,31 @@ export default function Footer() {
             </ul>
           </div>
 
-          <div className="lg:col-span-3">
-            <h3 className="text-lg font-bold mb-2">Contact Us</h3>
+           <div className="lg:col-span-2 ">
+            <h3 className="text-lg font-bold mb-2">Resources</h3>
             <div className="flex gap-2 mb-8">
               <div className="w-12 h-1 bg-white/20 rounded-full"></div>
               <div className="w-4 h-1 bg-white/20 rounded-full"></div>
             </div>
-
-            <div className="space-y-6">
-              {/* Phone */}
-              <div className="flex items-center gap-3 group cursor-pointer">
-                <div className="w-10 h-10 rounded-lg bg-white/5 flex items-center justify-center text-gray-400 group-hover:bg-[#DAA434] group-hover:text-white transition-all duration-300 shrink-0">
-                  <Phone size={18} />
-                </div>
-                <div>
-                  <h4 className="text-white font-medium text-md   group-hover:text-[#DAA434] transition-colors">
-                    Call Us
-                  </h4>
-                  <p className="text-gray-400 text-md font-sans">
-                    {" "}
-                    +91 80763 51485
-                  </p>
-                </div>
-              </div>
-
-              {/* Email */}
-              <div className="flex items-center gap-3 group cursor-pointer">
-                <div className="w-10 h-10 rounded-lg bg-white/5 flex items-center justify-center text-gray-400 group-hover:bg-[#DAA434] group-hover:text-white transition-all duration-300 shrink-0">
-                  <Mail size={18} />
-                </div>
-                <div>
-                  <h4 className="text-white font-medium text-md  group-hover:text-[#DAA434] transition-colors">
-                    Work with Us
-                  </h4>
-                  <p className="text-gray-400 text-md font-sans">
-                    wecare@finaskvalue.com
-                  </p>
-                </div>
-              </div>
-
-              {/* Location */}
-              <div className="flex items-start gap-3 group cursor-pointer">
-                <div className="w-10 h-10 rounded-lg bg-white/5 flex items-center justify-center text-gray-400 group-hover:bg-[#DAA434] group-hover:text-white transition-all duration-300 shrink-0">
-                  <MapPin size={18} />
-                </div>
-                <div>
-                  <h4 className="text-white font-medium text-md  group-hover:text-[#DAA434] transition-colors">
-                    Our Location
-                  </h4>
-                  <p className="text-gray-400 text-md leading-relaxed font-sans">
-                    {" "}
-                    Haryana / Delhi{" "}
-                  </p>
-                </div>
-              </div>
-            </div>
+            <ul className="space-y-4 text-md text-gray-400">
+              {[
+                { label: "Awards", href: "/about#awards" },
+                 { label: "Blogs", href: "/about" },
+                  { label: "Testimonials", href: "/#testimonials" },
+              
+              ].map((item) => (
+                <li key={item.href}>
+                  <a
+                    href={item.href}
+                    className="hover:text-[#DAA434] transition-colors"
+                  >
+                    {item.label}
+                  </a>
+                </li>
+              ))}
+            </ul>
           </div>
+
         </div>
 
         {/* Escalation Matrix - Minimalist Bar */}
@@ -211,7 +192,7 @@ export default function Footer() {
           </p>{" "}
           <div className="flex gap-6">
             <a href="/level" className="hover:text-white transition-colors">
-              Escalation matrices
+              Escalation Matrices
             </a>
             <a
               href="/disclaimer"
@@ -220,13 +201,13 @@ export default function Footer() {
               Disclaimer
             </a>
             <a href="/terms" className="hover:text-white transition-colors">
-              Terms and conditions
+              Terms and Conditions
             </a>
             <a
               href="/privacy-policy"
               className="hover:text-white transition-colors"
             >
-              Privacy policy
+              Privacy Policy
             </a>
           </div>
         </div>

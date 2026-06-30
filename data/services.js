@@ -2473,8 +2473,8 @@ export const servicesData = [
     bgImage: "/finask/professional-indemnity.png",
     backgroundPosition: "top",
     faqSection: {
-      promoTitle: "Invest \u20B910k/month & Get",
-      promoText: "\u20B91 Crore*Tax-Free",
+      promoTitle: " ",
+      promoText: " ",
       promoBadges1: "Best Prices, Maximum Savings",
       promoBadges2: " Dedicated Support, Quick Replies",
       promoBadges3: "Quotes In Seconds, Coverage in Minutes",
