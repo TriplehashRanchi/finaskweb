@@ -51,7 +51,8 @@ export default function ServiceContent({ service, hideFaq = false }) {
   const isInsuranceService = allInsuranceMenuItems.some(
     (item) => item.slug === service.slug
   );
-  const shouldShowUSP = isInsuranceService && !hideFaq;
+  const shouldShowUSP =
+    isInsuranceService && !hideFaq && service.slug !== "general-liability-insurance";
 
   const promoTitle = service.faqSection?.promoTitle || "Invest \u20B910k/month & Get";
   const promoText = service.faqSection?.promoText || "\u20B91 Crore*Tax-Free";

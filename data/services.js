@@ -375,7 +375,7 @@ export const servicesData = [
     faqSection: {
       promoTitle: "Paperless Documentation",
       promoText: "Enjoy 18% GST Savings",
-      promoBadges1: "Expert Claim Guidance",
+      promoBadges1: "Expert Claims Guidance",
       promoBadges2: "Hassle-Free Policy Issuance",
     },
   },
@@ -466,7 +466,7 @@ export const servicesData = [
       },
       {
         title: "Capital Preservation",
-        icon: "/insurance-icons/tlip-03.png",
+        icon: "/insurance-icons/tlip-3.png",
         description:
           "Prioritizes steadiness while supporting disciplined long-term savings objectives for families.",
       },
@@ -503,8 +503,8 @@ export const servicesData = [
     bgImage: "/finask/traditional-guaranteed-saving.webp",
     backgroundPosition: "center",
     faqSection: {
-      promoTitle: "Guaranteed Returns",
-      promoText: "Traditional Life Insurance Plans",
+      promoTitle: "Seamless Claim Assistance",
+      promoText: "Annual Policy Reviews",
       promoBadges1: " ",
       promoBadges2: " ",
     },
@@ -631,7 +631,7 @@ export const servicesData = [
     faqSection: {
       promoTitle: "Hassle-Free Digital Isssuance",
       promoText: "Personalized Coverage Recommendations",
-      promoBadges1: "End-to-End Insurance Gudidance",
+      promoBadges1: "End-to-End Insurance Guidance ",
       promoBadges2: "Competitive Premiums",
     },
   },
@@ -1060,7 +1060,7 @@ export const servicesData = [
     backgroundPosition: "center",
     faqSection: {
       promoTitle: "Paperless Claims",
-      promoText: " Zero Waiting Periods",
+      promoText: " Zero Waiting Period",
       promoBadges1: "24/7 Claims Support*",
       promoBadges2: "Dedicated Relationship Manager ",
     },
@@ -1347,7 +1347,7 @@ export const servicesData = [
       },
       {
         title: "Accidental Damage Cover",
-        icon: "/insurance-icons/cycle-protection-2.png",
+        icon: "/insurance-icons/cycle-2.png",
         description:
           "Protection against damage caused by accidents or unforeseen incidents.",
       },
@@ -1587,7 +1587,7 @@ export const servicesData = [
     faqSection: {
       promoTitle: "Get Custom Quote Instantly",
       promoText: "Medico-Legal Lawyer Panel",
-      promoBadges1: "365-Day Claims Assistance",
+      promoBadges1: "365-Day Claims Assistance*",
     promoBadges2: "Instant Policy Issuance",
     },
   },
@@ -1602,7 +1602,7 @@ export const servicesData = [
     features: [
       {
         title: "Dual Benefit Plan",
-        icon: "/insurance-icons/term-rop-1.png",
+        icon: "/insurance-icons/term-rop1.png",
         description: "Insurance and savings combined in one smart solution.",
       },
       {
@@ -1869,13 +1869,13 @@ export const servicesData = [
       },
       {
         title: "Multi-Risk Protection",
-        icon: "/insurance-icons/commercial-vehicle-insurance-3.png",
+        icon: "/insurance-icons/commercial-vehicle-3.png",
         description:
           "Coverage against accidents, fire, theft and third-party liability.",
       },
       {
         title: "Add-On Benefits",
-        icon: "/insurance-icons/commercial-vehicle-insurance-4.png",
+        icon: "/insurance-icons/commercial-vehicle-4.png",
         description:
           "Options like zero depreciation, engine protection and return to invoice and more.",
       },
@@ -1905,8 +1905,8 @@ export const servicesData = [
     bgImage: "/finask/commercial-vehicle-insurance.png",
     backgroundPosition: "center",
     faqSection: {
-      promoTitle: " Fast Claim Support",
-      promoText: "Keep- 20k+ policies sold",
+      promoTitle: "Dedicated Relationship Manager",
+      promoText: "20 K+ Policies sold",
       promoBadges1: " ",
       promoBadges2: " ",
     },
@@ -1981,7 +1981,7 @@ export const servicesData = [
     uspLayout: " ",
     category: "Insurance",
     title: "General Liability Insurance",
-    tagline: "Safeguarding Your Business From Liability Claims",
+    tagline: "Safeguarding Your Business From Liability Claims", 
     description:
       "General Liability Insurance protects your business against financial losses arising from third-party claims of bodily injury, property damage or legal liabilities. It covers expenses such as medical costs, legal fees and compensation, ensuring that unexpected incidents do not impact your business operations or finances. This policy is essential for businesses of all sizes to safeguard their reputation and maintain long-term stability.",
     features: [
@@ -2121,7 +2121,7 @@ export const servicesData = [
       },
       {
         title: "Industrial Project Essential",
-        icon: "/insurance-icons/erection-all-risk-3.png",
+        icon: "/insurance-icons/erection-3.png",
         description: "Ideal for factories, plants and heavy installations.",
       },
       {
@@ -2334,7 +2334,7 @@ export const servicesData = [
       {
         question: "What types of Surety Bonds are available?",
         answer:
-          "Common types include bid bonds, performance bonds, advance payment bonds and maintenance bonds.",
+          "Common types include Bid Bonds, Performance Bonds, Advance Payment Bonds and Maintenance Bonds.",
       },
       {
         question: "Does a Surety Bond impact credit rating?",
@@ -2507,7 +2507,7 @@ export const servicesData = [
       },
       {
         title: "Reduced Risk Exposure",
-        icon: "/insurance-icons/fleet-insurance-4.png",
+        icon: "/insurance-icons/fleet-4.png",
         description: "Minimizes financial losses across your entire fleet.",
       },
     ],
@@ -2554,23 +2554,23 @@ export const servicesData = [
     features: [
       {
         title: "Cash & Asset Security",
-        icon: "/insurance-icons/shop-owner-insurance-1.png",
+        icon: "/insurance-icons/shop-1.png",
         description: "Protection for cash, furniture, fixtures and equipment.",
       },
       {
         title: "Customizable Plans",
-        icon: "/insurance-icons/shop-owner-insurance-2.png",
+        icon: "/insurance-icons/shop-2.png",
         description: "Tailor coverage based on your shop’s unique needs.",
       },
       {
         title: "Contents Protection",
-        icon: "/insurance-icons/shop-owner-insurance-3.png",
+        icon: "/insurance-icons/shop-3.png",
         description:
           "Covers furniture, fixtures and equipment inside the shop.",
       },
       {
         title: "Secure Business Continuity",
-        icon: "/insurance-icons/shop-owner-insurance-4.png",
+        icon: "/insurance-icons/shop-4.png",
         description: "Ensures stability even during disruptions.",
       },
     ],
@@ -2617,22 +2617,22 @@ export const servicesData = [
     features: [
       {
         title: "Trusted Risk Partner",
-        icon: "/insurance-icons/office-package-policy-1.png",
+        icon: "/insurance-icons/office-package-1.png",
         description: "Reliable protection for your growing business.",
       },
       {
         title: "Asset Replacement Support",
-        icon: "/insurance-icons/office-package-policy-2.png",
+        icon: "/insurance-icons/office-package-2.png",
         description: "Ensures quick repair or replacement of damaged items.",
       },
       {
         title: "Growth-Ready Protection",
-        icon: "/insurance-icons/office-package-policy-3.png",
+        icon: "/insurance-icons/office-package-3.png",
         description: "Designed to support scaling businesses.",
       },
       {
         title: "Transparent Terms",
-        icon: "/insurance-icons/office-package-policy-4.png",
+        icon: "/insurance-icons/office-package-4.png",
         description: "Clear coverage with no hidden conditions.",
       },
     ],
@@ -2664,7 +2664,7 @@ export const servicesData = [
       promoTitle: " ",
       promoText: " ",
       promoBadges1: "Digital Policy Issuance",
-      promoBadges2: "365-Day Dedicated Claims Support",
+      promoBadges2: "365-Day Dedicated Claims Support*",
       promoBadges3:
         " Expert Guidance from Purchase to Claim",
     },
@@ -2942,7 +2942,7 @@ export const servicesData = [
     features: [
       {
         title: "Active Portfolio Monitoring",
-        icon: "/insurance-icons/sif1.png",
+        icon: "/insurance-icons/sif-1.png",
         description: "Continuous review and rebalancing of investments.",
       },
       {
@@ -2952,7 +2952,7 @@ export const servicesData = [
       },
       {
         title: "Diversified Strategies",
-        icon: "/insurance-icons/sif3.png",
+        icon: "/insurance-icons/sif-3.png",
         description: "Invests across multiple strategies.",
       },
       {
@@ -3002,7 +3002,7 @@ export const servicesData = [
     features: [
       {
         title: "Capital Preservation",
-        icon: "/insurance-icons/bond-1.png",
+        icon: "/insurance-icons/tlip-3.png",
         description: "Focus on safety of principal.",
       },
       {
@@ -3261,7 +3261,7 @@ export const servicesData = [
       },
       {
         title: "Portfolio Balance",
-        icon: "/insurance-icons/reit-3.png",
+        icon: "/insurance-icons/reit3.png",
         description: "Complement equities and debt with yield-focused assets.",
       },
       {
@@ -3323,7 +3323,7 @@ export const servicesData = [
       },
       {
         title: "Renewable & Future Assets",
-        icon: "/insurance-icons/invits-3.png",
+        icon: "/insurance-icons/invits3.png",
         description:
           "Gain exposure to sustainable energy and modern infrastructure.",
       },
@@ -3509,7 +3509,7 @@ export const servicesData = [
       },
       {
         title: "Invoice Discounting",
-        icon: "/insurance-icons/alternative-fixed-income-2.png",
+        icon: "/insurance-icons/alternative-fixed-2.png",
         description:
           "Short-term financing by unlocking liquidity against unpaid invoices to improve cash flow.",
       },
