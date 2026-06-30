@@ -3,6 +3,25 @@ import React, { useState, useEffect } from "react";
 import { ShieldCheck } from "lucide-react";
 import Link from "next/link";
 
+const USP_DISCLAIMER_TEXT =
+  "* Features, support timelines and coverage are subject to policy/product terms, insurer guidelines and applicable conditions.";
+
+function hasAsterisk(...values) {
+  return values.flat().some(
+    (v) => typeof v === "string" && v.includes("*")
+  );
+}
+
+function UspDisclaimerNote({ light = false, className = "" }) {
+  return (
+    <p
+      className={`text-xs mt-3 text-center ${light ? "text-white/70" : "text-slate-500"} ${className}`}
+    >
+      {USP_DISCLAIMER_TEXT}
+    </p>
+  );
+}
+
 // Layout 2: Horizontal Ribbon (Updated to Family Promo Layout)
 export function HorizontalRibbon({ promoTitle, promoText, promoBadges }) {
   return (
@@ -78,10 +97,11 @@ export function HorizontalRibbon({ promoTitle, promoText, promoBadges }) {
                 <p className="font-bold capitalize text-[#00394E] text-[1.1rem] mb-0.5 leading-tight">
                   {promoBadges[2] || "45 Lacs+"}
                 </p>
-               
+
               </div>
             </div>
           </div>
+          {hasAsterisk(promoBadges) && <UspDisclaimerNote />}
         </div>
 
         {/* Right Side: Image with organic mask */}
@@ -158,6 +178,7 @@ export function HorizontalRibbonBusiness({ promoTitle, promoText, promoBadges })
               </div>
             </div>
           </div>
+          {hasAsterisk(promoBadges) && <UspDisclaimerNote />}
         </div>
 
         {/* Right Side: Image with organic mask */}
@@ -195,6 +216,7 @@ export function FloatingPills({ promoTitle, promoText, promoBadges }) {
           <p className="text-lg font-bold capitalize text-[#00394E]">{promoBadges[2]}</p>
         </div>
       </div>
+      {hasAsterisk(promoBadges) && <UspDisclaimerNote />}
     </div>
   );
 }
@@ -260,6 +282,7 @@ export function BottomStickyBanner({ promoTitle, promoText, promoBadges }) {
             <p className=" text-[1.4rem] capitalize font-semibold text-[#D44659] leading-tight">
               {promoTitle}
             </p>
+            {hasAsterisk(promoTitle, promoText) && <UspDisclaimerNote />}
           </div>
         </div>
 
@@ -341,6 +364,7 @@ export function BottomStickyBlue({ promoTitle, promoText, promoBadges }) {
             <h3 className="font-sans text-[1.6rem] md:text-[2rem] font-semibold capitalize text-white leading-tight">
               {promoText}
             </h3>
+            {hasAsterisk(promoTitle, promoText) && <UspDisclaimerNote light />}
           </div>
         </div>
 
@@ -442,6 +466,7 @@ export function ScrollPopupModal({ promoTitle, promoText, promoBadges }) {
               </p>
             </div>
           </div>
+          {hasAsterisk(promoBadges) && <UspDisclaimerNote />}
         </div>
       </div>
     </div>
