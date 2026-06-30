@@ -124,11 +124,11 @@ export default function Footer() {
             </div>
             <ul className="space-y-4 text-md text-gray-400">
               {[
-                { label: "Family Office", href: "/services/family-office" },
-                { label: "Insurance", href: "/insurances" },
                 { label: "Investment", href: "/investments" },
+                 { label: "Services", href: "/services" },
+                  { label: "Insurance", href: "/insurances" },
+                { label: "Family Office", href: "/services/family-office" },    
                 { label: "NRI's Corner", href: "/services/nri-corner" },
-                { label: "Services", href: "/services" },
                 { label: "Women's Corner", href: "/services/women-corner" },
               ].map((item) => (
                 <li key={item.href}>

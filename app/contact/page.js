@@ -70,7 +70,7 @@ export default function ContactPage() {
                 <h4 className="font-serif text-2xl text-[#00394E] mb-2 group-hover:font-bold transition-all">
                   Schedule a call
                 </h4>
-                <p className="text-sm text-slate-500 font-normal uppercase tracking-wide">
+                <p className="text-md text-slate-500 font-normal uppercase tracking-wide">
                   Advisor Support
                 </p>
               </a>
@@ -99,7 +99,7 @@ export default function ContactPage() {
                 <h4 className="font-serif text-2xl text-[#00394E] mb-2 group-hover:font-bold transition-all">
                   Chat with us
                 </h4>
-               <p className="text-sm text-slate-500 font-normal uppercase tracking-wide">
+               <p className="text-md text-slate-500 font-normal uppercase tracking-wide">
                   WhatsApp
                 </p>
               </a>
@@ -128,7 +128,7 @@ export default function ContactPage() {
                 <h4 className="font-serif text-2xl text-[#00394E] mb-2 group-hover:font-bold transition-all">
                   Send an email
                 </h4>
-               <p className="text-sm text-slate-500 font-normal uppercase tracking-wide">
+               <p className="text-md text-slate-500 font-normal uppercase tracking-wide">
                   Inquiries
                 </p>
               </a>
@@ -176,7 +176,7 @@ export default function ContactPage() {
                   </svg>
                 </div>
                 <div>
-                  <h4 className="font-bold text-[#DAA434] text-md mb-1">
+                  <h4 className="font-bold text-[#DAA434] text-lg mb-1">
                     Location
                   </h4>
                   <p className="text-gray-300 text-[17px] leading-relaxed font-normal">
@@ -203,7 +203,7 @@ export default function ContactPage() {
                   </svg>
                 </div>
                 <div>
-                  <h4 className="font-bold text-[#DAA434] text-md mb-1">
+                  <h4 className="font-bold text-[#DAA434] text-lg mb-1">
                     Contact
                   </h4>
                   <a
@@ -232,7 +232,7 @@ export default function ContactPage() {
                   </svg>
                 </div>
                 <div>
-                  <h4 className="font-bold text-[#DAA434] text-md mb-1">
+                  <h4 className="font-bold text-[#DAA434] text-lg mb-1">
                     Email
                   </h4>
                   <a
@@ -269,7 +269,7 @@ export default function ContactPage() {
                   </svg>
                 </div>
                 <div>
-                  <h4 className="font-bold text-[#DAA434] text-md mb-1">
+                  <h4 className="font-bold text-[#DAA434] text-lg mb-1">
                      Location
                   </h4>
                   <p className="text-slate-300 text-[17px] leading-relaxed font-normal">
@@ -296,7 +296,7 @@ export default function ContactPage() {
                   </svg>
                 </div>
                 <div>
-                  <h4 className="font-bold text-[#DAA434] text-md mb-1">
+                  <h4 className="font-bold text-[#DAA434] text-lg mb-1">
                     Contact 
                   </h4>
                   <a
@@ -324,7 +324,7 @@ export default function ContactPage() {
                   </svg>
                 </div>
                 <div>
-                  <h4 className="font-bold text-[#DAA434] text-md mb-1">
+                  <h4 className="font-bold text-[#DAA434] text-lg mb-1">
                     Email 
                   </h4>
                   <a

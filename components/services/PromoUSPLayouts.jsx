@@ -165,7 +165,7 @@ export function HorizontalRibbonBusiness({ promoTitle, promoText, promoBadges })
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[280px] h-[320px] bg-[#F4D7DE] rounded-[3rem] -z-10 ml-6 mt-6"></div>
           <div className="w-[250px] h-[300px] relative rounded-b-[10rem] rounded-t-[3.4rem] overflow-hidden border-white bg-white">
             <img
-              src="/businessribbon.jpeg"
+              src="/businessribbon2.png"
               alt="Business Insurance"
               className="w-full h-full object-cover"
             />

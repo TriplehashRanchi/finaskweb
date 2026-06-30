@@ -7,9 +7,9 @@ export const servicesData = [
     uspLayout: "horizontal-ribbon",
     category: "Insurance",
     title: "Health Insurance",
-    tagline: "So Your Wellbeing Remains Untouched by Financial Anxiety",
+    tagline: "So Your Well-Being Remains Untouched by Financial Anxiety",
     description:
-      "Good health underpins every other joy, from milestones celebrated to simple everyday contentment. Yet the rising intricacies and costs of medical care can quickly erode even the most robust fortunes if left unguarded. \n At FinAsk Value, we help you find discreet, sophisticated health coverage that stands silently by your side. Whether for your aging parents, a globe-trotting lifestyle or simply to insulate your wealth against life’s medical surprises, we curate solutions that protect both your family’s wellbeing and your long-term aspirations.",
+      "Good health underpins every other joy, from milestones celebrated to simple everyday contentment. Yet the rising intricacies and costs of medical care can quickly erode even the most robust fortunes if left unguarded. \n At FinAsk Value, we help you find discreet, sophisticated health coverage that stands silently by your side. Whether for your aging parents, a globe-trotting lifestyle or simply to insulate your wealth against life’s medical surprises, we curate solutions that protect both your family’s well-Being and your long-term aspirations.",
     features: [
       {
         title: "Comprehensive Coverage",
@@ -1788,7 +1788,7 @@ export const servicesData = [
     slug: "taxi-insurance",
     uspLayout: "bottom-sticky-blue",
     category: "Insurance",
-    title: "Taxi Insurance",
+    title: "Taxi Insurance", 
     tagline: "Secure Every Trip, Strengthen Every Mile You Earn",
     description:
       "It is a specialized commercial vehicle policy designed for cabs and passenger transport vehicles, offering protection against accidents, theft, natural disasters and third-party liabilities. As mandated by the Insurance Regulatory and Development Authority of India, Third-Party Cover is compulsory, while Comprehensive Plans provide broader protection for your vehicle,  with options like passenger cover, zero depreciation and other valuable add-ons. Taxi Insurance ensures business continuity, financial security and peace of mind for drivers and fleet owners.",
@@ -1906,7 +1906,7 @@ export const servicesData = [
     backgroundPosition: "center",
     faqSection: {
       promoTitle: "Dedicated Relationship Manager",
-      promoText: "20 K+ Policies sold",
+      promoText: "20K+ Policies sold",
       promoBadges1: " ",
       promoBadges2: " ",
     },
@@ -4320,7 +4320,7 @@ export const servicesData = [
     title: "Financial Literacy Workshops",
     tagline: "Empowering Clarity, Inspiring Confidence",
     description:
-      "At FinAsk Value, we believe that the most valuable asset any individual can own is clarity. In a world full of noise and financial quick fixes, informed decision-making is not just smart, it’s empowering.\nOur Financial Literacy Workshops and SEBI-Compliant Investor Awareness Programs (IAPs) are designed to democratize that empowerment. Whether you are   a salaried professional, homemaker, entrepreneur, student or retiree, we meet you where you are and help you move forward with confidence.\nEach program is thoughtfully curated to simplify complex concepts: from budgeting and SIPs to tax planning, insurance design and wealth transfer. We address real-life questions, bust financial myths and help participants build a framework they can actually apply today, tomorrow and 20 years from now.\nDelivered virtually or on-site, our sessions use relatable stories, practical illustrations and interactive Q&A formats led by certified experts. And most importantly, every IAP is 100% educational, zero product pitching, full commitment to SEBI’s mission of protecting and uplifting investors.\nBecause when financial literacy improves, everything else follows: financial dignity, family wellbeing and the confidence to build a better life. With us, that’s the kind of wealth we aim to co-create.",
+      "At FinAsk Value, we believe that the most valuable asset any individual can own is clarity. In a world full of noise and financial quick fixes, informed decision-making is not just smart, it’s empowering.\nOur Financial Literacy Workshops and SEBI-Compliant Investor Awareness Programs (IAPs) are designed to democratize that empowerment. Whether you are   a salaried professional, homemaker, entrepreneur, student or retiree, we meet you where you are and help you move forward with confidence.\nEach program is thoughtfully curated to simplify complex concepts: from budgeting and SIPs to tax planning, insurance design and wealth transfer. We address real-life questions, bust financial myths and help participants build a framework they can actually apply today, tomorrow and 20 years from now.\nDelivered virtually or on-site, our sessions use relatable stories, practical illustrations and interactive Q&A formats led by certified experts. And most importantly, every IAP is 100% educational, zero product pitching, full commitment to SEBI’s mission of protecting and uplifting investors.\nBecause when financial literacy improves, everything else follows: financial dignity, family well-Being and the confidence to build a better life. With us, that’s the kind of wealth we aim to co-create.",
     features: [
       {
         title: "Confidence to Grow",

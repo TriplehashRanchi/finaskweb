@@ -94,10 +94,10 @@ export default function EmpowerSection() {
 
            
             <div className="border-t border-gray-700/50 pt-10 transition-opacity duration-300 ease-in-out">
-                <h4 className="text-xl font-bold text-white mb-4">
+                {/* <h4 className="text-xl font-bold text-white mb-4">
                     {activeFeature === 0 ? "Innovative Financial Solutions" : features[activeFeature].title + " Solutions"}
-                </h4>
-                <p className="text-gray-400 leading-relaxed mb-8 max-w-md min-h-[3rem]">
+                </h4> */}
+                <p className="text-gray-400 text-xl leading-relaxed mb-8 max-w-md min-h-[3rem]">
                     {features[activeFeature].description}
                 </p>
 
