@@ -9,60 +9,6 @@ import { postBySlugQuery, postSlugsQuery } from "@/sanity/lib/queries";
 
 export const dynamic = "force-dynamic";
 
-function formatDate(value) {
-  if (!value) return "";
-
-  return new Intl.DateTimeFormat("en-IN", {
-    day: "numeric",
-    month: "long",
-    year: "numeric",
-  }).format(new Date(value));
-}
-
-function HeroMeta({ category, publishedAt, author }) {
-  const items = [
-    category ? { label: "Category", value: category } : null,
-    publishedAt
-      ? { label: "Published", value: formatDate(publishedAt), dateTime: publishedAt }
-      : null,
-    author ? { label: "Author", value: author } : null,
-  ].filter(Boolean);
-
-  return (
-    <div className="mb-7 flex flex-wrap items-center justify-center gap-3">
-      {items.map((item) => {
-        const content = (
-          <>
-            <span className="block text-[10px] font-bold uppercase tracking-[0.18em] text-[#DAA434]">
-              {item.label}
-            </span>
-            <span className="mt-1 block text-sm font-semibold text-white">
-              {item.value}
-            </span>
-          </>
-        );
-
-        return item.dateTime ? (
-          <time
-            key={item.label}
-            dateTime={item.dateTime}
-            className="min-w-[138px] rounded-md border border-white/15 bg-white/10 px-4 py-3 text-center backdrop-blur-sm"
-          >
-            {content}
-          </time>
-        ) : (
-          <div
-            key={item.label}
-            className="min-w-[138px] rounded-md border border-white/15 bg-white/10 px-4 py-3 text-center backdrop-blur-sm"
-          >
-            {content}
-          </div>
-        );
-      })}
-    </div>
-  );
-}
-
 const portableTextComponents = {
   types: {
     image: ({ value }) => {
@@ -164,7 +110,7 @@ export default async function BlogPostPage({ params }) {
   return (
     <>
       <main className="min-h-screen bg-[#FDF9FB] text-[#00394E]">
-        <section className="relative flex min-h-[76vh] flex-col items-center justify-center overflow-hidden px-4 py-28">
+        <section className="relative h-[70vh] flex flex-col justify-center overflow-hidden bg-[#0b1218]">
           <div
             className="absolute inset-0 z-0"
             style={{
@@ -174,32 +120,29 @@ export default async function BlogPostPage({ params }) {
               backgroundRepeat: "no-repeat",
             }}
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-[#00394E]/95 via-[#00394E]/55 to-[#00394E]/45" />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#00394E]/90 via-[#00394E]/30 to-[#00394E]/40" />
 
-          <header className="relative z-20 mx-auto mt-10 max-w-5xl text-center">
-            <Link
-              href="/blog"
-              className="mb-8 inline-flex text-sm font-bold uppercase tracking-[0.18em] text-[#DAA434] transition-colors hover:text-white"
-            >
-              Back to blog
-            </Link>
-            <HeroMeta
-              category={post.category}
-              publishedAt={post.publishedAt}
-              author={post.author}
-            />
-            <h1 className="font-serif text-4xl font-bold leading-tight text-white drop-shadow-lg md:text-6xl lg:text-7xl">
+          <header className="relative z-20 text-center px-4 max-w-4xl mx-auto">
+            <h1 className="font-serif text-5xl font-bold text-white my-6 drop-shadow-lg">
               {post.title}
             </h1>
             {post.excerpt ? (
-              <p className="mx-auto mt-6 max-w-3xl text-lg font-light leading-8 text-gray-200 md:text-xl">
+              <p className="text-gray-200 text-lg font-light leading-[1.2] max-w-2xl mx-auto">
                 {post.excerpt}
               </p>
             ) : null}
           </header>
         </section>
 
-        <article className="mx-auto w-[90%] max-w-4xl py-16">
+        <article className="mx-auto w-[90%] max-w-4xl py-12">
+          {/* <div className="mx-auto max-w-3xl">
+            <Link
+              href="/blog"
+              className="mb-8 inline-flex rounded-full border border-[#D44659]/25 px-4 py-2 text-xs font-bold uppercase tracking-[0.16em] text-[#D44659] transition-colors hover:border-[#00394E]/25 hover:text-[#00394E]"
+            >
+              Back to blog
+            </Link>
+          </div> */}
           <div className="mx-auto max-w-3xl rounded-md bg-[#FDF9FB]">
             {post.body?.length ? (
               <PortableText value={post.body} components={portableTextComponents} />
