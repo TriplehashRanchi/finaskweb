@@ -1,7 +1,7 @@
 import { groq } from "next-sanity";
 
 export const postsQuery = groq`
-  *[_type == "post" && defined(slug.current)] | order(publishedAt desc) {
+  *[_type == "post" && defined(slug.current)] | order(coalesce(publishedAt, _createdAt) desc) {
     _id,
     title,
     "slug": slug.current,
@@ -11,6 +11,23 @@ export const postsQuery = groq`
     author,
     category
   }
+`;
+
+export const paginatedPostsQuery = groq`
+  *[_type == "post" && defined(slug.current)] | order(coalesce(publishedAt, _createdAt) desc) [$start...$end] {
+    _id,
+    title,
+    "slug": slug.current,
+    excerpt,
+    coverImage,
+    publishedAt,
+    author,
+    category
+  }
+`;
+
+export const postsCountQuery = groq`
+  count(*[_type == "post" && defined(slug.current)])
 `;
 
 export const postSlugsQuery = groq`

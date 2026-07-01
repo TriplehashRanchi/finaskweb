@@ -3,7 +3,7 @@ import Link from "next/link";
 import Footer from "@/components/Footer";
 import { client } from "@/sanity/lib/client";
 import { urlFor } from "@/sanity/lib/image";
-import { postsQuery } from "@/sanity/lib/queries";
+import { paginatedPostsQuery, postsCountQuery } from "@/sanity/lib/queries";
 
 export const metadata = {
   title: "Blog | Finask",
@@ -11,6 +11,8 @@ export const metadata = {
 };
 
 export const dynamic = "force-dynamic";
+
+const POSTS_PER_PAGE = 9;
 
 function formatDate(value) {
   if (!value) return "";
@@ -39,8 +41,53 @@ function BlogMeta({ category, publishedAt }) {
   );
 }
 
-export default async function BlogPage() {
-  const posts = await client.fetch(postsQuery);
+function Pagination({ currentPage, totalPages }) {
+  if (totalPages <= 1) return null;
+
+  const previousPage = currentPage - 1;
+  const nextPage = currentPage + 1;
+  const pageHref = (page) => (page === 1 ? "/blog" : `/blog?page=${page}`);
+
+  return (
+    <nav className="mt-12 flex flex-col items-center justify-between gap-4 border-t border-[#00394E]/10 pt-8 sm:flex-row">
+      <p className="text-sm font-semibold uppercase tracking-[0.14em] text-[#00394E]/55">
+        Page {currentPage} of {totalPages}
+      </p>
+      <div className="flex items-center gap-3">
+        {currentPage > 1 ? (
+          <Link
+            href={pageHref(previousPage)}
+            className="rounded-full border border-[#00394E]/20 px-5 py-3 text-sm font-bold uppercase tracking-[0.12em] text-[#00394E] transition hover:border-[#D44659] hover:text-[#D44659]"
+          >
+            Previous
+          </Link>
+        ) : null}
+        {nextPage <= totalPages ? (
+          <Link
+            href={pageHref(nextPage)}
+            className="rounded-full bg-[#D44659] px-5 py-3 text-sm font-bold uppercase tracking-[0.12em] text-white shadow-lg shadow-[#D44659]/20 transition hover:bg-[#b03a4b]"
+          >
+            Next
+          </Link>
+        ) : null}
+      </div>
+    </nav>
+  );
+}
+
+export default async function BlogPage({ searchParams }) {
+  const params = await searchParams;
+  const requestedPage = Number.parseInt(params?.page || "1", 10);
+  const safeRequestedPage = Number.isFinite(requestedPage)
+    ? Math.max(requestedPage, 1)
+    : 1;
+  const totalPosts = await client.fetch(postsCountQuery);
+  const totalPages = Math.max(Math.ceil(totalPosts / POSTS_PER_PAGE), 1);
+  const currentPage = Math.min(safeRequestedPage, totalPages);
+  const start = (currentPage - 1) * POSTS_PER_PAGE;
+  const end = start + POSTS_PER_PAGE;
+
+  const posts = await client.fetch(paginatedPostsQuery, { start, end });
 
   return (
     <>
@@ -121,6 +168,8 @@ export default async function BlogPage() {
               })}
             </div>
           )}
+
+          <Pagination currentPage={currentPage} totalPages={totalPages} />
         </section>
       </main>
       <Footer />
