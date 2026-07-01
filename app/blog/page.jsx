@@ -10,6 +10,8 @@ export const metadata = {
   description: "Insights from Finask on wealth, insurance, tax, and planning.",
 };
 
+export const dynamic = "force-dynamic";
+
 function formatDate(value) {
   if (!value) return "";
 

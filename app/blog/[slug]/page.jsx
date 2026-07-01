@@ -7,6 +7,8 @@ import { client } from "@/sanity/lib/client";
 import { urlFor } from "@/sanity/lib/image";
 import { postBySlugQuery, postSlugsQuery } from "@/sanity/lib/queries";
 
+export const dynamic = "force-dynamic";
+
 function formatDate(value) {
   if (!value) return "";
 
