@@ -87,15 +87,15 @@ export default function HeroCarousel() {
       </div>
 
       {/* MAIN CONTENT (Bottom Right Alignment on Desktop, Vertically Centered on Right on Mobile) */}
-      <div className="absolute inset-0 z-20 flex items-center md:items-end justify-end pb-16 md:pb-20 px-6 md:px-16 pointer-events-none">
+      <div className="absolute inset-0 z-20 flex items-center md:items-end justify-end   md:pb-20 px-6 md:px-16 pointer-events-none">
         <div className="max-w-3xl text-right pointer-events-auto">
           {/* Dynamic Headline from Slides */}
-          <h1 className="font-serif text-2xl sm:text-3xl md:text-5xl font-normal text-white mb-6 leading-[1.2] md:leading-[1.1] tracking-tight drop-shadow-lg">
+          <h1 className="font-serif text-[23px] sm:text-3xl md:text-5xl font-normal text-white mb-6 leading-[1.2] md:leading-[1.1] tracking-tight drop-shadow-lg">
             {slides[current].title}
           </h1>
 
           {/* Horizontal Line Separator - Brand Gold */}
-          <div className="w-32 sm:w-48 md:w-full h-[1.5px] bg-[#DAA434] mb-6 ml-auto"></div>
+          <div className=" w-48 md:w-full h-[1.5px] bg-[#DAA434] mb-6 ml-auto"></div>
 
           {/* Subheadline */}
           <p className="text-white/90 text-sm sm:text-lg md:text-xl font-light mb-8 md:mb-10 leading-relaxed max-w-3xl ml-auto drop-shadow-md">

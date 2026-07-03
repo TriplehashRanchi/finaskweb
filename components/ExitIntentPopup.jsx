@@ -47,7 +47,7 @@ export default function ExitIntentPopup() {
 
   return (
     <div className="fixed inset-0 z-[9999] flex items-center justify-center bg-black/60 backdrop-blur-sm px-4">
-      <div className="relative w-full max-w-4xl bg-[#FDF9FB] p-10 md:p-20 rounded-3xl shadow-2xl transform transition-all">
+      <div className="relative w-full max-w-4xl bg-[#FDF9FB] p-6 py-20 sm:p-10 md:p-20 rounded-3xl shadow-2xl transform transition-all">
 
         {/* Close Button */}
         <button
@@ -60,13 +60,13 @@ export default function ExitIntentPopup() {
 
         <div className="text-center space-y-6">
           <div className="space-y-2">
-            <h2 className="text-3xl md:text-[32px] mb-4 font-extrabold text-[#00394E] tracking-tight font-sans">
+            <h2 className="text-xl sm:text-2xl md:text-[32px] mb-4 font-extrabold text-[#00394E] tracking-tight font-sans">
               Ready To Achieve Your Financial Goals?
             </h2>
-            <h3 className="text-xl md:text-[24px] font-semi  bold text-[#00394E] tracking-tight font-sans">
+            <h3 className="text-base sm:text-lg md:text-[24px] font-semibold text-[#00394E] tracking-tight font-sans">
               Whether It's Investment, Insurance, Tax Planning or Wealth Creation
             </h3>
-            <h2 className="text-3xl md:text-3xl font-extrabold text-[#00394E] tracking-tight font-sans">
+            <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-[#00394E] tracking-tight font-sans">
               We Are Here To Help You
             </h2>
           </div>
@@ -75,7 +75,7 @@ export default function ExitIntentPopup() {
             <Link
               href="/contact"
               onClick={() => setShowPopup(false)}
-              className="w-full flex gap-2 sm:w-auto px-10 py-3.5 bg-[#D44659] hover:bg-[#b03a4b] text-white font-semibold rounded-xl transition-colors shadow-sm"
+              className="w-full flex gap-2 items-center justify-center sm:w-auto px-6 py-3 sm:px-10 sm:py-3.5 bg-[#D44659] hover:bg-[#b03a4b] text-white font-semibold rounded-xl transition-colors shadow-sm text-sm sm:text-base"
             >
               <PhoneCallIcon size={20}/>
               Talk To Our Certified Expert
@@ -84,7 +84,7 @@ export default function ExitIntentPopup() {
               href="https://wa.me/918076351485"
               target="_blank"
               onClick={() => setShowPopup(false)}
-              className="w-full flex gap-2 sm:w-auto px-10 py-3.5 bg-green-500 border focus:outline-none rounded-xl focus:ring-2 focus:ring-black border-[#f5f5f5] text-white font-semibold transition-colors"
+              className="w-full flex gap-2 items-center justify-center sm:w-auto px-6 py-3 sm:px-10 sm:py-3.5 bg-green-500 border focus:outline-none rounded-xl focus:ring-2 focus:ring-black border-[#f5f5f5] text-white font-semibold transition-colors text-sm sm:text-base"
             >
               <SiWhatsapp color='white'/>
               Connect On WhatsApp
