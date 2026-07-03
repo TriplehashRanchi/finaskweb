@@ -34,12 +34,12 @@ export default function EmpowerSection() {
   const [activeFeature, setActiveFeature] = useState(0); 
 
   return (
-    <section className="py-20  bg-[#001F2B] text-white relative overflow-hidden">
+    <section className="py-16 sm:py-20  bg-[#001F2B] text-white relative overflow-hidden">
       
-      <div className="max-w-7xl mx-auto px-6 md:px-12 flex flex-col lg:flex-row items-center gap-16 lg:gap-24 relative z-10">
+      <div className="max-w-7xl mx-auto px-6 md:px-12 flex flex-col lg:flex-row items-center gap-10 sm:gap-16 lg:gap-24 relative z-10">
         
         {/* LEFT: Dynamic Image with Chamfered Corner */}
-        <div className="w-full lg:w-1/2 relative h-[500px] md:h-[600px]">
+        <div className="w-full lg:w-1/2 relative h-[300px] sm:h-[450px] md:h-[600px] lg:h-[500px] xl:h-[600px]">
              {/* Render active image with key to force animation or just smooth swap */}
              <div 
                 className="relative h-full w-full overflow-hidden   transition-all duration-500 ease-in-out"
@@ -67,7 +67,7 @@ export default function EmpowerSection() {
         <div className="w-full lg:w-1/2 flex flex-col justify-center">
             
             {/* Top Heading */}
-            <h4 className="text-white text-xl font-bold   tracking-wide    mb-8 relative inline-block">
+            <h4 className="text-white text-lg sm:text-xl font-bold   tracking-wide    mb-6 sm:mb-8 relative inline-block">
                 Because Every Journey Deserves a Financial Blueprint
              </h4>
 
@@ -80,7 +80,7 @@ export default function EmpowerSection() {
                         onClick={() => setActiveFeature(index)}
                     >
                         <h3 
-                            className={`text-4xl md:text-3xl font-bold transition-colors duration-300 select-none ${
+                            className={`text-3xl sm:text-4xl md:text-3xl font-bold transition-colors duration-300 select-none ${
                                 activeFeature === index 
                                     ? "text-white" 
                                     : "text-gray-600 hover:text-gray-400"
@@ -93,11 +93,11 @@ export default function EmpowerSection() {
             </div>
 
            
-            <div className="border-t border-gray-700/50 pt-10 transition-opacity duration-300 ease-in-out">
+            <div className="border-t border-gray-700/50 pt-8 sm:pt-10 transition-opacity duration-300 ease-in-out">
                 {/* <h4 className="text-xl font-bold text-white mb-4">
                     {activeFeature === 0 ? "Innovative Financial Solutions" : features[activeFeature].title + " Solutions"}
                 </h4> */}
-                <p className="text-gray-400 text-xl leading-relaxed mb-8 max-w-md min-h-[3rem]">
+                <p className="text-gray-400 text-lg lg:text-xl leading-relaxed mb-6 sm:mb-8 max-w-md min-h-[3rem]">
                     {features[activeFeature].description}
                 </p>
 

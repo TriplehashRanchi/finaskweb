@@ -9,7 +9,7 @@ export default function VideoSection() {
     <section className="">
      
 
-      <div className="relative w-full h-[500px] lg:h-[100vh]">
+      <div className="relative w-full h-[250px] sm:h-[400px] md:h-[500px] lg:h-[100vh]">
         <video
           src="/happy-family.webm"
           className="w-full h-full object-cover"
