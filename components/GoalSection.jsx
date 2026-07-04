@@ -23,10 +23,10 @@ export default function GoalSection() {
         <div className="max-w-7xl mx-auto px-6 md:px-12">
             {/* Section Header */}
             <div className="text-center mb-10">
-                 <h2 className="text-4xl md:text-5xl font-medium text-[#00394E] font-serif tracking-tight">
+                 <h2 className="text-3xl sm:text-4xl md:text-5xl font-medium text-[#00394E] font-serif tracking-tight">
                     Designed for <span className=" text-[#DAA434]">Life's Milestones</span>
                 </h2>
-                <p className="mt-4 text-gray-600 max-w-2xl mx-auto text-lg">
+                <p className="mt-4 text-gray-600 max-w-2xl mx-auto text-base sm:text-lg">
                     Swipe to explore the goals that define your legacy.
                 </p>
             </div>
@@ -47,7 +47,7 @@ export default function GoalSection() {
                  {duplicatedGoals.map((goal, index) => (
                     <motion.div 
                         key={`${goal.id}-${index}`} 
-                        className="relative min-w-[300px] h-[450px] md:min-w-[350px] md:h-[400px]   overflow-hidden shadow-xl group flex-shrink-0"
+                        className="relative min-w-[260px] h-[340px] sm:min-w-[300px] sm:h-[380px] md:min-w-[350px] md:h-[400px]   overflow-hidden shadow-xl group flex-shrink-0"
                         whileHover={{ scale: 0.98 }}
                     >
                         {/* Background Image */}
@@ -62,9 +62,9 @@ export default function GoalSection() {
                         <div className="absolute inset-0 bg-gradient-to-t from-[#00394E]/90 via-[#00394E]/20 to-transparent opacity-80 group-hover:opacity-90 transition-opacity duration-300 pointer-events-none" />
                         
                         {/* Content */}
-                        <div className="absolute bottom-0 left-0 p-8 w-full transform translate-y-2 group-hover:translate-y-0 transition-transform duration-300 pointer-events-none">
+                        <div className="absolute bottom-0 left-0 p-6 sm:p-8 w-full transform translate-y-2 group-hover:translate-y-0 transition-transform duration-300 pointer-events-none">
                             
-                             <h3 className="font-serif text-2xl md:text-2xl text-white mb-2 leading-tight">
+                             <h3 className="font-serif text-xl sm:text-2xl text-white mb-2 leading-tight">
                                 {goal.title}
                              </h3>
                              <div className="h-0.5 w-20 bg-[#DAA434] group-hover:w-full transition-all duration-700 ease-out" />

@@ -220,12 +220,28 @@ function InvestmentMegaMenu() {
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [isInvestmentOpen, setIsInvestmentOpen] = useState(false);
+  const [isServicesOpen, setIsServicesOpen] = useState(false);
+  const [isInsuranceOpen, setIsInsuranceOpen] = useState(false);
+  const [mobileInsuranceTab, setMobileInsuranceTab] = useState("personal");
 
   useEffect(() => {
     const handleScroll = () => setIsScrolled(window.scrollY > 20);
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
+  useEffect(() => {
+    if (isMobileMenuOpen) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "";
+    }
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [isMobileMenuOpen]);
 
   const textColor = isScrolled ? "text-[#00394E]" : "text-white";
   const navLinkClass = `text-[15px] font-medium transition-colors duration-200 hover:text-[#DAA434] ${textColor}`;
@@ -253,105 +269,393 @@ export default function Navbar() {
     { name: "Financial Literacy Workshops", slug: "financial-literacy" },
     {name: "Health Assistance", slug: "health-assistance"},
     { name: "Legal Advisory", slug: "legal-advisory" },
-     { name: "Tax Advisory", slug: "tax-advisory" },
+    { name: "Tax Advisory", slug: "tax-advisory" },
     { name: "Trust Formation", slug: "trust-formation" },
     { name: "Will Writing", slug: "will-writing" },
-     
-    
   ];
 
   return (
-    <div
-      className={`fixed top-0 left-0 right-0 z-[100] flex justify-center transition-all duration-700 ${
-        isScrolled ? "pt-2" : "pt-6"
-      }`}
-    >
-      <nav
-        className={`relative flex items-center justify-between transition-all duration-500 ease-in-out ${
-          isScrolled
-            ? "w-[92%] max-w-[1600px] bg-[#FDF9FB] border border-gray-200/50 shadow-2xl backdrop-blur-md px-6 py-2.5 rounded-full"
-            : "w-full max-w-[1500px] bg-transparent border-transparent px-10 py-4 shadow-none rounded-none"
+    <>
+      <div
+        className={`fixed top-0 left-0 right-0 z-[100] flex justify-center transition-all duration-700 ${
+          isScrolled ? "pt-2" : "pt-6"
         }`}
       >
-        <div
-          className={`shrink-0 mr-4 flex items-center ${
-            !isScrolled ? "bg-white px-2 py-1 rounded-full shadow-lg" : ""
+        <nav
+          className={`relative flex items-center justify-between transition-all duration-500 ease-in-out ${
+            isScrolled
+              ? "w-[95%] xl:w-[92%] max-w-[1600px] bg-[#FDF9FB] border border-gray-200/50 shadow-2xl backdrop-blur-md px-4 sm:px-6 py-2.5 rounded-full"
+              : "w-full max-w-[1500px] bg-transparent border-transparent px-4 sm:px-10 py-4 shadow-none rounded-none"
           }`}
         >
-          <Link href="/" className="block">
+          <div
+            className={`shrink-0 mr-4 flex items-center ${
+              !isScrolled ? "bg-white px-2 py-1 rounded-full shadow-lg" : ""
+            }`}
+          >
+            <Link href="/" className="block">
+              <Image
+                src="/logo.webp"
+                alt="Finask Logo"
+                width={160}
+                height={45}
+                className="object-contain"
+                priority
+              />
+            </Link>
+          </div>
+
+          <div className="hidden xl:flex items-center gap-6 grow justify-center">
+            <Link href="/about" className={navLinkClass}>
+              About Us
+            </Link>
+
+            <div className="group relative flex items-center h-full">
+              <span
+                className={`${navLinkClass} flex items-center gap-1.5 py-5 cursor-pointer`}
+              >
+                Investment <Chevron />
+              </span>
+              <InvestmentMegaMenu />
+            </div>
+
+            <div className="group relative flex items-center h-full">
+              <span
+                className={`${navLinkClass} flex items-center gap-1.5 py-5 cursor-pointer`}
+              >
+                Services <Chevron />
+              </span>
+              <div
+                className={`${dropdownBase} w-[260px] left-1/2 -translate-x-1/2`}
+              >
+                <ul className="space-y-0.5">
+                  {serviceItems.map((item) => (
+                    <MenuItem key={item.slug} href={`/services/${item.slug}`}>
+                      {item.name}
+                    </MenuItem>
+                  ))}
+                </ul>
+              </div>
+            </div>
+
+            <div className="group relative flex items-center h-full">
+              <span
+                className={`${navLinkClass} flex items-center gap-1.5 py-5 cursor-pointer`}
+              >
+                Insurance <Chevron />
+              </span>
+              <InsuranceMegaMenu />
+            </div>
+
+            <Link href="/services/family-office" className={navLinkClass}>
+              Family Office
+            </Link>
+            <Link href="/services/nri-corner" className={navLinkClass}>
+              NRI's Corner
+            </Link>
+            <Link href="/services/women-corner" className={navLinkClass}>
+              Women's Corner
+            </Link>
+          </div>
+
+          <div className="hidden md:block shrink-0 ml-4">
+            <Link
+              href="/contact"
+              className="bg-[#D44659] hover:bg-[#b03a4b] text-white px-6 py-3 rounded-full text-sm font-bold shadow-lg shadow-[#D44659]/20 transition-all transform hover:-translate-y-0.5 whitespace-nowrap"
+            >
+              Get an Appointment
+            </Link>
+          </div>
+
+          {/* Mobile Hamburger Button */}
+          <button
+            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+            className={`xl:hidden flex flex-col justify-center items-center w-10 h-10 rounded-full transition-all duration-300 focus:outline-none shadow-md ml-4 shrink-0 cursor-pointer ${
+              isScrolled
+                ? "bg-[#00394E] text-white hover:bg-[#002635]"
+                : "bg-white text-[#00394E] hover:bg-gray-100"
+            }`}
+            aria-label="Toggle menu"
+          >
+            <div className="w-5 h-4 flex flex-col justify-between items-center relative">
+              <span
+                className={`h-0.5 w-full bg-current rounded transition-transform duration-300 ${
+                  isMobileMenuOpen ? "rotate-45 translate-y-[7px]" : ""
+                }`}
+              />
+              <span
+                className={`h-0.5 w-full bg-current rounded transition-opacity duration-300 ${
+                  isMobileMenuOpen ? "opacity-0" : ""
+                }`}
+              />
+              <span
+                className={`h-0.5 w-full bg-current rounded transition-transform duration-300 ${
+                  isMobileMenuOpen ? "-rotate-45 -translate-y-[7px]" : ""
+                }`}
+              />
+            </div>
+          </button>
+        </nav>
+      </div>
+
+      {/* Mobile Drawer Overlay */}
+      <div
+        onClick={() => setIsMobileMenuOpen(false)}
+        className={`fixed inset-0 bg-black/60 backdrop-blur-sm z-[200] transition-opacity duration-300 xl:hidden ${
+          isMobileMenuOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
+        }`}
+      />
+
+      {/* Mobile Drawer */}
+      <div
+        className={`fixed top-0 right-0 bottom-0 w-full max-w-[360px] sm:max-w-[400px] bg-white z-[201] shadow-2xl flex flex-col transition-transform duration-300 ease-out xl:hidden ${
+          isMobileMenuOpen ? "translate-x-0" : "translate-x-full"
+        }`}
+      >
+        {/* Drawer Header */}
+        <div className="flex items-center justify-between px-6 py-5 border-b border-gray-100">
+          <Link href="/" onClick={() => setIsMobileMenuOpen(false)} className="block">
             <Image
               src="/logo.webp"
               alt="Finask Logo"
-              width={160}
-              height={45}
+              width={130}
+              height={36}
               className="object-contain"
-              priority
             />
           </Link>
+          <button
+            onClick={() => setIsMobileMenuOpen(false)}
+            className="w-9 h-9 rounded-full bg-gray-50 flex items-center justify-center text-gray-500 hover:bg-gray-100 hover:text-gray-700 transition-colors focus:outline-none cursor-pointer"
+            aria-label="Close menu"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2.5"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
+              <line x1="18" y1="6" x2="6" y2="18" />
+              <line x1="6" y1="6" x2="18" y2="18" />
+            </svg>
+          </button>
         </div>
 
-        <div className="hidden xl:flex items-center gap-6 grow justify-center">
-          <Link href="/about" className={navLinkClass}>
+        {/* Drawer Body - Scrollable Links */}
+        <div className="flex-1 overflow-y-auto px-6 py-6 space-y-4 scrollbar-none">
+          <Link
+            href="/about"
+            onClick={() => setIsMobileMenuOpen(false)}
+            className="block text-[16px] font-semibold text-[#00394E] hover:text-[#DAA434] py-1 transition-colors"
+          >
             About Us
           </Link>
 
-          <div className="group relative flex items-center h-full">
-            <span
-              className={`${navLinkClass} flex items-center gap-1.5 py-5 cursor-pointer`}
+          {/* Investment Accordion */}
+          <div className="border-b border-gray-100/80 pb-3">
+            <button
+              onClick={() => setIsInvestmentOpen(!isInvestmentOpen)}
+              className="w-full flex items-center justify-between text-[16px] font-semibold text-[#00394E] hover:text-[#DAA434] py-1 text-left transition-colors focus:outline-none cursor-pointer"
             >
-              Investment <Chevron />
-            </span>
-            <InvestmentMegaMenu />
-          </div>
-
-          <div className="group relative flex items-center h-full">
-            <span
-              className={`${navLinkClass} flex items-center gap-1.5 py-5 cursor-pointer`}
-            >
-              Services <Chevron />
-            </span>
-            <div
-              className={`${dropdownBase} w-[260px] left-1/2 -translate-x-1/2`}
-            >
-              <ul className="space-y-0.5">
-                {serviceItems.map((item) => (
-                  <MenuItem key={item.slug} href={`/services/${item.slug}`}>
-                    {item.name}
-                  </MenuItem>
+              <span>Investment</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2.5"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className={`transition-transform duration-300 opacity-60 ${
+                  isInvestmentOpen ? "rotate-180" : ""
+                }`}
+              >
+                <path d="m6 9 6 6 6-6" />
+              </svg>
+            </button>
+            {isInvestmentOpen && (
+              <div className="pl-3 mt-2 border-l-2 border-[#EBF4F7] space-y-4 max-h-[300px] overflow-y-auto pr-1">
+                {investmentSections.map((section) => (
+                  <div key={section.title} className="space-y-1">
+                    <div className="text-[11px] font-bold text-gray-400 uppercase tracking-wider">
+                      {section.title}
+                    </div>
+                    <div className="space-y-1">
+                      {section.items.map((item) => (
+                        <Link
+                          key={item.slug}
+                          href={`/services/${item.slug}`}
+                          onClick={() => setIsMobileMenuOpen(false)}
+                          className="block py-1 text-[13px] text-gray-600 hover:text-[#00394E] transition-colors"
+                        >
+                          {item.label}
+                        </Link>
+                      ))}
+                    </div>
+                  </div>
                 ))}
-              </ul>
-            </div>
+              </div>
+            )}
           </div>
 
-          <div className="group relative flex items-center h-full">
-            <span
-              className={`${navLinkClass} flex items-center gap-1.5 py-5 cursor-pointer`}
+          {/* Services Accordion */}
+          <div className="border-b border-gray-100/80 pb-3">
+            <button
+              onClick={() => setIsServicesOpen(!isServicesOpen)}
+              className="w-full flex items-center justify-between text-[16px] font-semibold text-[#00394E] hover:text-[#DAA434] py-1 text-left transition-colors focus:outline-none cursor-pointer"
             >
-              Insurance <Chevron />
-            </span>
-            <InsuranceMegaMenu />
+              <span>Services</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2.5"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className={`transition-transform duration-300 opacity-60 ${
+                  isServicesOpen ? "rotate-180" : ""
+                }`}
+              >
+                <path d="m6 9 6 6 6-6" />
+              </svg>
+            </button>
+            {isServicesOpen && (
+              <div className="pl-3 mt-2 border-l-2 border-[#EBF4F7] space-y-1.5 max-h-[250px] overflow-y-auto pr-1">
+                {serviceItems.map((item) => (
+                  <Link
+                    key={item.slug}
+                    href={`/services/${item.slug}`}
+                    onClick={() => setIsMobileMenuOpen(false)}
+                    className="block py-1 text-[13px] text-gray-600 hover:text-[#00394E] transition-colors"
+                  >
+                    {item.name}
+                  </Link>
+                ))}
+              </div>
+            )}
           </div>
 
-          <Link href="/services/family-office" className={navLinkClass}>
+          {/* Insurance Accordion */}
+          <div className="border-b border-gray-100/80 pb-3">
+            <button
+              onClick={() => setIsInsuranceOpen(!isInsuranceOpen)}
+              className="w-full flex items-center justify-between text-[16px] font-semibold text-[#00394E] hover:text-[#DAA434] py-1 text-left transition-colors focus:outline-none cursor-pointer"
+            >
+              <span>Insurance</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2.5"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className={`transition-transform duration-300 opacity-60 ${
+                  isInsuranceOpen ? "rotate-180" : ""
+                }`}
+              >
+                <path d="m6 9 6 6 6-6" />
+              </svg>
+            </button>
+            {isInsuranceOpen && (
+              <div className="mt-2 space-y-3">
+                {/* Tabs */}
+                <div className="flex bg-gray-50 p-0.5 rounded-md border border-gray-100">
+                  <button
+                    onClick={() => setMobileInsuranceTab("personal")}
+                    className={`flex-1 py-1 text-[12px] font-bold rounded-sm transition-all focus:outline-none cursor-pointer ${
+                      mobileInsuranceTab === "personal"
+                        ? "bg-white text-[#00394E] shadow-sm"
+                        : "text-gray-400 hover:text-gray-600"
+                    }`}
+                  >
+                    Personal
+                  </button>
+                  <button
+                    onClick={() => setMobileInsuranceTab("business")}
+                    className={`flex-1 py-1 text-[12px] font-bold rounded-sm transition-all focus:outline-none cursor-pointer ${
+                      mobileInsuranceTab === "business"
+                        ? "bg-white text-[#00394E] shadow-sm"
+                        : "text-gray-400 hover:text-gray-600"
+                    }`}
+                  >
+                    Business
+                  </button>
+                </div>
+                {/* Tab sections */}
+                <div className="pl-3 border-l-2 border-[#EBF4F7] space-y-4 max-h-[250px] overflow-y-auto pr-1">
+                  {(mobileInsuranceTab === "personal"
+                    ? personalInsuranceSections
+                    : businessInsuranceSections
+                  ).map((section) => (
+                    <div key={section.title} className="space-y-1">
+                      <div className="text-[11px] font-bold text-gray-400 uppercase tracking-wider">
+                        {section.title}
+                      </div>
+                      <div className="space-y-1">
+                        {section.items.map((item) => (
+                          <Link
+                            key={item.slug}
+                            href={`/services/${item.slug}`}
+                            onClick={() => setIsMobileMenuOpen(false)}
+                            className="block py-1 text-[13px] text-gray-600 hover:text-[#00394E] transition-colors"
+                          >
+                            {item.label}
+                          </Link>
+                        ))}
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+          </div>
+
+          <Link
+            href="/services/family-office"
+            onClick={() => setIsMobileMenuOpen(false)}
+            className="block text-[16px] font-semibold text-[#00394E] hover:text-[#DAA434] py-1 transition-colors"
+          >
             Family Office
           </Link>
-          <Link href="/services/nri-corner" className={navLinkClass}>
+          <Link
+            href="/services/nri-corner"
+            onClick={() => setIsMobileMenuOpen(false)}
+            className="block text-[16px] font-semibold text-[#00394E] hover:text-[#DAA434] py-1 transition-colors"
+          >
             NRI's Corner
           </Link>
-          <Link href="/services/women-corner" className={navLinkClass}>
+          <Link
+            href="/services/women-corner"
+            onClick={() => setIsMobileMenuOpen(false)}
+            className="block text-[16px] font-semibold text-[#00394E] hover:text-[#DAA434] py-1 transition-colors"
+          >
             Women's Corner
           </Link>
         </div>
 
-        <div className="shrink-0 ml-4">
+        {/* Drawer Footer */}
+        <div className="p-6 border-t border-gray-100 bg-gray-50">
           <Link
             href="/contact"
-            className="bg-[#D44659] hover:bg-[#b03a4b] text-white px-6 py-3 rounded-full text-sm font-bold shadow-lg shadow-[#D44659]/20 transition-all transform hover:-translate-y-0.5 whitespace-nowrap"
+            onClick={() => setIsMobileMenuOpen(false)}
+            className="block w-full bg-[#D44659] hover:bg-[#b03a4b] text-white py-3 rounded-full text-center text-sm font-bold shadow-lg shadow-[#D44659]/20 transition-all transform active:scale-95 cursor-pointer"
           >
             Get an Appointment
           </Link>
         </div>
-      </nav>
-    </div>
+      </div>
+    </>
   );
 }

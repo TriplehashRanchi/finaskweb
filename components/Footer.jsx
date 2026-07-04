@@ -15,9 +15,9 @@ import {
 
 export default function Footer() {
   return (
-    <footer className="bg-[#001F2B] text-white pt-10   ">
+    <footer className="bg-[#001F2B] text-white pt-14 md:pt-10   ">
       <div className="max-w-7xl mx-auto px-6 lg:px-8 ">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-12 lg:gap-8 mb-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 sm:gap-12 lg:gap-8 mb-10">
           {/* Column 1: Brand & Social */}
           <div className="space-y-6 lg:col-span-4">
             <div className="flex items-center gap-2 ">
@@ -128,7 +128,7 @@ export default function Footer() {
           </div>
 
           {/* Column 3: Our Company */}
-          <div className="lg:col-span-2 ml-[-50px]">
+          <div className="lg:col-span-2 lg:-ml-[50px]">
             <h3 className="text-lg font-bold mb-2">Our Company</h3>
             <div className="flex gap-2 mb-8">
               <div className="w-12 h-1 bg-white/20 rounded-full"></div>
@@ -190,7 +190,7 @@ export default function Footer() {
             Copyright © {new Date().getFullYear()} Rainbow-Themes. All Rights
             Reserved
           </p>{" "}
-          <div className="flex gap-6">
+          <div className="flex flex-wrap justify-center md:justify-start gap-x-4 gap-y-2">
             <a href="/level" className="hover:text-white transition-colors">
               Escalation Matrices
             </a>

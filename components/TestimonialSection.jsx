@@ -106,17 +106,20 @@ export default function TestimonialSection() {
   }, [paginate, isHovered, page]); // Dependency on 'page' ensures timer resets on manual change
 
   return (
-    <section className="pb-14 relative overflow-hidden bg-[#FDF9FB] scroll-mt-[100px]" id="testimonials">
+    <section className="py-14 lg:py-0 lg:pb-14 relative overflow-hidden bg-[#FDF9FB] mb-14 sm:mb-0 scroll-mt-[100px]" id="testimonials">
+      {/* Mobile Dark Background Block (Covers entire background on mobile) */}
+      <div className="lg:hidden absolute inset-0 bg-[#001F2B] z-0"></div>
+
       <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8 relative min-h-[500px] flex items-center">
         
-        {/* RIGHT: Dark Background Block */}
-        <div className="absolute top-0 right-20 w-full lg:w-[60%] h-full bg-[#001F2B] z-0 "></div>
+        {/* Desktop Dark Background Block (Restricted to container on desktop) */}
+        <div className="hidden lg:block absolute top-0 right-20 w-full lg:w-[60%] h-full bg-[#001F2B] z-0"></div>
 
         <div className="relative z-10 w-full grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-0 items-center">
           
           {/* LEFT: White Testimonial Card (Overlapping) */}
           <div 
-            className="w-full lg:w-[85%] bg-white shadow-2xl p-8 md:p-12 lg:p-8 relative lg:ml-24 xl:ml-12 overflow-hidden cursor-grab active:cursor-grabbing select-none"
+            className="w-full lg:w-[85%] bg-white shadow-2xl p-6 sm:p-12 lg:p-8 relative lg:ml-24 xl:ml-12 overflow-hidden cursor-grab active:cursor-grabbing select-none"
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
             // Touch events for mobile to prevent conflicting scroll if needed, though drag usually handles it
@@ -167,7 +170,7 @@ export default function TestimonialSection() {
 
                     {/* Quote Text */}
                     <div className="min-h-[120px]">
-                        <p className="text-gray-600 leading-relaxed text-md select-none">
+                        <p className="text-gray-600 leading-relaxed text-sm sm:text-md select-none">
                             {currentTestimonial.quote}
                         </p>
                     </div>
@@ -177,8 +180,8 @@ export default function TestimonialSection() {
             
             {/* Progress/Indicators */}
              <div className="flex gap-2 mt-4 justify-center md:justify-start">
-                     {testimonials.map((_, idx) => (
-                         <div 
+                      {testimonials.map((_, idx) => (
+                          <div 
                             key={idx} 
                             onClick={() => {
                                 // Calculate direction based on index difference for smooth transition
@@ -190,23 +193,23 @@ export default function TestimonialSection() {
                                 }
                             }}
                             className={`h-1 rounded-full transition-all duration-300 cursor-pointer ${idx === testimonialIndex ? 'w-8 bg-[#DAA434]' : 'w-2 bg-gray-200'}`}
-                         />
-                     ))}
+                          />
+                      ))}
             </div>
 
           </div>
 
           {/* RIGHT: Content Title Block (Inside Dark Area) */}
           <div className="pl-0 lg:pl-[10%] pt-10 lg:pt-0 relative z-10 text-center lg:text-left">
-            <span className="text-[#DAA434] font-bold tracking-[0.2em] text-lg uppercase mb-4 block">
+            <span className="text-[#DAA434] font-bold tracking-[0.2em] text-base sm:text-lg uppercase mb-4 block">
               TESTIMONIALS
             </span>
-            <h2 className="text-4xl md:text-4xl font-bold text-white mb-6 font-serif">
+            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6 font-serif">
               From Advices To Outcomes
             </h2>
             <div className="w-40 h-1 bg-[#DAA434] mb-6 mx-auto lg:mx-0" />
 
-            <p className="text-gray-400 max-w-md mx-auto lg:mx-0 leading-[1.4] mb-0 text-md">
+            <p className="text-gray-400 max-w-md mx-auto lg:mx-0 leading-[1.4] mb-0 text-sm sm:text-md">
               Discover how FinAsk Value has empowered individuals and businesses to
               achieve their financial dreams.
             </p>

@@ -140,10 +140,10 @@ export default function ValuesSection() {
   return (
     <section className="w-full py-14 px-4 md:px-8  ">
       <div className="text-center mb-12 px-4">
-        <h2 className="text-4xl md:text-5xl font-medium text-[#00394E] font-serif tracking-tight">
+        <h2 className="text-3xl sm:text-4xl md:text-5xl font-medium text-[#00394E] font-serif tracking-tight">
           Our Core <span className="text-[#DAA434]">Values</span>
         </h2>
-        <p className="mt-4 text-gray-600 max-w-2xl mx-auto text-lg">
+        <p className="mt-4 text-gray-600 max-w-2xl mx-auto text-base sm:text-lg">
           Values that shape our decisions and define our character.
         </p>
       </div>
@@ -156,14 +156,14 @@ export default function ValuesSection() {
         {/* Navigation Buttons (Absolute) */}
         <button
           onClick={prevSlide}
-          className="absolute left-0 md:-left-4 top-1/2 -translate-y-1/2 z-30 w-12 h-12 rounded-full cursor-pointer bg-white shadow-lg border border-[#00394E]/10 flex items-center justify-center text-[#00394E] hover:bg-[#00394E] hover:text-white transition-all duration-300 active:scale-95 opacity-0 group-hover/carousel:opacity-100 translate-x-4 group-hover/carousel:translate-x-0"
+          className="absolute -left-2 md:-left-4 top-1/2 -translate-y-1/2 z-30 w-12 h-12 rounded-full cursor-pointer bg-white shadow-lg border border-[#00394E]/10 flex items-center justify-center text-[#00394E] hover:bg-[#00394E] hover:text-white transition-all duration-300 active:scale-95 opacity-100 md:opacity-0 md:group-hover/carousel:opacity-100 translate-x-0 md:translate-x-4 md:group-hover/carousel:translate-x-0"
           aria-label="Previous slide"
         >
           <ChevronLeft size={24} />
         </button>
         <button
           onClick={nextSlide}
-          className="absolute right-0 md:-right-4 top-1/2 -translate-y-1/2 z-30 w-12 h-12 rounded-full cursor-pointer bg-white shadow-lg border border-[#00394E]/10 flex items-center justify-center text-[#00394E] hover:bg-[#00394E] hover:text-white transition-all duration-300 active:scale-95 opacity-0 group-hover/carousel:opacity-100 -translate-x-4 group-hover/carousel:translate-x-0"
+          className="absolute -right-2 md:-right-4 top-1/2 -translate-y-1/2 z-30 w-12 h-12 rounded-full cursor-pointer bg-white shadow-lg border border-[#00394E]/10 flex items-center justify-center text-[#00394E] hover:bg-[#00394E] hover:text-white transition-all duration-300 active:scale-95 opacity-100 md:opacity-0 md:group-hover/carousel:opacity-100 translate-x-0 md:-translate-x-4 md:group-hover/carousel:translate-x-0"
           aria-label="Next slide"
         >
           <ChevronRight size={24} />
@@ -182,15 +182,15 @@ export default function ValuesSection() {
                 style={{ width: `${100 / cardsToShow}%` }}
               >
                 <div
-                  className="group relative h-[380px] bg-white overflow-hidden cursor-pointer transition-all duration-300   hover:shadow-xl border border-gray-100/50"
+                  className="group relative h-[420px] sm:h-[380px] bg-white overflow-hidden cursor-pointer transition-all duration-300   hover:shadow-xl border border-gray-100/50"
                 >
                   {/* Hover Overlay (Navy Slide) */}
                   <div className="absolute inset-0 bg-[#00394E] translate-y-full group-hover:translate-y-0 transition-transform duration-700 ease-in-out z-10"></div>
 
                   {/* Content Container */}
-                  <div className="absolute inset-0 p-8 pt-12 flex flex-col items-center justify-start z-20 transition-all duration-500 group-hover:items-center">
+                  <div className="absolute inset-0 p-6 pt-10 sm:p-8 sm:pt-12 flex flex-col items-center justify-start z-20 transition-all duration-500 group-hover:items-center">
                     {/* Icon */}
-                    <div className="mb-6 text-[#DAA434] bg-orange-50 p-2 rounded-xl group-hover:bg-white/10 group-hover:text-white transition-colors duration-500">
+                    <div className="mb-4 sm:mb-6 text-[#DAA434] bg-orange-50 p-2 rounded-xl group-hover:bg-white/10 group-hover:text-white transition-colors duration-500">
                       <Image
                         src={value.icon}
                         alt={value.title}
@@ -201,7 +201,7 @@ export default function ValuesSection() {
                     </div>
 
                     {/* Title */}
-                    <h3 className="text-2xl text-center font-bold text-[#00394E] mb-3 font-serif group-hover:text-white transition-colors duration-500 delay-75">
+                    <h3 className="text-xl sm:text-2xl text-center font-bold text-[#00394E] mb-3 font-serif group-hover:text-white transition-colors duration-500 delay-75">
                       {value.title}
                     </h3>
 
