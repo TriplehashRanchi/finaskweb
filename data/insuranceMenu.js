@@ -38,6 +38,7 @@ export const personalInsuranceSections = [
         label: "Commercial Vehicle Insurance",
         slug: "commercial-vehicle-insurance",
       },
+      { label: "RoadSide Assistance", slug: "roadside-assistance" },
       { label: "Motor Insurance", slug: "motor-insurance" },
       { label: "Taxi Insurance", slug: "taxi-insurance" },
      
