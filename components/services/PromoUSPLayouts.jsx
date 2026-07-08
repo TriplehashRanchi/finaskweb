@@ -453,7 +453,7 @@ export function ScrollPopupModal({ promoTitle, promoText, promoBadges }) {
         </div>
 
         {/* Body */}
-        <div className="p-8">
+        <div className="py-2 px-8">
           <div className="flex items-center justify-between  gap-3 mb-6">
             <div className="rounded-lg bg-[#C8F0B0] px-4 py-3 text-center text-sm  font-semibold text-[#245633] ">
               <p className="text-lg capitalize font-semibold text-[#00394E]">

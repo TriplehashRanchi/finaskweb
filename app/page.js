@@ -14,7 +14,7 @@ export default function Home() {
     <>
       <HeroCarousel />
       <AboutSection />
-      <VideoSection />
+      {/* <VideoSection /> */}
       <GoalSection />
       <EmpowerSection />
      

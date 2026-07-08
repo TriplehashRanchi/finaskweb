@@ -3,10 +3,54 @@
 import Footer from "@/components/Footer";
 import Image from "next/image";
 import Link from "next/link";
+import { useState } from "react";
 
 export default function ContactPage() {
+  const [isScheduleOpen, setIsScheduleOpen] = useState(false);
+
   return (
     <main className="min-h-screen bg-[#FDF9FB] text-[#00394E] font-sans selection:bg-[#DAA434] selection:text-white">
+      {isScheduleOpen && (
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 px-4"
+          onClick={() => setIsScheduleOpen(false)}
+        >
+          <div
+            className="relative w-full max-w-2xl bg-white rounded-lg shadow-2xl overflow-hidden"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <button
+              type="button"
+              onClick={() => setIsScheduleOpen(false)}
+              aria-label="Close"
+              className="absolute top-3 right-3 z-10 w-9 h-9 rounded-full bg-[#00394E] text-white flex items-center justify-center hover:bg-[#DAA434] transition-colors"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <line x1="18" y1="6" x2="6" y2="18" />
+                <line x1="6" y1="6" x2="18" y2="18" />
+              </svg>
+            </button>
+            <iframe
+              src="https://forms.hashboard.in/f/O5MBFtVehB"
+              width="100%"
+              height="600"
+              frameBorder="0"
+              style={{ border: "none" }}
+              title="Schedule a call"
+            />
+          </div>
+        </div>
+      )}
       {/* ----------------------------- */}
       {/*        HERO SECTION           */}
       {/* ----------------------------- */}
@@ -26,8 +70,8 @@ export default function ContactPage() {
           <h1 className="font-serif text-5xl md:text-6xl font-bold text-white my-6 drop-shadow-lg">
             Get in Touch
           </h1>
-          <p className="text-gray-200 capitalize text-lg md:text-xl font-light leading-[1.2] max-w-2xl mx-auto">
-            Because a 10-minute conversation can create 10 years of clarity
+          <p className="text-gray-200  text-lg md:text-xl font-light leading-[1.2] max-w-2xl mx-auto">
+            Because a 10-Minute Conversation Can Create 10 Years of Clarity
           </p>
         </div>
       </section>
@@ -48,8 +92,9 @@ export default function ContactPage() {
             {/* Options Container - Clean White with Dividers */}
             <div className="w-full md:w-2/3 grid grid-cols-1 md:grid-cols-3 divide-y md:divide-y-0 md:divide-x divide-slate-100">
               {/* Option 1: Call */}
-              <a
-                href="tel:+918076351485"
+              <button
+                type="button"
+                onClick={() => setIsScheduleOpen(true)}
                 className="group p-10 flex flex-col items-center justify-center text-center hover:bg-[#FDF9FB] transition-all duration-300 cursor-pointer relative overflow-hidden"
               >
                 <div className="w-14 h-14 rounded-full bg-[#DAA434]/10 text-[#DAA434] flex items-center justify-center mb-6 group-hover:bg-[#DAA434] group-hover:text-white transition-all duration-300">
@@ -73,7 +118,7 @@ export default function ContactPage() {
                 <p className="text-md text-slate-500 font-normal uppercase tracking-wide">
                   Advisor Support
                 </p>
-              </a>
+              </button>
 
               {/* Option 2: Chat */}
               <a
@@ -208,7 +253,7 @@ export default function ContactPage() {
                   </h4>
                   <a
                     href="tel:+918076351485"
-                    className="text-gray-300 hover:text-white transition-colors block text-md"
+                    className="text-gray-300 hover:text-white transition-colors block text-[17px]"
                   >
                     +91 80763 51485
                   </a>
@@ -237,7 +282,7 @@ export default function ContactPage() {
                   </h4>
                   <a
                     href="tel:+911140007000"
-                    className="text-gray-300 hover:text-white transition-colors block text-md"
+                    className="text-gray-300 hover:text-white transition-colors block text-[17px]"
                   >
                     wecare@finaskvalue.com
                   </a>
@@ -301,7 +346,7 @@ export default function ContactPage() {
                   </h4>
                   <a
                     href="tel:+911140007000"
-                    className="text-gray-300 hover:text-white transition-colors block text-md"
+                    className="text-gray-300 hover:text-white transition-colors block text-[17px]"
                   >
                     +91 80763 51485
                   </a>
@@ -329,7 +374,7 @@ export default function ContactPage() {
                   </h4>
                   <a
                     href="tel:+911140007000"
-                    className="text-gray-300 hover:text-white transition-colors block text-md"
+                    className="text-gray-300 hover:text-white transition-colors block text-[17px]"
                   >
                     wecare@finaskvalue.com
                   </a>

@@ -209,7 +209,7 @@ export default function TestimonialSection() {
             </h2>
             <div className="w-40 h-1 bg-[#DAA434] mb-6 mx-auto lg:mx-0" />
 
-            <p className="text-gray-400 max-w-md mx-auto lg:mx-0 leading-[1.4] mb-0 text-sm sm:text-md">
+            <p className="text-gray-400 max-w-md mx-auto lg:mx-0 leading-[1.4] mb-0 text-sm sm:text-lg">
               Discover how FinAsk Value has empowered individuals and businesses to
               achieve their financial dreams.
             </p>

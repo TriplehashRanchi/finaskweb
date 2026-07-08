@@ -77,7 +77,7 @@ export function AwardsHeroStage() {
   }, []);
 
   return (
-    <section id="awards" className="bg-[#00394E] px-6 pb-16 pt-32 md:px-12">
+    <section id="awards" className="bg-[#00394E] px-6 pb-16 pt-16 md:px-12">
       <div className="mx-auto grid max-w-7xl items-center gap-10 lg:grid-cols-[0.9fr_1.1fr]">
         <div>
           <h1 className="font-serif text-5xl font-medium leading-tight text-white md:text-7 xl">

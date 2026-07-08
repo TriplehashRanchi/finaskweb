@@ -10,7 +10,7 @@ const features = [
 
     id: "family-office",
     title: "Family Office",
-    image: "/family.png", 
+    image: "/family.jpeg", 
     description: "Helping families protect harmony, purpose and prosperity across generations.",
      link: "/services/family-office"
   },

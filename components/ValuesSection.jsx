@@ -144,7 +144,7 @@ export default function ValuesSection() {
           Our Core <span className="text-[#DAA434]">Values</span>
         </h2>
         <p className="mt-4 text-gray-600 max-w-2xl mx-auto text-base sm:text-lg">
-          Values that shape our decisions and define our character.
+          Values that shape our decisions and define our character
         </p>
       </div>
 

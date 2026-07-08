@@ -27,7 +27,7 @@ export default function PurposeSection() {
                 </h2>
 
                 <p className=" text-lg text-gray-400 leading-relaxed  text-justify">
-                  True wealth is measured by the good it does. Our success is intrinsically linked to the Well-Being of the communities we serve.
+                  True wealth is measured by the good it does. Our success is intrinsically linked to the well-being of the communities we serve.
                 </p>
               </div>
 

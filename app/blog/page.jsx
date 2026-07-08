@@ -104,12 +104,11 @@ export default async function BlogPage({ searchParams }) {
           />
           <div className="absolute inset-0 bg-gradient-to-t from-[#00394E]/95 via-[#00394E]/45 to-[#00394E]/45" />
           <div className="relative z-20 text-center px-4 max-w-4xl mx-auto">
-            <h1 className="font-serif text-5xl font-bold text-white my-6 drop-shadow-lg">
-              Financial clarity, written for real decisions.
+            <h1 className="font-serif text-4xl font-bold text-white my-6 drop-shadow-lg">
+              Beyond the Headlines. Beyond the Markets.
             </h1>
-            <p className="text-gray-200 text-lg font-light leading-[1.2] max-w-2xl mx-auto">
-              Practical perspectives from Finask on wealth, protection, tax,
-              succession, and long-term planning.
+            <p className="text-gray-200 capitalize text-lg font-light leading-[1.2] max-w-2xl mx-auto">
+              Insights that connect today's decisions with tomorrow's possibilities.
             </p>
           </div>
         </section>

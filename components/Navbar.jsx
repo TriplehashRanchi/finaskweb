@@ -269,6 +269,7 @@ export default function Navbar() {
     { name: "Financial Literacy Workshops", slug: "financial-literacy" },
     {name: "Health Assistance", slug: "health-assistance"},
     { name: "Legal Advisory", slug: "legal-advisory" },
+     { name: "Roadside Assistance", slug: "roadside-assistance" },
     { name: "Tax Advisory", slug: "tax-advisory" },
     { name: "Trust Formation", slug: "trust-formation" },
     { name: "Will Writing", slug: "will-writing" },
@@ -314,7 +315,7 @@ export default function Navbar() {
               <span
                 className={`${navLinkClass} flex items-center gap-1.5 py-5 cursor-pointer`}
               >
-                Investment <Chevron />
+                Investments <Chevron />
               </span>
               <InvestmentMegaMenu />
             </div>

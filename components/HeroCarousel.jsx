@@ -9,9 +9,9 @@ const slides = [
   {
     id: 1,
     image: "/1.webp", // Happy Family / Legacy
-    title: "Where Wealth Meets Purpose and Legacies Find Direction",
+    title: "Where Wealth Meets Purpose and Legacies Find Direction.",
     subtitle:
-      "Beyond returns, we craft clarity for families, entrepreneurs and visionaries who see wealth not just as numbers, but as a narrative.",
+      "Beyond returns, we transform financial complexity into clarity, helping families, entrepreneurs and visionaries build, protect and pass on wealth with purpose.",
     highlight: "Direction",
     theme: "light",
   },
@@ -20,7 +20,7 @@ const slides = [
     image: "/2.webp", // Clarity/Confidence/Advisor
     title: "Clarity Today. Confidence Tomorrow. Continuity Forever.",
     subtitle:
-      "From investments and insurance to succession and stewardship, we don’t just manage your wealth we help it grow with integrity, empathy and foresight.",
+      "From Investments and Insurance to Tax, Estate and Succession Planning, we deliver integrated finacncial strategies designed to support every stage of your financial journey.",
     highlight: "Forever.",
     theme: "light",
   },
@@ -29,7 +29,7 @@ const slides = [
     image: "/3.webp", // Generations/Business Succession
     title: "Protecting Dreams. Preserving Legacies. Powering Generations.",
     subtitle:
-      "For every milestone child’s education, retirement, business succession or global investing FinAsk Value is where aspirations meet trusted financial architecture.",
+      "Every financial milestone builds your legacy. We help you navigate change, seize opportunities and protect what matters most with a long-term perspective.",
     highlight: "Generations.",
     theme: "light",
   },
@@ -87,7 +87,7 @@ export default function HeroCarousel() {
       </div>
 
       {/* MAIN CONTENT (Bottom Right Alignment on Desktop, Vertically Centered on Right on Mobile) */}
-      <div className="absolute inset-0 z-20 flex items-center md:items-end justify-end   md:pb-20 px-6 md:px-16 pointer-events-none">
+      <div className="absolute inset-0 z-20 flex items-center md:items-end justify-end  md:pb-20 px-4 md:px-16 pointer-events-none">
         <div className="max-w-3xl text-right pointer-events-auto">
           {/* Dynamic Headline from Slides */}
           <h1 className="font-serif text-[23px] sm:text-3xl md:text-5xl font-normal text-white mb-6 leading-[1.2] md:leading-[1.1] tracking-tight drop-shadow-lg">
@@ -98,7 +98,7 @@ export default function HeroCarousel() {
           <div className=" w-48 md:w-full h-[1.5px] bg-[#DAA434] mb-6 ml-auto"></div>
 
           {/* Subheadline */}
-          <p className="text-white/90 text-sm sm:text-lg md:text-xl font-light mb-8 md:mb-10 leading-relaxed max-w-3xl ml-auto drop-shadow-md">
+          <p className="text-white/90 text-sm sm:text-lg md:text-[1.15rem] font-light mb-8 md:mb-10 leading-relaxed max-w-3xl ml-auto drop-shadow-md">
             {slides[current].subtitle}
           </p>
 

@@ -38,7 +38,6 @@ export const personalInsuranceSections = [
         label: "Commercial Vehicle Insurance",
         slug: "commercial-vehicle-insurance",
       },
-      { label: "RoadSide Assistance", slug: "roadside-assistance" },
       { label: "Motor Insurance", slug: "motor-insurance" },
       { label: "Taxi Insurance", slug: "taxi-insurance" },
      
@@ -119,7 +118,7 @@ export const businessInsuranceSections = [
   {
     title: "Other Business Insurance",
     items: [
-      { label: "Errors and Omissions", slug: "errors-and-omissions" },
+      { label: "Errors and Omissions Insurance", slug: "errors-and-omissions" },
       { label: "Fleet Insurance", slug: "fleet-insurance" },
       { label: "Surety Bond Insurance", slug: "surety-bond-insurance" },
       { label: "Trade Credit Insurance", slug: "trade-credit-insurance" },

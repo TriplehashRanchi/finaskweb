@@ -9,7 +9,7 @@ export const servicesData = [
     title: "Health Insurance",
     tagline: "So Your Well-Being Remains Untouched by Financial Anxiety",
     description:
-      "Good health underpins every other joy, from milestones celebrated to simple everyday contentment. Yet the rising intricacies and costs of medical care can quickly erode even the most robust fortunes if left unguarded. \n At FinAsk Value, we help you find discreet, sophisticated health coverage that stands silently by your side. Whether for your aging parents, a globe-trotting lifestyle or simply to insulate your wealth against life’s medical surprises, we curate solutions that protect both your family’s well-Being and your long-term aspirations.",
+      "Good health underpins every other joy, from milestones celebrated to simple everyday contentment. Yet the rising intricacies and costs of medical care can quickly erode even the most robust fortunes if left unguarded. \n At FinAsk Value, we help you find discreet, sophisticated health coverage that stands silently by your side. Whether for your aging parents, a globe-trotting lifestyle or simply to insulate your wealth against life’s medical surprises, we curate solutions that protect both your family’s well-being and your long-term aspirations.",
     features: [
       {
         title: "Comprehensive Coverage",
@@ -550,7 +550,7 @@ export const servicesData = [
         question:
           "What is the difference between Third-Party Motor and Comprehensive Motor Insurance?",
         answer:
-          "Third-Party Motor Insurance covers damage or injury caused to others, while Comprehensive Motor Insurance covers third-party liabilities plus damage to your own vehicle due to accident, theft, fire, natural calamities, etc.",
+          "Third-Party Motor Insurance covers damage or injury caused to others, while Comprehensive Motor Insurance covers third-party liabilities plus damage to your own vehicle due to accident, theft, fire, natural calamities etc.",
       },
       {
         question: "What is No Claim Bonus (NCB) in Motor Insurance?",
@@ -568,8 +568,8 @@ export const servicesData = [
     faqSection: {
       promoTitle: "Customize your Vehicle IDV & Addons",
       promoText: " ",
-      promoBadges1: "Customize Your Vehicle IDV and Add-Ons",
-      promoBadges2: "Paperless Policy Issuance",
+      promoBadges2: "Customize Your Vehicle IDV and Add-Ons",
+      promoBadges1: "Paperless Policy Issuance",
       promoBadges3: "End-to-End Support",
     },
   },
@@ -618,7 +618,7 @@ export const servicesData = [
       {
         question: "Can senior citizens buy Travel Insurance?",
         answer:
-          "Yes, many insurers offer Travel Insurance plans for senior citizens, though medical screening may apply.",
+          "Yes, many insurers offer Travel Insurance Plans for senior citizens, though medical screening may apply.",
       },
       {
         question: "Does Travel Insurance cover pre-existing diseases?",
@@ -1120,7 +1120,7 @@ export const servicesData = [
       {
         question: "Why do companies offer Group Term Life Insurance?",
         answer:
-          "It helps organizations provide financial protection to employees’ families, enhance employee benefits, improve loyalty and retention and demonstrate a commitment to workforce Well-Being.",
+          "It helps organizations provide financial protection to employees’ families, enhance employee benefits, improve loyalty and retention and demonstrate a commitment to workforce well-being.",
       },
     ],
     bgImage: "/finask/group-term-life-insurance.webp",
@@ -1164,7 +1164,7 @@ export const servicesData = [
         title: "Employee Health Security",
         icon: "/insurance-icons/group-health-4.png",
         description:
-          "Comprehensive medical coverage that protects employees and strengthens workforce Well-Being.",
+          "Comprehensive medical coverage that protects employees and strengthens workforce well-being.",
       },
     ],
     faq: [
@@ -1187,7 +1187,7 @@ export const servicesData = [
         question:
           "Are medical tests typically required before enrolling in Group Health Insurance?",
         answer:
-          "Usually, medical tests are not required for employees enrolling under a Group Health Insurance policy, but this may vary based on the insurer and policy terms.",
+          "Usually, medical tests are not required for employees enrolling under a Group Health Insurance Policy, but this may vary based on the insurer and policy terms.",
       },
     ],
     bgImage: "/finask/group-health-insurance.webp",
@@ -1206,7 +1206,7 @@ export const servicesData = [
     title: "Health Assistance",
     tagline: "World-Class Healthcare, Just a Tap Away",
     description:
-      "Your family’s health should never take a back seat due to a busy schedule or lack of access to medical services. Health Assistance enables you and your loved ones to access quality healthcare services from the comfort of your home. With a comprehensive range of digital healthcare solutions, you can consult doctors, schedule diagnostic tests, order medicines and manage your health easily through a single platform. Stay proactive about your Well-Being and ensure your family always has access to reliable, convenient and affordable healthcare services. \n Modern lifestyles often make it difficult to prioritize health. Health Assistance helps bridge that gap with quick and convenient access to healthcare professionals and services.",
+      "Your family’s health should never take a back seat due to a busy schedule or lack of access to medical services. Health Assistance enables you and your loved ones to access quality healthcare services from the comfort of your home. With a comprehensive range of digital healthcare solutions, you can consult doctors, schedule diagnostic tests, order medicines and manage your health easily through a single platform. Stay proactive about your well-being and ensure your family always has access to reliable, convenient and affordable healthcare services. \n Modern lifestyles often make it difficult to prioritize health. Health Assistance helps bridge that gap with quick and convenient access to healthcare professionals and services.",
     features: [
       {
         title: "Doctor Teleconsultation",
@@ -1269,7 +1269,7 @@ export const servicesData = [
     uspLayout: "floating-pills",
     category: "Motor Assistance",
     title: "Roadside Assistance",
-    tagline: "24x7 Support When the Unexpected Happens on the Road",
+    tagline: "On the Road, You Are Never Alone",
     description:
       "Unexpected situations can occur anytime while you are on the road. Even with regular servicing and careful driving, disruptions can still interrupt your journey. \n Roadside Assistance (RSA) ensures that help is always available when you need it most. From minor fixes to emergency towing, it covers a wide range of situations. Whether you are stranded due to a mechanical issue, a flat tyre or misplaced car keys, it provides quick support and emergency services wherever you are, at any time. \n With 24x7 availability, you can drive with confidence knowing that professional help is just a call away. This service is designed to handle vehicle emergencies efficiently, minimizing inconvenience and getting you back on the road quickly. ",
     features: [
@@ -1306,13 +1306,13 @@ export const servicesData = [
       },
       {
         question:
-          "Is Roadside Assistance included in motor insurance policies?",
+          "Is Roadside Assistance included in Motor Insurance Policies?",
         answer:
           "Roadside Assistance is sometimes included as an add-on or bundled benefit with Comprehensive Motor Insurance, but it can also be purchased separately.",
       },
       {
         question:
-          "What is the typical response time for Roadside Assistance services?",
+          "What is the typical response time for Roadside Assistance Services?",
         answer:
           "Response time varies by location, but assistance is usually dispatched within 30–60 minutes in urban areas, depending on traffic and availability.",
       },
@@ -1324,12 +1324,7 @@ export const servicesData = [
     ],
     bgImage: "/finask/roadside-assistance.jpg",
     backgroundPosition: "center",
-    faqSection: {
-      promoTitle: "Invest \u20B910k/month & Get",
-      promoText: "\u20B91 Crore*Tax-Free",
-      promoBadges1: "Plans starting from \u20B91000/month",
-      promoBadges2: "In-built life cover",
-    },
+   
   },
   {
     slug: "cycle-insurance",
@@ -1373,7 +1368,7 @@ export const servicesData = [
       {
         question: "What types of cycles can be insured?",
         answer:
-          "It typically covers standard bicycles, high-end, electric cycles (e-bikes) and sports cycles.",
+          "It typically covers standard bicycles, high-end cycles, electric cycles (e-bikes) and sports cycles.",
       },
       {
         question: "What is zero depreciation cover in Cycle Insurance?",
@@ -1386,8 +1381,8 @@ export const servicesData = [
           "Some plans offer optional third-party liability cover for accidental injury or property damage caused while riding the cycle.",
       },
     ],
-    bgImage: "/finask/cycle-protection.webp",
-    backgroundPosition: "center",
+    bgImage: "/finask/cycle.jpeg",
+    backgroundPosition: "bottom",
     faqSection: {
       promoTitle: "Quick Digital Issuance",
       promoText: "Expert Guidance ",
@@ -1468,7 +1463,7 @@ export const servicesData = [
     title: "Workmen Compensation Insurance",
     tagline: "Designed To Protect Every Working Hand",
     description:
-      "Workmen Compensation Insurance is a statutory policy that protects employers against financial liabilities arising from work-related injuries, disabilities or death of employees, ensuring rightful compensation to workers or their dependents. It covers medical expenses, loss of income, disability benefits and compensation in case of unfortunate incidents during employment, while ensuring compliance with the Employees’ Compensation Act. \n This policy not only safeguards businesses from legal and financial risks but also reflects a strong commitment towards employee Well-Being and workplace safety.",
+      "Workmen Compensation Insurance is a statutory policy that protects employers against financial liabilities arising from work-related injuries, disabilities or death of employees, ensuring rightful compensation to workers or their dependents. It covers medical expenses, loss of income, disability benefits and compensation in case of unfortunate incidents during employment, while ensuring compliance with the Employees’ Compensation Act. \n This policy not only safeguards businesses from legal and financial risks but also reflects a strong commitment towards employee well-being and workplace safety.",
     features: [
       {
         title: "Employee Protection",
@@ -1520,8 +1515,8 @@ export const servicesData = [
     bgImage: "/finask/workmen-compensation-insurance.png",
     backgroundPosition: "center",
     faqSection: {
-      promoTitle: "Plans Available From Top Insurers",
-      promoText: "Get Instant Quote",
+      promoText: "Plans Available From Top Insurers",
+      promoTitle: "Get Instant Quote",
       promoBadges1: " ",
       promoBadges2: " ",
     },
@@ -1714,8 +1709,8 @@ export const servicesData = [
         "Personalized Cyber Insurance Solutions for Individuals & Families",
       promoText: "IRDA Certified Advisors",
       promoBadges1: "Pocket-Friendly plans",
-      promoBadges2: "Certified Insurance advisors",
-      promoBadges3: "Personalized Policy Recommendations",
+      promoBadges3: "Certified Insurance advisors",
+      promoBadges2: "Personalized Policy Recommendations",
     },
   },
   {
@@ -1778,8 +1773,8 @@ export const servicesData = [
     bgImage: "/finask/corporate-cyber-insurance.png",
     backgroundPosition: "center",
     faqSection: {
-      promoTitle: "Afforadable Plans",
-      promoText: "Customized Coverage As Per Requirement",
+      promoText: "Afforadable Plans",
+      promoTitle: "Customized Coverage As Per Requirement",
       promoBadges1: " ",
       promoBadges2: " ",
     },
@@ -1819,12 +1814,12 @@ export const servicesData = [
       {
         question: "Is Private Car Insurance valid for taxi use?",
         answer:
-          "No, Private Car Insurance is not valid for taxi or commercial use. Vehicles used for passenger transportation must have a Commercial Taxi Insurance policy.",
+          "No, Private Car Insurance is not valid for taxi or commercial use. Vehicles used for passenger transportation must have a Commercial Taxi Insurance.",
       },
       {
         question: "Does this policy cover passengers?",
         answer:
-          "Yes, Personal Accident cover for passengers can be included as an add-on.",
+          "Yes, Personal Accident Cover for passengers can be included as an add-on.",
       },
       {
         question: "How is the premium calculated?",
@@ -1834,7 +1829,7 @@ export const servicesData = [
       {
         question: "Can I insure multiple taxis under one policy?",
         answer:
-          "Yes, fleet owners can opt for Fleet Insurance policies covering multiple vehicles under a single plan.",
+          "Yes, fleet owners can opt for Fleet Insurance to cover multiple vehicles under a single plan.",
       },
     ],
     bgImage: "/finask/taxi.png",
@@ -2228,7 +2223,7 @@ export const servicesData = [
     slug: "contractor-plant-machinery",
     uspLayout: "floating-pills",
     category: "Insurance",
-    title: "Contractor’s Plant & Machinery",
+    title: "Contractor’s Plant & Machinery Insurance",
     tagline: "Engineered Protection For Critical Assets",
     description:
       "Contractor’s Plant & Machinery (CPM) provides coverage for construction equipment and machinery against sudden and unforeseen damages while at work or at rest. It protects assets such as excavators, cranes, loaders and other heavy equipment from risks like accidents, fire, theft, natural disasters and operational mishaps. This policy ensures that contractors and project owners are financially safeguarded against repair or replacement costs, minimizing downtime and helping projects continue without disruption.",
@@ -2284,8 +2279,8 @@ export const servicesData = [
     faqSection: {
       promoTitle: "Invest \u20B910k/month & Get",
       promoText: "",
-      promoBadges1: "Wallet-Friendly Plans",
-      promoBadges2: "Dedicated Relationship Manager",
+      promoBadges2: "Wallet-Friendly Plans",
+      promoBadges1: "Dedicated Relationship Manager",
       promoBadges3: "Personalized Instant Quotes",
     },
   },
@@ -2410,8 +2405,8 @@ export const servicesData = [
     bgImage: "/finask/errors-and-omissions-insurance.png",
     backgroundPosition: "bottom center",
     faqSection: {
-      promoTitle: "Certified Advisors",
-      promoText: "Wallet-Friendly Plans",
+      promoText: "Certified Advisors",
+      promoTitle: "Wallet-Friendly Plans",
       promoBadges1: " ",
       promoBadges2: " ",
     },
@@ -2525,7 +2520,7 @@ export const servicesData = [
       {
         question: "Can I add or remove vehicles from the policy?",
         answer:
-          "Yes, Fleet Insurance policies offer flexibility to add or remove vehicles during the policy tenure.",
+          "Yes, Fleet Insurance Policies offer flexibility to add or remove vehicles during the policy tenure.",
       },
       {
         question:
@@ -3156,7 +3151,7 @@ export const servicesData = [
       {
         question: "What is the minimum investment required in AIF?",
         answer:
-          "As per regulatory guidelines, the minimum investment amount in an AIF is generally ₹1 crore per investor (subject to specific category exceptions).",
+          "As per regulatory guidelines, the minimum investment amount in an AIF is generally ₹1 Crore per investor (subject to specific category exceptions).",
       },
       {
         question: "What are the different categories of AIFs?",
@@ -4001,7 +3996,7 @@ export const servicesData = [
     uspLayout: "bottom-sticky-banner",
     category: "Goal Planning",
     title: "Trust Formation",
-    tagline: "Safeguard Today, Shape Tomorrow",
+    tagline: "Safeguard Today. Shape Tomorrow",
     description:
       "True wealth extends beyond mere accumulation; it is measured by how thoughtfully it is preserved and how purposefully it is passed on. For families, business owners and philanthropists alike, establishing a Trust remains one of the most nuanced tools to secure a legacy, ensuring your assets are protected, your intentions honoured and your loved ones provided for without complication or conflict.\nA Trust legally transfers assets from you, the settlor, to chosen trustees, who hold and manage these for beneficiaries under carefully designed terms. From Private Family Trusts that prioritize multi-generational wealth transfer, to irrevocable structures that shield assets from potential liabilities, to discretionary models that offer flexibility in distributions, each Trust serves as a bespoke safeguard for what matters most.\n At FinAsk Value, we coordinate the entire journey, advising on Trust structures, engaging premier legal partners, ensuring regulatory compliance and guiding you through post-formation nuances such as audits and trustee management. Because for legacies to last, they must be built on clarity, control and confidence.",
     features: [
@@ -4320,7 +4315,7 @@ export const servicesData = [
     title: "Financial Literacy Workshops",
     tagline: "Empowering Clarity, Inspiring Confidence",
     description:
-      "At FinAsk Value, we believe that the most valuable asset any individual can own is clarity. In a world full of noise and financial quick fixes, informed decision-making is not just smart, it’s empowering.\nOur Financial Literacy Workshops and SEBI-Compliant Investor Awareness Programs (IAPs) are designed to democratize that empowerment. Whether you are   a salaried professional, homemaker, entrepreneur, student or retiree, we meet you where you are and help you move forward with confidence.\nEach program is thoughtfully curated to simplify complex concepts: from budgeting and SIPs to tax planning, insurance design and wealth transfer. We address real-life questions, bust financial myths and help participants build a framework they can actually apply today, tomorrow and 20 years from now.\nDelivered virtually or on-site, our sessions use relatable stories, practical illustrations and interactive Q&A formats led by certified experts. And most importantly, every IAP is 100% educational, zero product pitching, full commitment to SEBI’s mission of protecting and uplifting investors.\nBecause when financial literacy improves, everything else follows: financial dignity, family well-Being and the confidence to build a better life. With us, that’s the kind of wealth we aim to co-create.",
+      "At FinAsk Value, we believe that the most valuable asset any individual can own is clarity. In a world full of noise and financial quick fixes, informed decision-making is not just smart, it’s empowering.\nOur Financial Literacy Workshops and SEBI-Compliant Investor Awareness Programs (IAPs) are designed to democratize that empowerment. Whether you are   a salaried professional, homemaker, entrepreneur, student or retiree, we meet you where you are and help you move forward with confidence.\nEach program is thoughtfully curated to simplify complex concepts: from budgeting and SIPs to tax planning, insurance design and wealth transfer. We address real-life questions, bust financial myths and help participants build a framework they can actually apply today, tomorrow and 20 years from now.\nDelivered virtually or on-site, our sessions use relatable stories, practical illustrations and interactive Q&A formats led by certified experts. And most importantly, every IAP is 100% educational, zero product pitching, full commitment to SEBI’s mission of protecting and uplifting investors.\nBecause when financial literacy improves, everything else follows: financial dignity, family well-being and the confidence to build a better life. With us, that’s the kind of wealth we aim to co-create.",
     features: [
       {
         title: "Confidence to Grow",

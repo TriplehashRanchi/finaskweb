@@ -30,7 +30,7 @@ export default function CareersPage() {
             Join Our Team
           </h1>
           <p className="text-gray-200 text-lg  font-light leading-[1.2] max-w-lg mx-auto">
-            Be a Part Of a Team That Turns Financial Aspirations Into Lasting Achievements
+            Be a Part of a Team That Turns Financial Aspirations Into Lasting Achievements
           </p>
         </div>
       </section>
@@ -51,7 +51,7 @@ export default function CareersPage() {
           </h2>
 
           <p className="text-lg  text-slate-600 leading-[1.4] font-light   max-w-3xl mx-auto">
-           We are building a team that redefines financial Well-Being in India and beyond. If you believe in responsibility over revenue and empathy alongside expertise, we would love to hear from you.
+           We are building a team that redefines financial well-being in India and beyond. If you believe in responsibility over revenue and empathy alongside expertise, we would love to hear from you.
           </p>
         </div>
       </section>
@@ -67,7 +67,7 @@ export default function CareersPage() {
                     Ready To Take Your Next Step?
                 </h2>
                 <p className="text-slate-600 text-md leading-[1.2] mb-6 max-w-xl font-light">
-                   We believe exceptional people create exceptional impact. If you are ready to help redefine financial Well-Being, we look forward to connecting with you.
+                   We believe exceptional people create exceptional impact. If you are ready to help redefine financial well-being, we look forward to connecting with you.
                 </p>
                 <a
                     href="mailto:careers@finask.com"

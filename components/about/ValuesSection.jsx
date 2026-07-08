@@ -63,7 +63,7 @@ export default function ValuesSection() {
             Our Core Principles
           </h2>
           <p className="text-gray-500 max-w-2xl mx-auto text-lg leading-relaxed">
-            Values that shape our decisions and define our character. 
+            Values that shape our decisions and define our character
           </p>
         </div>
 

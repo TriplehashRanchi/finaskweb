@@ -136,7 +136,7 @@ export default function Footer() {
             </div>
             <ul className="space-y-4 text-md text-gray-400">
               {[
-                { label: "Investment", href: "/investments" },
+                { label: "Investments", href: "/investments" },
                  { label: "Services", href: "/services" },
                   { label: "Insurance", href: "/insurances" },
                 { label: "Family Office", href: "/services/family-office" },    

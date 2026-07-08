@@ -25,8 +25,8 @@ export default function CTASection() {
             Your Legacy.  <span className="text-[#DAA434]  ">Our Strategy.</span> 
            
           </h2>
-          <p className="text-gray-400 text-base sm:text-lg leading-[1.6] capitalize max-w-lg mx-auto md:mx-0">
-             Let's build a financial future that aligns with your values. Expert guidance, every step of the way.
+          <p className="text-gray-400 text-base sm:text-lg leading-[1.6]  max-w-lg mx-auto md:mx-0">
+             Let's Build a Financial Future That Aligns With Your Values. Expert Guidance, Every Step of the Way.
           </p>
         </div>
 

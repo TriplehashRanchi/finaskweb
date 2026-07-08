@@ -38,7 +38,7 @@ export default function ServicesSection() {
 
         <div className="relative z-20 text-center px-4 max-w-4xl mx-auto ">
           <h1 className="font-serif text-5xl font-bold text-white my-6 drop-shadow-lg">
-            Investment
+            Investments
           </h1>
           <p className="text-gray-200 text-lg font-light leading-[1.2] max-w-md mx-auto">
             Your Gateway To Every Wealth-Building Opportunity

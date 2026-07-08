@@ -37,7 +37,7 @@ const page = () => {
               </div>
               <div className="grow">
                 <div className="flex items-center gap-3 mb-2">
-                  <span className="px-3 py-1 bg-[#FDF9FB] border border-[#00394E]/10 text-[#00394E] text-[14px] font-bold uppercase tracking-wider rounded-full">
+                  <span className="px-3 py-1 bg-[#DAA434] border border-[#00394E]/10 text-[#f5f5f5] text-[14px] font-bold uppercase tracking-wider rounded-full">
                     Level 1
                   </span>
                   <h3 className="font-serif text-2xl text-[#00394E]">
@@ -106,7 +106,7 @@ const page = () => {
               </div>
               <div className="grow">
                 <div className="flex items-center gap-3 mb-2">
-                  <span className="px-3 py-1 bg-[#FDF9FB] border border-[#00394E]/10 text-[#00394E] text-[14px] font-bold uppercase tracking-wider rounded-full">
+                  <span className="px-3 py-1 bg-[#DAA434] border border-[#00394E]/10 text-[#f5f5f5] text-[14px] font-bold uppercase tracking-wider rounded-full">
                     Level 2
                   </span>
                   <h3 className="font-serif text-2xl text-[#00394E]">
@@ -149,13 +149,13 @@ const page = () => {
             {/* Level 3 */}
             <div className="flex flex-col md:flex-row gap-8 md:gap-16 py-12 group hover:bg-white/50 transition-colors rounded-xl md:px-8">
               <div className="shrink-0">
-                <span className="text-6xl md:text-7xl font-serif text-[#00394E]/20 group-hover:text-[#00394E] transition-colors font-bold">
+                <span className="text-6xl md:text-7xl font-serif text-[#DAA434]/20 group-hover:text-[#DAA434] transition-colors font-bold">
                   03
                 </span>
               </div>
               <div className="grow">
                 <div className="flex items-center gap-3 mb-2">
-                  <span className="px-3 py-1 bg-[#00394E] text-white text-[14px] font-bold uppercase tracking-wider rounded-full">
+                  <span className="px-3 py-1 bg-[#DAA434] text-white text-[14px] font-bold uppercase tracking-wider rounded-full">
                     Level 3
                   </span>
                   <h3 className="font-serif text-2xl text-[#00394E]">

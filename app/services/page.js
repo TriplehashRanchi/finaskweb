@@ -12,6 +12,7 @@ const serviceItems = [
   { name: "Financial Literacy Workshops", slug: "financial-literacy" },
   { name: "Health Assistance", slug: "health-assistance" },
   { name: "Legal Advisory", slug: "legal-advisory" },
+  { name: "Roadside Assistance", slug: "roadside-assistance" },
   { name: "Tax Advisory", slug: "tax-advisory" },
   { name: "Trust Formation", slug: "trust-formation" },
   { name: "Will Writing", slug: "will-writing" },
