@@ -4,6 +4,7 @@ import Footer from "@/components/Footer";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
+import ScheduleCallModal from "@/components/ScheduleCallModal";
 
 export default function ContactPage() {
   const [isScheduleOpen, setIsScheduleOpen] = useState(false);
@@ -16,14 +17,14 @@ export default function ContactPage() {
           onClick={() => setIsScheduleOpen(false)}
         >
           <div
-            className="relative w-full max-w-2xl bg-white rounded-lg shadow-2xl overflow-hidden"
+            className="relative w-full max-w-xl max-h-[90vh] overflow-y-auto bg-white rounded-lg shadow-2xl"
             onClick={(e) => e.stopPropagation()}
           >
             <button
               type="button"
               onClick={() => setIsScheduleOpen(false)}
               aria-label="Close"
-              className="absolute top-3 right-3 z-10 w-9 h-9 rounded-full bg-[#00394E] text-white flex items-center justify-center hover:bg-[#DAA434] transition-colors"
+              className="absolute top-3 right-3 z-20 w-9 h-9 rounded-full bg-[#00394E] text-white flex items-center justify-center hover:bg-[#DAA434] transition-colors"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -40,14 +41,7 @@ export default function ContactPage() {
                 <line x1="6" y1="6" x2="18" y2="18" />
               </svg>
             </button>
-            <iframe
-              src="https://forms.hashboard.in/f/O5MBFtVehB"
-              width="100%"
-              height="600"
-              frameBorder="0"
-              style={{ border: "none" }}
-              title="Schedule a call"
-            />
+            <ScheduleCallModal onClose={() => setIsScheduleOpen(false)} />
           </div>
         </div>
       )}
