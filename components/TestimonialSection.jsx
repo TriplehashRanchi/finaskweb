@@ -55,13 +55,6 @@ export default function TestimonialSection() {
        image: "/testimonial3.png",
     },
     {
-      id: 4,
-      quote:
-        "Palash Malik, Founder and CEO of FinAsk Value, has been very active in providing solutions to any queries related to portfolio management, PMS services, insurance products and general financial advice. His personalized guidance with a long-term outlook is highly commendable. I recommend FinAsk Value as a service provider of choice for managing personal finances.",
-      author: "Atul Bhola",
-       image: "/testimonial4.png",
-    },
-    {
       id: 5,
       quote:
         "I have had a great customer experience with FinAsk Value. Whenever I called regarding any query or service, it was handled promptly and correctly. The founder maintains a great relationship with customers which inspires confidence. Their suggestions and recommendations have turned out to be excellent.",

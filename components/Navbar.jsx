@@ -8,6 +8,7 @@ import {
   personalInsuranceSections,
   businessInsuranceSections,
 } from "@/data/insuranceMenu";
+import { INSURANCE_LIVE, ROADSIDE_ASSISTANCE_LIVE } from "@/data/featureFlags";
 
 function Chevron() {
   return (
@@ -278,7 +279,7 @@ export default function Navbar() {
     { name: "Tax Advisory", slug: "tax-advisory" },
     { name: "Trust Formation", slug: "trust-formation" },
     { name: "Will Writing", slug: "will-writing" },
-  ];
+  ].filter((item) => ROADSIDE_ASSISTANCE_LIVE || item.slug !== "roadside-assistance");
 
   return (
     <>
@@ -344,14 +345,16 @@ export default function Navbar() {
               </div>
             </div>
 
-            <div className="group relative flex items-center h-full">
-              <span
-                className={`${navLinkClass} flex items-center gap-1.5 py-5 cursor-pointer`}
-              >
-                Insurance <Chevron />
-              </span>
-              <InsuranceMegaMenu />
-            </div>
+            {INSURANCE_LIVE && (
+              <div className="group relative flex items-center h-full">
+                <span
+                  className={`${navLinkClass} flex items-center gap-1.5 py-5 cursor-pointer`}
+                >
+                  Insurance <Chevron />
+                </span>
+                <InsuranceMegaMenu />
+              </div>
+            )}
 
             <Link href="/services/family-office" className={navLinkClass}>
               Family Office
@@ -551,6 +554,7 @@ export default function Navbar() {
           </div>
 
           {/* Insurance Accordion */}
+          {INSURANCE_LIVE && (
           <div className="border-b border-gray-100/80 pb-3">
             <button
               onClick={() => setIsInsuranceOpen(!isInsuranceOpen)}
@@ -627,6 +631,7 @@ export default function Navbar() {
               </div>
             )}
           </div>
+          )}
 
           <Link
             href="/services/family-office"

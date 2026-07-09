@@ -12,6 +12,7 @@ import {
   Phone,
   MapPin,
 } from "lucide-react";
+import { INSURANCE_LIVE } from "@/data/featureFlags";
 
 export default function Footer() {
   return (
@@ -138,8 +139,10 @@ export default function Footer() {
               {[
                 { label: "Investments", href: "/investments" },
                  { label: "Services", href: "/services" },
-                  { label: "Insurance", href: "/insurances" },
-                { label: "Family Office", href: "/services/family-office" },    
+                  ...(INSURANCE_LIVE
+                    ? [{ label: "Insurance", href: "/insurances" }]
+                    : []),
+                { label: "Family Office", href: "/services/family-office" },
                 { label: "NRI's Corner", href: "/services/nri-corner" },
                 { label: "Women's Corner", href: "/services/women-corner" },
               ].map((item) => (

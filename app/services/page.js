@@ -5,6 +5,7 @@ import { Briefcase, ArrowRight } from "lucide-react";
 import CTASection from "@/components/CTASection";
 import Footer from "@/components/Footer";
 import { servicesData } from "@/data/services";
+import { ROADSIDE_ASSISTANCE_LIVE } from "@/data/featureFlags";
 
 const serviceItems = [
   { name: "Credit Cards", slug: "credit-cards" },
@@ -16,7 +17,7 @@ const serviceItems = [
   { name: "Tax Advisory", slug: "tax-advisory" },
   { name: "Trust Formation", slug: "trust-formation" },
   { name: "Will Writing", slug: "will-writing" },
-];
+].filter((item) => ROADSIDE_ASSISTANCE_LIVE || item.slug !== "roadside-assistance");
 
 const services = serviceItems.map((item, index) => {
   const service = servicesData.find((entry) => entry.slug === item.slug);

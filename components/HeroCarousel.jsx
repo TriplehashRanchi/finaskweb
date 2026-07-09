@@ -20,7 +20,7 @@ const slides = [
     image: "/2.webp", // Clarity/Confidence/Advisor
     title: "Clarity Today. Confidence Tomorrow. Continuity Forever.",
     subtitle:
-      "From Investments and Insurance to Tax, Estate and Succession Planning, we deliver integrated financial strategies designed to support every stage of your financial journey.",
+      "From Investments to Tax, Estate and Succession Planning, we deliver integrated financial strategies designed to support every stage of your financial journey.",
     highlight: "Forever.",
     theme: "light",
   },
