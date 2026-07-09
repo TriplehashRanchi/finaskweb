@@ -164,7 +164,7 @@ export default function Footer() {
             <ul className="space-y-4 text-md text-gray-400">
               {[
                 { label: "Awards", href: "/about#awards" },
-                 { label: "Blogs", href: "/about" },
+                 { label: "Blogs", href: "/blog" },
                   { label: "Testimonials", href: "/#testimonials" },
               
               ].map((item) => (

@@ -96,7 +96,7 @@ export default async function BlogPage({ searchParams }) {
           <div
             className="absolute inset-0 z-0"
             style={{
-              backgroundImage: 'url("/servicespage.png")',
+              backgroundImage: 'url("/blogs.png")',
               backgroundSize: "cover",
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",

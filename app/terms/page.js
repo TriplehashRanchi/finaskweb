@@ -128,6 +128,8 @@ export default function TermsAndConditions() {
                 <p>Any dispute arising out of or in connection with these Terms & Conditions shall be subject to the exclusive jurisdiction of the competent courts in Delhi, India.</p>
             </section>
 
+            <p>--------</p>
+
             <p>
                 FinAsk Value reserves the right to amend, modify or update these Terms & Conditions at any time without prior notice. Continued use of this website following any changes constitutes your acceptance of the revised Terms & Conditions.
             </p>

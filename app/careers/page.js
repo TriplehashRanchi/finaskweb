@@ -39,7 +39,7 @@ export default function CareersPage() {
           </h1>
           <div className="w-16 h-1 bg-[#00394E] mx-auto mb-6" />
           <p className="text-slate-600 text-lg leading-[1.4] max-w-2xl mx-auto">
-            We are building a team that redefines financial Well-Being in
+            We are building a team that redefines financial well-being in
             India and beyond. If you believe in responsibility over revenue
             and empathy alongside expertise, we would love to hear from you.
           </p>
@@ -72,13 +72,13 @@ export default function CareersPage() {
                 Ready To Take Your Next Step?
               </h2>
               <div className="w-10 h-1 bg-[#00394E] mb-4" />
-              <p className="text-slate-600 leading-[1.5] mb-8">
+              <p className="text-slate-600 text-justify leading-[1.5] mb-8">
                 We believe exceptional people create exceptional impact. If
-                you are ready to help redefine financial Well-Being, we look
+                you are ready to help redefine financial well-being, we look
                 forward to connecting with you.
               </p>
               <a
-                href="mailto:careers@finask.com"
+                href="mailto:career@finaskvalue.com"
                 className="inline-flex items-center gap-2 bg-[#00394E] text-white px-6 py-3.5 rounded-lg font-bold hover:bg-[#002836] transition-colors group"
               >
                 Send us your resume
