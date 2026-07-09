@@ -119,8 +119,7 @@ export default function ScheduleCallModal({ onClose }) {
           Thank you!
         </h3>
         <p className="text-slate-500 text-sm max-w-sm">
-          We&apos;ve received your request. Our team will reach out shortly to
-          confirm your call.
+          We have received your request. One of our experts will get in touch with you shortly.
         </p>
         <button
           type="button"

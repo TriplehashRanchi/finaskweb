@@ -173,10 +173,13 @@ export default function TestimonialSection() {
             
             {/* Progress/Indicators */}
              <div className="flex gap-2 mt-4 justify-center md:justify-start">
-                      {testimonials.map((_, idx) => (
-                          <div 
-                            key={idx} 
-                            onClick={() => {
+                      {testimonials.map((testimonial, idx) => (
+                          <button
+                            key={idx}
+                            type="button"
+                            aria-label={`Show testimonial from ${testimonial.author}`}
+                            onClick={(e) => {
+                                e.stopPropagation();
                                 // Calculate direction based on index difference for smooth transition
                                 const newDirection = idx > testimonialIndex ? 1 : -1;
                                 // We can just jump directly by setting absolute page, but to keep 'paginate' logic simple:
@@ -185,8 +188,12 @@ export default function TestimonialSection() {
                                     setPage([idx, newDirection]);
                                 }
                             }}
-                            className={`h-1 rounded-full transition-all duration-300 cursor-pointer ${idx === testimonialIndex ? 'w-8 bg-[#DAA434]' : 'w-2 bg-gray-200'}`}
-                          />
+                            className="group/dot cursor-pointer p-1.5 -m-1.5"
+                          >
+                            <span
+                              className={`block h-1 rounded-full transition-all duration-300 group-hover/dot:bg-[#DAA434] ${idx === testimonialIndex ? 'w-8 bg-[#DAA434]' : 'w-2 bg-gray-200 group-hover/dot:opacity-80'}`}
+                            />
+                          </button>
                       ))}
             </div>
 

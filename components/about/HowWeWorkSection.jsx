@@ -91,7 +91,7 @@ export default function HowWeWorkSection() {
             <div className="w-full md:w-[45%] pl-0 md:pl-12 order-1 md:order-2">
               <div className="relative h-64 w-full   overflow-hidden  ">
                 <Image
-                  src="/how.jpg"
+                  src="/howwework.jpeg"
                   alt="Living Richly"
                   fill
                   className="object-cover opacity-80 group-hover:opacity-100 transition-opacity duration-500"

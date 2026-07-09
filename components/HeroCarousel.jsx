@@ -118,7 +118,7 @@ export default function HeroCarousel() {
           <a
             href="https://www.facebook.com/finaskvalue/"
             target="_blank"
-            className="hover:text-[#DAA434] transition-colors hover:-translate-y-1 transform duration-300"
+            className="hover:text-[#DAA434] transition-colors"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -134,7 +134,7 @@ export default function HeroCarousel() {
           <a
             href="https://www.linkedin.com/company/finask-value/?viewAsMember=true"
             target="_blank"
-            className="hover:text-[#DAA434] transition-colors hover:-translate-y-1 transform duration-300"
+            className="hover:text-[#DAA434] transition-colors"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -152,7 +152,7 @@ export default function HeroCarousel() {
           <a
             href="https://www.instagram.com/finask_value/"
             target="_blank"
-            className="hover:text-[#DAA434] transition-colors hover:-translate-y-1 transform duration-300"
+            className="hover:text-[#DAA434] transition-colors"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"

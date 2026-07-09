@@ -7,7 +7,7 @@ const SUBMIT_URL = `https://formsapi.hashboard.in/public/forms/${FORM_SLUG}/subm
 
 export default function NewsletterSubscribe({
   heading = "Stay Updated with the Latest Financial Insights",
-  subheading = "Get our latest insights on wealth, insurance, tax, and planning delivered straight to your inbox.",
+  subheading = " ",
 }) {
   const [email, setEmail] = useState("");
   const [status, setStatus] = useState("idle"); // idle | submitting | success | error
@@ -49,7 +49,7 @@ export default function NewsletterSubscribe({
       <h2 className="mx-auto max-w-2xl font-serif text-3xl font-bold text-white">
         {heading}
       </h2>
-      <p className="mx-auto mt-3 max-w-xl text-[15px] leading-7 text-white/70">
+      <p className="mx-auto mt-3 max-w-xl text-[18px] leading-7 text-white/70">
         {subheading}
       </p>
 
