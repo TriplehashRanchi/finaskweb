@@ -89,7 +89,7 @@ export const servicesData = [
       },
       {
         title: "Cost Efficiency",
-        icon: "/insurance-icons/up-3.png",
+        icon: "/insurance-icons/up-5.png",
         description:
           "Maximum benefits at a fraction of the cost of higher base plans.  ",
       },
@@ -1934,7 +1934,7 @@ export const servicesData = [
       },
       {
         title: "Reconstruction Support",
-        icon: "/insurance-icons/home-insurance-4.png",
+        icon: "/insurance-icons/home-insurance-5.png",
         description:
           "Covers the cost of rebuilding or repairing your home or a pre-agreed insured value.",
       },
@@ -2627,7 +2627,7 @@ export const servicesData = [
       },
       {
         title: "Transparent Terms",
-        icon: "/insurance-icons/office-package-4.png",
+        icon: "/insurance-icons/office-package-5.png",
         description: "Clear coverage with no hidden conditions.",
       },
     ],
@@ -2748,7 +2748,7 @@ export const servicesData = [
       },
       {
         title: "Cost Averaging Benefit",
-        icon: "/insurance-icons/systematic-investment-plan-2.png",
+        icon: "/insurance-icons/systematic-investment-plan-6.png",
         description:
           "Reduces average investment cost by investing regularly in different market conditions.",
       },
@@ -2884,7 +2884,7 @@ export const servicesData = [
       },
       {
         title: "Flexibility of Amount",
-        icon: "/insurance-icons/systematic-transfer-plan-3.png",
+        icon: "/insurance-icons/systematic-transfer-plan-6.png",
         description:
           "Allows customization of transfer value and frequency.",
       },
