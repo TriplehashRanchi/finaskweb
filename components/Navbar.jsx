@@ -2,6 +2,7 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { investmentSections } from "@/data/investmentMenu";
 import {
   personalInsuranceSections,
@@ -218,7 +219,11 @@ function InvestmentMegaMenu() {
   );
 }
 
+const LIGHT_TOP_ROUTES = ["/careers"];
+
 export default function Navbar() {
+  const pathname = usePathname();
+  const hasLightTop = LIGHT_TOP_ROUTES.includes(pathname);
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isInvestmentOpen, setIsInvestmentOpen] = useState(false);
@@ -243,7 +248,7 @@ export default function Navbar() {
     };
   }, [isMobileMenuOpen]);
 
-  const textColor = isScrolled ? "text-[#00394E]" : "text-white";
+  const textColor = isScrolled || hasLightTop ? "text-[#00394E]" : "text-white";
   const navLinkClass = `text-[15px] font-medium transition-colors duration-200 hover:text-[#DAA434] ${textColor}`;
 
   const dropdownBase =

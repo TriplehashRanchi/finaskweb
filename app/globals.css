@@ -4,9 +4,16 @@
     font-family: 'Telma', cursive;
 }
 
+html {
+  overflow-x: hidden;
+  width: 100%;
+}
+
 body {
   background-color: #FDF9FB; /* brand-white */
   color: #00394E; /* brand-navy */
+  overflow-x: hidden;
+  width: 100%;
 }
 
 @keyframes slideInRight {

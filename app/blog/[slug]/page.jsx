@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { PortableText } from "@portabletext/react";
 import Footer from "@/components/Footer";
+import NewsletterSubscribe from "@/components/NewsletterSubscribe";
 import { client } from "@/sanity/lib/client";
 import { urlFor } from "@/sanity/lib/image";
 import { postBySlugQuery, postSlugsQuery } from "@/sanity/lib/queries";
@@ -153,6 +154,11 @@ export default async function BlogPostPage({ params }) {
             )}
           </div>
         </article>
+
+        <NewsletterSubscribe
+          heading="Found This Insight Helpful?"
+          subheading="Get More Like This Delivered to Your Inbox."
+        />
       </main>
       <Footer />
     </>

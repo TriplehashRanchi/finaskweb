@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import Footer from "@/components/Footer";
+import NewsletterSubscribe from "@/components/NewsletterSubscribe";
 import { client } from "@/sanity/lib/client";
 import { urlFor } from "@/sanity/lib/image";
 import { paginatedPostsQuery, postsCountQuery } from "@/sanity/lib/queries";
@@ -167,6 +168,8 @@ export default async function BlogPage({ searchParams }) {
 
           <Pagination currentPage={currentPage} totalPages={totalPages} />
         </section>
+
+        <NewsletterSubscribe heading="Stay Updated with the Latest Financial Insights" />
       </main>
       <Footer />
     </>
