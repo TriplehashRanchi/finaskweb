@@ -25,8 +25,8 @@ function UspDisclaimerNote({ light = false, className = "" }) {
 // Layout 2: Horizontal Ribbon (Updated to Family Promo Layout)
 export function HorizontalRibbon({ promoTitle, promoText, promoBadges }) {
   return (
-    <div className="w-[100vw] ml-[calc(-50vw+50%)] bg-[#F0F4F8] py-6 px-6  border-y border-blue-50/50">
-      <div className="max-w-[1200px] mx-auto flex flex-col lg:flex-row items-center gap-12">
+    <div className="relative left-1/2 w-screen -translate-x-1/2 border-y border-blue-50/50 bg-[#F0F4F8] px-4 py-8 sm:px-6">
+      <div className="mx-auto flex max-w-[1200px] flex-col items-center gap-8 lg:flex-row lg:gap-12">
         {/* Left Side: Content & Cards */}
         <div className="w-full lg:w-2/3">
           <h3 className="font-sans text-3xl md:text-[1.8rem] font-medium capitalize text-[#D44659] leading-tight mb-2 pr-0 lg:pr-12">
@@ -123,8 +123,8 @@ export function HorizontalRibbon({ promoTitle, promoText, promoBadges }) {
 // Layout 2b: Horizontal Ribbon - Business variant
 export function HorizontalRibbonBusiness({ promoTitle, promoText, promoBadges }) {
   return (
-    <div className="w-[100vw] ml-[calc(-50vw+50%)] bg-[#F0F4F8] py-6 px-6  border-y border-blue-50/50">
-      <div className="max-w-[1200px] mx-auto flex flex-col lg:flex-row items-center gap-12">
+    <div className="relative left-1/2 w-screen -translate-x-1/2 border-y border-blue-50/50 bg-[#F0F4F8] px-4 py-8 sm:px-6">
+      <div className="mx-auto flex max-w-[1200px] flex-col items-center gap-8 lg:flex-row lg:gap-12">
         {/* Left Side: Content & Cards */}
         <div className="w-full lg:w-2/3">
           <h3 className="font-sans text-3xl md:text-[1.8rem] font-medium capitalize text-[#D44659] leading-tight mb-2 pr-0 lg:pr-12">
@@ -200,7 +200,7 @@ export function HorizontalRibbonBusiness({ promoTitle, promoText, promoBadges })
 // Layout 6: Floating Pills (Above FAQ)
 export function FloatingPills({ promoTitle, promoText, promoBadges }) {
   return (
-    <div className="w-full px-10 py-16 rounded-xl text-center bg-white">
+    <div className="w-full rounded-xl bg-white px-4 py-8 text-center sm:px-10 sm:py-16">
       {/* <h3 className=" text-2xl capitalize text-[#D44659]  font-medium">{promoText}</h3> */}
       {/* <p className=" text-4xl capitalize text-[#00394E] leading-tight mb-8 font-medium">
         {promoTitle}
@@ -244,7 +244,7 @@ export function BottomStickyBanner({ promoTitle, promoText, promoBadges }) {
     <div
       className={`fixed bottom-0 left-0 right-0 z-[100] transition-transform duration-500 ease-in-out ${isVisible ? "translate-y-0" : "translate-y-full"}`}
     >
-      <div className="bg-[#F0F4F8] w-full  mx-auto rounded-t-2xl  shadow-[0_-10px_40px_rgba(0,0,0,0.15)] px-20 py-8 flex flex-col md:flex-row items-center justify-between gap-6 relative border-t border-[#E2E8F0]">
+      <div className="bg-[#F0F4F8] w-full  mx-auto rounded-t-2xl  shadow-[0_-10px_40px_rgba(0,0,0,0.15)] px-4 py-5 sm:px-6 md:px-20 md:py-8 flex flex-col md:flex-row items-stretch md:items-center justify-between gap-4 md:gap-6 relative border-t border-[#E2E8F0]">
         <button
           onClick={() => setIsClosed(true)}
           className="absolute top-3 right-3 w-8 h-8 bg-white rounded-full flex items-center justify-center text-slate-500  transition z-10"
@@ -331,7 +331,7 @@ export function BottomStickyBlue({ promoTitle, promoText, promoBadges }) {
     <div
       className={`fixed bottom-0 left-0 right-0 z-[100] transition-transform duration-500 ease-in-out ${isVisible ? "translate-y-0" : "translate-y-full"}`}
     >
-      <div className="bg-[#00394E] w-full  mx-auto rounded-t-2xl  shadow-[0_-10px_40px_rgba(0,0,0,0.25)] px-6 py-4 flex flex-col md:flex-row items-center justify-center gap-40 relative">
+      <div className="bg-[#00394E] w-full  mx-auto rounded-t-2xl  shadow-[0_-10px_40px_rgba(0,0,0,0.25)] px-6 py-4 flex flex-col md:flex-row items-stretch md:items-center justify-center gap-4 md:gap-16 lg:gap-40 relative">
         <button
           onClick={() => setIsClosed(true)}
           className="absolute top-3 right-3 w-8 h-8 bg-white rounded-full flex items-center justify-center text-slate-500 hover:bg-slate-100 transition shadow-sm z-10"
@@ -417,9 +417,9 @@ export function ScrollPopupModal({ promoTitle, promoText, promoBadges }) {
       ></div>
 
       {/* Modal */}
-      <div className="relative bg-white w-full max-w-lg rounded-2xl shadow-2xl overflow-hidden animate-in fade-in zoom-in duration-300">
+      <div className="relative max-h-[calc(100svh-2rem)] w-full max-w-lg overflow-y-auto rounded-2xl bg-white shadow-2xl animate-in fade-in zoom-in duration-300">
         {/* Header / Graphic */}
-        <div className="  p-8 text-center relative">
+        <div className="relative p-5 text-center sm:p-8">
           <button
             onClick={() => setIsVisible(false)}
             className="absolute top-4 right-4 w-8 h-8 bg-[#00394E] rounded-full flex items-center justify-center text-white   transition"
@@ -440,7 +440,7 @@ export function ScrollPopupModal({ promoTitle, promoText, promoBadges }) {
             </svg>
           </button>
 
-          <div className="w-50 h-50 bg-white/10 rounded-full flex items-center justify-center mx-auto mb-4 backdrop-blur-md border border-white/20">
+          <div className="h-32 w-32 sm:h-50 sm:w-50 bg-white/10 rounded-full flex items-center justify-center mx-auto mb-4 backdrop-blur-md border border-white/20">
             <img src="/image1.webp" alt="" />
           </div>
 
@@ -453,8 +453,8 @@ export function ScrollPopupModal({ promoTitle, promoText, promoBadges }) {
         </div>
 
         {/* Body */}
-        <div className="py-2 px-8">
-          <div className="flex items-center justify-between  gap-3 mb-6">
+        <div className="px-5 py-2 sm:px-8">
+          <div className="mb-6 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
             <div className="rounded-lg bg-[#C8F0B0] px-4 py-3 text-center text-sm  font-semibold text-[#245633] ">
               <p className="text-lg capitalize font-semibold text-[#00394E]">
                 {promoBadges[0]}

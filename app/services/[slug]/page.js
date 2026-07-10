@@ -49,13 +49,13 @@ export default async function ServicePage({ params }) {
   const hideFaq = hideFaqSlugs.includes(slug);
 
   return (
-    <main className="min-h-screen bg-[#FDF9FB] text-slate-800 font-sans selection:bg-[#b08d55] selection:text-white">
+    <main className="min-h-screen overflow-x-hidden bg-[#FDF9FB] text-slate-800 font-sans selection:bg-[#b08d55] selection:text-white">
       {/* HERO SECTION */}
       <ServiceHero service={service} />
 
       {/* MAIN CONTENT */}
       {/* MAIN CONTENT */}
-      <section className="py-10   max-w-6xl mx-auto">
+      <section className="mx-auto w-full max-w-6xl px-4 py-8 sm:px-6 sm:py-10 lg:px-8">
         <ServiceContent service={service} hideFaq={hideFaq} />
       </section>
 

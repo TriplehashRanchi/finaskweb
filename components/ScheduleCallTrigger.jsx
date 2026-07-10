@@ -1,10 +1,40 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { createPortal } from "react-dom";
 import ScheduleCallModal from "@/components/ScheduleCallModal";
 
 export default function ScheduleCallTrigger() {
   const [isScheduleOpen, setIsScheduleOpen] = useState(false);
+  const [portalContainer, setPortalContainer] = useState(null);
+
+  useEffect(() => {
+    const container = document.createElement("div");
+    container.setAttribute("data-schedule-call-portal", "");
+    document.body.appendChild(container);
+    setPortalContainer(container);
+
+    return () => {
+      container.remove();
+    };
+  }, []);
+
+  useEffect(() => {
+    if (!isScheduleOpen) return;
+
+    const previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+
+    const handleKeyDown = (event) => {
+      if (event.key === "Escape") setIsScheduleOpen(false);
+    };
+
+    window.addEventListener("keydown", handleKeyDown);
+    return () => {
+      document.body.style.overflow = previousOverflow;
+      window.removeEventListener("keydown", handleKeyDown);
+    };
+  }, [isScheduleOpen]);
 
   return (
     <>
@@ -36,13 +66,16 @@ export default function ScheduleCallTrigger() {
         </p>
       </button>
 
-      {isScheduleOpen && (
+      {portalContainer && isScheduleOpen && createPortal(
         <div
-          className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 px-4"
+          className="fixed inset-0 z-[10000] flex items-start justify-center overflow-y-auto bg-black/60 p-3 backdrop-blur-sm sm:items-center sm:p-4"
+          role="dialog"
+          aria-modal="true"
+          aria-label="Schedule a call"
           onClick={() => setIsScheduleOpen(false)}
         >
           <div
-            className="relative w-full max-w-xl max-h-[90vh] overflow-y-auto bg-white rounded-lg shadow-2xl"
+            className="relative my-auto w-full max-w-xl max-h-[calc(100dvh-1.5rem)] overflow-y-auto overscroll-contain rounded-lg bg-white shadow-2xl sm:max-h-[90vh]"
             onClick={(e) => e.stopPropagation()}
           >
             <button
@@ -68,7 +101,8 @@ export default function ScheduleCallTrigger() {
             </button>
             <ScheduleCallModal onClose={() => setIsScheduleOpen(false)} />
           </div>
-        </div>
+        </div>,
+        portalContainer
       )}
     </>
   );

@@ -122,10 +122,10 @@ export default function ContactPage() {
       {/* ----------------------------- */}
       {/*        OFFICE LOCATIONS       */}
       {/* ----------------------------- */}
-      <section className="  pt-24 pb-30 px-6 md:px-12 bg-[#FDF9FB] relative">
+      <section className="relative bg-[#FDF9FB] px-4 pb-16 pt-12 sm:px-6 md:px-12 md:pb-30 md:pt-24">
         <div className="max-w-7xl mx-auto relative flex flex-col lg:flex-row items-center justify-center min-h-[500px]">
           {/* Center Image */}
-          <div className="relative w-full lg:w-[45%] h-[350px] lg:h-[570px] rounded-xl overflow-hidden shadow-2xl z-0 order-2 lg:order-1 lg:absolute lg:left-1/2 lg:-translate-x-1/2 bg-gray-200">
+          <div className="relative order-1 z-0 h-[240px] w-full overflow-hidden rounded-xl bg-gray-200 shadow-xl sm:h-[350px] lg:order-1 lg:h-[570px] lg:w-[45%] lg:absolute lg:left-1/2 lg:-translate-x-1/2">
             <Image
               src="/about-team.webp"
               alt="Our Office"
@@ -136,11 +136,11 @@ export default function ContactPage() {
           </div>
 
           {/* Left Card: Gurugram */}
-          <div className="w-full lg:w-[32%] bg-[#00394E] p-16 rounded-lg flex flex-col  justify-center shadow-xl z-20 relative mt-[-40px] lg:mt-0 lg:mr-auto order-3 lg:order-2 text-white  hover:scale-105 transition-transform duration-500">
-            <h3 className="font-serif text-2xl mb-6">Gurugram</h3>
+          <div className="relative order-2 z-20 mt-4 flex w-full flex-col justify-center rounded-lg bg-[#00394E] p-6 text-white shadow-xl sm:p-8 lg:order-2 lg:mt-0 lg:mr-auto lg:w-[32%] lg:p-16 lg:hover:scale-105 transition-transform duration-500">
+            <h3 className="mb-5 font-serif text-2xl lg:mb-6">Gurugram</h3>
 
-            <div className="space-y-10">
-              <div className="flex items-start gap-4">
+            <div className="space-y-6 lg:space-y-10">
+              <div className="flex min-w-0 items-start gap-3 sm:gap-4">
                 <div className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center shrink-0 text-[#DAA434]">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -157,18 +157,18 @@ export default function ContactPage() {
                     <circle cx="12" cy="10" r="3" />
                   </svg>
                 </div>
-                <div>
+                <div className="min-w-0">
                   <h4 className="font-bold text-[#DAA434] text-lg mb-1">
                     Location
                   </h4>
-                  <p className="text-gray-300 text-[17px] leading-relaxed font-normal">
+                  <p className="text-base font-normal leading-relaxed text-gray-300 sm:text-[17px]">
                     1st Floor, Badshahpur Sohna Road, near Subhash Chowk,
                     Central Park II, Sector 48, Gurugram, Haryana – 122018
                   </p>
                 </div>
               </div>
 
-              <div className="flex items-start gap-4">
+              <div className="flex min-w-0 items-start gap-3 sm:gap-4">
                 <div className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center shrink-0 text-[#DAA434]">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -184,20 +184,20 @@ export default function ContactPage() {
                     <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
                   </svg>
                 </div>
-                <div>
+                <div className="min-w-0">
                   <h4 className="font-bold text-[#DAA434] text-lg mb-1">
                     Contact
                   </h4>
                   <a
                     href="tel:+918076351485"
-                    className="text-gray-300 hover:text-white transition-colors block text-[17px]"
+                    className="block min-w-0 break-words text-base text-gray-300 transition-colors hover:text-white sm:text-[17px]"
                   >
                     +91 80763 51485
                   </a>
                 </div>
               </div>
 
-              <div className="flex items-start gap-4">
+              <div className="flex min-w-0 items-start gap-3 sm:gap-4">
                 <div className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center shrink-0 text-[#DAA434]">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -213,13 +213,13 @@ export default function ContactPage() {
                     <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
                   </svg>
                 </div>
-                <div>
+                <div className="min-w-0">
                   <h4 className="font-bold text-[#DAA434] text-lg mb-1">
                     Email
                   </h4>
                   <a
-                    href="tel:+911140007000"
-                    className="text-gray-300 hover:text-white transition-colors block text-[17px]"
+                    href="mailto:wecare@finaskvalue.com"
+                    className="block min-w-0 break-all text-base text-gray-300 transition-colors hover:text-white sm:text-[17px]"
                   >
                     wecare@finaskvalue.com
                   </a>
@@ -229,11 +229,11 @@ export default function ContactPage() {
           </div>
 
           {/* Right Card: Delhi */}
-          <div className="w-full lg:w-[32%] bg-[#00394E] p-16 rounded-lg flex flex-col  justify-center shadow-2xl z-20 relative mt-6 lg:mt-0 lg:ml-auto order-1 lg:order-3 animate-fade-in-up  hover:scale-105 transition-transform duration-500">
-            <h3 className="font-serif text-2xl text-[#ffffff] mb-6">Delhi</h3>
+          <div className="relative order-3 z-20 mt-4 flex w-full flex-col justify-center rounded-lg bg-[#00394E] p-6 shadow-2xl sm:p-8 lg:order-3 lg:mt-0 lg:ml-auto lg:w-[32%] lg:p-16 lg:hover:scale-105 animate-fade-in-up transition-transform duration-500">
+            <h3 className="mb-5 font-serif text-2xl text-white lg:mb-6">Delhi</h3>
 
-            <div className="space-y-10">
-              <div className="flex items-start gap-4">
+            <div className="space-y-6 lg:space-y-10">
+              <div className="flex min-w-0 items-start gap-3 sm:gap-4">
                 <div className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center shrink-0 text-[#DAA434]">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -250,18 +250,18 @@ export default function ContactPage() {
                     <circle cx="12" cy="10" r="3" />
                   </svg>
                 </div>
-                <div>
+                <div className="min-w-0">
                   <h4 className="font-bold text-[#DAA434] text-lg mb-1">
                      Location
                   </h4>
-                  <p className="text-slate-300 text-[17px] leading-relaxed font-normal">
+                  <p className="text-base font-normal leading-relaxed text-slate-300 sm:text-[17px]">
                     Pocket 10, YC Co-Working Space, 3rd Floor, Plot No. 94,
                     Sector 13, Dwarka, Delhi – 110078
                   </p>
                 </div>
               </div>
 
-              <div className="flex items-start gap-4">
+              <div className="flex min-w-0 items-start gap-3 sm:gap-4">
                 <div className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center shrink-0 text-[#DAA434]">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -277,19 +277,19 @@ export default function ContactPage() {
                     <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
                   </svg>
                 </div>
-                <div>
+                <div className="min-w-0">
                   <h4 className="font-bold text-[#DAA434] text-lg mb-1">
                     Contact 
                   </h4>
                   <a
-                    href="tel:+911140007000"
-                    className="text-gray-300 hover:text-white transition-colors block text-[17px]"
+                    href="tel:+918076351485"
+                    className="block min-w-0 break-words text-base text-gray-300 transition-colors hover:text-white sm:text-[17px]"
                   >
                     +91 80763 51485
                   </a>
                 </div>
               </div>
-              <div className="flex items-start gap-4">
+              <div className="flex min-w-0 items-start gap-3 sm:gap-4">
                 <div className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center shrink-0 text-[#DAA434]">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -305,13 +305,13 @@ export default function ContactPage() {
                     <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
                   </svg>
                 </div>
-                <div>
+                <div className="min-w-0">
                   <h4 className="font-bold text-[#DAA434] text-lg mb-1">
                     Email 
                   </h4>
                   <a
-                    href="tel:+911140007000"
-                    className="text-gray-300 hover:text-white transition-colors block text-[17px]"
+                    href="mailto:wecare@finaskvalue.com"
+                    className="block min-w-0 break-all text-base text-gray-300 transition-colors hover:text-white sm:text-[17px]"
                   >
                     wecare@finaskvalue.com
                   </a>

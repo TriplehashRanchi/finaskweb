@@ -64,7 +64,7 @@ export default function ServicesPage() {
         </div>
       </section>
 
-      <section className="py-16">
+      <section className="py-16 px-6">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             {services.map((service) => (

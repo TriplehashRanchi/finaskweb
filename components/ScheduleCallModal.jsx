@@ -133,15 +133,15 @@ export default function ScheduleCallModal({ onClose }) {
   }
 
   return (
-    <div className="p-8 md:p-10">
-      <h3 className="font-serif text-2xl text-[#00394E] mb-1">
+    <div className="p-5 sm:p-8 md:p-10">
+      <h3 className="mb-1 pr-10 font-serif text-2xl text-[#00394E]">
         Schedule a call
       </h3>
-      <p className="text-slate-500 text-sm mb-6">
+      <p className="mb-5 pr-8 text-sm text-slate-500 sm:mb-6">
         Pick a slot that works for you and we&apos;ll call you back.
       </p>
 
-      <form onSubmit={handleSubmit} className="flex flex-col gap-4">
+      <form onSubmit={handleSubmit} className="flex flex-col gap-3.5 sm:gap-4">
         <div>
           <label className={labelClasses} htmlFor="schedule-name">
             Full Name

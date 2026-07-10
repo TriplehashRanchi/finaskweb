@@ -6,7 +6,7 @@ export default function ServiceHero({ service }) {
   if (!service) return null;
 
   return (
-    <section className="relative h-[70vh] flex flex-col justify-center overflow-hidden bg-[#0b1218]">
+    <section className="relative flex h-[58svh] min-h-[420px] flex-col sm:h-[65vh] sm:min-h-[500px] lg:h-[70vh] justify-center overflow-hidden bg-[#0b1218]">
       {/* Background Image */}
       <div
         className="absolute inset-0 z-0"
@@ -20,12 +20,12 @@ export default function ServiceHero({ service }) {
 
       <div className="absolute inset-0 bg-gradient-to-t from-[#00394E]/90 via-[#00394E]/30 to-[#00394E]/40" />
 
-      <div className="relative z-20 text-center px-4 max-w-4xl mx-auto ">
-        <h1 className="font-serif text-5xl   font-bold text-white my-6 drop-shadow-lg">
+      <div className="relative z-20 mx-auto max-w-4xl px-5 text-center sm:px-8">
+        <h1 className="my-4 font-serif text-4xl font-bold leading-tight text-white drop-shadow-lg sm:my-6 sm:text-5xl lg:text-6xl">
           {service.title}
         </h1>
         {service.tagline && (
-          <p className="text-gray-200 text-lg  font-light leading-[1.2] max-w-2xl mx-auto">
+          <p className="mx-auto max-w-2xl text-base font-light leading-relaxed text-gray-200 sm:text-lg">
             {service.tagline}
           </p>
         )}

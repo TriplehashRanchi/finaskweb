@@ -108,11 +108,11 @@ export default function TestimonialSection() {
         {/* Desktop Dark Background Block (Restricted to container on desktop) */}
         <div className="hidden lg:block absolute top-0 right-20 w-full lg:w-[60%] h-full bg-[#001F2B] z-0"></div>
 
-        <div className="relative z-10 w-full grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-0 items-center">
+        <div className="relative z-10 w-full grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-0 items-center">
           
           {/* LEFT: White Testimonial Card (Overlapping) */}
           <div 
-            className="w-full lg:w-[85%] bg-white shadow-2xl p-6 sm:p-12 lg:p-8 relative lg:ml-24 xl:ml-12 overflow-hidden cursor-grab active:cursor-grabbing select-none"
+            className="order-2 w-full lg:order-1 lg:w-[85%] bg-white shadow-2xl p-6 sm:p-12 lg:p-8 relative lg:ml-24 xl:ml-12 overflow-hidden cursor-grab active:cursor-grabbing select-none"
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
             // Touch events for mobile to prevent conflicting scroll if needed, though drag usually handles it
@@ -200,7 +200,7 @@ export default function TestimonialSection() {
           </div>
 
           {/* RIGHT: Content Title Block (Inside Dark Area) */}
-          <div className="pl-0 lg:pl-[10%] pt-10 lg:pt-0 relative z-10 text-center lg:text-left">
+          <div className="order-1 relative z-10 pt-0 text-center lg:order-2 lg:pl-[10%] lg:text-left">
             <span className="text-[#DAA434] font-bold tracking-[0.2em] text-base sm:text-lg uppercase mb-4 block">
               TESTIMONIALS
             </span>

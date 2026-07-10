@@ -95,7 +95,7 @@ export default function CareersPage() {
             </div>
 
             {/* Right Image */}
-            <div className="relative w-full md:flex-1 h-[380px] md:h-[560px] -mt-16 md:mt-0 md:-ml-8">
+            <div className="relative mt-6 h-[380px] w-full md:mt-0 md:h-[560px] md:flex-1 md:-ml-8">
               <Image
                 src="/career.webp"
                 alt="Professional Team"

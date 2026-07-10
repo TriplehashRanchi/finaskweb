@@ -22,7 +22,7 @@ export default function PurposeSection() {
             <div className="bg-[#001F2B] p-10 md:p-14    flex flex-col justify-center min-h-[400px]">
               {/* Header Section */}
               <div className="mb-4">
-                <h2 className="font-serif   md:text-3xl font-bold text-[#F5F5F5] mb-6 leading-tight">
+                <h2 className="font-serif text-2xl  md:text-3xl font-bold text-[#F5F5F5] mb-6 leading-tight">
                   Purpose Beyond <span className=" text-[#DAA434]">Profit</span>
                 </h2>
 

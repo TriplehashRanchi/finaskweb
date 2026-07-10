@@ -138,8 +138,8 @@ export default function ValuesSection() {
   }, [cardsToShow]);
 
   return (
-    <section className="w-full py-14 px-4 md:px-8  ">
-      <div className="text-center mb-12 px-4">
+    <section className="w-full px-4 pt-14 pb-6 md:px-8 md:py-14">
+      <div className="mb-8 px-4 text-center md:mb-12">
         <h2 className="text-3xl sm:text-4xl md:text-5xl font-medium text-[#00394E] font-serif tracking-tight">
           Our Core <span className="text-[#DAA434]">Values</span>
         </h2>
@@ -156,14 +156,14 @@ export default function ValuesSection() {
         {/* Navigation Buttons (Absolute) */}
         <button
           onClick={prevSlide}
-          className="absolute -left-2 md:-left-4 top-1/2 -translate-y-1/2 z-30 w-12 h-12 rounded-full cursor-pointer bg-white shadow-lg border border-[#00394E]/10 flex items-center justify-center text-[#00394E] hover:bg-[#00394E] hover:text-white transition-all duration-300 active:scale-95 opacity-100 md:opacity-0 md:group-hover/carousel:opacity-100 translate-x-0 md:translate-x-4 md:group-hover/carousel:translate-x-0"
+          className="absolute left-3 bottom-3 md:bottom-auto md:-left-4 top-auto md:top-1/2 md:-translate-y-1/2 z-30 w-10 h-10 md:w-12 md:h-12 rounded-full cursor-pointer bg-white shadow-lg border border-[#00394E]/10 flex items-center justify-center text-[#00394E] hover:bg-[#00394E] hover:text-white transition-all duration-300 active:scale-95 opacity-100 md:opacity-0 md:group-hover/carousel:opacity-100 translate-x-0 md:translate-x-4 md:group-hover/carousel:translate-x-0"
           aria-label="Previous slide"
         >
           <ChevronLeft size={24} />
         </button>
         <button
           onClick={nextSlide}
-          className="absolute -right-2 md:-right-4 top-1/2 -translate-y-1/2 z-30 w-12 h-12 rounded-full cursor-pointer bg-white shadow-lg border border-[#00394E]/10 flex items-center justify-center text-[#00394E] hover:bg-[#00394E] hover:text-white transition-all duration-300 active:scale-95 opacity-100 md:opacity-0 md:group-hover/carousel:opacity-100 translate-x-0 md:-translate-x-4 md:group-hover/carousel:translate-x-0"
+          className="absolute right-3 bottom-3 md:bottom-auto md:-right-4 top-auto md:top-1/2 md:-translate-y-1/2 z-30 w-10 h-10 md:w-12 md:h-12 rounded-full cursor-pointer bg-white shadow-lg border border-[#00394E]/10 flex items-center justify-center text-[#00394E] hover:bg-[#00394E] hover:text-white transition-all duration-300 active:scale-95 opacity-100 md:opacity-0 md:group-hover/carousel:opacity-100 translate-x-0 md:-translate-x-4 md:group-hover/carousel:translate-x-0"
           aria-label="Next slide"
         >
           <ChevronRight size={24} />
@@ -182,7 +182,7 @@ export default function ValuesSection() {
                 style={{ width: `${100 / cardsToShow}%` }}
               >
                 <div
-                  className="group relative h-[420px] sm:h-[380px] bg-white overflow-hidden cursor-pointer transition-all duration-300   hover:shadow-xl border border-gray-100/50"
+                  className="group relative h-[360px] sm:h-[380px] bg-white overflow-hidden cursor-pointer transition-all duration-300   hover:shadow-xl border border-gray-100/50"
                 >
                   {/* Hover Overlay (Navy Slide) */}
                   <div className="absolute inset-0 bg-[#00394E] translate-y-full group-hover:translate-y-0 transition-transform duration-700 ease-in-out z-10"></div>

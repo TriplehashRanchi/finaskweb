@@ -13,13 +13,13 @@ const GoogleIcon = () => (
 
 export default function RatingCard() {
   return (
-    <div className="w-full bg-white border border-slate-200 rounded-xl p-6 mb-8   flex flex-col md:flex-row items-center justify-between gap-6">
-      <div className="flex items-center gap-5 w-full md:w-auto">
-        <div className="w-[72px] h-[72px] bg-[#F3F4F6] rounded-lg flex items-center justify-center shrink-0">
+    <div className="mb-8 flex w-full flex-col items-stretch justify-between gap-5 rounded-xl border border-slate-200 bg-white p-4 sm:p-6 md:flex-row md:items-center">
+      <div className="flex w-full items-start gap-4 sm:items-center sm:gap-5 md:w-auto">
+        <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-lg bg-[#F3F4F6] sm:h-[72px] sm:w-[72px]">
           <GoogleIcon />
         </div>
-        <div className="flex flex-col">
-          <div className="flex items-center gap-2 mb-1">
+        <div className="flex min-w-0 flex-col">
+          <div className="flex flex-wrap items-center gap-2 mb-1">
             <div className="flex items-center">
               {[1, 2, 3, 4].map((i) => (
                 <Star key={i} className="w-[18px] h-[18px] fill-[#00394E] text-[#00394E]" />
@@ -38,8 +38,8 @@ export default function RatingCard() {
          </div>
       </div>
       
-      <div className="w-full md:w-auto flex justify-end">
-        <Link href="/contact" className="bg-[#D44659] cursor-pointer hover:bg-[#b03548] text-white font-semibold py-2.5 px-6 rounded-lg transition-colors">
+      <div className="flex w-full md:w-auto md:justify-end">
+        <Link href="/contact" className="w-full rounded-lg bg-[#D44659] px-6 py-2.5 text-center font-semibold text-white transition-colors hover:bg-[#b03548] sm:w-auto">
           Contact Us
         </Link>
       </div>

@@ -76,20 +76,20 @@ export default function ServiceContent({ service, hideFaq = false }) {
 
 
       <div className="mb-8">
-        <h2 className="font-serif text-3xl md:text-5xl text-[#00394E] mb-8 font-medium">
+        <h2 className="mb-5 font-serif text-3xl font-medium leading-tight text-[#00394E] sm:mb-8 md:text-5xl">
           {service.title}
         </h2>
-        <div className="space-y-3 text-slate-600 leading-[1.6] text-[1.05rem] text-justify ">
+        <div className="space-y-3 text-base leading-relaxed text-slate-600 sm:text-[1.05rem] sm:text-justify">
           {(() => {
             const lines = service.description.split("\n");
             const elements = [];
             let currentBullets = [];
 
             const renderBullets = (bulletsList, key) => (
-              <div key={`bullets-${key}`} className="bg-slate-50 border border-slate-200 rounded-[1rem] p-6 md:p-8 my-8">
+              <div key={`bullets-${key}`} className="my-6 rounded-2xl border border-slate-200 bg-slate-50 p-3 sm:my-8 sm:p-6 md:p-8">
                 <div className="grid grid-cols-1  gap-4">
                   {bulletsList.map((b, idx) => (
-                    <div key={idx} className="flex gap-4 items-center bg-white p-5 rounded-xl border border-slate-100    transition-all group">
+                    <div key={idx} className="group flex items-start gap-3 rounded-xl border border-slate-100 bg-white p-4 transition-all sm:items-center sm:gap-4 sm:p-5">
                       <div className="w-8 h-8 rounded-full bg-[#00394E]/5 flex items-center justify-center shrink-0  transition-colors">
                         <CheckCircle className="w-4 h-4 text-[#00394E]   transition-colors" strokeWidth={2.5} />
                       </div>
@@ -133,25 +133,25 @@ export default function ServiceContent({ service, hideFaq = false }) {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-6 mb-12">
+      <div className="mb-10 grid grid-cols-1 gap-y-7 md:mb-12 md:grid-cols-2 md:gap-x-12">
         {service.features &&
           service.features.map((feature, idx) => (
-            <div key={idx} className="flex gap-4 items-start">
-              <div className="w-16 h-16 rounded-full flex items-center justify-center shrink-0 bg-[#00394E]">
+            <div key={idx} className="grid min-w-0 grid-cols-[3.5rem_minmax(0,1fr)] items-start gap-3 sm:grid-cols-[4rem_minmax(0,1fr)] sm:gap-4">
+              <div className="flex h-14 w-14 shrink-0 items-center justify-center self-start rounded-full bg-[#00394E] sm:h-16 sm:w-16">
                 {feature.icon ? (
                   <Image
                     src={feature.icon}
                     alt={feature.title}
                     width={40}
                     height={40}
-                    className="h-10 w-10 object-contain transition duration-500 [filter:brightness(0)_saturate(100%)_invert(72%)_sepia(47%)_saturate(749%)_hue-rotate(359deg)_brightness(92%)_contrast(87%)] group-hover:[filter:brightness(0)_saturate(100%)_invert(100%)]"
+                    className="h-8 w-8 object-contain transition duration-500 sm:h-10 sm:w-10 [filter:brightness(0)_saturate(100%)_invert(72%)_sepia(47%)_saturate(749%)_hue-rotate(359deg)_brightness(92%)_contrast(87%)] group-hover:[filter:brightness(0)_saturate(100%)_invert(100%)]"
                   />
                 ) : (
                   getIcon(idx)
                 )}
               </div>
-              <div>
-                <h3 className="font-serif text-[1.4rem] font-bold text-[#00394E]">
+              <div className="min-w-0">
+                <h3 className="break-words font-serif text-xl font-bold leading-tight text-[#00394E] sm:text-[1.4rem]">
                   {feature.title}
                 </h3>
                 <p className="text-slate-500 leading-[1.2] text-md">
@@ -196,7 +196,7 @@ export default function ServiceContent({ service, hideFaq = false }) {
                   <div key={idx} className="bg-[#F0F4F8] transition-all duration-300">
                     <button
                       onClick={() => toggleFaq(idx)}
-                      className="w-full flex items-center justify-between p-5 text-left focus:outline-none group hover:bg-[#E2E8F0] transition-colors"
+                      className="flex w-full items-center justify-between p-4 sm:p-5 text-left focus:outline-none group hover:bg-[#E2E8F0] transition-colors"
                     >
                       <span className="font-bold text-[#00394E] text-md pr-4">
                         {item.question}

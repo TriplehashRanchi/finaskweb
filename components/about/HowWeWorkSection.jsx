@@ -24,7 +24,7 @@ export default function HowWeWorkSection() {
               </p>
             </div>
             <div className="absolute left-1/2 -translate-x-1/2 w-4 h-4 rounded-full bg-[#DAA434] border-4 border-[#00394E] z-10 hidden md:block shadow-[0_0_15px_rgba(218,164,52,0.5)] group-hover:scale-125 transition-transform duration-500" />
-            <div className="w-full md:w-[45%] pl-0 md:pl-12 order-1 md:order-2">
+            <div className="order-1 mb-6 w-full pl-0 md:order-2 md:mb-0 md:w-[45%] md:pl-12">
               <div className="relative h-64 w-full  overflow-hidden  ">
                 <Image
                  src="/how3.webp"
@@ -88,7 +88,7 @@ export default function HowWeWorkSection() {
               </p>
             </div>
             <div className="absolute left-1/2 -translate-x-1/2 w-4 h-4 rounded-full bg-[#DAA434] border-4 border-[#00394E] z-10 hidden md:block shadow-[0_0_15px_rgba(218,164,52,0.5)] group-hover:scale-125 transition-transform duration-500" />
-            <div className="w-full md:w-[45%] pl-0 md:pl-12 order-1 md:order-2">
+            <div className="order-1 mb-6 w-full pl-0 md:order-2 md:mb-0 md:w-[45%] md:pl-12">
               <div className="relative h-64 w-full   overflow-hidden  ">
                 <Image
                   src="/howwework.jpeg"
