@@ -8,6 +8,14 @@ import ServicesSection from "@/components/ServicesSection";
 import TestimonialSection from "@/components/TestimonialSection";
 import Footer from "@/components/Footer";
  import CTASection from "@/components/CTASection";
+import { buildMetadata } from "@/lib/seo";
+
+export const metadata = buildMetadata({
+  title: "FinAsk Value | Wealth Management, Investment & Financial Planning",
+  description:
+    "FinAsk Value helps individuals, families and businesses build, protect and grow wealth through personalized investment, tax and financial planning services across India.",
+  path: "/",
+});
 
 export default function Home() {
   return (

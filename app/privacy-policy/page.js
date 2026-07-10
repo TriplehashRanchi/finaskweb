@@ -1,6 +1,12 @@
-"use client";
 import Footer from "@/components/Footer";
 import PageHero from "@/components/PageHero";
+
+export const metadata = {
+  title: "Privacy Policy",
+  description:
+    "Understand how FinAsk Value collects, uses, stores and protects your personal information across our website and services.",
+  alternates: { canonical: "/privacy-policy" },
+};
 
 export default function PrivacyPolicy() {
   return (

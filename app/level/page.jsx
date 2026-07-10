@@ -1,5 +1,13 @@
 import Footer from "@/components/Footer";
 import React from "react";
+import { buildMetadata } from "@/lib/seo";
+
+export const metadata = buildMetadata({
+  title: "Escalation Matrix",
+  description:
+    "A clear, three-level escalation path so your concern with FinAsk Value is heard, resolved and closed with care.",
+  path: "/level",
+});
 
 const page = () => {
   return (

@@ -7,6 +7,7 @@ import NewsletterSubscribe from "@/components/NewsletterSubscribe";
 import { client } from "@/sanity/lib/client";
 import { urlFor } from "@/sanity/lib/image";
 import { postBySlugQuery, postSlugsQuery } from "@/sanity/lib/queries";
+import { buildMetadata } from "@/lib/seo";
 
 export const dynamic = "force-dynamic";
 
@@ -87,15 +88,32 @@ export async function generateMetadata({ params }) {
   const post = await client.fetch(postBySlugQuery, { slug });
 
   if (!post) {
-    return {
-      title: "Blog | Finask",
-    };
+    return buildMetadata({
+      title: "Blog",
+      description: "This article could not be found.",
+      path: `/blog/${slug}`,
+      noIndex: true,
+    });
   }
 
-  return {
-    title: post.seoTitle || `${post.title} | Finask`,
-    description: post.seoDescription || post.excerpt,
-  };
+  const description =
+    post.seoDescription || post.excerpt || `${post.title} — FinAsk Value.`;
+
+  return buildMetadata({
+    title: post.seoTitle || post.title,
+    description,
+    path: `/blog/${slug}`,
+    ...(post.coverImage
+      ? {
+          image: {
+            url: urlFor(post.coverImage).width(1200).height(630).url(),
+            width: 1200,
+            height: 630,
+            alt: post.title,
+          },
+        }
+      : {}),
+  });
 }
 
 export default async function BlogPostPage({ params }) {

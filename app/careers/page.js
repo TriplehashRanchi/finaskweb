@@ -1,8 +1,14 @@
-"use client";
-
 import Footer from "@/components/Footer";
 import Image from "next/image";
 import Link from "next/link";
+import { buildMetadata } from "@/lib/seo";
+
+export const metadata = buildMetadata({
+  title: "Careers",
+  description:
+    "Join FinAsk Value and help redefine financial well-being in India. Explore career opportunities with a team built on responsibility, empathy and expertise.",
+  path: "/careers",
+});
 
 function DotGrid({ className }) {
   return (

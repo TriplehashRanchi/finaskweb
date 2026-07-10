@@ -1,6 +1,12 @@
-"use client";
 import Footer from "@/components/Footer";
 import PageHero from "@/components/PageHero";
+
+export const metadata = {
+  title: "Disclaimer",
+  description:
+    "Read the FinAsk Value website disclaimer regarding tax advisory, financial product distribution and investment-related information.",
+  alternates: { canonical: "/disclaimer" },
+};
 
 export default function Disclaimer() {
   return (

@@ -1,11 +1,17 @@
-"use client";
-
 import Link from "next/link";
 import { Briefcase, ArrowRight } from "lucide-react";
 import CTASection from "@/components/CTASection";
 import Footer from "@/components/Footer";
 import { servicesData } from "@/data/services";
 import { ROADSIDE_ASSISTANCE_LIVE } from "@/data/featureFlags";
+import { buildMetadata } from "@/lib/seo";
+
+export const metadata = buildMetadata({
+  title: "Services",
+  description:
+    "Explore FinAsk Value's complete range of services, from credit cards and tax advisory to legal advisory, trust formation and will writing, all under one roof.",
+  path: "/services",
+});
 
 const serviceItems = [
   { name: "Credit Cards", slug: "credit-cards" },

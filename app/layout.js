@@ -17,9 +17,39 @@ const greatVibes = Great_Vibes({
   variable: "--font-script",
 });
 
+const siteUrl = "https://www.finaskvalue.com";
+const defaultTitle = "FinAsk Value | Wealth Management, Investment & Financial Planning";
+const defaultDescription =
+  "FinAsk Value helps individuals, families and businesses build, protect and grow wealth through personalized investment, tax and financial planning services across India.";
+
 export const metadata = {
-  title: "FinAsk Value - Financial Services",
-  description: "Wealth Management Hero Section",
+  metadataBase: new URL(siteUrl),
+  title: {
+    default: defaultTitle,
+    template: "%s | FinAsk Value",
+  },
+  description: defaultDescription,
+  openGraph: {
+    type: "website",
+    siteName: "FinAsk Value",
+    title: defaultTitle,
+    description: defaultDescription,
+    url: siteUrl,
+    images: [
+      {
+        url: "/logo1.webp",
+        width: 1200,
+        height: 630,
+        alt: "FinAsk Value",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: defaultTitle,
+    description: defaultDescription,
+    images: ["/logo1.webp"],
+  },
 };
 
 import Navbar from "@/components/Navbar";

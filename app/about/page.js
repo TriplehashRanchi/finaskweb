@@ -1,5 +1,3 @@
-"use client";
-
 import Footer from "@/components/Footer";
 import CTASection from "@/components/CTASection";
 import ValuesSection from "@/components/about/ValuesSection";
@@ -9,6 +7,14 @@ import WhyWeExistSection from "@/components/about/WhyWeExistSection";
 import HowWeWorkSection from "@/components/about/HowWeWorkSection";
  import PurposeSection from "@/components/about/PurposeSection";
 import AwardsSection from "@/components/about/AwardsSection";
+import { buildMetadata } from "@/lib/seo";
+
+export const metadata = buildMetadata({
+  title: "About Us",
+  description:
+    "Learn how FinAsk Value builds, protects and preserves wealth for individuals, families and businesses through transparent, character-led financial planning.",
+  path: "/about",
+});
 
 export default function AboutPage() {
   return (

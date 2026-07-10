@@ -1,11 +1,17 @@
-"use client";
-
 import Link from "next/link";
 import { TrendingUp, ArrowRight } from "lucide-react";
 import CTASection from "@/components/CTASection";
 import Footer from "@/components/Footer";
 import { servicesData } from "@/data/services";
 import { allInvestmentMenuItems } from "@/data/investmentMenu";
+import { buildMetadata } from "@/lib/seo";
+
+export const metadata = buildMetadata({
+  title: "Investments",
+  description:
+    "Explore FinAsk Value's investment solutions, from mutual funds and bonds to GIFT City, PMS, REITs and alternative investment funds.",
+  path: "/investments",
+});
 
 const investments = [...allInvestmentMenuItems].sort((a, b) => a.label.localeCompare(b.label)).map((item, index) => {
   const service = servicesData.find((entry) => entry.slug === item.slug);

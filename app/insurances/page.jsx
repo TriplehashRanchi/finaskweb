@@ -1,11 +1,20 @@
-"use client";
-
 import Link from "next/link";
 import { Shield, ArrowRight } from "lucide-react";
 import CTASection from "@/components/CTASection";
 import Footer from "@/components/Footer";
 import { servicesData } from "@/data/services";
 import { allInsuranceMenuItems } from "@/data/insuranceMenu";
+import { buildMetadata } from "@/lib/seo";
+
+// Insurance is pending a license and isn't linked from nav/footer (see
+// data/featureFlags.js) — kept noindex so it doesn't surface in search
+// while unlisted.
+export const metadata = buildMetadata({
+  title: "Insurance",
+  description: "FinAsk Value insurance solutions.",
+  path: "/insurances",
+  noIndex: true,
+});
 
 const insurance = [...allInsuranceMenuItems].sort((a, b) => a.label.localeCompare(b.label)).map((item, index) => {
   const service = servicesData.find((entry) => entry.slug === item.slug);

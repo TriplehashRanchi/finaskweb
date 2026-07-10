@@ -5,11 +5,14 @@ import NewsletterSubscribe from "@/components/NewsletterSubscribe";
 import { client } from "@/sanity/lib/client";
 import { urlFor } from "@/sanity/lib/image";
 import { paginatedPostsQuery, postsCountQuery } from "@/sanity/lib/queries";
+import { buildMetadata } from "@/lib/seo";
 
-export const metadata = {
-  title: "Blog | Finask",
-  description: "Insights from Finask on wealth, insurance, tax, and planning.",
-};
+export const metadata = buildMetadata({
+  title: "Blog",
+  description:
+    "Insights from FinAsk Value on wealth, tax and financial planning.",
+  path: "/blog",
+});
 
 export const dynamic = "force-dynamic";
 

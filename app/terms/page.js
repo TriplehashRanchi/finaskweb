@@ -1,6 +1,12 @@
-"use client";
 import Footer from "@/components/Footer";
 import PageHero from "@/components/PageHero";
+
+export const metadata = {
+  title: "Terms & Conditions",
+  description:
+    "Read the Terms & Conditions governing use of the FinAsk Value website and services.",
+  alternates: { canonical: "/terms" },
+};
 
 export default function TermsAndConditions() {
   return (
