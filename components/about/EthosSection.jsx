@@ -6,7 +6,7 @@ export default function EthosSection() {
   return (
     <section
       id="philosophy"
-      className="scroll-mt-[100px] py-14 bg-[#FDF9FB] relative overflow-hidden"
+      className="scroll-mt-[-250px] md:scroll-mt-[100px] py-14 bg-[#FDF9FB] relative overflow-hidden"
     >
       <div className="flex flex-col lg:flex-row h-full">
         {/* LEFT COLUMN: Content */}

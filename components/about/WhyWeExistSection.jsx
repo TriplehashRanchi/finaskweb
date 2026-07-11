@@ -72,7 +72,7 @@ export default function WhyWeExistSection() {
           </div>
 
           {/* RIGHT COLUMN: Content & Image */}
-          <div className="w-full lg:w-[60%] flex flex-col gap-4  py-10">
+          <div className="w-full lg:w-[60%] flex flex-col gap-4  -mt-12 md:mt-0 md:py-10">
             <p className="  text-gray-600 text-lg leading-[1.3] text-justify">
               We founded FinAsk Value on a simple philosophy: -
               <strong className="text-[#00394E] block my-4 text-lg leading-[1.3] text-justify">

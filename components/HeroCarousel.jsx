@@ -8,7 +8,8 @@ import { motion } from "framer-motion";
 const slides = [
   {
     id: 1,
-    image: "/1.webp", // Happy Family / Legacy
+    image: "/1.webp",
+    mobileImage: "/1mobile.png", // Happy Family / Legacy
     title: "Where Wealth Meets Purpose and Legacies Find Direction.",
     subtitle:
       "Beyond returns, we transform financial complexity into clarity, helping families, entrepreneurs and visionaries build, protect and pass on wealth with purpose.",
@@ -17,7 +18,8 @@ const slides = [
   },
   {
     id: 2,
-    image: "/2.webp", // Clarity/Confidence/Advisor
+    image: "/2.webp",
+    mobileImage: "/2mobile.png", // Clarity/Confidence/Advisor
     title: "Clarity Today. Confidence Tomorrow. Continuity Forever.",
     subtitle:
       "From Investments to Tax, Estate and Succession Planning, we deliver integrated financial strategies designed to support every stage of your financial journey.",
@@ -26,7 +28,8 @@ const slides = [
   },
   {
     id: 3,
-    image: "/3.webp", // Generations/Business Succession
+    image: "/3.webp",
+    mobileImage: "/3mobile.png", // Generations/Business Succession
     title: "Protecting Dreams. Preserving Legacies. Powering Generations.",
     subtitle:
       "Every financial milestone builds your legacy. We help you navigate change, seize opportunities and protect what matters most with a long-term perspective.",
@@ -59,7 +62,7 @@ export default function HeroCarousel() {
   };
 
   return (
-    <section className="relative h-screen w-full flex flex-col overflow-hidden bg-[#00394E]">
+    <section className="relative h-[80vh] md:h-screen w-full flex flex-col overflow-hidden bg-[#00394E]">
 
 
       {/* Slides Container */}
@@ -72,8 +75,15 @@ export default function HeroCarousel() {
             }`}
           >
             {/* Background Image */}
+            {/*  show mobile image on smaller screens */}
+            <div className="absolute inset-0 bg-cover bg-center transition-transform duration-[10000ms] ease-out scale-105 md:hidden"
+              style={{
+                backgroundImage: `url('${slide.mobileImage}')`, 
+                transform: index === current ? "scale(1.1)" : "scale(1.0)",
+              }}
+            />
             <div
-              className="absolute inset-0 bg-cover bg-center transition-transform duration-[10000ms] ease-out scale-105"
+              className="absolute hidden md:block inset-0 bg-cover bg-center transition-transform duration-[10000ms] ease-out scale-105"
               style={{
                 backgroundImage: `url('${slide.image}')`,
                 transform: index === current ? "scale(1.1)" : "scale(1.0)",
