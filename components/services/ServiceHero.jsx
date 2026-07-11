@@ -9,14 +9,25 @@ export default function ServiceHero({ service }) {
     <section className="relative flex h-[58svh] min-h-[420px] flex-col sm:h-[65vh] sm:min-h-[500px] lg:h-[70vh] justify-center overflow-hidden bg-[#0b1218]">
       {/* Background Image */}
       <div
-        className="absolute inset-0 z-0"
+        className="absolute inset-0 z-0 service-hero-bg"
         style={{
           backgroundImage: `url("${service.bgImage || '/service.webp'}")`,
           backgroundSize: "cover",
-          backgroundPosition: service.backgroundPosition || "center",
           backgroundRepeat: "no-repeat",
+          "--bg-pos-mobile": service.mobileBackgroundPosition || service.backgroundPosition || "center",
+          "--bg-pos-desktop": service.backgroundPosition || "center",
         }}
       />
+      <style jsx>{`
+        .service-hero-bg {
+          background-position: var(--bg-pos-mobile);
+        }
+        @media (min-width: 640px) {
+          .service-hero-bg {
+            background-position: var(--bg-pos-desktop);
+          }
+        }
+      `}</style>
 
       <div className="absolute inset-0 bg-gradient-to-t from-[#00394E]/90 via-[#00394E]/30 to-[#00394E]/40" />
 
