@@ -4693,6 +4693,7 @@ export const servicesData = [
     ],
     bgImage: "/family-office1.webp",
     backgroundPosition: "center",
+    mobileBackgroundPosition: "15% bottom",
     faqSection: {
       promoTitle: "Invest \u20B910k/month & Get",
       promoText: "\u20B91 Crore*Tax-Free",
