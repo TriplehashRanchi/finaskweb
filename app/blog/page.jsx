@@ -98,7 +98,16 @@ export default async function BlogPage({ searchParams }) {
       <main className="min-h-screen bg-[#FDF9FB] text-[#00394E]">
         <section className="relative h-[70vh] flex flex-col justify-center overflow-hidden bg-[#0b1218]">
           <div
-            className="absolute inset-0 z-0"
+            className="absolute inset-0 z-0 sm:hidden"
+            style={{
+              backgroundImage: 'url("/blogmobile.jpeg")',
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
+            }}
+          />
+          <div
+            className="absolute inset-0 z-0 hidden sm:block"
             style={{
               backgroundImage: 'url("/blogs.png")',
               backgroundSize: "cover",

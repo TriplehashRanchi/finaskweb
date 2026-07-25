@@ -77,7 +77,7 @@ export function AwardsHeroStage() {
   }, []);
 
   return (
-    <section id="awards" className="bg-[#00394E] px-4 pb-12 pt-12 sm:px-6 sm:pb-16 sm:pt-16 md:px-12">
+    <section id="awards" className="bg-[#00394E] scroll-mt-[90px] md:scroll-mt-[0px] px-4 pb-12 pt-12 sm:px-6 sm:pb-16 mt-12 sm:mt-0 sm:pt-16 md:px-12">
       <div className="mx-auto grid max-w-7xl min-w-0 items-center gap-8 sm:gap-10 lg:grid-cols-[0.9fr_1.1fr]">
         <div className="min-w-0">
           <h1 className="font-serif text-3xl font-medium leading-tight text-white sm:text-5xl md:text-7xl">

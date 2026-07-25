@@ -6,7 +6,7 @@ export default function HowWeWorkSection() {
   return (
     <section
       id="how-we-work"
-      className="py-24 px-6 md:px-12 bg-[#001F2B] text-white relative overflow-hidden"
+      className="py-10 md:py-24 px-6 md:px-12 bg-[#001F2B] text-white relative overflow-hidden"
     >
       <div className="max-w-6xl mx-auto relative z-10">
         <div className="relative">

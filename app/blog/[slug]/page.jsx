@@ -129,9 +129,9 @@ export default async function BlogPostPage({ params }) {
   return (
     <>
       <main className="min-h-screen bg-[#FDF9FB] text-[#00394E]">
-        <section className="relative h-[70vh] flex flex-col justify-center overflow-hidden bg-[#0b1218]">
+        <section className="relative min-h-[480px] py-10 sm:h-[70vh] sm:min-h-0 sm:py-0 flex flex-col justify-center overflow-hidden bg-gradient-to-br from-[#00394E] to-[#0b1218] sm:bg-[#0b1218]">
           <div
-            className="absolute inset-0 z-0"
+            className="absolute inset-0 z-0 hidden sm:block"
             style={{
               backgroundImage: `url("${coverImage || "/servicespage.png"}")`,
               backgroundSize: "cover",
@@ -139,9 +139,9 @@ export default async function BlogPostPage({ params }) {
               backgroundRepeat: "no-repeat",
             }}
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-[#00394E]/90 via-[#00394E]/30 to-[#00394E]/40" />
+          <div className="absolute inset-0 z-0 hidden bg-gradient-to-t from-[#00394E]/90 via-[#00394E]/30 to-[#00394E]/40 sm:block" />
 
-          <header className="relative z-20 text-center px-4 max-w-4xl mx-auto">
+          <header className="relative z-20 text-center px-4 max-w-4xl mx-auto pt-24 sm:pt-0">
             <h1 className="font-serif text-3xl md:text-5xl font-bold text-white my-6 drop-shadow-lg">
               {post.title}
             </h1>
@@ -153,6 +153,21 @@ export default async function BlogPostPage({ params }) {
           </header>
         </section>
 
+        {coverImage ? (
+          <div className="mx-auto w-[90%] max-w-4xl pt-8 sm:hidden">
+            <div className="overflow-hidden rounded-md">
+              <Image
+                src={coverImage}
+                alt={post.title}
+                width={1600}
+                height={900}
+                className="h-auto w-full object-cover"
+                priority
+              />
+            </div>
+          </div>
+        ) : null}
+
         <article className="mx-auto w-[90%] max-w-4xl py-12">
           {/* <div className="mx-auto max-w-3xl">
             <Link
@@ -162,7 +177,7 @@ export default async function BlogPostPage({ params }) {
               Back to blog
             </Link>
           </div> */}
-          <div className="mx-auto max-w-3xl rounded-md bg-[#FDF9FB]">
+          <div className="mx-auto max-w-3xl text-justify rounded-md bg-[#FDF9FB]">
             {post.body?.length ? (
               <PortableText value={post.body} components={portableTextComponents} />
             ) : (

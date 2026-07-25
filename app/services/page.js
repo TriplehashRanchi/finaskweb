@@ -44,14 +44,23 @@ export default function ServicesPage() {
     <>
       <section className="relative h-[70vh] flex flex-col items-center justify-center">
         <div
-          className="absolute inset-0 z-0"
-          style={{
-            backgroundImage: 'url("/servicespage.png")',
-            backgroundSize: "cover",
-            backgroundPosition: " center",
-            backgroundRepeat: "no-repeat",
-          }}
-        />
+            className="absolute inset-0 z-0 sm:hidden"
+            style={{
+              backgroundImage: 'url("/servicesmobile.jpeg")',
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
+            }}
+          />
+          <div
+            className="absolute inset-0 z-0 hidden sm:block"
+            style={{
+              backgroundImage: 'url("/servicespage.png")',
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
+            }}
+          />
         <div className="absolute inset-0 bg-gradient-to-t from-[#00394E]/90 via-[#00394E]/30 to-[#00394E]/40" />
 
         <div className="relative z-20 text-center px-4 max-w-4xl mx-auto">

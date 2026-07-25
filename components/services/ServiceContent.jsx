@@ -79,7 +79,7 @@ export default function ServiceContent({ service, hideFaq = false }) {
         <h2 className="mb-5 font-serif text-3xl font-medium leading-tight text-[#00394E] sm:mb-8 md:text-5xl">
           {service.title}
         </h2>
-        <div className="space-y-3 text-base leading-relaxed text-slate-600 sm:text-[1.05rem] sm:text-justify">
+        <div className="space-y-3 text-base leading-relaxed text-slate-600 sm:text-[1.05rem] text-justify">
           {(() => {
             const lines = service.description.split("\n");
             const elements = [];

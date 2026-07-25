@@ -162,8 +162,7 @@ export default function ContactPage() {
                     Location
                   </h4>
                   <p className="text-base font-normal leading-relaxed text-gray-300 sm:text-[17px]">
-                    1st Floor, Badshahpur Sohna Road, near Subhash Chowk,
-                    Central Park II, Sector 48, Gurugram, Haryana – 122018
+                  First Floor, Alt F Orchid Business Park, Near Subhash Chowk, Central Park II, Sector 48, Gurugram, Haryana, 122004
                   </p>
                 </div>
               </div>

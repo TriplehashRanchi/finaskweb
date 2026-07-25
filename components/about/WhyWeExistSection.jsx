@@ -21,12 +21,12 @@ export default function WhyWeExistSection() {
   return (
     <section
       id="why-we-exist"
-      className="scroll-mt-[100px] px-6 md:px-12 bg-[#FDF9FB] relative overflow-hidden  "
+      className="scroll-mt-[100px] px-6 md:px-12 pb-12 md:py-0 bg-[#FDF9FB] relative overflow-hidden  "
     >
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col lg:flex-row gap-16">
           {/* LEFT COLUMN: Large Stats */}
-          <div className="w-full lg:w-[50%] flex flex-col relative  py-10">
+          <div className="w-full lg:w-[50%] flex flex-col relative  pt-4 pb-10 lg:py-10">
             {/* Top Label */}
             <h5 className="text-[#00394E] text-center -ml-12 font-bold text-2xl tracking-widest uppercase">
               Why we exist ?
@@ -34,10 +34,10 @@ export default function WhyWeExistSection() {
 
             {/* Big Number Area with Rotated Text */}
             <div className="flex items-start">
-              <span className="text-[14rem] sm:text-[16rem] leading-none font-medium text-[#00394E] font-sans -ml-2 sm:-ml-4 tracking-tighter">
+              <span className="text-[14rem]  sm:text-[16rem] leading-none font-medium text-[#00394E] font-sans -ml-2 sm:-ml-4 tracking-tighter">
                 8+
               </span>
-              <div className="writing-vertical text-center rotate-90 text-xs sm:text-lg font-bold tracking-[0.2em] text-[#DAA434] h-[12rem] sm:h-[16rem] mt-6 sm:mt-8 -ml-10 sm:-ml-32 self-center">
+              <div className="writing-vertical text-center rotate-90 text-xs sm:text-lg font-bold tracking-[0.2em] text-[#DAA434] h-[12rem] sm:h-[16rem] mt-6 sm:mt-8 -ml-30 sm:-ml-32 self-center">
                 YEARS OF SERVING <br /> FAMILIES
               </div>
             </div>
@@ -59,8 +59,8 @@ export default function WhyWeExistSection() {
                   </div>
                 ))} */}
               </div>
-              <div className="flex flex-col">
-                <p className="font-bold text-[#00394E]  text-lg tracking-wide uppercase leading-tight">
+              <div className="flex -mt-6 flex-col">
+                <p className="font-bold text-[#00394E] text-sm md:text-lg tracking-wide uppercase leading-tight">
                   MORE THAN 5000+ FAMILIES SERVED
                 </p>
                

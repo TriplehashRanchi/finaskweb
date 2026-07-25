@@ -38,42 +38,42 @@ export default function TestimonialSection() {
       quote:
         "We truly value the partnership and appreciate the consistent support from your team. The professionalism, timely assistance and customer-centric approach have made our experience very positive.",
       author: "Divya Sawhney",
-       image: "/testimonial1.png",
+       image: "/testimonial-1.png",
     },
     {
       id: 2,
       quote:
         "Worked with Palash and FinAsk Value Team in the past. Their professionalism, depth of financial knowledge and genuine commitment to helping clients succeed really sets them apart in the industry.",
       author: "Rohit Bhardwaj",
-       image: "/testimonial2.png",
+       image: "/testimonial-2.png",
     },
     {
       id: 3,
       quote:
         "Palash is great when it comes to investment. I know him for the past 3 years and all his investment advice has helped me very well — especially Mutual Funds. I highly recommend him.",
       author: "Amit Gupta",
-       image: "/testimonial3.png",
+       image: "/testimonial-3.png",
     },
     {
       id: 5,
       quote:
         "I have had a great customer experience with FinAsk Value. Whenever I called regarding any query or service, it was handled promptly and correctly. The founder maintains a great relationship with customers which inspires confidence. Their suggestions and recommendations have turned out to be excellent.",
       author: "Chetan Pendharkar",
-       image: "/testimonial5.png",
+       image: "/testimonial-5.png",
     },
     {
       id: 6,
       quote:
         "Customer need-based solutions — under one roof you get all products and services without compromising on quality. I must say it is not only satisfaction, it is Customer Delight.",
       author: "Dr. Sunil Kadyan",
-       image: "/testimonial6.png",
+       image: "/testimonial-6.png",
     },
     {
       id: 7,
       quote:
         "Super professionalism! Great knowledge on financial products. Amazing customer service. I have never seen a financial advisor like Palash and FinAsk Value.",
       author: "Yogendra Kumar Malik",
-       image: "/testimonial7.png",
+       image: "/testimonial-7.png",
     },
   ];
 
@@ -163,7 +163,7 @@ export default function TestimonialSection() {
 
                     {/* Quote Text */}
                     <div className="min-h-[120px]">
-                        <p className="text-gray-600 leading-relaxed text-sm sm:text-md select-none">
+                        <p className="text-gray-600 text-justify leading-relaxed text-sm sm:text-md select-none">
                             {currentTestimonial.quote}
                         </p>
                     </div>

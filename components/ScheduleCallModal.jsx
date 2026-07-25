@@ -21,10 +21,10 @@ function formatHour(hour, minute) {
 
 function buildTimeSlots() {
   const slots = [];
-  let hour = 9;
+  let hour = 10;
   let minute = 0;
-  while (hour < 17 || (hour === 17 && minute === 0)) {
-    if (hour === 17) break;
+  while (hour < 18 || (hour === 18 && minute === 0)) {
+    if (hour === 18) break;
     const nextMinute = minute + 30;
     const nextHour = nextMinute === 60 ? hour + 1 : hour;
     const normalizedNextMinute = nextMinute === 60 ? 0 : nextMinute;

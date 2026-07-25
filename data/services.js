@@ -2857,7 +2857,8 @@ export const servicesData = [
     ],
     bgImage: "/finask/swp.png",
     backgroundPosition: "center",
-    mobileBackgroundPosition: "20% bottom",
+    mobileBgImage: "/swpmobile.jpeg",
+    mobileBackgroundPosition: "40% top",
     faqSection: {
       promoTitle: "Invest \u20B910k/month & Get",
       promoText: "\u20B91 Crore*Tax-Free",
@@ -2923,6 +2924,7 @@ export const servicesData = [
     ],
     bgImage: "/finask/stp.png",
     backgroundPosition: "center",
+    mobileBgImage: "/stpmobile.jpeg",
     mobileBackgroundPosition: "45% bottom",
     faqSection: {
       promoTitle: "Invest \u20B910k/month & Get",
@@ -3107,6 +3109,7 @@ export const servicesData = [
       },
     ],
     bgImage: "/finask/pms.jpg",
+    mobileBgImage: "/pmsmobile.jpeg",
     backgroundPosition: "center",
     mobileBackgroundPosition: "67%",
     faqSection: {
@@ -3929,7 +3932,8 @@ export const servicesData = [
     ],
     bgImage: "/finask/loan-against-securities.webp",
     backgroundPosition: "top",
-    mobileBackgroundPosition: "20% bottom",
+    mobileBgImage: "/lasmobile.png",
+    mobileBackgroundPosition: "20% top",
     faqSection: {
       promoTitle: "Invest \u20B910k/month & Get",
       promoText: "\u20B91 Crore*Tax-Free",
@@ -4185,6 +4189,7 @@ export const servicesData = [
     ],
     bgImage: "/finask/executor-services.png",
     backgroundPosition: "Top center",
+    mobileBgImage:"/exsmobile.jpeg",
     mobileBackgroundPosition: "35% bottom",
     faqSection: {
       promoTitle: "Invest \u20B910k/month & Get",
@@ -4629,6 +4634,7 @@ export const servicesData = [
     ],
     bgImage: "/finask/women-corner.png",
     backgroundPosition: "center",
+    mobileBackgroundPosition: '47% bottom',
     faqSection: {
       promoTitle: "Invest \u20B910k/month & Get",
       promoText: "\u20B91 Crore*Tax-Free",

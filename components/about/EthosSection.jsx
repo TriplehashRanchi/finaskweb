@@ -6,7 +6,7 @@ export default function EthosSection() {
   return (
     <section
       id="philosophy"
-      className="scroll-mt-[-250px] md:scroll-mt-[100px] py-14 bg-[#FDF9FB] relative overflow-hidden"
+      className="scroll-mt-[-250px] md:scroll-mt-[100px] py-4 md:py-12 bg-[#FDF9FB] relative overflow-hidden"
     >
       <div className="flex flex-col lg:flex-row h-full">
         {/* LEFT COLUMN: Content */}
@@ -65,14 +65,16 @@ export default function EthosSection() {
         </div>
 
         {/* RIGHT COLUMN: Image */}
-        <div className="w-full lg:w-[34%] relative min-h-[500px] lg:min-h-auto">
-          <Image
-            src="/ethos.jpg"
-            alt="FinAsk Team"
-            fill
-            className="object-cover object-right"
-          />
-          <div className="absolute inset-0 bg-gradient-to-tr from-[#001F2B]/40 to-transparent pointer-events-none"></div>
+        <div className="relative w-full lg:w-[34%] min-h-[500px] lg:min-h-auto">
+          <div className="absolute inset-6 md:inset-8 overflow-hidden rounded-md">
+            <Image
+              src="/ethos.jpg"
+              alt="FinAsk Team"
+              fill
+              className="object-cover object-right"
+            />
+            <div className="absolute inset-0 bg-gradient-to-tr from-[#001F2B]/40 to-transparent pointer-events-none"></div>
+          </div>
         </div>
       </div>
     </section>

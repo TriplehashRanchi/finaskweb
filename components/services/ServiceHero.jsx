@@ -8,16 +8,37 @@ export default function ServiceHero({ service }) {
   return (
     <section className="relative flex h-[58svh] min-h-[420px] flex-col sm:h-[65vh] sm:min-h-[500px] lg:h-[70vh] justify-center overflow-hidden bg-[#0b1218]">
       {/* Background Image */}
-      <div
-        className="absolute inset-0 z-0 service-hero-bg"
-        style={{
-          backgroundImage: `url("${service.bgImage || '/service.webp'}")`,
-          backgroundSize: "cover",
-          backgroundRepeat: "no-repeat",
-          "--bg-pos-mobile": service.mobileBackgroundPosition || service.backgroundPosition || "center",
-          "--bg-pos-desktop": service.backgroundPosition || "center",
-        }}
-      />
+      {service.mobileBgImage ? (
+        <>
+          {/* Dedicated mobile image */}
+          <div
+            className="absolute inset-0 z-0 bg-cover bg-no-repeat sm:hidden"
+            style={{
+              backgroundImage: `url("${service.mobileBgImage}")`,
+              backgroundPosition: service.mobileBackgroundPosition || "center",
+            }}
+          />
+          {/* Desktop image */}
+          <div
+            className="absolute inset-0 z-0 hidden bg-cover bg-no-repeat sm:block"
+            style={{
+              backgroundImage: `url("${service.bgImage || '/service.webp'}")`,
+              backgroundPosition: service.backgroundPosition || "center",
+            }}
+          />
+        </>
+      ) : (
+        <div
+          className="absolute inset-0 z-0 service-hero-bg"
+          style={{
+            backgroundImage: `url("${service.bgImage || '/service.webp'}")`,
+            backgroundSize: "cover",
+            backgroundRepeat: "no-repeat",
+            "--bg-pos-mobile": service.mobileBackgroundPosition || service.backgroundPosition || "center",
+            "--bg-pos-desktop": service.backgroundPosition || "center",
+          }}
+        />
+      )}
       <style jsx>{`
         .service-hero-bg {
           background-position: var(--bg-pos-mobile);
