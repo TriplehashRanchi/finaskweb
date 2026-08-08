@@ -21,7 +21,7 @@ back automatically:
 |---|---|---|
 | `INSURANCE_LIVE` | Desktop "Insurance" nav dropdown, mobile "Insurance" accordion, footer "Insurance" link (Our Company column) | `components/Navbar.jsx`, `components/Footer.jsx` |
 | `ROADSIDE_ASSISTANCE_LIVE` | "Roadside Assistance" entry in the Services nav dropdown (desktop + mobile) and the `/services` listing page | `components/Navbar.jsx`, `app/services/page.js` |
-
+ 
 None of the actual pages (`/insurances`, `/services/[each-insurance-slug]`,
 `/services/roadside-assistance`) were touched — they're just unlinked, and
 remain reachable by direct URL.
