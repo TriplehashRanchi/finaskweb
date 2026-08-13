@@ -22,10 +22,10 @@ export default function AboutHero() {
       {/* Content */}
       <div className="relative z-20 text-center px-4 max-w-4xl mx-auto ">
         <h1 className="font-serif text-5xl   font-bold text-white my-6 drop-shadow-lg">
-          Who Are We
+          Our Story
         </h1>
-        <p className="text-gray-200 text-lg  font-light leading-[1.2] max-w-lg mx-auto">
-          Stewarding Wealth With Character. Rooted In India. <br /> Committed To Your Financial Well-Being Today And Tomorrow.
+        <p className="text-gray-200 text-xl sm:text-lg  font-light leading-[1.2] max-w-lg mx-auto">
+          Stewarding Wealth With Character. Rooted in India. <br /> Committed To Your Financial Well-Being Today And Tomorrow.
         </p>
       </div>
     </section>
