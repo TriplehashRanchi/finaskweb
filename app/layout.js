@@ -36,6 +36,37 @@ import Navbar from "@/components/Navbar";
 import Preloader from "@/components/Preloader";
 import ExitIntentPopup from "@/components/ExitIntentPopup";
 
+// Set to true to take the entire site down and show a "back soon" message.
+// Set back to false to restore normal site behaviour.
+const MAINTENANCE_MODE = true;
+
+function MaintenanceScreen() {
+  return (
+    <div
+      style={{
+        minHeight: "100dvh",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        textAlign: "center",
+        padding: "24px",
+        background: "#0f172a",
+        color: "#f8fafc",
+      }}
+    >
+      <div style={{ maxWidth: 520 }}>
+        <h1 style={{ fontSize: "1.75rem", marginBottom: 12, fontWeight: 600 }}>
+          We&rsquo;ll be back soon
+        </h1>
+        <p style={{ fontSize: "1rem", lineHeight: 1.6, color: "#cbd5e1", margin: 0 }}>
+          FinAsk Value is currently undergoing scheduled maintenance. We should
+          be back online shortly. Thank you for your patience.
+        </p>
+      </div>
+    </div>
+  );
+}
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
@@ -45,9 +76,15 @@ export default function RootLayout({ children }) {
       <body
         className={`${playfair.variable} ${manrope.variable} ${greatVibes.variable} font-sans antialiased overflow-x-hidden`}
       >
-        <Navbar />
-        <ExitIntentPopup />
-        {children}
+        {MAINTENANCE_MODE ? (
+          <MaintenanceScreen />
+        ) : (
+          <>
+            <Navbar />
+            <ExitIntentPopup />
+            {children}
+          </>
+        )}
       </body>
     </html>
   );
